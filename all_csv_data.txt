@@ -1,0 +1,191 @@
+
+--- reports/asr_comparison_summary.csv ---
+   file  standard  whisperx_parallel  improvement (%)
+    bwc    0.2690             0.2846            -5.80
+podcast    0.0597             0.0647            -8.38
+
+--- reports/asr_eval_improved_custom_condition.csv ---
+   wer  substitutions  insertions  deletions  ref_count  hyp_count    file
+0.0636             37          66         60       2564       2570 podcast
+0.3060             78          36         43        513        506     bwc
+
+--- reports/asr_eval_improved_custom_script.csv ---
+   wer  substitutions  insertions  deletions  ref_count  hyp_count    file
+0.0538             37          41         60       2564       2545 podcast
+0.3021             77          35         43        513        505     bwc
+
+--- reports/asr_eval_improved_standard.csv ---
+   wer  substitutions  insertions  deletions  ref_count  hyp_count    file
+0.2690             56          15         67        513        461     bwc
+0.0597             36          17        100       2564       2481 podcast
+
+--- reports/asr_eval_improved_whisperx_parallel.csv ---
+   wer  substitutions  insertions  deletions  ref_count  hyp_count    file
+0.2846             58          17         71        513        459     bwc
+0.0647             35          20        111       2564       2473 podcast
+
+--- reports/conversational_eval_B_normalized.csv ---
+   file    WER  Subs  Dels  Ins    DER   Miss     FA   Conf  SA-WER  cpWER   WDER  deltaCP  deltaSA    JER    IER  5-Dup
+podcast 0.0550    36    67   32 0.0951 0.0842 0.0048 0.0061  0.0607 0.0636 0.0057   0.0086   0.0057 0.0066 0.0048      8
+    bwc 0.3079    67    50   32 0.4427 0.1956 0.1780 0.0690  0.4112 0.5011 0.1033   0.1932   0.1033 0.0858 0.1780      5
+
+--- reports/conversational_eval_C_normalized_bandpass.csv ---
+   file    WER  Subs  Dels  Ins    DER   Miss     FA   Conf  SA-WER  cpWER   WDER  deltaCP  deltaSA    JER    IER  5-Dup
+podcast 0.0538    32    69   31 0.1115 0.0871 0.0047 0.0198  0.0676 0.0786 0.0139   0.0249   0.0139 0.0216 0.0047      8
+    bwc 0.3326    71    57   33 0.5174 0.1916 0.2057 0.1201  0.4938 0.4865 0.1612   0.1538   0.1612 0.1486 0.2057      5
+
+--- reports/conversational_eval_error_analysis_hardened_v2.csv ---
+   file    WER    DER  SA-WER  cpWER  WDER  deltaCP  deltaSA    JER    IER  5-Dup
+podcast 0.0546 0.0945  0.0493 0.0636     0   0.0090  -0.0053 0.0063 0.0048      8
+    bwc 0.3037 0.4646  0.2748 0.4699     0   0.1661  -0.0289 0.1358 0.1746      5
+
+--- reports/conversational_eval_hardened_final.csv ---
+   file    WER  Subs  Dels  Ins    DER   Miss     FA   Conf  SA-WER  cpWER   WDER  deltaCP  deltaSA    JER    IER  5-Dup
+podcast 0.0546    35    65   34 0.0945 0.0839 0.0048 0.0058  0.0603 0.0636 0.0057   0.0090   0.0057 0.0063 0.0048      8
+    bwc 0.3037    68    48   31 0.4646 0.1784 0.1746 0.1116  0.4401 0.4699 0.1364   0.1661   0.1364 0.1358 0.1746      5
+
+--- reports/conversational_eval_hardened_v2.csv ---
+   file    WER    DER  SA-WER  cpWER  WDER  deltaCP  deltaSA    JER    IER  5-Dup
+podcast 0.0546 0.0945  0.0493 0.0636     0   0.0090  -0.0053 0.0063 0.0048      8
+    bwc 0.3037 0.4646  0.2748 0.4699     0   0.1661  -0.0289 0.1358 0.1746      5
+
+--- reports/conversational_eval_hardened_v3.csv ---
+   file    WER    DER  SA-WER  cpWER   WDER  deltaCP  deltaSA    JER    IER  5-Dup
+podcast 0.0546 0.1095  0.0570 0.0717 0.0023   0.0171   0.0024 0.0227 0.0048      8
+    bwc 0.3037 0.6704  0.3554 0.5764 0.0396   0.2727   0.0517 0.3864 0.1746      5
+
+--- reports/conversational_eval_phase1_pyannote.csv ---
+   file    WER  Subs  Dels  Ins    DER   Miss     FA   Conf  SA-WER  cpWER   WDER  deltaCP  deltaSA    JER    IER  5-Dup
+podcast 0.0530    31    65   34 0.0957 0.0834 0.0048 0.0075  0.0599 0.0619 0.0069   0.0090   0.0069 0.0082 0.0048      8
+    bwc 0.3079    82    35   32 0.4147 0.1164 0.2299 0.0683  0.4112 0.5139 0.1033   0.2061   0.1033 0.0773 0.2299      5
+
+--- reports/conversational_eval_phase1_silero.csv ---
+   file    WER  Subs  Dels  Ins    DER   Miss     FA   Conf  SA-WER  cpWER   WDER  deltaCP  deltaSA    JER    IER  5-Dup
+podcast 0.0546    35    65   34 0.0945 0.0839 0.0048 0.0058  0.0603 0.0636 0.0057   0.0090   0.0057 0.0063 0.0048      8
+    bwc 0.3037    68    48   31 0.4234 0.1784 0.1746 0.0704  0.4029 0.4989 0.0992   0.1952   0.0992 0.0857 0.1746      5
+
+--- reports/conversational_eval_phase2_deepfilternet.csv ---
+file    WER  Subs  Dels  Ins    DER   Miss     FA   Conf  SA-WER  cpWER   WDER  deltaCP  deltaSA    JER    IER  5-Dup
+ bwc 0.3781   100    52   31 0.4261 0.1531 0.2103 0.0628  0.4525 0.5203 0.0744   0.1422   0.0744 0.0741 0.2103      3
+
+--- reports/conversational_eval_phase2_denoiser.csv ---
+Error reading No columns to parse from file
+
+--- reports/conversational_eval_phase2_speechbrain.csv ---
+   file    WER  Subs  Dels  Ins    DER   Miss     FA   Conf  SA-WER  cpWER   WDER  deltaCP  deltaSA    JER    IER  5-Dup
+podcast 0.0526    34    65   30 0.1094 0.0805 0.0055 0.0234  0.0791 0.1019 0.0265   0.0493   0.0265 0.0255 0.0055      8
+    bwc 0.4504    86   111   21 0.5603 0.2889 0.2282 0.0432  0.5207 0.5482 0.0702   0.0978   0.0702 0.0607 0.2282      1
+
+--- reports/conversational_eval_phase3_msdd.csv ---
+Error reading No columns to parse from file
+
+--- reports/conversational_eval_phase3_pyannote31.csv ---
+   file    WER  Subs  Dels  Ins    DER   Miss     FA   Conf  SA-WER  cpWER   WDER  deltaCP  deltaSA    JER    IER  5-Dup
+podcast 0.0546    35    65   34 0.0945 0.0839 0.0048 0.0058  0.0603 0.0636 0.0057   0.0090   0.0057 0.0063 0.0048      8
+    bwc 0.3037    68    48   31 0.4234 0.1784 0.1746 0.0704  0.4029 0.4989 0.0992   0.1952   0.0992 0.0857 0.1746      5
+
+--- reports/conversational_eval_phase4_baseline.csv ---
+   file    WER  Subs  Dels  Ins    DER   Miss     FA   Conf  SA-WER  cpWER   WDER  deltaCP  deltaSA    JER    IER  5-Dup
+podcast 0.0530    32    64   34 0.0967 0.0866 0.0048 0.0054  0.0575 0.0599 0.0045   0.0069   0.0045 0.0059 0.0048      8
+    bwc 0.2975    86    32   26 0.4114 0.1137 0.2296 0.0681  0.4008 0.5054 0.1033   0.2078   0.1033 0.0769 0.2296      5
+
+--- reports/conversational_eval_phase4_deepfilternet.csv ---
+   file    WER  Subs  Dels  Ins    DER   Miss     FA   Conf  SA-WER  cpWER   WDER  deltaCP  deltaSA    JER    IER  5-Dup
+podcast 0.0542    35    70   28 0.0949 0.0828 0.0048 0.0073  0.0595 0.0636 0.0053   0.0094   0.0053 0.0080 0.0048      8
+    bwc 0.3698    76    86   17 0.4408 0.2345 0.1691 0.0372  0.4256 0.4711 0.0558   0.1013   0.0558 0.0486 0.1691      3
+
+--- reports/conversational_eval_phase4_speechbrain.csv ---
+   file    WER  Subs  Dels  Ins    DER   Miss     FA   Conf  SA-WER  cpWER   WDER  deltaCP  deltaSA    JER    IER  5-Dup
+podcast 0.0562    38    72   28 0.1155 0.0844 0.0052 0.0259  0.0839 0.1059 0.0277   0.0497   0.0277 0.0283 0.0052      8
+    bwc 0.4793    77   141   14 0.5481 0.2681 0.2422 0.0378  0.5083 0.5182 0.0289   0.0389   0.0289 0.0517 0.2422      1
+
+--- reports/conversational_eval_phase5_audit_auto.csv ---
+file    WER  Subs  Dels  Ins    DER   Miss     FA   Conf  SA-WER  cpWER   WDER  deltaCP  deltaSA    JER    IER  5-Dup
+ bwc 0.2975    86    32   26 0.4114 0.1137 0.2296 0.0681  0.4008 0.5054 0.1033   0.2078   0.1033 0.0769 0.2296      5
+
+--- reports/conversational_eval_phase5_audit_fixed2.csv ---
+file    WER  Subs  Dels  Ins    DER   Miss     FA   Conf  SA-WER  cpWER   WDER  deltaCP  deltaSA    JER    IER  5-Dup
+ bwc 0.2975    86    32   26 0.4725 0.1137 0.2296 0.1292  0.4587 0.5364 0.1612   0.2389   0.1612 0.1458 0.2296      5
+
+--- reports/conversational_eval_phase5_audit_msdd_bwc.csv ---
+file    WER  Subs  Dels  Ins    DER   Miss     FA   Conf  SA-WER  cpWER   WDER  deltaCP  deltaSA    JER    IER  5-Dup
+ bwc 0.2975    86    32   26 0.4492 0.1137 0.2296 0.1059  0.4153 0.4582 0.1178   0.1607   0.1178 0.1195 0.2296      5
+
+--- reports/conversational_eval_phase5_msdd.csv ---
+   file    WER  Subs  Dels  Ins    DER   Miss     FA   Conf  SA-WER  cpWER   WDER  deltaCP  deltaSA    JER    IER  5-Dup
+podcast 0.0530    32    64   34 0.0947 0.0866 0.0048 0.0034  0.0554 0.0554 0.0024   0.0024   0.0024 0.0037 0.0048      8
+    bwc 0.2975    86    32   26 0.4492 0.1137 0.2296 0.1059  0.4153 0.4582 0.1178   0.1607   0.1178 0.1195 0.2296      5
+
+--- reports/conversational_eval_phase5_pyannote31.csv ---
+   file    WER  Subs  Dels  Ins    DER   Miss     FA   Conf  SA-WER  cpWER   WDER  deltaCP  deltaSA    JER    IER  5-Dup
+podcast 0.0530    32    64   34 0.0967 0.0866 0.0048 0.0054  0.0575 0.0599 0.0045   0.0069   0.0045 0.0059 0.0048      8
+    bwc 0.2975    86    32   26 0.4114 0.1137 0.2296 0.0681  0.4008 0.5054 0.1033   0.2078   0.1033 0.0769 0.2296      5
+
+--- reports/conversational_eval_phase5_pyannote31_auto.csv ---
+   file    WER  Subs  Dels  Ins    DER   Miss     FA   Conf  SA-WER  cpWER   WDER  deltaCP  deltaSA    JER    IER  5-Dup
+podcast 0.0530    32    64   34 0.0967 0.0866 0.0048 0.0054  0.0575 0.0599 0.0045   0.0069   0.0045 0.0059 0.0048      8
+    bwc 0.2975    86    32   26 0.4114 0.1137 0.2296 0.0681  0.4008 0.5054 0.1033   0.2078   0.1033 0.0769 0.2296      5
+
+--- reports/conversational_eval_phase5_pyannote31_fixed2.csv ---
+   file    WER  Subs  Dels  Ins    DER   Miss     FA   Conf  SA-WER  cpWER   WDER  deltaCP  deltaSA    JER    IER  5-Dup
+podcast 0.0530    32    64   34 0.0967 0.0866 0.0048 0.0054  0.0575 0.0599 0.0045   0.0069   0.0045 0.0059 0.0048      8
+    bwc 0.2975    86    32   26 0.4725 0.1137 0.2296 0.1292  0.4587 0.5364 0.1612   0.2389   0.1612 0.1458 0.2296      5
+
+--- reports/dataset_manifest.csv ---
+video_id    filename source_type  duration_sec  speech_duration_sec  silence_duration_sec  speech_ratio  num_segments  avg_segment_duration_sec  fragmentation_index conversation_structure speech_density  short_fragment_count  long_silence_count  potential_missed_speech_regions  notes
+     bwc     bwc.wav  bwc_police      175.4267              125.816               49.6108      0.717200            14                    8.9869               4.7883              sustained         medium                     0                   3                                3    NaN
+ podcast podcast.wav     podcast      818.0390              761.208               56.8310      0.930528            12                   63.4340               0.8802              sustained           high                     0                   6                                6    NaN
+
+--- reports/diarization_comparison_summary.csv ---
+   file  standard  whisperx_parallel  improvement (%)
+    bwc    0.3933             0.3933              0.0
+podcast    0.0820             0.0820              0.0
+
+--- reports/diarization_eval.csv ---
+   file    der   miss  false_alarm  confusion
+    bwc 0.4599 0.1905       0.1591     0.1103
+podcast 0.0931 0.0655       0.0108     0.0168
+
+--- reports/diarization_eval_improved_grounded_comparison.csv ---
+Error reading No columns to parse from file
+
+--- reports/diarization_eval_improved_pyannote_31.csv ---
+   file    der   miss     fa   conf
+    bwc 0.4760 0.1853 0.1238 0.1669
+podcast 0.0814 0.0629 0.0054 0.0131
+
+--- reports/diarization_eval_improved_standard.csv ---
+   file    der   miss     fa   conf
+    bwc 0.3933 0.1853 0.1235 0.0845
+podcast 0.0820 0.0629 0.0054 0.0137
+
+--- reports/diarization_eval_improved_whisperx_2spk.csv ---
+   file    der   miss     fa   conf
+    bwc 0.3933 0.1853 0.1235 0.0845
+podcast 0.0820 0.0629 0.0054 0.0137
+
+--- reports/diarization_eval_improved_whisperx_parallel.csv ---
+   file    der   miss     fa   conf
+    bwc 0.3933 0.1853 0.1235 0.0845
+podcast 0.0820 0.0629 0.0054 0.0137
+
+--- reports/hardened_v2.csv ---
+   file    WER    DER  SA-WER  cpWER  WDER  deltaCP  deltaSA    JER    IER  5-Dup
+podcast 0.0546 0.0945  0.0493 0.0636     0   0.0090  -0.0053 0.0063 0.0048      8
+    bwc 0.3037 0.4646  0.2748 0.4699     0   0.1661  -0.0289 0.1358 0.1746      5
+
+--- reports/stage1_summary.csv ---
+  file_name source_video  duration_sec  speech_duration_sec  silence_duration_sec  speech_ratio  num_speech_segments  avg_segment_duration_sec  min_segment_duration_sec  max_segment_duration_sec  std_segment_duration_sec  short_fragment_count  long_silence_count  fragmentation_index  potential_false_positive_segments  potential_missed_speech_regions
+    bwc.wav      bwc.mp4       175.427              125.816                49.611        0.7172                   14                     8.987                     0.856                    42.220                    10.566                     0                   3               4.7883                                  1                                3
+podcast.wav  podcast.mp4       818.039              761.208                56.831        0.9305                   12                    63.434                    46.896                   116.964                    21.379                     0                   6               0.8802                                 12                                6
+
+--- reports/vad_eval.csv ---
+video_id     gt_file         vad_file  accuracy  precision  recall     f1  miss_rate  false_alarm_rate    tp   fp   fn   tn  gt_segments  pred_segments  speech_coverage  segment_recall  segment_precision  mean_iou  boundary_error_sec
+     bwc     bwc.txt     bwc_vad.json    0.7821     0.8250  0.8648 0.8445     0.1352            0.3971 10378 2201 1622 3341           36             14           0.8648          0.5278             0.7857    0.3364              5.2598
+ podcast podcast.txt podcast_vad.json    0.9196     0.9869  0.9309 0.9581     0.0691            0.9066 75125 1000 5575  103           30             12           0.9293          0.6000             1.0000    0.4078             24.2066
+
+--- reports/wer_eval.csv ---
+       file  ref_words  hyp_words  substitutions  insertions  deletions    wer
+    bwc.txt        485        428             52          16         73 0.2907
+podcast.txt       2455       2375             28          17         97 0.0578
+    OVERALL       2940       2803             80          33        170 0.0963

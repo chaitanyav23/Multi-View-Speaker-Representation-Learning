@@ -1,0 +1,14 @@
+{
+  "stage": "ground_truth",
+  "timestamp_utc": "2026-07-15T07:35:08.545388Z",
+  "inputs": [
+    "/home/ubuntu/marston/phase20_standalone/ground_truth/bwc.txt"
+  ],
+  "outputs": [
+    "/home/ubuntu/marston/phase20_standalone/ground_truth_json/bwc.json",
+    "/home/ubuntu/marston/phase20_standalone/ground_truth_rttm/bwc.rttm"
+  ],
+  "evaluation": {
+    "skipped": true
+  }
+}

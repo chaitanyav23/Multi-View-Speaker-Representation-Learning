@@ -1,0 +1,3 @@
+2026-07-09 06:50:03,796 INFO Loading WhisperX large-v3 on cuda
+2026-07-09 06:50:59,755 INFO Aligning 41 transcription segments
+2026-07-09 06:51:05,936 INFO Saved 465 aligned words to /home/ubuntu/marston/experiments/phase19_dual_path_evaluation/transcription/aligned_words.json

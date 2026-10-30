@@ -1,0 +1,225 @@
+{
+  "file": "bwc.wav",
+  "segments": [
+    {
+      "start": 0.031,
+      "end": 38.489,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 18.88,
+      "end": 19.235,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 22.407,
+      "end": 22.525,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 28.145,
+      "end": 28.735,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 38.978,
+      "end": 43.214,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 46.859,
+      "end": 50.048,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 50.285,
+      "end": 50.302,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 50.403,
+      "end": 52.073,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 56.444,
+      "end": 57.254,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 58.115,
+      "end": 59.127,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 59.532,
+      "end": 60.038,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 60.798,
+      "end": 63.785,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 64.46,
+      "end": 67.868,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 69.978,
+      "end": 70.906,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 74.618,
+      "end": 75.513,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 77.639,
+      "end": 78.837,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 79.259,
+      "end": 81.183,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 81.301,
+      "end": 81.858,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 82.482,
+      "end": 85.03,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 83.596,
+      "end": 83.748,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 85.672,
+      "end": 86.566,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 86.65,
+      "end": 91.055,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 92.59,
+      "end": 102.715,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 103.441,
+      "end": 103.812,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 106.124,
+      "end": 106.529,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 108.807,
+      "end": 111.068,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 111.507,
+      "end": 113.144,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 113.65,
+      "end": 121.767,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 122.155,
+      "end": 123.134,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 124.973,
+      "end": 125.632,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 126.087,
+      "end": 126.458,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 126.982,
+      "end": 128.197,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 130.441,
+      "end": 131.723,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 133.057,
+      "end": 135.065,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 135.571,
+      "end": 136.448,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 136.938,
+      "end": 137.9,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 138.237,
+      "end": 139.587,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 139.84,
+      "end": 141.899,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 143.097,
+      "end": 146.337,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 149.999,
+      "end": 150.286,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 154.775,
+      "end": 158.757,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 159.247,
+      "end": 159.449,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 159.685,
+      "end": 160.816,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 161.103,
+      "end": 164.63,
+      "speaker": "SPEAKER_00"
+    }
+  ]
+}

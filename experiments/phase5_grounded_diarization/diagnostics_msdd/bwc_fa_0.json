@@ -1,0 +1,8 @@
+{
+  "type": "fa",
+  "start": 11.0,
+  "context_start": 9.0,
+  "context_end": 13.0,
+  "ref_speaker": null,
+  "pred_speaker": "speaker_0"
+}

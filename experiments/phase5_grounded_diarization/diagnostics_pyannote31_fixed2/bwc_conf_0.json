@@ -1,0 +1,8 @@
+{
+  "type": "conf",
+  "start": 10.0,
+  "context_start": 8.0,
+  "context_end": 12.0,
+  "ref_speaker": "SPEAKER_02",
+  "pred_speaker": "SPEAKER_01"
+}

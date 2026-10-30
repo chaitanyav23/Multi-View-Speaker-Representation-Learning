@@ -1,0 +1,14 @@
+[
+  {
+    "file": "bwc",
+    "runtime_sec": 32.67,
+    "oracle_vad": true,
+    "rttm_generated": true
+  },
+  {
+    "file": "podcast",
+    "runtime_sec": 31.13,
+    "oracle_vad": true,
+    "rttm_generated": true
+  }
+]

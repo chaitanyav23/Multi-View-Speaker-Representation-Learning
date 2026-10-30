@@ -1,0 +1,12 @@
+{
+  "stage": "msdd",
+  "timestamp_utc": "2026-07-15T07:26:48.793699Z",
+  "inputs": [
+    "/home/ubuntu/marston/phase20_standalone/audio/bwc_dfn.wav",
+    "/home/ubuntu/marston/phase20_standalone/grounding/bwc_pathA_vad.json"
+  ],
+  "outputs": [
+    "/home/ubuntu/marston/phase20_standalone/diarization/bwc.rttm"
+  ],
+  "evaluation": {}
+}

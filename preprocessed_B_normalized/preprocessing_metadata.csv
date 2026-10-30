@@ -1,0 +1,3 @@
+timestamp,input_path,output_path,gain_db_applied,low_cutoff,high_cutoff,filter_order,normalized
+2026-05-29T05:26:12.549238,raw_audio/bwc.wav,preprocessed_B_normalized/bwc.wav,1.62,,,5,True
+2026-05-29T05:26:12.839371,raw_audio/podcast.wav,preprocessed_B_normalized/podcast.wav,3.58,,,5,True

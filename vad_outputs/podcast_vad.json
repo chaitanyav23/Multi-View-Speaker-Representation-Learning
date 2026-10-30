@@ -1,0 +1,111 @@
+{
+  "file_name": "podcast.wav",
+  "source_video": "podcast.mp4",
+  "processed_audio_path": "/home/ubuntu/marston/marston/raw_audio/podcast.wav",
+  "pipeline_version": "1.0.0",
+  "duration_sec": 818.039,
+  "speech_duration_sec": 761.208,
+  "silence_duration_sec": 56.831,
+  "speech_ratio": 0.930528,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 60.0,
+      "duration": 60.0,
+      "confidence_mean": null
+    },
+    {
+      "start": 61.036,
+      "end": 178.0,
+      "duration": 116.964,
+      "confidence_mean": null
+    },
+    {
+      "start": 179.576,
+      "end": 237.0,
+      "duration": 57.424,
+      "confidence_mean": null
+    },
+    {
+      "start": 244.944,
+      "end": 296.0,
+      "duration": 51.056,
+      "confidence_mean": null
+    },
+    {
+      "start": 298.504,
+      "end": 355.0,
+      "duration": 56.496,
+      "confidence_mean": null
+    },
+    {
+      "start": 360.368,
+      "end": 414.0,
+      "duration": 53.632,
+      "confidence_mean": null
+    },
+    {
+      "start": 415.72,
+      "end": 473.0,
+      "duration": 57.28,
+      "confidence_mean": null
+    },
+    {
+      "start": 475.952,
+      "end": 532.0,
+      "duration": 56.048,
+      "confidence_mean": null
+    },
+    {
+      "start": 542.584,
+      "end": 591.0,
+      "duration": 48.416,
+      "confidence_mean": null
+    },
+    {
+      "start": 596.288,
+      "end": 650.0,
+      "duration": 53.712,
+      "confidence_mean": null
+    },
+    {
+      "start": 662.104,
+      "end": 709.0,
+      "duration": 46.896,
+      "confidence_mean": null
+    },
+    {
+      "start": 714.672,
+      "end": 817.956,
+      "duration": 103.284,
+      "confidence_mean": null
+    }
+  ],
+  "analytics": {
+    "total_duration_sec": 818.039,
+    "speech_duration_sec": 761.208,
+    "silence_duration_sec": 56.831,
+    "speech_ratio": 0.930528,
+    "num_speech_segments": 12,
+    "avg_segment_duration_sec": 63.434,
+    "min_segment_duration_sec": 46.896,
+    "max_segment_duration_sec": 116.964,
+    "std_segment_duration_sec": 21.3791,
+    "short_fragment_count": 0,
+    "long_silence_count": 6,
+    "fragmentation_index": 0.8802,
+    "potential_false_positive_segments": 12,
+    "potential_missed_speech_regions": 6
+  },
+  "vad_config": {
+    "threshold": 0.35,
+    "min_speech_duration_ms": 250,
+    "min_silence_duration_ms": 100,
+    "window_size_samples": 512,
+    "speech_pad_ms": 300,
+    "chunk_size_sec": 60,
+    "chunk_overlap_sec": 1,
+    "merge_gap_sec": 1.0,
+    "min_segment_duration_sec": 0.2
+  }
+}

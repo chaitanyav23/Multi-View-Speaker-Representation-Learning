@@ -1,0 +1,12 @@
+{
+  "stage": "msdd",
+  "timestamp_utc": "2026-07-09T08:58:25.005495Z",
+  "inputs": [
+    "/home/ubuntu/marston/experiments/phase20_dual_path_improved_vad/audio/bwc_dfn.wav",
+    "/home/ubuntu/marston/experiments/phase20_dual_path_improved_vad/grounding/pathA_vad.json"
+  ],
+  "outputs": [
+    "/home/ubuntu/marston/experiments/phase20_dual_path_improved_vad/diarization/pathA_msdd.rttm"
+  ],
+  "evaluation": {}
+}

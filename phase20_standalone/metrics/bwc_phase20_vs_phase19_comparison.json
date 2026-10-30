@@ -1,0 +1,231 @@
+{
+  "vad": {
+    "pathA": {
+      "phase19": {
+        "raw_segments": 47,
+        "merged_segments": 46,
+        "removed_short_segments": 0,
+        "recursive_min_cut_splits": 0,
+        "average_chunk_duration": null,
+        "maximum_chunk_duration": null,
+        "all_chunks_lte_30_seconds": true,
+        "duration_histogram_before": null,
+        "duration_histogram_after": null,
+        "final_segments": 46
+      },
+      "phase20": {
+        "raw_segments": 47,
+        "merged_segments": 46,
+        "removed_short_segments": 0,
+        "recursive_min_cut_splits": 0,
+        "average_chunk_duration": 2.354760869565217,
+        "maximum_chunk_duration": 12.049,
+        "all_chunks_lte_30_seconds": true,
+        "duration_histogram_before": {
+          "0-5": 41,
+          "5-10": 2,
+          "10-15": 3,
+          "15-20": 0,
+          "20-25": 0,
+          "25-30": 0,
+          ">30": 0
+        },
+        "duration_histogram_after": {
+          "0-5": 41,
+          "5-10": 2,
+          "10-15": 3,
+          "15-20": 0,
+          "20-25": 0,
+          "25-30": 0,
+          ">30": 0
+        },
+        "final_segments": 46
+      }
+    },
+    "pathB": {
+      "phase19": {
+        "raw_segments": 42,
+        "merged_segments": 41,
+        "removed_short_segments": 0,
+        "recursive_min_cut_splits": 0,
+        "average_chunk_duration": null,
+        "maximum_chunk_duration": null,
+        "all_chunks_lte_30_seconds": true,
+        "duration_histogram_before": null,
+        "duration_histogram_after": null,
+        "final_segments": 41
+      },
+      "phase20": {
+        "raw_segments": 42,
+        "merged_segments": 41,
+        "removed_short_segments": 0,
+        "recursive_min_cut_splits": 0,
+        "average_chunk_duration": 2.636121951219512,
+        "maximum_chunk_duration": 11.188,
+        "all_chunks_lte_30_seconds": true,
+        "duration_histogram_before": {
+          "0-5": 35,
+          "5-10": 3,
+          "10-15": 3,
+          "15-20": 0,
+          "20-25": 0,
+          "25-30": 0,
+          ">30": 0
+        },
+        "duration_histogram_after": {
+          "0-5": 35,
+          "5-10": 3,
+          "10-15": 3,
+          "15-20": 0,
+          "20-25": 0,
+          "25-30": 0,
+          ">30": 0
+        },
+        "final_segments": 41
+      }
+    }
+  },
+  "metrics": {
+    "pathA_vad": {
+      "precision": {
+        "phase19": 0.8447958808385436,
+        "phase20": 0.8447958808385436,
+        "delta": 0.0
+      },
+      "recall": {
+        "phase19": 0.7721008403361345,
+        "phase20": 0.7721008403361345,
+        "delta": 0.0
+      },
+      "f1": {
+        "phase19": 0.8068141903758342,
+        "phase20": 0.8068141903758342,
+        "delta": 0.0
+      },
+      "false_alarm": {
+        "phase19": 0.29907866761162294,
+        "phase20": 0.29907866761162294,
+        "delta": 0.0
+      },
+      "miss": {
+        "phase19": 0.22789915966386554,
+        "phase20": 0.22789915966386554,
+        "delta": 0.0
+      }
+    },
+    "pathB_vad": {
+      "precision": {
+        "phase19": 0.8416635927701955,
+        "phase20": 0.8416635927701955,
+        "delta": 0.0
+      },
+      "recall": {
+        "phase19": 0.7669747899159663,
+        "phase20": 0.7669747899159663,
+        "delta": 0.0
+      },
+      "f1": {
+        "phase19": 0.8025852972212452,
+        "phase20": 0.8025852972212452,
+        "delta": 0.0
+      },
+      "false_alarm": {
+        "phase19": 0.3042168674698795,
+        "phase20": 0.3042168674698795,
+        "delta": 0.0
+      },
+      "miss": {
+        "phase19": 0.23302521008403362,
+        "phase20": 0.23302521008403362,
+        "delta": 0.0
+      }
+    },
+    "asr": {
+      "wer": {
+        "phase19": 0.3243801652892562,
+        "phase20": 0.3243801652892562,
+        "delta": 0.0
+      },
+      "substitutions": {
+        "phase19": 84,
+        "phase20": 86,
+        "delta": 2
+      },
+      "insertions": {
+        "phase19": 27,
+        "phase20": 26,
+        "delta": -1
+      },
+      "deletions": {
+        "phase19": 46,
+        "phase20": 45,
+        "delta": -1
+      },
+      "reference_words": {
+        "phase19": 484,
+        "phase20": 484,
+        "delta": 0
+      },
+      "hypothesis_words": {
+        "phase19": 465,
+        "phase20": 465,
+        "delta": 0
+      }
+    },
+    "diarization": {
+      "der": {
+        "phase19": 0.4470588235294113,
+        "phase20": 0.4470588235294113,
+        "delta": 0.0
+      },
+      "miss": {
+        "phase19": 0.23000000000000015,
+        "phase20": 0.23000000000000015,
+        "delta": 0.0
+      },
+      "false_alarm": {
+        "phase19": 0.13991596638655418,
+        "phase20": 0.13991596638655418,
+        "delta": 0.0
+      },
+      "confusion": {
+        "phase19": 0.07714285714285694,
+        "phase20": 0.07714285714285694,
+        "delta": 0.0
+      },
+      "jer": {
+        "phase19": 0.8424482152411525,
+        "phase20": 0.8424482152411525,
+        "delta": 0.0
+      }
+    },
+    "fusion": {
+      "cpwer": {
+        "phase19": 3.103305785123967,
+        "phase20": 0.5330578512396694,
+        "delta": -2.5702479338842976
+      },
+      "sawer": {
+        "phase19": 3.103305785123967,
+        "phase20": 0.5330578512396694,
+        "delta": -2.5702479338842976
+      },
+      "speaker_accuracy": {
+        "phase19": 0.9027431421446384,
+        "phase20": 0.9027431421446384,
+        "delta": 0.0
+      },
+      "word_attribution_error": {
+        "phase19": 0.09725685785536164,
+        "phase20": 0.09725685785536164,
+        "delta": 0.0
+      },
+      "timeline_accuracy": {
+        "phase19": 0.762311901504788,
+        "phase20": 0.70531235750114,
+        "delta": -0.05699954400364804
+      }
+    }
+  },
+  "discussion": "pathA satisfied the <= 30 second final chunk constraint. pathB satisfied the <= 30 second final chunk constraint. ASR WER did not improve. Diarization DER did not improve. Fusion cpWER improved."
+}

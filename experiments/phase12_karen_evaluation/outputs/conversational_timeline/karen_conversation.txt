@@ -1,0 +1,87 @@
+speaker_0 [000.26 - 001.50]
+Hello, Officer Ferry Ridgewater, please.
+
+speaker_0 [001.54 - 003.41]
+The reason I stopped you, you're a 59 and a 45.
+
+speaker_0 [003.45 - 005.67]
+Do you have your registration and insurance with you?
+
+speaker_0 [007.36 - 007.68]
+Pardon me?
+
+speaker_0 [008.37 - 009.68]
+That one's expired as of September.
+
+speaker_0 [011.78 - 012.06]
+Pardon me.
+
+speaker_0 [013.11 - 016.51]
+Okay, well, the requirement is that you provide, and I'm giving you an opportunity to do so.
+
+speaker_0 [016.57 - 020.95]
+So if you want to refuse to give me one, that's okay, but I'm giving you the opportunity.
+
+speaker_1 [021.51 - 022.57]
+Why are you being a jerk?
+
+speaker_1 [022.59 - 023.05]
+I haven't been.
+
+speaker_0 [023.09 - 023.49]
+I'm not.
+
+speaker_0 [023.51 - 024.23]
+You are.
+
+speaker_0 [024.27 - 026.59]
+You've stated three times, I don't know, sarcastically, okay?
+
+speaker_0 [026.63 - 027.53]
+I really don't know.
+
+speaker_0 [027.55 - 029.70]
+I requested something that you're required to give me, okay?
+
+speaker_0 [029.91 - 031.16]
+And I'm giving you the opportunity to give you it.
+
+speaker_1 [031.18 - 032.16]
+I am not being sarcastic with you.
+
+speaker_1 [032.30 - 033.54]
+I have been nice to you.
+
+speaker_0 [033.66 - 036.46]
+What I'm trying to explain to you is I'm giving you the opportunity to look for it.
+
+speaker_1 [037.14 - 040.26]
+Oh my gosh, you're the first one who's asked me for this.
+
+speaker_1 [040.38 - 041.04]
+What's your name?
+
+speaker_0 [041.30 - 043.33]
+My name's Officer Fager with the Edgewater Police Department.
+
+speaker_1 [043.34 - 044.67]
+Spell your name for me.
+
+speaker_0 [044.75 - 046.11]
+It'll be on the bottom of the citation.
+
+speaker_1 [046.33 - 047.13]
+You're an asshole.
+
+speaker_0 [047.15 - 048.47]
+Do you have your insurance, ma'am?
+
+speaker_1 [049.27 - 049.90]
+Yeah, it's on my phone.
+
+speaker_1 [049.92 - 050.63]
+You want that, too?
+
+speaker_0 [050.89 - 051.38]
+Yes, ma'am.
+

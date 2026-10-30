@@ -1,0 +1,2645 @@
+{
+  "segments": [
+    {
+      "start": 0.263,
+      "end": 1.504,
+      "text": "Hello, Officer Ferry Ridgewater, please.",
+      "words": [
+        {
+          "word": "Hello,",
+          "start": 0.263,
+          "end": 0.503,
+          "score": 0.412
+        },
+        {
+          "word": "Officer",
+          "start": 0.603,
+          "end": 0.844,
+          "score": 0.546
+        },
+        {
+          "word": "Ferry",
+          "start": 0.864,
+          "end": 1.024,
+          "score": 0.323
+        },
+        {
+          "word": "Ridgewater,",
+          "start": 1.044,
+          "end": 1.344,
+          "score": 0.361
+        },
+        {
+          "word": "please.",
+          "start": 1.364,
+          "end": 1.504,
+          "score": 0.081
+        }
+      ]
+    },
+    {
+      "start": 1.544,
+      "end": 3.406,
+      "text": "The reason I stopped you, you're a 59 and a 45.",
+      "words": [
+        {
+          "word": "The",
+          "start": 1.544,
+          "end": 1.624,
+          "score": 0.216
+        },
+        {
+          "word": "reason",
+          "start": 1.644,
+          "end": 1.785,
+          "score": 0.128
+        },
+        {
+          "word": "I",
+          "start": 1.825,
+          "end": 1.905,
+          "score": 0.622
+        },
+        {
+          "word": "stopped",
+          "start": 1.925,
+          "end": 2.125,
+          "score": 0.301
+        },
+        {
+          "word": "you,",
+          "start": 2.145,
+          "end": 2.245,
+          "score": 0.345
+        },
+        {
+          "word": "you're",
+          "start": 2.265,
+          "end": 2.525,
+          "score": 0.244
+        },
+        {
+          "word": "a",
+          "start": 2.585,
+          "end": 2.625,
+          "score": 0.389
+        },
+        {
+          "word": "59",
+          "start": 2.666,
+          "end": 2.906,
+          "score": 0.678
+        },
+        {
+          "word": "and",
+          "start": 2.946,
+          "end": 3.026,
+          "score": 0.656
+        },
+        {
+          "word": "a",
+          "start": 3.066,
+          "end": 3.086,
+          "score": 0.694
+        },
+        {
+          "word": "45.",
+          "start": 3.226,
+          "end": 3.406,
+          "score": 0.752
+        }
+      ]
+    },
+    {
+      "start": 3.446,
+      "end": 5.669,
+      "text": "Do you have your registration and insurance with you?",
+      "words": [
+        {
+          "word": "Do",
+          "start": 3.446,
+          "end": 3.807,
+          "score": 0.604
+        },
+        {
+          "word": "you",
+          "start": 3.867,
+          "end": 3.967,
+          "score": 0.268
+        },
+        {
+          "word": "have",
+          "start": 3.987,
+          "end": 4.087,
+          "score": 0.484
+        },
+        {
+          "word": "your",
+          "start": 4.127,
+          "end": 4.287,
+          "score": 0.759
+        },
+        {
+          "word": "registration",
+          "start": 4.327,
+          "end": 4.768,
+          "score": 0.336
+        },
+        {
+          "word": "and",
+          "start": 4.828,
+          "end": 4.928,
+          "score": 0.719
+        },
+        {
+          "word": "insurance",
+          "start": 4.988,
+          "end": 5.308,
+          "score": 0.349
+        },
+        {
+          "word": "with",
+          "start": 5.348,
+          "end": 5.468,
+          "score": 0.327
+        },
+        {
+          "word": "you?",
+          "start": 5.508,
+          "end": 5.669,
+          "score": 0.825
+        }
+      ]
+    },
+    {
+      "start": 7.361,
+      "end": 7.684,
+      "text": "Pardon me?",
+      "words": [
+        {
+          "word": "Pardon",
+          "start": 7.361,
+          "end": 7.603,
+          "score": 0.632
+        },
+        {
+          "word": "me?",
+          "start": 7.624,
+          "end": 7.684,
+          "score": 0.332
+        }
+      ]
+    },
+    {
+      "start": 8.37,
+      "end": 9.681,
+      "text": "That one's expired as of September.",
+      "words": [
+        {
+          "word": "That",
+          "start": 8.37,
+          "end": 8.491,
+          "score": 0.27
+        },
+        {
+          "word": "one's",
+          "start": 8.511,
+          "end": 8.612,
+          "score": 0.304
+        },
+        {
+          "word": "expired",
+          "start": 8.652,
+          "end": 9.056,
+          "score": 0.842
+        },
+        {
+          "word": "as",
+          "start": 9.096,
+          "end": 9.197,
+          "score": 0.808
+        },
+        {
+          "word": "of",
+          "start": 9.237,
+          "end": 9.298,
+          "score": 0.23
+        },
+        {
+          "word": "September.",
+          "start": 9.318,
+          "end": 9.681,
+          "score": 0.96
+        }
+      ]
+    },
+    {
+      "start": 11.776,
+      "end": 12.063,
+      "text": "Pardon me.",
+      "words": [
+        {
+          "word": "Pardon",
+          "start": 11.776,
+          "end": 11.961,
+          "score": 0.429
+        },
+        {
+          "word": "me.",
+          "start": 11.981,
+          "end": 12.063,
+          "score": 0.802
+        }
+      ]
+    },
+    {
+      "start": 13.109,
+      "end": 16.51,
+      "text": "Okay, well, the requirement is that you provide, and I'm giving you an opportunity to do so.",
+      "words": [
+        {
+          "word": "Okay,",
+          "start": 13.109,
+          "end": 13.289,
+          "score": 0.331
+        },
+        {
+          "word": "well,",
+          "start": 13.309,
+          "end": 13.429,
+          "score": 0.341
+        },
+        {
+          "word": "the",
+          "start": 13.449,
+          "end": 13.509,
+          "score": 0.8
+        },
+        {
+          "word": "requirement",
+          "start": 13.549,
+          "end": 13.949,
+          "score": 0.724
+        },
+        {
+          "word": "is",
+          "start": 14.009,
+          "end": 14.049,
+          "score": 0.704
+        },
+        {
+          "word": "that",
+          "start": 14.069,
+          "end": 14.149,
+          "score": 0.036
+        },
+        {
+          "word": "you",
+          "start": 14.169,
+          "end": 14.249,
+          "score": 0.155
+        },
+        {
+          "word": "provide,",
+          "start": 14.269,
+          "end": 14.569,
+          "score": 0.48
+        },
+        {
+          "word": "and",
+          "start": 14.61,
+          "end": 14.69,
+          "score": 0.283
+        },
+        {
+          "word": "I'm",
+          "start": 14.73,
+          "end": 14.81,
+          "score": 0.182
+        },
+        {
+          "word": "giving",
+          "start": 14.85,
+          "end": 15.03,
+          "score": 0.9
+        },
+        {
+          "word": "you",
+          "start": 15.05,
+          "end": 15.11,
+          "score": 0.027
+        },
+        {
+          "word": "an",
+          "start": 15.15,
+          "end": 15.21,
+          "score": 0.735
+        },
+        {
+          "word": "opportunity",
+          "start": 15.25,
+          "end": 16.01,
+          "score": 0.931
+        },
+        {
+          "word": "to",
+          "start": 16.03,
+          "end": 16.07,
+          "score": 0.167
+        },
+        {
+          "word": "do",
+          "start": 16.09,
+          "end": 16.13,
+          "score": 0.026
+        },
+        {
+          "word": "so.",
+          "start": 16.15,
+          "end": 16.51,
+          "score": 0.791
+        }
+      ]
+    },
+    {
+      "start": 16.57,
+      "end": 20.952,
+      "text": "So if you want to refuse to give me one, that's okay, but I'm giving you the opportunity.",
+      "words": [
+        {
+          "word": "So",
+          "start": 16.57,
+          "end": 16.73,
+          "score": 0.908
+        },
+        {
+          "word": "if",
+          "start": 16.79,
+          "end": 16.85,
+          "score": 0.402
+        },
+        {
+          "word": "you",
+          "start": 16.87,
+          "end": 17.03,
+          "score": 0.462
+        },
+        {
+          "word": "want",
+          "start": 17.751,
+          "end": 17.831,
+          "score": 0.08
+        },
+        {
+          "word": "to",
+          "start": 17.871,
+          "end": 18.031,
+          "score": 0.659
+        },
+        {
+          "word": "refuse",
+          "start": 18.071,
+          "end": 18.371,
+          "score": 0.606
+        },
+        {
+          "word": "to",
+          "start": 18.391,
+          "end": 18.631,
+          "score": 0.615
+        },
+        {
+          "word": "give",
+          "start": 18.991,
+          "end": 19.091,
+          "score": 0.201
+        },
+        {
+          "word": "me",
+          "start": 19.111,
+          "end": 19.231,
+          "score": 0.504
+        },
+        {
+          "word": "one,",
+          "start": 19.311,
+          "end": 19.411,
+          "score": 0.48
+        },
+        {
+          "word": "that's",
+          "start": 19.431,
+          "end": 19.551,
+          "score": 0.254
+        },
+        {
+          "word": "okay,",
+          "start": 19.651,
+          "end": 19.931,
+          "score": 0.552
+        },
+        {
+          "word": "but",
+          "start": 19.951,
+          "end": 20.051,
+          "score": 0.268
+        },
+        {
+          "word": "I'm",
+          "start": 20.071,
+          "end": 20.131,
+          "score": 0.002
+        },
+        {
+          "word": "giving",
+          "start": 20.151,
+          "end": 20.291,
+          "score": 0.174
+        },
+        {
+          "word": "you",
+          "start": 20.331,
+          "end": 20.431,
+          "score": 0.307
+        },
+        {
+          "word": "the",
+          "start": 20.451,
+          "end": 20.532,
+          "score": 0.453
+        },
+        {
+          "word": "opportunity.",
+          "start": 20.572,
+          "end": 20.952,
+          "score": 0.443
+        }
+      ]
+    },
+    {
+      "start": 21.512,
+      "end": 22.572,
+      "text": "Why are you being a jerk?",
+      "words": [
+        {
+          "word": "Why",
+          "start": 21.512,
+          "end": 21.592,
+          "score": 0.19
+        },
+        {
+          "word": "are",
+          "start": 21.632,
+          "end": 21.712,
+          "score": 0.17
+        },
+        {
+          "word": "you",
+          "start": 21.772,
+          "end": 21.892,
+          "score": 0.348
+        },
+        {
+          "word": "being",
+          "start": 21.912,
+          "end": 22.092,
+          "score": 0.413
+        },
+        {
+          "word": "a",
+          "start": 22.152,
+          "end": 22.192,
+          "score": 0.68
+        },
+        {
+          "word": "jerk?",
+          "start": 22.232,
+          "end": 22.572,
+          "score": 0.578
+        }
+      ]
+    },
+    {
+      "start": 22.592,
+      "end": 23.052,
+      "text": "I haven't been.",
+      "words": [
+        {
+          "word": "I",
+          "start": 22.592,
+          "end": 22.612,
+          "score": 0.003
+        },
+        {
+          "word": "haven't",
+          "start": 22.652,
+          "end": 22.932,
+          "score": 0.213
+        },
+        {
+          "word": "been.",
+          "start": 22.952,
+          "end": 23.052,
+          "score": 0.159
+        }
+      ]
+    },
+    {
+      "start": 23.092,
+      "end": 23.493,
+      "text": "I'm not.",
+      "words": [
+        {
+          "word": "I'm",
+          "start": 23.092,
+          "end": 23.232,
+          "score": 0.402
+        },
+        {
+          "word": "not.",
+          "start": 23.272,
+          "end": 23.493,
+          "score": 0.821
+        }
+      ]
+    },
+    {
+      "start": 23.513,
+      "end": 24.233,
+      "text": "You are.",
+      "words": [
+        {
+          "word": "You",
+          "start": 23.513,
+          "end": 23.913,
+          "score": 0.812
+        },
+        {
+          "word": "are.",
+          "start": 23.953,
+          "end": 24.233,
+          "score": 0.44
+        }
+      ]
+    },
+    {
+      "start": 24.273,
+      "end": 26.594,
+      "text": "You've stated three times, I don't know, sarcastically, okay?",
+      "words": [
+        {
+          "word": "You've",
+          "start": 24.273,
+          "end": 24.453,
+          "score": 0.585
+        },
+        {
+          "word": "stated",
+          "start": 24.473,
+          "end": 24.753,
+          "score": 0.459
+        },
+        {
+          "word": "three",
+          "start": 24.773,
+          "end": 24.973,
+          "score": 0.983
+        },
+        {
+          "word": "times,",
+          "start": 25.033,
+          "end": 25.313,
+          "score": 0.889
+        },
+        {
+          "word": "I",
+          "start": 25.473,
+          "end": 25.513,
+          "score": 0.999
+        },
+        {
+          "word": "don't",
+          "start": 25.553,
+          "end": 25.713,
+          "score": 0.829
+        },
+        {
+          "word": "know,",
+          "start": 25.753,
+          "end": 25.953,
+          "score": 0.98
+        },
+        {
+          "word": "sarcastically,",
+          "start": 26.013,
+          "end": 26.454,
+          "score": 0.302
+        },
+        {
+          "word": "okay?",
+          "start": 26.474,
+          "end": 26.594,
+          "score": 0.229
+        }
+      ]
+    },
+    {
+      "start": 26.634,
+      "end": 27.534,
+      "text": "I really don't know.",
+      "words": [
+        {
+          "word": "I",
+          "start": 26.634,
+          "end": 26.654,
+          "score": 0.009
+        },
+        {
+          "word": "really",
+          "start": 26.694,
+          "end": 26.934,
+          "score": 0.335
+        },
+        {
+          "word": "don't",
+          "start": 26.954,
+          "end": 27.194,
+          "score": 0.484
+        },
+        {
+          "word": "know.",
+          "start": 27.214,
+          "end": 27.534,
+          "score": 0.528
+        }
+      ]
+    },
+    {
+      "start": 27.554,
+      "end": 29.695,
+      "text": "I requested something that you're required to give me, okay?",
+      "words": [
+        {
+          "word": "I",
+          "start": 27.554,
+          "end": 27.574,
+          "score": 0.0
+        },
+        {
+          "word": "requested",
+          "start": 27.594,
+          "end": 28.014,
+          "score": 0.904
+        },
+        {
+          "word": "something",
+          "start": 28.034,
+          "end": 28.274,
+          "score": 0.896
+        },
+        {
+          "word": "that",
+          "start": 28.314,
+          "end": 28.394,
+          "score": 0.248
+        },
+        {
+          "word": "you're",
+          "start": 28.414,
+          "end": 28.534,
+          "score": 0.134
+        },
+        {
+          "word": "required",
+          "start": 28.554,
+          "end": 28.874,
+          "score": 0.629
+        },
+        {
+          "word": "to",
+          "start": 28.894,
+          "end": 28.954,
+          "score": 0.744
+        },
+        {
+          "word": "give",
+          "start": 28.994,
+          "end": 29.154,
+          "score": 0.875
+        },
+        {
+          "word": "me,",
+          "start": 29.194,
+          "end": 29.415,
+          "score": 0.791
+        },
+        {
+          "word": "okay?",
+          "start": 29.435,
+          "end": 29.695,
+          "score": 0.768
+        }
+      ]
+    },
+    {
+      "start": 29.915,
+      "end": 31.155,
+      "text": "And I'm giving you the opportunity to give you it.",
+      "words": [
+        {
+          "word": "And",
+          "start": 29.915,
+          "end": 29.975,
+          "score": 0.926
+        },
+        {
+          "word": "I'm",
+          "start": 30.015,
+          "end": 30.075,
+          "score": 0.556
+        },
+        {
+          "word": "giving",
+          "start": 30.115,
+          "end": 30.275,
+          "score": 0.508
+        },
+        {
+          "word": "you",
+          "start": 30.295,
+          "end": 30.375,
+          "score": 0.012
+        },
+        {
+          "word": "the",
+          "start": 30.395,
+          "end": 30.475,
+          "score": 0.375
+        },
+        {
+          "word": "opportunity",
+          "start": 30.495,
+          "end": 30.755,
+          "score": 0.098
+        },
+        {
+          "word": "to",
+          "start": 30.775,
+          "end": 30.875,
+          "score": 0.621
+        },
+        {
+          "word": "give",
+          "start": 30.895,
+          "end": 30.995,
+          "score": 0.128
+        },
+        {
+          "word": "you",
+          "start": 31.015,
+          "end": 31.075,
+          "score": 0.153
+        },
+        {
+          "word": "it.",
+          "start": 31.095,
+          "end": 31.155,
+          "score": 0.123
+        }
+      ]
+    },
+    {
+      "start": 31.175,
+      "end": 32.155,
+      "text": "I am not being sarcastic with you.",
+      "words": [
+        {
+          "word": "I",
+          "start": 31.175,
+          "end": 31.215,
+          "score": 0.483
+        },
+        {
+          "word": "am",
+          "start": 31.235,
+          "end": 31.275,
+          "score": 0.054
+        },
+        {
+          "word": "not",
+          "start": 31.295,
+          "end": 31.355,
+          "score": 0.01
+        },
+        {
+          "word": "being",
+          "start": 31.375,
+          "end": 31.475,
+          "score": 0.007
+        },
+        {
+          "word": "sarcastic",
+          "start": 31.495,
+          "end": 31.855,
+          "score": 0.448
+        },
+        {
+          "word": "with",
+          "start": 31.875,
+          "end": 31.995,
+          "score": 0.865
+        },
+        {
+          "word": "you.",
+          "start": 32.015,
+          "end": 32.155,
+          "score": 0.96
+        }
+      ]
+    },
+    {
+      "start": 32.296,
+      "end": 33.536,
+      "text": "I have been nice to you.",
+      "words": [
+        {
+          "word": "I",
+          "start": 32.296,
+          "end": 32.356,
+          "score": 0.693
+        },
+        {
+          "word": "have",
+          "start": 32.396,
+          "end": 32.496,
+          "score": 0.416
+        },
+        {
+          "word": "been",
+          "start": 32.516,
+          "end": 32.716,
+          "score": 0.848
+        },
+        {
+          "word": "nice",
+          "start": 32.776,
+          "end": 33.096,
+          "score": 0.75
+        },
+        {
+          "word": "to",
+          "start": 33.136,
+          "end": 33.276,
+          "score": 0.928
+        },
+        {
+          "word": "you.",
+          "start": 33.316,
+          "end": 33.536,
+          "score": 0.75
+        }
+      ]
+    },
+    {
+      "start": 33.656,
+      "end": 36.457,
+      "text": "What I'm trying to explain to you is I'm giving you the opportunity to look for it.",
+      "words": [
+        {
+          "word": "What",
+          "start": 33.656,
+          "end": 33.796,
+          "score": 0.856
+        },
+        {
+          "word": "I'm",
+          "start": 33.816,
+          "end": 33.916,
+          "score": 0.704
+        },
+        {
+          "word": "trying",
+          "start": 33.936,
+          "end": 34.136,
+          "score": 0.8
+        },
+        {
+          "word": "to",
+          "start": 34.156,
+          "end": 34.196,
+          "score": 0.998
+        },
+        {
+          "word": "explain",
+          "start": 34.236,
+          "end": 34.496,
+          "score": 0.716
+        },
+        {
+          "word": "to",
+          "start": 34.516,
+          "end": 34.556,
+          "score": 0.0
+        },
+        {
+          "word": "you",
+          "start": 34.576,
+          "end": 34.636,
+          "score": 0.931
+        },
+        {
+          "word": "is",
+          "start": 34.676,
+          "end": 34.756,
+          "score": 0.758
+        },
+        {
+          "word": "I'm",
+          "start": 34.796,
+          "end": 34.896,
+          "score": 0.662
+        },
+        {
+          "word": "giving",
+          "start": 34.916,
+          "end": 35.116,
+          "score": 0.993
+        },
+        {
+          "word": "you",
+          "start": 35.136,
+          "end": 35.216,
+          "score": 0.003
+        },
+        {
+          "word": "the",
+          "start": 35.236,
+          "end": 35.297,
+          "score": 0.0
+        },
+        {
+          "word": "opportunity",
+          "start": 35.317,
+          "end": 35.797,
+          "score": 0.853
+        },
+        {
+          "word": "to",
+          "start": 35.817,
+          "end": 35.877,
+          "score": 0.838
+        },
+        {
+          "word": "look",
+          "start": 35.917,
+          "end": 36.097,
+          "score": 0.939
+        },
+        {
+          "word": "for",
+          "start": 36.157,
+          "end": 36.337,
+          "score": 0.911
+        },
+        {
+          "word": "it.",
+          "start": 36.397,
+          "end": 36.457,
+          "score": 0.915
+        }
+      ]
+    },
+    {
+      "start": 37.139,
+      "end": 40.262,
+      "text": "Oh my gosh, you're the first one who's asked me for this.",
+      "words": [
+        {
+          "word": "Oh",
+          "start": 37.139,
+          "end": 37.179,
+          "score": 0.0
+        },
+        {
+          "word": "my",
+          "start": 37.199,
+          "end": 37.379,
+          "score": 0.766
+        },
+        {
+          "word": "gosh,",
+          "start": 37.419,
+          "end": 37.579,
+          "score": 0.545
+        },
+        {
+          "word": "you're",
+          "start": 37.599,
+          "end": 37.8,
+          "score": 0.854
+        },
+        {
+          "word": "the",
+          "start": 37.82,
+          "end": 37.88,
+          "score": 0.988
+        },
+        {
+          "word": "first",
+          "start": 37.94,
+          "end": 38.22,
+          "score": 0.748
+        },
+        {
+          "word": "one",
+          "start": 38.42,
+          "end": 38.54,
+          "score": 0.594
+        },
+        {
+          "word": "who's",
+          "start": 38.581,
+          "end": 38.781,
+          "score": 0.27
+        },
+        {
+          "word": "asked",
+          "start": 39.001,
+          "end": 39.161,
+          "score": 0.436
+        },
+        {
+          "word": "me",
+          "start": 39.221,
+          "end": 39.401,
+          "score": 0.725
+        },
+        {
+          "word": "for",
+          "start": 39.662,
+          "end": 39.942,
+          "score": 0.517
+        },
+        {
+          "word": "this.",
+          "start": 39.982,
+          "end": 40.262,
+          "score": 0.428
+        }
+      ]
+    },
+    {
+      "start": 40.382,
+      "end": 41.043,
+      "text": "What's your name?",
+      "words": [
+        {
+          "word": "What's",
+          "start": 40.382,
+          "end": 40.543,
+          "score": 0.525
+        },
+        {
+          "word": "your",
+          "start": 40.563,
+          "end": 40.703,
+          "score": 0.77
+        },
+        {
+          "word": "name?",
+          "start": 40.763,
+          "end": 41.043,
+          "score": 0.767
+        }
+      ]
+    },
+    {
+      "start": 41.303,
+      "end": 43.325,
+      "text": "My name's Officer Fager with the Edgewater Police Department.",
+      "words": [
+        {
+          "word": "My",
+          "start": 41.303,
+          "end": 41.383,
+          "score": 0.587
+        },
+        {
+          "word": "name's",
+          "start": 41.423,
+          "end": 41.624,
+          "score": 0.622
+        },
+        {
+          "word": "Officer",
+          "start": 41.664,
+          "end": 41.904,
+          "score": 0.446
+        },
+        {
+          "word": "Fager",
+          "start": 41.924,
+          "end": 42.124,
+          "score": 0.391
+        },
+        {
+          "word": "with",
+          "start": 42.144,
+          "end": 42.224,
+          "score": 0.002
+        },
+        {
+          "word": "the",
+          "start": 42.244,
+          "end": 42.324,
+          "score": 0.44
+        },
+        {
+          "word": "Edgewater",
+          "start": 42.344,
+          "end": 42.645,
+          "score": 0.153
+        },
+        {
+          "word": "Police",
+          "start": 42.665,
+          "end": 42.845,
+          "score": 0.274
+        },
+        {
+          "word": "Department.",
+          "start": 42.865,
+          "end": 43.325,
+          "score": 0.411
+        }
+      ]
+    },
+    {
+      "start": 43.345,
+      "end": 44.667,
+      "text": "Spell your name for me.",
+      "words": [
+        {
+          "word": "Spell",
+          "start": 43.345,
+          "end": 43.526,
+          "score": 0.353
+        },
+        {
+          "word": "your",
+          "start": 43.546,
+          "end": 43.646,
+          "score": 0.97
+        },
+        {
+          "word": "name",
+          "start": 43.686,
+          "end": 43.866,
+          "score": 0.953
+        },
+        {
+          "word": "for",
+          "start": 43.926,
+          "end": 44.587,
+          "score": 0.614
+        },
+        {
+          "word": "me.",
+          "start": 44.607,
+          "end": 44.667,
+          "score": 0.25
+        }
+      ]
+    },
+    {
+      "start": 44.747,
+      "end": 46.108,
+      "text": "It'll be on the bottom of the citation.",
+      "words": [
+        {
+          "word": "It'll",
+          "start": 44.747,
+          "end": 44.947,
+          "score": 0.921
+        },
+        {
+          "word": "be",
+          "start": 44.967,
+          "end": 45.027,
+          "score": 0.821
+        },
+        {
+          "word": "on",
+          "start": 45.067,
+          "end": 45.127,
+          "score": 0.966
+        },
+        {
+          "word": "the",
+          "start": 45.147,
+          "end": 45.227,
+          "score": 0.827
+        },
+        {
+          "word": "bottom",
+          "start": 45.247,
+          "end": 45.448,
+          "score": 0.834
+        },
+        {
+          "word": "of",
+          "start": 45.468,
+          "end": 45.508,
+          "score": 0.98
+        },
+        {
+          "word": "the",
+          "start": 45.528,
+          "end": 45.588,
+          "score": 0.048
+        },
+        {
+          "word": "citation.",
+          "start": 45.608,
+          "end": 46.108,
+          "score": 0.797
+        }
+      ]
+    },
+    {
+      "start": 46.329,
+      "end": 47.129,
+      "text": "You're an asshole.",
+      "words": [
+        {
+          "word": "You're",
+          "start": 46.329,
+          "end": 46.509,
+          "score": 0.312
+        },
+        {
+          "word": "an",
+          "start": 46.529,
+          "end": 46.629,
+          "score": 0.519
+        },
+        {
+          "word": "asshole.",
+          "start": 46.829,
+          "end": 47.129,
+          "score": 0.359
+        }
+      ]
+    },
+    {
+      "start": 47.149,
+      "end": 48.471,
+      "text": "Do you have your insurance, ma'am?",
+      "words": [
+        {
+          "word": "Do",
+          "start": 47.149,
+          "end": 47.189,
+          "score": 0.001
+        },
+        {
+          "word": "you",
+          "start": 47.57,
+          "end": 47.65,
+          "score": 0.139
+        },
+        {
+          "word": "have",
+          "start": 47.67,
+          "end": 47.77,
+          "score": 0.202
+        },
+        {
+          "word": "your",
+          "start": 47.79,
+          "end": 47.87,
+          "score": 0.01
+        },
+        {
+          "word": "insurance,",
+          "start": 47.89,
+          "end": 48.211,
+          "score": 0.488
+        },
+        {
+          "word": "ma'am?",
+          "start": 48.231,
+          "end": 48.471,
+          "score": 0.414
+        }
+      ]
+    },
+    {
+      "start": 49.272,
+      "end": 49.9,
+      "text": "Yeah, it's on my phone.",
+      "words": [
+        {
+          "word": "Yeah,",
+          "start": 49.272,
+          "end": 49.536,
+          "score": 0.326
+        },
+        {
+          "word": "it's",
+          "start": 49.556,
+          "end": 49.637,
+          "score": 0.02
+        },
+        {
+          "word": "on",
+          "start": 49.657,
+          "end": 49.698,
+          "score": 0.0
+        },
+        {
+          "word": "my",
+          "start": 49.718,
+          "end": 49.759,
+          "score": 0.004
+        },
+        {
+          "word": "phone.",
+          "start": 49.779,
+          "end": 49.9,
+          "score": 0.006
+        }
+      ]
+    },
+    {
+      "start": 49.921,
+      "end": 50.63,
+      "text": "You want that, too?",
+      "words": [
+        {
+          "word": "You",
+          "start": 49.921,
+          "end": 50.002,
+          "score": 0.163
+        },
+        {
+          "word": "want",
+          "start": 50.022,
+          "end": 50.164,
+          "score": 0.37
+        },
+        {
+          "word": "that,",
+          "start": 50.225,
+          "end": 50.468,
+          "score": 0.446
+        },
+        {
+          "word": "too?",
+          "start": 50.488,
+          "end": 50.63,
+          "score": 0.333
+        }
+      ]
+    },
+    {
+      "start": 50.894,
+      "end": 51.38,
+      "text": "Yes, ma'am.",
+      "words": [
+        {
+          "word": "Yes,",
+          "start": 50.894,
+          "end": 51.076,
+          "score": 0.858
+        },
+        {
+          "word": "ma'am.",
+          "start": 51.137,
+          "end": 51.38,
+          "score": 0.821
+        }
+      ]
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Hello,",
+      "start": 0.263,
+      "end": 0.503,
+      "score": 0.412
+    },
+    {
+      "word": "Officer",
+      "start": 0.603,
+      "end": 0.844,
+      "score": 0.546
+    },
+    {
+      "word": "Ferry",
+      "start": 0.864,
+      "end": 1.024,
+      "score": 0.323
+    },
+    {
+      "word": "Ridgewater,",
+      "start": 1.044,
+      "end": 1.344,
+      "score": 0.361
+    },
+    {
+      "word": "please.",
+      "start": 1.364,
+      "end": 1.504,
+      "score": 0.081
+    },
+    {
+      "word": "The",
+      "start": 1.544,
+      "end": 1.624,
+      "score": 0.216
+    },
+    {
+      "word": "reason",
+      "start": 1.644,
+      "end": 1.785,
+      "score": 0.128
+    },
+    {
+      "word": "I",
+      "start": 1.825,
+      "end": 1.905,
+      "score": 0.622
+    },
+    {
+      "word": "stopped",
+      "start": 1.925,
+      "end": 2.125,
+      "score": 0.301
+    },
+    {
+      "word": "you,",
+      "start": 2.145,
+      "end": 2.245,
+      "score": 0.345
+    },
+    {
+      "word": "you're",
+      "start": 2.265,
+      "end": 2.525,
+      "score": 0.244
+    },
+    {
+      "word": "a",
+      "start": 2.585,
+      "end": 2.625,
+      "score": 0.389
+    },
+    {
+      "word": "59",
+      "start": 2.666,
+      "end": 2.906,
+      "score": 0.678
+    },
+    {
+      "word": "and",
+      "start": 2.946,
+      "end": 3.026,
+      "score": 0.656
+    },
+    {
+      "word": "a",
+      "start": 3.066,
+      "end": 3.086,
+      "score": 0.694
+    },
+    {
+      "word": "45.",
+      "start": 3.226,
+      "end": 3.406,
+      "score": 0.752
+    },
+    {
+      "word": "Do",
+      "start": 3.446,
+      "end": 3.807,
+      "score": 0.604
+    },
+    {
+      "word": "you",
+      "start": 3.867,
+      "end": 3.967,
+      "score": 0.268
+    },
+    {
+      "word": "have",
+      "start": 3.987,
+      "end": 4.087,
+      "score": 0.484
+    },
+    {
+      "word": "your",
+      "start": 4.127,
+      "end": 4.287,
+      "score": 0.759
+    },
+    {
+      "word": "registration",
+      "start": 4.327,
+      "end": 4.768,
+      "score": 0.336
+    },
+    {
+      "word": "and",
+      "start": 4.828,
+      "end": 4.928,
+      "score": 0.719
+    },
+    {
+      "word": "insurance",
+      "start": 4.988,
+      "end": 5.308,
+      "score": 0.349
+    },
+    {
+      "word": "with",
+      "start": 5.348,
+      "end": 5.468,
+      "score": 0.327
+    },
+    {
+      "word": "you?",
+      "start": 5.508,
+      "end": 5.669,
+      "score": 0.825
+    },
+    {
+      "word": "Pardon",
+      "start": 7.361,
+      "end": 7.603,
+      "score": 0.632
+    },
+    {
+      "word": "me?",
+      "start": 7.624,
+      "end": 7.684,
+      "score": 0.332
+    },
+    {
+      "word": "That",
+      "start": 8.37,
+      "end": 8.491,
+      "score": 0.27
+    },
+    {
+      "word": "one's",
+      "start": 8.511,
+      "end": 8.612,
+      "score": 0.304
+    },
+    {
+      "word": "expired",
+      "start": 8.652,
+      "end": 9.056,
+      "score": 0.842
+    },
+    {
+      "word": "as",
+      "start": 9.096,
+      "end": 9.197,
+      "score": 0.808
+    },
+    {
+      "word": "of",
+      "start": 9.237,
+      "end": 9.298,
+      "score": 0.23
+    },
+    {
+      "word": "September.",
+      "start": 9.318,
+      "end": 9.681,
+      "score": 0.96
+    },
+    {
+      "word": "Pardon",
+      "start": 11.776,
+      "end": 11.961,
+      "score": 0.429
+    },
+    {
+      "word": "me.",
+      "start": 11.981,
+      "end": 12.063,
+      "score": 0.802
+    },
+    {
+      "word": "Okay,",
+      "start": 13.109,
+      "end": 13.289,
+      "score": 0.331
+    },
+    {
+      "word": "well,",
+      "start": 13.309,
+      "end": 13.429,
+      "score": 0.341
+    },
+    {
+      "word": "the",
+      "start": 13.449,
+      "end": 13.509,
+      "score": 0.8
+    },
+    {
+      "word": "requirement",
+      "start": 13.549,
+      "end": 13.949,
+      "score": 0.724
+    },
+    {
+      "word": "is",
+      "start": 14.009,
+      "end": 14.049,
+      "score": 0.704
+    },
+    {
+      "word": "that",
+      "start": 14.069,
+      "end": 14.149,
+      "score": 0.036
+    },
+    {
+      "word": "you",
+      "start": 14.169,
+      "end": 14.249,
+      "score": 0.155
+    },
+    {
+      "word": "provide,",
+      "start": 14.269,
+      "end": 14.569,
+      "score": 0.48
+    },
+    {
+      "word": "and",
+      "start": 14.61,
+      "end": 14.69,
+      "score": 0.283
+    },
+    {
+      "word": "I'm",
+      "start": 14.73,
+      "end": 14.81,
+      "score": 0.182
+    },
+    {
+      "word": "giving",
+      "start": 14.85,
+      "end": 15.03,
+      "score": 0.9
+    },
+    {
+      "word": "you",
+      "start": 15.05,
+      "end": 15.11,
+      "score": 0.027
+    },
+    {
+      "word": "an",
+      "start": 15.15,
+      "end": 15.21,
+      "score": 0.735
+    },
+    {
+      "word": "opportunity",
+      "start": 15.25,
+      "end": 16.01,
+      "score": 0.931
+    },
+    {
+      "word": "to",
+      "start": 16.03,
+      "end": 16.07,
+      "score": 0.167
+    },
+    {
+      "word": "do",
+      "start": 16.09,
+      "end": 16.13,
+      "score": 0.026
+    },
+    {
+      "word": "so.",
+      "start": 16.15,
+      "end": 16.51,
+      "score": 0.791
+    },
+    {
+      "word": "So",
+      "start": 16.57,
+      "end": 16.73,
+      "score": 0.908
+    },
+    {
+      "word": "if",
+      "start": 16.79,
+      "end": 16.85,
+      "score": 0.402
+    },
+    {
+      "word": "you",
+      "start": 16.87,
+      "end": 17.03,
+      "score": 0.462
+    },
+    {
+      "word": "want",
+      "start": 17.751,
+      "end": 17.831,
+      "score": 0.08
+    },
+    {
+      "word": "to",
+      "start": 17.871,
+      "end": 18.031,
+      "score": 0.659
+    },
+    {
+      "word": "refuse",
+      "start": 18.071,
+      "end": 18.371,
+      "score": 0.606
+    },
+    {
+      "word": "to",
+      "start": 18.391,
+      "end": 18.631,
+      "score": 0.615
+    },
+    {
+      "word": "give",
+      "start": 18.991,
+      "end": 19.091,
+      "score": 0.201
+    },
+    {
+      "word": "me",
+      "start": 19.111,
+      "end": 19.231,
+      "score": 0.504
+    },
+    {
+      "word": "one,",
+      "start": 19.311,
+      "end": 19.411,
+      "score": 0.48
+    },
+    {
+      "word": "that's",
+      "start": 19.431,
+      "end": 19.551,
+      "score": 0.254
+    },
+    {
+      "word": "okay,",
+      "start": 19.651,
+      "end": 19.931,
+      "score": 0.552
+    },
+    {
+      "word": "but",
+      "start": 19.951,
+      "end": 20.051,
+      "score": 0.268
+    },
+    {
+      "word": "I'm",
+      "start": 20.071,
+      "end": 20.131,
+      "score": 0.002
+    },
+    {
+      "word": "giving",
+      "start": 20.151,
+      "end": 20.291,
+      "score": 0.174
+    },
+    {
+      "word": "you",
+      "start": 20.331,
+      "end": 20.431,
+      "score": 0.307
+    },
+    {
+      "word": "the",
+      "start": 20.451,
+      "end": 20.532,
+      "score": 0.453
+    },
+    {
+      "word": "opportunity.",
+      "start": 20.572,
+      "end": 20.952,
+      "score": 0.443
+    },
+    {
+      "word": "Why",
+      "start": 21.512,
+      "end": 21.592,
+      "score": 0.19
+    },
+    {
+      "word": "are",
+      "start": 21.632,
+      "end": 21.712,
+      "score": 0.17
+    },
+    {
+      "word": "you",
+      "start": 21.772,
+      "end": 21.892,
+      "score": 0.348
+    },
+    {
+      "word": "being",
+      "start": 21.912,
+      "end": 22.092,
+      "score": 0.413
+    },
+    {
+      "word": "a",
+      "start": 22.152,
+      "end": 22.192,
+      "score": 0.68
+    },
+    {
+      "word": "jerk?",
+      "start": 22.232,
+      "end": 22.572,
+      "score": 0.578
+    },
+    {
+      "word": "I",
+      "start": 22.592,
+      "end": 22.612,
+      "score": 0.003
+    },
+    {
+      "word": "haven't",
+      "start": 22.652,
+      "end": 22.932,
+      "score": 0.213
+    },
+    {
+      "word": "been.",
+      "start": 22.952,
+      "end": 23.052,
+      "score": 0.159
+    },
+    {
+      "word": "I'm",
+      "start": 23.092,
+      "end": 23.232,
+      "score": 0.402
+    },
+    {
+      "word": "not.",
+      "start": 23.272,
+      "end": 23.493,
+      "score": 0.821
+    },
+    {
+      "word": "You",
+      "start": 23.513,
+      "end": 23.913,
+      "score": 0.812
+    },
+    {
+      "word": "are.",
+      "start": 23.953,
+      "end": 24.233,
+      "score": 0.44
+    },
+    {
+      "word": "You've",
+      "start": 24.273,
+      "end": 24.453,
+      "score": 0.585
+    },
+    {
+      "word": "stated",
+      "start": 24.473,
+      "end": 24.753,
+      "score": 0.459
+    },
+    {
+      "word": "three",
+      "start": 24.773,
+      "end": 24.973,
+      "score": 0.983
+    },
+    {
+      "word": "times,",
+      "start": 25.033,
+      "end": 25.313,
+      "score": 0.889
+    },
+    {
+      "word": "I",
+      "start": 25.473,
+      "end": 25.513,
+      "score": 0.999
+    },
+    {
+      "word": "don't",
+      "start": 25.553,
+      "end": 25.713,
+      "score": 0.829
+    },
+    {
+      "word": "know,",
+      "start": 25.753,
+      "end": 25.953,
+      "score": 0.98
+    },
+    {
+      "word": "sarcastically,",
+      "start": 26.013,
+      "end": 26.454,
+      "score": 0.302
+    },
+    {
+      "word": "okay?",
+      "start": 26.474,
+      "end": 26.594,
+      "score": 0.229
+    },
+    {
+      "word": "I",
+      "start": 26.634,
+      "end": 26.654,
+      "score": 0.009
+    },
+    {
+      "word": "really",
+      "start": 26.694,
+      "end": 26.934,
+      "score": 0.335
+    },
+    {
+      "word": "don't",
+      "start": 26.954,
+      "end": 27.194,
+      "score": 0.484
+    },
+    {
+      "word": "know.",
+      "start": 27.214,
+      "end": 27.534,
+      "score": 0.528
+    },
+    {
+      "word": "I",
+      "start": 27.554,
+      "end": 27.574,
+      "score": 0.0
+    },
+    {
+      "word": "requested",
+      "start": 27.594,
+      "end": 28.014,
+      "score": 0.904
+    },
+    {
+      "word": "something",
+      "start": 28.034,
+      "end": 28.274,
+      "score": 0.896
+    },
+    {
+      "word": "that",
+      "start": 28.314,
+      "end": 28.394,
+      "score": 0.248
+    },
+    {
+      "word": "you're",
+      "start": 28.414,
+      "end": 28.534,
+      "score": 0.134
+    },
+    {
+      "word": "required",
+      "start": 28.554,
+      "end": 28.874,
+      "score": 0.629
+    },
+    {
+      "word": "to",
+      "start": 28.894,
+      "end": 28.954,
+      "score": 0.744
+    },
+    {
+      "word": "give",
+      "start": 28.994,
+      "end": 29.154,
+      "score": 0.875
+    },
+    {
+      "word": "me,",
+      "start": 29.194,
+      "end": 29.415,
+      "score": 0.791
+    },
+    {
+      "word": "okay?",
+      "start": 29.435,
+      "end": 29.695,
+      "score": 0.768
+    },
+    {
+      "word": "And",
+      "start": 29.915,
+      "end": 29.975,
+      "score": 0.926
+    },
+    {
+      "word": "I'm",
+      "start": 30.015,
+      "end": 30.075,
+      "score": 0.556
+    },
+    {
+      "word": "giving",
+      "start": 30.115,
+      "end": 30.275,
+      "score": 0.508
+    },
+    {
+      "word": "you",
+      "start": 30.295,
+      "end": 30.375,
+      "score": 0.012
+    },
+    {
+      "word": "the",
+      "start": 30.395,
+      "end": 30.475,
+      "score": 0.375
+    },
+    {
+      "word": "opportunity",
+      "start": 30.495,
+      "end": 30.755,
+      "score": 0.098
+    },
+    {
+      "word": "to",
+      "start": 30.775,
+      "end": 30.875,
+      "score": 0.621
+    },
+    {
+      "word": "give",
+      "start": 30.895,
+      "end": 30.995,
+      "score": 0.128
+    },
+    {
+      "word": "you",
+      "start": 31.015,
+      "end": 31.075,
+      "score": 0.153
+    },
+    {
+      "word": "it.",
+      "start": 31.095,
+      "end": 31.155,
+      "score": 0.123
+    },
+    {
+      "word": "I",
+      "start": 31.175,
+      "end": 31.215,
+      "score": 0.483
+    },
+    {
+      "word": "am",
+      "start": 31.235,
+      "end": 31.275,
+      "score": 0.054
+    },
+    {
+      "word": "not",
+      "start": 31.295,
+      "end": 31.355,
+      "score": 0.01
+    },
+    {
+      "word": "being",
+      "start": 31.375,
+      "end": 31.475,
+      "score": 0.007
+    },
+    {
+      "word": "sarcastic",
+      "start": 31.495,
+      "end": 31.855,
+      "score": 0.448
+    },
+    {
+      "word": "with",
+      "start": 31.875,
+      "end": 31.995,
+      "score": 0.865
+    },
+    {
+      "word": "you.",
+      "start": 32.015,
+      "end": 32.155,
+      "score": 0.96
+    },
+    {
+      "word": "I",
+      "start": 32.296,
+      "end": 32.356,
+      "score": 0.693
+    },
+    {
+      "word": "have",
+      "start": 32.396,
+      "end": 32.496,
+      "score": 0.416
+    },
+    {
+      "word": "been",
+      "start": 32.516,
+      "end": 32.716,
+      "score": 0.848
+    },
+    {
+      "word": "nice",
+      "start": 32.776,
+      "end": 33.096,
+      "score": 0.75
+    },
+    {
+      "word": "to",
+      "start": 33.136,
+      "end": 33.276,
+      "score": 0.928
+    },
+    {
+      "word": "you.",
+      "start": 33.316,
+      "end": 33.536,
+      "score": 0.75
+    },
+    {
+      "word": "What",
+      "start": 33.656,
+      "end": 33.796,
+      "score": 0.856
+    },
+    {
+      "word": "I'm",
+      "start": 33.816,
+      "end": 33.916,
+      "score": 0.704
+    },
+    {
+      "word": "trying",
+      "start": 33.936,
+      "end": 34.136,
+      "score": 0.8
+    },
+    {
+      "word": "to",
+      "start": 34.156,
+      "end": 34.196,
+      "score": 0.998
+    },
+    {
+      "word": "explain",
+      "start": 34.236,
+      "end": 34.496,
+      "score": 0.716
+    },
+    {
+      "word": "to",
+      "start": 34.516,
+      "end": 34.556,
+      "score": 0.0
+    },
+    {
+      "word": "you",
+      "start": 34.576,
+      "end": 34.636,
+      "score": 0.931
+    },
+    {
+      "word": "is",
+      "start": 34.676,
+      "end": 34.756,
+      "score": 0.758
+    },
+    {
+      "word": "I'm",
+      "start": 34.796,
+      "end": 34.896,
+      "score": 0.662
+    },
+    {
+      "word": "giving",
+      "start": 34.916,
+      "end": 35.116,
+      "score": 0.993
+    },
+    {
+      "word": "you",
+      "start": 35.136,
+      "end": 35.216,
+      "score": 0.003
+    },
+    {
+      "word": "the",
+      "start": 35.236,
+      "end": 35.297,
+      "score": 0.0
+    },
+    {
+      "word": "opportunity",
+      "start": 35.317,
+      "end": 35.797,
+      "score": 0.853
+    },
+    {
+      "word": "to",
+      "start": 35.817,
+      "end": 35.877,
+      "score": 0.838
+    },
+    {
+      "word": "look",
+      "start": 35.917,
+      "end": 36.097,
+      "score": 0.939
+    },
+    {
+      "word": "for",
+      "start": 36.157,
+      "end": 36.337,
+      "score": 0.911
+    },
+    {
+      "word": "it.",
+      "start": 36.397,
+      "end": 36.457,
+      "score": 0.915
+    },
+    {
+      "word": "Oh",
+      "start": 37.139,
+      "end": 37.179,
+      "score": 0.0
+    },
+    {
+      "word": "my",
+      "start": 37.199,
+      "end": 37.379,
+      "score": 0.766
+    },
+    {
+      "word": "gosh,",
+      "start": 37.419,
+      "end": 37.579,
+      "score": 0.545
+    },
+    {
+      "word": "you're",
+      "start": 37.599,
+      "end": 37.8,
+      "score": 0.854
+    },
+    {
+      "word": "the",
+      "start": 37.82,
+      "end": 37.88,
+      "score": 0.988
+    },
+    {
+      "word": "first",
+      "start": 37.94,
+      "end": 38.22,
+      "score": 0.748
+    },
+    {
+      "word": "one",
+      "start": 38.42,
+      "end": 38.54,
+      "score": 0.594
+    },
+    {
+      "word": "who's",
+      "start": 38.581,
+      "end": 38.781,
+      "score": 0.27
+    },
+    {
+      "word": "asked",
+      "start": 39.001,
+      "end": 39.161,
+      "score": 0.436
+    },
+    {
+      "word": "me",
+      "start": 39.221,
+      "end": 39.401,
+      "score": 0.725
+    },
+    {
+      "word": "for",
+      "start": 39.662,
+      "end": 39.942,
+      "score": 0.517
+    },
+    {
+      "word": "this.",
+      "start": 39.982,
+      "end": 40.262,
+      "score": 0.428
+    },
+    {
+      "word": "What's",
+      "start": 40.382,
+      "end": 40.543,
+      "score": 0.525
+    },
+    {
+      "word": "your",
+      "start": 40.563,
+      "end": 40.703,
+      "score": 0.77
+    },
+    {
+      "word": "name?",
+      "start": 40.763,
+      "end": 41.043,
+      "score": 0.767
+    },
+    {
+      "word": "My",
+      "start": 41.303,
+      "end": 41.383,
+      "score": 0.587
+    },
+    {
+      "word": "name's",
+      "start": 41.423,
+      "end": 41.624,
+      "score": 0.622
+    },
+    {
+      "word": "Officer",
+      "start": 41.664,
+      "end": 41.904,
+      "score": 0.446
+    },
+    {
+      "word": "Fager",
+      "start": 41.924,
+      "end": 42.124,
+      "score": 0.391
+    },
+    {
+      "word": "with",
+      "start": 42.144,
+      "end": 42.224,
+      "score": 0.002
+    },
+    {
+      "word": "the",
+      "start": 42.244,
+      "end": 42.324,
+      "score": 0.44
+    },
+    {
+      "word": "Edgewater",
+      "start": 42.344,
+      "end": 42.645,
+      "score": 0.153
+    },
+    {
+      "word": "Police",
+      "start": 42.665,
+      "end": 42.845,
+      "score": 0.274
+    },
+    {
+      "word": "Department.",
+      "start": 42.865,
+      "end": 43.325,
+      "score": 0.411
+    },
+    {
+      "word": "Spell",
+      "start": 43.345,
+      "end": 43.526,
+      "score": 0.353
+    },
+    {
+      "word": "your",
+      "start": 43.546,
+      "end": 43.646,
+      "score": 0.97
+    },
+    {
+      "word": "name",
+      "start": 43.686,
+      "end": 43.866,
+      "score": 0.953
+    },
+    {
+      "word": "for",
+      "start": 43.926,
+      "end": 44.587,
+      "score": 0.614
+    },
+    {
+      "word": "me.",
+      "start": 44.607,
+      "end": 44.667,
+      "score": 0.25
+    },
+    {
+      "word": "It'll",
+      "start": 44.747,
+      "end": 44.947,
+      "score": 0.921
+    },
+    {
+      "word": "be",
+      "start": 44.967,
+      "end": 45.027,
+      "score": 0.821
+    },
+    {
+      "word": "on",
+      "start": 45.067,
+      "end": 45.127,
+      "score": 0.966
+    },
+    {
+      "word": "the",
+      "start": 45.147,
+      "end": 45.227,
+      "score": 0.827
+    },
+    {
+      "word": "bottom",
+      "start": 45.247,
+      "end": 45.448,
+      "score": 0.834
+    },
+    {
+      "word": "of",
+      "start": 45.468,
+      "end": 45.508,
+      "score": 0.98
+    },
+    {
+      "word": "the",
+      "start": 45.528,
+      "end": 45.588,
+      "score": 0.048
+    },
+    {
+      "word": "citation.",
+      "start": 45.608,
+      "end": 46.108,
+      "score": 0.797
+    },
+    {
+      "word": "You're",
+      "start": 46.329,
+      "end": 46.509,
+      "score": 0.312
+    },
+    {
+      "word": "an",
+      "start": 46.529,
+      "end": 46.629,
+      "score": 0.519
+    },
+    {
+      "word": "asshole.",
+      "start": 46.829,
+      "end": 47.129,
+      "score": 0.359
+    },
+    {
+      "word": "Do",
+      "start": 47.149,
+      "end": 47.189,
+      "score": 0.001
+    },
+    {
+      "word": "you",
+      "start": 47.57,
+      "end": 47.65,
+      "score": 0.139
+    },
+    {
+      "word": "have",
+      "start": 47.67,
+      "end": 47.77,
+      "score": 0.202
+    },
+    {
+      "word": "your",
+      "start": 47.79,
+      "end": 47.87,
+      "score": 0.01
+    },
+    {
+      "word": "insurance,",
+      "start": 47.89,
+      "end": 48.211,
+      "score": 0.488
+    },
+    {
+      "word": "ma'am?",
+      "start": 48.231,
+      "end": 48.471,
+      "score": 0.414
+    },
+    {
+      "word": "Yeah,",
+      "start": 49.272,
+      "end": 49.536,
+      "score": 0.326
+    },
+    {
+      "word": "it's",
+      "start": 49.556,
+      "end": 49.637,
+      "score": 0.02
+    },
+    {
+      "word": "on",
+      "start": 49.657,
+      "end": 49.698,
+      "score": 0.0
+    },
+    {
+      "word": "my",
+      "start": 49.718,
+      "end": 49.759,
+      "score": 0.004
+    },
+    {
+      "word": "phone.",
+      "start": 49.779,
+      "end": 49.9,
+      "score": 0.006
+    },
+    {
+      "word": "You",
+      "start": 49.921,
+      "end": 50.002,
+      "score": 0.163
+    },
+    {
+      "word": "want",
+      "start": 50.022,
+      "end": 50.164,
+      "score": 0.37
+    },
+    {
+      "word": "that,",
+      "start": 50.225,
+      "end": 50.468,
+      "score": 0.446
+    },
+    {
+      "word": "too?",
+      "start": 50.488,
+      "end": 50.63,
+      "score": 0.333
+    },
+    {
+      "word": "Yes,",
+      "start": 50.894,
+      "end": 51.076,
+      "score": 0.858
+    },
+    {
+      "word": "ma'am.",
+      "start": 51.137,
+      "end": 51.38,
+      "score": 0.821
+    }
+  ]
+}

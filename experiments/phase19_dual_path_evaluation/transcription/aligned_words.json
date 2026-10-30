@@ -1,0 +1,2792 @@
+[
+  {
+    "word": "Okay,",
+    "start": 0.105,
+    "end": 0.287,
+    "confidence": 0.522
+  },
+  {
+    "word": "my",
+    "start": 0.368,
+    "end": 0.934,
+    "confidence": 0.835
+  },
+  {
+    "word": "name's",
+    "start": 1.278,
+    "end": 1.581,
+    "confidence": 0.594
+  },
+  {
+    "word": "PC.",
+    "start": 1.601,
+    "end": 1.763,
+    "confidence": 0.412
+  },
+  {
+    "word": "I'm",
+    "start": 2.056,
+    "end": 2.156,
+    "confidence": 0.19
+  },
+  {
+    "word": "based",
+    "start": 2.196,
+    "end": 2.357,
+    "confidence": 0.449
+  },
+  {
+    "word": "at",
+    "start": 2.417,
+    "end": 2.457,
+    "confidence": 0.096
+  },
+  {
+    "word": "Fort",
+    "start": 2.477,
+    "end": 2.637,
+    "confidence": 0.688
+  },
+  {
+    "word": "Worth",
+    "start": 2.657,
+    "end": 2.757,
+    "confidence": 0.015
+  },
+  {
+    "word": "Police",
+    "start": 2.777,
+    "end": 2.978,
+    "confidence": 0.614
+  },
+  {
+    "word": "Station",
+    "start": 2.998,
+    "end": 3.258,
+    "confidence": 0.97
+  },
+  {
+    "word": "in",
+    "start": 3.278,
+    "end": 3.378,
+    "confidence": 0.297
+  },
+  {
+    "word": "Peterborough.",
+    "start": 3.399,
+    "end": 3.759,
+    "confidence": 0.204
+  },
+  {
+    "word": "I",
+    "start": 3.779,
+    "end": 3.799,
+    "confidence": 0.373
+  },
+  {
+    "word": "have",
+    "start": 3.839,
+    "end": 4.02,
+    "confidence": 0.465
+  },
+  {
+    "word": "to",
+    "start": 4.04,
+    "end": 4.1,
+    "confidence": 0.806
+  },
+  {
+    "word": "go",
+    "start": 4.12,
+    "end": 4.22,
+    "confidence": 0.726
+  },
+  {
+    "word": "through",
+    "start": 4.24,
+    "end": 4.721,
+    "confidence": 0.416
+  },
+  {
+    "word": "this",
+    "start": 4.741,
+    "end": 4.961,
+    "confidence": 0.688
+  },
+  {
+    "word": "bit,",
+    "start": 5.022,
+    "end": 5.142,
+    "confidence": 0.419
+  },
+  {
+    "word": "yeah.",
+    "start": 5.162,
+    "end": 5.963,
+    "confidence": 0.61
+  },
+  {
+    "word": "The",
+    "start": 6.264,
+    "end": 6.364,
+    "confidence": 0.73
+  },
+  {
+    "word": "grounds",
+    "start": 6.384,
+    "end": 6.584,
+    "confidence": 0.816
+  },
+  {
+    "word": "for",
+    "start": 6.605,
+    "end": 6.725,
+    "confidence": 0.165
+  },
+  {
+    "word": "the",
+    "start": 6.745,
+    "end": 6.825,
+    "confidence": 0.067
+  },
+  {
+    "word": "search",
+    "start": 6.845,
+    "end": 7.065,
+    "confidence": 0.941
+  },
+  {
+    "word": "is",
+    "start": 7.105,
+    "end": 7.206,
+    "confidence": 0.378
+  },
+  {
+    "word": "that",
+    "start": 7.226,
+    "end": 7.566,
+    "confidence": 0.417
+  },
+  {
+    "word": "the",
+    "start": 7.867,
+    "end": 7.947,
+    "confidence": 0.988
+  },
+  {
+    "word": "vehicle",
+    "start": 7.987,
+    "end": 8.428,
+    "confidence": 0.806
+  },
+  {
+    "word": "is",
+    "start": 8.548,
+    "end": 8.628,
+    "confidence": 0.729
+  },
+  {
+    "word": "linked",
+    "start": 8.989,
+    "end": 9.149,
+    "confidence": 0.804
+  },
+  {
+    "word": "to",
+    "start": 9.189,
+    "end": 9.43,
+    "confidence": 0.898
+  },
+  {
+    "word": "drug",
+    "start": 9.45,
+    "end": 10.171,
+    "confidence": 0.661
+  },
+  {
+    "word": "supply.",
+    "start": 10.191,
+    "end": 10.552,
+    "confidence": 0.862
+  },
+  {
+    "word": "Yeah.",
+    "start": 10.848,
+    "end": 10.955,
+    "confidence": 0.022
+  },
+  {
+    "word": "Okay,",
+    "start": 11.411,
+    "end": 11.713,
+    "confidence": 0.729
+  },
+  {
+    "word": "there's",
+    "start": 11.894,
+    "end": 12.156,
+    "confidence": 0.268
+  },
+  {
+    "word": "lots",
+    "start": 12.297,
+    "end": 12.619,
+    "confidence": 0.896
+  },
+  {
+    "word": "of",
+    "start": 12.981,
+    "end": 13.062,
+    "confidence": 0.836
+  },
+  {
+    "word": "loose",
+    "start": 13.404,
+    "end": 13.686,
+    "confidence": 0.9
+  },
+  {
+    "word": "cash.",
+    "start": 13.807,
+    "end": 14.189,
+    "confidence": 0.911
+  },
+  {
+    "word": "in",
+    "start": 14.691,
+    "end": 14.791,
+    "confidence": 0.876
+  },
+  {
+    "word": "the",
+    "start": 14.811,
+    "end": 14.871,
+    "confidence": 0.107
+  },
+  {
+    "word": "back",
+    "start": 14.972,
+    "end": 15.152,
+    "confidence": 0.714
+  },
+  {
+    "word": "centre",
+    "start": 15.192,
+    "end": 15.452,
+    "confidence": 0.517
+  },
+  {
+    "word": "console",
+    "start": 15.492,
+    "end": 15.993,
+    "confidence": 0.699
+  },
+  {
+    "word": "which",
+    "start": 17.055,
+    "end": 17.275,
+    "confidence": 0.918
+  },
+  {
+    "word": "often",
+    "start": 17.656,
+    "end": 17.977,
+    "confidence": 0.947
+  },
+  {
+    "word": "is",
+    "start": 18.077,
+    "end": 18.177,
+    "confidence": 0.934
+  },
+  {
+    "word": "linked",
+    "start": 19.199,
+    "end": 19.419,
+    "confidence": 0.587
+  },
+  {
+    "word": "to",
+    "start": 19.439,
+    "end": 19.519,
+    "confidence": 0.868
+  },
+  {
+    "word": "drug",
+    "start": 19.559,
+    "end": 19.719,
+    "confidence": 0.471
+  },
+  {
+    "word": "supply",
+    "start": 19.739,
+    "end": 20.22,
+    "confidence": 0.487
+  },
+  {
+    "word": "and",
+    "start": 20.28,
+    "end": 20.381,
+    "confidence": 0.829
+  },
+  {
+    "word": "I",
+    "start": 20.461,
+    "end": 20.561,
+    "confidence": 0.761
+  },
+  {
+    "word": "can",
+    "start": 20.581,
+    "end": 20.982,
+    "confidence": 0.662
+  },
+  {
+    "word": "smell",
+    "start": 21.122,
+    "end": 21.342,
+    "confidence": 0.774
+  },
+  {
+    "word": "a",
+    "start": 21.362,
+    "end": 21.422,
+    "confidence": 0.382
+  },
+  {
+    "word": "faint",
+    "start": 21.462,
+    "end": 21.663,
+    "confidence": 0.748
+  },
+  {
+    "word": "smell",
+    "start": 21.683,
+    "end": 21.843,
+    "confidence": 0.117
+  },
+  {
+    "word": "of",
+    "start": 21.863,
+    "end": 21.903,
+    "confidence": 0.0
+  },
+  {
+    "word": "cannabis",
+    "start": 21.923,
+    "end": 22.244,
+    "confidence": 0.692
+  },
+  {
+    "word": "coming",
+    "start": 22.264,
+    "end": 22.384,
+    "confidence": 0.109
+  },
+  {
+    "word": "out",
+    "start": 22.404,
+    "end": 22.464,
+    "confidence": 0.017
+  },
+  {
+    "word": "of",
+    "start": 22.484,
+    "end": 22.564,
+    "confidence": 0.312
+  },
+  {
+    "word": "the",
+    "start": 22.584,
+    "end": 22.644,
+    "confidence": 0.346
+  },
+  {
+    "word": "vehicle",
+    "start": 22.684,
+    "end": 22.965,
+    "confidence": 0.928
+  },
+  {
+    "word": "as",
+    "start": 23.025,
+    "end": 23.065,
+    "confidence": 0.952
+  },
+  {
+    "word": "well.",
+    "start": 23.105,
+    "end": 23.345,
+    "confidence": 0.907
+  },
+  {
+    "word": "Just",
+    "start": 23.986,
+    "end": 24.107,
+    "confidence": 0.33
+  },
+  {
+    "word": "do",
+    "start": 24.147,
+    "end": 24.267,
+    "confidence": 0.37
+  },
+  {
+    "word": "your",
+    "start": 24.287,
+    "end": 24.407,
+    "confidence": 0.118
+  },
+  {
+    "word": "thing",
+    "start": 24.427,
+    "end": 24.527,
+    "confidence": 0.054
+  },
+  {
+    "word": "innit.",
+    "start": 24.547,
+    "end": 24.768,
+    "confidence": 0.498
+  },
+  {
+    "word": "And",
+    "start": 25.918,
+    "end": 26.061,
+    "confidence": 0.506
+  },
+  {
+    "word": "so...",
+    "start": 26.164,
+    "end": 26.45,
+    "confidence": 0.799
+  },
+  {
+    "word": "You",
+    "start": 27.039,
+    "end": 27.119,
+    "confidence": 0.981
+  },
+  {
+    "word": "are",
+    "start": 27.159,
+    "end": 27.259,
+    "confidence": 0.802
+  },
+  {
+    "word": "entitled",
+    "start": 27.299,
+    "end": 27.6,
+    "confidence": 0.347
+  },
+  {
+    "word": "to",
+    "start": 27.62,
+    "end": 27.68,
+    "confidence": 0.87
+  },
+  {
+    "word": "a",
+    "start": 27.7,
+    "end": 27.72,
+    "confidence": 0.028
+  },
+  {
+    "word": "copy",
+    "start": 27.74,
+    "end": 27.94,
+    "confidence": 0.84
+  },
+  {
+    "word": "of",
+    "start": 28.0,
+    "end": 28.06,
+    "confidence": 0.403
+  },
+  {
+    "word": "this",
+    "start": 28.081,
+    "end": 28.301,
+    "confidence": 0.633
+  },
+  {
+    "word": "search,",
+    "start": 28.321,
+    "end": 28.602,
+    "confidence": 0.294
+  },
+  {
+    "word": "okay,",
+    "start": 28.642,
+    "end": 28.982,
+    "confidence": 0.691
+  },
+  {
+    "word": "and",
+    "start": 29.123,
+    "end": 29.223,
+    "confidence": 0.389
+  },
+  {
+    "word": "it's",
+    "start": 29.283,
+    "end": 29.463,
+    "confidence": 0.27
+  },
+  {
+    "word": "section",
+    "start": 29.483,
+    "end": 29.764,
+    "confidence": 0.812
+  },
+  {
+    "word": "23",
+    "start": 29.784,
+    "end": 29.884,
+    "confidence": 0.756
+  },
+  {
+    "word": "of",
+    "start": 29.964,
+    "end": 30.004,
+    "confidence": 0.0
+  },
+  {
+    "word": "the",
+    "start": 30.024,
+    "end": 30.185,
+    "confidence": 0.381
+  },
+  {
+    "word": "misuse",
+    "start": 30.205,
+    "end": 30.525,
+    "confidence": 0.374
+  },
+  {
+    "word": "of",
+    "start": 30.565,
+    "end": 30.646,
+    "confidence": 0.324
+  },
+  {
+    "word": "drugs,",
+    "start": 30.666,
+    "end": 30.806,
+    "confidence": 0.159
+  },
+  {
+    "word": "and",
+    "start": 30.846,
+    "end": 30.906,
+    "confidence": 0.107
+  },
+  {
+    "word": "so",
+    "start": 30.926,
+    "end": 30.966,
+    "confidence": 0.012
+  },
+  {
+    "word": "I'm",
+    "start": 30.986,
+    "end": 31.046,
+    "confidence": 0.007
+  },
+  {
+    "word": "going",
+    "start": 31.066,
+    "end": 31.187,
+    "confidence": 0.249
+  },
+  {
+    "word": "to",
+    "start": 31.207,
+    "end": 31.307,
+    "confidence": 0.484
+  },
+  {
+    "word": "be",
+    "start": 31.327,
+    "end": 31.387,
+    "confidence": 0.446
+  },
+  {
+    "word": "searching",
+    "start": 31.407,
+    "end": 31.688,
+    "confidence": 0.301
+  },
+  {
+    "word": "for",
+    "start": 31.708,
+    "end": 31.808,
+    "confidence": 0.26
+  },
+  {
+    "word": "any",
+    "start": 31.948,
+    "end": 32.028,
+    "confidence": 0.191
+  },
+  {
+    "word": "controlled",
+    "start": 32.048,
+    "end": 32.329,
+    "confidence": 0.166
+  },
+  {
+    "word": "drugs.",
+    "start": 32.369,
+    "end": 32.87,
+    "confidence": 0.421
+  },
+  {
+    "word": "Have",
+    "start": 32.89,
+    "end": 33.01,
+    "confidence": 0.852
+  },
+  {
+    "word": "you",
+    "start": 33.03,
+    "end": 33.13,
+    "confidence": 0.683
+  },
+  {
+    "word": "got",
+    "start": 33.15,
+    "end": 33.271,
+    "confidence": 0.465
+  },
+  {
+    "word": "any",
+    "start": 33.291,
+    "end": 33.411,
+    "confidence": 0.488
+  },
+  {
+    "word": "controlled",
+    "start": 33.431,
+    "end": 33.732,
+    "confidence": 0.296
+  },
+  {
+    "word": "drugs",
+    "start": 33.752,
+    "end": 33.912,
+    "confidence": 0.24
+  },
+  {
+    "word": "on",
+    "start": 33.972,
+    "end": 34.253,
+    "confidence": 0.623
+  },
+  {
+    "word": "you?",
+    "start": 34.613,
+    "end": 34.874,
+    "confidence": 0.421
+  },
+  {
+    "word": "No.",
+    "start": 34.974,
+    "end": 35.255,
+    "confidence": 0.585
+  },
+  {
+    "word": "Okay,",
+    "start": 35.295,
+    "end": 35.535,
+    "confidence": 0.431
+  },
+  {
+    "word": "cool.",
+    "start": 35.555,
+    "end": 35.755,
+    "confidence": 0.439
+  },
+  {
+    "word": "Have",
+    "start": 36.036,
+    "end": 36.116,
+    "confidence": 0.076
+  },
+  {
+    "word": "you",
+    "start": 36.136,
+    "end": 36.216,
+    "confidence": 0.816
+  },
+  {
+    "word": "got",
+    "start": 36.236,
+    "end": 36.337,
+    "confidence": 0.016
+  },
+  {
+    "word": "anything",
+    "start": 36.357,
+    "end": 36.637,
+    "confidence": 0.424
+  },
+  {
+    "word": "on",
+    "start": 36.657,
+    "end": 36.717,
+    "confidence": 0.178
+  },
+  {
+    "word": "you?",
+    "start": 36.737,
+    "end": 36.818,
+    "confidence": 0.102
+  },
+  {
+    "word": "No.",
+    "start": 36.858,
+    "end": 36.938,
+    "confidence": 0.604
+  },
+  {
+    "word": "weapon,",
+    "start": 37.349,
+    "end": 37.656,
+    "confidence": 0.897
+  },
+  {
+    "word": "anything",
+    "start": 37.677,
+    "end": 37.902,
+    "confidence": 0.229
+  },
+  {
+    "word": "like",
+    "start": 37.922,
+    "end": 38.004,
+    "confidence": 0.005
+  },
+  {
+    "word": "that.",
+    "start": 38.025,
+    "end": 38.127,
+    "confidence": 0.318
+  },
+  {
+    "word": "Anything",
+    "start": 39.302,
+    "end": 39.466,
+    "confidence": 0.046
+  },
+  {
+    "word": "that's",
+    "start": 39.487,
+    "end": 39.61,
+    "confidence": 0.162
+  },
+  {
+    "word": "going",
+    "start": 39.63,
+    "end": 39.753,
+    "confidence": 0.147
+  },
+  {
+    "word": "to",
+    "start": 39.774,
+    "end": 39.815,
+    "confidence": 0.0
+  },
+  {
+    "word": "hurt",
+    "start": 39.835,
+    "end": 39.917,
+    "confidence": 0.034
+  },
+  {
+    "word": "me?",
+    "start": 39.938,
+    "end": 40.081,
+    "confidence": 0.821
+  },
+  {
+    "word": "Good",
+    "start": 40.821,
+    "end": 40.983,
+    "confidence": 0.318
+  },
+  {
+    "word": "night,",
+    "start": 41.043,
+    "end": 41.285,
+    "confidence": 0.356
+  },
+  {
+    "word": "bro.",
+    "start": 41.305,
+    "end": 41.406,
+    "confidence": 0.162
+  },
+  {
+    "word": "Cool,",
+    "start": 41.447,
+    "end": 41.568,
+    "confidence": 0.154
+  },
+  {
+    "word": "come",
+    "start": 41.588,
+    "end": 41.729,
+    "confidence": 0.259
+  },
+  {
+    "word": "on.",
+    "start": 41.749,
+    "end": 41.81,
+    "confidence": 0.02
+  },
+  {
+    "word": "If",
+    "start": 47.131,
+    "end": 47.191,
+    "confidence": 0.994
+  },
+  {
+    "word": "you",
+    "start": 47.211,
+    "end": 47.312,
+    "confidence": 0.933
+  },
+  {
+    "word": "haven't",
+    "start": 47.332,
+    "end": 47.512,
+    "confidence": 0.704
+  },
+  {
+    "word": "got",
+    "start": 47.532,
+    "end": 47.693,
+    "confidence": 0.844
+  },
+  {
+    "word": "anything",
+    "start": 47.713,
+    "end": 48.556,
+    "confidence": 0.329
+  },
+  {
+    "word": "on",
+    "start": 48.677,
+    "end": 48.757,
+    "confidence": 0.588
+  },
+  {
+    "word": "you,",
+    "start": 48.777,
+    "end": 48.858,
+    "confidence": 0.428
+  },
+  {
+    "word": "mate,",
+    "start": 48.878,
+    "end": 49.139,
+    "confidence": 0.659
+  },
+  {
+    "word": "you'll",
+    "start": 49.319,
+    "end": 49.44,
+    "confidence": 0.466
+  },
+  {
+    "word": "be",
+    "start": 49.46,
+    "end": 49.56,
+    "confidence": 0.353
+  },
+  {
+    "word": "all",
+    "start": 49.58,
+    "end": 49.641,
+    "confidence": 0.008
+  },
+  {
+    "word": "the",
+    "start": 49.661,
+    "end": 49.741,
+    "confidence": 0.133
+  },
+  {
+    "word": "way",
+    "start": 49.761,
+    "end": 49.962,
+    "confidence": 0.761
+  },
+  {
+    "word": "around.",
+    "start": 50.464,
+    "end": 50.805,
+    "confidence": 0.324
+  },
+  {
+    "word": "We'll",
+    "start": 50.825,
+    "end": 50.946,
+    "confidence": 0.173
+  },
+  {
+    "word": "be",
+    "start": 50.986,
+    "end": 51.066,
+    "confidence": 0.437
+  },
+  {
+    "word": "searching",
+    "start": 51.106,
+    "end": 51.427,
+    "confidence": 0.351
+  },
+  {
+    "word": "the",
+    "start": 51.448,
+    "end": 51.528,
+    "confidence": 0.808
+  },
+  {
+    "word": "vehicle.",
+    "start": 51.548,
+    "end": 51.909,
+    "confidence": 0.632
+  },
+  {
+    "word": "Is",
+    "start": 60.942,
+    "end": 61.164,
+    "confidence": 0.266
+  },
+  {
+    "word": "this",
+    "start": 61.406,
+    "end": 61.588,
+    "confidence": 0.534
+  },
+  {
+    "word": "all",
+    "start": 61.668,
+    "end": 61.749,
+    "confidence": 0.275
+  },
+  {
+    "word": "cool",
+    "start": 61.789,
+    "end": 61.971,
+    "confidence": 0.599
+  },
+  {
+    "word": "or",
+    "start": 62.011,
+    "end": 62.092,
+    "confidence": 0.336
+  },
+  {
+    "word": "do",
+    "start": 62.112,
+    "end": 62.152,
+    "confidence": 0.004
+  },
+  {
+    "word": "you",
+    "start": 62.192,
+    "end": 62.273,
+    "confidence": 0.316
+  },
+  {
+    "word": "want",
+    "start": 62.293,
+    "end": 62.414,
+    "confidence": 0.177
+  },
+  {
+    "word": "me",
+    "start": 62.434,
+    "end": 62.535,
+    "confidence": 0.718
+  },
+  {
+    "word": "to",
+    "start": 62.576,
+    "end": 62.636,
+    "confidence": 0.202
+  },
+  {
+    "word": "try",
+    "start": 62.676,
+    "end": 62.777,
+    "confidence": 0.353
+  },
+  {
+    "word": "it?",
+    "start": 62.817,
+    "end": 62.898,
+    "confidence": 0.317
+  },
+  {
+    "word": "Yeah",
+    "start": 62.979,
+    "end": 63.1,
+    "confidence": 0.094
+  },
+  {
+    "word": "mate,",
+    "start": 63.14,
+    "end": 63.281,
+    "confidence": 0.334
+  },
+  {
+    "word": "it's",
+    "start": 63.402,
+    "end": 63.543,
+    "confidence": 0.332
+  },
+  {
+    "word": "fine.",
+    "start": 63.644,
+    "end": 63.846,
+    "confidence": 0.394
+  },
+  {
+    "word": "Basically,",
+    "start": 64.972,
+    "end": 65.252,
+    "confidence": 0.235
+  },
+  {
+    "word": "if",
+    "start": 65.273,
+    "end": 65.333,
+    "confidence": 0.193
+  },
+  {
+    "word": "you",
+    "start": 65.353,
+    "end": 65.413,
+    "confidence": 0.487
+  },
+  {
+    "word": "have",
+    "start": 65.433,
+    "end": 65.553,
+    "confidence": 0.574
+  },
+  {
+    "word": "got",
+    "start": 65.574,
+    "end": 65.654,
+    "confidence": 0.452
+  },
+  {
+    "word": "anything",
+    "start": 65.674,
+    "end": 66.075,
+    "confidence": 0.338
+  },
+  {
+    "word": "on",
+    "start": 66.316,
+    "end": 66.376,
+    "confidence": 0.831
+  },
+  {
+    "word": "you,",
+    "start": 66.416,
+    "end": 66.537,
+    "confidence": 0.404
+  },
+  {
+    "word": "it's",
+    "start": 66.577,
+    "end": 66.657,
+    "confidence": 0.278
+  },
+  {
+    "word": "important",
+    "start": 66.717,
+    "end": 66.978,
+    "confidence": 0.63
+  },
+  {
+    "word": "that",
+    "start": 66.998,
+    "end": 67.079,
+    "confidence": 0.248
+  },
+  {
+    "word": "you",
+    "start": 67.099,
+    "end": 67.159,
+    "confidence": 0.002
+  },
+  {
+    "word": "tell",
+    "start": 67.179,
+    "end": 67.319,
+    "confidence": 0.909
+  },
+  {
+    "word": "me,",
+    "start": 67.36,
+    "end": 67.42,
+    "confidence": 0.979
+  },
+  {
+    "word": "alright?",
+    "start": 67.44,
+    "end": 67.661,
+    "confidence": 0.287
+  },
+  {
+    "word": "What's",
+    "start": 70.082,
+    "end": 70.245,
+    "confidence": 0.175
+  },
+  {
+    "word": "that",
+    "start": 70.266,
+    "end": 70.49,
+    "confidence": 0.603
+  },
+  {
+    "word": "in",
+    "start": 70.551,
+    "end": 70.653,
+    "confidence": 0.57
+  },
+  {
+    "word": "there?",
+    "start": 70.673,
+    "end": 70.877,
+    "confidence": 0.395
+  },
+  {
+    "word": "I",
+    "start": 74.453,
+    "end": 74.474,
+    "confidence": 0.005
+  },
+  {
+    "word": "don't",
+    "start": 74.494,
+    "end": 74.596,
+    "confidence": 0.004
+  },
+  {
+    "word": "even",
+    "start": 74.617,
+    "end": 74.719,
+    "confidence": 0.085
+  },
+  {
+    "word": "know",
+    "start": 74.739,
+    "end": 74.862,
+    "confidence": 0.295
+  },
+  {
+    "word": "what",
+    "start": 74.882,
+    "end": 74.964,
+    "confidence": 0.005
+  },
+  {
+    "word": "it",
+    "start": 75.025,
+    "end": 75.127,
+    "confidence": 0.74
+  },
+  {
+    "word": "is.",
+    "start": 75.148,
+    "end": 75.209,
+    "confidence": 0.007
+  },
+  {
+    "word": "What",
+    "start": 77.707,
+    "end": 77.828,
+    "confidence": 0.712
+  },
+  {
+    "word": "is",
+    "start": 77.889,
+    "end": 77.969,
+    "confidence": 0.636
+  },
+  {
+    "word": "that?",
+    "start": 77.989,
+    "end": 78.211,
+    "confidence": 0.483
+  },
+  {
+    "word": "Your",
+    "start": 79.478,
+    "end": 79.578,
+    "confidence": 0.12
+  },
+  {
+    "word": "balls",
+    "start": 79.598,
+    "end": 79.819,
+    "confidence": 0.601
+  },
+  {
+    "word": "aren't",
+    "start": 79.899,
+    "end": 80.04,
+    "confidence": 0.139
+  },
+  {
+    "word": "hard",
+    "start": 80.24,
+    "end": 80.501,
+    "confidence": 0.917
+  },
+  {
+    "word": "and",
+    "start": 80.521,
+    "end": 80.641,
+    "confidence": 0.574
+  },
+  {
+    "word": "square.",
+    "start": 80.682,
+    "end": 80.982,
+    "confidence": 0.915
+  },
+  {
+    "word": "Yeah,",
+    "start": 81.368,
+    "end": 81.533,
+    "confidence": 0.377
+  },
+  {
+    "word": "they",
+    "start": 81.574,
+    "end": 81.697,
+    "confidence": 0.219
+  },
+  {
+    "word": "are.",
+    "start": 81.718,
+    "end": 81.8,
+    "confidence": 0.478
+  },
+  {
+    "word": "Your",
+    "start": 82.55,
+    "end": 82.65,
+    "confidence": 0.475
+  },
+  {
+    "word": "balls",
+    "start": 82.67,
+    "end": 82.891,
+    "confidence": 0.714
+  },
+  {
+    "word": "are",
+    "start": 82.931,
+    "end": 82.992,
+    "confidence": 0.706
+  },
+  {
+    "word": "hard",
+    "start": 83.012,
+    "end": 83.172,
+    "confidence": 0.897
+  },
+  {
+    "word": "and",
+    "start": 83.192,
+    "end": 83.272,
+    "confidence": 0.461
+  },
+  {
+    "word": "square,",
+    "start": 83.293,
+    "end": 83.473,
+    "confidence": 0.461
+  },
+  {
+    "word": "eh?",
+    "start": 83.493,
+    "end": 83.574,
+    "confidence": 0.489
+  },
+  {
+    "word": "Oh,",
+    "start": 83.614,
+    "end": 83.674,
+    "confidence": 0.258
+  },
+  {
+    "word": "they're",
+    "start": 83.694,
+    "end": 83.854,
+    "confidence": 0.172
+  },
+  {
+    "word": "hard",
+    "start": 83.875,
+    "end": 83.975,
+    "confidence": 0.105
+  },
+  {
+    "word": "and",
+    "start": 83.995,
+    "end": 84.055,
+    "confidence": 0.157
+  },
+  {
+    "word": "square.",
+    "start": 84.075,
+    "end": 84.216,
+    "confidence": 0.096
+  },
+  {
+    "word": "get",
+    "start": 85.84,
+    "end": 85.982,
+    "confidence": 0.41
+  },
+  {
+    "word": "too",
+    "start": 86.003,
+    "end": 86.166,
+    "confidence": 0.498
+  },
+  {
+    "word": "bad",
+    "start": 86.206,
+    "end": 86.349,
+    "confidence": 0.516
+  },
+  {
+    "word": "Yeah.",
+    "start": 86.76,
+    "end": 86.95,
+    "confidence": 0.263
+  },
+  {
+    "word": "Yeah,",
+    "start": 88.341,
+    "end": 88.461,
+    "confidence": 0.146
+  },
+  {
+    "word": "I'm",
+    "start": 88.502,
+    "end": 88.622,
+    "confidence": 0.543
+  },
+  {
+    "word": "not",
+    "start": 88.662,
+    "end": 88.762,
+    "confidence": 0.565
+  },
+  {
+    "word": "convinced",
+    "start": 88.782,
+    "end": 89.344,
+    "confidence": 0.49
+  },
+  {
+    "word": "you",
+    "start": 89.364,
+    "end": 89.485,
+    "confidence": 0.344
+  },
+  {
+    "word": "haven't",
+    "start": 89.525,
+    "end": 89.745,
+    "confidence": 0.344
+  },
+  {
+    "word": "got",
+    "start": 89.786,
+    "end": 89.886,
+    "confidence": 0.304
+  },
+  {
+    "word": "something",
+    "start": 89.906,
+    "end": 90.087,
+    "confidence": 0.025
+  },
+  {
+    "word": "down",
+    "start": 90.107,
+    "end": 90.247,
+    "confidence": 0.59
+  },
+  {
+    "word": "there,",
+    "start": 90.267,
+    "end": 90.428,
+    "confidence": 0.352
+  },
+  {
+    "word": "mate,",
+    "start": 90.448,
+    "end": 90.548,
+    "confidence": 0.154
+  },
+  {
+    "word": "all",
+    "start": 90.628,
+    "end": 90.708,
+    "confidence": 0.172
+  },
+  {
+    "word": "right?",
+    "start": 90.729,
+    "end": 90.849,
+    "confidence": 0.11
+  },
+  {
+    "word": "So",
+    "start": 92.873,
+    "end": 93.033,
+    "confidence": 0.901
+  },
+  {
+    "word": "what",
+    "start": 93.053,
+    "end": 93.534,
+    "confidence": 0.359
+  },
+  {
+    "word": "will",
+    "start": 93.774,
+    "end": 93.974,
+    "confidence": 0.56
+  },
+  {
+    "word": "happen,",
+    "start": 93.994,
+    "end": 94.314,
+    "confidence": 0.654
+  },
+  {
+    "word": "you'll",
+    "start": 94.334,
+    "end": 94.474,
+    "confidence": 0.587
+  },
+  {
+    "word": "go",
+    "start": 94.494,
+    "end": 94.574,
+    "confidence": 0.6
+  },
+  {
+    "word": "back",
+    "start": 94.594,
+    "end": 94.714,
+    "confidence": 0.301
+  },
+  {
+    "word": "to",
+    "start": 94.734,
+    "end": 94.915,
+    "confidence": 0.77
+  },
+  {
+    "word": "the",
+    "start": 94.935,
+    "end": 94.995,
+    "confidence": 0.005
+  },
+  {
+    "word": "police",
+    "start": 95.295,
+    "end": 95.515,
+    "confidence": 0.283
+  },
+  {
+    "word": "station,",
+    "start": 95.535,
+    "end": 95.955,
+    "confidence": 0.703
+  },
+  {
+    "word": "you'll",
+    "start": 96.696,
+    "end": 96.836,
+    "confidence": 0.447
+  },
+  {
+    "word": "be",
+    "start": 96.856,
+    "end": 96.916,
+    "confidence": 0.932
+  },
+  {
+    "word": "strip-searched.",
+    "start": 96.936,
+    "end": 97.616,
+    "confidence": 0.779
+  },
+  {
+    "word": "If",
+    "start": 98.117,
+    "end": 98.177,
+    "confidence": 0.962
+  },
+  {
+    "word": "there's",
+    "start": 98.417,
+    "end": 98.557,
+    "confidence": 0.102
+  },
+  {
+    "word": "nothing",
+    "start": 98.577,
+    "end": 98.817,
+    "confidence": 0.853
+  },
+  {
+    "word": "there,",
+    "start": 98.837,
+    "end": 99.118,
+    "confidence": 0.632
+  },
+  {
+    "word": "it's",
+    "start": 99.218,
+    "end": 99.338,
+    "confidence": 0.679
+  },
+  {
+    "word": "fine,",
+    "start": 99.358,
+    "end": 99.678,
+    "confidence": 0.849
+  },
+  {
+    "word": "but",
+    "start": 99.718,
+    "end": 99.898,
+    "confidence": 0.592
+  },
+  {
+    "word": "that",
+    "start": 100.478,
+    "end": 100.659,
+    "confidence": 0.827
+  },
+  {
+    "word": "seems",
+    "start": 100.899,
+    "end": 101.139,
+    "confidence": 0.73
+  },
+  {
+    "word": "too",
+    "start": 101.339,
+    "end": 101.499,
+    "confidence": 0.913
+  },
+  {
+    "word": "hard",
+    "start": 101.539,
+    "end": 101.799,
+    "confidence": 0.941
+  },
+  {
+    "word": "to",
+    "start": 102.24,
+    "end": 102.32,
+    "confidence": 0.776
+  },
+  {
+    "word": "be,",
+    "start": 102.36,
+    "end": 102.44,
+    "confidence": 0.446
+  },
+  {
+    "word": "all",
+    "start": 102.48,
+    "end": 102.68,
+    "confidence": 0.502
+  },
+  {
+    "word": "right?",
+    "start": 102.7,
+    "end": 103.661,
+    "confidence": 0.628
+  },
+  {
+    "word": "Oi!",
+    "start": 106.212,
+    "end": 106.415,
+    "confidence": 0.747
+  },
+  {
+    "word": "Stand",
+    "start": 108.895,
+    "end": 109.055,
+    "confidence": 0.289
+  },
+  {
+    "word": "on",
+    "start": 109.075,
+    "end": 109.136,
+    "confidence": 0.278
+  },
+  {
+    "word": "the",
+    "start": 109.156,
+    "end": 109.216,
+    "confidence": 0.095
+  },
+  {
+    "word": "floor,",
+    "start": 109.236,
+    "end": 109.516,
+    "confidence": 0.536
+  },
+  {
+    "word": "stand",
+    "start": 109.536,
+    "end": 109.697,
+    "confidence": 0.333
+  },
+  {
+    "word": "on",
+    "start": 109.717,
+    "end": 109.757,
+    "confidence": 0.004
+  },
+  {
+    "word": "the",
+    "start": 109.777,
+    "end": 109.857,
+    "confidence": 0.248
+  },
+  {
+    "word": "floor",
+    "start": 109.877,
+    "end": 110.097,
+    "confidence": 0.642
+  },
+  {
+    "word": "now!",
+    "start": 110.157,
+    "end": 110.518,
+    "confidence": 0.906
+  },
+  {
+    "word": "WHAT",
+    "start": 111.612,
+    "end": 111.692,
+    "confidence": 0.22
+  },
+  {
+    "word": "ARE",
+    "start": 111.712,
+    "end": 111.772,
+    "confidence": 0.016
+  },
+  {
+    "word": "YOU",
+    "start": 111.792,
+    "end": 111.892,
+    "confidence": 0.965
+  },
+  {
+    "word": "DOING?!",
+    "start": 111.932,
+    "end": 112.133,
+    "confidence": 0.489
+  },
+  {
+    "word": "I'm",
+    "start": 112.193,
+    "end": 112.273,
+    "confidence": 0.425
+  },
+  {
+    "word": "on",
+    "start": 112.353,
+    "end": 112.433,
+    "confidence": 0.831
+  },
+  {
+    "word": "the",
+    "start": 112.473,
+    "end": 112.533,
+    "confidence": 0.06
+  },
+  {
+    "word": "floor,",
+    "start": 112.553,
+    "end": 112.773,
+    "confidence": 0.435
+  },
+  {
+    "word": "brother.",
+    "start": 112.793,
+    "end": 113.013,
+    "confidence": 0.292
+  },
+  {
+    "word": "I'm",
+    "start": 113.694,
+    "end": 113.754,
+    "confidence": 0.089
+  },
+  {
+    "word": "on",
+    "start": 113.774,
+    "end": 113.814,
+    "confidence": 0.001
+  },
+  {
+    "word": "the",
+    "start": 113.834,
+    "end": 113.894,
+    "confidence": 0.001
+  },
+  {
+    "word": "floor,",
+    "start": 113.954,
+    "end": 114.095,
+    "confidence": 0.11
+  },
+  {
+    "word": "brother.",
+    "start": 114.115,
+    "end": 114.275,
+    "confidence": 0.01
+  },
+  {
+    "word": "Right,",
+    "start": 114.315,
+    "end": 114.495,
+    "confidence": 0.23
+  },
+  {
+    "word": "you're",
+    "start": 114.515,
+    "end": 114.655,
+    "confidence": 0.812
+  },
+  {
+    "word": "under",
+    "start": 114.675,
+    "end": 114.815,
+    "confidence": 0.764
+  },
+  {
+    "word": "arrest",
+    "start": 114.855,
+    "end": 115.096,
+    "confidence": 0.834
+  },
+  {
+    "word": "for",
+    "start": 115.116,
+    "end": 115.256,
+    "confidence": 0.676
+  },
+  {
+    "word": "assault",
+    "start": 115.276,
+    "end": 115.476,
+    "confidence": 0.375
+  },
+  {
+    "word": "and",
+    "start": 115.516,
+    "end": 115.576,
+    "confidence": 0.136
+  },
+  {
+    "word": "emergency",
+    "start": 115.696,
+    "end": 116.016,
+    "confidence": 0.5
+  },
+  {
+    "word": "work.",
+    "start": 116.056,
+    "end": 116.197,
+    "confidence": 0.853
+  },
+  {
+    "word": "You",
+    "start": 116.217,
+    "end": 116.277,
+    "confidence": 0.934
+  },
+  {
+    "word": "do",
+    "start": 116.297,
+    "end": 116.337,
+    "confidence": 0.005
+  },
+  {
+    "word": "not",
+    "start": 116.357,
+    "end": 116.417,
+    "confidence": 0.034
+  },
+  {
+    "word": "have",
+    "start": 116.437,
+    "end": 116.517,
+    "confidence": 0.001
+  },
+  {
+    "word": "to",
+    "start": 116.537,
+    "end": 116.577,
+    "confidence": 0.0
+  },
+  {
+    "word": "say",
+    "start": 116.597,
+    "end": 116.657,
+    "confidence": 0.002
+  },
+  {
+    "word": "anything,",
+    "start": 116.677,
+    "end": 116.857,
+    "confidence": 0.239
+  },
+  {
+    "word": "mate.",
+    "start": 116.877,
+    "end": 116.997,
+    "confidence": 0.36
+  },
+  {
+    "word": "I'm",
+    "start": 117.017,
+    "end": 117.118,
+    "confidence": 0.326
+  },
+  {
+    "word": "on",
+    "start": 117.178,
+    "end": 117.258,
+    "confidence": 0.684
+  },
+  {
+    "word": "your",
+    "start": 117.278,
+    "end": 117.398,
+    "confidence": 0.741
+  },
+  {
+    "word": "fence.",
+    "start": 117.418,
+    "end": 117.638,
+    "confidence": 0.494
+  },
+  {
+    "word": "If",
+    "start": 117.678,
+    "end": 117.718,
+    "confidence": 0.061
+  },
+  {
+    "word": "you",
+    "start": 117.758,
+    "end": 117.818,
+    "confidence": 0.606
+  },
+  {
+    "word": "do",
+    "start": 117.838,
+    "end": 117.878,
+    "confidence": 0.026
+  },
+  {
+    "word": "not",
+    "start": 117.898,
+    "end": 117.958,
+    "confidence": 0.036
+  },
+  {
+    "word": "mention",
+    "start": 117.978,
+    "end": 118.159,
+    "confidence": 0.815
+  },
+  {
+    "word": "my",
+    "start": 118.179,
+    "end": 118.299,
+    "confidence": 0.179
+  },
+  {
+    "word": "question",
+    "start": 118.319,
+    "end": 118.539,
+    "confidence": 0.906
+  },
+  {
+    "word": "or",
+    "start": 118.559,
+    "end": 118.599,
+    "confidence": 0.0
+  },
+  {
+    "word": "something,",
+    "start": 118.619,
+    "end": 118.819,
+    "confidence": 0.277
+  },
+  {
+    "word": "you're",
+    "start": 118.839,
+    "end": 119.019,
+    "confidence": 0.152
+  },
+  {
+    "word": "not",
+    "start": 119.039,
+    "end": 119.1,
+    "confidence": 0.111
+  },
+  {
+    "word": "going",
+    "start": 119.12,
+    "end": 119.22,
+    "confidence": 0.016
+  },
+  {
+    "word": "to",
+    "start": 119.24,
+    "end": 119.28,
+    "confidence": 0.08
+  },
+  {
+    "word": "go",
+    "start": 119.3,
+    "end": 119.34,
+    "confidence": 0.018
+  },
+  {
+    "word": "to",
+    "start": 119.38,
+    "end": 119.42,
+    "confidence": 0.007
+  },
+  {
+    "word": "court.",
+    "start": 119.44,
+    "end": 119.64,
+    "confidence": 0.559
+  },
+  {
+    "word": "Anything",
+    "start": 120.101,
+    "end": 120.321,
+    "confidence": 0.172
+  },
+  {
+    "word": "you",
+    "start": 120.341,
+    "end": 120.421,
+    "confidence": 0.387
+  },
+  {
+    "word": "do,",
+    "start": 120.441,
+    "end": 120.501,
+    "confidence": 0.193
+  },
+  {
+    "word": "you",
+    "start": 120.541,
+    "end": 120.601,
+    "confidence": 0.002
+  },
+  {
+    "word": "say,",
+    "start": 120.621,
+    "end": 120.721,
+    "confidence": 0.308
+  },
+  {
+    "word": "may",
+    "start": 120.741,
+    "end": 120.801,
+    "confidence": 0.759
+  },
+  {
+    "word": "be",
+    "start": 120.861,
+    "end": 120.901,
+    "confidence": 0.43
+  },
+  {
+    "word": "given",
+    "start": 120.921,
+    "end": 121.041,
+    "confidence": 0.136
+  },
+  {
+    "word": "in",
+    "start": 121.081,
+    "end": 121.122,
+    "confidence": 0.518
+  },
+  {
+    "word": "evidence.",
+    "start": 121.162,
+    "end": 121.522,
+    "confidence": 0.961
+  },
+  {
+    "word": "Okay,",
+    "start": 122.209,
+    "end": 122.613,
+    "confidence": 0.579
+  },
+  {
+    "word": "cool.",
+    "start": 122.794,
+    "end": 123.097,
+    "confidence": 0.524
+  },
+  {
+    "word": "We've",
+    "start": 125.041,
+    "end": 125.203,
+    "confidence": 0.208
+  },
+  {
+    "word": "got",
+    "start": 125.243,
+    "end": 125.345,
+    "confidence": 0.429
+  },
+  {
+    "word": "a",
+    "start": 125.365,
+    "end": 125.385,
+    "confidence": 0.0
+  },
+  {
+    "word": "close",
+    "start": 125.406,
+    "end": 125.588,
+    "confidence": 0.249
+  },
+  {
+    "word": "up.",
+    "start": 125.608,
+    "end": 125.669,
+    "confidence": 0.051
+  },
+  {
+    "word": "Yeah,",
+    "start": 126.158,
+    "end": 126.36,
+    "confidence": 0.488
+  },
+  {
+    "word": "we'll",
+    "start": 127.046,
+    "end": 127.208,
+    "confidence": 0.813
+  },
+  {
+    "word": "get",
+    "start": 127.228,
+    "end": 127.309,
+    "confidence": 0.993
+  },
+  {
+    "word": "them",
+    "start": 127.329,
+    "end": 127.43,
+    "confidence": 0.195
+  },
+  {
+    "word": "to",
+    "start": 127.45,
+    "end": 127.551,
+    "confidence": 0.594
+  },
+  {
+    "word": "the",
+    "start": 127.571,
+    "end": 127.632,
+    "confidence": 0.239
+  },
+  {
+    "word": "back",
+    "start": 127.652,
+    "end": 127.813,
+    "confidence": 0.992
+  },
+  {
+    "word": "in",
+    "start": 127.874,
+    "end": 127.935,
+    "confidence": 0.758
+  },
+  {
+    "word": "a",
+    "start": 127.955,
+    "end": 127.975,
+    "confidence": 0.954
+  },
+  {
+    "word": "minute.",
+    "start": 127.995,
+    "end": 128.177,
+    "confidence": 0.882
+  },
+  {
+    "word": "That",
+    "start": 130.441,
+    "end": 130.522,
+    "confidence": 0.009
+  },
+  {
+    "word": "was",
+    "start": 130.542,
+    "end": 130.603,
+    "confidence": 0.014
+  },
+  {
+    "word": "a",
+    "start": 130.624,
+    "end": 130.644,
+    "confidence": 0.011
+  },
+  {
+    "word": "bit",
+    "start": 130.664,
+    "end": 130.725,
+    "confidence": 0.008
+  },
+  {
+    "word": "of",
+    "start": 130.745,
+    "end": 130.806,
+    "confidence": 0.224
+  },
+  {
+    "word": "a",
+    "start": 130.847,
+    "end": 130.888,
+    "confidence": 0.5
+  },
+  {
+    "word": "cheap",
+    "start": 130.908,
+    "end": 131.009,
+    "confidence": 0.003
+  },
+  {
+    "word": "shot,",
+    "start": 131.03,
+    "end": 131.192,
+    "confidence": 0.359
+  },
+  {
+    "word": "wasn't",
+    "start": 131.212,
+    "end": 131.354,
+    "confidence": 0.14
+  },
+  {
+    "word": "it",
+    "start": 131.375,
+    "end": 131.436,
+    "confidence": 0.602
+  },
+  {
+    "word": "mate?",
+    "start": 131.456,
+    "end": 131.659,
+    "confidence": 0.686
+  },
+  {
+    "word": "All",
+    "start": 133.17,
+    "end": 133.251,
+    "confidence": 0.171
+  },
+  {
+    "word": "right,",
+    "start": 133.331,
+    "end": 133.452,
+    "confidence": 0.302
+  },
+  {
+    "word": "take",
+    "start": 133.472,
+    "end": 133.553,
+    "confidence": 0.012
+  },
+  {
+    "word": "that",
+    "start": 133.573,
+    "end": 133.714,
+    "confidence": 0.287
+  },
+  {
+    "word": "out,",
+    "start": 133.774,
+    "end": 133.875,
+    "confidence": 0.374
+  },
+  {
+    "word": "mate.",
+    "start": 133.895,
+    "end": 134.056,
+    "confidence": 0.447
+  },
+  {
+    "word": "Oh,",
+    "start": 134.116,
+    "end": 134.197,
+    "confidence": 0.41
+  },
+  {
+    "word": "you",
+    "start": 134.237,
+    "end": 134.398,
+    "confidence": 0.841
+  },
+  {
+    "word": "scumbag.",
+    "start": 134.418,
+    "end": 134.981,
+    "confidence": 0.743
+  },
+  {
+    "word": "Mate,",
+    "start": 135.608,
+    "end": 135.752,
+    "confidence": 0.426
+  },
+  {
+    "word": "you",
+    "start": 135.772,
+    "end": 135.895,
+    "confidence": 0.375
+  },
+  {
+    "word": "just",
+    "start": 135.936,
+    "end": 136.018,
+    "confidence": 0.096
+  },
+  {
+    "word": "need",
+    "start": 136.038,
+    "end": 136.12,
+    "confidence": 0.02
+  },
+  {
+    "word": "me",
+    "start": 136.141,
+    "end": 136.202,
+    "confidence": 0.37
+  },
+  {
+    "word": "in",
+    "start": 136.223,
+    "end": 136.284,
+    "confidence": 0.222
+  },
+  {
+    "word": "the...",
+    "start": 136.305,
+    "end": 136.428,
+    "confidence": 0.207
+  },
+  {
+    "word": "No,",
+    "start": 137.066,
+    "end": 137.127,
+    "confidence": 0.332
+  },
+  {
+    "word": "no,",
+    "start": 137.147,
+    "end": 137.228,
+    "confidence": 0.387
+  },
+  {
+    "word": "I",
+    "start": 137.248,
+    "end": 137.268,
+    "confidence": 0.0
+  },
+  {
+    "word": "didn't.",
+    "start": 137.289,
+    "end": 137.491,
+    "confidence": 0.224
+  },
+  {
+    "word": "All",
+    "start": 137.512,
+    "end": 137.613,
+    "confidence": 0.212
+  },
+  {
+    "word": "right.",
+    "start": 137.633,
+    "end": 137.897,
+    "confidence": 0.588
+  },
+  {
+    "word": "Watch",
+    "start": 138.288,
+    "end": 138.449,
+    "confidence": 0.094
+  },
+  {
+    "word": "your",
+    "start": 138.469,
+    "end": 138.589,
+    "confidence": 0.892
+  },
+  {
+    "word": "hand",
+    "start": 138.629,
+    "end": 138.77,
+    "confidence": 0.99
+  },
+  {
+    "word": "because",
+    "start": 138.79,
+    "end": 138.951,
+    "confidence": 0.08
+  },
+  {
+    "word": "I",
+    "start": 139.031,
+    "end": 139.071,
+    "confidence": 0.329
+  },
+  {
+    "word": "can't",
+    "start": 139.091,
+    "end": 139.312,
+    "confidence": 0.605
+  },
+  {
+    "word": "see.",
+    "start": 139.332,
+    "end": 139.513,
+    "confidence": 0.742
+  },
+  {
+    "word": "My",
+    "start": 139.934,
+    "end": 140.035,
+    "confidence": 0.522
+  },
+  {
+    "word": "camera",
+    "start": 140.075,
+    "end": 140.297,
+    "confidence": 0.712
+  },
+  {
+    "word": "was",
+    "start": 140.337,
+    "end": 140.438,
+    "confidence": 0.68
+  },
+  {
+    "word": "rolling",
+    "start": 140.478,
+    "end": 140.7,
+    "confidence": 0.414
+  },
+  {
+    "word": "the",
+    "start": 140.72,
+    "end": 140.78,
+    "confidence": 0.193
+  },
+  {
+    "word": "whole",
+    "start": 140.8,
+    "end": 140.961,
+    "confidence": 0.502
+  },
+  {
+    "word": "time,",
+    "start": 140.981,
+    "end": 141.203,
+    "confidence": 0.356
+  },
+  {
+    "word": "mate,",
+    "start": 141.223,
+    "end": 141.364,
+    "confidence": 0.329
+  },
+  {
+    "word": "all",
+    "start": 141.384,
+    "end": 141.465,
+    "confidence": 0.164
+  },
+  {
+    "word": "right?",
+    "start": 141.485,
+    "end": 141.646,
+    "confidence": 0.312
+  },
+  {
+    "word": "Right",
+    "start": 143.182,
+    "end": 143.403,
+    "confidence": 0.342
+  },
+  {
+    "word": "mate,",
+    "start": 143.424,
+    "end": 143.524,
+    "confidence": 0.076
+  },
+  {
+    "word": "just",
+    "start": 143.544,
+    "end": 143.685,
+    "confidence": 0.75
+  },
+  {
+    "word": "to",
+    "start": 143.706,
+    "end": 143.806,
+    "confidence": 0.79
+  },
+  {
+    "word": "confirm,",
+    "start": 143.826,
+    "end": 144.269,
+    "confidence": 0.939
+  },
+  {
+    "word": "you're",
+    "start": 144.41,
+    "end": 144.531,
+    "confidence": 0.308
+  },
+  {
+    "word": "under",
+    "start": 144.551,
+    "end": 144.692,
+    "confidence": 0.529
+  },
+  {
+    "word": "arrest",
+    "start": 144.712,
+    "end": 144.934,
+    "confidence": 0.702
+  },
+  {
+    "word": "for",
+    "start": 144.974,
+    "end": 145.075,
+    "confidence": 0.752
+  },
+  {
+    "word": "assault",
+    "start": 145.095,
+    "end": 145.296,
+    "confidence": 0.348
+  },
+  {
+    "word": "on",
+    "start": 145.316,
+    "end": 145.377,
+    "confidence": 0.402
+  },
+  {
+    "word": "an",
+    "start": 145.417,
+    "end": 145.457,
+    "confidence": 0.176
+  },
+  {
+    "word": "emergency",
+    "start": 145.477,
+    "end": 145.719,
+    "confidence": 0.105
+  },
+  {
+    "word": "worker,",
+    "start": 145.759,
+    "end": 146.041,
+    "confidence": 0.706
+  },
+  {
+    "word": "right?",
+    "start": 146.061,
+    "end": 146.222,
+    "confidence": 0.88
+  },
+  {
+    "word": "If",
+    "start": 154.758,
+    "end": 154.798,
+    "confidence": 0.007
+  },
+  {
+    "word": "you",
+    "start": 154.819,
+    "end": 154.879,
+    "confidence": 0.002
+  },
+  {
+    "word": "take",
+    "start": 154.9,
+    "end": 155.041,
+    "confidence": 0.68
+  },
+  {
+    "word": "care",
+    "start": 155.062,
+    "end": 155.143,
+    "confidence": 0.014
+  },
+  {
+    "word": "of",
+    "start": 155.163,
+    "end": 155.224,
+    "confidence": 0.104
+  },
+  {
+    "word": "me,",
+    "start": 155.244,
+    "end": 155.325,
+    "confidence": 0.598
+  },
+  {
+    "word": "I'll",
+    "start": 155.345,
+    "end": 155.446,
+    "confidence": 0.62
+  },
+  {
+    "word": "give",
+    "start": 155.467,
+    "end": 155.548,
+    "confidence": 0.987
+  },
+  {
+    "word": "you",
+    "start": 155.568,
+    "end": 155.649,
+    "confidence": 0.691
+  },
+  {
+    "word": "that,",
+    "start": 155.669,
+    "end": 155.791,
+    "confidence": 0.943
+  },
+  {
+    "word": "mate.",
+    "start": 155.811,
+    "end": 155.993,
+    "confidence": 0.364
+  },
+  {
+    "word": "I",
+    "start": 156.586,
+    "end": 156.889,
+    "confidence": 0.457
+  },
+  {
+    "word": "honestly",
+    "start": 157.293,
+    "end": 157.596,
+    "confidence": 0.934
+  },
+  {
+    "word": "don't",
+    "start": 157.637,
+    "end": 157.758,
+    "confidence": 0.879
+  },
+  {
+    "word": "know",
+    "start": 157.778,
+    "end": 157.879,
+    "confidence": 0.898
+  },
+  {
+    "word": "what",
+    "start": 157.899,
+    "end": 158.0,
+    "confidence": 0.868
+  },
+  {
+    "word": "you",
+    "start": 158.02,
+    "end": 158.081,
+    "confidence": 0.81
+  },
+  {
+    "word": "were",
+    "start": 158.101,
+    "end": 158.182,
+    "confidence": 0.098
+  },
+  {
+    "word": "thinking",
+    "start": 158.202,
+    "end": 158.485,
+    "confidence": 0.926
+  },
+  {
+    "word": "then.",
+    "start": 158.525,
+    "end": 158.646,
+    "confidence": 0.949
+  },
+  {
+    "word": "You've",
+    "start": 159.77,
+    "end": 159.911,
+    "confidence": 0.06
+  },
+  {
+    "word": "got",
+    "start": 159.952,
+    "end": 160.052,
+    "confidence": 0.662
+  },
+  {
+    "word": "to",
+    "start": 160.073,
+    "end": 160.113,
+    "confidence": 0.496
+  },
+  {
+    "word": "try",
+    "start": 160.153,
+    "end": 160.355,
+    "confidence": 0.86
+  },
+  {
+    "word": "it,",
+    "start": 160.395,
+    "end": 160.456,
+    "confidence": 0.429
+  },
+  {
+    "word": "brother.",
+    "start": 160.476,
+    "end": 160.678,
+    "confidence": 0.145
+  },
+  {
+    "word": "What",
+    "start": 161.254,
+    "end": 161.396,
+    "confidence": 0.283
+  },
+  {
+    "word": "do",
+    "start": 161.416,
+    "end": 161.477,
+    "confidence": 0.241
+  },
+  {
+    "word": "you",
+    "start": 161.498,
+    "end": 161.558,
+    "confidence": 0.0
+  },
+  {
+    "word": "have?",
+    "start": 161.579,
+    "end": 161.72,
+    "confidence": 0.47
+  },
+  {
+    "word": "Nothing",
+    "start": 163.014,
+    "end": 163.235,
+    "confidence": 0.899
+  },
+  {
+    "word": "was",
+    "start": 163.255,
+    "end": 163.336,
+    "confidence": 0.95
+  },
+  {
+    "word": "ever",
+    "start": 163.376,
+    "end": 163.476,
+    "confidence": 0.976
+  },
+  {
+    "word": "going",
+    "start": 163.497,
+    "end": 163.617,
+    "confidence": 0.244
+  },
+  {
+    "word": "to",
+    "start": 163.637,
+    "end": 163.678,
+    "confidence": 0.0
+  },
+  {
+    "word": "happen,",
+    "start": 163.698,
+    "end": 163.859,
+    "confidence": 0.332
+  },
+  {
+    "word": "was",
+    "start": 163.879,
+    "end": 163.979,
+    "confidence": 0.878
+  },
+  {
+    "word": "it?",
+    "start": 164.08,
+    "end": 164.221,
+    "confidence": 0.404
+  },
+  {
+    "word": "I",
+    "start": 164.321,
+    "end": 164.402,
+    "confidence": 0.763
+  },
+  {
+    "word": "know.",
+    "start": 164.422,
+    "end": 164.583,
+    "confidence": 0.708
+  }
+]

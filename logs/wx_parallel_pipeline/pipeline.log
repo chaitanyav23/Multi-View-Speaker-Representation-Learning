@@ -1,0 +1,15 @@
+2026-05-28 06:52:59 | INFO     | parallel_pipeline | --- Processing bwc ---
+2026-05-28 06:53:10 | ERROR    | parallel_pipeline | Diarization Failed for bwc: Object of type Segment is not JSON serializable
+2026-05-28 06:53:15 | ERROR    | parallel_pipeline | ASR Failed for bwc: No default align-model for language: cy
+2026-05-28 06:57:27 | INFO     | parallel_pipeline | --- Processing bwc ---
+2026-05-28 06:57:37 | ERROR    | parallel_pipeline | Diarization Failed for bwc: Object of type Segment is not JSON serializable
+2026-05-28 06:57:45 | INFO     | parallel_pipeline | ASR Complete: bwc (17.50s)
+2026-05-28 06:57:45 | INFO     | parallel_pipeline | --- Processing podcast ---
+2026-05-28 06:58:41 | ERROR    | parallel_pipeline | Diarization Failed for podcast: Object of type Segment is not JSON serializable
+2026-05-28 06:59:01 | INFO     | parallel_pipeline | ASR Complete: podcast (75.98s)
+2026-05-28 07:25:12 | INFO     | parallel_pipeline | --- Processing bwc ---
+2026-05-28 07:25:23 | INFO     | parallel_pipeline | Diarization Complete: bwc (10.54s)
+2026-05-28 07:25:30 | INFO     | parallel_pipeline | ASR Complete: bwc (17.52s)
+2026-05-28 07:25:30 | INFO     | parallel_pipeline | --- Processing podcast ---
+2026-05-28 07:26:24 | INFO     | parallel_pipeline | Diarization Complete: podcast (54.31s)
+2026-05-28 07:26:46 | INFO     | parallel_pipeline | ASR Complete: podcast (75.79s)

@@ -1,0 +1,8 @@
+2026-05-27 12:13:34 | INFO     | bwc_pipeline.wer | WER bwc.txt: 0.3443 (S=51 I=12 D=104, N=485)
+2026-05-27 12:13:42 | INFO     | bwc_pipeline.wer | WER podcast.txt: 0.0754 (S=32 I=15 D=138, N=2455)
+2026-05-27 12:13:42 | INFO     | bwc_pipeline.wer | Overall WER: 0.1197 (S=83 I=27 D=242, N=2940)
+2026-05-27 12:13:42 | INFO     | bwc_pipeline.wer | Saved WER CSV → /home/ubuntu/marston/marston/reports/wer_eval.csv
+2026-05-27 14:49:47 | INFO     | bwc_pipeline.wer | WER bwc.txt: 0.2907 (S=52 I=16 D=73, N=485)
+2026-05-27 14:49:58 | INFO     | bwc_pipeline.wer | WER podcast.txt: 0.0578 (S=28 I=17 D=97, N=2455)
+2026-05-27 14:49:58 | INFO     | bwc_pipeline.wer | Overall WER: 0.0963 (S=80 I=33 D=170, N=2940)
+2026-05-27 14:49:58 | INFO     | bwc_pipeline.wer | Saved WER CSV → /home/ubuntu/marston/marston/reports/wer_eval.csv

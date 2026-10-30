@@ -1,0 +1,9 @@
+# phase12_karen_evaluation Metrics Tables
+
+## vad_metrics.csv
+
+| accuracy | precision | recall | f1 | miss_rate | false_alarm_rate |
+| --- | --- | --- | --- | --- | --- |
+| 0.8192058037418862 | 0.9018443926224295 | 0.8978471929084002 | 0.8998413537810682 | 0.10215280709159984 | 0.926 |
+
+

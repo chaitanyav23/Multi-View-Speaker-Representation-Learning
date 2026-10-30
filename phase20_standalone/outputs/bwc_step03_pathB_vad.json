@@ -1,0 +1,23 @@
+{
+  "stage": "pathB_improved_vad",
+  "timestamp_utc": "2026-07-15T07:25:28.797843Z",
+  "inputs": [
+    "/home/ubuntu/marston/phase20_standalone/audio/bwc_normalized.wav"
+  ],
+  "outputs": [
+    "/home/ubuntu/marston/phase20_standalone/grounding/bwc_pathB_vad.json"
+  ],
+  "evaluation": {
+    "number_of_merges": 1,
+    "initial_merges": 1,
+    "final_merges": 0,
+    "number_of_splits": 0,
+    "long_segments_detected": 0,
+    "long_segments_after_processing": 0,
+    "average_chunk_duration": 2.636121951219512,
+    "maximum_chunk_duration": 11.188,
+    "minimum_chunk_duration": 0.236,
+    "processing_time": 3.493281602859497
+  },
+  "probability_file": "/home/ubuntu/marston/phase20_standalone/grounding/bwc_pathB_vad_probabilities.json"
+}

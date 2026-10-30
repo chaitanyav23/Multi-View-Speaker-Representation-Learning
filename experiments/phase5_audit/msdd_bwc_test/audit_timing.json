@@ -1,0 +1,6 @@
+{
+  "Stage 1 & 2: RTTM/JSON": 37.33049440383911,
+  "Stage 3 & 4: ASR Merge/Transcript": 33.69287395477295,
+  "Stage 5: Evaluation": 0.8400835990905762,
+  "Stage 6: Diagnostics": 4.338876724243164
+}

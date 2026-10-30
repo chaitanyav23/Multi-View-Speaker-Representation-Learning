@@ -1,0 +1,5 @@
+2026-05-28 06:31:19 | INFO     | whisperx_vad | Using device: cuda:0
+2026-05-28 06:31:23 | INFO     | whisperx_vad | Processed bwc.wav: 68 segments in 3.54s
+2026-05-28 06:31:38 | INFO     | whisperx_vad | Processed podcast.wav: 310 segments in 14.43s
+2026-05-28 06:38:54 | INFO     | whisperx_vad | Processed bwc.wav: 76 segments in 6.88s
+2026-05-28 06:39:23 | INFO     | whisperx_vad | Processed podcast.wav: 263 segments in 29.01s

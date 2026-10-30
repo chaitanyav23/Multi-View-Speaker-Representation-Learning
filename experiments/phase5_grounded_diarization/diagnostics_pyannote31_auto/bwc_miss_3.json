@@ -1,0 +1,8 @@
+{
+  "type": "miss",
+  "start": 6.2,
+  "context_start": 4.2,
+  "context_end": 8.2,
+  "ref_speaker": "SPEAKER_01",
+  "pred_speaker": null
+}

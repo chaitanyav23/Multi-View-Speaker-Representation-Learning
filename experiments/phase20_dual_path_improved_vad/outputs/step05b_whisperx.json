@@ -1,0 +1,15 @@
+{
+  "stage": "whisperx",
+  "timestamp_utc": "2026-07-09T08:57:48.363413Z",
+  "inputs": [
+    "/home/ubuntu/marston/experiments/phase20_dual_path_improved_vad/audio/bwc_normalized.wav",
+    "/home/ubuntu/marston/experiments/phase20_dual_path_improved_vad/grounding/pathB_vad.json"
+  ],
+  "outputs": [
+    "/home/ubuntu/marston/experiments/phase20_dual_path_improved_vad/transcription/aligned_words.json"
+  ],
+  "evaluation": {
+    "words": 465,
+    "model": "large-v3"
+  }
+}

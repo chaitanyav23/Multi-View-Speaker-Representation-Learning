@@ -1,0 +1,85 @@
+# ============================================================
+# BWC Conversational Intelligence Pipeline — Stage 1 Config
+# configs/stage1_config.yaml
+# ============================================================
+
+pipeline:
+  name: "bwc_stage1"
+  version: "1.0.0"
+  description: "Video extraction + VAD for body-worn camera audio"
+
+# ----- Directory Paths ----------------------------------------
+paths:
+  raw_video:        "raw_video"
+  raw_audio:        "raw_audio"
+  processed_audio:  "processed_audio"
+  vad_outputs:      "vad_outputs"
+  speech_segments:  "speech_segments"
+  logs:             "logs"
+  reports:          "reports"
+
+# ----- Audio Extraction ---------------------------------------
+extraction:
+  target_sample_rate: 16000          # Hz — required by Silero VAD
+  channels: 1                        # mono
+  codec: "pcm_s16le"                 # 16-bit signed PCM little-endian
+  output_format: "wav"
+  supported_video_extensions:
+    - ".mp4"
+    - ".mkv"
+    - ".avi"
+    - ".mov"
+    - ".wmv"
+    - ".flv"
+    - ".webm"
+    - ".m4v"
+    - ".ts"
+  ffmpeg_loglevel: "error"           # suppress ffmpeg stdout noise
+  overwrite_existing: false          # skip already-extracted files
+  num_workers: 4                     # parallel ffmpeg processes
+
+# ----- Silero VAD ---------------------------------------------
+vad:
+  model_repo: "external/silero-vad"
+  model_name: "silero_vad"
+  use_onnx: false                    # set true for CPU-only onnxruntime path
+
+  # Core thresholds
+  threshold: 0.35                     # speech probability threshold [0–1]
+  min_speech_duration_ms: 250        # discard segments shorter than this
+  min_silence_duration_ms: 100       # minimum silence between segments
+  window_size_samples: 512           # 32ms @ 16kHz; must be 512 | 1024 | 1536
+  speech_pad_ms: 300                  # padding added to each segment boundary
+
+  # Chunking for long audio (avoids GPU OOM)
+  chunk_size_sec: 60                 # process audio in N-second chunks
+  chunk_overlap_sec: 1               # overlap to avoid boundary truncation
+
+  # Merging / post-processing
+  merge_gap_sec: 1                 # merge segments separated by < N seconds
+  min_segment_duration_sec: 0.2      # drop merged segments shorter than this
+  max_segment_duration_sec: 30.0     # flag segments longer than this (potential FP)
+
+  # Analytics thresholds
+  short_fragment_threshold_sec: 0.5  # count segments below this as "short"
+  long_silence_threshold_sec: 5.0    # count silences above this as "long"
+
+  # Output options
+  save_speech_clips: true            # export individual segment WAV clips
+  export_json: true
+  export_csv_row: true
+
+# ----- Device -----------------------------------------------
+device:
+  prefer_cuda: true
+  cuda_device_index: 0               # which GPU (0-indexed)
+  fallback_to_cpu: true
+
+# ----- Logging -----------------------------------------------
+logging:
+  level: "INFO"                      # DEBUG | INFO | WARNING | ERROR
+  log_to_file: true
+  log_filename: "stage1_pipeline.log"
+  max_bytes: 10485760                # 10 MB
+  backup_count: 5
+  rich_console: true                 # coloured console output via rich

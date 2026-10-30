@@ -1,0 +1,14 @@
+{
+    "window_start": 397.5,
+    "window_end": 402.5,
+    "num_embeddings": 7,
+    "transitions": 3,
+    "active_speakers": [
+        "speaker_1",
+        "speaker_0",
+        "speaker_2"
+    ],
+    "pca_explained_var": 0.0,
+    "mean_velocity": 0.7374336123466492,
+    "fragmentation_score": 0.42857142857142855
+}

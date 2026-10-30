@@ -1,0 +1,3 @@
+timestamp,input_path,output_path,gain_db_applied,low_cutoff,high_cutoff,filter_order,normalized
+2026-06-01T12:31:42.287681,raw_audio/bwc.wav,experiments/phase4_grounded_enhancement/audio_normalized/bwc.wav,1.62,,,4,True
+2026-06-01T12:31:42.663552,raw_audio/podcast.wav,experiments/phase4_grounded_enhancement/audio_normalized/podcast.wav,3.58,,,4,True

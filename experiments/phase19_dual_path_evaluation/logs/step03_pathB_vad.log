@@ -1,0 +1,2 @@
+2026-07-09 06:49:51,034 INFO Loading Pyannote VAD on cuda
+2026-07-09 06:49:54,489 INFO Saved 41 VAD segments to /home/ubuntu/marston/experiments/phase19_dual_path_evaluation/grounding/pathB_vad.json

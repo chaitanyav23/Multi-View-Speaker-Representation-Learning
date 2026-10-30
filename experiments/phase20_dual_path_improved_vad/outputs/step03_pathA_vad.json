@@ -1,0 +1,23 @@
+{
+  "stage": "pathA_improved_vad",
+  "timestamp_utc": "2026-07-09T08:56:24.249333Z",
+  "inputs": [
+    "/home/ubuntu/marston/experiments/phase20_dual_path_improved_vad/audio/bwc_dfn.wav"
+  ],
+  "outputs": [
+    "/home/ubuntu/marston/experiments/phase20_dual_path_improved_vad/grounding/pathA_vad.json"
+  ],
+  "evaluation": {
+    "number_of_merges": 1,
+    "initial_merges": 1,
+    "final_merges": 0,
+    "number_of_splits": 0,
+    "long_segments_detected": 0,
+    "long_segments_after_processing": 0,
+    "average_chunk_duration": 2.354760869565218,
+    "maximum_chunk_duration": 12.049,
+    "minimum_chunk_duration": 0.202,
+    "processing_time": 4.5149476528167725
+  },
+  "probability_file": "/home/ubuntu/marston/experiments/phase20_dual_path_improved_vad/grounding/pathA_vad_probabilities.json"
+}

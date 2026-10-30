@@ -1,0 +1,3514 @@
+# Global Directory Tree
+
+```
+marston/
+├── BWC_PIPELINE_RESEARCH_REPORT.md
+├── CODE_DERIVED_PIPELINE_AUDIT.md
+├── COMPLETE_TECHNICAL_RESEARCH_REPORT.md
+├── HLA.drawio.png
+├── KAREN_VS_PHASE11A_MSDD_AUDIT.md
+├── MSDD_11A_CONFIG_AUDIT.md
+├── MSDD_KAREN_AUDIT_REPORT.md
+├── README.md
+├── REPORT_ENHANCEMENTS_AND_APPENDICES.md
+├── alignments
+│   ├── bwc_aligned.json
+│   └── podcast_aligned.json
+├── all_csv_data.txt
+├── analyze_diarization_errors.py
+├── append_part2.py
+├── append_part3.py
+├── append_part4.py
+├── asr_outputs_wx
+│   ├── bwc_asr.json
+│   └── podcast_asr.json
+├── asr_outputs_wx_custom
+│   ├── bwc_aligned.json
+│   └── podcast_aligned.json
+├── asr_outputs_wx_custom_conditioned
+│   ├── bwc_aligned.json
+│   └── podcast_aligned.json
+├── audio_audit.py
+├── check.py
+├── compare_pipelines_v3.py
+├── configs
+│   └── stage1_config.yaml
+├── conversational_timeline
+├── convert_karen.py
+├── custom_pipeline_stage1_vad.py
+├── custom_pipeline_stage2_transcribe.py
+├── custom_pipeline_stage2_transcribe_conditioned.py
+├── custom_pipeline_stage3_align.py
+├── custom_pipeline_stage3_align_conditioned.py
+├── diarization
+│   ├── bwc_diarized.json
+│   └── podcast_diarized.json
+├── diarization_grounded_test
+│   ├── bwc_py31_grounded_diarized.json
+│   ├── bwc_wx_grounded_diarized.json
+│   ├── podcast_py31_grounded_diarized.json
+│   └── podcast_wx_grounded_diarized.json
+├── diarization_outputs_pyannote_3.1
+│   ├── bwc_diarization.json
+│   └── podcast_diarization.json
+├── diarization_outputs_wx
+│   ├── bwc_diarization.json
+│   └── podcast_diarization.json
+├── diariztion_tree_phase13.txt
+├── error_analysis_A
+│   ├── bwc
+│   │   ├── error_000_MISS_0.25_0.46.wav
+│   │   ├── error_001_MISS_3.75_3.79.wav
+│   │   ├── error_002_MISS_5.97_6.27.wav
+│   │   ├── error_003_CONFUSION_10.25_10.58.wav
+│   │   ├── error_004_MISS_10.58_10.75.wav
+│   │   ├── error_005_FALSE_ALARM_11.25_11.75.wav
+│   │   ├── error_006_MISS_17.33_17.66.wav
+│   │   ├── error_007_FALSE_ALARM_23.25_23.34.wav
+│   │   ├── error_008_CONFUSION_24.25_24.75.wav
+│   │   ├── error_009_MISS_26.34_26.36.wav
+│   │   ├── error_010_MISS_32.86_32.88.wav
+│   │   ├── error_011_FALSE_ALARM_35.28_35.74.wav
+│   │   ├── error_012_MISS_40.25_40.26.wav
+│   │   ├── error_013_CONFUSION_40.26_40.75.wav
+│   │   ├── error_014_MISS_41.42_41.44.wav
+│   │   ├── error_015_FALSE_ALARM_42.25_43.12.wav
+│   │   ├── error_016_CONFUSION_47.25_50.63.wav
+│   │   ├── error_017_MISS_50.63_50.69.wav
+│   │   ├── error_018_FALSE_ALARM_52.25_55.75.wav
+│   │   ├── error_019_CONFUSION_56.25_56.68.wav
+│   │   ├── error_020_MISS_56.68_56.82.wav
+│   │   ├── error_021_CONFUSION_56.82_58.46.wav
+│   │   ├── error_022_MISS_58.46_58.56.wav
+│   │   ├── error_023_CONFUSION_58.56_58.75.wav
+│   │   ├── error_024_FALSE_ALARM_59.25_59.75.wav
+│   │   ├── error_025_MISS_64.74_64.98.wav
+│   │   ├── error_026_FALSE_ALARM_67.25_67.76.wav
+│   │   ├── error_027_MISS_69.25_69.75.wav
+│   │   ├── error_028_FALSE_ALARM_70.25_70.87.wav
+│   │   ├── error_029_MISS_72.25_72.75.wav
+│   │   ├── error_030_MISS_74.25_77.70.wav
+│   │   ├── error_031_CONFUSION_78.25_78.75.wav
+│   │   ├── error_032_FALSE_ALARM_81.25_81.75.wav
+│   │   ├── error_033_FALSE_ALARM_83.25_87.75.wav
+│   │   ├── error_034_FALSE_ALARM_95.25_95.75.wav
+│   │   ├── error_035_MISS_102.52_102.75.wav
+│   │   ├── error_036_FALSE_ALARM_103.46_103.74.wav
+│   │   ├── error_037_FALSE_ALARM_106.18_106.38.wav
+│   │   ├── error_038_CONFUSION_109.25_109.53.wav
+│   │   ├── error_039_MISS_109.53_109.56.wav
+│   │   ├── error_040_CONFUSION_109.56_110.39.wav
+│   │   ├── error_041_MISS_110.39_110.41.wav
+│   │   ├── error_042_CONFUSION_110.41_111.61.wav
+│   │   ├── error_043_MISS_111.61_111.63.wav
+│   │   ├── error_044_CONFUSION_111.63_111.75.wav
+│   │   ├── error_045_MISS_113.03_113.41.wav
+│   │   ├── error_046_CONFUSION_114.25_114.35.wav
+│   │   ├── error_047_MISS_114.35_114.37.wav
+│   │   ├── error_048_MISS_116.19_116.21.wav
+│   │   ├── error_049_MISS_117.13_117.15.wav
+│   │   ├── error_050_MISS_117.59_117.67.wav
+│   │   ├── error_051_MISS_119.69_120.09.wav
+│   │   ├── error_052_MISS_121.53_121.75.wav
+│   │   ├── error_053_FALSE_ALARM_122.25_122.51.wav
+│   │   ├── error_054_FALSE_ALARM_122.93_125.57.wav
+│   │   ├── error_055_MISS_126.35_127.05.wav
+│   │   ├── error_056_MISS_128.19_130.46.wav
+│   │   ├── error_057_MISS_131.66_131.68.wav
+│   │   ├── error_058_FALSE_ALARM_133.25_133.75.wav
+│   │   ├── error_059_CONFUSION_134.25_134.75.wav
+│   │   ├── error_060_MISS_135.25_135.59.wav
+│   │   ├── error_061_FALSE_ALARM_136.25_136.73.wav
+│   │   ├── error_062_CONFUSION_137.25_137.51.wav
+│   │   ├── error_063_MISS_137.51_137.59.wav
+│   │   ├── error_064_MISS_138.25_138.27.wav
+│   │   ├── error_065_CONFUSION_138.27_138.75.wav
+│   │   ├── error_066_CONFUSION_139.25_139.55.wav
+│   │   ├── error_067_MISS_139.55_139.91.wav
+│   │   ├── error_068_MISS_141.69_143.13.wav
+│   │   ├── error_069_FALSE_ALARM_146.25_146.28.wav
+│   │   ├── error_070_FALSE_ALARM_149.18_149.38.wav
+│   │   ├── error_071_MISS_150.25_154.81.wav
+│   │   ├── error_072_MISS_156.51_157.05.wav
+│   │   ├── error_073_FALSE_ALARM_158.25_158.63.wav
+│   │   ├── error_074_MISS_160.68_160.75.wav
+│   │   ├── error_075_MISS_162.60_162.75.wav
+│   │   └── error_076_FALSE_ALARM_164.32_164.58.wav
+│   ├── diarization_errors.csv
+│   └── podcast
+│       ├── error_000_MISS_0.25_0.30.wav
+│       ├── error_001_MISS_27.64_28.16.wav
+│       ├── error_002_MISS_33.43_34.25.wav
+│       ├── error_003_MISS_38.81_39.11.wav
+│       ├── error_004_MISS_44.43_45.47.wav
+│       ├── error_005_MISS_50.73_51.67.wav
+│       ├── error_006_MISS_55.50_56.25.wav
+│       ├── error_007_MISS_60.44_60.75.wav
+│       ├── error_008_MISS_61.25_61.34.wav
+│       ├── error_009_MISS_61.82_61.86.wav
+│       ├── error_010_MISS_62.84_64.62.wav
+│       ├── error_011_MISS_70.24_70.36.wav
+│       ├── error_012_MISS_76.31_77.21.wav
+│       ├── error_013_MISS_83.26_83.73.wav
+│       ├── error_014_MISS_88.69_88.71.wav
+│       ├── error_015_MISS_99.86_100.26.wav
+│       ├── error_016_MISS_108.32_108.52.wav
+│       ├── error_017_MISS_109.70_110.60.wav
+│       ├── error_018_MISS_111.00_111.66.wav
+│       ├── error_019_MISS_121.67_122.27.wav
+│       ├── error_020_MISS_133.47_134.35.wav
+│       ├── error_021_MISS_139.45_139.86.wav
+│       ├── error_022_MISS_145.96_146.16.wav
+│       ├── error_023_MISS_147.42_147.96.wav
+│       ├── error_024_MISS_149.62_149.84.wav
+│       ├── error_025_MISS_151.92_152.58.wav
+│       ├── error_026_MISS_158.71_159.63.wav
+│       ├── error_027_MISS_169.04_169.90.wav
+│       ├── error_028_MISS_181.30_182.58.wav
+│       ├── error_029_MISS_187.33_187.77.wav
+│       ├── error_030_MISS_192.34_193.00.wav
+│       ├── error_031_MISS_197.44_197.56.wav
+│       ├── error_032_MISS_201.22_201.30.wav
+│       ├── error_033_MISS_202.22_202.70.wav
+│       ├── error_034_MISS_203.49_204.23.wav
+│       ├── error_035_MISS_214.34_215.19.wav
+│       ├── error_036_MISS_219.85_220.53.wav
+│       ├── error_037_MISS_227.04_228.16.wav
+│       ├── error_038_MISS_240.20_240.68.wav
+│       ├── error_039_MISS_244.36_245.62.wav
+│       ├── error_040_MISS_255.05_255.59.wav
+│       ├── error_041_MISS_256.87_257.23.wav
+│       ├── error_042_MISS_258.57_259.17.wav
+│       ├── error_043_MISS_260.41_260.45.wav
+│       ├── error_044_MISS_262.15_262.17.wav
+│       ├── error_045_MISS_265.01_265.05.wav
+│       ├── error_046_MISS_265.66_266.14.wav
+│       ├── error_047_MISS_270.56_271.14.wav
+│       ├── error_048_MISS_273.58_273.62.wav
+│       ├── error_049_MISS_290.61_291.10.wav
+│       ├── error_050_MISS_296.18_296.54.wav
+│       ├── error_051_CONFUSION_296.54_296.75.wav
+│       ├── error_052_MISS_297.66_297.76.wav
+│       ├── error_053_MISS_303.58_304.32.wav
+│       ├── error_054_MISS_305.44_305.46.wav
+│       ├── error_055_MISS_308.69_308.71.wav
+│       ├── error_056_MISS_310.21_310.23.wav
+│       ├── error_057_MISS_312.39_312.45.wav
+│       ├── error_058_MISS_313.31_313.51.wav
+│       ├── error_059_MISS_315.19_315.21.wav
+│       ├── error_060_CONFUSION_315.21_315.75.wav
+│       ├── error_061_FALSE_ALARM_316.25_316.75.wav
+│       ├── error_062_MISS_317.81_318.03.wav
+│       ├── error_063_MISS_322.53_322.81.wav
+│       ├── error_064_CONFUSION_322.81_323.07.wav
+│       ├── error_065_MISS_323.07_323.44.wav
+│       ├── error_066_MISS_324.78_325.38.wav
+│       ├── error_067_MISS_339.51_339.59.wav
+│       ├── error_068_MISS_345.73_346.16.wav
+│       ├── error_069_MISS_348.90_349.30.wav
+│       ├── error_070_MISS_360.97_361.21.wav
+│       ├── error_071_MISS_362.65_363.59.wav
+│       ├── error_072_MISS_368.75_369.41.wav
+│       ├── error_073_FALSE_ALARM_370.25_370.51.wav
+│       ├── error_074_FALSE_ALARM_372.25_372.75.wav
+│       ├── error_075_MISS_376.32_376.52.wav
+│       ├── error_076_MISS_378.25_378.36.wav
+│       ├── error_077_MISS_378.44_378.54.wav
+│       ├── error_078_MISS_383.18_383.20.wav
+│       ├── error_079_MISS_383.82_384.12.wav
+│       ├── error_080_MISS_385.28_385.30.wav
+│       ├── error_081_MISS_387.00_387.69.wav
+│       ├── error_082_MISS_392.49_392.89.wav
+│       ├── error_083_MISS_396.91_397.36.wav
+│       ├── error_084_MISS_398.92_399.04.wav
+│       ├── error_085_MISS_401.30_401.68.wav
+│       ├── error_086_MISS_406.84_407.30.wav
+│       ├── error_087_MISS_415.42_415.75.wav
+│       ├── error_088_FALSE_ALARM_419.25_419.38.wav
+│       ├── error_089_FALSE_ALARM_419.60_419.75.wav
+│       ├── error_090_MISS_422.98_423.45.wav
+│       ├── error_091_MISS_428.81_428.99.wav
+│       ├── error_092_MISS_432.72_433.16.wav
+│       ├── error_093_MISS_437.62_438.54.wav
+│       ├── error_094_MISS_439.42_439.44.wav
+│       ├── error_095_MISS_440.46_440.58.wav
+│       ├── error_096_CONFUSION_440.58_440.75.wav
+│       ├── error_097_MISS_441.60_441.94.wav
+│       ├── error_098_MISS_447.40_447.75.wav
+│       ├── error_099_MISS_449.64_450.30.wav
+│       ├── error_100_MISS_451.54_451.75.wav
+│       ├── error_101_CONFUSION_452.25_452.82.wav
+│       ├── error_102_MISS_452.82_453.16.wav
+│       ├── error_103_CONFUSION_453.16_453.56.wav
+│       ├── error_104_MISS_453.56_453.58.wav
+│       ├── error_105_MISS_454.78_454.80.wav
+│       ├── error_106_MISS_456.72_456.96.wav
+│       ├── error_107_MISS_457.86_457.88.wav
+│       ├── error_108_MISS_459.19_459.71.wav
+│       ├── error_109_MISS_462.81_463.21.wav
+│       ├── error_110_MISS_469.41_469.43.wav
+│       ├── error_111_MISS_474.56_474.58.wav
+│       ├── error_112_MISS_475.34_475.75.wav
+│       ├── error_113_MISS_476.25_476.26.wav
+│       ├── error_114_MISS_478.00_478.37.wav
+│       ├── error_115_MISS_481.75_481.77.wav
+│       ├── error_116_MISS_483.16_483.36.wav
+│       ├── error_117_MISS_486.36_486.38.wav
+│       ├── error_118_MISS_492.58_492.74.wav
+│       ├── error_119_MISS_495.61_496.49.wav
+│       ├── error_120_MISS_500.45_500.47.wav
+│       ├── error_121_MISS_505.06_505.57.wav
+│       ├── error_122_MISS_509.33_510.11.wav
+│       ├── error_123_MISS_515.00_515.02.wav
+│       ├── error_124_MISS_518.34_518.36.wav
+│       ├── error_125_MISS_522.80_523.30.wav
+│       ├── error_126_MISS_529.09_529.74.wav
+│       ├── error_127_MISS_533.30_533.36.wav
+│       ├── error_128_MISS_533.66_533.70.wav
+│       ├── error_129_MISS_534.42_534.76.wav
+│       ├── error_130_MISS_536.38_536.40.wav
+│       ├── error_131_MISS_537.12_537.14.wav
+│       ├── error_132_MISS_538.68_538.70.wav
+│       ├── error_133_MISS_539.06_539.08.wav
+│       ├── error_134_CONFUSION_539.08_539.75.wav
+│       ├── error_135_MISS_542.05_542.77.wav
+│       ├── error_136_MISS_546.35_546.41.wav
+│       ├── error_137_MISS_553.10_553.74.wav
+│       ├── error_138_MISS_554.32_554.61.wav
+│       ├── error_139_MISS_556.71_556.79.wav
+│       ├── error_140_MISS_565.31_565.83.wav
+│       ├── error_141_MISS_572.30_572.32.wav
+│       ├── error_142_MISS_574.48_574.50.wav
+│       ├── error_143_MISS_576.22_576.32.wav
+│       ├── error_144_MISS_576.84_576.94.wav
+│       ├── error_145_MISS_578.04_578.06.wav
+│       ├── error_146_MISS_580.24_580.26.wav
+│       ├── error_147_MISS_581.00_581.39.wav
+│       ├── error_148_MISS_584.35_584.37.wav
+│       ├── error_149_MISS_586.02_586.40.wav
+│       ├── error_150_MISS_588.08_588.12.wav
+│       ├── error_151_MISS_590.84_590.86.wav
+│       ├── error_152_MISS_595.82_596.56.wav
+│       ├── error_153_MISS_598.33_598.39.wav
+│       ├── error_154_MISS_599.71_599.95.wav
+│       ├── error_155_MISS_602.61_603.05.wav
+│       ├── error_156_MISS_608.38_608.67.wav
+│       ├── error_157_MISS_610.41_610.95.wav
+│       ├── error_158_MISS_614.23_615.01.wav
+│       ├── error_159_MISS_619.76_620.18.wav
+│       ├── error_160_MISS_626.32_626.71.wav
+│       ├── error_161_MISS_632.11_633.52.wav
+│       ├── error_162_MISS_636.36_636.44.wav
+│       ├── error_163_MISS_639.38_639.75.wav
+│       ├── error_164_FALSE_ALARM_640.74_640.75.wav
+│       ├── error_165_MISS_643.04_643.75.wav
+│       ├── error_166_MISS_646.36_646.46.wav
+│       ├── error_167_MISS_648.60_648.88.wav
+│       ├── error_168_FALSE_ALARM_657.25_657.75.wav
+│       ├── error_169_MISS_660.33_660.81.wav
+│       ├── error_170_MISS_665.60_665.75.wav
+│       ├── error_171_MISS_668.64_668.92.wav
+│       ├── error_172_FALSE_ALARM_675.25_675.63.wav
+│       ├── error_173_CONFUSION_677.25_677.45.wav
+│       ├── error_174_MISS_677.45_677.47.wav
+│       ├── error_175_CONFUSION_677.47_678.55.wav
+│       ├── error_176_MISS_678.55_678.61.wav
+│       ├── error_177_CONFUSION_678.61_679.07.wav
+│       ├── error_178_MISS_679.07_679.21.wav
+│       ├── error_179_MISS_679.37_679.63.wav
+│       ├── error_180_MISS_680.55_680.91.wav
+│       ├── error_181_MISS_683.23_683.29.wav
+│       ├── error_182_MISS_684.58_685.10.wav
+│       ├── error_183_MISS_692.33_692.55.wav
+│       ├── error_184_MISS_695.65_696.31.wav
+│       ├── error_185_MISS_712.73_713.38.wav
+│       ├── error_186_MISS_714.30_714.75.wav
+│       ├── error_187_FALSE_ALARM_715.25_715.75.wav
+│       ├── error_188_FALSE_ALARM_723.28_723.75.wav
+│       ├── error_189_MISS_727.66_728.22.wav
+│       ├── error_190_MISS_732.37_732.41.wav
+│       ├── error_191_MISS_734.49_734.75.wav
+│       ├── error_192_MISS_736.97_737.71.wav
+│       ├── error_193_MISS_758.25_758.32.wav
+│       ├── error_194_FALSE_ALARM_764.31_764.73.wav
+│       ├── error_195_MISS_767.75_768.59.wav
+│       ├── error_196_MISS_780.12_780.42.wav
+│       ├── error_197_MISS_783.21_783.51.wav
+│       ├── error_198_MISS_791.43_792.06.wav
+│       ├── error_199_MISS_794.78_795.18.wav
+│       ├── error_200_MISS_799.24_799.66.wav
+│       ├── error_201_MISS_814.24_814.54.wav
+│       └── error_202_MISS_817.48_817.75.wav
+├── error_analysis_B
+│   ├── bwc
+│   │   ├── error_000_MISS_0.25_0.46.wav
+│   │   ├── error_001_MISS_3.75_3.79.wav
+│   │   ├── error_002_MISS_5.97_6.27.wav
+│   │   ├── error_003_CONFUSION_10.25_10.58.wav
+│   │   ├── error_004_MISS_10.58_10.75.wav
+│   │   ├── error_005_FALSE_ALARM_11.25_11.75.wav
+│   │   ├── error_006_MISS_17.33_17.66.wav
+│   │   ├── error_007_FALSE_ALARM_23.25_23.36.wav
+│   │   ├── error_008_CONFUSION_24.25_24.75.wav
+│   │   ├── error_009_MISS_26.40_26.90.wav
+│   │   ├── error_010_MISS_32.86_32.88.wav
+│   │   ├── error_011_FALSE_ALARM_35.25_35.74.wav
+│   │   ├── error_012_MISS_40.25_40.26.wav
+│   │   ├── error_013_CONFUSION_40.26_40.75.wav
+│   │   ├── error_014_MISS_41.48_41.50.wav
+│   │   ├── error_015_FALSE_ALARM_42.25_42.52.wav
+│   │   ├── error_016_MISS_50.63_50.69.wav
+│   │   ├── error_017_FALSE_ALARM_52.25_55.75.wav
+│   │   ├── error_018_CONFUSION_56.25_56.68.wav
+│   │   ├── error_019_MISS_56.68_56.82.wav
+│   │   ├── error_020_CONFUSION_56.82_58.46.wav
+│   │   ├── error_021_MISS_58.46_58.56.wav
+│   │   ├── error_022_CONFUSION_58.56_58.75.wav
+│   │   ├── error_023_FALSE_ALARM_59.25_59.75.wav
+│   │   ├── error_024_MISS_64.74_64.98.wav
+│   │   ├── error_025_FALSE_ALARM_67.25_67.76.wav
+│   │   ├── error_026_MISS_69.25_69.75.wav
+│   │   ├── error_027_FALSE_ALARM_70.25_70.87.wav
+│   │   ├── error_028_MISS_72.25_72.75.wav
+│   │   ├── error_029_MISS_74.25_77.69.wav
+│   │   ├── error_030_CONFUSION_78.25_78.75.wav
+│   │   ├── error_031_FALSE_ALARM_81.25_81.75.wav
+│   │   ├── error_032_FALSE_ALARM_83.25_87.75.wav
+│   │   ├── error_033_FALSE_ALARM_95.25_95.75.wav
+│   │   ├── error_034_MISS_102.47_102.75.wav
+│   │   ├── error_035_FALSE_ALARM_103.45_103.77.wav
+│   │   ├── error_036_FALSE_ALARM_106.11_108.75.wav
+│   │   ├── error_037_MISS_109.54_109.56.wav
+│   │   ├── error_038_MISS_110.12_110.32.wav
+│   │   ├── error_039_CONFUSION_112.25_112.28.wav
+│   │   ├── error_040_MISS_112.28_112.30.wav
+│   │   ├── error_041_CONFUSION_112.30_113.02.wav
+│   │   ├── error_042_MISS_113.02_113.68.wav
+│   │   ├── error_043_CONFUSION_113.68_113.75.wav
+│   │   ├── error_044_MISS_114.34_114.36.wav
+│   │   ├── error_045_MISS_116.18_116.20.wav
+│   │   ├── error_046_MISS_117.56_117.58.wav
+│   │   ├── error_047_MISS_119.68_120.10.wav
+│   │   ├── error_048_MISS_121.55_121.75.wav
+│   │   ├── error_049_FALSE_ALARM_122.25_122.51.wav
+│   │   ├── error_050_FALSE_ALARM_122.91_123.09.wav
+│   │   ├── error_051_FALSE_ALARM_124.97_125.61.wav
+│   │   ├── error_052_MISS_126.39_126.69.wav
+│   │   ├── error_053_CONFUSION_126.69_126.85.wav
+│   │   ├── error_054_MISS_126.85_127.07.wav
+│   │   ├── error_055_MISS_128.19_130.46.wav
+│   │   ├── error_056_MISS_131.68_132.75.wav
+│   │   ├── error_057_FALSE_ALARM_133.25_133.75.wav
+│   │   ├── error_058_CONFUSION_134.25_134.75.wav
+│   │   ├── error_059_MISS_135.25_135.59.wav
+│   │   ├── error_060_FALSE_ALARM_136.25_136.75.wav
+│   │   ├── error_061_MISS_137.51_137.59.wav
+│   │   ├── error_062_MISS_138.25_138.27.wav
+│   │   ├── error_063_CONFUSION_138.27_138.75.wav
+│   │   ├── error_064_MISS_139.55_139.91.wav
+│   │   ├── error_065_MISS_141.71_143.13.wav
+│   │   ├── error_066_FALSE_ALARM_146.25_146.28.wav
+│   │   ├── error_067_FALSE_ALARM_149.18_149.38.wav
+│   │   ├── error_068_MISS_150.25_154.81.wav
+│   │   ├── error_069_MISS_156.51_157.05.wav
+│   │   ├── error_070_FALSE_ALARM_158.25_158.63.wav
+│   │   ├── error_071_CONFUSION_160.25_160.68.wav
+│   │   ├── error_072_MISS_160.68_160.75.wav
+│   │   ├── error_073_MISS_162.60_162.75.wav
+│   │   ├── error_074_CONFUSION_163.25_163.75.wav
+│   │   └── error_075_FALSE_ALARM_164.32_164.58.wav
+│   ├── diarization_errors.csv
+│   └── podcast
+│       ├── error_000_MISS_0.25_0.30.wav
+│       ├── error_001_MISS_27.63_28.16.wav
+│       ├── error_002_MISS_33.43_34.25.wav
+│       ├── error_003_MISS_38.81_39.11.wav
+│       ├── error_004_MISS_44.43_45.47.wav
+│       ├── error_005_MISS_50.73_51.67.wav
+│       ├── error_006_MISS_55.50_56.25.wav
+│       ├── error_007_MISS_60.44_60.75.wav
+│       ├── error_008_MISS_61.25_61.34.wav
+│       ├── error_009_MISS_62.84_64.62.wav
+│       ├── error_010_MISS_70.24_70.36.wav
+│       ├── error_011_MISS_76.31_77.21.wav
+│       ├── error_012_MISS_83.26_83.73.wav
+│       ├── error_013_MISS_88.69_88.71.wav
+│       ├── error_014_MISS_99.86_100.26.wav
+│       ├── error_015_MISS_108.32_108.52.wav
+│       ├── error_016_MISS_109.70_110.60.wav
+│       ├── error_017_MISS_111.10_111.66.wav
+│       ├── error_018_MISS_121.67_122.27.wav
+│       ├── error_019_MISS_133.47_134.35.wav
+│       ├── error_020_MISS_139.45_139.85.wav
+│       ├── error_021_MISS_145.96_146.16.wav
+│       ├── error_022_MISS_147.41_147.96.wav
+│       ├── error_023_MISS_149.62_149.84.wav
+│       ├── error_024_MISS_151.92_152.58.wav
+│       ├── error_025_MISS_158.70_159.63.wav
+│       ├── error_026_MISS_169.04_169.90.wav
+│       ├── error_027_MISS_181.30_182.58.wav
+│       ├── error_028_MISS_187.33_187.77.wav
+│       ├── error_029_MISS_192.33_192.99.wav
+│       ├── error_030_MISS_197.44_197.56.wav
+│       ├── error_031_MISS_201.22_201.30.wav
+│       ├── error_032_MISS_202.22_202.70.wav
+│       ├── error_033_MISS_203.48_204.22.wav
+│       ├── error_034_MISS_214.33_215.19.wav
+│       ├── error_035_MISS_227.04_228.16.wav
+│       ├── error_036_MISS_240.21_240.68.wav
+│       ├── error_037_MISS_244.34_245.62.wav
+│       ├── error_038_MISS_255.07_255.59.wav
+│       ├── error_039_MISS_256.87_257.23.wav
+│       ├── error_040_MISS_258.57_259.17.wav
+│       ├── error_041_MISS_260.41_260.45.wav
+│       ├── error_042_MISS_262.15_262.17.wav
+│       ├── error_043_MISS_265.01_265.05.wav
+│       ├── error_044_MISS_265.66_266.14.wav
+│       ├── error_045_MISS_270.56_271.14.wav
+│       ├── error_046_MISS_273.58_273.62.wav
+│       ├── error_047_MISS_290.61_291.10.wav
+│       ├── error_048_MISS_296.18_296.54.wav
+│       ├── error_049_CONFUSION_296.54_296.75.wav
+│       ├── error_050_MISS_297.66_297.76.wav
+│       ├── error_051_MISS_303.59_304.33.wav
+│       ├── error_052_MISS_305.45_305.49.wav
+│       ├── error_053_MISS_308.69_308.71.wav
+│       ├── error_054_MISS_310.21_310.23.wav
+│       ├── error_055_MISS_312.39_312.45.wav
+│       ├── error_056_MISS_313.32_313.51.wav
+│       ├── error_057_MISS_315.20_315.22.wav
+│       ├── error_058_CONFUSION_315.22_315.75.wav
+│       ├── error_059_FALSE_ALARM_316.25_316.75.wav
+│       ├── error_060_MISS_317.80_318.03.wav
+│       ├── error_061_MISS_322.53_322.81.wav
+│       ├── error_062_CONFUSION_322.81_323.07.wav
+│       ├── error_063_MISS_323.07_323.44.wav
+│       ├── error_064_MISS_324.78_325.38.wav
+│       ├── error_065_MISS_339.51_339.59.wav
+│       ├── error_066_MISS_345.73_346.16.wav
+│       ├── error_067_MISS_348.90_349.30.wav
+│       ├── error_068_MISS_360.03_360.61.wav
+│       ├── error_069_MISS_360.97_361.21.wav
+│       ├── error_070_MISS_362.65_363.59.wav
+│       ├── error_071_MISS_367.81_367.83.wav
+│       ├── error_072_MISS_368.75_369.41.wav
+│       ├── error_073_FALSE_ALARM_370.25_370.51.wav
+│       ├── error_074_FALSE_ALARM_372.25_372.75.wav
+│       ├── error_075_MISS_376.32_376.52.wav
+│       ├── error_076_MISS_378.25_378.36.wav
+│       ├── error_077_MISS_378.44_378.54.wav
+│       ├── error_078_MISS_383.18_383.20.wav
+│       ├── error_079_MISS_383.82_384.12.wav
+│       ├── error_080_MISS_385.28_385.30.wav
+│       ├── error_081_MISS_387.00_387.69.wav
+│       ├── error_082_MISS_392.49_392.89.wav
+│       ├── error_083_MISS_396.91_397.36.wav
+│       ├── error_084_MISS_398.92_399.04.wav
+│       ├── error_085_MISS_401.30_401.68.wav
+│       ├── error_086_MISS_406.84_407.30.wav
+│       ├── error_087_MISS_415.42_415.75.wav
+│       ├── error_088_FALSE_ALARM_419.25_419.38.wav
+│       ├── error_089_FALSE_ALARM_419.60_419.75.wav
+│       ├── error_090_MISS_422.98_423.44.wav
+│       ├── error_091_MISS_428.80_428.98.wav
+│       ├── error_092_MISS_432.73_433.15.wav
+│       ├── error_093_MISS_437.61_438.53.wav
+│       ├── error_094_MISS_439.41_439.43.wav
+│       ├── error_095_MISS_440.48_440.60.wav
+│       ├── error_096_CONFUSION_440.60_440.75.wav
+│       ├── error_097_MISS_441.62_441.96.wav
+│       ├── error_098_MISS_447.38_447.75.wav
+│       ├── error_099_MISS_449.68_450.30.wav
+│       ├── error_100_MISS_451.54_451.75.wav
+│       ├── error_101_CONFUSION_452.25_452.82.wav
+│       ├── error_102_MISS_452.82_453.16.wav
+│       ├── error_103_CONFUSION_453.16_453.56.wav
+│       ├── error_104_MISS_453.56_453.58.wav
+│       ├── error_105_MISS_454.78_454.80.wav
+│       ├── error_106_MISS_456.72_456.96.wav
+│       ├── error_107_MISS_457.86_457.88.wav
+│       ├── error_108_MISS_459.19_459.71.wav
+│       ├── error_109_MISS_462.81_463.21.wav
+│       ├── error_110_MISS_469.41_469.43.wav
+│       ├── error_111_MISS_474.56_474.58.wav
+│       ├── error_112_MISS_475.34_475.75.wav
+│       ├── error_113_MISS_476.25_476.26.wav
+│       ├── error_114_MISS_478.00_478.37.wav
+│       ├── error_115_MISS_481.75_481.77.wav
+│       ├── error_116_MISS_483.16_483.36.wav
+│       ├── error_117_MISS_486.36_486.38.wav
+│       ├── error_118_MISS_492.58_492.74.wav
+│       ├── error_119_MISS_495.61_496.49.wav
+│       ├── error_120_MISS_500.45_500.47.wav
+│       ├── error_121_MISS_505.06_505.57.wav
+│       ├── error_122_MISS_509.33_510.11.wav
+│       ├── error_123_MISS_518.34_518.36.wav
+│       ├── error_124_MISS_522.80_523.30.wav
+│       ├── error_125_MISS_529.09_529.74.wav
+│       ├── error_126_MISS_533.30_533.36.wav
+│       ├── error_127_MISS_533.66_533.70.wav
+│       ├── error_128_MISS_534.42_534.76.wav
+│       ├── error_129_MISS_536.38_536.40.wav
+│       ├── error_130_MISS_537.12_537.14.wav
+│       ├── error_131_MISS_538.68_538.70.wav
+│       ├── error_132_MISS_539.06_539.08.wav
+│       ├── error_133_CONFUSION_539.08_539.75.wav
+│       ├── error_134_MISS_542.05_542.77.wav
+│       ├── error_135_MISS_546.35_546.41.wav
+│       ├── error_136_MISS_553.10_553.74.wav
+│       ├── error_137_MISS_554.32_554.61.wav
+│       ├── error_138_MISS_556.71_556.79.wav
+│       ├── error_139_MISS_565.31_565.83.wav
+│       ├── error_140_MISS_572.29_572.31.wav
+│       ├── error_141_MISS_574.47_574.49.wav
+│       ├── error_142_MISS_576.21_576.31.wav
+│       ├── error_143_MISS_576.83_576.93.wav
+│       ├── error_144_MISS_578.03_578.05.wav
+│       ├── error_145_MISS_580.24_580.26.wav
+│       ├── error_146_MISS_581.00_581.39.wav
+│       ├── error_147_MISS_584.35_584.37.wav
+│       ├── error_148_MISS_586.01_586.39.wav
+│       ├── error_149_MISS_588.08_588.12.wav
+│       ├── error_150_MISS_590.84_590.86.wav
+│       ├── error_151_MISS_595.82_596.56.wav
+│       ├── error_152_MISS_598.32_598.38.wav
+│       ├── error_153_MISS_599.70_599.94.wav
+│       ├── error_154_MISS_602.60_603.04.wav
+│       ├── error_155_MISS_607.41_608.04.wav
+│       ├── error_156_CONFUSION_608.04_608.32.wav
+│       ├── error_157_MISS_608.32_608.66.wav
+│       ├── error_158_MISS_610.40_610.94.wav
+│       ├── error_159_MISS_614.23_615.01.wav
+│       ├── error_160_MISS_619.75_620.17.wav
+│       ├── error_161_MISS_626.31_626.69.wav
+│       ├── error_162_MISS_632.03_633.52.wav
+│       ├── error_163_MISS_636.36_636.44.wav
+│       ├── error_164_MISS_639.38_639.75.wav
+│       ├── error_165_FALSE_ALARM_640.74_640.75.wav
+│       ├── error_166_MISS_643.04_643.75.wav
+│       ├── error_167_MISS_646.36_646.46.wav
+│       ├── error_168_MISS_648.60_648.88.wav
+│       ├── error_169_FALSE_ALARM_657.25_657.75.wav
+│       ├── error_170_MISS_660.33_660.81.wav
+│       ├── error_171_MISS_665.60_665.75.wav
+│       ├── error_172_MISS_668.64_668.92.wav
+│       ├── error_173_FALSE_ALARM_675.25_675.63.wav
+│       ├── error_174_CONFUSION_677.25_677.45.wav
+│       ├── error_175_MISS_677.45_677.47.wav
+│       ├── error_176_CONFUSION_677.47_678.55.wav
+│       ├── error_177_MISS_678.55_678.61.wav
+│       ├── error_178_CONFUSION_678.61_679.07.wav
+│       ├── error_179_MISS_679.07_679.21.wav
+│       ├── error_180_MISS_679.37_679.65.wav
+│       ├── error_181_MISS_680.55_680.91.wav
+│       ├── error_182_MISS_683.23_683.29.wav
+│       ├── error_183_MISS_684.58_685.10.wav
+│       ├── error_184_MISS_692.33_692.55.wav
+│       ├── error_185_MISS_695.65_696.31.wav
+│       ├── error_186_MISS_712.73_713.15.wav
+│       ├── error_187_MISS_714.31_714.75.wav
+│       ├── error_188_FALSE_ALARM_715.25_715.75.wav
+│       ├── error_189_FALSE_ALARM_723.30_723.75.wav
+│       ├── error_190_MISS_727.68_728.22.wav
+│       ├── error_191_MISS_732.38_732.40.wav
+│       ├── error_192_MISS_734.49_734.75.wav
+│       ├── error_193_MISS_737.05_737.71.wav
+│       ├── error_194_MISS_758.25_758.32.wav
+│       ├── error_195_FALSE_ALARM_764.31_764.73.wav
+│       ├── error_196_MISS_767.75_768.59.wav
+│       ├── error_197_MISS_780.12_780.42.wav
+│       ├── error_198_MISS_783.21_783.51.wav
+│       ├── error_199_MISS_791.37_792.06.wav
+│       ├── error_200_MISS_794.78_795.18.wav
+│       ├── error_201_MISS_799.24_799.66.wav
+│       ├── error_202_MISS_814.24_814.54.wav
+│       └── error_203_MISS_817.48_817.75.wav
+├── error_analysis_C
+│   ├── bwc
+│   │   ├── error_000_MISS_3.75_3.79.wav
+│   │   ├── error_001_MISS_5.97_6.27.wav
+│   │   ├── error_002_CONFUSION_10.25_10.58.wav
+│   │   ├── error_003_MISS_10.58_10.75.wav
+│   │   ├── error_004_FALSE_ALARM_11.25_11.75.wav
+│   │   ├── error_005_MISS_17.33_17.66.wav
+│   │   ├── error_006_FALSE_ALARM_23.25_23.75.wav
+│   │   ├── error_007_CONFUSION_24.25_24.75.wav
+│   │   ├── error_008_FALSE_ALARM_35.25_35.75.wav
+│   │   ├── error_009_FALSE_ALARM_38.25_38.75.wav
+│   │   ├── error_010_MISS_40.25_40.75.wav
+│   │   ├── error_011_MISS_41.25_41.75.wav
+│   │   ├── error_012_CONFUSION_47.25_50.79.wav
+│   │   ├── error_013_MISS_50.79_50.81.wav
+│   │   ├── error_014_FALSE_ALARM_52.35_55.75.wav
+│   │   ├── error_015_CONFUSION_56.25_58.75.wav
+│   │   ├── error_016_FALSE_ALARM_59.60_59.75.wav
+│   │   ├── error_017_MISS_60.36_60.74.wav
+│   │   ├── error_018_MISS_63.28_63.30.wav
+│   │   ├── error_019_MISS_64.74_64.98.wav
+│   │   ├── error_020_FALSE_ALARM_67.25_67.80.wav
+│   │   ├── error_021_MISS_69.25_69.75.wav
+│   │   ├── error_022_FALSE_ALARM_70.25_70.87.wav
+│   │   ├── error_023_MISS_72.25_72.75.wav
+│   │   ├── error_024_MISS_74.25_77.69.wav
+│   │   ├── error_025_CONFUSION_78.25_78.75.wav
+│   │   ├── error_026_FALSE_ALARM_81.25_81.75.wav
+│   │   ├── error_027_FALSE_ALARM_83.25_87.75.wav
+│   │   ├── error_028_FALSE_ALARM_95.25_95.75.wav
+│   │   ├── error_029_MISS_102.40_102.75.wav
+│   │   ├── error_030_FALSE_ALARM_103.46_106.39.wav
+│   │   ├── error_031_CONFUSION_109.25_109.53.wav
+│   │   ├── error_032_MISS_109.53_109.57.wav
+│   │   ├── error_033_CONFUSION_109.57_110.19.wav
+│   │   ├── error_034_MISS_110.19_110.21.wav
+│   │   ├── error_035_CONFUSION_110.21_110.67.wav
+│   │   ├── error_036_MISS_110.67_111.63.wav
+│   │   ├── error_037_CONFUSION_111.63_111.75.wav
+│   │   ├── error_038_CONFUSION_112.25_113.75.wav
+│   │   ├── error_039_FALSE_ALARM_122.25_122.52.wav
+│   │   ├── error_040_FALSE_ALARM_122.98_125.60.wav
+│   │   ├── error_041_MISS_128.18_130.46.wav
+│   │   ├── error_042_MISS_131.66_132.75.wav
+│   │   ├── error_043_FALSE_ALARM_133.25_133.75.wav
+│   │   ├── error_044_CONFUSION_134.25_134.75.wav
+│   │   ├── error_045_MISS_135.25_135.58.wav
+│   │   ├── error_046_FALSE_ALARM_136.25_136.75.wav
+│   │   ├── error_047_CONFUSION_137.25_137.50.wav
+│   │   ├── error_048_MISS_137.50_137.58.wav
+│   │   ├── error_049_MISS_138.25_138.26.wav
+│   │   ├── error_050_CONFUSION_138.26_138.75.wav
+│   │   ├── error_051_CONFUSION_139.25_139.54.wav
+│   │   ├── error_052_MISS_139.54_139.91.wav
+│   │   ├── error_053_MISS_141.71_143.11.wav
+│   │   ├── error_054_FALSE_ALARM_149.17_149.37.wav
+│   │   ├── error_055_MISS_150.25_154.81.wav
+│   │   ├── error_056_FALSE_ALARM_158.25_159.75.wav
+│   │   ├── error_057_CONFUSION_160.25_160.75.wav
+│   │   ├── error_058_MISS_161.75_162.75.wav
+│   │   └── error_059_FALSE_ALARM_164.33_164.53.wav
+│   ├── diarization_errors.csv
+│   └── podcast
+│       ├── error_000_MISS_0.25_0.30.wav
+│       ├── error_001_MISS_27.64_28.16.wav
+│       ├── error_002_MISS_33.43_34.25.wav
+│       ├── error_003_MISS_38.81_39.11.wav
+│       ├── error_004_MISS_44.43_47.93.wav
+│       ├── error_005_MISS_50.73_51.67.wav
+│       ├── error_006_MISS_55.50_56.25.wav
+│       ├── error_007_MISS_60.44_60.75.wav
+│       ├── error_008_MISS_61.25_61.34.wav
+│       ├── error_009_MISS_61.82_61.86.wav
+│       ├── error_010_MISS_62.84_64.62.wav
+│       ├── error_011_MISS_70.24_70.36.wav
+│       ├── error_012_MISS_76.31_77.21.wav
+│       ├── error_013_MISS_80.55_80.59.wav
+│       ├── error_014_MISS_83.26_83.73.wav
+│       ├── error_015_MISS_88.69_88.71.wav
+│       ├── error_016_MISS_99.86_100.26.wav
+│       ├── error_017_MISS_108.32_108.52.wav
+│       ├── error_018_MISS_109.70_110.60.wav
+│       ├── error_019_MISS_111.10_111.58.wav
+│       ├── error_020_MISS_121.67_122.27.wav
+│       ├── error_021_MISS_133.47_134.35.wav
+│       ├── error_022_MISS_139.45_139.85.wav
+│       ├── error_023_MISS_145.96_146.16.wav
+│       ├── error_024_MISS_147.41_147.96.wav
+│       ├── error_025_MISS_149.62_149.84.wav
+│       ├── error_026_MISS_151.92_152.58.wav
+│       ├── error_027_MISS_158.70_159.63.wav
+│       ├── error_028_MISS_169.04_169.90.wav
+│       ├── error_029_MISS_178.00_178.46.wav
+│       ├── error_030_MISS_187.33_187.77.wav
+│       ├── error_031_MISS_192.33_192.99.wav
+│       ├── error_032_MISS_197.44_197.56.wav
+│       ├── error_033_MISS_201.22_201.30.wav
+│       ├── error_034_MISS_202.22_202.70.wav
+│       ├── error_035_MISS_203.48_204.22.wav
+│       ├── error_036_MISS_214.33_215.19.wav
+│       ├── error_037_MISS_219.86_220.54.wav
+│       ├── error_038_MISS_227.04_228.16.wav
+│       ├── error_039_MISS_240.21_240.82.wav
+│       ├── error_040_MISS_244.34_245.62.wav
+│       ├── error_041_MISS_255.05_255.59.wav
+│       ├── error_042_MISS_256.87_257.23.wav
+│       ├── error_043_MISS_258.57_259.17.wav
+│       ├── error_044_MISS_260.41_260.45.wav
+│       ├── error_045_MISS_262.15_262.17.wav
+│       ├── error_046_MISS_265.01_266.14.wav
+│       ├── error_047_MISS_270.56_271.14.wav
+│       ├── error_048_MISS_273.58_273.62.wav
+│       ├── error_049_MISS_290.61_291.10.wav
+│       ├── error_050_MISS_296.18_296.54.wav
+│       ├── error_051_CONFUSION_296.54_296.75.wav
+│       ├── error_052_MISS_297.66_297.76.wav
+│       ├── error_053_MISS_303.61_304.33.wav
+│       ├── error_054_MISS_308.69_308.71.wav
+│       ├── error_055_MISS_310.21_310.23.wav
+│       ├── error_056_MISS_312.39_312.45.wav
+│       ├── error_057_MISS_313.32_313.51.wav
+│       ├── error_058_MISS_315.12_315.14.wav
+│       ├── error_059_CONFUSION_315.14_315.75.wav
+│       ├── error_060_FALSE_ALARM_316.25_316.75.wav
+│       ├── error_061_MISS_317.72_318.03.wav
+│       ├── error_062_MISS_322.53_322.81.wav
+│       ├── error_063_CONFUSION_322.81_323.07.wav
+│       ├── error_064_MISS_323.07_323.44.wav
+│       ├── error_065_MISS_324.78_325.38.wav
+│       ├── error_066_MISS_339.51_339.59.wav
+│       ├── error_067_MISS_345.73_346.16.wav
+│       ├── error_068_MISS_348.90_349.30.wav
+│       ├── error_069_MISS_360.03_360.61.wav
+│       ├── error_070_MISS_360.97_361.21.wav
+│       ├── error_071_MISS_362.65_363.59.wav
+│       ├── error_072_MISS_368.75_369.41.wav
+│       ├── error_073_FALSE_ALARM_370.25_370.51.wav
+│       ├── error_074_FALSE_ALARM_372.25_372.59.wav
+│       ├── error_075_FALSE_ALARM_372.61_372.75.wav
+│       ├── error_076_MISS_376.32_376.52.wav
+│       ├── error_077_CONFUSION_378.25_378.46.wav
+│       ├── error_078_MISS_378.46_378.56.wav
+│       ├── error_079_MISS_383.18_383.20.wav
+│       ├── error_080_MISS_383.82_384.12.wav
+│       ├── error_081_MISS_385.28_385.30.wav
+│       ├── error_082_MISS_387.00_387.69.wav
+│       ├── error_083_MISS_392.49_392.89.wav
+│       ├── error_084_MISS_396.91_397.36.wav
+│       ├── error_085_MISS_398.92_399.04.wav
+│       ├── error_086_MISS_401.30_401.68.wav
+│       ├── error_087_MISS_406.84_407.30.wav
+│       ├── error_088_MISS_415.43_415.75.wav
+│       ├── error_089_FALSE_ALARM_419.25_419.39.wav
+│       ├── error_090_FALSE_ALARM_419.61_419.75.wav
+│       ├── error_091_MISS_423.00_423.44.wav
+│       ├── error_092_MISS_428.80_428.98.wav
+│       ├── error_093_MISS_432.73_433.15.wav
+│       ├── error_094_MISS_437.61_438.53.wav
+│       ├── error_095_MISS_439.41_439.43.wav
+│       ├── error_096_MISS_440.45_440.75.wav
+│       ├── error_097_MISS_441.61_441.95.wav
+│       ├── error_098_CONFUSION_441.95_447.39.wav
+│       ├── error_099_MISS_447.39_447.69.wav
+│       ├── error_100_CONFUSION_447.69_447.75.wav
+│       ├── error_101_MISS_449.68_450.30.wav
+│       ├── error_102_MISS_451.54_451.75.wav
+│       ├── error_103_CONFUSION_452.25_452.82.wav
+│       ├── error_104_MISS_452.82_453.16.wav
+│       ├── error_105_CONFUSION_453.16_453.56.wav
+│       ├── error_106_MISS_453.56_453.58.wav
+│       ├── error_107_MISS_454.78_454.82.wav
+│       ├── error_108_MISS_456.70_456.96.wav
+│       ├── error_109_MISS_457.86_457.88.wav
+│       ├── error_110_MISS_459.19_459.71.wav
+│       ├── error_111_MISS_462.83_463.19.wav
+│       ├── error_112_MISS_474.56_474.58.wav
+│       ├── error_113_MISS_475.34_475.75.wav
+│       ├── error_114_MISS_476.25_476.26.wav
+│       ├── error_115_MISS_478.00_478.37.wav
+│       ├── error_116_MISS_481.75_481.77.wav
+│       ├── error_117_MISS_483.16_483.36.wav
+│       ├── error_118_MISS_486.36_486.38.wav
+│       ├── error_119_MISS_492.58_492.74.wav
+│       ├── error_120_MISS_495.61_496.49.wav
+│       ├── error_121_MISS_500.45_500.47.wav
+│       ├── error_122_MISS_505.06_505.57.wav
+│       ├── error_123_MISS_509.33_510.11.wav
+│       ├── error_124_MISS_518.34_518.36.wav
+│       ├── error_125_MISS_522.80_523.30.wav
+│       ├── error_126_MISS_529.09_529.74.wav
+│       ├── error_127_MISS_533.30_533.36.wav
+│       ├── error_128_MISS_533.62_533.64.wav
+│       ├── error_129_MISS_536.38_536.40.wav
+│       ├── error_130_MISS_537.12_537.14.wav
+│       ├── error_131_MISS_538.68_538.70.wav
+│       ├── error_132_MISS_539.06_539.08.wav
+│       ├── error_133_CONFUSION_539.08_539.75.wav
+│       ├── error_134_MISS_542.05_542.77.wav
+│       ├── error_135_MISS_546.35_546.41.wav
+│       ├── error_136_MISS_553.10_553.74.wav
+│       ├── error_137_MISS_554.32_554.61.wav
+│       ├── error_138_MISS_556.71_556.79.wav
+│       ├── error_139_MISS_565.32_565.84.wav
+│       ├── error_140_MISS_572.30_572.32.wav
+│       ├── error_141_MISS_574.48_574.50.wav
+│       ├── error_142_MISS_576.22_576.32.wav
+│       ├── error_143_MISS_576.84_576.94.wav
+│       ├── error_144_MISS_578.04_578.07.wav
+│       ├── error_145_MISS_580.25_580.27.wav
+│       ├── error_146_MISS_581.01_581.39.wav
+│       ├── error_147_MISS_584.35_584.37.wav
+│       ├── error_148_MISS_586.01_586.39.wav
+│       ├── error_149_MISS_588.08_588.12.wav
+│       ├── error_150_MISS_595.84_596.56.wav
+│       ├── error_151_MISS_598.32_598.38.wav
+│       ├── error_152_MISS_599.70_599.94.wav
+│       ├── error_153_MISS_602.60_603.04.wav
+│       ├── error_154_MISS_607.41_608.06.wav
+│       ├── error_155_MISS_608.84_608.86.wav
+│       ├── error_156_MISS_610.40_610.94.wav
+│       ├── error_157_MISS_614.23_615.01.wav
+│       ├── error_158_MISS_619.75_620.17.wav
+│       ├── error_159_MISS_626.31_626.69.wav
+│       ├── error_160_MISS_632.03_633.52.wav
+│       ├── error_161_MISS_636.36_636.44.wav
+│       ├── error_162_MISS_639.38_639.75.wav
+│       ├── error_163_FALSE_ALARM_640.74_640.75.wav
+│       ├── error_164_MISS_643.06_643.75.wav
+│       ├── error_165_MISS_646.36_646.46.wav
+│       ├── error_166_MISS_648.60_648.88.wav
+│       ├── error_167_FALSE_ALARM_657.25_657.75.wav
+│       ├── error_168_MISS_660.33_660.81.wav
+│       ├── error_169_MISS_665.60_665.75.wav
+│       ├── error_170_MISS_668.64_668.92.wav
+│       ├── error_171_FALSE_ALARM_675.25_675.63.wav
+│       ├── error_172_CONFUSION_677.25_677.43.wav
+│       ├── error_173_MISS_677.43_677.45.wav
+│       ├── error_174_CONFUSION_677.45_678.55.wav
+│       ├── error_175_MISS_678.55_678.61.wav
+│       ├── error_176_CONFUSION_678.61_679.07.wav
+│       ├── error_177_MISS_679.07_679.21.wav
+│       ├── error_178_MISS_679.37_679.65.wav
+│       ├── error_179_MISS_680.55_680.91.wav
+│       ├── error_180_MISS_683.23_683.29.wav
+│       ├── error_181_MISS_684.58_685.10.wav
+│       ├── error_182_MISS_692.33_692.55.wav
+│       ├── error_183_MISS_695.65_696.31.wav
+│       ├── error_184_MISS_712.73_713.17.wav
+│       ├── error_185_MISS_714.31_714.75.wav
+│       ├── error_186_FALSE_ALARM_715.25_715.75.wav
+│       ├── error_187_FALSE_ALARM_723.30_723.54.wav
+│       ├── error_188_FALSE_ALARM_723.62_723.75.wav
+│       ├── error_189_MISS_727.68_728.22.wav
+│       ├── error_190_MISS_732.38_732.40.wav
+│       ├── error_191_MISS_734.49_734.75.wav
+│       ├── error_192_MISS_737.05_737.71.wav
+│       ├── error_193_CONFUSION_758.25_763.73.wav
+│       ├── error_194_MISS_763.73_763.75.wav
+│       ├── error_195_FALSE_ALARM_764.31_764.73.wav
+│       ├── error_196_MISS_767.75_768.59.wav
+│       ├── error_197_MISS_780.12_780.42.wav
+│       ├── error_198_MISS_783.21_783.51.wav
+│       ├── error_199_MISS_791.37_792.06.wav
+│       ├── error_200_MISS_794.78_795.18.wav
+│       ├── error_201_MISS_799.24_799.66.wav
+│       ├── error_202_MISS_814.24_814.54.wav
+│       └── error_203_MISS_817.46_817.75.wav
+├── error_analysis_hardened
+│   ├── bwc
+│   │   ├── error_000_MISS_0.25_0.46.wav
+│   │   ├── error_001_MISS_3.75_3.79.wav
+│   │   ├── error_002_MISS_5.97_6.27.wav
+│   │   ├── error_003_CONFUSION_10.25_10.58.wav
+│   │   ├── error_004_MISS_10.58_10.75.wav
+│   │   ├── error_005_FALSE_ALARM_11.25_11.75.wav
+│   │   ├── error_006_MISS_17.33_17.66.wav
+│   │   ├── error_007_FALSE_ALARM_23.25_23.34.wav
+│   │   ├── error_008_CONFUSION_24.25_24.75.wav
+│   │   ├── error_009_MISS_26.34_26.36.wav
+│   │   ├── error_010_MISS_32.86_32.88.wav
+│   │   ├── error_011_FALSE_ALARM_35.28_35.74.wav
+│   │   ├── error_012_MISS_40.25_40.26.wav
+│   │   ├── error_013_CONFUSION_40.26_40.75.wav
+│   │   ├── error_014_MISS_41.42_41.44.wav
+│   │   ├── error_015_FALSE_ALARM_42.25_43.12.wav
+│   │   ├── error_016_CONFUSION_47.25_50.63.wav
+│   │   ├── error_017_MISS_50.63_50.69.wav
+│   │   ├── error_018_FALSE_ALARM_52.25_55.75.wav
+│   │   ├── error_019_CONFUSION_56.25_56.68.wav
+│   │   ├── error_020_MISS_56.68_56.82.wav
+│   │   ├── error_021_CONFUSION_56.82_58.46.wav
+│   │   ├── error_022_MISS_58.46_58.56.wav
+│   │   ├── error_023_CONFUSION_58.56_58.75.wav
+│   │   ├── error_024_FALSE_ALARM_59.25_59.75.wav
+│   │   ├── error_025_MISS_64.74_64.98.wav
+│   │   ├── error_026_FALSE_ALARM_67.25_67.76.wav
+│   │   ├── error_027_MISS_69.25_69.75.wav
+│   │   ├── error_028_FALSE_ALARM_70.25_70.87.wav
+│   │   ├── error_029_MISS_72.25_72.75.wav
+│   │   ├── error_030_MISS_74.25_77.70.wav
+│   │   ├── error_031_CONFUSION_78.25_78.75.wav
+│   │   ├── error_032_FALSE_ALARM_81.25_81.75.wav
+│   │   ├── error_033_FALSE_ALARM_83.25_87.75.wav
+│   │   ├── error_034_FALSE_ALARM_95.25_95.75.wav
+│   │   ├── error_035_MISS_102.52_102.75.wav
+│   │   ├── error_036_FALSE_ALARM_103.46_103.74.wav
+│   │   ├── error_037_FALSE_ALARM_106.18_106.38.wav
+│   │   ├── error_038_CONFUSION_109.25_109.53.wav
+│   │   ├── error_039_MISS_109.53_109.56.wav
+│   │   ├── error_040_CONFUSION_109.56_110.39.wav
+│   │   ├── error_041_MISS_110.39_110.41.wav
+│   │   ├── error_042_CONFUSION_110.41_111.61.wav
+│   │   ├── error_043_MISS_111.61_111.63.wav
+│   │   ├── error_044_CONFUSION_111.63_111.75.wav
+│   │   ├── error_045_MISS_113.03_113.41.wav
+│   │   ├── error_046_CONFUSION_114.25_114.35.wav
+│   │   ├── error_047_MISS_114.35_114.37.wav
+│   │   ├── error_048_MISS_116.19_116.21.wav
+│   │   ├── error_049_MISS_117.13_117.15.wav
+│   │   ├── error_050_MISS_117.59_117.67.wav
+│   │   ├── error_051_MISS_119.69_120.09.wav
+│   │   ├── error_052_MISS_121.53_121.75.wav
+│   │   ├── error_053_FALSE_ALARM_122.25_122.51.wav
+│   │   ├── error_054_FALSE_ALARM_122.93_125.57.wav
+│   │   ├── error_055_MISS_126.35_127.05.wav
+│   │   ├── error_056_MISS_128.19_130.46.wav
+│   │   ├── error_057_MISS_131.66_131.68.wav
+│   │   ├── error_058_FALSE_ALARM_133.25_133.75.wav
+│   │   ├── error_059_CONFUSION_134.25_134.75.wav
+│   │   ├── error_060_MISS_135.25_135.59.wav
+│   │   ├── error_061_FALSE_ALARM_136.25_136.73.wav
+│   │   ├── error_062_CONFUSION_137.25_137.51.wav
+│   │   ├── error_063_MISS_137.51_137.59.wav
+│   │   ├── error_064_MISS_138.25_138.27.wav
+│   │   ├── error_065_CONFUSION_138.27_138.75.wav
+│   │   ├── error_066_CONFUSION_139.25_139.55.wav
+│   │   ├── error_067_MISS_139.55_139.91.wav
+│   │   ├── error_068_MISS_141.69_143.13.wav
+│   │   ├── error_069_FALSE_ALARM_146.25_146.28.wav
+│   │   ├── error_070_FALSE_ALARM_149.18_149.38.wav
+│   │   ├── error_071_MISS_150.25_154.81.wav
+│   │   ├── error_072_MISS_156.51_157.05.wav
+│   │   ├── error_073_FALSE_ALARM_158.25_158.63.wav
+│   │   ├── error_074_MISS_160.68_160.75.wav
+│   │   ├── error_075_MISS_162.60_162.75.wav
+│   │   └── error_076_FALSE_ALARM_164.32_164.58.wav
+│   ├── diarization_errors.csv
+│   └── podcast
+│       ├── error_000_MISS_0.25_0.30.wav
+│       ├── error_001_MISS_27.64_28.16.wav
+│       ├── error_002_MISS_33.43_34.25.wav
+│       ├── error_003_MISS_38.81_39.11.wav
+│       ├── error_004_MISS_44.43_45.47.wav
+│       ├── error_005_MISS_50.73_51.67.wav
+│       ├── error_006_MISS_55.50_56.25.wav
+│       ├── error_007_MISS_60.44_60.75.wav
+│       ├── error_008_MISS_61.25_61.34.wav
+│       ├── error_009_MISS_61.82_61.86.wav
+│       ├── error_010_MISS_62.84_64.62.wav
+│       ├── error_011_MISS_70.24_70.36.wav
+│       ├── error_012_MISS_76.31_77.21.wav
+│       ├── error_013_MISS_83.26_83.73.wav
+│       ├── error_014_MISS_88.69_88.71.wav
+│       ├── error_015_MISS_99.86_100.26.wav
+│       ├── error_016_MISS_108.32_108.52.wav
+│       ├── error_017_MISS_109.70_110.60.wav
+│       ├── error_018_MISS_111.00_111.66.wav
+│       ├── error_019_MISS_121.67_122.27.wav
+│       ├── error_020_MISS_133.47_134.35.wav
+│       ├── error_021_MISS_139.45_139.86.wav
+│       ├── error_022_MISS_145.96_146.16.wav
+│       ├── error_023_MISS_147.42_147.96.wav
+│       ├── error_024_MISS_149.62_149.84.wav
+│       ├── error_025_MISS_151.92_152.58.wav
+│       ├── error_026_MISS_158.71_159.63.wav
+│       ├── error_027_MISS_169.04_169.90.wav
+│       ├── error_028_MISS_181.30_182.58.wav
+│       ├── error_029_MISS_187.33_187.77.wav
+│       ├── error_030_MISS_192.34_193.00.wav
+│       ├── error_031_MISS_197.44_197.56.wav
+│       ├── error_032_MISS_201.22_201.30.wav
+│       ├── error_033_MISS_202.22_202.70.wav
+│       ├── error_034_MISS_203.49_204.23.wav
+│       ├── error_035_MISS_214.34_215.19.wav
+│       ├── error_036_MISS_219.85_220.53.wav
+│       ├── error_037_MISS_227.04_228.16.wav
+│       ├── error_038_MISS_240.20_240.68.wav
+│       ├── error_039_MISS_244.36_245.62.wav
+│       ├── error_040_MISS_255.05_255.59.wav
+│       ├── error_041_MISS_256.87_257.23.wav
+│       ├── error_042_MISS_258.57_259.17.wav
+│       ├── error_043_MISS_260.41_260.45.wav
+│       ├── error_044_MISS_262.15_262.17.wav
+│       ├── error_045_MISS_265.01_265.05.wav
+│       ├── error_046_MISS_265.66_266.14.wav
+│       ├── error_047_MISS_270.56_271.14.wav
+│       ├── error_048_MISS_273.58_273.62.wav
+│       ├── error_049_MISS_290.61_291.10.wav
+│       ├── error_050_MISS_296.18_296.54.wav
+│       ├── error_051_CONFUSION_296.54_296.75.wav
+│       ├── error_052_MISS_297.66_297.76.wav
+│       ├── error_053_MISS_303.58_304.32.wav
+│       ├── error_054_MISS_305.44_305.46.wav
+│       ├── error_055_MISS_308.69_308.71.wav
+│       ├── error_056_MISS_310.21_310.23.wav
+│       ├── error_057_MISS_312.39_312.45.wav
+│       ├── error_058_MISS_313.31_313.51.wav
+│       ├── error_059_MISS_315.19_315.21.wav
+│       ├── error_060_CONFUSION_315.21_315.75.wav
+│       ├── error_061_FALSE_ALARM_316.25_316.75.wav
+│       ├── error_062_MISS_317.81_318.03.wav
+│       ├── error_063_MISS_322.53_322.81.wav
+│       ├── error_064_CONFUSION_322.81_323.07.wav
+│       ├── error_065_MISS_323.07_323.44.wav
+│       ├── error_066_MISS_324.78_325.38.wav
+│       ├── error_067_MISS_339.51_339.59.wav
+│       ├── error_068_MISS_345.73_346.16.wav
+│       ├── error_069_MISS_348.90_349.30.wav
+│       ├── error_070_MISS_360.97_361.21.wav
+│       ├── error_071_MISS_362.65_363.59.wav
+│       ├── error_072_MISS_368.75_369.41.wav
+│       ├── error_073_FALSE_ALARM_370.25_370.51.wav
+│       ├── error_074_FALSE_ALARM_372.25_372.75.wav
+│       ├── error_075_MISS_376.32_376.52.wav
+│       ├── error_076_MISS_378.25_378.36.wav
+│       ├── error_077_MISS_378.44_378.54.wav
+│       ├── error_078_MISS_383.18_383.20.wav
+│       ├── error_079_MISS_383.82_384.12.wav
+│       ├── error_080_MISS_385.28_385.30.wav
+│       ├── error_081_MISS_387.00_387.69.wav
+│       ├── error_082_MISS_392.49_392.89.wav
+│       ├── error_083_MISS_396.91_397.36.wav
+│       ├── error_084_MISS_398.92_399.04.wav
+│       ├── error_085_MISS_401.30_401.68.wav
+│       ├── error_086_MISS_406.84_407.30.wav
+│       ├── error_087_MISS_415.42_415.75.wav
+│       ├── error_088_FALSE_ALARM_419.25_419.38.wav
+│       ├── error_089_FALSE_ALARM_419.60_419.75.wav
+│       ├── error_090_MISS_422.98_423.45.wav
+│       ├── error_091_MISS_428.81_428.99.wav
+│       ├── error_092_MISS_432.72_433.16.wav
+│       ├── error_093_MISS_437.62_438.54.wav
+│       ├── error_094_MISS_439.42_439.44.wav
+│       ├── error_095_MISS_440.46_440.58.wav
+│       ├── error_096_CONFUSION_440.58_440.75.wav
+│       ├── error_097_MISS_441.60_441.94.wav
+│       ├── error_098_MISS_447.40_447.75.wav
+│       ├── error_099_MISS_449.64_450.30.wav
+│       ├── error_100_MISS_451.54_451.75.wav
+│       ├── error_101_CONFUSION_452.25_452.82.wav
+│       ├── error_102_MISS_452.82_453.16.wav
+│       ├── error_103_CONFUSION_453.16_453.56.wav
+│       ├── error_104_MISS_453.56_453.58.wav
+│       ├── error_105_MISS_454.78_454.80.wav
+│       ├── error_106_MISS_456.72_456.96.wav
+│       ├── error_107_MISS_457.86_457.88.wav
+│       ├── error_108_MISS_459.19_459.71.wav
+│       ├── error_109_MISS_462.81_463.21.wav
+│       ├── error_110_MISS_469.41_469.43.wav
+│       ├── error_111_MISS_474.56_474.58.wav
+│       ├── error_112_MISS_475.34_475.75.wav
+│       ├── error_113_MISS_476.25_476.26.wav
+│       ├── error_114_MISS_478.00_478.37.wav
+│       ├── error_115_MISS_481.75_481.77.wav
+│       ├── error_116_MISS_483.16_483.36.wav
+│       ├── error_117_MISS_486.36_486.38.wav
+│       ├── error_118_MISS_492.58_492.74.wav
+│       ├── error_119_MISS_495.61_496.49.wav
+│       ├── error_120_MISS_500.45_500.47.wav
+│       ├── error_121_MISS_505.06_505.57.wav
+│       ├── error_122_MISS_509.33_510.11.wav
+│       ├── error_123_MISS_515.00_515.02.wav
+│       ├── error_124_MISS_518.34_518.36.wav
+│       ├── error_125_MISS_522.80_523.30.wav
+│       ├── error_126_MISS_529.09_529.74.wav
+│       ├── error_127_MISS_533.30_533.36.wav
+│       ├── error_128_MISS_533.66_533.70.wav
+│       ├── error_129_MISS_534.42_534.76.wav
+│       ├── error_130_MISS_536.38_536.40.wav
+│       ├── error_131_MISS_537.12_537.14.wav
+│       ├── error_132_MISS_538.68_538.70.wav
+│       ├── error_133_MISS_539.06_539.08.wav
+│       ├── error_134_CONFUSION_539.08_539.75.wav
+│       ├── error_135_MISS_542.05_542.77.wav
+│       ├── error_136_MISS_546.35_546.41.wav
+│       ├── error_137_MISS_553.10_553.74.wav
+│       ├── error_138_MISS_554.32_554.61.wav
+│       ├── error_139_MISS_556.71_556.79.wav
+│       ├── error_140_MISS_565.31_565.83.wav
+│       ├── error_141_MISS_572.30_572.32.wav
+│       ├── error_142_MISS_574.48_574.50.wav
+│       ├── error_143_MISS_576.22_576.32.wav
+│       ├── error_144_MISS_576.84_576.94.wav
+│       ├── error_145_MISS_578.04_578.06.wav
+│       ├── error_146_MISS_580.24_580.26.wav
+│       ├── error_147_MISS_581.00_581.39.wav
+│       ├── error_148_MISS_584.35_584.37.wav
+│       ├── error_149_MISS_586.02_586.40.wav
+│       ├── error_150_MISS_588.08_588.12.wav
+│       ├── error_151_MISS_590.84_590.86.wav
+│       ├── error_152_MISS_595.82_596.56.wav
+│       ├── error_153_MISS_598.33_598.39.wav
+│       ├── error_154_MISS_599.71_599.95.wav
+│       ├── error_155_MISS_602.61_603.05.wav
+│       ├── error_156_MISS_608.38_608.67.wav
+│       ├── error_157_MISS_610.41_610.95.wav
+│       ├── error_158_MISS_614.23_615.01.wav
+│       ├── error_159_MISS_619.76_620.18.wav
+│       ├── error_160_MISS_626.32_626.71.wav
+│       ├── error_161_MISS_632.11_633.52.wav
+│       ├── error_162_MISS_636.36_636.44.wav
+│       ├── error_163_MISS_639.38_639.75.wav
+│       ├── error_164_FALSE_ALARM_640.74_640.75.wav
+│       ├── error_165_MISS_643.04_643.75.wav
+│       ├── error_166_MISS_646.36_646.46.wav
+│       ├── error_167_MISS_648.60_648.88.wav
+│       ├── error_168_FALSE_ALARM_657.25_657.75.wav
+│       ├── error_169_MISS_660.33_660.81.wav
+│       ├── error_170_MISS_665.60_665.75.wav
+│       ├── error_171_MISS_668.64_668.92.wav
+│       ├── error_172_FALSE_ALARM_675.25_675.63.wav
+│       ├── error_173_CONFUSION_677.25_677.45.wav
+│       ├── error_174_MISS_677.45_677.47.wav
+│       ├── error_175_CONFUSION_677.47_678.55.wav
+│       ├── error_176_MISS_678.55_678.61.wav
+│       ├── error_177_CONFUSION_678.61_679.07.wav
+│       ├── error_178_MISS_679.07_679.21.wav
+│       ├── error_179_MISS_679.37_679.63.wav
+│       ├── error_180_MISS_680.55_680.91.wav
+│       ├── error_181_MISS_683.23_683.29.wav
+│       ├── error_182_MISS_684.58_685.10.wav
+│       ├── error_183_MISS_692.33_692.55.wav
+│       ├── error_184_MISS_695.65_696.31.wav
+│       ├── error_185_MISS_712.73_713.38.wav
+│       ├── error_186_MISS_714.30_714.75.wav
+│       ├── error_187_FALSE_ALARM_715.25_715.75.wav
+│       ├── error_188_FALSE_ALARM_723.28_723.75.wav
+│       ├── error_189_MISS_727.66_728.22.wav
+│       ├── error_190_MISS_732.37_732.41.wav
+│       ├── error_191_MISS_734.49_734.75.wav
+│       ├── error_192_MISS_736.97_737.71.wav
+│       ├── error_193_MISS_758.25_758.32.wav
+│       ├── error_194_FALSE_ALARM_764.31_764.73.wav
+│       ├── error_195_MISS_767.75_768.59.wav
+│       ├── error_196_MISS_780.12_780.42.wav
+│       ├── error_197_MISS_783.21_783.51.wav
+│       ├── error_198_MISS_791.43_792.06.wav
+│       ├── error_199_MISS_794.78_795.18.wav
+│       ├── error_200_MISS_799.24_799.66.wav
+│       ├── error_201_MISS_814.24_814.54.wav
+│       └── error_202_MISS_817.48_817.75.wav
+├── evaluate_alignment.py
+├── evaluate_asr.py
+├── evaluate_asr_improved.py
+├── evaluate_conversational_timeline.py
+├── evaluate_diarization.py
+├── evaluate_diarization_improved.py
+├── evaluate_karen.py
+├── evaluate_vad_whisperx.py
+├── experiments
+│   ├── __init__.py
+│   ├── analyze_audio_diff.py
+│   ├── karen_11A_audit
+│   │   ├── asr_error_detail.txt
+│   │   ├── audio
+│   │   │   ├── karen.wav
+│   │   │   ├── karen_clean.mp3
+│   │   │   └── karen_raw.wav
+│   │   ├── diagnostics
+│   │   │   ├── diarization_errors.csv
+│   │   │   └── karen
+│   │   ├── final_metrics.csv
+│   │   ├── grounding
+│   │   │   ├── karen_grounding.json
+│   │   │   ├── karen_oracle.rttm
+│   │   │   └── karen_oracle_grounding.json
+│   │   ├── karen_manifest.json
+│   │   ├── msdd_raw
+│   │   │   ├── pred_rttms
+│   │   │   └── speaker_outputs
+│   │   ├── outputs
+│   │   │   ├── karen_final.json
+│   │   │   └── karen_final.txt
+│   │   └── vad_segments
+│   │       ├── karen_seg000_0.18_6.07.wav
+│   │       ├── karen_seg001_7.34_9.90.wav
+│   │       ├── karen_seg002_11.78_12.25.wav
+│   │       ├── karen_seg003_13.11_36.68.wav
+│   │       ├── karen_seg004_37.16_48.63.wav
+│   │       ├── karen_seg005_49.27_51.75.wav
+│   │       ├── karen_seg006_52.09_53.68.wav
+│   │       ├── karen_seg007_53.88_62.13.wav
+│   │       ├── karen_seg008_62.52_63.78.wav
+│   │       ├── karen_seg009_64.07_70.69.wav
+│   │       ├── karen_seg010_75.01_75.61.wav
+│   │       ├── karen_seg011_77.74_87.00.wav
+│   │       ├── karen_seg012_87.48_92.02.wav
+│   │       ├── karen_seg013_92.29_106.73.wav
+│   │       ├── karen_seg014_107.17_117.13.wav
+│   │       ├── karen_seg015_118.21_169.91.wav
+│   │       ├── karen_seg016_172.34_175.09.wav
+│   │       ├── karen_seg017_178.23_179.90.wav
+│   │       ├── karen_seg018_180.44_181.10.wav
+│   │       ├── karen_seg019_182.23_184.34.wav
+│   │       ├── karen_seg020_186.43_189.59.wav
+│   │       ├── karen_seg021_190.50_193.50.wav
+│   │       ├── karen_seg022_195.29_201.77.wav
+│   │       ├── karen_seg023_204.44_251.47.wav
+│   │       ├── karen_seg024_251.99_254.27.wav
+│   │       ├── karen_seg025_256.53_267.63.wav
+│   │       ├── karen_seg026_268.46_290.62.wav
+│   │       ├── karen_seg027_290.86_297.38.wav
+│   │       ├── karen_seg028_298.13_299.98.wav
+│   │       ├── karen_seg029_302.35_324.08.wav
+│   │       ├── karen_seg030_329.13_333.01.wav
+│   │       ├── karen_seg031_334.21_336.82.wav
+│   │       ├── karen_seg032_337.18_340.15.wav
+│   │       ├── karen_seg033_340.33_340.55.wav
+│   │       ├── karen_seg034_341.07_371.58.wav
+│   │       ├── karen_seg035_371.87_401.59.wav
+│   │       ├── karen_seg036_402.01_426.07.wav
+│   │       ├── karen_seg037_427.42_436.65.wav
+│   │       ├── karen_seg038_436.86_438.07.wav
+│   │       ├── karen_seg039_439.86_442.09.wav
+│   │       ├── karen_seg040_444.18_445.18.wav
+│   │       ├── karen_seg041_445.70_447.35.wav
+│   │       ├── karen_seg042_448.30_464.14.wav
+│   │       ├── karen_seg043_465.21_509.15.wav
+│   │       ├── karen_seg044_509.49_512.29.wav
+│   │       ├── karen_seg045_512.85_517.87.wav
+│   │       ├── karen_seg046_518.14_523.36.wav
+│   │       ├── karen_seg047_523.66_536.55.wav
+│   │       ├── karen_seg048_537.33_539.64.wav
+│   │       ├── karen_seg049_540.57_542.53.wav
+│   │       ├── karen_seg050_544.06_544.79.wav
+│   │       ├── karen_seg051_545.35_546.87.wav
+│   │       ├── karen_seg052_547.52_553.16.wav
+│   │       ├── karen_seg053_553.43_559.24.wav
+│   │       ├── karen_seg054_559.67_560.92.wav
+│   │       ├── karen_seg055_561.31_571.71.wav
+│   │       ├── karen_seg056_573.07_577.04.wav
+│   │       ├── karen_seg057_578.46_598.43.wav
+│   │       ├── karen_seg058_600.12_605.02.wav
+│   │       ├── karen_seg059_605.37_614.52.wav
+│   │       ├── karen_seg060_616.12_645.57.wav
+│   │       ├── karen_seg061_649.96_651.14.wav
+│   │       ├── karen_seg062_652.13_653.36.wav
+│   │       ├── karen_seg063_655.02_669.53.wav
+│   │       ├── karen_seg064_671.99_675.82.wav
+│   │       ├── karen_seg065_677.61_713.61.wav
+│   │       ├── karen_seg066_714.69_753.57.wav
+│   │       ├── karen_seg067_754.01_754.58.wav
+│   │       ├── karen_seg068_755.32_783.54.wav
+│   │       ├── karen_seg069_784.55_799.60.wav
+│   │       ├── karen_seg070_800.29_807.74.wav
+│   │       ├── karen_seg071_808.34_811.96.wav
+│   │       ├── karen_seg072_812.17_814.72.wav
+│   │       ├── karen_seg073_816.54_822.79.wav
+│   │       ├── karen_seg074_823.08_837.84.wav
+│   │       ├── karen_seg075_838.84_842.09.wav
+│   │       ├── karen_seg076_843.22_845.57.wav
+│   │       ├── karen_seg077_846.09_846.48.wav
+│   │       ├── karen_seg078_847.24_850.01.wav
+│   │       ├── karen_seg079_852.32_871.30.wav
+│   │       ├── karen_seg080_872.42_875.73.wav
+│   │       ├── karen_seg081_876.53_896.01.wav
+│   │       ├── karen_seg082_896.48_908.41.wav
+│   │       ├── karen_seg083_908.92_910.76.wav
+│   │       ├── karen_seg084_911.40_914.99.wav
+│   │       ├── karen_seg085_915.55_917.93.wav
+│   │       ├── karen_seg086_918.67_933.94.wav
+│   │       ├── karen_seg087_935.11_972.55.wav
+│   │       ├── karen_seg088_972.99_975.41.wav
+│   │       ├── karen_seg089_975.83_991.27.wav
+│   │       ├── karen_seg090_992.08_997.75.wav
+│   │       └── karen_seg091_1000.48_1024.44.wav
+│   ├── phase10_dual_branch_fusion
+│   │   ├── audio_variants
+│   │   │   ├── bwc.wav
+│   │   │   ├── bwc_deepfilternet.wav
+│   │   │   ├── bwc_normalized.wav
+│   │   │   └── bwc_speechbrain.wav
+│   │   ├── custom_fusion.py
+│   │   ├── error_breakdown
+│   │   │   ├── Phase10A
+│   │   │   ├── Phase10B
+│   │   │   └── Phase10C
+│   │   ├── grounding_master
+│   │   │   ├── bwc_oracle.rttm
+│   │   │   └── bwc_vad.json
+│   │   ├── outputs_phase10A
+│   │   │   ├── bwc_final.json
+│   │   │   └── bwc_final.txt
+│   │   ├── outputs_phase10B
+│   │   │   ├── bwc_diagnostics.json
+│   │   │   ├── bwc_final.json
+│   │   │   ├── bwc_final.txt
+│   │   │   ├── bwc_normalized
+│   │   │   ├── bwc_normalized_manifest.json
+│   │   │   └── bwc_word_metadata.json
+│   │   ├── outputs_phase10C
+│   │   │   ├── bwc_diagnostics.json
+│   │   │   ├── bwc_final.json
+│   │   │   ├── bwc_final.txt
+│   │   │   ├── bwc_normalized
+│   │   │   ├── bwc_normalized_manifest.json
+│   │   │   └── bwc_word_metadata.json
+│   │   ├── reports
+│   │   │   ├── audio_audit_report.csv
+│   │   │   ├── audio_audit_report.md
+│   │   │   └── phase10_dual_branch_report.md
+│   │   ├── step1_generate_audio.py
+│   │   ├── step2_generate_grounding.py
+│   │   ├── step3_run_pipelines.py
+│   │   └── step4_evaluate.py
+│   ├── phase11_dfn_ablation
+│   │   ├── audio_variants
+│   │   │   ├── bwc_deepfilternet.wav
+│   │   │   └── bwc_normalized.wav
+│   │   ├── comparisons
+│   │   ├── diagnostics
+│   │   │   ├── asr_errors
+│   │   │   ├── diarization_errors
+│   │   │   └── vad_errors
+│   │   ├── grounding
+│   │   │   ├── 11A_grounding.json
+│   │   │   ├── 11A_oracle.rttm
+│   │   │   ├── 11B_grounding.json
+│   │   │   └── 11B_oracle.rttm
+│   │   ├── outputs_phase11A
+│   │   │   ├── bwc_final.json
+│   │   │   ├── bwc_final.txt
+│   │   │   ├── bwc_normalized
+│   │   │   └── bwc_normalized_manifest.json
+│   │   ├── outputs_phase11B
+│   │   │   ├── bwc_final.json
+│   │   │   ├── bwc_final.txt
+│   │   │   ├── bwc_normalized
+│   │   │   └── bwc_normalized_manifest.json
+│   │   ├── outputs_phase11C
+│   │   │   ├── bwc_final.json
+│   │   │   └── bwc_final.txt
+│   │   ├── reports
+│   │   │   ├── asr_eval_improved_phase11_11A_asr.csv
+│   │   │   ├── asr_eval_improved_phase11_11B_asr.csv
+│   │   │   ├── asr_eval_improved_phase11_11C_asr.csv
+│   │   │   ├── audio_audit.csv
+│   │   │   ├── conversational_eval_phase11_11A_conv.csv
+│   │   │   ├── conversational_eval_phase11_11B_conv.csv
+│   │   │   ├── conversational_eval_phase11_11C_conv.csv
+│   │   │   ├── diarization_eval_improved_phase11_11A_diar.csv
+│   │   │   ├── diarization_eval_improved_phase11_11B_diar.csv
+│   │   │   ├── diarization_eval_improved_phase11_11C_diar.csv
+│   │   │   ├── phase11_dfn_ablation_report.md
+│   │   │   └── vad_metrics.csv
+│   │   ├── step1_generate_audio.py
+│   │   ├── step2_generate_grounding.py
+│   │   ├── step3_run_pipelines.py
+│   │   ├── step4_evaluate.py
+│   │   ├── step5_compile_report.py
+│   │   └── visualizations
+│   ├── phase12_karen_evaluation
+│   │   ├── audio_preprocessed
+│   │   │   ├── karen_muted.wav
+│   │   │   └── karen_normalized.wav
+│   │   ├── audits
+│   │   │   ├── audio_metadata.md
+│   │   │   └── audio_provenance_report.md
+│   │   ├── diagnostics
+│   │   │   ├── asr_errors
+│   │   │   ├── attribution_errors
+│   │   │   ├── diarization_errors
+│   │   │   ├── speaker_count_analysis
+│   │   │   └── vad_errors
+│   │   ├── grounding
+│   │   │   ├── karen_system_vad.rttm
+│   │   │   └── karen_vad.json
+│   │   ├── outputs
+│   │   │   ├── asr
+│   │   │   ├── conversational_timeline
+│   │   │   ├── diarization
+│   │   │   └── fusion
+│   │   ├── reports
+│   │   │   └── vad_metrics.csv
+│   │   ├── scripts
+│   │   │   ├── step0_audio_validation.py
+│   │   │   ├── step11_to_15.py
+│   │   │   ├── step1_normalization.py
+│   │   │   ├── step2_to_6.py
+│   │   │   └── step7_to_10.py
+│   │   ├── vad_segments
+│   │   │   ├── index.csv
+│   │   │   ├── segment_0001.wav
+│   │   │   ├── segment_0002.wav
+│   │   │   ├── segment_0003.wav
+│   │   │   ├── segment_0004.wav
+│   │   │   ├── segment_0005.wav
+│   │   │   └── segment_0006.wav
+│   │   └── visualizations
+│   ├── phase13_karen_generalization
+│   │   ├── Untitled.ipynb
+│   │   ├── analyze_embeddings.py
+│   │   ├── analyze_embeddings_interactive.py
+│   │   ├── audio
+│   │   │   └── karen_normalized.wav
+│   │   ├── comparisons
+│   │   │   └── karen_vs_bwc.csv
+│   │   ├── diagnostics
+│   │   │   ├── asr
+│   │   │   ├── attribution
+│   │   │   ├── diarization
+│   │   │   ├── fusion
+│   │   │   ├── overlap
+│   │   │   └── vad
+│   │   ├── diarization
+│   │   │   ├── karen_msdd.rttm
+│   │   │   └── msdd_outputs
+│   │   ├── embedding_analysis
+│   │   │   ├── combined
+│   │   │   ├── interactive_plots
+│   │   │   ├── local_windows
+│   │   │   ├── metrics
+│   │   │   ├── pca
+│   │   │   ├── reports
+│   │   │   ├── trajectories
+│   │   │   └── umap
+│   │   ├── grounding
+│   │   │   ├── karen_grounding.json
+│   │   │   └── karen_oracle.rttm
+│   │   ├── manifests
+│   │   │   └── karen_manifest.json
+│   │   ├── outputs
+│   │   │   ├── aligned_words.json
+│   │   │   ├── karen_final.json
+│   │   │   └── karen_final.txt
+│   │   ├── reports
+│   │   │   ├── asr_metrics.csv
+│   │   │   ├── attribution_metrics.csv
+│   │   │   ├── audio_audit.csv
+│   │   │   ├── conversational_metrics.csv
+│   │   │   ├── diarization_metrics.csv
+│   │   │   ├── phase13_karen_generalization_report.md
+│   │   │   └── vad_metrics.csv
+│   │   ├── step10_diar_eval.py
+│   │   ├── step11_attribution_eval.py
+│   │   ├── step12_13_conversational_eval.py
+│   │   ├── step14_comparison.py
+│   │   ├── step2_vad_grounding.py
+│   │   ├── step3_oracle_rttm.py
+│   │   ├── step4_whisperx.py
+│   │   ├── step5_msdd.py
+│   │   ├── step6_fusion.py
+│   │   ├── step7_process_gt.py
+│   │   ├── step8_vad_eval.py
+│   │   ├── step9_asr_eval.py
+│   │   └── visualizations
+│   ├── phase14_bwc_fix
+│   │   ├── audio
+│   │   │   ├── bwc_normalized.wav
+│   │   │   └── bwc_repaired.wav
+│   │   ├── diarization
+│   │   │   ├── bwc_msdd.rttm
+│   │   │   └── msdd_outputs
+│   │   ├── grounding
+│   │   │   ├── bwc_grounding.json
+│   │   │   └── bwc_oracle.rttm
+│   │   ├── manifests
+│   │   │   └── bwc_normalized_manifest.json
+│   │   ├── outputs
+│   │   │   ├── bwc_aligned_words.json
+│   │   │   ├── bwc_final.json
+│   │   │   └── bwc_final.txt
+│   │   ├── run_pipeline.py
+│   │   ├── step2_vad_grounding.py
+│   │   ├── step3_oracle_rttm.py
+│   │   ├── step4_whisperx.py
+│   │   ├── step5_msdd.py
+│   │   └── step6_fusion.py
+│   ├── phase15_no_norm
+│   │   ├── audio
+│   │   │   └── karen_repaired.wav
+│   │   ├── comparisons
+│   │   │   └── karen_vs_bwc.csv
+│   │   ├── diagnostics
+│   │   │   ├── asr
+│   │   │   ├── attribution
+│   │   │   ├── conversational
+│   │   │   ├── diarization
+│   │   │   └── vad
+│   │   ├── diarization
+│   │   │   ├── karen_msdd.rttm
+│   │   │   └── msdd_outputs
+│   │   ├── grounding
+│   │   │   ├── karen_grounding.json
+│   │   │   └── karen_oracle.rttm
+│   │   ├── manifests
+│   │   │   └── karen_manifest.json
+│   │   ├── outputs
+│   │   │   ├── aligned_words.json
+│   │   │   ├── karen_final.json
+│   │   │   └── karen_final.txt
+│   │   ├── reports
+│   │   │   ├── asr
+│   │   │   ├── asr_metrics.csv
+│   │   │   ├── attribution
+│   │   │   ├── attribution_metrics.csv
+│   │   │   ├── conversational
+│   │   │   ├── conversational_metrics.csv
+│   │   │   ├── diarization
+│   │   │   ├── diarization_metrics.csv
+│   │   │   ├── vad
+│   │   │   └── vad_metrics.csv
+│   │   ├── run_phase15.py
+│   │   ├── step10_diar_eval.py
+│   │   ├── step11_attribution_eval.py
+│   │   ├── step12_13_conversational_eval.py
+│   │   ├── step14_comparison.py
+│   │   ├── step2_vad_grounding.py
+│   │   ├── step3_oracle_rttm.py
+│   │   ├── step4_whisperx.py
+│   │   ├── step5_msdd.py
+│   │   ├── step6_fusion.py
+│   │   ├── step7_process_gt.py
+│   │   ├── step8_vad_eval.py
+│   │   ├── step9_asr_eval.py
+│   │   └── visualizations
+│   ├── phase16_no_norm_dfn
+│   │   ├── audio
+│   │   │   ├── karen_dfn.wav
+│   │   │   └── karen_repaired.wav
+│   │   ├── comparisons
+│   │   │   └── karen_vs_bwc.csv
+│   │   ├── diagnostics
+│   │   │   ├── asr
+│   │   │   ├── attribution
+│   │   │   ├── conversational
+│   │   │   ├── diarization
+│   │   │   └── vad
+│   │   ├── diarization
+│   │   │   ├── karen_msdd.rttm
+│   │   │   └── msdd_outputs
+│   │   ├── grounding
+│   │   │   ├── karen_grounding.json
+│   │   │   └── karen_oracle.rttm
+│   │   ├── manifests
+│   │   │   └── karen_manifest.json
+│   │   ├── outputs
+│   │   │   ├── aligned_words.json
+│   │   │   ├── karen_final.json
+│   │   │   └── karen_final.txt
+│   │   ├── reports
+│   │   │   ├── asr
+│   │   │   ├── asr_metrics.csv
+│   │   │   ├── attribution
+│   │   │   ├── attribution_metrics.csv
+│   │   │   ├── conversational
+│   │   │   ├── conversational_metrics.csv
+│   │   │   ├── diarization
+│   │   │   ├── diarization_metrics.csv
+│   │   │   ├── vad
+│   │   │   └── vad_metrics.csv
+│   │   ├── run_phase16.py
+│   │   ├── step10_diar_eval.py
+│   │   ├── step11_attribution_eval.py
+│   │   ├── step12_13_conversational_eval.py
+│   │   ├── step14_comparison.py
+│   │   ├── step2_vad_grounding.py
+│   │   ├── step3_oracle_rttm.py
+│   │   ├── step4_whisperx.py
+│   │   ├── step5_msdd.py
+│   │   ├── step6_fusion.py
+│   │   ├── step7_process_gt.py
+│   │   ├── step8_vad_eval.py
+│   │   ├── step9_asr_eval.py
+│   │   └── visualizations
+│   ├── phase17_bwc_no_norm
+│   │   ├── audio
+│   │   │   └── bwc_repaired.wav
+│   │   ├── comparisons
+│   │   │   └── bwc_no_norm_vs_baseline.csv
+│   │   ├── diagnostics
+│   │   │   ├── asr
+│   │   │   ├── attribution
+│   │   │   ├── conversational
+│   │   │   ├── diarization
+│   │   │   └── vad
+│   │   ├── diarization
+│   │   │   ├── bwc_msdd.rttm
+│   │   │   └── msdd_outputs
+│   │   ├── grounding
+│   │   │   ├── bwc_grounding.json
+│   │   │   └── bwc_oracle.rttm
+│   │   ├── manifests
+│   │   │   ├── bwc_manifest.json
+│   │   │   └── karen_manifest.json
+│   │   ├── outputs
+│   │   │   ├── aligned_words.json
+│   │   │   ├── bwc_final.json
+│   │   │   └── bwc_final.txt
+│   │   ├── reports
+│   │   │   ├── asr
+│   │   │   ├── asr_metrics.csv
+│   │   │   ├── attribution
+│   │   │   ├── attribution_metrics.csv
+│   │   │   ├── conversational
+│   │   │   ├── conversational_metrics.csv
+│   │   │   ├── diarization
+│   │   │   ├── diarization_metrics.csv
+│   │   │   ├── vad
+│   │   │   └── vad_metrics.csv
+│   │   ├── run_phase17.py
+│   │   ├── step10_diar_eval.py
+│   │   ├── step11_attribution_eval.py
+│   │   ├── step12_13_conversational_eval.py
+│   │   ├── step14_comparison.py
+│   │   ├── step2_vad_grounding.py
+│   │   ├── step3_oracle_rttm.py
+│   │   ├── step4_whisperx.py
+│   │   ├── step5_msdd.py
+│   │   ├── step6_fusion.py
+│   │   ├── step7_process_gt.py
+│   │   ├── step8_vad_eval.py
+│   │   ├── step9_asr_eval.py
+│   │   └── visualizations
+│   ├── phase18_tich_karen
+│   │   ├── analyze_embeddings.py
+│   │   ├── analyze_embeddings_interactive.py
+│   │   ├── asr_grounded
+│   │   │   ├── audio
+│   │   │   ├── diagnostics
+│   │   │   ├── diarization
+│   │   │   ├── embedding_analysis
+│   │   │   ├── grounding
+│   │   │   ├── manifests
+│   │   │   ├── outputs
+│   │   │   ├── reports
+│   │   │   ├── step1_asr_initial.py
+│   │   │   ├── step2_rttm.py
+│   │   │   ├── step3_msdd.py
+│   │   │   ├── step4_fusion.py
+│   │   │   └── step5_eval.py
+│   │   ├── audio
+│   │   │   └── rich_karen_normalized.wav
+│   │   ├── compute_asr_details.py
+│   │   ├── compute_conv_metrics.py
+│   │   ├── dfn_no_norm
+│   │   │   ├── analyze_embeddings.py
+│   │   │   ├── audio
+│   │   │   ├── diagnostics
+│   │   │   ├── diarization
+│   │   │   ├── embedding_analysis
+│   │   │   ├── grounding
+│   │   │   ├── manifests
+│   │   │   ├── outputs
+│   │   │   ├── patch_scripts.py
+│   │   │   ├── reports
+│   │   │   ├── run_pipeline.py
+│   │   │   ├── step10_diar_eval.py
+│   │   │   ├── step2_process_gt.py
+│   │   │   ├── step3_vad_grounding.py
+│   │   │   ├── step4_oracle_rttm.py
+│   │   │   ├── step5_whisperx.py
+│   │   │   ├── step6_msdd.py
+│   │   │   ├── step7_fusion.py
+│   │   │   ├── step8_vad_eval.py
+│   │   │   └── step9_asr_eval.py
+│   │   ├── diagnostics
+│   │   ├── diarization
+│   │   │   ├── msdd_outputs
+│   │   │   └── rich_karen_msdd.rttm
+│   │   ├── dual_path
+│   │   │   ├── audio
+│   │   │   ├── diarization
+│   │   │   ├── grounding
+│   │   │   ├── manifests
+│   │   │   ├── outputs
+│   │   │   ├── reports
+│   │   │   ├── run_pipeline.py
+│   │   │   ├── step2_process_gt.py
+│   │   │   ├── step3_vad_grounding.py
+│   │   │   ├── step4_oracle_rttm.py
+│   │   │   ├── step5_whisperx.py
+│   │   │   ├── step6_msdd.py
+│   │   │   ├── step7_fusion.py
+│   │   │   └── step8_eval.py
+│   │   ├── embedding_analysis
+│   │   │   ├── combined
+│   │   │   ├── metrics
+│   │   │   ├── pca
+│   │   │   ├── reports
+│   │   │   ├── trajectories
+│   │   │   └── umap
+│   │   ├── grounded
+│   │   │   ├── analyze_embeddings.py
+│   │   │   ├── audio
+│   │   │   ├── diagnostics
+│   │   │   ├── diarization
+│   │   │   ├── embedding_analysis
+│   │   │   ├── grounding
+│   │   │   ├── manifests
+│   │   │   ├── outputs
+│   │   │   ├── reports
+│   │   │   ├── step10_diar_eval.py
+│   │   │   ├── step5_whisperx.py
+│   │   │   ├── step6_msdd.py
+│   │   │   ├── step7_fusion.py
+│   │   │   ├── step8_vad_eval.py
+│   │   │   └── step9_asr_eval.py
+│   │   ├── grounding
+│   │   │   ├── rich_karen_grounding.json
+│   │   │   ├── rich_karen_gt.json
+│   │   │   ├── rich_karen_gt.rttm
+│   │   │   └── rich_karen_oracle.rttm
+│   │   ├── manifests
+│   │   │   └── rich_karen_manifest.json
+│   │   ├── no_norm
+│   │   │   ├── analyze_embeddings.py
+│   │   │   ├── audio
+│   │   │   ├── diagnostics
+│   │   │   ├── diarization
+│   │   │   ├── embedding_analysis
+│   │   │   ├── grounding
+│   │   │   ├── manifests
+│   │   │   ├── no_norm
+│   │   │   ├── outputs
+│   │   │   ├── reports
+│   │   │   ├── run_pipeline.py
+│   │   │   ├── step10_diar_eval.py
+│   │   │   ├── step1_preprocess.py
+│   │   │   ├── step2_process_gt.py
+│   │   │   ├── step3_vad_grounding.py
+│   │   │   ├── step4_oracle_rttm.py
+│   │   │   ├── step5_whisperx.py
+│   │   │   ├── step6_msdd.py
+│   │   │   ├── step7_fusion.py
+│   │   │   ├── step8_vad_eval.py
+│   │   │   └── step9_asr_eval.py
+│   │   ├── outputs
+│   │   │   ├── aligned_words.json
+│   │   │   └── rich_karen_transcript.json
+│   │   ├── reports
+│   │   │   ├── PHASE18_FINAL_COMPARISON.md
+│   │   │   ├── PHASE18_SUMMARY.md
+│   │   │   ├── asr_eval.json
+│   │   │   ├── diarization_eval.json
+│   │   │   ├── diarization_metrics.csv
+│   │   │   └── vad_eval.json
+│   │   ├── run_pipeline.py
+│   │   ├── step10_diar_eval.py
+│   │   ├── step1_preprocess.py
+│   │   ├── step2_process_gt.py
+│   │   ├── step3_vad_grounding.py
+│   │   ├── step4_oracle_rttm.py
+│   │   ├── step5_whisperx.py
+│   │   ├── step6_msdd.py
+│   │   ├── step7_fusion.py
+│   │   ├── step8_vad_eval.py
+│   │   └── step9_asr_eval.py
+│   ├── phase1_vad
+│   │   ├── generate_report.py
+│   │   ├── grounding_pyannote
+│   │   │   ├── bwc_grounding.json
+│   │   │   └── podcast_grounding.json
+│   │   ├── grounding_silero
+│   │   │   ├── bwc_grounding.json
+│   │   │   └── podcast_grounding.json
+│   │   ├── outputs_pyannote
+│   │   │   ├── bwc_hardened.json
+│   │   │   ├── bwc_hardened.txt
+│   │   │   ├── podcast_hardened.json
+│   │   │   └── podcast_hardened.txt
+│   │   ├── outputs_silero
+│   │   │   ├── bwc_hardened.json
+│   │   │   ├── bwc_hardened.txt
+│   │   │   ├── podcast_hardened.json
+│   │   │   └── podcast_hardened.txt
+│   │   ├── pipeline_vad_pyannote.py
+│   │   ├── pipeline_vad_silero.py
+│   │   └── run_phase1.py
+│   ├── phase2_enhancement
+│   │   ├── audio_deepfilternet
+│   │   │   └── bwc.wav
+│   │   ├── audio_denoiser
+│   │   │   └── bwc.wav
+│   │   ├── audio_speechbrain
+│   │   │   ├── bwc.wav
+│   │   │   └── podcast.wav
+│   │   ├── generate_report.py
+│   │   ├── grounding_deepfilternet
+│   │   │   └── bwc_grounding.json
+│   │   ├── grounding_denoiser
+│   │   │   └── bwc_grounding.json
+│   │   ├── grounding_speechbrain
+│   │   │   ├── bwc_grounding.json
+│   │   │   └── podcast_grounding.json
+│   │   ├── outputs_deepfilternet
+│   │   │   ├── bwc_hardened.json
+│   │   │   └── bwc_hardened.txt
+│   │   ├── outputs_denoiser
+│   │   ├── outputs_speechbrain
+│   │   │   ├── bwc_hardened.json
+│   │   │   ├── bwc_hardened.txt
+│   │   │   ├── podcast_hardened.json
+│   │   │   └── podcast_hardened.txt
+│   │   ├── pipeline_enhancement_deepfilternet.py
+│   │   ├── pipeline_enhancement_denoiser.py
+│   │   ├── pipeline_enhancement_speechbrain.py
+│   │   └── run_phase2.py
+│   ├── phase3_diarization
+│   │   ├── outputs_msdd
+│   │   │   └── bwc_manifest.json
+│   │   ├── outputs_msdd_final
+│   │   ├── outputs_pyannote31
+│   │   │   ├── bwc_hardened.json
+│   │   │   ├── bwc_hardened.txt
+│   │   │   ├── podcast_hardened.json
+│   │   │   └── podcast_hardened.txt
+│   │   ├── pipeline_msdd.py
+│   │   ├── run_hardened_with_custom_diar.py
+│   │   └── run_phase3.py
+│   ├── phase4_grounded_enhancement
+│   │   ├── audio_deepfilternet
+│   │   │   ├── bwc.wav
+│   │   │   └── podcast.wav
+│   │   ├── audio_grounded
+│   │   ├── audio_normalized
+│   │   │   ├── bwc.wav
+│   │   │   ├── podcast.wav
+│   │   │   └── preprocessing_metadata.csv
+│   │   ├── audio_speechbrain
+│   │   │   ├── bwc.wav
+│   │   │   └── podcast.wav
+│   │   ├── grounding_master
+│   │   │   ├── bwc_grounding.json
+│   │   │   └── podcast_grounding.json
+│   │   ├── outputs_baseline
+│   │   │   ├── bwc_hardened.json
+│   │   │   ├── bwc_hardened.txt
+│   │   │   ├── podcast_hardened.json
+│   │   │   └── podcast_hardened.txt
+│   │   ├── outputs_deepfilternet
+│   │   │   ├── bwc_hardened.json
+│   │   │   ├── bwc_hardened.txt
+│   │   │   ├── podcast_hardened.json
+│   │   │   └── podcast_hardened.txt
+│   │   ├── outputs_speechbrain
+│   │   │   ├── bwc_hardened.json
+│   │   │   ├── bwc_hardened.txt
+│   │   │   ├── podcast_hardened.json
+│   │   │   └── podcast_hardened.txt
+│   │   └── run_phase4.py
+│   ├── phase5_audit
+│   │   ├── msdd_bwc_test
+│   │   │   ├── audit_timing.json
+│   │   │   ├── diagnostics_msdd
+│   │   │   ├── msdd_raw
+│   │   │   └── outputs_msdd
+│   │   ├── msdd_raw
+│   │   │   ├── bwc
+│   │   │   └── bwc_manifest.json
+│   │   ├── oracle_rttms
+│   │   │   ├── bwc.rttm
+│   │   │   └── podcast.rttm
+│   │   ├── pipeline_msdd_oracle.py
+│   │   ├── pyannote_auto
+│   │   │   ├── bwc_hardened.json
+│   │   │   └── bwc_hardened.txt
+│   │   ├── pyannote_fixed2
+│   │   │   ├── bwc_hardened.json
+│   │   │   └── bwc_hardened.txt
+│   │   ├── run_audit_msdd_bwc.py
+│   │   └── temp_audio
+│   │       └── bwc.wav
+│   ├── phase5_grounded_diarization
+│   │   ├── diagnostics_msdd
+│   │   │   ├── bwc_conf_0.json
+│   │   │   ├── bwc_conf_0.wav
+│   │   │   ├── bwc_conf_1.json
+│   │   │   ├── bwc_conf_1.wav
+│   │   │   ├── bwc_conf_2.json
+│   │   │   ├── bwc_conf_2.wav
+│   │   │   ├── bwc_conf_3.json
+│   │   │   ├── bwc_conf_3.wav
+│   │   │   ├── bwc_conf_4.json
+│   │   │   ├── bwc_conf_4.wav
+│   │   │   ├── bwc_fa_0.json
+│   │   │   ├── bwc_fa_0.wav
+│   │   │   ├── bwc_fa_1.json
+│   │   │   ├── bwc_fa_1.wav
+│   │   │   ├── bwc_fa_2.json
+│   │   │   ├── bwc_fa_2.wav
+│   │   │   ├── bwc_fa_3.json
+│   │   │   ├── bwc_fa_3.wav
+│   │   │   ├── bwc_fa_4.json
+│   │   │   ├── bwc_fa_4.wav
+│   │   │   ├── bwc_miss_0.json
+│   │   │   ├── bwc_miss_0.wav
+│   │   │   ├── bwc_miss_1.json
+│   │   │   ├── bwc_miss_1.wav
+│   │   │   ├── bwc_miss_2.json
+│   │   │   ├── bwc_miss_2.wav
+│   │   │   ├── bwc_miss_3.json
+│   │   │   ├── bwc_miss_3.wav
+│   │   │   ├── bwc_miss_4.json
+│   │   │   ├── bwc_miss_4.wav
+│   │   │   ├── diarization_diagnostics.csv
+│   │   │   ├── podcast_conf_0.json
+│   │   │   ├── podcast_conf_0.wav
+│   │   │   ├── podcast_conf_1.json
+│   │   │   ├── podcast_conf_1.wav
+│   │   │   ├── podcast_conf_2.json
+│   │   │   ├── podcast_conf_2.wav
+│   │   │   ├── podcast_conf_3.json
+│   │   │   ├── podcast_conf_3.wav
+│   │   │   ├── podcast_conf_4.json
+│   │   │   ├── podcast_conf_4.wav
+│   │   │   ├── podcast_fa_0.json
+│   │   │   ├── podcast_fa_0.wav
+│   │   │   ├── podcast_fa_1.json
+│   │   │   ├── podcast_fa_1.wav
+│   │   │   ├── podcast_fa_2.json
+│   │   │   ├── podcast_fa_2.wav
+│   │   │   ├── podcast_fa_3.json
+│   │   │   ├── podcast_fa_3.wav
+│   │   │   ├── podcast_fa_4.json
+│   │   │   ├── podcast_fa_4.wav
+│   │   │   ├── podcast_miss_0.json
+│   │   │   ├── podcast_miss_0.wav
+│   │   │   ├── podcast_miss_1.json
+│   │   │   ├── podcast_miss_1.wav
+│   │   │   ├── podcast_miss_2.json
+│   │   │   ├── podcast_miss_2.wav
+│   │   │   ├── podcast_miss_3.json
+│   │   │   ├── podcast_miss_3.wav
+│   │   │   ├── podcast_miss_4.json
+│   │   │   └── podcast_miss_4.wav
+│   │   ├── diagnostics_pyannote31
+│   │   │   ├── bwc_conf_0.json
+│   │   │   ├── bwc_conf_0.wav
+│   │   │   ├── bwc_conf_1.json
+│   │   │   ├── bwc_conf_1.wav
+│   │   │   ├── bwc_conf_2.json
+│   │   │   ├── bwc_conf_2.wav
+│   │   │   ├── bwc_conf_3.json
+│   │   │   ├── bwc_conf_3.wav
+│   │   │   ├── bwc_conf_4.json
+│   │   │   ├── bwc_conf_4.wav
+│   │   │   ├── bwc_fa_0.json
+│   │   │   ├── bwc_fa_0.wav
+│   │   │   ├── bwc_fa_1.json
+│   │   │   ├── bwc_fa_1.wav
+│   │   │   ├── bwc_fa_2.json
+│   │   │   ├── bwc_fa_2.wav
+│   │   │   ├── bwc_fa_3.json
+│   │   │   ├── bwc_fa_3.wav
+│   │   │   ├── bwc_fa_4.json
+│   │   │   ├── bwc_fa_4.wav
+│   │   │   ├── bwc_miss_0.json
+│   │   │   ├── bwc_miss_0.wav
+│   │   │   ├── bwc_miss_1.json
+│   │   │   ├── bwc_miss_1.wav
+│   │   │   ├── bwc_miss_2.json
+│   │   │   ├── bwc_miss_2.wav
+│   │   │   ├── bwc_miss_3.json
+│   │   │   ├── bwc_miss_3.wav
+│   │   │   ├── bwc_miss_4.json
+│   │   │   ├── bwc_miss_4.wav
+│   │   │   ├── diarization_diagnostics.csv
+│   │   │   ├── podcast_conf_0.json
+│   │   │   ├── podcast_conf_0.wav
+│   │   │   ├── podcast_conf_1.json
+│   │   │   ├── podcast_conf_1.wav
+│   │   │   ├── podcast_conf_2.json
+│   │   │   ├── podcast_conf_2.wav
+│   │   │   ├── podcast_conf_3.json
+│   │   │   ├── podcast_conf_3.wav
+│   │   │   ├── podcast_conf_4.json
+│   │   │   ├── podcast_conf_4.wav
+│   │   │   ├── podcast_fa_0.json
+│   │   │   ├── podcast_fa_0.wav
+│   │   │   ├── podcast_fa_1.json
+│   │   │   ├── podcast_fa_1.wav
+│   │   │   ├── podcast_fa_2.json
+│   │   │   ├── podcast_fa_2.wav
+│   │   │   ├── podcast_fa_3.json
+│   │   │   ├── podcast_fa_3.wav
+│   │   │   ├── podcast_fa_4.json
+│   │   │   ├── podcast_fa_4.wav
+│   │   │   ├── podcast_miss_0.json
+│   │   │   ├── podcast_miss_0.wav
+│   │   │   ├── podcast_miss_1.json
+│   │   │   ├── podcast_miss_1.wav
+│   │   │   ├── podcast_miss_2.json
+│   │   │   ├── podcast_miss_2.wav
+│   │   │   ├── podcast_miss_3.json
+│   │   │   ├── podcast_miss_3.wav
+│   │   │   ├── podcast_miss_4.json
+│   │   │   └── podcast_miss_4.wav
+│   │   ├── diagnostics_pyannote31_auto
+│   │   │   ├── bwc_conf_0.json
+│   │   │   ├── bwc_conf_0.wav
+│   │   │   ├── bwc_conf_1.json
+│   │   │   ├── bwc_conf_1.wav
+│   │   │   ├── bwc_conf_2.json
+│   │   │   ├── bwc_conf_2.wav
+│   │   │   ├── bwc_conf_3.json
+│   │   │   ├── bwc_conf_3.wav
+│   │   │   ├── bwc_conf_4.json
+│   │   │   ├── bwc_conf_4.wav
+│   │   │   ├── bwc_fa_0.json
+│   │   │   ├── bwc_fa_0.wav
+│   │   │   ├── bwc_fa_1.json
+│   │   │   ├── bwc_fa_1.wav
+│   │   │   ├── bwc_fa_2.json
+│   │   │   ├── bwc_fa_2.wav
+│   │   │   ├── bwc_fa_3.json
+│   │   │   ├── bwc_fa_3.wav
+│   │   │   ├── bwc_fa_4.json
+│   │   │   ├── bwc_fa_4.wav
+│   │   │   ├── bwc_miss_0.json
+│   │   │   ├── bwc_miss_0.wav
+│   │   │   ├── bwc_miss_1.json
+│   │   │   ├── bwc_miss_1.wav
+│   │   │   ├── bwc_miss_2.json
+│   │   │   ├── bwc_miss_2.wav
+│   │   │   ├── bwc_miss_3.json
+│   │   │   ├── bwc_miss_3.wav
+│   │   │   ├── bwc_miss_4.json
+│   │   │   ├── bwc_miss_4.wav
+│   │   │   ├── diarization_diagnostics.csv
+│   │   │   ├── podcast_conf_0.json
+│   │   │   ├── podcast_conf_0.wav
+│   │   │   ├── podcast_conf_1.json
+│   │   │   ├── podcast_conf_1.wav
+│   │   │   ├── podcast_conf_2.json
+│   │   │   ├── podcast_conf_2.wav
+│   │   │   ├── podcast_conf_3.json
+│   │   │   ├── podcast_conf_3.wav
+│   │   │   ├── podcast_conf_4.json
+│   │   │   ├── podcast_conf_4.wav
+│   │   │   ├── podcast_fa_0.json
+│   │   │   ├── podcast_fa_0.wav
+│   │   │   ├── podcast_fa_1.json
+│   │   │   ├── podcast_fa_1.wav
+│   │   │   ├── podcast_fa_2.json
+│   │   │   ├── podcast_fa_2.wav
+│   │   │   ├── podcast_fa_3.json
+│   │   │   ├── podcast_fa_3.wav
+│   │   │   ├── podcast_fa_4.json
+│   │   │   ├── podcast_fa_4.wav
+│   │   │   ├── podcast_miss_0.json
+│   │   │   ├── podcast_miss_0.wav
+│   │   │   ├── podcast_miss_1.json
+│   │   │   ├── podcast_miss_1.wav
+│   │   │   ├── podcast_miss_2.json
+│   │   │   ├── podcast_miss_2.wav
+│   │   │   ├── podcast_miss_3.json
+│   │   │   ├── podcast_miss_3.wav
+│   │   │   ├── podcast_miss_4.json
+│   │   │   └── podcast_miss_4.wav
+│   │   ├── diagnostics_pyannote31_fixed2
+│   │   │   ├── bwc_conf_0.json
+│   │   │   ├── bwc_conf_0.wav
+│   │   │   ├── bwc_conf_1.json
+│   │   │   ├── bwc_conf_1.wav
+│   │   │   ├── bwc_conf_2.json
+│   │   │   ├── bwc_conf_2.wav
+│   │   │   ├── bwc_conf_3.json
+│   │   │   ├── bwc_conf_3.wav
+│   │   │   ├── bwc_conf_4.json
+│   │   │   ├── bwc_conf_4.wav
+│   │   │   ├── bwc_fa_0.json
+│   │   │   ├── bwc_fa_0.wav
+│   │   │   ├── bwc_fa_1.json
+│   │   │   ├── bwc_fa_1.wav
+│   │   │   ├── bwc_fa_2.json
+│   │   │   ├── bwc_fa_2.wav
+│   │   │   ├── bwc_fa_3.json
+│   │   │   ├── bwc_fa_3.wav
+│   │   │   ├── bwc_fa_4.json
+│   │   │   ├── bwc_fa_4.wav
+│   │   │   ├── bwc_miss_0.json
+│   │   │   ├── bwc_miss_0.wav
+│   │   │   ├── bwc_miss_1.json
+│   │   │   ├── bwc_miss_1.wav
+│   │   │   ├── bwc_miss_2.json
+│   │   │   ├── bwc_miss_2.wav
+│   │   │   ├── bwc_miss_3.json
+│   │   │   ├── bwc_miss_3.wav
+│   │   │   ├── bwc_miss_4.json
+│   │   │   ├── bwc_miss_4.wav
+│   │   │   ├── diarization_diagnostics.csv
+│   │   │   ├── podcast_conf_0.json
+│   │   │   ├── podcast_conf_0.wav
+│   │   │   ├── podcast_conf_1.json
+│   │   │   ├── podcast_conf_1.wav
+│   │   │   ├── podcast_conf_2.json
+│   │   │   ├── podcast_conf_2.wav
+│   │   │   ├── podcast_conf_3.json
+│   │   │   ├── podcast_conf_3.wav
+│   │   │   ├── podcast_conf_4.json
+│   │   │   ├── podcast_conf_4.wav
+│   │   │   ├── podcast_fa_0.json
+│   │   │   ├── podcast_fa_0.wav
+│   │   │   ├── podcast_fa_1.json
+│   │   │   ├── podcast_fa_1.wav
+│   │   │   ├── podcast_fa_2.json
+│   │   │   ├── podcast_fa_2.wav
+│   │   │   ├── podcast_fa_3.json
+│   │   │   ├── podcast_fa_3.wav
+│   │   │   ├── podcast_fa_4.json
+│   │   │   ├── podcast_fa_4.wav
+│   │   │   ├── podcast_miss_0.json
+│   │   │   ├── podcast_miss_0.wav
+│   │   │   ├── podcast_miss_1.json
+│   │   │   ├── podcast_miss_1.wav
+│   │   │   ├── podcast_miss_2.json
+│   │   │   ├── podcast_miss_2.wav
+│   │   │   ├── podcast_miss_3.json
+│   │   │   ├── podcast_miss_3.wav
+│   │   │   ├── podcast_miss_4.json
+│   │   │   └── podcast_miss_4.wav
+│   │   ├── diar_msdd_raw
+│   │   │   ├── bwc
+│   │   │   ├── bwc_diarization.json
+│   │   │   ├── bwc_manifest.json
+│   │   │   ├── podcast
+│   │   │   ├── podcast_diarization.json
+│   │   │   ├── podcast_manifest.json
+│   │   │   └── timing_report.json
+│   │   ├── error_analysis
+│   │   ├── outputs_msdd
+│   │   │   ├── bwc_hardened.json
+│   │   │   └── podcast_hardened.json
+│   │   ├── outputs_pyannote31
+│   │   │   ├── bwc_hardened.json
+│   │   │   ├── bwc_hardened.txt
+│   │   │   ├── podcast_hardened.json
+│   │   │   └── podcast_hardened.txt
+│   │   ├── outputs_pyannote31_auto
+│   │   │   ├── bwc_hardened.json
+│   │   │   ├── bwc_hardened.txt
+│   │   │   ├── podcast_hardened.json
+│   │   │   └── podcast_hardened.txt
+│   │   ├── outputs_pyannote31_fixed2
+│   │   │   ├── bwc_hardened.json
+│   │   │   ├── bwc_hardened.txt
+│   │   │   ├── podcast_hardened.json
+│   │   │   └── podcast_hardened.txt
+│   │   └── run_phase5.py
+│   ├── phase6_final_diagnostic
+│   │   ├── audio_preprocessed
+│   │   │   ├── _tmp_deepfilternet
+│   │   │   ├── _tmp_speechbrain
+│   │   │   ├── bwc_deepfilternet.wav
+│   │   │   ├── bwc_norm.wav
+│   │   │   ├── bwc_speechbrain.wav
+│   │   │   └── podcast_norm.wav
+│   │   ├── error_audit
+│   │   │   ├── baseline
+│   │   │   ├── deepfilternet
+│   │   │   └── speechbrain
+│   │   ├── eval_phase6_metrics.py
+│   │   ├── extract_phase6_audit.py
+│   │   ├── generate_spectrograms.py
+│   │   ├── grounding
+│   │   │   ├── bwc_baseline_vad.json
+│   │   │   ├── bwc_deepfilternet_vad.json
+│   │   │   ├── bwc_speechbrain_vad.json
+│   │   │   └── podcast_baseline_vad.json
+│   │   ├── outputs
+│   │   │   ├── baseline
+│   │   │   ├── deepfilternet
+│   │   │   └── speechbrain
+│   │   ├── reports
+│   │   │   ├── asr_metrics.csv
+│   │   │   ├── diarization_metrics.csv
+│   │   │   ├── final_comparison.csv
+│   │   │   └── vad_metrics.csv
+│   │   ├── run_phase6_main.py
+│   │   ├── v2
+│   │   │   ├── audio_preprocessed
+│   │   │   ├── audit
+│   │   │   ├── comparisons
+│   │   │   ├── eval_phase6_v2_metrics.py
+│   │   │   ├── grounding
+│   │   │   ├── outputs
+│   │   │   ├── reports
+│   │   │   ├── run_phase6_v2.py
+│   │   │   └── visualizations
+│   │   └── visualizations
+│   │       ├── bwc_deepfilternet_spectrogram.png
+│   │       ├── bwc_norm_spectrogram.png
+│   │       ├── bwc_spectrogram.png
+│   │       └── bwc_speechbrain_spectrogram.png
+│   ├── phase7_optimal
+│   │   ├── audio
+│   │   │   ├── _tmp_deepfilternet
+│   │   │   ├── bwc.wav
+│   │   │   ├── bwc_norm.wav
+│   │   │   └── podcast_norm.wav
+│   │   ├── diarization
+│   │   │   ├── bwc
+│   │   │   ├── bwc_diarization.json
+│   │   │   ├── bwc_manifest.json
+│   │   │   └── bwc_soft_vad.rttm
+│   │   ├── error_audit
+│   │   │   ├── asr_deletions
+│   │   │   ├── diar_confusion
+│   │   │   ├── diar_false_alarm
+│   │   │   └── diar_miss
+│   │   ├── eval_phase7_metrics.py
+│   │   ├── extract_phase7_audit.py
+│   │   ├── grounding
+│   │   │   └── bwc_soft_vad.json
+│   │   ├── outputs
+│   │   │   ├── asr
+│   │   │   ├── bwc_optimal_final.json
+│   │   │   └── bwc_optimal_final.txt
+│   │   ├── reports
+│   │   │   ├── asr_metrics.csv
+│   │   │   ├── cp_sawer_metrics.csv
+│   │   │   ├── diarization_metrics.csv
+│   │   │   ├── final_summary.csv
+│   │   │   └── vad_metrics.csv
+│   │   └── run_phase7_optimal.py
+│   ├── phase8_sentence_grouped
+│   │   ├── audio
+│   │   │   ├── _tmp_deepfilternet
+│   │   │   ├── bwc.wav
+│   │   │   └── bwc_norm.wav
+│   │   ├── diarization
+│   │   │   ├── bwc
+│   │   │   ├── bwc_diarization.json
+│   │   │   ├── bwc_manifest.json
+│   │   │   └── bwc_soft_vad.rttm
+│   │   ├── error_audit
+│   │   │   ├── asr_deletions
+│   │   │   ├── diar_confusion
+│   │   │   ├── diar_false_alarm
+│   │   │   └── diar_miss
+│   │   ├── eval_phase8_metrics.py
+│   │   ├── extract_phase8_audit.py
+│   │   ├── grounding
+│   │   │   └── bwc_soft_vad.json
+│   │   ├── outputs
+│   │   │   ├── asr
+│   │   │   ├── bwc_final.json
+│   │   │   └── bwc_final.txt
+│   │   ├── reports
+│   │   │   ├── asr_metrics.csv
+│   │   │   ├── cp_sawer_metrics.csv
+│   │   │   ├── diarization_metrics.csv
+│   │   │   ├── final_summary.csv
+│   │   │   └── vad_metrics.csv
+│   │   └── run_phase8_main.py
+│   └── phase9_production
+│       ├── audio_grounded
+│       │   └── bwc_grounded.wav
+│       ├── audio_normalized
+│       │   └── bwc_normalized.wav
+│       ├── diagnostics
+│       ├── eval_phase9_metrics.py
+│       ├── grounding_master
+│       │   └── bwc_grounding.json
+│       ├── outputs_alignment
+│       │   └── bwc_aligned.json
+│       ├── outputs_asr
+│       │   └── bwc_asr.json
+│       ├── outputs_final
+│       │   ├── bwc_final.json
+│       │   └── bwc_final.txt
+│       ├── outputs_msdd
+│       │   ├── bwc_diarization.json
+│       │   ├── bwc_normalized
+│       │   ├── bwc_normalized_manifest.json
+│       │   └── bwc_normalized_oracle.rttm
+│       ├── plots
+│       ├── reports
+│       │   ├── phase9_comprehensive_metrics.csv
+│       │   └── phase9_report.md
+│       └── run_phase9_production.py
+├── external
+│   ├── WhisperX-Audio-Intelligence-Platform
+│   │   ├── README.md
+│   │   ├── WhisperX-Audio-Intelligence-Platform
+│   │   ├── align.py
+│   │   ├── app.py
+│   │   ├── diarize.py
+│   │   ├── packages.txt
+│   │   ├── pipeline.py
+│   │   ├── requirements.txt
+│   │   ├── transcribe.py
+│   │   └── utils.py
+│   └── silero-vad
+│       ├── CITATION.cff
+│       ├── CODE_OF_CONDUCT.md
+│       ├── LICENSE
+│       ├── README.md
+│       ├── datasets
+│       │   └── README.md
+│       ├── examples
+│       │   ├── c++
+│       │   ├── colab_record_example.ipynb
+│       │   ├── cpp
+│       │   ├── cpp_libtorch
+│       │   ├── cpp_libtorch_deprecated
+│       │   ├── csharp
+│       │   ├── go
+│       │   ├── haskell
+│       │   ├── java-example
+│       │   ├── java-wav-file-example
+│       │   ├── microphone_and_webRTC_integration
+│       │   ├── parallel_example.ipynb
+│       │   ├── pyaudio-streaming
+│       │   ├── rust-example
+│       │   └── rust-wav-processing-with-wavekat-vad
+│       ├── files
+│       │   └── silero_logo.jpg
+│       ├── hubconf.py
+│       ├── pyproject.toml
+│       ├── silero-vad.ipynb
+│       ├── src
+│       │   └── silero_vad
+│       ├── tests
+│       │   ├── data
+│       │   └── test_basic.py
+│       └── tuning
+│           ├── README.md
+│           ├── __init__.py
+│           ├── config.yml
+│           ├── example_dataframe.feather
+│           ├── search_thresholds.py
+│           ├── tune.py
+│           └── utils.py
+├── final_bwc_outputs
+│   ├── bwc_hardened.json
+│   ├── bwc_hardened.txt
+│   ├── podcast_hardened.json
+│   └── podcast_hardened.txt
+├── final_bwc_outputs_B
+│   ├── bwc_hardened.json
+│   ├── bwc_hardened.txt
+│   ├── podcast_hardened.json
+│   └── podcast_hardened.txt
+├── final_bwc_outputs_C
+│   ├── bwc_hardened.json
+│   ├── bwc_hardened.txt
+│   ├── podcast_hardened.json
+│   └── podcast_hardened.txt
+├── final_bwc_outputs_v2
+│   ├── bwc_hardened.json
+│   ├── bwc_hardened.txt
+│   ├── podcast_hardened.json
+│   └── podcast_hardened.txt
+├── final_bwc_outputs_v3
+│   ├── bwc_hardened.json
+│   ├── bwc_hardened.txt
+│   ├── podcast_hardened.json
+│   └── podcast_hardened.txt
+├── find_vad.py
+├── fix_karen_gt.py
+├── full_tree.txt
+├── gemini.txt
+├── generate_trees.py
+├── ground_truth
+│   ├── bwc.txt
+│   ├── k.txt
+│   ├── karen.txt
+│   ├── parsed
+│   │   ├── bwc.json
+│   │   ├── bwc.rttm
+│   │   ├── podcast.json
+│   │   └── podcast.rttm
+│   ├── podcast.txt
+│   └── rich_karen.txt
+├── ground_truth_json
+│   ├── bwc.json
+│   └── karen.json
+├── ground_truth_rttm
+│   ├── bwc.rttm
+│   └── karen.rttm
+├── logs
+│   ├── alignment_eval.log
+│   ├── asr_pipeline.log
+│   ├── bwc_vad_pipeline.log
+│   ├── diarization_stage3.log
+│   ├── stage1_pipeline.log
+│   ├── wer_eval.log
+│   ├── whisperx_vad_pipeline.log
+│   └── wx_parallel_pipeline
+│       └── pipeline.log
+├── mkdir
+├── papers
+│   ├── 2406.04927v3.pdf
+│   ├── Multi-channel Conversational SSND.pdf
+│   ├── Spatio-spectral diarization.pdf
+│   ├── camp-voigt-2025-body-camera-footage-as-data-using-natural-language-processing-to-monitor-policing-at-scale-in-depth.pdf
+│   ├── graph clustering.pdf
+│   ├── park22d_interspeech.pdf
+│   ├── s44147-023-00351-0 (1).pdf
+│   ├── wang.pdf
+│   └── whisperx.pdf
+├── parse_karen_gt.py
+├── phase10_HLA.png
+├── pipeline_phase13.png
+├── preprocess_audio.py
+├── preprocessed_B_normalized
+│   ├── bwc.wav
+│   ├── podcast.wav
+│   └── preprocessing_metadata.csv
+├── preprocessed_C_normalized_bandpass
+│   ├── bwc.wav
+│   ├── podcast.wav
+│   └── preprocessing_metadata.csv
+├── raw_audio
+│   ├── bwc.wav
+│   ├── karen.mp3
+│   ├── karen.wav
+│   ├── podcast.wav
+│   └── rich_karen.mp3
+├── raw_video
+│   ├── bwc.mp4
+│   └── podcast.mp4
+├── reports
+│   ├── asr_comparison_summary.csv
+│   ├── asr_eval_improved_custom_condition.csv
+│   ├── asr_eval_improved_custom_script.csv
+│   ├── asr_eval_improved_phase10_Phase10A_asr.csv
+│   ├── asr_eval_improved_phase10_Phase10B_asr.csv
+│   ├── asr_eval_improved_phase10_Phase10C_asr.csv
+│   ├── asr_eval_improved_phase11_11A_asr.csv
+│   ├── asr_eval_improved_phase11_11B_asr.csv
+│   ├── asr_eval_improved_phase11_11C_asr.csv
+│   ├── asr_eval_improved_phase5_check.csv
+│   ├── asr_eval_improved_phase6_debug.csv
+│   ├── asr_eval_improved_standard.csv
+│   ├── asr_eval_improved_whisperx_parallel.csv
+│   ├── conversational_eval_B_normalized.csv
+│   ├── conversational_eval_C_normalized_bandpass.csv
+│   ├── conversational_eval_error_analysis_hardened_v2.csv
+│   ├── conversational_eval_hardened_final.csv
+│   ├── conversational_eval_hardened_v2.csv
+│   ├── conversational_eval_hardened_v3.csv
+│   ├── conversational_eval_karen_audit.csv
+│   ├── conversational_eval_phase10_Phase10A_conv.csv
+│   ├── conversational_eval_phase10_Phase10B_conv.csv
+│   ├── conversational_eval_phase10_Phase10C_conv.csv
+│   ├── conversational_eval_phase11_11A_conv.csv
+│   ├── conversational_eval_phase11_11B_conv.csv
+│   ├── conversational_eval_phase11_11C_conv.csv
+│   ├── conversational_eval_phase12.csv
+│   ├── conversational_eval_phase1_pyannote.csv
+│   ├── conversational_eval_phase1_silero.csv
+│   ├── conversational_eval_phase2_deepfilternet.csv
+│   ├── conversational_eval_phase2_denoiser.csv
+│   ├── conversational_eval_phase2_speechbrain.csv
+│   ├── conversational_eval_phase3_msdd.csv
+│   ├── conversational_eval_phase3_pyannote31.csv
+│   ├── conversational_eval_phase4_baseline.csv
+│   ├── conversational_eval_phase4_deepfilternet.csv
+│   ├── conversational_eval_phase4_speechbrain.csv
+│   ├── conversational_eval_phase5_audit_auto.csv
+│   ├── conversational_eval_phase5_audit_fixed2.csv
+│   ├── conversational_eval_phase5_audit_msdd_bwc.csv
+│   ├── conversational_eval_phase5_msdd.csv
+│   ├── conversational_eval_phase5_pyannote31.csv
+│   ├── conversational_eval_phase5_pyannote31_auto.csv
+│   ├── conversational_eval_phase5_pyannote31_fixed2.csv
+│   ├── dataset_manifest.csv
+│   ├── diarization_comparison_summary.csv
+│   ├── diarization_eval.csv
+│   ├── diarization_eval_improved_grounded_comparison.csv
+│   ├── diarization_eval_improved_phase10_Phase10A_diar.csv
+│   ├── diarization_eval_improved_phase10_Phase10B_diar.csv
+│   ├── diarization_eval_improved_phase10_Phase10C_diar.csv
+│   ├── diarization_eval_improved_phase11_11A_diar.csv
+│   ├── diarization_eval_improved_phase11_11B_diar.csv
+│   ├── diarization_eval_improved_phase11_11C_diar.csv
+│   ├── diarization_eval_improved_phase5_check.csv
+│   ├── diarization_eval_improved_phase6_debug.csv
+│   ├── diarization_eval_improved_pyannote_31.csv
+│   ├── diarization_eval_improved_standard.csv
+│   ├── diarization_eval_improved_whisperx_2spk.csv
+│   ├── diarization_eval_improved_whisperx_parallel.csv
+│   ├── final_recommendation.md
+│   ├── hardened_v2.csv
+│   ├── phase1_report.md
+│   ├── phase2_report.md
+│   ├── phase4
+│   ├── phase5
+│   ├── stage1_summary.csv
+│   ├── vad_eval.csv
+│   ├── wer_eval.csv
+│   └── whisperx_vad
+│       └── vad_comparison.csv
+├── requirements.txt
+├── results
+│   ├── plots
+│   └── summaries
+├── run_asr.py
+├── run_diarization.py
+├── run_diarization_pyannote_31.py
+├── run_final_hardened_pipeline.py
+├── run_grounded_diarization_test.py
+├── run_karen_audit.py
+├── run_karen_inference.py
+├── run_production_pipeline.py
+├── run_stage1.py
+├── run_stage1_whisperx.py
+├── run_stage4_parallel.py
+├── script_summaries.txt
+├── scripts
+│   ├── __init__.py
+│   ├── calculate_snr.py
+│   ├── evaluate_vad.py
+│   ├── extract_audio.py
+│   ├── utils
+│   │   ├── __init__.py
+│   │   ├── audio_utils.py
+│   │   ├── config.py
+│   │   ├── convert_grounding_to_rttm.py
+│   │   ├── csv_reporter.py
+│   │   ├── device.py
+│   │   ├── diarization_diagnostics.py
+│   │   ├── json_export.py
+│   │   ├── logger.py
+│   │   └── parse_ground_truth.py
+│   └── vad_engine.py
+├── speech_segments
+│   ├── bwc
+│   │   ├── bwc_seg00_0.000_42.220.wav
+│   │   ├── bwc_seg01_46.612_52.812.wav
+│   │   ├── bwc_seg02_58.292_59.244.wav
+│   │   ├── bwc_seg03_60.652_68.260.wav
+│   │   ├── bwc_seg04_69.836_71.268.wav
+│   │   ├── bwc_seg05_74.220_75.812.wav
+│   │   ├── bwc_seg06_77.452_85.252.wav
+│   │   ├── bwc_seg07_86.444_102.148.wav
+│   │   ├── bwc_seg08_103.180_104.292.wav
+│   │   ├── bwc_seg09_105.932_106.788.wav
+│   │   ├── bwc_seg10_109.004_119.000.wav
+│   │   ├── bwc_seg11_125.860_128.956.wav
+│   │   ├── bwc_seg12_130.180_146.908.wav
+│   │   └── bwc_seg13_154.500_165.020.wav
+│   └── podcast
+│       ├── podcast_seg00_0.000_60.000.wav
+│       ├── podcast_seg01_61.036_178.000.wav
+│       ├── podcast_seg02_179.576_237.000.wav
+│       ├── podcast_seg03_244.944_296.000.wav
+│       ├── podcast_seg04_298.504_355.000.wav
+│       ├── podcast_seg05_360.368_414.000.wav
+│       ├── podcast_seg06_415.720_473.000.wav
+│       ├── podcast_seg07_475.952_532.000.wav
+│       ├── podcast_seg08_542.584_591.000.wav
+│       ├── podcast_seg09_596.288_650.000.wav
+│       ├── podcast_seg10_662.104_709.000.wav
+│       └── podcast_seg11_714.672_817.956.wav
+├── speech_segments_whisperx
+│   ├── bwc
+│   │   ├── bwc_seg000_0.000_1.344.wav
+│   │   ├── bwc_seg000_0.000_17.504.wav
+│   │   ├── bwc_seg000_0.128_1.792.wav
+│   │   ├── bwc_seg001_1.312_2.048.wav
+│   │   ├── bwc_seg001_17.504_35.360.wav
+│   │   ├── bwc_seg001_2.240_10.720.wav
+│   │   ├── bwc_seg002_1.696_2.336.wav
+│   │   ├── bwc_seg002_10.848_12.768.wav
+│   │   ├── bwc_seg002_34.912_42.304.wav
+│   │   ├── bwc_seg003_1.952_2.880.wav
+│   │   ├── bwc_seg003_12.800_13.248.wav
+│   │   ├── bwc_seg003_41.952_43.520.wav
+│   │   ├── bwc_seg004_13.312_16.320.wav
+│   │   ├── bwc_seg004_2.496_5.824.wav
+│   │   ├── bwc_seg004_43.200_44.032.wav
+│   │   ├── bwc_seg005_16.352_16.960.wav
+│   │   ├── bwc_seg005_46.528_50.368.wav
+│   │   ├── bwc_seg005_5.408_10.912.wav
+│   │   ├── bwc_seg006_10.528_13.440.wav
+│   │   ├── bwc_seg006_17.056_17.440.wav
+│   │   ├── bwc_seg006_50.688_53.152.wav
+│   │   ├── bwc_seg007_12.992_14.528.wav
+│   │   ├── bwc_seg007_17.600_18.304.wav
+│   │   ├── bwc_seg007_62.016_63.616.wav
+│   │   ├── bwc_seg008_14.112_16.480.wav
+│   │   ├── bwc_seg008_18.336_30.912.wav
+│   │   ├── bwc_seg008_64.128_68.192.wav
+│   │   ├── bwc_seg009_16.032_17.152.wav
+│   │   ├── bwc_seg009_30.976_31.840.wav
+│   │   ├── bwc_seg009_69.760_71.264.wav
+│   │   ├── bwc_seg010_16.704_17.664.wav
+│   │   ├── bwc_seg010_32.352_34.304.wav
+│   │   ├── bwc_seg010_74.368_75.552.wav
+│   │   ├── bwc_seg011_17.280_32.416.wav
+│   │   ├── bwc_seg011_35.392_36.000.wav
+│   │   ├── bwc_seg011_77.568_78.496.wav
+│   │   ├── bwc_seg012_32.000_34.464.wav
+│   │   ├── bwc_seg012_36.096_36.704.wav
+│   │   ├── bwc_seg012_79.168_82.240.wav
+│   │   ├── bwc_seg013_34.336_35.136.wav
+│   │   ├── bwc_seg013_36.736_37.088.wav
+│   │   ├── bwc_seg013_82.144_85.216.wav
+│   │   ├── bwc_seg014_35.040_38.848.wav
+│   │   ├── bwc_seg014_37.312_38.400.wav
+│   │   ├── bwc_seg014_86.336_87.456.wav
+│   │   ├── bwc_seg015_38.976_42.144.wav
+│   │   ├── bwc_seg015_39.296_40.256.wav
+│   │   ├── bwc_seg015_88.000_91.456.wav
+│   │   ├── bwc_seg016_40.320_41.088.wav
+│   │   ├── bwc_seg016_42.048_42.880.wav
+│   │   ├── bwc_seg016_91.488_96.352.wav
+│   │   ├── bwc_seg017_41.120_41.568.wav
+│   │   ├── bwc_seg017_42.496_43.168.wav
+│   │   ├── bwc_seg017_96.160_102.912.wav
+│   │   ├── bwc_seg018_103.072_104.224.wav
+│   │   ├── bwc_seg018_41.600_41.824.wav
+│   │   ├── bwc_seg018_42.784_43.424.wav
+│   │   ├── bwc_seg019_105.856_107.136.wav
+│   │   ├── bwc_seg019_43.296_43.936.wav
+│   │   ├── bwc_seg019_46.912_47.904.wav
+│   │   ├── bwc_seg020_108.512_111.456.wav
+│   │   ├── bwc_seg020_46.624_48.192.wav
+│   │   ├── bwc_seg020_48.032_50.016.wav
+│   │   ├── bwc_seg021_111.232_122.176.wav
+│   │   ├── bwc_seg021_47.776_50.176.wav
+│   │   ├── bwc_seg021_50.304_50.560.wav
+│   │   ├── bwc_seg022_121.856_123.520.wav
+│   │   ├── bwc_seg022_50.784_52.512.wav
+│   │   ├── bwc_seg022_51.072_52.256.wav
+│   │   ├── bwc_seg023_124.640_125.984.wav
+│   │   ├── bwc_seg023_52.224_52.864.wav
+│   │   ├── bwc_seg023_61.856_63.264.wav
+│   │   ├── bwc_seg024_125.728_129.024.wav
+│   │   ├── bwc_seg024_52.416_53.056.wav
+│   │   ├── bwc_seg024_63.328_63.648.wav
+│   │   ├── bwc_seg025_130.048_132.160.wav
+│   │   ├── bwc_seg025_62.112_63.072.wav
+│   │   ├── bwc_seg025_64.544_64.864.wav
+│   │   ├── bwc_seg026_132.704_135.456.wav
+│   │   ├── bwc_seg026_62.688_63.520.wav
+│   │   ├── bwc_seg026_64.992_66.240.wav
+│   │   ├── bwc_seg027_135.168_136.800.wav
+│   │   ├── bwc_seg027_64.224_67.968.wav
+│   │   ├── bwc_seg027_66.272_67.936.wav
+│   │   ├── bwc_seg028_136.608_142.752.wav
+│   │   ├── bwc_seg028_69.856_71.168.wav
+│   │   ├── bwc_seg028_70.176_70.944.wav
+│   │   ├── bwc_seg029_142.560_146.944.wav
+│   │   ├── bwc_seg029_74.496_75.424.wav
+│   │   ├── bwc_seg029_74.784_75.488.wav
+│   │   ├── bwc_seg030_149.632_150.656.wav
+│   │   ├── bwc_seg030_77.664_78.368.wav
+│   │   ├── bwc_seg030_77.760_78.528.wav
+│   │   ├── bwc_seg031_150.272_151.104.wav
+│   │   ├── bwc_seg031_78.656_78.912.wav
+│   │   ├── bwc_seg031_79.264_80.352.wav
+│   │   ├── bwc_seg032_151.360_152.192.wav
+│   │   ├── bwc_seg032_79.488_81.184.wav
+│   │   ├── bwc_seg032_79.936_81.376.wav
+│   │   ├── bwc_seg033_154.400_159.136.wav
+│   │   ├── bwc_seg033_81.120_82.144.wav
+│   │   ├── bwc_seg033_81.408_81.920.wav
+│   │   ├── bwc_seg034_158.848_161.152.wav
+│   │   ├── bwc_seg034_82.240_85.088.wav
+│   │   ├── bwc_seg034_82.560_84.896.wav
+│   │   ├── bwc_seg035_160.736_165.024.wav
+│   │   ├── bwc_seg035_86.432_87.360.wav
+│   │   ├── bwc_seg035_86.752_87.168.wav
+│   │   ├── bwc_seg036_88.096_90.048.wav
+│   │   ├── bwc_seg036_88.416_89.792.wav
+│   │   ├── bwc_seg037_89.792_91.360.wav
+│   │   ├── bwc_seg037_90.112_91.136.wav
+│   │   ├── bwc_seg038_91.584_92.224.wav
+│   │   ├── bwc_seg038_92.736_95.136.wav
+│   │   ├── bwc_seg039_92.000_92.800.wav
+│   │   ├── bwc_seg039_95.360_95.968.wav
+│   │   ├── bwc_seg040_92.384_95.392.wav
+│   │   ├── bwc_seg040_96.704_97.984.wav
+│   │   ├── bwc_seg041_95.040_96.256.wav
+│   │   ├── bwc_seg041_98.080_98.336.wav
+│   │   ├── bwc_seg042_96.256_98.496.wav
+│   │   ├── bwc_seg042_98.368_100.192.wav
+│   │   ├── bwc_seg043_100.480_101.152.wav
+│   │   ├── bwc_seg043_98.048_100.544.wav
+│   │   ├── bwc_seg044_100.160_102.208.wav
+│   │   ├── bwc_seg044_101.312_101.856.wav
+│   │   ├── bwc_seg045_101.760_102.816.wav
+│   │   ├── bwc_seg045_103.456_103.872.wav
+│   │   ├── bwc_seg046_103.168_104.128.wav
+│   │   ├── bwc_seg046_106.272_106.560.wav
+│   │   ├── bwc_seg047_105.952_106.784.wav
+│   │   ├── bwc_seg047_109.344_111.072.wav
+│   │   ├── bwc_seg048_106.368_107.040.wav
+│   │   ├── bwc_seg048_111.648_113.248.wav
+│   │   ├── bwc_seg049_108.608_109.312.wav
+│   │   ├── bwc_seg049_113.664_119.904.wav
+│   │   ├── bwc_seg050_108.960_111.360.wav
+│   │   ├── bwc_seg050_120.064_121.920.wav
+│   │   ├── bwc_seg051_111.328_113.408.wav
+│   │   ├── bwc_seg051_122.272_122.656.wav
+│   │   ├── bwc_seg052_113.120_113.792.wav
+│   │   ├── bwc_seg052_122.944_123.232.wav
+│   │   ├── bwc_seg053_113.344_120.032.wav
+│   │   ├── bwc_seg053_126.144_126.528.wav
+│   │   ├── bwc_seg054_119.776_121.984.wav
+│   │   ├── bwc_seg054_127.104_128.384.wav
+│   │   ├── bwc_seg055_121.984_122.880.wav
+│   │   ├── bwc_seg055_130.464_131.840.wav
+│   │   ├── bwc_seg056_122.624_123.424.wav
+│   │   ├── bwc_seg056_133.120_134.464.wav
+│   │   ├── bwc_seg057_124.736_125.856.wav
+│   │   ├── bwc_seg057_134.656_135.136.wav
+│   │   ├── bwc_seg058_125.824_126.784.wav
+│   │   ├── bwc_seg058_135.584_136.416.wav
+│   │   ├── bwc_seg059_126.400_127.168.wav
+│   │   ├── bwc_seg059_137.024_138.016.wav
+│   │   ├── bwc_seg060_126.784_128.544.wav
+│   │   ├── bwc_seg060_138.272_141.792.wav
+│   │   ├── bwc_seg061_128.256_128.928.wav
+│   │   ├── bwc_seg061_141.984_142.208.wav
+│   │   ├── bwc_seg062_130.144_132.064.wav
+│   │   ├── bwc_seg062_143.200_146.368.wav
+│   │   ├── bwc_seg063_132.800_134.560.wav
+│   │   ├── bwc_seg063_150.048_150.304.wav
+│   │   ├── bwc_seg064_134.336_135.328.wav
+│   │   ├── bwc_seg064_154.816_158.784.wav
+│   │   ├── bwc_seg065_135.264_136.704.wav
+│   │   ├── bwc_seg065_159.840_160.832.wav
+│   │   ├── bwc_seg066_136.704_138.240.wav
+│   │   ├── bwc_seg066_161.152_161.984.wav
+│   │   ├── bwc_seg067_137.952_141.984.wav
+│   │   ├── bwc_seg067_162.016_164.704.wav
+│   │   ├── bwc_seg068_141.664_142.496.wav
+│   │   ├── bwc_seg069_142.880_146.848.wav
+│   │   ├── bwc_seg070_149.728_150.528.wav
+│   │   ├── bwc_seg071_154.496_159.008.wav
+│   │   ├── bwc_seg072_158.944_159.712.wav
+│   │   ├── bwc_seg073_159.616_161.056.wav
+│   │   ├── bwc_seg074_160.832_162.112.wav
+│   │   └── bwc_seg075_161.696_164.928.wav
+│   └── podcast
+│       ├── podcast_seg000_0.000_5.184.wav
+│       ├── podcast_seg000_0.000_5.280.wav
+│       ├── podcast_seg000_0.064_4.960.wav
+│       ├── podcast_seg001_5.920_9.440.wav
+│       ├── podcast_seg001_6.016_7.904.wav
+│       ├── podcast_seg001_6.336_7.648.wav
+│       ├── podcast_seg002_7.520_8.576.wav
+│       ├── podcast_seg002_7.840_8.352.wav
+│       ├── podcast_seg002_9.216_16.320.wav
+│       ├── podcast_seg003_16.288_17.728.wav
+│       ├── podcast_seg003_8.192_9.344.wav
+│       ├── podcast_seg003_8.512_9.120.wav
+│       ├── podcast_seg004_17.536_22.560.wav
+│       ├── podcast_seg004_9.312_10.976.wav
+│       ├── podcast_seg004_9.664_10.720.wav
+│       ├── podcast_seg005_10.528_16.224.wav
+│       ├── podcast_seg005_10.848_16.160.wav
+│       ├── podcast_seg005_22.752_28.096.wav
+│       ├── podcast_seg006_16.416_17.632.wav
+│       ├── podcast_seg006_16.736_17.376.wav
+│       ├── podcast_seg006_27.712_30.400.wav
+│       ├── podcast_seg007_17.632_19.968.wav
+│       ├── podcast_seg007_17.952_19.744.wav
+│       ├── podcast_seg007_30.272_33.920.wav
+│       ├── podcast_seg008_19.616_22.464.wav
+│       ├── podcast_seg008_19.936_22.240.wav
+│       ├── podcast_seg008_33.824_34.976.wav
+│       ├── podcast_seg009_22.848_26.400.wav
+│       ├── podcast_seg009_23.168_25.056.wav
+│       ├── podcast_seg009_34.720_36.256.wav
+│       ├── podcast_seg010_25.152_26.176.wav
+│       ├── podcast_seg010_26.016_28.000.wav
+│       ├── podcast_seg010_36.512_40.160.wav
+│       ├── podcast_seg011_26.368_27.776.wav
+│       ├── podcast_seg011_27.808_30.304.wav
+│       ├── podcast_seg011_39.840_51.264.wav
+│       ├── podcast_seg012_28.128_30.048.wav
+│       ├── podcast_seg012_30.368_32.480.wav
+│       ├── podcast_seg012_51.264_53.312.wav
+│       ├── podcast_seg013_30.720_32.288.wav
+│       ├── podcast_seg013_32.032_33.824.wav
+│       ├── podcast_seg013_52.864_55.936.wav
+│       ├── podcast_seg014_32.352_33.632.wav
+│       ├── podcast_seg014_33.920_34.880.wav
+│       ├── podcast_seg014_55.840_58.368.wav
+│       ├── podcast_seg015_34.272_34.656.wav
+│       ├── podcast_seg015_34.816_36.160.wav
+│       ├── podcast_seg015_58.208_60.896.wav
+│       ├── podcast_seg016_35.136_35.936.wav
+│       ├── podcast_seg016_36.608_38.560.wav
+│       ├── podcast_seg016_60.928_63.264.wav
+│       ├── podcast_seg017_36.928_38.336.wav
+│       ├── podcast_seg017_38.176_40.064.wav
+│       ├── podcast_seg017_63.200_71.712.wav
+│       ├── podcast_seg018_38.496_38.912.wav
+│       ├── podcast_seg018_39.936_43.008.wav
+│       ├── podcast_seg018_71.520_73.376.wav
+│       ├── podcast_seg019_38.976_39.808.wav
+│       ├── podcast_seg019_42.656_47.936.wav
+│       ├── podcast_seg019_73.280_76.736.wav
+│       ├── podcast_seg020_40.256_41.024.wav
+│       ├── podcast_seg020_47.584_49.632.wav
+│       ├── podcast_seg020_76.608_89.152.wav
+│       ├── podcast_seg021_41.056_42.816.wav
+│       ├── podcast_seg021_49.216_51.168.wav
+│       ├── podcast_seg021_88.928_91.232.wav
+│       ├── podcast_seg022_42.944_48.672.wav
+│       ├── podcast_seg022_51.360_53.216.wav
+│       ├── podcast_seg022_90.880_93.120.wav
+│       ├── podcast_seg023_48.704_49.408.wav
+│       ├── podcast_seg023_52.960_55.840.wav
+│       ├── podcast_seg023_93.376_95.040.wav
+│       ├── podcast_seg024_49.536_50.912.wav
+│       ├── podcast_seg024_55.936_57.056.wav
+│       ├── podcast_seg024_94.688_102.944.wav
+│       ├── podcast_seg025_102.656_107.424.wav
+│       ├── podcast_seg025_51.680_52.960.wav
+│       ├── podcast_seg025_56.704_58.272.wav
+│       ├── podcast_seg026_107.040_110.112.wav
+│       ├── podcast_seg026_53.280_54.240.wav
+│       ├── podcast_seg026_58.304_60.800.wav
+│       ├── podcast_seg027_110.144_115.776.wav
+│       ├── podcast_seg027_54.272_55.680.wav
+│       ├── podcast_seg027_61.024_63.168.wav
+│       ├── podcast_seg028_116.064_119.040.wav
+│       ├── podcast_seg028_56.288_56.832.wav
+│       ├── podcast_seg028_63.296_64.384.wav
+│       ├── podcast_seg029_118.848_122.144.wav
+│       ├── podcast_seg029_57.024_58.048.wav
+│       ├── podcast_seg029_64.064_65.792.wav
+│       ├── podcast_seg030_121.856_127.200.wav
+│       ├── podcast_seg030_58.624_60.576.wav
+│       ├── podcast_seg030_65.408_71.616.wav
+│       ├── podcast_seg031_127.008_133.920.wav
+│       ├── podcast_seg031_61.344_62.944.wav
+│       ├── podcast_seg031_71.616_73.280.wav
+│       ├── podcast_seg032_133.920_139.872.wav
+│       ├── podcast_seg032_63.616_64.256.wav
+│       ├── podcast_seg032_73.376_76.640.wav
+│       ├── podcast_seg033_139.424_147.840.wav
+│       ├── podcast_seg033_64.384_65.568.wav
+│       ├── podcast_seg033_76.704_81.952.wav
+│       ├── podcast_seg034_147.424_152.352.wav
+│       ├── podcast_seg034_65.728_71.392.wav
+│       ├── podcast_seg034_81.632_83.744.wav
+│       ├── podcast_seg035_152.064_153.248.wav
+│       ├── podcast_seg035_71.936_73.088.wav
+│       ├── podcast_seg035_83.296_84.544.wav
+│       ├── podcast_seg036_153.024_159.232.wav
+│       ├── podcast_seg036_73.696_76.416.wav
+│       ├── podcast_seg036_84.096_87.680.wav
+│       ├── podcast_seg037_159.200_169.504.wav
+│       ├── podcast_seg037_77.024_81.856.wav
+│       ├── podcast_seg037_87.296_89.056.wav
+│       ├── podcast_seg038_169.472_172.128.wav
+│       ├── podcast_seg038_81.952_83.520.wav
+│       ├── podcast_seg038_89.024_91.136.wav
+│       ├── podcast_seg039_171.776_179.712.wav
+│       ├── podcast_seg039_83.616_84.320.wav
+│       ├── podcast_seg039_90.976_93.024.wav
+│       ├── podcast_seg040_179.328_181.760.wav
+│       ├── podcast_seg040_84.416_86.272.wav
+│       ├── podcast_seg040_93.472_94.912.wav
+│       ├── podcast_seg041_182.176_185.760.wav
+│       ├── podcast_seg041_86.368_87.488.wav
+│       ├── podcast_seg041_94.816_100.288.wav
+│       ├── podcast_seg042_185.664_192.928.wav
+│       ├── podcast_seg042_87.616_88.832.wav
+│       ├── podcast_seg042_99.936_102.816.wav
+│       ├── podcast_seg043_102.752_107.328.wav
+│       ├── podcast_seg043_192.544_195.520.wav
+│       ├── podcast_seg043_89.376_90.880.wav
+│       ├── podcast_seg044_107.136_109.984.wav
+│       ├── podcast_seg044_195.200_199.520.wav
+│       ├── podcast_seg044_91.296_92.864.wav
+│       ├── podcast_seg045_110.240_111.584.wav
+│       ├── podcast_seg045_199.104_202.656.wav
+│       ├── podcast_seg045_93.792_94.688.wav
+│       ├── podcast_seg046_111.264_115.680.wav
+│       ├── podcast_seg046_202.304_203.936.wav
+│       ├── podcast_seg046_95.136_100.160.wav
+│       ├── podcast_seg047_100.288_102.656.wav
+│       ├── podcast_seg047_116.160_118.944.wav
+│       ├── podcast_seg047_203.744_206.816.wav
+│       ├── podcast_seg048_103.072_104.352.wav
+│       ├── podcast_seg048_118.944_120.032.wav
+│       ├── podcast_seg048_206.560_212.672.wav
+│       ├── podcast_seg049_104.384_107.104.wav
+│       ├── podcast_seg049_119.680_122.048.wav
+│       ├── podcast_seg049_212.416_220.288.wav
+│       ├── podcast_seg050_107.456_108.672.wav
+│       ├── podcast_seg050_121.952_127.072.wav
+│       ├── podcast_seg050_220.032_224.512.wav
+│       ├── podcast_seg051_108.704_109.760.wav
+│       ├── podcast_seg051_127.104_130.592.wav
+│       ├── podcast_seg051_224.128_227.520.wav
+│       ├── podcast_seg052_110.560_111.328.wav
+│       ├── podcast_seg052_130.272_131.616.wav
+│       ├── podcast_seg052_227.712_233.504.wav
+│       ├── podcast_seg053_111.584_112.096.wav
+│       ├── podcast_seg053_131.360_133.792.wav
+│       ├── podcast_seg053_233.312_240.640.wav
+│       ├── podcast_seg054_112.192_115.456.wav
+│       ├── podcast_seg054_134.016_139.776.wav
+│       ├── podcast_seg054_240.224_244.896.wav
+│       ├── podcast_seg055_116.480_118.688.wav
+│       ├── podcast_seg055_139.520_142.560.wav
+│       ├── podcast_seg055_244.704_248.704.wav
+│       ├── podcast_seg056_119.264_119.808.wav
+│       ├── podcast_seg056_142.208_143.616.wav
+│       ├── podcast_seg056_248.384_259.040.wav
+│       ├── podcast_seg057_120.000_121.824.wav
+│       ├── podcast_seg057_143.200_147.744.wav
+│       ├── podcast_seg057_258.688_271.104.wav
+│       ├── podcast_seg058_122.272_125.760.wav
+│       ├── podcast_seg058_147.520_152.224.wav
+│       ├── podcast_seg058_270.688_273.312.wav
+│       ├── podcast_seg059_125.792_126.848.wav
+│       ├── podcast_seg059_152.160_153.120.wav
+│       ├── podcast_seg059_272.960_277.760.wav
+│       ├── podcast_seg060_127.424_130.336.wav
+│       ├── podcast_seg060_153.120_156.224.wav
+│       ├── podcast_seg060_277.312_283.808.wav
+│       ├── podcast_seg061_130.592_131.456.wav
+│       ├── podcast_seg061_155.872_159.136.wav
+│       ├── podcast_seg061_283.520_286.656.wav
+│       ├── podcast_seg062_131.680_133.600.wav
+│       ├── podcast_seg062_159.296_165.440.wav
+│       ├── podcast_seg062_286.208_288.320.wav
+│       ├── podcast_seg063_134.336_139.776.wav
+│       ├── podcast_seg063_165.088_169.408.wav
+│       ├── podcast_seg063_288.032_291.072.wav
+│       ├── podcast_seg064_139.840_142.336.wav
+│       ├── podcast_seg064_169.568_172.032.wav
+│       ├── podcast_seg064_290.624_294.528.wav
+│       ├── podcast_seg065_142.560_143.488.wav
+│       ├── podcast_seg065_171.872_173.888.wav
+│       ├── podcast_seg065_294.112_302.816.wav
+│       ├── podcast_seg066_143.520_147.744.wav
+│       ├── podcast_seg066_173.568_178.464.wav
+│       ├── podcast_seg066_302.688_303.904.wav
+│       ├── podcast_seg067_147.840_152.256.wav
+│       ├── podcast_seg067_178.144_179.616.wav
+│       ├── podcast_seg067_303.904_306.752.wav
+│       ├── podcast_seg068_152.480_152.928.wav
+│       ├── podcast_seg068_179.424_181.664.wav
+│       ├── podcast_seg068_306.656_311.264.wav
+│       ├── podcast_seg069_153.472_156.032.wav
+│       ├── podcast_seg069_182.272_185.664.wav
+│       ├── podcast_seg069_311.232_314.240.wav
+│       ├── podcast_seg070_156.192_158.912.wav
+│       ├── podcast_seg070_185.760_187.776.wav
+│       ├── podcast_seg070_313.888_315.776.wav
+│       ├── podcast_seg071_159.616_165.280.wav
+│       ├── podcast_seg071_187.456_188.448.wav
+│       ├── podcast_seg071_315.936_320.160.wav
+│       ├── podcast_seg072_165.408_169.184.wav
+│       ├── podcast_seg072_188.192_192.832.wav
+│       ├── podcast_seg072_319.936_325.216.wav
+│       ├── podcast_seg073_169.888_171.840.wav
+│       ├── podcast_seg073_192.640_193.664.wav
+│       ├── podcast_seg073_324.928_330.976.wav
+│       ├── podcast_seg074_172.128_173.632.wav
+│       ├── podcast_seg074_193.248_195.424.wav
+│       ├── podcast_seg074_330.656_334.304.wav
+│       ├── podcast_seg075_173.920_175.168.wav
+│       ├── podcast_seg075_195.296_197.216.wav
+│       ├── podcast_seg075_334.048_343.840.wav
+│       ├── podcast_seg076_175.232_178.304.wav
+│       ├── podcast_seg076_196.896_198.688.wav
+│       ├── podcast_seg076_343.424_349.376.wav
+│       ├── podcast_seg077_178.464_179.392.wav
+│       ├── podcast_seg077_198.400_199.424.wav
+│       ├── podcast_seg077_348.928_360.416.wav
+│       ├── podcast_seg078_179.744_181.280.wav
+│       ├── podcast_seg078_199.200_202.560.wav
+│       ├── podcast_seg078_360.192_363.072.wav
+│       ├── podcast_seg079_182.592_185.472.wav
+│       ├── podcast_seg079_202.400_203.840.wav
+│       ├── podcast_seg079_363.168_369.088.wav
+│       ├── podcast_seg080_186.080_187.552.wav
+│       ├── podcast_seg080_203.840_206.720.wav
+│       ├── podcast_seg080_368.960_388.128.wav
+│       ├── podcast_seg081_187.776_188.224.wav
+│       ├── podcast_seg081_206.656_210.464.wav
+│       ├── podcast_seg081_388.128_405.760.wav
+│       ├── podcast_seg082_188.512_192.768.wav
+│       ├── podcast_seg082_210.144_212.576.wav
+│       ├── podcast_seg082_405.312_407.264.wav
+│       ├── podcast_seg083_192.960_193.440.wav
+│       ├── podcast_seg083_212.512_214.656.wav
+│       ├── podcast_seg083_406.848_411.840.wav
+│       ├── podcast_seg084_193.568_195.200.wav
+│       ├── podcast_seg084_214.272_215.136.wav
+│       ├── podcast_seg084_411.456_415.808.wav
+│       ├── podcast_seg085_195.616_196.960.wav
+│       ├── podcast_seg085_214.816_216.288.wav
+│       ├── podcast_seg085_415.424_418.048.wav
+│       ├── podcast_seg086_197.216_198.496.wav
+│       ├── podcast_seg086_215.936_218.176.wav
+│       ├── podcast_seg086_417.600_429.856.wav
+│       ├── podcast_seg087_198.720_199.232.wav
+│       ├── podcast_seg087_217.888_220.192.wav
+│       ├── podcast_seg087_429.440_450.176.wav
+│       ├── podcast_seg088_199.520_202.368.wav
+│       ├── podcast_seg088_220.128_224.416.wav
+│       ├── podcast_seg088_449.888_463.872.wav
+│       ├── podcast_seg089_202.720_203.648.wav
+│       ├── podcast_seg089_224.224_225.760.wav
+│       ├── podcast_seg089_463.680_475.744.wav
+│       ├── podcast_seg090_204.160_206.496.wav
+│       ├── podcast_seg090_225.344_226.496.wav
+│       ├── podcast_seg090_475.808_489.120.wav
+│       ├── podcast_seg091_207.008_209.632.wav
+│       ├── podcast_seg091_226.144_227.424.wav
+│       ├── podcast_seg091_488.672_496.000.wav
+│       ├── podcast_seg092_209.664_210.208.wav
+│       ├── podcast_seg092_227.808_233.408.wav
+│       ├── podcast_seg092_496.064_501.760.wav
+│       ├── podcast_seg093_210.464_212.384.wav
+│       ├── podcast_seg093_233.408_237.440.wav
+│       ├── podcast_seg093_501.472_509.952.wav
+│       ├── podcast_seg094_212.864_214.400.wav
+│       ├── podcast_seg094_237.152_240.544.wav
+│       ├── podcast_seg094_509.504_523.168.wav
+│       ├── podcast_seg095_214.592_214.880.wav
+│       ├── podcast_seg095_240.320_244.704.wav
+│       ├── podcast_seg095_522.848_529.632.wav
+│       ├── podcast_seg096_215.136_216.064.wav
+│       ├── podcast_seg096_244.800_248.608.wav
+│       ├── podcast_seg096_529.216_542.496.wav
+│       ├── podcast_seg097_216.256_217.120.wav
+│       ├── podcast_seg097_248.480_255.488.wav
+│       ├── podcast_seg097_542.272_545.056.wav
+│       ├── podcast_seg098_217.152_217.952.wav
+│       ├── podcast_seg098_255.232_257.216.wav
+│       ├── podcast_seg098_544.672_547.136.wav
+│       ├── podcast_seg099_218.240_218.528.wav
+│       ├── podcast_seg099_256.832_258.944.wav
+│       ├── podcast_seg099_546.688_549.472.wav
+│       ├── podcast_seg100_218.560_219.936.wav
+│       ├── podcast_seg100_258.784_263.168.wav
+│       ├── podcast_seg100_549.120_553.504.wav
+│       ├── podcast_seg101_220.448_224.320.wav
+│       ├── podcast_seg101_262.912_266.144.wav
+│       ├── podcast_seg101_553.248_559.008.wav
+│       ├── podcast_seg102_224.544_225.504.wav
+│       ├── podcast_seg102_265.824_271.008.wav
+│       ├── podcast_seg102_558.560_571.136.wav
+│       ├── podcast_seg103_225.664_226.240.wav
+│       ├── podcast_seg103_270.784_273.184.wav
+│       ├── podcast_seg103_571.136_596.032.wav
+│       ├── podcast_seg104_226.464_227.168.wav
+│       ├── podcast_seg104_273.056_277.664.wav
+│       ├── podcast_seg104_596.032_596.320.wav
+│       ├── podcast_seg105_228.128_233.216.wav
+│       ├── podcast_seg105_277.408_283.712.wav
+│       ├── podcast_seg105_596.160_603.040.wav
+│       ├── podcast_seg106_233.728_235.744.wav
+│       ├── podcast_seg106_283.616_286.560.wav
+│       ├── podcast_seg106_602.656_605.088.wav
+│       ├── podcast_seg107_235.808_237.376.wav
+│       ├── podcast_seg107_286.304_288.224.wav
+│       ├── podcast_seg107_604.640_610.816.wav
+│       ├── podcast_seg108_237.472_240.352.wav
+│       ├── podcast_seg108_288.128_290.976.wav
+│       ├── podcast_seg108_610.400_614.656.wav
+│       ├── podcast_seg109_240.672_244.704.wav
+│       ├── podcast_seg109_290.720_294.400.wav
+│       ├── podcast_seg109_614.528_620.224.wav
+│       ├── podcast_seg110_245.120_248.448.wav
+│       ├── podcast_seg110_294.208_296.512.wav
+│       ├── podcast_seg110_619.776_623.968.wav
+│       ├── podcast_seg111_248.800_249.472.wav
+│       ├── podcast_seg111_296.096_298.656.wav
+│       ├── podcast_seg111_623.552_628.288.wav
+│       ├── podcast_seg112_249.504_255.296.wav
+│       ├── podcast_seg112_298.272_299.680.wav
+│       ├── podcast_seg112_627.840_631.808.wav
+│       ├── podcast_seg113_255.552_257.024.wav
+│       ├── podcast_seg113_299.264_302.720.wav
+│       ├── podcast_seg113_631.584_639.872.wav
+│       ├── podcast_seg114_257.152_258.880.wav
+│       ├── podcast_seg114_302.784_303.808.wav
+│       ├── podcast_seg114_640.032_643.584.wav
+│       ├── podcast_seg115_259.136_263.104.wav
+│       ├── podcast_seg115_304.000_306.656.wav
+│       ├── podcast_seg115_644.320_653.760.wav
+│       ├── podcast_seg116_263.232_266.048.wav
+│       ├── podcast_seg116_306.752_311.168.wav
+│       ├── podcast_seg116_653.312_673.056.wav
+│       ├── podcast_seg117_266.144_270.784.wav
+│       ├── podcast_seg117_311.360_314.144.wav
+│       ├── podcast_seg117_672.640_685.024.wav
+│       ├── podcast_seg118_271.104_272.992.wav
+│       ├── podcast_seg118_313.984_315.680.wav
+│       ├── podcast_seg118_684.672_689.600.wav
+│       ├── podcast_seg119_273.376_277.632.wav
+│       ├── podcast_seg119_316.032_318.080.wav
+│       ├── podcast_seg119_689.344_696.224.wav
+│       ├── podcast_seg120_277.760_283.552.wav
+│       ├── podcast_seg120_317.664_320.064.wav
+│       ├── podcast_seg120_695.840_704.864.wav
+│       ├── podcast_seg121_283.936_286.336.wav
+│       ├── podcast_seg121_320.032_322.912.wav
+│       ├── podcast_seg121_704.640_713.184.wav
+│       ├── podcast_seg122_286.624_287.968.wav
+│       ├── podcast_seg122_322.464_325.120.wav
+│       ├── podcast_seg122_712.768_714.752.wav
+│       ├── podcast_seg123_288.448_290.752.wav
+│       ├── podcast_seg123_325.024_330.880.wav
+│       ├── podcast_seg123_714.528_717.600.wav
+│       ├── podcast_seg124_291.040_294.208.wav
+│       ├── podcast_seg124_330.752_334.176.wav
+│       ├── podcast_seg124_717.376_728.128.wav
+│       ├── podcast_seg125_294.528_296.320.wav
+│       ├── podcast_seg125_334.144_335.360.wav
+│       ├── podcast_seg125_727.744_734.944.wav
+│       ├── podcast_seg126_296.448_298.400.wav
+│       ├── podcast_seg126_334.976_337.152.wav
+│       ├── podcast_seg126_734.720_737.472.wav
+│       ├── podcast_seg127_298.592_299.456.wav
+│       ├── podcast_seg127_336.736_340.160.wav
+│       ├── podcast_seg127_737.280_742.432.wav
+│       ├── podcast_seg128_299.552_301.408.wav
+│       ├── podcast_seg128_339.744_341.536.wav
+│       ├── podcast_seg128_742.688_743.904.wav
+│       ├── podcast_seg129_301.440_302.496.wav
+│       ├── podcast_seg129_341.120_343.712.wav
+│       ├── podcast_seg129_743.488_745.088.wav
+│       ├── podcast_seg130_303.136_303.776.wav
+│       ├── podcast_seg130_343.552_346.080.wav
+│       ├── podcast_seg130_745.184_746.400.wav
+│       ├── podcast_seg131_304.320_305.696.wav
+│       ├── podcast_seg131_345.824_349.280.wav
+│       ├── podcast_seg131_746.176_747.872.wav
+│       ├── podcast_seg132_305.728_306.400.wav
+│       ├── podcast_seg132_349.024_357.152.wav
+│       ├── podcast_seg132_748.160_750.240.wav
+│       ├── podcast_seg133_307.072_310.944.wav
+│       ├── podcast_seg133_356.800_360.320.wav
+│       ├── podcast_seg133_750.016_751.360.wav
+│       ├── podcast_seg134_311.680_313.888.wav
+│       ├── podcast_seg134_360.288_362.976.wav
+│       ├── podcast_seg134_751.936_757.280.wav
+│       ├── podcast_seg135_314.304_315.424.wav
+│       ├── podcast_seg135_363.264_365.280.wav
+│       ├── podcast_seg135_757.024_768.320.wav
+│       ├── podcast_seg136_316.352_316.896.wav
+│       ├── podcast_seg136_364.992_366.048.wav
+│       ├── podcast_seg136_768.128_788.896.wav
+│       ├── podcast_seg137_316.928_317.856.wav
+│       ├── podcast_seg137_365.728_367.360.wav
+│       ├── podcast_seg137_789.760_791.936.wav
+│       ├── podcast_seg138_318.016_319.808.wav
+│       ├── podcast_seg138_367.040_368.992.wav
+│       ├── podcast_seg138_791.584_805.088.wav
+│       ├── podcast_seg139_320.352_322.656.wav
+│       ├── podcast_seg139_369.056_370.784.wav
+│       ├── podcast_seg139_805.088_817.984.wav
+│       ├── podcast_seg140_322.784_323.168.wav
+│       ├── podcast_seg140_370.464_382.048.wav
+│       ├── podcast_seg141_323.264_324.896.wav
+│       ├── podcast_seg141_381.760_387.680.wav
+│       ├── podcast_seg142_325.344_330.656.wav
+│       ├── podcast_seg142_387.296_388.352.wav
+│       ├── podcast_seg143_331.072_331.872.wav
+│       ├── podcast_seg143_387.936_392.896.wav
+│       ├── podcast_seg144_331.936_334.176.wav
+│       ├── podcast_seg144_392.576_397.376.wav
+│       ├── podcast_seg145_334.464_335.136.wav
+│       ├── podcast_seg145_396.960_405.664.wav
+│       ├── podcast_seg146_335.296_336.896.wav
+│       ├── podcast_seg146_405.408_406.560.wav
+│       ├── podcast_seg147_337.056_340.032.wav
+│       ├── podcast_seg147_406.240_407.168.wav
+│       ├── podcast_seg148_340.064_343.488.wav
+│       ├── podcast_seg148_406.944_408.288.wav
+│       ├── podcast_seg149_343.872_345.856.wav
+│       ├── podcast_seg149_407.840_411.744.wav
+│       ├── podcast_seg150_346.144_349.216.wav
+│       ├── podcast_seg150_411.552_415.712.wav
+│       ├── podcast_seg151_349.344_356.960.wav
+│       ├── podcast_seg151_415.520_417.952.wav
+│       ├── podcast_seg152_357.120_360.096.wav
+│       ├── podcast_seg152_417.696_419.136.wav
+│       ├── podcast_seg153_360.608_361.088.wav
+│       ├── podcast_seg153_418.752_419.648.wav
+│       ├── podcast_seg154_361.120_361.728.wav
+│       ├── podcast_seg154_419.296_423.392.wav
+│       ├── podcast_seg155_361.792_362.720.wav
+│       ├── podcast_seg155_422.976_426.208.wav
+│       ├── podcast_seg156_363.584_365.024.wav
+│       ├── podcast_seg156_425.760_429.728.wav
+│       ├── podcast_seg157_365.312_365.792.wav
+│       ├── podcast_seg157_429.536_433.088.wav
+│       ├── podcast_seg158_366.080_367.104.wav
+│       ├── podcast_seg158_432.832_438.080.wav
+│       ├── podcast_seg159_367.360_368.864.wav
+│       ├── podcast_seg159_437.632_444.640.wav
+│       ├── podcast_seg160_369.408_370.528.wav
+│       ├── podcast_seg160_444.224_450.080.wav
+│       ├── podcast_seg161_370.784_372.896.wav
+│       ├── podcast_seg161_449.984_453.248.wav
+│       ├── podcast_seg162_372.960_377.152.wav
+│       ├── podcast_seg162_452.864_459.648.wav
+│       ├── podcast_seg163_377.184_379.136.wav
+│       ├── podcast_seg163_459.360_463.168.wav
+│       ├── podcast_seg164_379.168_381.888.wav
+│       ├── podcast_seg164_462.752_463.776.wav
+│       ├── podcast_seg165_382.080_383.936.wav
+│       ├── podcast_seg165_463.776_465.504.wav
+│       ├── podcast_seg166_384.032_387.424.wav
+│       ├── podcast_seg166_465.056_467.200.wav
+│       ├── podcast_seg167_387.648_388.128.wav
+│       ├── podcast_seg167_466.880_472.896.wav
+│       ├── podcast_seg168_388.288_392.736.wav
+│       ├── podcast_seg168_472.448_475.648.wav
+│       ├── podcast_seg169_392.864_393.408.wav
+│       ├── podcast_seg169_475.904_478.368.wav
+│       ├── podcast_seg170_393.440_397.216.wav
+│       ├── podcast_seg170_478.016_481.504.wav
+│       ├── podcast_seg171_397.280_405.472.wav
+│       ├── podcast_seg171_481.056_487.904.wav
+│       ├── podcast_seg172_405.728_406.336.wav
+│       ├── podcast_seg172_487.520_489.024.wav
+│       ├── podcast_seg173_406.560_406.944.wav
+│       ├── podcast_seg173_488.768_491.680.wav
+│       ├── podcast_seg174_407.264_408.064.wav
+│       ├── podcast_seg174_491.360_495.904.wav
+│       ├── podcast_seg175_408.160_411.584.wav
+│       ├── podcast_seg175_496.160_501.664.wav
+│       ├── podcast_seg176_411.904_415.488.wav
+│       ├── podcast_seg176_501.568_502.848.wav
+│       ├── podcast_seg177_415.840_417.792.wav
+│       ├── podcast_seg177_502.400_503.968.wav
+│       ├── podcast_seg178_418.016_418.880.wav
+│       ├── podcast_seg178_503.616_505.280.wav
+│       ├── podcast_seg179_419.072_423.168.wav
+│       ├── podcast_seg179_504.992_509.696.wav
+│       ├── podcast_seg180_423.296_425.984.wav
+│       ├── podcast_seg180_509.600_512.352.wav
+│       ├── podcast_seg181_426.080_429.600.wav
+│       ├── podcast_seg181_511.968_516.128.wav
+│       ├── podcast_seg182_429.888_432.928.wav
+│       ├── podcast_seg182_515.872_519.616.wav
+│       ├── podcast_seg183_433.152_437.920.wav
+│       ├── podcast_seg183_519.328_521.248.wav
+│       ├── podcast_seg184_438.560_444.160.wav
+│       ├── podcast_seg184_520.800_521.984.wav
+│       ├── podcast_seg185_444.512_447.488.wav
+│       ├── podcast_seg185_521.664_523.072.wav
+│       ├── podcast_seg186_447.520_449.888.wav
+│       ├── podcast_seg186_522.944_529.536.wav
+│       ├── podcast_seg187_450.304_451.712.wav
+│       ├── podcast_seg187_529.312_542.400.wav
+│       ├── podcast_seg188_451.744_453.024.wav
+│       ├── podcast_seg188_542.368_544.096.wav
+│       ├── podcast_seg189_453.184_457.248.wav
+│       ├── podcast_seg189_543.648_544.960.wav
+│       ├── podcast_seg190_457.312_459.424.wav
+│       ├── podcast_seg190_544.768_547.040.wav
+│       ├── podcast_seg191_459.680_462.912.wav
+│       ├── podcast_seg191_546.784_549.376.wav
+│       ├── podcast_seg192_463.104_463.520.wav
+│       ├── podcast_seg192_549.216_553.408.wav
+│       ├── podcast_seg193_464.128_465.312.wav
+│       ├── podcast_seg193_553.344_558.912.wav
+│       ├── podcast_seg194_465.408_465.696.wav
+│       ├── podcast_seg194_558.656_564.256.wav
+│       ├── podcast_seg195_465.984_466.976.wav
+│       ├── podcast_seg195_563.840_565.728.wav
+│       ├── podcast_seg196_467.200_470.784.wav
+│       ├── podcast_seg196_565.376_571.296.wav
+│       ├── podcast_seg197_470.816_475.616.wav
+│       ├── podcast_seg197_570.976_574.976.wav
+│       ├── podcast_seg198_476.224_478.144.wav
+│       ├── podcast_seg198_574.560_581.408.wav
+│       ├── podcast_seg199_478.368_481.344.wav
+│       ├── podcast_seg199_581.056_586.432.wav
+│       ├── podcast_seg200_481.408_487.744.wav
+│       ├── podcast_seg200_586.080_592.928.wav
+│       ├── podcast_seg201_487.872_488.768.wav
+│       ├── podcast_seg201_592.672_596.224.wav
+│       ├── podcast_seg202_489.088_491.552.wav
+│       ├── podcast_seg202_596.256_598.208.wav
+│       ├── podcast_seg203_491.680_492.672.wav
+│       ├── podcast_seg203_597.856_602.944.wav
+│       ├── podcast_seg204_492.736_495.680.wav
+│       ├── podcast_seg204_602.752_604.992.wav
+│       ├── podcast_seg205_496.480_496.800.wav
+│       ├── podcast_seg205_604.736_607.776.wav
+│       ├── podcast_seg206_496.864_501.568.wav
+│       ├── podcast_seg206_607.360_610.720.wav
+│       ├── podcast_seg207_501.888_502.592.wav
+│       ├── podcast_seg207_610.496_611.968.wav
+│       ├── podcast_seg208_502.720_503.392.wav
+│       ├── podcast_seg208_611.520_614.560.wav
+│       ├── podcast_seg209_503.488_503.776.wav
+│       ├── podcast_seg209_614.624_620.128.wav
+│       ├── podcast_seg210_503.936_505.120.wav
+│       ├── podcast_seg210_619.872_623.840.wav
+│       ├── podcast_seg211_505.312_509.696.wav
+│       ├── podcast_seg211_623.648_626.624.wav
+│       ├── podcast_seg212_509.952_512.096.wav
+│       ├── podcast_seg212_626.336_628.192.wav
+│       ├── podcast_seg213_512.288_515.968.wav
+│       ├── podcast_seg213_627.936_630.304.wav
+│       ├── podcast_seg214_516.192_519.520.wav
+│       ├── podcast_seg214_630.048_631.712.wav
+│       ├── podcast_seg215_519.680_521.024.wav
+│       ├── podcast_seg215_631.712_633.408.wav
+│       ├── podcast_seg216_521.120_521.760.wav
+│       ├── podcast_seg216_633.120_639.776.wav
+│       ├── podcast_seg217_521.984_523.072.wav
+│       ├── podcast_seg217_640.160_643.488.wav
+│       ├── podcast_seg218_523.264_524.192.wav
+│       ├── podcast_seg218_644.448_653.664.wav
+│       ├── podcast_seg219_524.288_527.232.wav
+│       ├── podcast_seg219_653.408_657.120.wav
+│       ├── podcast_seg220_527.296_529.312.wav
+│       ├── podcast_seg220_656.768_659.328.wav
+│       ├── podcast_seg221_529.632_542.400.wav
+│       ├── podcast_seg221_658.880_660.864.wav
+│       ├── podcast_seg222_542.688_543.840.wav
+│       ├── podcast_seg222_660.416_662.208.wav
+│       ├── podcast_seg223_543.968_544.768.wav
+│       ├── podcast_seg223_661.888_665.888.wav
+│       ├── podcast_seg224_545.088_546.880.wav
+│       ├── podcast_seg224_665.632_669.024.wav
+│       ├── podcast_seg225_547.136_549.152.wav
+│       ├── podcast_seg225_668.576_672.960.wav
+│       ├── podcast_seg226_549.536_553.408.wav
+│       ├── podcast_seg226_672.736_679.680.wav
+│       ├── podcast_seg227_553.664_554.464.wav
+│       ├── podcast_seg227_679.296_684.928.wav
+│       ├── podcast_seg228_554.592_558.880.wav
+│       ├── podcast_seg228_684.768_689.504.wav
+│       ├── podcast_seg229_558.976_564.064.wav
+│       ├── podcast_seg229_689.440_696.128.wav
+│       ├── podcast_seg230_564.160_565.504.wav
+│       ├── podcast_seg230_695.936_704.768.wav
+│       ├── podcast_seg231_565.728_566.144.wav
+│       ├── podcast_seg231_704.736_713.088.wav
+│       ├── podcast_seg232_566.240_571.136.wav
+│       ├── podcast_seg232_712.864_714.656.wav
+│       ├── podcast_seg233_571.296_581.216.wav
+│       ├── podcast_seg233_714.624_715.488.wav
+│       ├── podcast_seg234_581.376_592.832.wav
+│       ├── podcast_seg234_715.072_717.504.wav
+│       ├── podcast_seg235_592.992_593.312.wav
+│       ├── podcast_seg235_717.472_722.016.wav
+│       ├── podcast_seg236_593.376_596.000.wav
+│       ├── podcast_seg236_721.600_728.032.wav
+│       ├── podcast_seg237_596.544_597.120.wav
+│       ├── podcast_seg237_727.840_734.848.wav
+│       ├── podcast_seg238_597.184_597.952.wav
+│       ├── podcast_seg238_734.816_737.376.wav
+│       ├── podcast_seg239_598.176_602.944.wav
+│       ├── podcast_seg239_737.376_742.336.wav
+│       ├── podcast_seg240_603.072_604.832.wav
+│       ├── podcast_seg240_742.784_743.776.wav
+│       ├── podcast_seg241_605.088_607.520.wav
+│       ├── podcast_seg241_743.584_744.992.wav
+│       ├── podcast_seg242_607.648_608.640.wav
+│       ├── podcast_seg242_745.280_746.304.wav
+│       ├── podcast_seg243_608.672_610.656.wav
+│       ├── podcast_seg243_746.272_747.744.wav
+│       ├── podcast_seg244_610.816_611.712.wav
+│       ├── podcast_seg244_748.256_750.144.wav
+│       ├── podcast_seg245_611.840_614.336.wav
+│       ├── podcast_seg245_750.112_751.264.wav
+│       ├── podcast_seg246_614.976_617.216.wav
+│       ├── podcast_seg246_752.032_755.360.wav
+│       ├── podcast_seg247_617.248_619.104.wav
+│       ├── podcast_seg247_755.072_757.184.wav
+│       ├── podcast_seg248_619.200_620.064.wav
+│       ├── podcast_seg248_757.120_764.128.wav
+│       ├── podcast_seg249_620.192_623.648.wav
+│       ├── podcast_seg249_763.776_768.192.wav
+│       ├── podcast_seg250_623.968_625.216.wav
+│       ├── podcast_seg250_768.224_782.432.wav
+│       ├── podcast_seg251_625.280_626.528.wav
+│       ├── podcast_seg251_782.016_784.512.wav
+│       ├── podcast_seg252_626.656_627.968.wav
+│       ├── podcast_seg252_784.096_788.768.wav
+│       ├── podcast_seg253_628.256_630.208.wav
+│       ├── podcast_seg253_789.856_791.840.wav
+│       ├── podcast_seg254_630.368_631.488.wav
+│       ├── podcast_seg254_791.680_795.168.wav
+│       ├── podcast_seg255_632.032_633.216.wav
+│       ├── podcast_seg255_794.880_797.856.wav
+│       ├── podcast_seg256_633.440_639.552.wav
+│       ├── podcast_seg256_797.504_799.584.wav
+│       ├── podcast_seg257_640.448_643.264.wav
+│       ├── podcast_seg257_799.296_800.704.wav
+│       ├── podcast_seg258_644.768_653.632.wav
+│       ├── podcast_seg258_800.352_802.112.wav
+│       ├── podcast_seg259_653.728_656.960.wav
+│       ├── podcast_seg259_801.760_805.280.wav
+│       ├── podcast_seg260_657.088_659.072.wav
+│       ├── podcast_seg260_804.832_809.408.wav
+│       ├── podcast_seg261_659.200_660.672.wav
+│       ├── podcast_seg261_809.056_810.624.wav
+│       ├── podcast_seg262_660.736_661.696.wav
+│       ├── podcast_seg262_810.240_817.824.wav
+│       ├── podcast_seg263_662.208_665.664.wav
+│       ├── podcast_seg264_665.952_668.800.wav
+│       ├── podcast_seg265_668.896_670.784.wav
+│       ├── podcast_seg266_670.848_672.768.wav
+│       ├── podcast_seg267_673.088_684.768.wav
+│       ├── podcast_seg268_685.088_689.280.wav
+│       ├── podcast_seg269_689.760_696.064.wav
+│       ├── podcast_seg270_696.256_704.576.wav
+│       ├── podcast_seg271_705.088_712.896.wav
+│       ├── podcast_seg272_713.184_714.400.wav
+│       ├── podcast_seg273_714.944_715.264.wav
+│       ├── podcast_seg274_715.392_717.248.wav
+│       ├── podcast_seg275_717.824_720.000.wav
+│       ├── podcast_seg276_720.096_721.792.wav
+│       ├── podcast_seg277_721.920_723.200.wav
+│       ├── podcast_seg278_723.264_728.000.wav
+│       ├── podcast_seg279_728.160_734.624.wav
+│       ├── podcast_seg280_735.136_737.152.wav
+│       ├── podcast_seg281_737.696_742.080.wav
+│       ├── podcast_seg282_743.104_743.552.wav
+│       ├── podcast_seg283_743.904_744.768.wav
+│       ├── podcast_seg284_745.600_746.048.wav
+│       ├── podcast_seg285_746.624_747.520.wav
+│       ├── podcast_seg286_748.608_749.920.wav
+│       ├── podcast_seg287_750.464_751.008.wav
+│       ├── podcast_seg288_752.256_755.232.wav
+│       ├── podcast_seg289_755.392_756.960.wav
+│       ├── podcast_seg290_757.440_758.176.wav
+│       ├── podcast_seg291_758.208_763.872.wav
+│       ├── podcast_seg292_764.096_768.192.wav
+│       ├── podcast_seg293_768.544_775.136.wav
+│       ├── podcast_seg294_775.168_782.208.wav
+│       ├── podcast_seg295_782.304_784.352.wav
+│       ├── podcast_seg296_784.416_788.576.wav
+│       ├── podcast_seg297_790.176_790.656.wav
+│       ├── podcast_seg298_790.720_791.616.wav
+│       ├── podcast_seg299_792.000_795.040.wav
+│       ├── podcast_seg300_795.200_797.632.wav
+│       ├── podcast_seg301_797.824_799.360.wav
+│       ├── podcast_seg302_799.616_800.608.wav
+│       ├── podcast_seg303_800.672_801.952.wav
+│       ├── podcast_seg304_802.080_805.024.wav
+│       ├── podcast_seg305_805.152_809.152.wav
+│       ├── podcast_seg306_809.408_810.400.wav
+│       ├── podcast_seg307_810.528_813.056.wav
+│       ├── podcast_seg308_813.088_814.464.wav
+│       └── podcast_seg309_814.496_817.632.wav
+├── test_audio_quality.py
+├── test_jiwer.py
+├── test_pipeline_load.py
+├── test_silero.py
+├── test_vad.py
+├── test_vad_params.py
+├── test_vad_simple.py
+├── transcripts
+│   ├── bwc.txt
+│   └── podcast.txt
+├── transcripts_custom
+│   ├── bwc_raw_text.json
+│   └── podcast_raw_text.json
+├── transcripts_custom_conditioned
+│   ├── bwc_raw_text.json
+│   └── podcast_raw_text.json
+├── tree.txt
+├── truncate_karen.py
+├── vad_custom_grounding
+│   ├── bwc_grounding.json
+│   └── podcast_grounding.json
+├── vad_custom_grounding_B
+│   ├── bwc_grounding.json
+│   └── podcast_grounding.json
+├── vad_custom_grounding_C
+│   ├── bwc_grounding.json
+│   └── podcast_grounding.json
+├── vad_outputs
+│   ├── bwc_vad.json
+│   └── podcast_vad.json
+└── vad_outputs_whisperx
+    ├── bwc_vad.json
+    └── podcast_vad.json
+```

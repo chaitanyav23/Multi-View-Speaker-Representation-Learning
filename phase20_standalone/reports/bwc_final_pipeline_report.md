@@ -1,0 +1,76 @@
+# Phase 20 Dual Path Improved VAD Final Report
+
+## Pipeline Diagram
+
+```text
+raw_audio/bwc.wav
+  -> audio/bwc_repaired.wav (mono 16 kHz)
+    -> Path A: DeepFilterNet -> improved Pyannote VAD -> NeMo MSDD/TitaNet -> diarization eval
+    -> Path B: -20 LUFS loudnorm -> improved Pyannote VAD -> WhisperX large-v3 alignment -> ASR eval
+    -> maximum-overlap fusion -> speaker attributed transcript -> fusion eval
+```
+
+## Stage-Wise Metrics
+
+### pathA_vad
+- `precision`: 0.8447958808385436
+- `recall`: 0.7721008403361345
+- `f1`: 0.8068141903758342
+- `false_alarm`: 0.29907866761162294
+- `miss`: 0.22789915966386554
+
+### pathB_vad
+- `precision`: 0.8416635927701955
+- `recall`: 0.7669747899159663
+- `f1`: 0.8025852972212452
+- `false_alarm`: 0.3042168674698795
+- `miss`: 0.23302521008403362
+
+### asr
+- `wer`: 0.3243801652892562
+- `substitutions`: 86
+- `insertions`: 26
+- `deletions`: 45
+- `reference_words`: 484
+- `hypothesis_words`: 465
+
+### diarization
+- `der`: 0.4470588235294113
+- `miss`: 0.23000000000000015
+- `false_alarm`: 0.13991596638655418
+- `confusion`: 0.07714285714285694
+- `jer`: 0.8424482152411525
+
+### fusion
+- `cpwer`: 0.5330578512396694
+- `sawer`: 0.5330578512396694
+- `speaker_accuracy`: 0.9027431421446384
+- `word_attribution_error`: 0.09725685785536164
+- `timeline_accuracy`: 0.70531235750114
+
+## Observations
+
+- Path A is optimized for diarization by applying DeepFilterNet before VAD and MSDD.
+- Path B is optimized for transcription by loudness normalizing before VAD and WhisperX.
+- Phase 20 replaces Phase 19 VAD post-processing with probability-guided recursive min-cut splitting.
+- Fusion assigns each aligned word to the diarization speaker with the largest temporal overlap.
+
+## Strengths
+
+- Every stage writes an auditable intermediate artifact.
+- VAD, ASR, diarization, and fusion metrics are stored as JSON and Markdown reports.
+
+## Weaknesses
+
+- cpWER follows concatenated minimum-permutation speaker assignment; SA-WER scores mapped speaker-attributed transcripts.
+- Speaker attribution metrics depend on the timing quality of both WhisperX alignment and the reference transcript.
+
+## Comparison Table
+
+| Component | Primary Metric | Value |
+|---|---:|---:|
+| Path A VAD | F1 | 0.8068141903758342 |
+| Path B VAD | F1 | 0.8025852972212452 |
+| ASR | WER | 0.3243801652892562 |
+| Diarization | DER | 0.4470588235294113 |
+| Fusion | cpWER | 0.5330578512396694 |

@@ -1,0 +1,3 @@
+video_id,filename,source_type,duration_sec,speech_duration_sec,silence_duration_sec,speech_ratio,num_segments,avg_segment_duration_sec,fragmentation_index,conversation_structure,speech_density,short_fragment_count,long_silence_count,potential_missed_speech_regions,notes
+bwc,bwc.wav,bwc_police,175.4267,125.816,49.6108,0.7172,14,8.9869,4.7883,sustained,medium,0,3,3,
+podcast,podcast.wav,podcast,818.039,761.208,56.831,0.930528,12,63.434,0.8802,sustained,high,0,6,6,

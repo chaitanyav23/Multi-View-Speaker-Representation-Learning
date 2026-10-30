@@ -1,0 +1,22 @@
+{
+  "stage": "phase19_comparison",
+  "timestamp_utc": "2026-07-15T07:35:40.201591Z",
+  "inputs": [
+    "/home/ubuntu/marston/phase20_standalone/phase19_reference/metrics/all_metrics.json",
+    "/home/ubuntu/marston/phase20_standalone/metrics/bwc_all_metrics.json"
+  ],
+  "outputs": [
+    "/home/ubuntu/marston/phase20_standalone/metrics/bwc_phase20_vs_phase19_comparison.json",
+    "/home/ubuntu/marston/phase20_standalone/reports/bwc_phase20_vs_phase19_comparison.md",
+    "/home/ubuntu/marston/phase20_standalone/reports/bwc_phase19_comparison.md"
+  ],
+  "evaluation": {
+    "groups": [
+      "pathA_vad",
+      "pathB_vad",
+      "asr",
+      "diarization",
+      "fusion"
+    ]
+  }
+}

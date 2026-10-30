@@ -1,0 +1,5 @@
+enhancer,file,wer,ref_count,subs,dels,ins
+baseline,bwc,0.4074,513,103,71,35
+baseline,podcast,0.0558,2564,33,76,34
+deepfilternet,bwc,0.3996,513,108,69,28
+speechbrain,bwc,0.425,513,119,81,18

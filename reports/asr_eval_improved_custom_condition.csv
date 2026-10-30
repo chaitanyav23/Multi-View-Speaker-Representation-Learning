@@ -1,0 +1,3 @@
+wer,substitutions,insertions,deletions,ref_count,hyp_count,file
+0.0636,37,66,60,2564,2570,podcast
+0.306,78,36,43,513,506,bwc

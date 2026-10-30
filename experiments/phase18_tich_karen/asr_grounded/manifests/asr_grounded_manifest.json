@@ -1,0 +1,1 @@
+{"audio_filepath": "experiments/phase18_tich_karen/audio/rich_karen_normalized.wav", "offset": 0, "duration": null, "label": "infer", "text": "-", "rttm_filepath": "experiments/phase18_tich_karen/asr_grounded/grounding/asr_derived_oracle.rttm"}

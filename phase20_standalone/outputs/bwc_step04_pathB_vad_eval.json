@@ -1,0 +1,25 @@
+{
+  "stage": "pathB_vad_eval",
+  "timestamp_utc": "2026-07-15T07:35:24.266308Z",
+  "inputs": [
+    "/home/ubuntu/marston/phase20_standalone/ground_truth_json/bwc.json",
+    "/home/ubuntu/marston/phase20_standalone/grounding/bwc_pathB_vad.json",
+    "/home/ubuntu/marston/phase20_standalone/audio/bwc_repaired.wav"
+  ],
+  "outputs": [
+    "/home/ubuntu/marston/phase20_standalone/metrics/bwc_pathB_vad_metrics.json",
+    "/home/ubuntu/marston/phase20_standalone/reports/bwc_pathB_vad_report.md"
+  ],
+  "evaluation": {
+    "precision": 0.8416635927701955,
+    "recall": 0.7669747899159663,
+    "f1": 0.8025852972212452,
+    "false_alarm": 0.3042168674698795,
+    "miss": 0.23302521008403362,
+    "tp_frames": 9127,
+    "tn_frames": 3927,
+    "fp_frames": 1717,
+    "fn_frames": 2773,
+    "resolution_sec": 0.01
+  }
+}

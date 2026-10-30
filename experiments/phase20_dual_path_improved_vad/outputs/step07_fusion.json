@@ -1,0 +1,16 @@
+{
+  "stage": "fusion",
+  "timestamp_utc": "2026-07-09T08:58:29.582068Z",
+  "inputs": [
+    "/home/ubuntu/marston/experiments/phase20_dual_path_improved_vad/transcription/aligned_words.json",
+    "/home/ubuntu/marston/experiments/phase20_dual_path_improved_vad/diarization/pathA_msdd.rttm"
+  ],
+  "outputs": [
+    "/home/ubuntu/marston/experiments/phase20_dual_path_improved_vad/fusion/attributed_words.json",
+    "/home/ubuntu/marston/experiments/phase20_dual_path_improved_vad/fusion/transcript.txt"
+  ],
+  "evaluation": {
+    "words": 465,
+    "segments": 11
+  }
+}

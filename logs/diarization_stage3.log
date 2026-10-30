@@ -1,0 +1,15 @@
+2026-05-28 05:27:44 | INFO     | bwc_pipeline.diarization | Discovered 2 audio file(s).
+2026-05-28 05:27:45 | INFO     | bwc_pipeline.diarization | Diarizing: bwc.wav
+2026-05-28 05:27:53 | INFO     | bwc_pipeline.diarization | Saved diarization → bwc_diarized.json
+2026-05-28 05:27:53 | INFO     | bwc_pipeline.diarization | Diarizing: podcast.wav
+2026-05-28 05:28:24 | INFO     | bwc_pipeline.diarization | Saved diarization → podcast_diarized.json
+2026-05-28 05:37:50 | INFO     | bwc_pipeline.diarization | Discovered 2 audio file(s).
+2026-05-28 05:37:51 | INFO     | bwc_pipeline.diarization | Diarizing: bwc.wav
+2026-05-28 05:37:58 | INFO     | bwc_pipeline.diarization | Saved diarization → bwc_diarized.json
+2026-05-28 05:37:58 | INFO     | bwc_pipeline.diarization | Diarizing: podcast.wav
+2026-05-28 05:38:29 | INFO     | bwc_pipeline.diarization | Saved diarization → podcast_diarized.json
+2026-05-28 10:22:32 | INFO     | bwc_pipeline.diarization | Discovered 2 audio file(s).
+2026-05-28 10:22:34 | INFO     | bwc_pipeline.diarization | Diarizing: bwc.wav
+2026-05-28 10:22:41 | INFO     | bwc_pipeline.diarization | Saved diarization → bwc_diarized.json
+2026-05-28 10:22:41 | INFO     | bwc_pipeline.diarization | Diarizing: podcast.wav
+2026-05-28 10:23:12 | INFO     | bwc_pipeline.diarization | Saved diarization → podcast_diarized.json

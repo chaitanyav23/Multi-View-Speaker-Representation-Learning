@@ -1,0 +1,3 @@
+NVIDIA-SMI CUDA Version: see gpu_information.txt
+Torch CUDA build: 12.8
+Torch package: 2.8.0+cu128

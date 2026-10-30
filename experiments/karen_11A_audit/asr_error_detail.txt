@@ -1,0 +1,9 @@
+WER: 0.3397
+Substitutions: 57
+Deletions: 624
+Insertions: 14
+
+ALIGNMENT (Ref top, Hyp bottom):
+REF: ['0000', '0000 
+HYP: ['hello', 'off 
+

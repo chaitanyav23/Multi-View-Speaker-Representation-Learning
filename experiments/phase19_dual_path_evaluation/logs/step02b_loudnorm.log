@@ -1,0 +1,1 @@
+2026-07-09 06:49:26,523 INFO Running loudness normalization: ffmpeg -y -i /home/ubuntu/marston/experiments/phase19_dual_path_evaluation/audio/bwc_repaired.wav -af loudnorm=I=-20.0:TP=-1.5:LRA=11 -ar 16000 -ac 1 /home/ubuntu/marston/experiments/phase19_dual_path_evaluation/audio/bwc_normalized.wav

@@ -1,0 +1,14 @@
+{
+    "num_embeddings": 793,
+    "dimensionality": 192,
+    "pca_explained_variance_2d": 0.13902625441551208,
+    "silhouette_score": null,
+    "mean_intra_neighbor_distance": 0.489677369594574,
+    "pairwise_cosine_distance": {
+        "mean": 0.935059130191803,
+        "std": 0.1310986429452896,
+        "min": 0.07070034742355347,
+        "max": 1.320054531097412
+    },
+    "distribution": "diffuse"
+}

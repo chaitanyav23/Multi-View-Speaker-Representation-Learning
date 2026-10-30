@@ -1,0 +1,26 @@
+{
+  "stage": "aggregate_report",
+  "timestamp_utc": "2026-07-15T07:35:40.139425Z",
+  "inputs": [
+    "/home/ubuntu/marston/phase20_standalone/metrics/bwc_pathA_vad_metrics.json",
+    "/home/ubuntu/marston/phase20_standalone/metrics/bwc_pathB_vad_metrics.json",
+    "/home/ubuntu/marston/phase20_standalone/metrics/bwc_asr_metrics.json",
+    "/home/ubuntu/marston/phase20_standalone/metrics/bwc_diar_metrics.json",
+    "/home/ubuntu/marston/phase20_standalone/metrics/bwc_fusion_metrics.json"
+  ],
+  "outputs": [
+    "/home/ubuntu/marston/phase20_standalone/metrics/bwc_all_metrics.json",
+    "/home/ubuntu/marston/phase20_standalone/metrics/bwc_pipeline_metrics.json",
+    "/home/ubuntu/marston/phase20_standalone/reports/bwc_final_report.md",
+    "/home/ubuntu/marston/phase20_standalone/reports/bwc_final_pipeline_report.md"
+  ],
+  "evaluation": {
+    "sections": [
+      "pathA_vad",
+      "pathB_vad",
+      "asr",
+      "diarization",
+      "fusion"
+    ]
+  }
+}

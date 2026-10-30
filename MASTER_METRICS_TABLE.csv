@@ -1,0 +1,14 @@
+phase,source,enhancer,file,wer,ref_count,subs,dels,ins,avg_wer,avg_der,avg_cpwer,avg_sawer,accuracy,precision,recall,f1,miss_rate,false_alarm_rate,asr_wer,asr_subs,asr_dels,asr_ins,asr_ref_count,der,miss,fa,conf,wder,sa_wer,cp_wer,substitutions,insertions,deletions,hyp_count,cpWER,WDER,SA-WER,DER,Miss,False Alarm,Confusion
+phase6_final_diagnostic,asr_metrics.csv,baseline,bwc,0.4074,513.0,103.0,71.0,35.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+phase6_final_diagnostic,asr_metrics.csv,baseline,podcast,0.0558,2564.0,33.0,76.0,34.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+phase6_final_diagnostic,asr_metrics.csv,deepfilternet,bwc,0.3996,513.0,108.0,69.0,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+phase6_final_diagnostic,asr_metrics.csv,speechbrain,bwc,0.425,513.0,119.0,81.0,18.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+phase7_optimal,final_summary.csv,,,,,,,,0.386,0.6137,0.6595,0.5785,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+phase8_sentence_grouped,final_summary.csv,,,,,,,,0.3762,0.5507,0.6617,0.6322,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+phase9_production,phase9_comprehensive_metrics.csv,,bwc,,,,,,,,,,0.7447,0.8355,0.8088,0.8219,0.1912,0.4268,0.3158,67.0,48.0,47.0,513.0,0.5296,0.2747,0.084,0.1709,0.1942,0.5269,0.5974,,,,,,,,,,,
+phase11_dfn_ablation,asr_eval_improved_phase11_11A_asr.csv,,bwc,0.3002,513.0,,,,,,,,,,,,,,,,,,,,,,,,,,78.0,32.0,44.0,501.0,,,,,,,
+phase13_karen_generalization,conversational_metrics.csv,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2684948979591837,0.1848998459167951,0.2684948979591837,,,,
+phase15_no_norm,conversational_metrics.csv,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2646683673469387,0.1782101167315175,0.2646683673469387,,,,
+phase16_no_norm_dfn,conversational_metrics.csv,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5038265306122449,0.2253771073646849,0.5038265306122449,,,,
+phase17_bwc_no_norm,conversational_metrics.csv,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.4814049586776859,0.1065573770491803,0.4814049586776859,,,,
+phase18_tich_karen,diarization_metrics.csv,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.6286,0.1051,0.3649,0.1585

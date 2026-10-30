@@ -1,0 +1,38 @@
+2026-05-26 19:16:23 | INFO     | bwc_pipeline | Discovered 2 video(s).
+2026-05-26 19:16:23 | INFO     | bwc_pipeline.device | Using GPU: Tesla T4  |  VRAM: 14.6 GB  |  CUDA 13.0
+2026-05-26 19:16:23 | INFO     | bwc_pipeline.vad_engine | Loading Silero VAD from torch.hub  (repo=external/silero-vad, onnx=False, device=cuda:0) …
+2026-05-26 19:16:24 | INFO     | bwc_pipeline.vad_engine | Silero VAD loaded in 0.20s.
+2026-05-26 19:16:24 | INFO     | bwc_pipeline | ================================================================================
+2026-05-26 19:16:24 | INFO     | bwc_pipeline | PROCESSING: bwc.mp4
+2026-05-26 19:16:24 | INFO     | bwc_pipeline | ================================================================================
+2026-05-26 19:16:24 | INFO     | bwc_pipeline | Extracting audio → bwc.wav
+2026-05-26 19:16:24 | INFO     | bwc_pipeline.vad_engine | VAD processing: bwc.wav
+2026-05-26 19:16:28 | INFO     | bwc_pipeline.vad_engine |   [bwc.wav]  total=175.43s  speech=125.82s  silence=49.61s  ratio=71.7%  segs=14  avg_seg=8.99s  short=0  long_silence=3  frag_idx=4.79
+2026-05-26 19:16:28 | WARNING  | bwc_pipeline.vad_engine |   [bwc.wav] ⚠ 1 potential false positive segment(s) (>30s)
+2026-05-26 19:16:28 | WARNING  | bwc_pipeline.vad_engine |   [bwc.wav] ⚠ 3 potential missed speech region(s) (long silence in busy audio)
+2026-05-26 19:16:28 | INFO     | bwc_pipeline.vad_engine |   → 14 segments  |  speech 71.7%  |  RTF 0.026  |  4.55s elapsed
+2026-05-26 19:16:28 | INFO     | bwc_pipeline | Saved JSON → bwc_vad.json
+2026-05-26 19:16:28 | INFO     | bwc_pipeline | Updated CSV summary.
+2026-05-26 19:16:28 | INFO     | bwc_pipeline | Updated dataset manifest.
+2026-05-26 19:16:28 | INFO     | bwc_pipeline | ================================================================================
+2026-05-26 19:16:28 | INFO     | bwc_pipeline | PROCESSING: podcast.mp4
+2026-05-26 19:16:28 | INFO     | bwc_pipeline | ================================================================================
+2026-05-26 19:16:28 | INFO     | bwc_pipeline | Extracting audio → podcast.wav
+2026-05-26 19:16:30 | INFO     | bwc_pipeline.vad_engine | VAD processing: podcast.wav
+2026-05-26 19:16:43 | INFO     | bwc_pipeline.vad_engine |   [podcast.wav]  total=818.04s  speech=761.21s  silence=56.83s  ratio=93.1%  segs=12  avg_seg=63.43s  short=0  long_silence=6  frag_idx=0.88
+2026-05-26 19:16:43 | WARNING  | bwc_pipeline.vad_engine |   [podcast.wav] ⚠ 12 potential false positive segment(s) (>30s)
+2026-05-26 19:16:43 | WARNING  | bwc_pipeline.vad_engine |   [podcast.wav] ⚠ 6 potential missed speech region(s) (long silence in busy audio)
+2026-05-26 19:16:43 | INFO     | bwc_pipeline.vad_engine |   → 12 segments  |  speech 93.1%  |  RTF 0.016  |  13.34s elapsed
+2026-05-26 19:16:43 | INFO     | bwc_pipeline | Saved JSON → podcast_vad.json
+2026-05-26 19:16:43 | INFO     | bwc_pipeline | Updated CSV summary.
+2026-05-26 19:16:43 | INFO     | bwc_pipeline | Updated dataset manifest.
+2026-05-26 19:16:43 | INFO     | bwc_pipeline | ================================================================================
+2026-05-26 19:16:43 | INFO     | bwc_pipeline | STAGE-1 PIPELINE COMPLETE
+2026-05-26 19:16:43 | INFO     | bwc_pipeline | ================================================================================
+2026-05-26 19:16:43 | INFO     | bwc_pipeline | Processed: 2
+2026-05-26 19:16:43 | INFO     | bwc_pipeline | Failed: 0
+2026-05-26 19:16:43 | INFO     | bwc_pipeline | Outputs:
+2026-05-26 19:16:43 | INFO     | bwc_pipeline |   raw_audio/
+2026-05-26 19:16:43 | INFO     | bwc_pipeline |   vad_outputs/
+2026-05-26 19:16:43 | INFO     | bwc_pipeline |   speech_segments/
+2026-05-26 19:16:43 | INFO     | bwc_pipeline |   reports/

@@ -1,0 +1,51 @@
+{
+  "files": {
+    "environment/cuda_version.txt": "a1e4b9aa4570abc805465c164c7f5f39e8e2d28373fcf515685fc4c5790d2eb3",
+    "environment/cudnn_version.txt": "88cccb546ce852c22c83aeb96de9bf9c3b65aa96f64d6f963ed0b35bc97d5685",
+    "environment/dependency_tree.txt": "6c006c9dbde2717daa447ad3a89f14bf08280174f3ea6b030cbb39b2db90d7b1",
+    "environment/ffmpeg_version.txt": "ff177c4585de71302b95b6fe2751cb5fdfc8c145ce192b81876fd617561ffa9f",
+    "environment/gpu_information.txt": "380e8946df821e75f717713d4c961b306699eec7b342483bb676826e85d922be",
+    "environment/model_manifest.md": "21daf0123a262a86648d9e94142739194aefd4cccf9452603d6ac339e834fe1f",
+    "environment/package_hashes.txt": "d87614d39ad3a381d5b9abdbb2b711fd6fbc5b9c26064f3e5e09a493dcc77132",
+    "environment/pip_freeze.txt": "a56a09599c84005b1deb7b37ecacbce90d7e1d1d8f9d767eb90b871a8170c891",
+    "environment/pip_version.txt": "719f363ededaa35605b105f560aaf7a4d50ff8977c35e6e9e0d05466bf96c0cc",
+    "environment/python_version.txt": "f6b75e07f1488db28a89724a522725e3e01af3dc78f6fd365f17eb4059e41056",
+    "environment/requirements.lock": "6fa94f856043ffff63df3c1e418f58b784c4fea2f57ee7d1c43318aa0ec7f14f",
+    "environment/requirements_frozen.txt": "a56a09599c84005b1deb7b37ecacbce90d7e1d1d8f9d767eb90b871a8170c891",
+    "environment/system_information.txt": "3a120138afd6a62d702b5c41a2b5f1d88c857f5640c2bd0e59357fbeed66b449"
+  },
+  "models": {
+    "DeepFilterNet3 checkpoint": {
+      "path": "/home/ubuntu/marston/phase20_standalone/.cache/DeepFilterNet/DeepFilterNet3/checkpoints/model_120.ckpt.best",
+      "sha256": "23b92884f63ccf54bb026014604625ab231657b6480df65db4095c4c171e6003",
+      "type": "file"
+    },
+    "NeMo TitaNet Large": {
+      "path": "/home/ubuntu/.cache/torch/NeMo/NeMo_2.7.3/titanet-l/11ba0924fdf87c049e339adbf6899d48/titanet-l.nemo",
+      "sha256": "e838520693f269e7984f55bc8eb3c2d60ccf246bf4b896d4be9bcabe3e4b0fe3",
+      "type": "file"
+    },
+    "NeMo diar_msdd_telephonic": {
+      "path": "/home/ubuntu/.cache/torch/NeMo/NeMo_2.7.3/diar_msdd_telephonic/3c3697a0a46f945574fa407149975a13/diar_msdd_telephonic.nemo",
+      "sha256": "450f6bd279a3f78348f6e883359f9b3b34687dbd15814fd0f10e446ca0f708f6",
+      "type": "file"
+    },
+    "Pyannote VAD snapshot": {
+      "files": 1,
+      "path": "/home/ubuntu/marston/phase20_standalone/.cache/huggingface/hub/models--pyannote--voice-activity-detection/snapshots/8d678d7647d9c991934b2270b21fe390f9a8fea5",
+      "sha256_tree": "895d578d7645312d344f181c90145fdc867f599b812159ecf539b512d2908cdf",
+      "type": "directory"
+    },
+    "Whisper large-v3 snapshot": {
+      "files": 5,
+      "path": "/home/ubuntu/marston/phase20_standalone/.cache/huggingface/hub/models--Systran--faster-whisper-large-v3/snapshots/edaa852ec7e145841d8ffdb056a99866b5f0a478",
+      "sha256_tree": "126acb0ecbd18784cb974d55e07077ba4fa7f0e2c4140709485fd950f254851c",
+      "type": "directory"
+    },
+    "WhisperX wav2vec2 alignment": {
+      "path": "/home/ubuntu/marston/phase20_standalone/.cache/torch/hub/checkpoints/wav2vec2_fairseq_base_ls960_asr_ls960.pth",
+      "sha256": "488fd4f16de84438ffc945334278c1b9fb9b7159a806c1080b16111a958c945d",
+      "type": "file"
+    }
+  }
+}

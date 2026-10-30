@@ -1,0 +1,3674 @@
+[
+  {
+    "word": "Okay,",
+    "start": 0.105,
+    "end": 0.894,
+    "midpoint": 0.4995,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.789,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "my",
+    "start": 1.156,
+    "end": 1.318,
+    "midpoint": 1.237,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.16200000000000014,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "name's",
+    "start": 1.358,
+    "end": 1.54,
+    "midpoint": 1.449,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.18199999999999994,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "Peace.",
+    "start": 1.601,
+    "end": 1.763,
+    "midpoint": 1.682,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.16199999999999992,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "I",
+    "start": 2.156,
+    "end": 2.196,
+    "midpoint": 2.176,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.040000000000000036,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "have",
+    "start": 2.216,
+    "end": 2.316,
+    "midpoint": 2.266,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.09999999999999964,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "to",
+    "start": 2.357,
+    "end": 2.397,
+    "midpoint": 2.377,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.03999999999999959,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "go",
+    "start": 2.417,
+    "end": 2.457,
+    "midpoint": 2.437,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.040000000000000036,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "through",
+    "start": 2.477,
+    "end": 2.657,
+    "midpoint": 2.567,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.18000000000000016,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "this",
+    "start": 2.677,
+    "end": 2.777,
+    "midpoint": 2.7270000000000003,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.10000000000000009,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "bit",
+    "start": 2.797,
+    "end": 2.978,
+    "midpoint": 2.8875,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.18100000000000005,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "the",
+    "start": 3.018,
+    "end": 3.118,
+    "midpoint": 3.0679999999999996,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.10000000000000009,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "grounds",
+    "start": 3.138,
+    "end": 3.358,
+    "midpoint": 3.248,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.2200000000000002,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "for",
+    "start": 3.378,
+    "end": 3.479,
+    "midpoint": 3.4285,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.10099999999999998,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "the",
+    "start": 3.499,
+    "end": 3.579,
+    "midpoint": 3.539,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.08000000000000007,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "search",
+    "start": 3.599,
+    "end": 3.719,
+    "midpoint": 3.659,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.11999999999999966,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "is",
+    "start": 3.739,
+    "end": 3.779,
+    "midpoint": 3.759,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.040000000000000036,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "that",
+    "start": 3.799,
+    "end": 3.899,
+    "midpoint": 3.849,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.10000000000000009,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "the",
+    "start": 3.919,
+    "end": 4.02,
+    "midpoint": 3.9695,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.10099999999999953,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "vehicle",
+    "start": 4.04,
+    "end": 4.24,
+    "midpoint": 4.140000000000001,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.20000000000000018,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "is",
+    "start": 4.26,
+    "end": 4.3,
+    "midpoint": 4.279999999999999,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.040000000000000036,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "linked",
+    "start": 4.34,
+    "end": 4.521,
+    "midpoint": 4.4305,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.18100000000000005,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "to",
+    "start": 4.541,
+    "end": 4.701,
+    "midpoint": 4.621,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.15999999999999925,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "drug",
+    "start": 4.741,
+    "end": 4.861,
+    "midpoint": 4.801,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.1200000000000001,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "supply",
+    "start": 4.941,
+    "end": 5.182,
+    "midpoint": 5.0615000000000006,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.24100000000000055,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "Yeah.",
+    "start": 10.848,
+    "end": 10.955,
+    "midpoint": 10.9015,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.10500000000000043,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "Okay,",
+    "start": 11.411,
+    "end": 11.713,
+    "midpoint": 11.562,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.3019999999999996,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "there's",
+    "start": 12.076,
+    "end": 12.277,
+    "midpoint": 12.1765,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.20099999999999874,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "lots",
+    "start": 12.317,
+    "end": 12.599,
+    "midpoint": 12.458,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.28200000000000003,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "of",
+    "start": 12.961,
+    "end": 13.062,
+    "midpoint": 13.0115,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.10099999999999909,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "loose",
+    "start": 13.404,
+    "end": 13.686,
+    "midpoint": 13.545,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.28200000000000003,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "cash.",
+    "start": 13.807,
+    "end": 14.129,
+    "midpoint": 13.968,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.3219999999999992,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "In",
+    "start": 14.691,
+    "end": 14.831,
+    "midpoint": 14.761,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.1399999999999988,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "that",
+    "start": 14.992,
+    "end": 15.172,
+    "midpoint": 15.082,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.17999999999999972,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "centre",
+    "start": 15.192,
+    "end": 15.452,
+    "midpoint": 15.322,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.2599999999999998,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "console,",
+    "start": 15.492,
+    "end": 16.033,
+    "midpoint": 15.762500000000001,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.5410000000000004,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "which",
+    "start": 17.055,
+    "end": 17.275,
+    "midpoint": 17.165,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.21999999999999886,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "often",
+    "start": 17.676,
+    "end": 17.977,
+    "midpoint": 17.8265,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.30100000000000193,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "is",
+    "start": 18.077,
+    "end": 18.177,
+    "midpoint": 18.127000000000002,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.09999999999999787,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "linked",
+    "start": 19.199,
+    "end": 19.399,
+    "midpoint": 19.299,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.1999999999999993,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "to",
+    "start": 19.439,
+    "end": 19.539,
+    "midpoint": 19.489,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.10000000000000142,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "drug",
+    "start": 19.559,
+    "end": 19.719,
+    "midpoint": 19.639000000000003,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.16000000000000014,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "supply,",
+    "start": 19.739,
+    "end": 20.06,
+    "midpoint": 19.8995,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.32099999999999795,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "yeah,",
+    "start": 20.08,
+    "end": 20.24,
+    "midpoint": 20.159999999999997,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.16000000000000014,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "and",
+    "start": 20.28,
+    "end": 20.381,
+    "midpoint": 20.3305,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.10099999999999909,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "I",
+    "start": 20.461,
+    "end": 20.561,
+    "midpoint": 20.511,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.10000000000000142,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "can",
+    "start": 20.581,
+    "end": 21.102,
+    "midpoint": 20.8415,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.5210000000000008,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "smell",
+    "start": 21.122,
+    "end": 21.342,
+    "midpoint": 21.232,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.21999999999999886,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "a",
+    "start": 21.362,
+    "end": 21.422,
+    "midpoint": 21.392,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.060000000000002274,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "faint",
+    "start": 21.462,
+    "end": 21.663,
+    "midpoint": 21.5625,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.2010000000000005,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "smell",
+    "start": 21.683,
+    "end": 21.843,
+    "midpoint": 21.762999999999998,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.16000000000000014,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "of",
+    "start": 21.863,
+    "end": 21.903,
+    "midpoint": 21.883,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.03999999999999915,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "cannabis",
+    "start": 21.923,
+    "end": 22.244,
+    "midpoint": 22.0835,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.3210000000000015,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "coming",
+    "start": 22.264,
+    "end": 22.384,
+    "midpoint": 22.323999999999998,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.120000000000001,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "out",
+    "start": 22.404,
+    "end": 22.464,
+    "midpoint": 22.433999999999997,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.05999999999999872,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "of",
+    "start": 22.484,
+    "end": 22.564,
+    "midpoint": 22.524,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.0799999999999983,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "the",
+    "start": 22.584,
+    "end": 22.644,
+    "midpoint": 22.613999999999997,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.05999999999999872,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "vehicle",
+    "start": 22.684,
+    "end": 22.965,
+    "midpoint": 22.8245,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.2809999999999988,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "as",
+    "start": 23.005,
+    "end": 23.045,
+    "midpoint": 23.025,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.0400000000000027,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "well.",
+    "start": 23.085,
+    "end": 23.305,
+    "midpoint": 23.195,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.21999999999999886,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "Just",
+    "start": 23.986,
+    "end": 24.207,
+    "midpoint": 24.0965,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.22100000000000009,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "do",
+    "start": 24.247,
+    "end": 24.307,
+    "midpoint": 24.277,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.05999999999999872,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "your",
+    "start": 24.327,
+    "end": 24.427,
+    "midpoint": 24.377000000000002,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.09999999999999787,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "thing.",
+    "start": 24.447,
+    "end": 24.748,
+    "midpoint": 24.5975,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.30100000000000193,
+    "attribution_confidence": "medium"
+  },
+  {
+    "word": "Yeah,",
+    "start": 24.928,
+    "end": 25.168,
+    "midpoint": 25.048000000000002,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.18299999999999983,
+    "attribution_confidence": "medium"
+  },
+  {
+    "word": "all",
+    "start": 25.269,
+    "end": 25.369,
+    "midpoint": 25.319,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.10000000000000142,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "right.",
+    "start": 25.389,
+    "end": 25.509,
+    "midpoint": 25.448999999999998,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.120000000000001,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "And",
+    "start": 25.939,
+    "end": 26.082,
+    "midpoint": 26.0105,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.14300000000000068,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "so...",
+    "start": 26.164,
+    "end": 26.45,
+    "midpoint": 26.307000000000002,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.2859999999999978,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "You",
+    "start": 27.039,
+    "end": 27.139,
+    "midpoint": 27.089,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.09999999999999787,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "are",
+    "start": 27.159,
+    "end": 27.259,
+    "midpoint": 27.209,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.10000000000000142,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "entitled",
+    "start": 27.299,
+    "end": 27.58,
+    "midpoint": 27.4395,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.2809999999999988,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "to",
+    "start": 27.6,
+    "end": 27.68,
+    "midpoint": 27.64,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.0799999999999983,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "a",
+    "start": 27.7,
+    "end": 27.72,
+    "midpoint": 27.71,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.019999999999999574,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "copy",
+    "start": 27.74,
+    "end": 27.88,
+    "midpoint": 27.81,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.14000000000000057,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "of",
+    "start": 27.9,
+    "end": 27.94,
+    "midpoint": 27.92,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.0400000000000027,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "this",
+    "start": 27.96,
+    "end": 28.06,
+    "midpoint": 28.009999999999998,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.09999999999999787,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "search,",
+    "start": 28.081,
+    "end": 28.481,
+    "midpoint": 28.281,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.40000000000000213,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "okay?",
+    "start": 28.662,
+    "end": 28.962,
+    "midpoint": 28.811999999999998,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.3000000000000007,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "And",
+    "start": 29.123,
+    "end": 29.203,
+    "midpoint": 29.163,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.0799999999999983,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "it's",
+    "start": 29.283,
+    "end": 29.463,
+    "midpoint": 29.373,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.17999999999999972,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "section",
+    "start": 29.483,
+    "end": 29.744,
+    "midpoint": 29.613500000000002,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.26099999999999923,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "23.",
+    "start": 29.784,
+    "end": 29.984,
+    "midpoint": 29.884,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.20000000000000284,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "Have",
+    "start": 30.024,
+    "end": 30.165,
+    "midpoint": 30.0945,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.14099999999999824,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "you",
+    "start": 30.185,
+    "end": 30.265,
+    "midpoint": 30.225,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.08000000000000185,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "got",
+    "start": 30.285,
+    "end": 30.365,
+    "midpoint": 30.325,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.0799999999999983,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "any",
+    "start": 30.385,
+    "end": 30.445,
+    "midpoint": 30.415,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.05999999999999872,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "controlled",
+    "start": 30.465,
+    "end": 30.846,
+    "midpoint": 30.6555,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.3810000000000002,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "drugs",
+    "start": 30.866,
+    "end": 31.006,
+    "midpoint": 30.936,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.14000000000000057,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "on",
+    "start": 31.046,
+    "end": 31.106,
+    "midpoint": 31.076,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.060000000000002274,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "you?",
+    "start": 31.126,
+    "end": 31.267,
+    "midpoint": 31.1965,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.14099999999999824,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "Yeah.",
+    "start": 31.347,
+    "end": 31.668,
+    "midpoint": 31.5075,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.32099999999999795,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "Okay,",
+    "start": 31.708,
+    "end": 31.928,
+    "midpoint": 31.817999999999998,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.22000000000000242,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "cool.",
+    "start": 32.349,
+    "end": 32.589,
+    "midpoint": 32.468999999999994,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.240000000000002,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "Have",
+    "start": 32.89,
+    "end": 33.03,
+    "midpoint": 32.96,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.14000000000000057,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "you",
+    "start": 33.05,
+    "end": 33.13,
+    "midpoint": 33.09,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.0800000000000054,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "got",
+    "start": 33.17,
+    "end": 33.271,
+    "midpoint": 33.2205,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.10099999999999909,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "anything",
+    "start": 33.291,
+    "end": 33.571,
+    "midpoint": 33.431,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.28000000000000114,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "on",
+    "start": 33.631,
+    "end": 33.712,
+    "midpoint": 33.6715,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.08100000000000307,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "you?",
+    "start": 33.752,
+    "end": 33.892,
+    "midpoint": 33.822,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.14000000000000057,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "No.",
+    "start": 33.912,
+    "end": 34.012,
+    "midpoint": 33.962,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.10000000000000142,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "What's",
+    "start": 37.308,
+    "end": 37.472,
+    "midpoint": 37.39,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.16199999999999903,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "been",
+    "start": 37.492,
+    "end": 37.574,
+    "midpoint": 37.533,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.08200000000000074,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "done",
+    "start": 37.595,
+    "end": 37.677,
+    "midpoint": 37.635999999999996,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.08200000000000074,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "in",
+    "start": 37.697,
+    "end": 37.758,
+    "midpoint": 37.727500000000006,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.06099999999999994,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "front",
+    "start": 37.799,
+    "end": 37.922,
+    "midpoint": 37.8605,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.12299999999999756,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "of",
+    "start": 37.943,
+    "end": 37.984,
+    "midpoint": 37.963499999999996,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.04100000000000392,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "that?",
+    "start": 38.004,
+    "end": 38.148,
+    "midpoint": 38.076,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.14400000000000546,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "Anything",
+    "start": 39.302,
+    "end": 39.466,
+    "midpoint": 39.384,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.16400000000000148,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "that's",
+    "start": 39.487,
+    "end": 39.61,
+    "midpoint": 39.548500000000004,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.12299999999999756,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "going",
+    "start": 39.63,
+    "end": 39.733,
+    "midpoint": 39.6815,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.10299999999999443,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "to",
+    "start": 39.753,
+    "end": 39.794,
+    "midpoint": 39.7735,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.04099999999999682,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "help",
+    "start": 39.815,
+    "end": 39.938,
+    "midpoint": 39.8765,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.12300000000000466,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "me?",
+    "start": 39.959,
+    "end": 40.061,
+    "midpoint": 40.010000000000005,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.10199999999999676,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "Cool,",
+    "start": 40.962,
+    "end": 41.366,
+    "midpoint": 41.164,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.40399999999999636,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "go",
+    "start": 41.406,
+    "end": 41.507,
+    "midpoint": 41.4565,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.10099999999999909,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "on.",
+    "start": 41.669,
+    "end": 41.749,
+    "midpoint": 41.709,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.0800000000000054,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "If",
+    "start": 47.131,
+    "end": 47.191,
+    "midpoint": 47.161,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.060000000000002274,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "you",
+    "start": 47.211,
+    "end": 47.312,
+    "midpoint": 47.2615,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.10099999999999909,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "haven't",
+    "start": 47.332,
+    "end": 47.512,
+    "midpoint": 47.422,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.17999999999999972,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "got",
+    "start": 47.552,
+    "end": 47.673,
+    "midpoint": 47.6125,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.12100000000000222,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "anything",
+    "start": 48.195,
+    "end": 48.677,
+    "midpoint": 48.436,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.4819999999999993,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "on",
+    "start": 48.697,
+    "end": 48.757,
+    "midpoint": 48.727000000000004,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.05999999999999517,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "you,",
+    "start": 48.777,
+    "end": 48.878,
+    "midpoint": 48.8275,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.10099999999999909,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "mate,",
+    "start": 48.898,
+    "end": 49.119,
+    "midpoint": 49.0085,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.22099999999999653,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "you",
+    "start": 49.319,
+    "end": 49.42,
+    "midpoint": 49.3695,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.10099999999999909,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "can",
+    "start": 49.44,
+    "end": 49.54,
+    "midpoint": 49.489999999999995,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.10000000000000142,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "put",
+    "start": 49.56,
+    "end": 49.641,
+    "midpoint": 49.6005,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.08099999999999596,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "it",
+    "start": 49.701,
+    "end": 49.741,
+    "midpoint": 49.721000000000004,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.03999999999999915,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "away.",
+    "start": 49.761,
+    "end": 49.942,
+    "midpoint": 49.8515,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.18099999999999739,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "Okay,",
+    "start": 50.082,
+    "end": 50.564,
+    "midpoint": 50.323,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.4819999999999993,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "cool.",
+    "start": 50.685,
+    "end": 50.805,
+    "midpoint": 50.745000000000005,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.11999999999999744,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "this",
+    "start": 61.447,
+    "end": 61.588,
+    "midpoint": 61.5175,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.14099999999999824,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "was",
+    "start": 61.608,
+    "end": 61.749,
+    "midpoint": 61.6785,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.14100000000000534,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "cool",
+    "start": 61.789,
+    "end": 62.192,
+    "midpoint": 61.9905,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.4029999999999987,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "yeah",
+    "start": 62.233,
+    "end": 62.394,
+    "midpoint": 62.3135,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.16100000000000136,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "mate",
+    "start": 62.434,
+    "end": 62.636,
+    "midpoint": 62.535,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.2020000000000053,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "it's",
+    "start": 62.696,
+    "end": 62.878,
+    "midpoint": 62.787,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.18200000000000216,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "fine",
+    "start": 62.918,
+    "end": 63.08,
+    "midpoint": 62.998999999999995,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.16199999999999903,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "Basically,",
+    "start": 64.53,
+    "end": 65.192,
+    "midpoint": 64.86099999999999,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.6619999999999919,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "if",
+    "start": 65.273,
+    "end": 65.333,
+    "midpoint": 65.303,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.060000000000002274,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "you",
+    "start": 65.353,
+    "end": 65.413,
+    "midpoint": 65.383,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.060000000000002274,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "have",
+    "start": 65.453,
+    "end": 65.553,
+    "midpoint": 65.503,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.09999999999999432,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "got",
+    "start": 65.574,
+    "end": 65.674,
+    "midpoint": 65.624,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.10000000000000853,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "anything",
+    "start": 65.694,
+    "end": 66.095,
+    "midpoint": 65.8945,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.40099999999999625,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "on",
+    "start": 66.316,
+    "end": 66.376,
+    "midpoint": 66.346,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.060000000000002274,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "you,",
+    "start": 66.396,
+    "end": 66.497,
+    "midpoint": 66.4465,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.10099999999999909,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "it's",
+    "start": 66.517,
+    "end": 66.657,
+    "midpoint": 66.58699999999999,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.14000000000000057,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "important",
+    "start": 66.717,
+    "end": 66.938,
+    "midpoint": 66.8275,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.22100000000000364,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "that",
+    "start": 66.958,
+    "end": 67.038,
+    "midpoint": 66.99799999999999,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.0799999999999983,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "you",
+    "start": 67.059,
+    "end": 67.139,
+    "midpoint": 67.09899999999999,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.0799999999999983,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "tell",
+    "start": 67.159,
+    "end": 67.319,
+    "midpoint": 67.239,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.1599999999999966,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "me,",
+    "start": 67.36,
+    "end": 67.42,
+    "midpoint": 67.39,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.060000000000002274,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "right?",
+    "start": 67.48,
+    "end": 67.661,
+    "midpoint": 67.57050000000001,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.18099999999999739,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "What's",
+    "start": 70.082,
+    "end": 70.286,
+    "midpoint": 70.184,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.20400000000000773,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "that",
+    "start": 70.307,
+    "end": 70.49,
+    "midpoint": 70.3985,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.18299999999999272,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "in",
+    "start": 70.551,
+    "end": 70.633,
+    "midpoint": 70.592,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.08199999999999363,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "there?",
+    "start": 70.653,
+    "end": 70.857,
+    "midpoint": 70.755,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.20399999999999352,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "But",
+    "start": 74.433,
+    "end": 74.535,
+    "midpoint": 74.48400000000001,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.10199999999998965,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "I",
+    "start": 74.556,
+    "end": 74.576,
+    "midpoint": 74.566,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.01999999999999602,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "mean,",
+    "start": 74.596,
+    "end": 74.76,
+    "midpoint": 74.678,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.16400000000000148,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "that",
+    "start": 74.78,
+    "end": 74.923,
+    "midpoint": 74.8515,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.14300000000000068,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "is.",
+    "start": 75.025,
+    "end": 75.148,
+    "midpoint": 75.0865,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.12299999999999045,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "What",
+    "start": 77.707,
+    "end": 77.848,
+    "midpoint": 77.7775,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.13800000000000523,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "is",
+    "start": 77.889,
+    "end": 77.969,
+    "midpoint": 77.929,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.0799999999999983,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "that?",
+    "start": 78.05,
+    "end": 78.272,
+    "midpoint": 78.161,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.2220000000000084,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "Your",
+    "start": 79.478,
+    "end": 79.558,
+    "midpoint": 79.518,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.07800000000000296,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "balls",
+    "start": 79.578,
+    "end": 79.819,
+    "midpoint": 79.6985,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.24099999999999966,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "aren't",
+    "start": 79.899,
+    "end": 80.04,
+    "midpoint": 79.96950000000001,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.14100000000000534,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "hard",
+    "start": 80.24,
+    "end": 80.501,
+    "midpoint": 80.37049999999999,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.2610000000000099,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "and",
+    "start": 80.521,
+    "end": 80.641,
+    "midpoint": 80.581,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.12000000000000455,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "square.",
+    "start": 80.682,
+    "end": 80.982,
+    "midpoint": 80.832,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.29999999999999716,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "Yeah,",
+    "start": 81.389,
+    "end": 81.533,
+    "midpoint": 81.461,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.14400000000000546,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "they",
+    "start": 81.574,
+    "end": 81.697,
+    "midpoint": 81.63550000000001,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.12300000000000466,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "are.",
+    "start": 81.718,
+    "end": 81.8,
+    "midpoint": 81.759,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.08199999999999363,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "Your",
+    "start": 82.55,
+    "end": 82.65,
+    "midpoint": 82.6,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.10000000000000853,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "balls",
+    "start": 82.67,
+    "end": 82.891,
+    "midpoint": 82.7805,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.22100000000000364,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "are",
+    "start": 82.931,
+    "end": 82.992,
+    "midpoint": 82.9615,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.06100000000000705,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "hard",
+    "start": 83.012,
+    "end": 83.172,
+    "midpoint": 83.092,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.1599999999999966,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "and",
+    "start": 83.212,
+    "end": 83.272,
+    "midpoint": 83.242,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.060000000000002274,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "square,",
+    "start": 83.293,
+    "end": 83.634,
+    "midpoint": 83.46350000000001,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.340999999999994,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "eh?",
+    "start": 83.654,
+    "end": 83.754,
+    "midpoint": 83.70400000000001,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.10000000000000853,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "Yeah.",
+    "start": 86.718,
+    "end": 86.971,
+    "midpoint": 86.84450000000001,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.2510000000000048,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "Yeah,",
+    "start": 88.361,
+    "end": 88.782,
+    "midpoint": 88.5715,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.42099999999999227,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "I'm",
+    "start": 88.863,
+    "end": 88.963,
+    "midpoint": 88.913,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.09999999999999432,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "not",
+    "start": 89.003,
+    "end": 89.164,
+    "midpoint": 89.0835,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.16100000000000136,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "convinced",
+    "start": 89.224,
+    "end": 89.525,
+    "midpoint": 89.37450000000001,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.30100000000000193,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "you",
+    "start": 89.545,
+    "end": 89.605,
+    "midpoint": 89.575,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.060000000000002274,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "haven't",
+    "start": 89.625,
+    "end": 89.766,
+    "midpoint": 89.69550000000001,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.14100000000000534,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "got",
+    "start": 89.786,
+    "end": 89.846,
+    "midpoint": 89.816,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.060000000000002274,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "something",
+    "start": 89.886,
+    "end": 90.187,
+    "midpoint": 90.03649999999999,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.30100000000000193,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "down",
+    "start": 90.207,
+    "end": 90.287,
+    "midpoint": 90.247,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.0800000000000125,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "there,",
+    "start": 90.307,
+    "end": 90.428,
+    "midpoint": 90.3675,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.12099999999999511,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "mate,",
+    "start": 90.448,
+    "end": 90.588,
+    "midpoint": 90.518,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.14000000000000057,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "all",
+    "start": 90.608,
+    "end": 90.668,
+    "midpoint": 90.638,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.060000000000002274,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "right?",
+    "start": 90.688,
+    "end": 90.829,
+    "midpoint": 90.7585,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.14099999999999113,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "so",
+    "start": 92.873,
+    "end": 93.113,
+    "midpoint": 92.993,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.23999999999999488,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "what",
+    "start": 93.774,
+    "end": 93.894,
+    "midpoint": 93.834,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.12000000000000455,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "will",
+    "start": 93.914,
+    "end": 94.034,
+    "midpoint": 93.974,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.12000000000000455,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "happen",
+    "start": 94.054,
+    "end": 94.294,
+    "midpoint": 94.174,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.23999999999999488,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "you'll",
+    "start": 94.334,
+    "end": 94.474,
+    "midpoint": 94.404,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.14000000000000057,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "go",
+    "start": 94.494,
+    "end": 94.574,
+    "midpoint": 94.53399999999999,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.0799999999999983,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "back",
+    "start": 94.594,
+    "end": 94.714,
+    "midpoint": 94.654,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.12000000000000455,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "to",
+    "start": 94.754,
+    "end": 94.895,
+    "midpoint": 94.8245,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.14099999999999113,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "the",
+    "start": 94.915,
+    "end": 94.995,
+    "midpoint": 94.95500000000001,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.0799999999999983,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "police",
+    "start": 95.295,
+    "end": 95.495,
+    "midpoint": 95.39500000000001,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.20000000000000284,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "station",
+    "start": 95.515,
+    "end": 95.915,
+    "midpoint": 95.715,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.4000000000000057,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "yeah",
+    "start": 95.935,
+    "end": 96.456,
+    "midpoint": 96.19550000000001,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.5210000000000008,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "you'll",
+    "start": 96.696,
+    "end": 96.836,
+    "midpoint": 96.76599999999999,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.14000000000000057,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "be",
+    "start": 96.856,
+    "end": 96.916,
+    "midpoint": 96.886,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.060000000000002274,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "strip",
+    "start": 96.936,
+    "end": 97.176,
+    "midpoint": 97.05600000000001,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.23999999999999488,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "searched",
+    "start": 97.196,
+    "end": 97.616,
+    "midpoint": 97.406,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.4200000000000017,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "if",
+    "start": 98.117,
+    "end": 98.177,
+    "midpoint": 98.147,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.060000000000002274,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "if",
+    "start": 98.397,
+    "end": 98.437,
+    "midpoint": 98.417,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.03999999999999204,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "it's",
+    "start": 98.477,
+    "end": 98.577,
+    "midpoint": 98.527,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.09999999999999432,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "nothing",
+    "start": 98.597,
+    "end": 98.797,
+    "midpoint": 98.697,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.20000000000000284,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "there",
+    "start": 98.837,
+    "end": 99.098,
+    "midpoint": 98.9675,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.2609999999999957,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "it's",
+    "start": 99.118,
+    "end": 99.338,
+    "midpoint": 99.228,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.21999999999999886,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "fine",
+    "start": 99.378,
+    "end": 99.658,
+    "midpoint": 99.518,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.28000000000000114,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "but",
+    "start": 99.698,
+    "end": 99.898,
+    "midpoint": 99.798,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.20000000000000284,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "but",
+    "start": 100.478,
+    "end": 100.659,
+    "midpoint": 100.5685,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.1810000000000116,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "that",
+    "start": 100.739,
+    "end": 100.879,
+    "midpoint": 100.809,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.14000000000000057,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "seems",
+    "start": 100.899,
+    "end": 101.139,
+    "midpoint": 101.019,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.23999999999999488,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "too",
+    "start": 101.339,
+    "end": 101.499,
+    "midpoint": 101.419,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.1599999999999966,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "hard",
+    "start": 101.539,
+    "end": 101.759,
+    "midpoint": 101.649,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.21999999999999886,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "all",
+    "start": 102.28,
+    "end": 102.42,
+    "midpoint": 102.35,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.14000000000000057,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "right",
+    "start": 102.44,
+    "end": 102.54,
+    "midpoint": 102.49000000000001,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.10000000000000853,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "What?",
+    "start": 106.192,
+    "end": 106.374,
+    "midpoint": 106.28299999999999,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.18200000000000216,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "Get",
+    "start": 109.095,
+    "end": 109.536,
+    "midpoint": 109.3155,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.4410000000000025,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "on",
+    "start": 109.616,
+    "end": 109.757,
+    "midpoint": 109.6865,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.14100000000000534,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "the",
+    "start": 109.777,
+    "end": 109.857,
+    "midpoint": 109.81700000000001,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.0799999999999983,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "floor",
+    "start": 109.877,
+    "end": 110.117,
+    "midpoint": 109.997,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.2400000000000091,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "now.",
+    "start": 110.157,
+    "end": 110.378,
+    "midpoint": 110.2675,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.22100000000000364,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "What",
+    "start": 111.632,
+    "end": 111.772,
+    "midpoint": 111.702,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.14000000000000057,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "are",
+    "start": 111.812,
+    "end": 111.912,
+    "midpoint": 111.862,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.10000000000000853,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "you",
+    "start": 111.932,
+    "end": 112.093,
+    "midpoint": 112.0125,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.16100000000000136,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "doing?",
+    "start": 112.113,
+    "end": 112.253,
+    "midpoint": 112.18299999999999,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.14000000000000057,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "I'm",
+    "start": 112.273,
+    "end": 112.333,
+    "midpoint": 112.303,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.060000000000002274,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "on",
+    "start": 112.373,
+    "end": 112.433,
+    "midpoint": 112.403,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.060000000000002274,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "the",
+    "start": 112.453,
+    "end": 112.533,
+    "midpoint": 112.493,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.0799999999999983,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "floor,",
+    "start": 112.553,
+    "end": 112.793,
+    "midpoint": 112.673,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.2400000000000091,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "brother.",
+    "start": 112.813,
+    "end": 113.033,
+    "midpoint": 112.923,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.21999999999999886,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "I'm",
+    "start": 113.674,
+    "end": 113.754,
+    "midpoint": 113.714,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.0799999999999983,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "on",
+    "start": 113.774,
+    "end": 113.834,
+    "midpoint": 113.804,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.060000000000002274,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "the",
+    "start": 113.854,
+    "end": 113.934,
+    "midpoint": 113.894,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.0799999999999983,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "floor,",
+    "start": 113.954,
+    "end": 114.175,
+    "midpoint": 114.0645,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.22100000000000364,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "brother.",
+    "start": 114.195,
+    "end": 114.355,
+    "midpoint": 114.275,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.1600000000000108,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "Right,",
+    "start": 114.375,
+    "end": 114.495,
+    "midpoint": 114.435,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.12000000000000455,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "you're",
+    "start": 114.515,
+    "end": 114.655,
+    "midpoint": 114.58500000000001,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.14000000000000057,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "under",
+    "start": 114.675,
+    "end": 114.835,
+    "midpoint": 114.755,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.1599999999999966,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "arrest",
+    "start": 114.855,
+    "end": 115.075,
+    "midpoint": 114.965,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.21999999999999886,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "for",
+    "start": 115.116,
+    "end": 115.236,
+    "midpoint": 115.176,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.12000000000000455,
+    "attribution_confidence": "medium"
+  },
+  {
+    "word": "assault",
+    "start": 115.256,
+    "end": 115.476,
+    "midpoint": 115.366,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.21999999999999886,
+    "attribution_confidence": "medium"
+  },
+  {
+    "word": "and",
+    "start": 115.536,
+    "end": 115.596,
+    "midpoint": 115.566,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.060000000000002274,
+    "attribution_confidence": "medium"
+  },
+  {
+    "word": "emergency",
+    "start": 115.656,
+    "end": 116.016,
+    "midpoint": 115.83600000000001,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.3089999999999975,
+    "attribution_confidence": "medium"
+  },
+  {
+    "word": "work.",
+    "start": 116.036,
+    "end": 116.197,
+    "midpoint": 116.1165,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.16100000000000136,
+    "attribution_confidence": "medium"
+  },
+  {
+    "word": "You",
+    "start": 116.217,
+    "end": 116.277,
+    "midpoint": 116.247,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.060000000000002274,
+    "attribution_confidence": "medium"
+  },
+  {
+    "word": "don't",
+    "start": 116.297,
+    "end": 116.397,
+    "midpoint": 116.34700000000001,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.10000000000000853,
+    "attribution_confidence": "medium"
+  },
+  {
+    "word": "have",
+    "start": 116.417,
+    "end": 116.497,
+    "midpoint": 116.457,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.0799999999999983,
+    "attribution_confidence": "medium"
+  },
+  {
+    "word": "to",
+    "start": 116.517,
+    "end": 116.557,
+    "midpoint": 116.537,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.04000000000000625,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "say",
+    "start": 116.577,
+    "end": 116.737,
+    "midpoint": 116.657,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.1599999999999966,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "anything,",
+    "start": 116.777,
+    "end": 116.957,
+    "midpoint": 116.86699999999999,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.1799999999999926,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "mate.",
+    "start": 116.997,
+    "end": 117.138,
+    "midpoint": 117.0675,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.14100000000000534,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "I'm",
+    "start": 117.158,
+    "end": 117.218,
+    "midpoint": 117.188,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.060000000000002274,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "on",
+    "start": 117.238,
+    "end": 117.278,
+    "midpoint": 117.25800000000001,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.04000000000000625,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "your",
+    "start": 117.298,
+    "end": 117.378,
+    "midpoint": 117.338,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.0799999999999983,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "bench.",
+    "start": 117.398,
+    "end": 117.578,
+    "midpoint": 117.488,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.18000000000000682,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "If",
+    "start": 117.598,
+    "end": 117.638,
+    "midpoint": 117.618,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.04000000000000625,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "you",
+    "start": 117.658,
+    "end": 117.718,
+    "midpoint": 117.688,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.060000000000002274,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "do",
+    "start": 117.758,
+    "end": 117.838,
+    "midpoint": 117.798,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.0799999999999983,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "not",
+    "start": 117.858,
+    "end": 117.958,
+    "midpoint": 117.908,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.09999999999999432,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "mention",
+    "start": 117.978,
+    "end": 118.159,
+    "midpoint": 118.0685,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.1810000000000116,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "my",
+    "start": 118.179,
+    "end": 118.279,
+    "midpoint": 118.229,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.09999999999999432,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "question,",
+    "start": 118.319,
+    "end": 118.579,
+    "midpoint": 118.449,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.2599999999999909,
+    "attribution_confidence": "medium"
+  },
+  {
+    "word": "it's",
+    "start": 118.599,
+    "end": 118.679,
+    "midpoint": 118.63900000000001,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.0799999999999983,
+    "attribution_confidence": "medium"
+  },
+  {
+    "word": "not",
+    "start": 118.699,
+    "end": 118.759,
+    "midpoint": 118.729,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.060000000000002274,
+    "attribution_confidence": "medium"
+  },
+  {
+    "word": "what",
+    "start": 118.779,
+    "end": 118.899,
+    "midpoint": 118.839,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.12000000000000455,
+    "attribution_confidence": "medium"
+  },
+  {
+    "word": "you",
+    "start": 118.919,
+    "end": 118.979,
+    "midpoint": 118.949,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.04600000000000648,
+    "attribution_confidence": "medium"
+  },
+  {
+    "word": "know",
+    "start": 118.999,
+    "end": 119.079,
+    "midpoint": 119.03899999999999,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.0799999999999983,
+    "attribution_confidence": "medium"
+  },
+  {
+    "word": "when",
+    "start": 119.1,
+    "end": 119.18,
+    "midpoint": 119.14,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.0800000000000125,
+    "attribution_confidence": "medium"
+  },
+  {
+    "word": "I'm",
+    "start": 119.2,
+    "end": 119.26,
+    "midpoint": 119.23,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.060000000000002274,
+    "attribution_confidence": "medium"
+  },
+  {
+    "word": "in",
+    "start": 119.28,
+    "end": 119.32,
+    "midpoint": 119.3,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.03999999999999204,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "court.",
+    "start": 119.36,
+    "end": 119.6,
+    "midpoint": 119.47999999999999,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.23999999999999488,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "Anything",
+    "start": 120.08,
+    "end": 120.321,
+    "midpoint": 120.2005,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.24099999999999966,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "you",
+    "start": 120.341,
+    "end": 120.401,
+    "midpoint": 120.371,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.060000000000002274,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "do,",
+    "start": 120.421,
+    "end": 120.481,
+    "midpoint": 120.451,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.05999999999998806,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "you",
+    "start": 120.501,
+    "end": 120.581,
+    "midpoint": 120.541,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.0799999999999983,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "say",
+    "start": 120.601,
+    "end": 120.701,
+    "midpoint": 120.651,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.09999999999999432,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "maybe",
+    "start": 120.741,
+    "end": 120.901,
+    "midpoint": 120.821,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.1599999999999966,
+    "attribution_confidence": "medium"
+  },
+  {
+    "word": "you're",
+    "start": 120.921,
+    "end": 121.061,
+    "midpoint": 120.99100000000001,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.09600000000000364,
+    "attribution_confidence": "medium"
+  },
+  {
+    "word": "in",
+    "start": 121.081,
+    "end": 121.142,
+    "midpoint": 121.1115,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.06099999999999284,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "evidence.",
+    "start": 121.182,
+    "end": 121.502,
+    "midpoint": 121.342,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.3199999999999932,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "Okay,",
+    "start": 122.209,
+    "end": 122.552,
+    "midpoint": 122.38050000000001,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.3430000000000035,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "cool.",
+    "start": 122.895,
+    "end": 123.077,
+    "midpoint": 122.98599999999999,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.18200000000000216,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "Not",
+    "start": 125.041,
+    "end": 125.183,
+    "midpoint": 125.112,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.14200000000001012,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "close",
+    "start": 125.203,
+    "end": 125.385,
+    "midpoint": 125.29400000000001,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.18200000000000216,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "at",
+    "start": 125.406,
+    "end": 125.446,
+    "midpoint": 125.426,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.03999999999999204,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "all.",
+    "start": 125.507,
+    "end": 125.588,
+    "midpoint": 125.5475,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.08099999999998886,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "Yeah,",
+    "start": 126.138,
+    "end": 126.34,
+    "midpoint": 126.239,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.20000000000000284,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "we'll",
+    "start": 127.067,
+    "end": 127.208,
+    "midpoint": 127.13749999999999,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.14100000000000534,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "get",
+    "start": 127.228,
+    "end": 127.309,
+    "midpoint": 127.26849999999999,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.08100000000000307,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "them",
+    "start": 127.329,
+    "end": 127.43,
+    "midpoint": 127.37950000000001,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.1010000000000133,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "to",
+    "start": 127.45,
+    "end": 127.551,
+    "midpoint": 127.5005,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.10099999999999909,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "the",
+    "start": 127.571,
+    "end": 127.632,
+    "midpoint": 127.6015,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.06100000000000705,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "back",
+    "start": 127.652,
+    "end": 127.813,
+    "midpoint": 127.7325,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.16100000000000136,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "in",
+    "start": 127.874,
+    "end": 127.935,
+    "midpoint": 127.9045,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.06100000000000705,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "a",
+    "start": 127.955,
+    "end": 127.975,
+    "midpoint": 127.965,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.01999999999999602,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "minute.",
+    "start": 127.995,
+    "end": 128.177,
+    "midpoint": 128.086,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.18199999999998795,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "It",
+    "start": 130.441,
+    "end": 130.482,
+    "midpoint": 130.4615,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.04099999999999682,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "was",
+    "start": 130.502,
+    "end": 130.563,
+    "midpoint": 130.5325,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.06099999999997863,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "a",
+    "start": 130.583,
+    "end": 130.603,
+    "midpoint": 130.59300000000002,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.020000000000010232,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "bit",
+    "start": 130.624,
+    "end": 130.685,
+    "midpoint": 130.65449999999998,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.06100000000000705,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "of",
+    "start": 130.705,
+    "end": 130.745,
+    "midpoint": 130.72500000000002,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.03999999999999204,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "a",
+    "start": 130.766,
+    "end": 130.786,
+    "midpoint": 130.776,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.020000000000010232,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "cheap",
+    "start": 130.806,
+    "end": 131.009,
+    "midpoint": 130.9075,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.20299999999997453,
+    "attribution_confidence": "medium"
+  },
+  {
+    "word": "shot,",
+    "start": 131.03,
+    "end": 131.192,
+    "midpoint": 131.111,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.16200000000000614,
+    "attribution_confidence": "medium"
+  },
+  {
+    "word": "wasn't",
+    "start": 131.212,
+    "end": 131.354,
+    "midpoint": 131.28300000000002,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.14200000000002433,
+    "attribution_confidence": "medium"
+  },
+  {
+    "word": "it,",
+    "start": 131.375,
+    "end": 131.436,
+    "midpoint": 131.40550000000002,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.06100000000000705,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "mate?",
+    "start": 131.456,
+    "end": 131.639,
+    "midpoint": 131.5475,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.18300000000002115,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "All",
+    "start": 133.17,
+    "end": 133.251,
+    "midpoint": 133.2105,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.08100000000001728,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "right,",
+    "start": 133.291,
+    "end": 133.432,
+    "midpoint": 133.36149999999998,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.14099999999999113,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "take",
+    "start": 133.452,
+    "end": 133.613,
+    "midpoint": 133.5325,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.16100000000000136,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "that",
+    "start": 133.633,
+    "end": 133.915,
+    "midpoint": 133.774,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.19999999999998863,
+    "attribution_confidence": "medium"
+  },
+  {
+    "word": "out.",
+    "start": 133.995,
+    "end": 134.096,
+    "midpoint": 134.0455,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.10099999999999909,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "Oh,",
+    "start": 134.136,
+    "end": 134.217,
+    "midpoint": 134.1765,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.08100000000001728,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "you",
+    "start": 134.257,
+    "end": 134.358,
+    "midpoint": 134.3075,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.10099999999999909,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "scumbag.",
+    "start": 134.398,
+    "end": 135.002,
+    "midpoint": 134.7,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.6040000000000134,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "Mate,",
+    "start": 135.608,
+    "end": 135.772,
+    "midpoint": 135.69,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.16399999999998727,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "you",
+    "start": 135.793,
+    "end": 135.916,
+    "midpoint": 135.8545,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.12299999999999045,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "just",
+    "start": 135.936,
+    "end": 136.018,
+    "midpoint": 135.977,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.08199999999999363,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "need",
+    "start": 136.038,
+    "end": 136.12,
+    "midpoint": 136.079,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.08199999999999363,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "me",
+    "start": 136.141,
+    "end": 136.202,
+    "midpoint": 136.17149999999998,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.06100000000000705,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "in",
+    "start": 136.223,
+    "end": 136.264,
+    "midpoint": 136.2435,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.04099999999999682,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "the...",
+    "start": 136.305,
+    "end": 136.428,
+    "midpoint": 136.3665,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.12299999999999045,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "No,",
+    "start": 137.066,
+    "end": 137.268,
+    "midpoint": 137.167,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.20199999999999818,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "no,",
+    "start": 137.329,
+    "end": 137.39,
+    "midpoint": 137.3595,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.06099999999997863,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "I",
+    "start": 137.41,
+    "end": 137.431,
+    "midpoint": 137.4205,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.021000000000015007,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "didn't.",
+    "start": 137.451,
+    "end": 137.593,
+    "midpoint": 137.522,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.1419999999999959,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "All",
+    "start": 137.613,
+    "end": 137.674,
+    "midpoint": 137.64350000000002,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.06100000000000705,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "right.",
+    "start": 137.694,
+    "end": 137.897,
+    "midpoint": 137.7955,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.20300000000000296,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "Watch",
+    "start": 138.288,
+    "end": 138.449,
+    "midpoint": 138.3685,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.15900000000002024,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "your",
+    "start": 138.489,
+    "end": 138.589,
+    "midpoint": 138.539,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.09999999999999432,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "hand",
+    "start": 138.629,
+    "end": 138.79,
+    "midpoint": 138.7095,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.16100000000000136,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "because",
+    "start": 138.81,
+    "end": 139.011,
+    "midpoint": 138.9105,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.2009999999999934,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "I",
+    "start": 139.031,
+    "end": 139.071,
+    "midpoint": 139.051,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.03999999999999204,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "can't",
+    "start": 139.091,
+    "end": 139.312,
+    "midpoint": 139.2015,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.22100000000000364,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "see.",
+    "start": 139.332,
+    "end": 139.513,
+    "midpoint": 139.4225,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.1810000000000116,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "My",
+    "start": 139.914,
+    "end": 140.035,
+    "midpoint": 139.97449999999998,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.12100000000000932,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "camera",
+    "start": 140.055,
+    "end": 140.297,
+    "midpoint": 140.176,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.24199999999999022,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "was",
+    "start": 140.337,
+    "end": 140.418,
+    "midpoint": 140.3775,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.08100000000001728,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "rolling",
+    "start": 140.458,
+    "end": 140.7,
+    "midpoint": 140.579,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.24199999999999022,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "the",
+    "start": 140.72,
+    "end": 140.78,
+    "midpoint": 140.75,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.060000000000002274,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "whole",
+    "start": 140.8,
+    "end": 140.961,
+    "midpoint": 140.8805,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.16100000000000136,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "time,",
+    "start": 140.981,
+    "end": 141.203,
+    "midpoint": 141.09199999999998,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.2220000000000084,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "mate,",
+    "start": 141.223,
+    "end": 141.384,
+    "midpoint": 141.30349999999999,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.16099999999997294,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "all",
+    "start": 141.404,
+    "end": 141.485,
+    "midpoint": 141.4445,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.08100000000001728,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "right?",
+    "start": 141.505,
+    "end": 141.646,
+    "midpoint": 141.57549999999998,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.14099999999999113,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "Well",
+    "start": 143.202,
+    "end": 143.343,
+    "midpoint": 143.27249999999998,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.14099999999999113,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "mate,",
+    "start": 143.363,
+    "end": 143.504,
+    "midpoint": 143.43349999999998,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.14099999999999113,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "just",
+    "start": 143.524,
+    "end": 143.685,
+    "midpoint": 143.6045,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.16100000000000136,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "to",
+    "start": 143.706,
+    "end": 143.806,
+    "midpoint": 143.756,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.10000000000002274,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "confirm,",
+    "start": 143.826,
+    "end": 144.289,
+    "midpoint": 144.0575,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.46299999999999386,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "you're",
+    "start": 144.43,
+    "end": 144.551,
+    "midpoint": 144.4905,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.1209999999999809,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "under",
+    "start": 144.571,
+    "end": 144.692,
+    "midpoint": 144.63150000000002,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.12100000000000932,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "arrest",
+    "start": 144.712,
+    "end": 144.934,
+    "midpoint": 144.82299999999998,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.2220000000000084,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "for",
+    "start": 144.974,
+    "end": 145.055,
+    "midpoint": 145.0145,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.08100000000001728,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "assault",
+    "start": 145.075,
+    "end": 145.256,
+    "midpoint": 145.1655,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.1810000000000116,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "on",
+    "start": 145.276,
+    "end": 145.316,
+    "midpoint": 145.296,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.03999999999999204,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "an",
+    "start": 145.336,
+    "end": 145.397,
+    "midpoint": 145.3665,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.06099999999997863,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "emergency",
+    "start": 145.417,
+    "end": 145.719,
+    "midpoint": 145.56799999999998,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.3019999999999925,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "worker,",
+    "start": 145.739,
+    "end": 146.041,
+    "midpoint": 145.89,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.3019999999999925,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "right?",
+    "start": 146.061,
+    "end": 146.222,
+    "midpoint": 146.1415,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.16100000000000136,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "You",
+    "start": 154.778,
+    "end": 154.879,
+    "midpoint": 154.8285,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.10099999999999909,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "did",
+    "start": 154.9,
+    "end": 155.062,
+    "midpoint": 154.981,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.16200000000000614,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "get",
+    "start": 155.082,
+    "end": 155.224,
+    "midpoint": 155.153,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.1419999999999959,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "me,",
+    "start": 155.264,
+    "end": 155.345,
+    "midpoint": 155.30450000000002,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.08099999999998886,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "I'll",
+    "start": 155.365,
+    "end": 155.446,
+    "midpoint": 155.40550000000002,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.08099999999998886,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "give",
+    "start": 155.467,
+    "end": 155.548,
+    "midpoint": 155.5075,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.08099999999998886,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "you",
+    "start": 155.568,
+    "end": 155.649,
+    "midpoint": 155.6085,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.08099999999998886,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "that",
+    "start": 155.669,
+    "end": 155.77,
+    "midpoint": 155.7195,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.10099999999999909,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "mate.",
+    "start": 155.811,
+    "end": 155.993,
+    "midpoint": 155.902,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.18199999999998795,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "I",
+    "start": 156.869,
+    "end": 156.889,
+    "midpoint": 156.87900000000002,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.020000000000010232,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "honestly",
+    "start": 157.293,
+    "end": 157.596,
+    "midpoint": 157.4445,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.30299999999999727,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "don't",
+    "start": 157.637,
+    "end": 157.758,
+    "midpoint": 157.6975,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.12100000000000932,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "know",
+    "start": 157.778,
+    "end": 157.879,
+    "midpoint": 157.8285,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.10099999999999909,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "what",
+    "start": 157.899,
+    "end": 158.0,
+    "midpoint": 157.9495,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.10099999999999909,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "you",
+    "start": 158.02,
+    "end": 158.081,
+    "midpoint": 158.0505,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.06099999999997863,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "were",
+    "start": 158.101,
+    "end": 158.182,
+    "midpoint": 158.1415,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.08099999999998886,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "thinking",
+    "start": 158.202,
+    "end": 158.485,
+    "midpoint": 158.3435,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.28300000000001546,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "then.",
+    "start": 158.525,
+    "end": 158.667,
+    "midpoint": 158.596,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.1419999999999959,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "You've",
+    "start": 159.77,
+    "end": 159.911,
+    "midpoint": 159.84050000000002,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.14099999999999113,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "got",
+    "start": 159.931,
+    "end": 160.073,
+    "midpoint": 160.002,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.1419999999999959,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "to",
+    "start": 160.093,
+    "end": 160.133,
+    "midpoint": 160.113,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.040000000000020464,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "try",
+    "start": 160.153,
+    "end": 160.355,
+    "midpoint": 160.254,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.20199999999999818,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "it,",
+    "start": 160.395,
+    "end": 160.456,
+    "midpoint": 160.4255,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.06099999999997863,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "brother.",
+    "start": 160.476,
+    "end": 160.637,
+    "midpoint": 160.5565,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.16100000000000136,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "Oh",
+    "start": 161.376,
+    "end": 161.457,
+    "midpoint": 161.41649999999998,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.08099999999998886,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "dear.",
+    "start": 161.538,
+    "end": 161.7,
+    "midpoint": 161.619,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.16199999999997772,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "Nothing",
+    "start": 163.014,
+    "end": 163.235,
+    "midpoint": 163.1245,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.22100000000000364,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "was",
+    "start": 163.255,
+    "end": 163.336,
+    "midpoint": 163.2955,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.08100000000001728,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "ever",
+    "start": 163.376,
+    "end": 163.476,
+    "midpoint": 163.426,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.09999999999999432,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "going",
+    "start": 163.497,
+    "end": 163.597,
+    "midpoint": 163.54700000000003,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.09999999999999432,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "to",
+    "start": 163.617,
+    "end": 163.678,
+    "midpoint": 163.64749999999998,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.06100000000000705,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "happen,",
+    "start": 163.698,
+    "end": 163.859,
+    "midpoint": 163.7785,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.16100000000000136,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "was",
+    "start": 163.879,
+    "end": 163.979,
+    "midpoint": 163.929,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.10000000000002274,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "it?",
+    "start": 164.08,
+    "end": 164.16,
+    "midpoint": 164.12,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.07999999999998408,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "I",
+    "start": 164.18,
+    "end": 164.2,
+    "midpoint": 164.19,
+    "assigned_speaker": "speaker_0",
+    "overlap_duration": 0.01999999999998181,
+    "attribution_confidence": "high"
+  },
+  {
+    "word": "know.",
+    "start": 164.221,
+    "end": 164.562,
+    "midpoint": 164.3915,
+    "assigned_speaker": "speaker_1",
+    "overlap_duration": 0.28700000000000614,
+    "attribution_confidence": "medium"
+  }
+]

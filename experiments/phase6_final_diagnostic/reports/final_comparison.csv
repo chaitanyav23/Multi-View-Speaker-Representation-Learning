@@ -1,0 +1,4 @@
+enhancer,avg_wer,avg_der
+baseline,0.2316,0.4014
+deepfilternet,0.3996,0.7041
+speechbrain,0.425,0.6898

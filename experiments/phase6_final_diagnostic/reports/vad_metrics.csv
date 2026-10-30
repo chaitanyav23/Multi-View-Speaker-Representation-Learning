@@ -1,0 +1,5 @@
+enhancer,file,precision,recall,f1
+baseline,bwc,0.8666,0.6975,0.7729
+baseline,podcast,0.989,0.9706,0.9797
+deepfilternet,bwc,0.8674,0.7008,0.7752
+speechbrain,bwc,0.8753,0.6662,0.7566

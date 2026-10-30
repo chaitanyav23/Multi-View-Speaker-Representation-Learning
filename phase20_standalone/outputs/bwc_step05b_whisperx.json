@@ -1,0 +1,16 @@
+{
+  "stage": "whisperx",
+  "timestamp_utc": "2026-07-15T07:26:12.715682Z",
+  "inputs": [
+    "/home/ubuntu/marston/phase20_standalone/audio/bwc_normalized.wav",
+    "/home/ubuntu/marston/phase20_standalone/grounding/bwc_pathB_vad.json"
+  ],
+  "outputs": [
+    "/home/ubuntu/marston/phase20_standalone/transcripts/bwc_whisperx.json",
+    "/home/ubuntu/marston/phase20_standalone/transcripts/bwc_aligned.json"
+  ],
+  "evaluation": {
+    "words": 465,
+    "model": "large-v3"
+  }
+}

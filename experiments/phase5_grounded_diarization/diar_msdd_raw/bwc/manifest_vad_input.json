@@ -1,0 +1,4 @@
+{"audio_filepath": "/home/ubuntu/marston/marston/experiments/phase4_grounded_enhancement/audio_normalized/bwc.wav", "duration": 50, "label": "infer", "text": "_", "offset": 0}
+{"audio_filepath": "/home/ubuntu/marston/marston/experiments/phase4_grounded_enhancement/audio_normalized/bwc.wav", "duration": 50.15, "label": "infer", "text": "_", "offset": 49.85}
+{"audio_filepath": "/home/ubuntu/marston/marston/experiments/phase4_grounded_enhancement/audio_normalized/bwc.wav", "duration": 50.15, "label": "infer", "text": "_", "offset": 99.85}
+{"audio_filepath": "/home/ubuntu/marston/marston/experiments/phase4_grounded_enhancement/audio_normalized/bwc.wav", "duration": 25.576749999999997, "label": "infer", "text": "_", "offset": 149.85}

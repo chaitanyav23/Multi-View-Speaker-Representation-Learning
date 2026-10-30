@@ -1,0 +1,3 @@
+video_id,gt_file,vad_file,accuracy,precision,recall,f1,miss_rate,false_alarm_rate,tp,fp,fn,tn,gt_segments,pred_segments,speech_coverage,segment_recall,segment_precision,mean_iou,boundary_error_sec
+bwc,bwc.txt,bwc_vad.json,0.7821,0.825,0.8648,0.8445,0.1352,0.3971,10378,2201,1622,3341,36,14,0.8648,0.5278,0.7857,0.3364,5.2598
+podcast,podcast.txt,podcast_vad.json,0.9196,0.9869,0.9309,0.9581,0.0691,0.9066,75125,1000,5575,103,30,12,0.9293,0.6,1.0,0.4078,24.2066

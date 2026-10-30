@@ -1,0 +1,16 @@
+{
+  "stage": "fusion",
+  "timestamp_utc": "2026-07-15T07:35:38.804232Z",
+  "inputs": [
+    "/home/ubuntu/marston/phase20_standalone/transcripts/bwc_aligned.json",
+    "/home/ubuntu/marston/phase20_standalone/diarization/bwc.rttm"
+  ],
+  "outputs": [
+    "/home/ubuntu/marston/phase20_standalone/fusion/bwc_attributed_words.json",
+    "/home/ubuntu/marston/phase20_standalone/fusion/bwc_transcript.txt"
+  ],
+  "evaluation": {
+    "words": 465,
+    "segments": 11
+  }
+}

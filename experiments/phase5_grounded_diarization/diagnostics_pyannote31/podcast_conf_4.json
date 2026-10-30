@@ -1,0 +1,8 @@
+{
+  "type": "conf",
+  "start": 61.800000000000004,
+  "context_start": 59.800000000000004,
+  "context_end": 63.800000000000004,
+  "ref_speaker": "SPEAKER_02",
+  "pred_speaker": "SPEAKER_00"
+}

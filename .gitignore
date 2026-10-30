@@ -1,0 +1,234 @@
+# =========================================================
+# Python
+# =========================================================
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# =========================================================
+# Virtual Environments & Credentials
+# =========================================================
+
+venv/
+.env/
+.conda/
+bwc_pipeline/
+marston-venv/
+*venv/
+
+# Environment files containing secrets
+.env
+.env.local
+.env.*.local
+
+# =========================================================
+# Jupyter
+# =========================================================
+
+.ipynb_checkpoints/
+
+# =========================================================
+# IDE / Editors
+# =========================================================
+
+.vscode/
+.idea/
+
+# =========================================================
+# OS Files
+# =========================================================
+
+.DS_Store
+Thumbs.db
+
+# =========================================================
+# RAW SOURCE VIDEOS
+# =========================================================
+
+raw_video/
+
+# =========================================================
+# Torch / HuggingFace Cache
+# =========================================================
+
+.cache/
+huggingface/
+torch_cache/
+
+# =========================================================
+# Temporary Files
+# =========================================================
+
+tmp/
+temp/
+*.tmp
+
+# =========================================================
+# Future Large Artifacts
+# =========================================================
+
+models/
+checkpoints/
+weights/
+
+*.pt
+*.bin
+*.ckpt
+*.safetensors
+
+# =========================================================
+# WhisperX / Diarization Future Outputs
+# =========================================================
+
+transcripts/
+alignments/
+diarization/
+
+# =========================================================
+# Future Reconstruction Outputs
+# =========================================================
+
+speech_reconstruction/
+
+# =========================================================
+# FFmpeg Temp Files
+# =========================================================
+
+*.tmp.wav
+
+# =========================================================
+# Optional: Large Archives
+# =========================================================
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# =========================================================
+# User Requested Exclusions
+# =========================================================
+# Ignore all audio files globally to ensure they are never pushed
+*.wav
+*.mp3
+*.m4a
+*.flac
+
+# Allow the experiments directory structure and non-audio files
+!experiments/
+experiments/**/*.wav
+experiments/**/*.mp3
+
+raw_audio/*
+!raw_audio/.gitkeep
+error_analysis_A/*
+!error_analysis_A/.gitkeep
+error_analysis_B/*
+!error_analysis_B/.gitkeep
+error_analysis_C/*
+!error_analysis_C/.gitkeep
+error_analysis_hardened/*
+!error_analysis_hardened/.gitkeep
+speech_segments_whisperx/*
+!speech_segments_whisperx/.gitkeep
+
+# =========================================================
+# External Dependencies
+# =========================================================
+external/MS-SNSD/
+
+###############################################################################
+# PHASE20 RUNTIME ARTIFACTS (Generated every execution)
+###############################################################################
+
+phase20_standalone/logs/
+
+phase20_standalone/plots/
+
+###############################################################################
+# Local virtual environments
+###############################################################################
+
+.venv*/
+venv/
+env/
+phase20_44e9bb7_repro/
+
+###############################################################################
+# Python cache
+###############################################################################
+
+__pycache__/
+*.py[cod]
+
+###############################################################################
+# Runtime caches
+###############################################################################
+
+.cache/
+.mypy_cache/
+.pytest_cache/
+.ipynb_checkpoints/
+
+###############################################################################
+# HuggingFace / Torch caches
+###############################################################################
+
+.huggingface/
+.torch/
+
+###############################################################################
+# Operating system
+###############################################################################
+
+.DS_Store
+Thumbs.db
+
+###############################################################################
+# FORENSIC / DEBUG REPORTS
+###############################################################################
+
+phase20_standalone/reports/alignment_analysis.md
+phase20_standalone/reports/api_regression.md
+phase20_standalone/reports/asr_forensic_report.md
+phase20_standalone/reports/asr_pipeline_coverage.md
+phase20_standalone/reports/asr_regression_report.md
+phase20_standalone/reports/chunking_analysis.md
+phase20_standalone/reports/coverage_metrics.md
+phase20_standalone/reports/deleted_word_diagnostics.csv
+phase20_standalone/reports/environment_regression.md
+phase20_standalone/reports/environment_root_cause.md
+phase20_standalone/reports/environment_three_way_comparison.md
+phase20_standalone/reports/missing_regions.md
+phase20_standalone/reports/missing_word_analysis.md
+phase20_standalone/reports/model_versions.md
+phase20_standalone/reports/original_environment.md
+phase20_standalone/reports/package_regression.md
+phase20_standalone/reports/phase19_phase20_asr_comparison.md
+phase20_standalone/reports/phase19_phase20_whisper_comparison.md
+phase20_standalone/reports/regression_code_diff.md
+phase20_standalone/reports/segment_loss_analysis.csv
+phase20_standalone/reports/vad_difference_report.md
+phase20_standalone/reports/vad_segment_analysis.csv
+phase20_standalone/reports/whisper_api_analysis.md
+phase20_standalone/reports/whisper_api_comparison.md
+phase20_standalone/reports/whisper_runtime.csv
+phase20_standalone/reports/whisperx_statistics.md
+phase20_standalone/reports/word_by_word_alignment_report.csv
+
+###############################################################################
+# Optional environment diagnostics (can always be regenerated)
+###############################################################################
+
+phase20_standalone/environment/pipdeptree.txt
+phase20_standalone/environment/dependency_tree.txt
+
+# Local Phase20 virtual environments
+.venv*/
+phase20_44e9bb7_repro/
+
+phase20_standalone/.venv/
+phase20_standalone/logs/
+phase20_standalone/plots/

@@ -1,0 +1,13 @@
+{
+  "stage": "loudnorm",
+  "timestamp_utc": "2026-07-15T07:35:08.737439Z",
+  "inputs": [
+    "/home/ubuntu/marston/phase20_standalone/audio/bwc_repaired.wav"
+  ],
+  "outputs": [
+    "/home/ubuntu/marston/phase20_standalone/audio/bwc_normalized.wav"
+  ],
+  "evaluation": {
+    "target_lufs": -20.0
+  }
+}

@@ -1,0 +1,2 @@
+2026-07-09 08:57:59,328 INFO Running NeMo MSDD on cuda
+2026-07-09 08:58:25,005 INFO Saved MSDD RTTM to /home/ubuntu/marston/experiments/phase20_dual_path_improved_vad/diarization/pathA_msdd.rttm

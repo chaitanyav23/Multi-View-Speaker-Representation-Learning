@@ -1,0 +1,5 @@
+enhancer,file,der,miss,fa,conf
+baseline,bwc,0.6991,0.3932,0.0573,0.2486
+baseline,podcast,0.1037,0.0925,0.0045,0.0067
+deepfilternet,bwc,0.7041,0.3947,0.0625,0.2469
+speechbrain,bwc,0.6898,0.4005,0.0609,0.2284

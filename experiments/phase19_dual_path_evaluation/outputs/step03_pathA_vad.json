@@ -1,0 +1,13 @@
+{
+  "stage": "pathA_vad",
+  "timestamp_utc": "2026-07-09T06:49:42.093505Z",
+  "inputs": [
+    "/home/ubuntu/marston/experiments/phase19_dual_path_evaluation/audio/bwc_dfn.wav"
+  ],
+  "outputs": [
+    "/home/ubuntu/marston/experiments/phase19_dual_path_evaluation/grounding/pathA_vad.json"
+  ],
+  "evaluation": {
+    "segments": 46
+  }
+}

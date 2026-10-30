@@ -1,0 +1,445 @@
+[000.26s] speaker_4 : Hello, Officer Ferry Ridgewater, please.
+[001.54s] speaker_4 : The reason I stopped you, you're a 59 and a 45.
+[003.45s] speaker_4 : Do you have your registration and insurance with you?
+[007.36s] speaker_4 : Pardon me?
+[008.36s] speaker_4 : That one's expired as of September.
+[011.78s] speaker_4 : Pardon me.
+[013.11s] speaker_4 : Okay, well, the requirement is that you provide, and I'm giving you an opportunity to do so.
+[016.57s] speaker_4 : So if you want to refuse to give me one, that's okay, but I'm giving you the opportunity.
+[021.51s] speaker_0 : Why are you being a jerk?
+[022.59s] speaker_0 : I haven't been.
+[023.09s] speaker_4 : I'm not.
+[023.52s] speaker_4 : You are.
+[024.28s] speaker_4 : You've stated three times, I don't know, sarcastically, okay?
+[026.64s] speaker_4 : I really don't know.
+[027.56s] speaker_4 : I requested something that you're required to give me, okay?
+[029.92s] speaker_4 : And I'm giving you the opportunity to give you it.
+[031.18s] speaker_0 : I am not being sarcastic with you.
+[032.30s] speaker_0 : I have been nice to you.
+[033.66s] speaker_4 : What I'm trying to explain to you is I'm giving you the opportunity to look for it.
+[037.16s] speaker_0 : Oh my gosh, you're the first one who's asked me for this.
+[040.38s] speaker_0 : What's your name?
+[041.30s] speaker_4 : My name's Officer Fager with the Edgewater Police Department.
+[043.34s] speaker_0 : Spell your name for me.
+[044.75s] speaker_4 : It'll be on the bottom of the citation.
+[046.33s] speaker_0 : You're an asshole.
+[047.15s] speaker_4 : Do you have your insurance, ma'am?
+[050.87s] speaker_4 : Yes, ma'am.
+[052.09s] speaker_0 : Who's your supervisor?
+[053.92s] speaker_4 : My direct supervisor today is Officer Rook R.T. Now, who's your direct supervisor, period?
+[058.99s] speaker_4 : Pardon me?
+[059.45s] speaker_0 : Who's your direct supervisor?
+[061.05s] speaker_4 : Sergeant Anthony Benz.
+[062.52s] speaker_0 : What's his phone number?
+[064.07s] speaker_4 : Ma'am, would you please provide me your proof of insurance, please?
+[066.78s] speaker_0 : What's his phone number?
+[067.50s] speaker_4 : Will you provide me with your proof of insurance, please?
+[069.54s] speaker_0 : What's his phone number?
+[075.05s] speaker_4 : Pardon me?
+[078.00s] speaker_4 : There's no need to use vulgar language, ma'am.
+[079.80s] speaker_0 : You don't have to be such an asshole.
+[081.54s] speaker_4 : Since when was that?
+[082.24s] speaker_4 : I don't recall any time.
+[083.46s] speaker_4 : You've been an asshole the whole time.
+[084.40s] speaker_4 : I've been professional the entire time.
+[085.40s] speaker_4 : No, you have not.
+[085.92s] speaker_4 : It's called professionalism.
+[087.48s] speaker_1 : Wow!
+[088.50s] speaker_4 : All you have to do is provide me your registration and insurance and we can avoid any issues.
+[092.57s] speaker_0 : And I have told you.
+[093.59s] speaker_0 : Oh, my God.
+[094.71s] speaker_4 : Why are you calling 911?
+[096.13s] speaker_4 : Hang up or you're going to go to jail for misuse of 911.
+[098.47s] speaker_4 : I'm not misusing.
+[100.13s] speaker_4 : Hang up or you're going to go to jail for misuse of 911.
+[103.69s] speaker_4 : Hang up the phone.
+[104.95s] speaker_4 : Are you failing to provide your proof of insurance?
+[107.29s] speaker_0 : No, I'm not, but I want another officer.
+[109.69s] speaker_4 : For what reason?
+[111.00s] speaker_4 : There's no reason for you to do that.
+[112.64s] speaker_4 : If you're failing to provide, I'm going to give you one more opportunity to provide the insurance, and you're going to receive a citation for it.
+[118.45s] speaker_0 : county yes i have a cop that has me pulled over he's being a major jerk is there a way i can get another cop he's starting to take me to jail because i can't find my registration no ma'am i said i was going to take you to jail if you misuse 9-1-1 ma'am i cannot call the cops on an officer i'll have the sergeant call you can you have somebody yeah can you because he is yes i haven't done anything i have been extremely nice you were speeding yeah i told him that couldn't find my registration he said that he was giving me a chance to give it to him or else i was gonna be in trouble and then he said he's gonna take me to jail just so you're aware all that's on camera and none of that happened i understand oh yes ma'am i understand are you in a gray nissan i am i'm gonna go ahead and let the sergeant know what's going on okay thank you so much sorry
+[173.49s] speaker_4 : Any particular reason for the speed?
+[178.37s] speaker_4 : I'll be right back with you.
+[180.48s] speaker_2 : the time.
+[182.41s] speaker_4 : I don't know if you want to get tied up in this.
+[186.43s] speaker_2 : I don't care.
+[187.20s] speaker_2 : Okay.
+[187.54s] speaker_2 : What's the citation for?
+[188.52s] speaker_2 : Speed.
+[189.37s] speaker_1 : Oh.
+[190.50s] speaker_4 : I have a question for you, are you wearing corrective lenses like contact lenses?
+[195.85s] speaker_4 : Yes, ma'am.
+[197.92s] speaker_4 : Yes, I am.
+[198.20s] speaker_4 : Can you just look up so I can confirm that?
+[199.66s] speaker_4 : Okay, thank you.
+[200.45s] speaker_4 : Here's your driver's license back.
+[204.44s] speaker_4 : Pardon me?
+[205.24s] speaker_0 : Give me my sh** because you've had me here too long.
+[207.76s] speaker_4 : I've had here just enough time to appreciate you as citation.
+[210.16s] speaker_0 : You have left me here longer than anybody ever has.
+[213.56s] speaker_3 : It's been less than 15 minutes since the officer initiated the stop.
+[217.12s] speaker_0 : Is that your supervisor?
+[218.50s] speaker_4 : No, ma'am.
+[218.92s] speaker_0 : Give me my sh** and I want your supervisor.
+[221.06s] speaker_4 : Okay, they're on the way and I will give you.
+[222.98s] speaker_0 : Give me my sh** so I can go.
+[225.16s] speaker_0 : I have to get home to my kids.
+[226.82s] speaker_4 : I don't have to sit here and have you yell at me.
+[228.42s] speaker_4 : I want my sh**.
+[230.28s] speaker_0 : You have me pulled over for nothing.
+[231.86s] speaker_0 : Now let me have my sh**.
+[233.28s] speaker_4 : I don't have my sh** pulled over.
+[234.58s] speaker_4 : You pulled over for speed.
+[235.65s] speaker_0 : Then give me my f***ing ticket so I can go.
+[237.78s] speaker_4 : What was I in the process of doing before you started raising your voice?
+[240.39s] speaker_0 : Give me my f***ing ticket so I can go.
+[242.43s] speaker_0 : I have a kid to get home to.
+[243.95s] speaker_4 : Okay, then lower your voice and I'll give you your ticket.
+[245.89s] speaker_0 : Oh my God.
+[246.29s] speaker_4 : Lower your voice.
+[246.89s] speaker_0 : 9-1-1.
+[247.79s] speaker_4 : I'm done.
+[248.51s] speaker_4 : Do it.
+[248.73s] speaker_4 : You'll go to jail.
+[249.55s] speaker_4 : Give me my f***ing ticket.
+[250.55s] speaker_4 : You'll go to jail.
+[251.99s] speaker_4 : Call 911.
+[253.22s] speaker_4 : You pull away, you're going to go.
+[256.87s] speaker_4 : you're gonna go to jail do it again i swear to god you'll go to jail step out of the car now step out of the car now step out of the car now
+[268.46s] speaker_4 : Step out of the car.
+[269.36s] speaker_4 : I didn't do anything.
+[270.62s] speaker_4 : Step out of the car.
+[271.34s] speaker_4 : Please stop.
+[271.93s] speaker_4 : Step out of the car.
+[273.75s] speaker_4 : Put your hands behind your back.
+[275.43s] speaker_4 : Put your hands behind your back.
+[276.85s] speaker_0 : Why am I going to jail?
+[278.31s] speaker_0 : Stop.
+[279.21s] speaker_2 : Stop.
+[279.79s] speaker_0 : I have asked for a supervisor.
+[281.21s] speaker_0 : They're on the way.
+[282.13s] speaker_4 : Why are you yelling at me?
+[284.05s] speaker_2 : You just tried to take off with his hand in the vehicle.
+[287.28s] speaker_4 : You will get a supervisor now.
+[288.72s] speaker_4 : Walk back to that car.
+[289.66s] speaker_4 : You're going to jail.
+[290.92s] speaker_2 : Let's go.
+[291.70s] speaker_2 : No, it sucks.
+[292.70s] speaker_2 : You're going this way.
+[293.42s] speaker_2 : I need to call my kids.
+[294.80s] speaker_2 : Unfortunately, let's go.
+[296.00s] speaker_0 : He's home by himself.
+[298.13s] speaker_2 : Let's go.
+[299.04s] speaker_2 : Walk to my car.
+[302.35s] speaker_4 : All you had to do was lower your voice.
+[303.99s] speaker_0 : I was trying, but you were listening to me.
+[306.33s] speaker_4 : You were not trying.
+[306.93s] speaker_4 : I was being so professional.
+[307.77s] speaker_4 : No, you were.
+[308.11s] speaker_4 : No, listen, make your complaint, okay?
+[309.99s] speaker_4 : You were being mean to me from the day that- I will get you a copy of the video.
+[314.10s] speaker_4 : I was professional.
+[315.24s] speaker_4 : I gave you an opportunity to raise your voice.
+[317.46s] speaker_4 : Sit in the car now.
+[318.32s] speaker_0 : Oh, my God.
+[320.18s] speaker_0 : Can you please do these things?
+[321.74s] speaker_4 : You can make your phone call in a minute.
+[323.06s] speaker_4 : Take a seat in the car.
+[329.13s] speaker_4 : Put your foot in the car.
+[329.85s] speaker_4 : He'll talk to you in a second.
+[335.05s] speaker_2 : All right, so he was here with me.
+[337.22s] speaker_4 : She's been rude from the start.
+[338.68s] speaker_4 : Okay, I've been mad professional.
+[340.33s] speaker_1 : Uh huh.
+[341.07s] speaker_4 : told her of her speed, and she just run in her mouth, run in her mouth, wanted to talk with you.
+[345.16s] speaker_4 : She tried to call 911.
+[346.56s] speaker_4 : I said, you call 911, you're going to go to jail for misuse of 911.
+[349.34s] speaker_4 : Okay, so then she called dispatch.
+[351.74s] speaker_4 : Said, I want to talk to a supervisor.
+[353.12s] speaker_4 : Asked me for my name, I gave her everything.
+[355.18s] speaker_4 : So I went back, called you, got the citation, went to go give her a citation.
+[359.64s] speaker_4 : She started screaming at me again.
+[361.58s] speaker_4 : She just, give me my f***ing ticket.
+[363.64s] speaker_4 : And I'm like, I'm trying to, but you're screaming at me.
+[365.86s] speaker_4 : And she's like, you've kept me here too long.
+[367.64s] speaker_4 : Okay, well calm down, I'm going to give you the ticket.
+[370.17s] speaker_4 : She goes to call 911 again.
+[372.39s] speaker_4 : I said, don't call 911, you're going to go to jail.
+[375.09s] speaker_4 : She throws the phone down, says, f*** this, threw it in drive while my hand was in the car and just started driving away with my hand on the car.
+[382.70s] speaker_1 : Okay, so what are you going to get her with?
+[385.54s] speaker_4 : Fleeting and looting.
+[386.32s] speaker_1 : Okay, just take your time and review everything that you want.
+[391.02s] speaker_1 : We can look over it, but yeah, good job.
+[393.00s] speaker_1 : Are you okay?
+[393.76s] speaker_4 : Yeah, I mean, I'm fine.
+[394.72s] speaker_4 : My arm was plucking, she ended up stopping.
+[396.62s] speaker_1 : You're okay, though?
+[397.27s] speaker_1 : Nothing's wrong?
+[397.77s] speaker_1 : I'm fine, yeah.
+[402.95s] speaker_2 : ma'am i don't know you and i don't know your situation but you overreacted no no everything's been recorded on body camera so everything you've done the day has been it's gonna come out the what you you did this come on now i saw you take off
+[427.42s] speaker_2 : You could have ran over his foot.
+[429.73s] speaker_2 : You could have injured him.
+[431.75s] speaker_2 : Handcuffs are not meant to be comfortable.
+[434.07s] speaker_2 : Yeah, but what if you ran over his foot?
+[436.88s] speaker_2 : or did something hit him?
+[439.88s] speaker_2 : If you stay calm, we'll talk to you.
+[444.18s] speaker_4 : The only thing, real quick.
+[445.72s] speaker_4 : I don't know if I broke her car or not.
+[448.56s] speaker_4 : Yeah, so when she pulled off, my arm was like this.
+[451.62s] speaker_4 : She pulled off with it, and I grabbed here to keep from going down with it.
+[455.58s] speaker_4 : And it looks like it's kind of popped out.
+[457.50s] speaker_4 : I felt that when I was doing it, when I tried to open the door.
+[460.20s] speaker_1 : All right, so when was she trying to drive off?
+[462.88s] speaker_4 : Before I even gave her the ticket.
+[465.21s] speaker_4 : So she was just being... She was screaming at me, and I told her, I'm trying to give you the ticket, and she began to scream and scream and scream, F you.
+[471.75s] speaker_4 : And I said, you need to lower your voice, and I will give you the ticket.
+[474.67s] speaker_4 : And then she went to call 911, and I said, there's no need to call 911.
+[478.39s] speaker_4 : That's a misuse of 911.
+[479.88s] speaker_4 : You'll go to jail for that.
+[481.42s] speaker_4 : And then, so that's when she threw the phone down.
+[483.48s] speaker_4 : She looked down, threw it in the drive.
+[484.70s] speaker_4 : I said, don't drive away.
+[485.72s] speaker_4 : You're going to go to jail.
+[487.14s] speaker_4 : And she did.
+[487.88s] speaker_4 : She drove away.
+[488.70s] speaker_4 : He witnessed the whole thing.
+[489.78s] speaker_2 : Okay.
+[490.38s] speaker_2 : So, all right.
+[491.78s] speaker_2 : Stop.
+[492.40s] speaker_2 : Just calm down.
+[493.20s] speaker_2 : You're overreacting.
+[494.14s] speaker_0 : No, I'm having a panic attack.
+[496.40s] speaker_0 : This is like the worst fear of my life.
+[498.24s] speaker_2 : I heard you being rude to him.
+[499.58s] speaker_0 : I was at the end because I wanted to hear it.
+[501.55s] speaker_2 : I heard you screaming at him.
+[502.99s] speaker_0 : Because he wasn't giving me my ticket, sir.
+[506.25s] speaker_0 : All I wanted to do was leave and he wasn't giving it to me.
+[509.51s] speaker_2 : I'm sure he was trying to just explain it to you.
+[512.85s] speaker_0 : No, he wasn't.
+[513.93s] speaker_0 : He was taking his sweet time.
+[515.91s] speaker_0 : Will you at least take my watch off?
+[518.14s] speaker_2 : Just hang on a second.
+[518.99s] speaker_2 : You're a female.
+[519.57s] speaker_2 : I can't search you and finish it.
+[520.93s] speaker_2 : We're just letting you hang out and chill out for a second, okay?
+[523.68s] speaker_2 : You understand what you did, pulling off like that is inappropriate, right?
+[526.76s] speaker_2 : Yes.
+[527.41s] speaker_2 : I was sitting there, I witnessed the whole thing.
+[529.35s] speaker_2 : You could have ran over his foot.
+[530.95s] speaker_2 : He had his hand in your vehicle.
+[532.43s] speaker_2 : That's totally inappropriate.
+[533.59s] speaker_2 : He told you not to leave.
+[534.55s] speaker_2 : He gave you a direct order not to leave.
+[537.51s] speaker_2 : This is my supervisor.
+[538.10s] speaker_2 : He's going to talk to you.
+[538.82s] speaker_2 : Okay, just stay calm.
+[540.63s] speaker_1 : Alrighty, ma'am.
+[541.50s] speaker_1 : What is your first name?
+[544.06s] speaker_1 : Michelle?
+[545.35s] speaker_1 : Hello Michelle, my name is Roberto.
+[547.60s] speaker_0 : Okay, so he's like, I'm begging you, can you please at least take my watch off?
+[552.00s] speaker_0 : This is killing me.
+[553.91s] speaker_1 : What is killing you exactly, the handcuffs on one arm or how many?
+[559.75s] speaker_0 : Both, like, are good.
+[561.31s] speaker_1 : I'm gonna take a look, okay, if I can fit my fingers in between the handcuff and your wrist, I can't loosen them.
+[569.14s] speaker_1 : I can take the watch off, I'm just gonna take a look.
+[573.07s] speaker_1 : Ma'am, I'm going to let you know something.
+[574.74s] speaker_1 : Right now, you are in this car for a reason.
+[578.46s] speaker_1 : Yeah, see, I'm not going to open the door if you're going to start escalating, okay?
+[584.44s] speaker_1 : If you're asking me to remove the watch, I can do that, but I'm letting you know right now, you can't start acting.
+[592.57s] speaker_0 : I'm just having a panic attack.
+[594.05s] speaker_1 : Okay, all right.
+[596.57s] speaker_0 : Thank you.
+[597.51s] speaker_0 : Just leave the door open.
+[600.34s] speaker_1 : It's okay.
+[600.92s] speaker_1 : It's okay.
+[601.49s] speaker_1 : Just, you don't have to move.
+[602.99s] speaker_1 : I will take the watch off.
+[604.09s] speaker_1 : All right.
+[605.37s] speaker_1 : okay?
+[607.31s] speaker_1 : Just watch your foot.
+[608.47s] speaker_0 : You can't leave the door open?
+[609.75s] speaker_0 : No ma'am.
+[610.03s] speaker_0 : I promise I'm not going to do anything.
+[611.08s] speaker_1 : No ma'am, I'm going to close it.
+[612.78s] speaker_1 : I'm going to close it, okay?
+[613.76s] speaker_1 : Just watch your leg.
+[616.16s] speaker_1 : So from the beginning, how was it exactly that...
+[618.60s] speaker_1 : He was just mean.
+[619.66s] speaker_0 : He was asking for my registration.
+[621.48s] speaker_0 : I'm like, I don't know.
+[622.36s] speaker_0 : I really didn't know.
+[623.20s] speaker_0 : And he was saying I was being a smartass about it.
+[625.00s] speaker_0 : But I really wasn't.
+[626.28s] speaker_0 : I don't know.
+[627.16s] speaker_0 : I took the sticker and put it on it.
+[628.74s] speaker_0 : I didn't know what I did with it.
+[629.60s] speaker_0 : So I was looking for it.
+[631.58s] speaker_0 : And he's like, well, I'm going to give you one more chance to get your registration.
+[635.66s] speaker_0 : I was looking for it.
+[637.64s] speaker_0 : And he was being mean.
+[639.93s] speaker_0 : And then he said that I was going to go to jail and that...
+[644.57s] speaker_0 : Thank you.
+[649.96s] speaker_0 : I was going to go to jail.
+[652.21s] speaker_0 : And that, um...
+[655.02s] speaker_0 : That I needed my insurance and I had to pull up on my phone and that took a while.
+[658.90s] speaker_0 : And then I asked for his supervisor's name.
+[662.08s] speaker_0 : And I didn't know that I wasn't allowed to call 911 even if her car was behind.
+[666.65s] speaker_0 : So take me to the jail for that if I didn't pick up.
+[671.99s] speaker_1 : What was the reason you were calling 911?
+[673.88s] speaker_0 : Because he was being a jerk.
+[675.08s] speaker_0 : I just wanted to know.
+[677.63s] speaker_1 : So that was after you had requested me and I was on the way.
+[682.25s] speaker_0 : No, that was before.
+[683.93s] speaker_0 : And then I just simply wanted my ticket.
+[685.72s] speaker_0 : I asked him nicely for my ticket and he wouldn't give it to me.
+[688.24s] speaker_0 : Give me my fucking ticket so I can go.
+[690.82s] speaker_0 : Please don't take me to jail.
+[692.28s] speaker_0 : I'll do whatever I have to do, please.
+[695.14s] speaker_1 : Well, here's the thing.
+[696.54s] speaker_1 : Listen, man, I am completely understanding of people's situations, all right?
+[701.30s] speaker_1 : We all go through things.
+[702.40s] speaker_1 : Trust me, I know.
+[703.16s] speaker_1 : but here's the thing is you decided to put the car in drive and try to take off because i asked with my with my officer's arm still inside no it wasn't it wasn't there
+[714.69s] speaker_4 : Then give me my ticket!
+[716.29s] speaker_0 : He was stepped, his arm wasn't on my car, sir.
+[720.77s] speaker_1 : Where was it?
+[721.75s] speaker_0 : He was standing by my car.
+[723.35s] speaker_1 : Okay.
+[723.65s] speaker_1 : And that's why.
+[724.39s] speaker_0 : I wouldn't have taken off with his hand.
+[725.67s] speaker_1 : But if he told you not to go and you...
+[727.77s] speaker_1 : But then I stopped.
+[729.11s] speaker_1 : How exactly did it happen?
+[730.77s] speaker_0 : He told me, he told me, I was yelling because you won't, you wouldn't get my, I asked nicely several times for my ticket and you won't give it to me.
+[738.38s] speaker_0 : And then I got, that's when I got mad.
+[740.34s] speaker_0 : I got to get home to my kid.
+[741.76s] speaker_0 : You know, I'm the only one that he has.
+[744.66s] speaker_0 : and he wouldn't give me my ticket so I started yelling and then he said and so I went to drive off and he goes don't drive off and so I stopped when he said that.
+[754.05s] speaker_1 : Okay.
+[755.46s] speaker_0 : That's how I remember it.
+[757.10s] speaker_0 : I'm having a panic attack.
+[758.88s] speaker_1 : So I have two officers saying differently there.
+[761.49s] speaker_0 : I wasn't trying to hurt him.
+[763.25s] speaker_0 : I wasn't.
+[764.05s] speaker_1 : I understand, but for that reason, that's the reason why you're in the back of the vehicle.
+[770.13s] speaker_0 : I'm sorry.
+[771.05s] speaker_0 : I will apologize.
+[771.83s] speaker_0 : I will never do it again.
+[773.47s] speaker_0 : I swear.
+[775.03s] speaker_0 : I am a good person.
+[776.03s] speaker_0 : I've never went to jail.
+[777.17s] speaker_0 : I've never done anything.
+[778.73s] speaker_1 : I'm going to put this back in the car.
+[780.32s] speaker_1 : I'm going to have a word with one of the other officers, and I'll be right back, okay?
+[784.55s] speaker_2 : I thought she was going to run over your foot, dude.
+[786.69s] speaker_2 : You had your hands in the car.
+[788.21s] speaker_2 : Yes.
+[788.75s] speaker_4 : I was trying to give her the citation.
+[790.01s] speaker_4 : You told her to stop.
+[791.08s] speaker_4 : Yes.
+[791.74s] speaker_4 : I held on.
+[792.64s] speaker_4 : Luckily, I didn't go down because, look, I held on.
+[795.30s] speaker_4 : I held on.
+[796.16s] speaker_4 : I think I might have broke her handle here because this is where I grabbed.
+[800.31s] speaker_2 : hold on.
+[801.20s] speaker_2 : Sure doesn't it just pop back on?
+[802.50s] speaker_2 : It just pops on, dude, does it?
+[803.74s] speaker_0 : Yeah.
+[804.04s] speaker_0 : Yes, sir.
+[804.45s] speaker_1 : Are you down on Indian River by Old Mission?
+[808.36s] speaker_4 : Yeah, please.
+[808.85s] speaker_4 : Did you see the whole thing or no?
+[810.59s] speaker_4 : Like, what did you see?
+[812.19s] speaker_2 : I was right here, you were explaining it.
+[816.71s] speaker_2 : And you told her to stop, and she took off, your hand was in the vehicle, and you were close to the vehicle.
+[822.45s] speaker_2 : Yeah.
+[823.08s] speaker_4 : I should get her for aggravated battery over freaking hitting me with the car.
+[826.22s] speaker_2 : I mean, you wonder, like, you're trying to explain the citation.
+[829.06s] speaker_2 : She's screaming at you.
+[830.24s] speaker_4 : Yeah, I was attempting to handle it civilly.
+[831.96s] speaker_2 : She didn't want to talk to you, so she threw it in the drive.
+[834.14s] speaker_2 : I don't know if she had it in the drive already, and she took off, dude.
+[836.64s] speaker_4 : No, she threw it in the drive.
+[838.84s] speaker_4 : And she had a taser ready there, ready to rock.
+[841.09s] speaker_2 : Taser?
+[841.69s] speaker_2 : Yeah.
+[843.22s] speaker_4 : The center console.
+[844.53s] speaker_2 : Oh, the pink thing?
+[845.23s] speaker_2 : Yeah.
+[846.09s] speaker_2 : RIP
+[847.28s] speaker_1 : You were here for this, the whole thing here?
+[849.25s] speaker_4 : Yeah.
+[849.75s] speaker_4 : Okay.
+[852.40s] speaker_2 : It was a pretty cut and dry.
+[853.50s] speaker_2 : He was explaining she was screaming at him.
+[856.09s] speaker_2 : He was trying to issue the citation and explain it to her, but she was screaming.
+[860.07s] speaker_2 : And he had his hand in the car, right here.
+[863.39s] speaker_2 : She freaking, he told her to stop because he knew what he was about to do.
+[867.18s] speaker_2 : And she threw a drive-in due.
+[868.24s] speaker_2 : She floored it.
+[869.02s] speaker_2 : And luckily she just stopped.
+[872.54s] speaker_2 : And then we were able to pull her out.
+[874.68s] speaker_1 : Why'd she stop?
+[876.58s] speaker_2 : I don't know.
+[877.08s] speaker_2 : I thought she said take off, dude.
+[879.44s] speaker_2 : I mean, it's not like she half-assed it.
+[881.48s] speaker_2 : She floored it, dude.
+[882.46s] speaker_2 : She's like, give me my f***ing ticket and take off.
+[884.82s] speaker_2 : I don't know the words for Vadim, but something along those lines.
+[888.38s] speaker_2 : And she just f***ing floored it.
+[890.04s] speaker_2 : Yeah, he had her detained on a traffic stop, and she f***ing decided to take off.
+[893.55s] speaker_1 : So what are you going to get her with?
+[895.09s] speaker_4 : Felina Ludig.
+[896.48s] speaker_4 : I mean, I don't know if I could potentially, I mean, aggravate a battery, but it'd be a hard one.
+[901.11s] speaker_4 : That's the only thing I can think of, but I mean, fleeing and losing is enough in my opinion.
+[906.21s] speaker_4 : Yeah.
+[907.11s] speaker_4 : It's a felony.
+[908.94s] speaker_2 : Just like resisting, I don't know.
+[910.37s] speaker_2 : Yeah.
+[911.40s] speaker_4 : to the next level down.
+[912.48s] speaker_4 : Yeah, because she didn't get out of the car either.
+[913.87s] speaker_2 : You could do either.
+[914.75s] speaker_2 : Yeah.
+[915.99s] speaker_2 : Either would work, I think, right?
+[917.63s] speaker_2 : Yeah.
+[918.79s] speaker_1 : What about when you guys started cuffing her and stuff?
+[920.75s] speaker_1 : Was she cool then?
+[922.08s] speaker_4 : No, she, yeah.
+[922.82s] speaker_4 : Once I got her out of the car, she started saying, no, no, no, what are you doing?
+[926.80s] speaker_4 : But she definitely, like, if you watch the video, she pulled away from me while she was seated in the car.
+[932.28s] speaker_4 : She did resist.
+[933.76s] speaker_4 : Yep.
+[935.11s] speaker_1 : ma'am, unfortunately, you're going to be going to jail today, okay?
+[939.93s] speaker_1 : After what I just heard, you could have seriously injured him.
+[945.27s] speaker_0 : I wasn't trying to, please.
+[947.37s] speaker_1 : I know that you weren't trying to.
+[948.71s] speaker_0 : I've had a really hard time, please.
+[951.27s] speaker_0 : I was seeing a psychiatrist and said, please, I am begging you.
+[958.45s] speaker_1 : I'm sorry, ma'am.
+[959.93s] speaker_1 : This is not going to be something that's going to take 74 years, okay?
+[964.07s] speaker_0 : I don't have money for Belle.
+[965.57s] speaker_0 : How am I supposed to get out?
+[967.95s] speaker_0 : Please, I'm begging you.
+[968.89s] speaker_0 : Don't take me to jail.
+[969.91s] speaker_0 : I swear I will do anything.
+[971.63s] speaker_0 : I promise.
+[973.01s] speaker_1 : Alrighty, ma'am.
+[973.68s] speaker_0 : I will do anything, please.
+[975.83s] speaker_1 : There's going to be a female officer arriving here shortly to conduct a full search.
+[981.27s] speaker_1 : Ma'am, I cannot help you in that regard.
+[983.18s] speaker_0 : I have nobody.
+[984.16s] speaker_1 : If I had unlimited amount of money, I would post your bill, but I do not, ma'am.
+[989.16s] speaker_0 : But you cannot.
+[990.03s] speaker_0 : You can change it.
+[992.08s] speaker_0 : No, ma'am.
+[992.54s] speaker_0 : If I take his mind?
+[994.14s] speaker_1 : No, ma'am.
+[994.54s] speaker_4 : Please?
+[995.02s] speaker_4 : No.
+[995.87s] speaker_1 : He did the correct thing today, okay?
+[1000.48s] speaker_3 : Michelle was charged with fleeing, eluding, resisting, and misuse of 911.
+[1005.09s] speaker_3 : She pled no contest to any charges, and records indicate the fleeing, eluding charge was interestingly changed to a tampering with physical evidence charge.
+[1014.11s] speaker_3 : She was sentenced with 18 months probation, 50 hours of community service, an apology letter to the officer, a driver improvement course, and mental health evaluation and treatment.

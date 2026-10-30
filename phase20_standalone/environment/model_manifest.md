@@ -1,0 +1,10 @@
+# Phase20 Model Manifest
+
+| Model | Repository | Revision | Cache location | Download command | Hash |
+|---|---|---|---|---|---|
+| Whisper large-v3 | `Systran/faster-whisper-large-v3` | `edaa852ec7e145841d8ffdb056a99866b5f0a478` | `/home/ubuntu/marston/phase20_standalone/.cache/huggingface/hub/models--Systran--faster-whisper-large-v3/snapshots/edaa852ec7e145841d8ffdb056a99866b5f0a478` | `python download_models.py` | `126acb0ecbd18784cb974d55e07077ba4fa7f0e2c4140709485fd950f254851c` |
+| WhisperX alignment model | `torchaudio wav2vec2_fairseq_base_ls960_asr_ls960` | `file checkpoint` | `/home/ubuntu/marston/phase20_standalone/.cache/torch/hub/checkpoints/wav2vec2_fairseq_base_ls960_asr_ls960.pth` | `python download_models.py` | `488fd4f16de84438ffc945334278c1b9fb9b7159a806c1080b16111a958c945d` |
+| Pyannote VAD | `pyannote/voice-activity-detection` | `8d678d7647d9c991934b2270b21fe390f9a8fea5` | `/home/ubuntu/marston/phase20_standalone/.cache/huggingface/hub/models--pyannote--voice-activity-detection/snapshots/8d678d7647d9c991934b2270b21fe390f9a8fea5` | `python download_models.py` | `895d578d7645312d344f181c90145fdc867f599b812159ecf539b512d2908cdf` |
+| DeepFilterNet | `DeepFilterNet3 via DeepFilterNet==0.5.6` | `0.5.6 package checkpoint` | `/home/ubuntu/marston/phase20_standalone/.cache/DeepFilterNet/DeepFilterNet3/checkpoints/model_120.ckpt.best` | `deepFilter command invoked by pipeline` | `23b92884f63ccf54bb026014604625ab231657b6480df65db4095c4c171e6003` |
+| TitaNet Large | `nvidia/nemo titanet_large` | `NeMo_2.7.3 cache id 11ba0924fdf87c049e339adbf6899d48` | `/home/ubuntu/.cache/torch/NeMo/NeMo_2.7.3/titanet-l/11ba0924fdf87c049e339adbf6899d48/titanet-l.nemo` | `python download_models.py` | `e838520693f269e7984f55bc8eb3c2d60ccf246bf4b896d4be9bcabe3e4b0fe3` |
+| NeMo MSDD | `nvidia/nemo diar_msdd_telephonic` | `NeMo_2.7.3 cache id 3c3697a0a46f945574fa407149975a13` | `/home/ubuntu/.cache/torch/NeMo/NeMo_2.7.3/diar_msdd_telephonic/3c3697a0a46f945574fa407149975a13/diar_msdd_telephonic.nemo` | `python download_models.py` | `450f6bd279a3f78348f6e883359f9b3b34687dbd15814fd0f10e446ca0f708f6` |

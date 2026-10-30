@@ -1,0 +1,18 @@
+{
+  "VAD": {
+    "precision": 0.6891,
+    "recall": 0.8439,
+    "f1": 0.7586
+  },
+  "ASR": {
+    "wer": 0.2515,
+    "gt_words": 1809,
+    "pred_words": 1566
+  },
+  "DIARIZATION": {
+    "DER": 0.6966,
+    "Miss": 0.1605,
+    "False Alarm": 0.3789,
+    "Confusion": 0.1572
+  }
+}

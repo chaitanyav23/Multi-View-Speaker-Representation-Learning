@@ -1,0 +1,20 @@
+2026-05-27 11:56:30 | INFO     | bwc_pipeline.asr | Discovered 2 audio file(s).
+2026-05-27 11:56:36 | INFO     | bwc_pipeline.asr | Transcribing: bwc.wav
+2026-05-27 12:06:21 | INFO     | bwc_pipeline.asr | Discovered 2 audio file(s).
+2026-05-27 12:06:23 | INFO     | bwc_pipeline.asr | Transcribing: bwc.wav
+2026-05-27 12:06:31 | INFO     | bwc_pipeline.asr | Saved transcript → bwc.txt
+2026-05-27 12:06:31 | INFO     | bwc_pipeline.asr | Saved alignment → bwc_aligned.json
+2026-05-27 12:06:31 | INFO     | bwc_pipeline.asr | Transcribing: podcast.wav
+2026-05-27 12:07:01 | INFO     | bwc_pipeline.asr | Saved transcript → podcast.txt
+2026-05-27 12:07:01 | INFO     | bwc_pipeline.asr | Saved alignment → podcast_aligned.json
+2026-05-27 14:43:48 | INFO     | bwc_pipeline.asr | Discovered 2 audio file(s).
+2026-05-27 14:44:22 | INFO     | bwc_pipeline.asr | Transcribing: bwc.wav
+2026-05-27 14:45:17 | INFO     | bwc_pipeline.asr | Discovered 2 audio file(s).
+2026-05-27 14:45:24 | INFO     | bwc_pipeline.asr | Transcribing: bwc.wav
+2026-05-27 14:45:53 | INFO     | bwc_pipeline.asr | Discovered 2 audio file(s).
+2026-05-27 14:46:00 | INFO     | bwc_pipeline.asr | Transcribing: bwc.wav
+2026-05-27 14:46:16 | INFO     | bwc_pipeline.asr | Saved transcript → bwc.txt
+2026-05-27 14:46:16 | INFO     | bwc_pipeline.asr | Saved alignment → bwc_aligned.json
+2026-05-27 14:46:16 | INFO     | bwc_pipeline.asr | Transcribing: podcast.wav
+2026-05-27 14:47:28 | INFO     | bwc_pipeline.asr | Saved transcript → podcast.txt
+2026-05-27 14:47:28 | INFO     | bwc_pipeline.asr | Saved alignment → podcast_aligned.json

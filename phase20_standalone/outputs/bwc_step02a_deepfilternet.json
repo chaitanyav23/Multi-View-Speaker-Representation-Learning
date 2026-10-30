@@ -1,0 +1,13 @@
+{
+  "stage": "deepfilternet",
+  "timestamp_utc": "2026-07-15T07:35:08.674463Z",
+  "inputs": [
+    "/home/ubuntu/marston/phase20_standalone/audio/bwc_repaired.wav"
+  ],
+  "outputs": [
+    "/home/ubuntu/marston/phase20_standalone/audio/bwc_dfn.wav"
+  ],
+  "evaluation": {
+    "fallback": false
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "stage": "diarization_eval",
+  "timestamp_utc": "2026-07-15T07:35:38.430088Z",
+  "inputs": [
+    "/home/ubuntu/marston/phase20_standalone/ground_truth_rttm/bwc.rttm",
+    "/home/ubuntu/marston/phase20_standalone/diarization/bwc.rttm"
+  ],
+  "outputs": [
+    "/home/ubuntu/marston/phase20_standalone/metrics/bwc_diar_metrics.json",
+    "/home/ubuntu/marston/phase20_standalone/reports/bwc_diar_report.md"
+  ],
+  "evaluation": {
+    "der": 0.4470588235294113,
+    "miss": 0.23000000000000015,
+    "false_alarm": 0.13991596638655418,
+    "confusion": 0.07714285714285694,
+    "jer": 0.8424482152411525,
+    "total_reference_time": 119.0
+  }
+}

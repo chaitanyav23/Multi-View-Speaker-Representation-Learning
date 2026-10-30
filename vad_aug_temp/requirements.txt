@@ -1,0 +1,15 @@
+# Use the CUDA-enabled PyTorch wheel appropriate for the VM driver.
+torch
+torchaudio
+nemo_toolkit[asr]
+pandas
+numpy
+scipy
+scikit-learn
+tqdm
+soundfile
+librosa
+matplotlib
+openpyxl
+xlsxwriter
+psutil

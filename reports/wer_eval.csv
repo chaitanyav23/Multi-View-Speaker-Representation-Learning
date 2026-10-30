@@ -1,0 +1,4 @@
+file,ref_words,hyp_words,substitutions,insertions,deletions,wer
+bwc.txt,485,428,52,16,73,0.2907
+podcast.txt,2455,2375,28,17,97,0.0578
+OVERALL,2940,2803,80,33,170,0.0963

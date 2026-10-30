@@ -1,0 +1,112 @@
+
+--- analyze_diarization_errors.py ---
+No docstring.
+Functions: ['hms_to_seconds', 'parse_ground_truth', 'load_prediction', 'identify_error_regions', 'extract_audio_context', 'main']
+
+--- compare_pipelines_v3.py ---
+Docstring: compare_pipelines_v3.py...
+Functions: ['run_cmd', 'main']
+
+--- custom_pipeline_stage1_vad.py ---
+Docstring: custom_pipeline_stage1_vad.py...
+Functions: ['apply_min_cut', 'merge_segments', 'process_audio', 'main']
+
+--- custom_pipeline_stage2_transcribe.py ---
+Docstring: custom_pipeline_stage2_transcribe.py (V4 - Manual Slicing)...
+Functions: ['_load_module', 'transcribe_manual_slices', 'main']
+
+--- custom_pipeline_stage2_transcribe_conditioned.py ---
+Docstring: custom_pipeline_stage2_transcribe_conditioned.py...
+Functions: ['_load_module', 'transcribe_manual_slices', 'main']
+
+--- custom_pipeline_stage3_align.py ---
+Docstring: custom_pipeline_stage3_align.py...
+Functions: ['_load_module', 'run_alignment', 'main']
+
+--- custom_pipeline_stage3_align_conditioned.py ---
+Docstring: custom_pipeline_stage3_align_conditioned.py...
+Functions: ['_load_module', 'run_alignment', 'main']
+
+--- evaluate_alignment.py ---
+Docstring: scripts/evaluate_alignment.py...
+Functions: ['_ensure_dirs', '_hms_to_seconds', '_parse_ground_truth', '_load_alignment', '_intersection', '_union', '_iou', '_compute_segment_metrics', '_normalize_text', '_edit_stats', '_cer_rate', 'main']
+
+--- evaluate_asr.py ---
+Docstring: scripts/evaluate_asr.py...
+Functions: ['_ensure_dirs', '_normalize_text', '_load_words', '_wer_stats', '_wer_rate', 'main']
+
+--- evaluate_asr_improved.py ---
+Docstring: evaluate_asr_improved.py...
+Functions: ['normalize_text_improved', 'levenshtein_distance', 'evaluate_file', 'main']
+
+--- evaluate_conversational_timeline.py ---
+Docstring: evaluate_conversational_timeline.py...
+Functions: ['hms_to_seconds', 'normalize_text', 'parse_ground_truth_with_text', 'get_5gram_duplicates', 'compute_sawer_and_wder', 'compute_cpwer', 'main']
+
+--- evaluate_diarization.py ---
+Docstring: evaluate_diarization.py...
+Functions: ['hms_to_seconds', 'parse_ground_truth', 'load_prediction', 'get_total_duration', 'compute_der', 'main']
+
+--- evaluate_diarization_improved.py ---
+Docstring: evaluate_diarization_improved.py...
+Functions: ['hms_to_seconds', 'parse_ground_truth', 'load_prediction', 'compute_der_improved', 'main']
+
+--- evaluate_vad_whisperx.py ---
+Docstring: evaluate_vad_whisperx.py...
+Functions: ['calculate_advanced_metrics', 'main']
+
+--- find_vad.py ---
+No docstring.
+Functions: []
+
+--- preprocess_audio.py ---
+Docstring: preprocess_audio.py...
+Functions: ['butter_bandpass', 'bandpass_filter', 'normalize_audio', 'main']
+
+--- run_asr.py ---
+Docstring: scripts/run_asr.py...
+Functions: ['_load_module', '_ensure_dirs', '_discover_audio', '_format_plain_transcript', '_json_default', '_write_json', '_write_text', 'main']
+
+--- run_diarization.py ---
+Docstring: run_diarization.py...
+Functions: ['_load_module', '_ensure_dirs', '_discover_audio', '_json_default', '_write_json', 'main']
+
+--- run_diarization_pyannote_31.py ---
+Docstring: run_diarization_pyannote_31.py...
+Functions: ['run_diarization', 'main']
+
+--- run_final_hardened_pipeline.py ---
+Docstring: run_final_hardened_pipeline.py...
+Functions: ['_load_module', 'process_file', 'main']
+
+--- run_grounded_diarization_test.py ---
+Docstring: run_grounded_diarization_test.py...
+Functions: ['load_grounded_audio', 'main']
+
+--- run_production_pipeline.py ---
+Docstring: run_production_pipeline.py...
+Functions: ['apply_normalization', 'merge_segments', 'main']
+
+--- run_stage1.py ---
+Docstring: scripts/run_stage1.py...
+Functions: ['ensure_directories', 'discover_videos', 'infer_source_type', 'classify_conversation', 'classify_speech_density', 'update_manifest', 'process_video', 'main']
+
+--- run_stage1_whisperx.py ---
+Docstring: run_stage1_whisperx.py (V5 - BWC Optimized)...
+Functions: ['apply_min_cut', 'run_bwc_optimized_vad', 'main']
+
+--- run_stage4_parallel.py ---
+Docstring: run_stage4_parallel.py...
+Functions: ['_load_module', '_json_default', '_write_json', 'run_asr_task', 'run_diarization_task', 'process_file', 'main']
+
+--- test_pipeline_load.py ---
+No docstring.
+Functions: []
+
+--- test_vad.py ---
+No docstring.
+Functions: []
+
+--- test_vad_params.py ---
+No docstring.
+Functions: []

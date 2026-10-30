@@ -1,0 +1,123 @@
+{
+  "file_name": "bwc.wav",
+  "source_video": "bwc.mp4",
+  "processed_audio_path": "/home/ubuntu/marston/marston/raw_audio/bwc.wav",
+  "pipeline_version": "1.0.0",
+  "duration_sec": 175.4267,
+  "speech_duration_sec": 125.816,
+  "silence_duration_sec": 49.6108,
+  "speech_ratio": 0.7172,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 42.22,
+      "duration": 42.22,
+      "confidence_mean": null
+    },
+    {
+      "start": 46.612,
+      "end": 52.812,
+      "duration": 6.2,
+      "confidence_mean": null
+    },
+    {
+      "start": 58.292,
+      "end": 59.244,
+      "duration": 0.952,
+      "confidence_mean": null
+    },
+    {
+      "start": 60.652,
+      "end": 68.26,
+      "duration": 7.608,
+      "confidence_mean": null
+    },
+    {
+      "start": 69.836,
+      "end": 71.268,
+      "duration": 1.432,
+      "confidence_mean": null
+    },
+    {
+      "start": 74.22,
+      "end": 75.812,
+      "duration": 1.592,
+      "confidence_mean": null
+    },
+    {
+      "start": 77.452,
+      "end": 85.252,
+      "duration": 7.8,
+      "confidence_mean": null
+    },
+    {
+      "start": 86.444,
+      "end": 102.148,
+      "duration": 15.704,
+      "confidence_mean": null
+    },
+    {
+      "start": 103.18,
+      "end": 104.292,
+      "duration": 1.112,
+      "confidence_mean": null
+    },
+    {
+      "start": 105.932,
+      "end": 106.788,
+      "duration": 0.856,
+      "confidence_mean": null
+    },
+    {
+      "start": 109.004,
+      "end": 119.0,
+      "duration": 9.996,
+      "confidence_mean": null
+    },
+    {
+      "start": 125.86,
+      "end": 128.956,
+      "duration": 3.096,
+      "confidence_mean": null
+    },
+    {
+      "start": 130.18,
+      "end": 146.908,
+      "duration": 16.728,
+      "confidence_mean": null
+    },
+    {
+      "start": 154.5,
+      "end": 165.02,
+      "duration": 10.52,
+      "confidence_mean": null
+    }
+  ],
+  "analytics": {
+    "total_duration_sec": 175.4267,
+    "speech_duration_sec": 125.816,
+    "silence_duration_sec": 49.6108,
+    "speech_ratio": 0.7172,
+    "num_speech_segments": 14,
+    "avg_segment_duration_sec": 8.9869,
+    "min_segment_duration_sec": 0.856,
+    "max_segment_duration_sec": 42.22,
+    "std_segment_duration_sec": 10.5664,
+    "short_fragment_count": 0,
+    "long_silence_count": 3,
+    "fragmentation_index": 4.7883,
+    "potential_false_positive_segments": 1,
+    "potential_missed_speech_regions": 3
+  },
+  "vad_config": {
+    "threshold": 0.35,
+    "min_speech_duration_ms": 250,
+    "min_silence_duration_ms": 100,
+    "window_size_samples": 512,
+    "speech_pad_ms": 300,
+    "chunk_size_sec": 60,
+    "chunk_overlap_sec": 1,
+    "merge_gap_sec": 1.0,
+    "min_segment_duration_sec": 0.2
+  }
+}
