@@ -1,0 +1,13 @@
+recording_id,audio_exists,audio_duration_sec,num_speakers,total_segments,positive_segments,zero_dur_segments,neg_dur_segments,sum_positive_seg_dur_sec,union_speech_coverage_sec,speech_coverage_ratio,min_pos_seg_sec,mean_pos_seg_sec,median_pos_seg_sec,max_pos_seg_sec,overlapping_segment_pairs,non_monotonic_jumps,identical_consecutive_timestamps,dominant_speaker,dominant_speaker_duration_share,total_words
+Bodycam footage show arrests of Sara Sharif’s alleged killers,True,100.989,5,7,7,0,0,93.0,93.0,0.9209,1.0,13.29,9.0,53.0,0,0,0,Speaker_2,0.7097,125
+Dennis Skinner kicked out of Commons,True,176.3,5,15,13,2,0,284.0,162.0,0.9189,2.0,21.85,18.0,67.0,11,1,3,Speaker_1,0.419,307
+Drunk Karen Gets a Huge Reality Check,False,1055.43,17,290,210,78,2,833.0,804.0,,1.0,3.97,2.0,45.0,17,0,0,Speaker_1,0.2545,3677
+Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager,False,857.0,10,251,229,22,0,7685.0,334.0,,1.0,33.56,38.0,47.0,5687,18,201,Speaker_1,0.4779,2407
+Karen Has A Problem With Disabled Parking,True,206.263,5,59,54,5,0,178.0,176.0,0.8533,1.0,3.3,2.0,12.0,1,0,0,Speaker_1,0.573,658
+Piers Confronts Tommy Robinson,True,204.591,3,33,31,2,0,284.0,186.0,0.9091,1.0,9.16,4.0,68.0,24,0,1,Speaker_1,0.493,853
+Police bodycam shows arrest of Southwest Airlines pilot,True,162.482,4,61,26,35,0,97.0,97.0,0.597,1.0,3.73,2.0,16.0,0,0,4,Speaker_1,0.701,384
+Rich Karen Messes Around & Finds Out,True,652.225,9,187,131,56,0,371.0,369.0,0.5658,1.0,2.83,2.0,26.0,2,0,3,Speaker_6,0.3208,1809
+That was a bit of a cheap shot weren’t it mate,True,175.464,4,54,39,15,0,123.0,122.0,0.6953,1.0,3.15,1.0,11.0,1,0,0,Speaker_1,0.8699,503
+UK Parliament Debate,True,215.38,6,16,11,5,0,195.0,195.0,0.9054,1.0,17.73,14.0,38.0,0,0,0,Speaker_2,0.4974,478
+When an Entitled Girl Gets Instantly Humbled,False,1011.91,11,119,111,8,0,796.0,772.0,,1.0,7.17,5.0,109.0,4,0,1,Speaker_1,0.4422,1877
+Woman's Attitude Makes Traffic Stop 10x Worse,False,1058.09,9,270,215,55,0,896.0,861.0,,1.0,4.17,2.0,106.0,20,0,7,Speaker_0,0.3136,4106
