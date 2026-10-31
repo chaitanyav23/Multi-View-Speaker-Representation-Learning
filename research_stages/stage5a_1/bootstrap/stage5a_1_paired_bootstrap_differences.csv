@@ -1,0 +1,97 @@
+comparison_id,description,method_1,method_2,metric,point_diff_m1_minus_m2,ci95_low,ci95_high,ci95_width,includes_zero,m1_wins,m2_wins,ties
+J_vs_H,Normalized Equal Fusion vs Normalized TitaNet,condition_J_norm_equal_weight_fusion,condition_H_norm_titanet_dfn_alone,der_collar0_ovl,-0.0005,-0.0089,0.0089,0.0178,True,5,1,2
+J_vs_H,Normalized Equal Fusion vs Normalized TitaNet,condition_J_norm_equal_weight_fusion,condition_H_norm_titanet_dfn_alone,der_collar025_noovl,-0.0007,-0.0084,0.0082,0.0166,True,4,2,2
+J_vs_H,Normalized Equal Fusion vs Normalized TitaNet,condition_J_norm_equal_weight_fusion,condition_H_norm_titanet_dfn_alone,jer_collar0,0.0005,-0.0107,0.0146,0.0253,True,4,3,1
+J_vs_H,Normalized Equal Fusion vs Normalized TitaNet,condition_J_norm_equal_weight_fusion,condition_H_norm_titanet_dfn_alone,cpwer,-0.0102,-0.0207,-0.001,0.0197,False,5,1,2
+J_vs_H,Normalized Equal Fusion vs Normalized TitaNet,condition_J_norm_equal_weight_fusion,condition_H_norm_titanet_dfn_alone,sawer,-0.0013,-0.0176,0.0171,0.0347,True,4,2,2
+J_vs_H,Normalized Equal Fusion vs Normalized TitaNet,condition_J_norm_equal_weight_fusion,condition_H_norm_titanet_dfn_alone,micro_sacc,-0.0026,-0.012,0.006,0.018,True,2,4,2
+J_vs_H,Normalized Equal Fusion vs Normalized TitaNet,condition_J_norm_equal_weight_fusion,condition_H_norm_titanet_dfn_alone,macro_sacc,0.0083,-0.0015,0.0238,0.0253,True,5,1,2
+J_vs_H,Normalized Equal Fusion vs Normalized TitaNet,condition_J_norm_equal_weight_fusion,condition_H_norm_titanet_dfn_alone,speaker_count_error_abs,-0.25,-0.75,0.0,0.75,True,1,0,7
+J_vs_I,Normalized Equal Fusion vs Normalized ResNet,condition_J_norm_equal_weight_fusion,condition_I_norm_resnet293_mono_alone,der_collar0_ovl,0.0019,-0.0051,0.0104,0.0155,True,3,4,1
+J_vs_I,Normalized Equal Fusion vs Normalized ResNet,condition_J_norm_equal_weight_fusion,condition_I_norm_resnet293_mono_alone,der_collar025_noovl,0.0071,-0.0046,0.025,0.0296,True,3,4,1
+J_vs_I,Normalized Equal Fusion vs Normalized ResNet,condition_J_norm_equal_weight_fusion,condition_I_norm_resnet293_mono_alone,jer_collar0,0.0012,-0.017,0.0188,0.0358,True,2,5,1
+J_vs_I,Normalized Equal Fusion vs Normalized ResNet,condition_J_norm_equal_weight_fusion,condition_I_norm_resnet293_mono_alone,cpwer,0.0061,-0.037,0.0624,0.0995,True,3,3,2
+J_vs_I,Normalized Equal Fusion vs Normalized ResNet,condition_J_norm_equal_weight_fusion,condition_I_norm_resnet293_mono_alone,sawer,-0.0013,-0.0288,0.0325,0.0613,True,3,3,2
+J_vs_I,Normalized Equal Fusion vs Normalized ResNet,condition_J_norm_equal_weight_fusion,condition_I_norm_resnet293_mono_alone,micro_sacc,-0.0028,-0.0167,0.007,0.0237,True,3,3,2
+J_vs_I,Normalized Equal Fusion vs Normalized ResNet,condition_J_norm_equal_weight_fusion,condition_I_norm_resnet293_mono_alone,macro_sacc,0.013,-0.0062,0.0422,0.0483,True,3,3,2
+J_vs_I,Normalized Equal Fusion vs Normalized ResNet,condition_J_norm_equal_weight_fusion,condition_I_norm_resnet293_mono_alone,speaker_count_error_abs,-0.375,-1.125,0.0,1.125,True,1,0,7
+K_vs_J,Normalized Reliability Gate vs Normalized Equal Fusion,condition_K_norm_reliability_gate,condition_J_norm_equal_weight_fusion,der_collar0_ovl,-0.0025,-0.0076,0.0,0.0076,True,1,0,7
+K_vs_J,Normalized Reliability Gate vs Normalized Equal Fusion,condition_K_norm_reliability_gate,condition_J_norm_equal_weight_fusion,der_collar025_noovl,-0.0025,-0.0077,0.0,0.0077,True,1,0,7
+K_vs_J,Normalized Reliability Gate vs Normalized Equal Fusion,condition_K_norm_reliability_gate,condition_J_norm_equal_weight_fusion,jer_collar0,0.0043,-0.0011,0.0142,0.0153,True,3,1,4
+K_vs_J,Normalized Reliability Gate vs Normalized Equal Fusion,condition_K_norm_reliability_gate,condition_J_norm_equal_weight_fusion,cpwer,0.0069,-0.0011,0.0218,0.0229,True,2,1,5
+K_vs_J,Normalized Reliability Gate vs Normalized Equal Fusion,condition_K_norm_reliability_gate,condition_J_norm_equal_weight_fusion,sawer,0.0021,-0.0011,0.0075,0.0087,True,2,1,5
+K_vs_J,Normalized Reliability Gate vs Normalized Equal Fusion,condition_K_norm_reliability_gate,condition_J_norm_equal_weight_fusion,micro_sacc,0.0017,-0.0006,0.0057,0.0063,True,1,1,6
+K_vs_J,Normalized Reliability Gate vs Normalized Equal Fusion,condition_K_norm_reliability_gate,condition_J_norm_equal_weight_fusion,macro_sacc,-0.0126,-0.0376,0.0,0.0376,True,0,2,6
+K_vs_J,Normalized Reliability Gate vs Normalized Equal Fusion,condition_K_norm_reliability_gate,condition_J_norm_equal_weight_fusion,speaker_count_error_abs,0.375,0.0,1.125,1.125,True,0,1,7
+K_vs_H,Normalized Reliability Gate vs Normalized TitaNet,condition_K_norm_reliability_gate,condition_H_norm_titanet_dfn_alone,der_collar0_ovl,-0.003,-0.009,0.0015,0.0104,True,5,1,2
+K_vs_H,Normalized Reliability Gate vs Normalized TitaNet,condition_K_norm_reliability_gate,condition_H_norm_titanet_dfn_alone,der_collar025_noovl,-0.0032,-0.0088,0.0012,0.01,True,4,2,2
+K_vs_H,Normalized Reliability Gate vs Normalized TitaNet,condition_K_norm_reliability_gate,condition_H_norm_titanet_dfn_alone,jer_collar0,0.0048,-0.0044,0.0165,0.0209,True,3,4,1
+K_vs_H,Normalized Reliability Gate vs Normalized TitaNet,condition_K_norm_reliability_gate,condition_H_norm_titanet_dfn_alone,cpwer,-0.0033,-0.0207,0.0193,0.04,True,5,1,2
+K_vs_H,Normalized Reliability Gate vs Normalized TitaNet,condition_K_norm_reliability_gate,condition_H_norm_titanet_dfn_alone,sawer,0.0007,-0.0186,0.0236,0.0422,True,4,2,2
+K_vs_H,Normalized Reliability Gate vs Normalized TitaNet,condition_K_norm_reliability_gate,condition_H_norm_titanet_dfn_alone,micro_sacc,-0.0009,-0.0075,0.0062,0.0137,True,2,4,2
+K_vs_H,Normalized Reliability Gate vs Normalized TitaNet,condition_K_norm_reliability_gate,condition_H_norm_titanet_dfn_alone,macro_sacc,-0.0044,-0.0166,0.0036,0.0202,True,4,2,2
+K_vs_H,Normalized Reliability Gate vs Normalized TitaNet,condition_K_norm_reliability_gate,condition_H_norm_titanet_dfn_alone,speaker_count_error_abs,0.125,0.0,0.375,0.375,True,0,1,7
+K_vs_I,Normalized Reliability Gate vs Normalized ResNet,condition_K_norm_reliability_gate,condition_I_norm_resnet293_mono_alone,der_collar0_ovl,-0.0006,-0.011,0.0095,0.0205,True,3,4,1
+K_vs_I,Normalized Reliability Gate vs Normalized ResNet,condition_K_norm_reliability_gate,condition_I_norm_resnet293_mono_alone,der_collar025_noovl,0.0045,-0.0096,0.0242,0.0337,True,3,4,1
+K_vs_I,Normalized Reliability Gate vs Normalized ResNet,condition_K_norm_reliability_gate,condition_I_norm_resnet293_mono_alone,jer_collar0,0.0056,-0.0083,0.0201,0.0284,True,2,5,1
+K_vs_I,Normalized Reliability Gate vs Normalized ResNet,condition_K_norm_reliability_gate,condition_I_norm_resnet293_mono_alone,cpwer,0.013,-0.025,0.0675,0.0925,True,3,3,2
+K_vs_I,Normalized Reliability Gate vs Normalized ResNet,condition_K_norm_reliability_gate,condition_I_norm_resnet293_mono_alone,sawer,0.0008,-0.0256,0.027,0.0525,True,3,3,2
+K_vs_I,Normalized Reliability Gate vs Normalized ResNet,condition_K_norm_reliability_gate,condition_I_norm_resnet293_mono_alone,micro_sacc,-0.0011,-0.0161,0.0099,0.026,True,3,3,2
+K_vs_I,Normalized Reliability Gate vs Normalized ResNet,condition_K_norm_reliability_gate,condition_I_norm_resnet293_mono_alone,macro_sacc,0.0004,-0.0072,0.0074,0.0146,True,3,3,2
+K_vs_I,Normalized Reliability Gate vs Normalized ResNet,condition_K_norm_reliability_gate,condition_I_norm_resnet293_mono_alone,speaker_count_error_abs,0.0,0.0,0.0,0.0,True,0,0,8
+H_vs_A,Normalized TitaNet vs Raw TitaNet,condition_H_norm_titanet_dfn_alone,condition_A_raw_titanet_dfn,der_collar0_ovl,0.0,0.0,0.0,0.0,True,0,0,8
+H_vs_A,Normalized TitaNet vs Raw TitaNet,condition_H_norm_titanet_dfn_alone,condition_A_raw_titanet_dfn,der_collar025_noovl,0.0,0.0,0.0,0.0,True,0,0,8
+H_vs_A,Normalized TitaNet vs Raw TitaNet,condition_H_norm_titanet_dfn_alone,condition_A_raw_titanet_dfn,jer_collar0,0.0,0.0,0.0,0.0,True,0,0,8
+H_vs_A,Normalized TitaNet vs Raw TitaNet,condition_H_norm_titanet_dfn_alone,condition_A_raw_titanet_dfn,cpwer,0.0,0.0,0.0,0.0,True,0,0,8
+H_vs_A,Normalized TitaNet vs Raw TitaNet,condition_H_norm_titanet_dfn_alone,condition_A_raw_titanet_dfn,sawer,0.0,0.0,0.0,0.0,True,0,0,8
+H_vs_A,Normalized TitaNet vs Raw TitaNet,condition_H_norm_titanet_dfn_alone,condition_A_raw_titanet_dfn,micro_sacc,0.0,0.0,0.0,0.0,True,0,0,8
+H_vs_A,Normalized TitaNet vs Raw TitaNet,condition_H_norm_titanet_dfn_alone,condition_A_raw_titanet_dfn,macro_sacc,0.0,0.0,0.0,0.0,True,0,0,8
+H_vs_A,Normalized TitaNet vs Raw TitaNet,condition_H_norm_titanet_dfn_alone,condition_A_raw_titanet_dfn,speaker_count_error_abs,0.0,0.0,0.0,0.0,True,0,0,8
+I_vs_B,Normalized ResNet vs Raw ResNet,condition_I_norm_resnet293_mono_alone,condition_B_raw_resnet293_mono,der_collar0_ovl,0.0,0.0,0.0,0.0,True,0,0,8
+I_vs_B,Normalized ResNet vs Raw ResNet,condition_I_norm_resnet293_mono_alone,condition_B_raw_resnet293_mono,der_collar025_noovl,0.0,0.0,0.0,0.0,True,0,0,8
+I_vs_B,Normalized ResNet vs Raw ResNet,condition_I_norm_resnet293_mono_alone,condition_B_raw_resnet293_mono,jer_collar0,0.0,0.0,0.0,0.0,True,0,0,8
+I_vs_B,Normalized ResNet vs Raw ResNet,condition_I_norm_resnet293_mono_alone,condition_B_raw_resnet293_mono,cpwer,0.0,0.0,0.0,0.0,True,0,0,8
+I_vs_B,Normalized ResNet vs Raw ResNet,condition_I_norm_resnet293_mono_alone,condition_B_raw_resnet293_mono,sawer,0.0,0.0,0.0,0.0,True,0,0,8
+I_vs_B,Normalized ResNet vs Raw ResNet,condition_I_norm_resnet293_mono_alone,condition_B_raw_resnet293_mono,micro_sacc,0.0,0.0,0.0,0.0,True,0,0,8
+I_vs_B,Normalized ResNet vs Raw ResNet,condition_I_norm_resnet293_mono_alone,condition_B_raw_resnet293_mono,macro_sacc,0.0,0.0,0.0,0.0,True,0,0,8
+I_vs_B,Normalized ResNet vs Raw ResNet,condition_I_norm_resnet293_mono_alone,condition_B_raw_resnet293_mono,speaker_count_error_abs,0.0,0.0,0.0,0.0,True,0,0,8
+K_sig_vs_K,Sigmoid Gate vs Linear Gate,condition_K_sigmoid_gate,condition_K_norm_reliability_gate,der_collar0_ovl,0.002,0.0,0.0059,0.0059,True,0,1,7
+K_sig_vs_K,Sigmoid Gate vs Linear Gate,condition_K_sigmoid_gate,condition_K_norm_reliability_gate,der_collar025_noovl,0.002,0.0,0.0059,0.0059,True,0,1,7
+K_sig_vs_K,Sigmoid Gate vs Linear Gate,condition_K_sigmoid_gate,condition_K_norm_reliability_gate,jer_collar0,-0.0045,-0.0145,0.001,0.0156,True,2,1,5
+K_sig_vs_K,Sigmoid Gate vs Linear Gate,condition_K_sigmoid_gate,condition_K_norm_reliability_gate,cpwer,-0.0072,-0.0226,0.001,0.0236,True,1,1,6
+K_sig_vs_K,Sigmoid Gate vs Linear Gate,condition_K_sigmoid_gate,condition_K_norm_reliability_gate,sawer,-0.0028,-0.0093,0.001,0.0103,True,1,1,6
+K_sig_vs_K,Sigmoid Gate vs Linear Gate,condition_K_sigmoid_gate,condition_K_norm_reliability_gate,micro_sacc,-0.0017,-0.0047,0.0,0.0047,True,0,2,6
+K_sig_vs_K,Sigmoid Gate vs Linear Gate,condition_K_sigmoid_gate,condition_K_norm_reliability_gate,macro_sacc,0.0126,-0.0003,0.038,0.0383,True,1,1,6
+K_sig_vs_K,Sigmoid Gate vs Linear Gate,condition_K_sigmoid_gate,condition_K_norm_reliability_gate,speaker_count_error_abs,-0.375,-1.125,0.0,1.125,True,1,0,7
+C_vs_A,Equal Fusion vs Raw TitaNet (Stage 5A),condition_C_norm_equal_weight_stage5a,condition_A_raw_titanet_dfn,der_collar0_ovl,-0.0005,-0.0086,0.0093,0.0179,True,5,1,2
+C_vs_A,Equal Fusion vs Raw TitaNet (Stage 5A),condition_C_norm_equal_weight_stage5a,condition_A_raw_titanet_dfn,der_collar025_noovl,-0.0007,-0.0083,0.0089,0.0172,True,4,2,2
+C_vs_A,Equal Fusion vs Raw TitaNet (Stage 5A),condition_C_norm_equal_weight_stage5a,condition_A_raw_titanet_dfn,jer_collar0,0.0005,-0.0106,0.0142,0.0248,True,4,3,1
+C_vs_A,Equal Fusion vs Raw TitaNet (Stage 5A),condition_C_norm_equal_weight_stage5a,condition_A_raw_titanet_dfn,cpwer,-0.0102,-0.0212,-0.001,0.0203,False,5,1,2
+C_vs_A,Equal Fusion vs Raw TitaNet (Stage 5A),condition_C_norm_equal_weight_stage5a,condition_A_raw_titanet_dfn,sawer,-0.0013,-0.0199,0.0162,0.0361,True,4,2,2
+C_vs_A,Equal Fusion vs Raw TitaNet (Stage 5A),condition_C_norm_equal_weight_stage5a,condition_A_raw_titanet_dfn,micro_sacc,-0.0026,-0.0124,0.0057,0.0181,True,2,4,2
+C_vs_A,Equal Fusion vs Raw TitaNet (Stage 5A),condition_C_norm_equal_weight_stage5a,condition_A_raw_titanet_dfn,macro_sacc,0.0083,-0.0015,0.0229,0.0244,True,5,1,2
+C_vs_A,Equal Fusion vs Raw TitaNet (Stage 5A),condition_C_norm_equal_weight_stage5a,condition_A_raw_titanet_dfn,speaker_count_error_abs,-0.25,-0.75,0.0,0.75,True,1,0,7
+C_vs_B,Equal Fusion vs Raw ResNet (Stage 5A),condition_C_norm_equal_weight_stage5a,condition_B_raw_resnet293_mono,der_collar0_ovl,0.0019,-0.0051,0.0099,0.015,True,3,4,1
+C_vs_B,Equal Fusion vs Raw ResNet (Stage 5A),condition_C_norm_equal_weight_stage5a,condition_B_raw_resnet293_mono,der_collar025_noovl,0.0071,-0.0041,0.0247,0.0288,True,3,4,1
+C_vs_B,Equal Fusion vs Raw ResNet (Stage 5A),condition_C_norm_equal_weight_stage5a,condition_B_raw_resnet293_mono,jer_collar0,0.0012,-0.0169,0.0188,0.0357,True,2,5,1
+C_vs_B,Equal Fusion vs Raw ResNet (Stage 5A),condition_C_norm_equal_weight_stage5a,condition_B_raw_resnet293_mono,cpwer,0.0061,-0.0367,0.0631,0.0997,True,3,3,2
+C_vs_B,Equal Fusion vs Raw ResNet (Stage 5A),condition_C_norm_equal_weight_stage5a,condition_B_raw_resnet293_mono,sawer,-0.0013,-0.0297,0.028,0.0577,True,3,3,2
+C_vs_B,Equal Fusion vs Raw ResNet (Stage 5A),condition_C_norm_equal_weight_stage5a,condition_B_raw_resnet293_mono,micro_sacc,-0.0028,-0.0166,0.007,0.0236,True,3,3,2
+C_vs_B,Equal Fusion vs Raw ResNet (Stage 5A),condition_C_norm_equal_weight_stage5a,condition_B_raw_resnet293_mono,macro_sacc,0.013,-0.0061,0.0424,0.0485,True,3,3,2
+C_vs_B,Equal Fusion vs Raw ResNet (Stage 5A),condition_C_norm_equal_weight_stage5a,condition_B_raw_resnet293_mono,speaker_count_error_abs,-0.375,-1.125,0.0,1.125,True,1,0,7
+K_vs_A,Reliability Gate vs Raw TitaNet (Stage 5A),condition_K_norm_reliability_gate,condition_A_raw_titanet_dfn,der_collar0_ovl,-0.003,-0.0089,0.0017,0.0106,True,5,1,2
+K_vs_A,Reliability Gate vs Raw TitaNet (Stage 5A),condition_K_norm_reliability_gate,condition_A_raw_titanet_dfn,der_collar025_noovl,-0.0032,-0.0088,0.0011,0.0099,True,4,2,2
+K_vs_A,Reliability Gate vs Raw TitaNet (Stage 5A),condition_K_norm_reliability_gate,condition_A_raw_titanet_dfn,jer_collar0,0.0048,-0.0046,0.0162,0.0208,True,3,4,1
+K_vs_A,Reliability Gate vs Raw TitaNet (Stage 5A),condition_K_norm_reliability_gate,condition_A_raw_titanet_dfn,cpwer,-0.0033,-0.0202,0.0198,0.04,True,5,1,2
+K_vs_A,Reliability Gate vs Raw TitaNet (Stage 5A),condition_K_norm_reliability_gate,condition_A_raw_titanet_dfn,sawer,0.0007,-0.0182,0.0249,0.0431,True,4,2,2
+K_vs_A,Reliability Gate vs Raw TitaNet (Stage 5A),condition_K_norm_reliability_gate,condition_A_raw_titanet_dfn,micro_sacc,-0.0009,-0.0077,0.006,0.0137,True,2,4,2
+K_vs_A,Reliability Gate vs Raw TitaNet (Stage 5A),condition_K_norm_reliability_gate,condition_A_raw_titanet_dfn,macro_sacc,-0.0044,-0.0163,0.0034,0.0196,True,4,2,2
+K_vs_A,Reliability Gate vs Raw TitaNet (Stage 5A),condition_K_norm_reliability_gate,condition_A_raw_titanet_dfn,speaker_count_error_abs,0.125,0.0,0.375,0.375,True,0,1,7
+K_vs_B,Reliability Gate vs Raw ResNet (Stage 5A),condition_K_norm_reliability_gate,condition_B_raw_resnet293_mono,der_collar0_ovl,-0.0006,-0.0106,0.0094,0.0201,True,3,4,1
+K_vs_B,Reliability Gate vs Raw ResNet (Stage 5A),condition_K_norm_reliability_gate,condition_B_raw_resnet293_mono,der_collar025_noovl,0.0045,-0.0101,0.0242,0.0342,True,3,4,1
+K_vs_B,Reliability Gate vs Raw ResNet (Stage 5A),condition_K_norm_reliability_gate,condition_B_raw_resnet293_mono,jer_collar0,0.0056,-0.0089,0.0192,0.0281,True,2,5,1
+K_vs_B,Reliability Gate vs Raw ResNet (Stage 5A),condition_K_norm_reliability_gate,condition_B_raw_resnet293_mono,cpwer,0.013,-0.0261,0.068,0.0941,True,3,3,2
+K_vs_B,Reliability Gate vs Raw ResNet (Stage 5A),condition_K_norm_reliability_gate,condition_B_raw_resnet293_mono,sawer,0.0008,-0.0258,0.0317,0.0575,True,3,3,2
+K_vs_B,Reliability Gate vs Raw ResNet (Stage 5A),condition_K_norm_reliability_gate,condition_B_raw_resnet293_mono,micro_sacc,-0.0011,-0.0154,0.0099,0.0253,True,3,3,2
+K_vs_B,Reliability Gate vs Raw ResNet (Stage 5A),condition_K_norm_reliability_gate,condition_B_raw_resnet293_mono,macro_sacc,0.0004,-0.0079,0.0073,0.0152,True,3,3,2
+K_vs_B,Reliability Gate vs Raw ResNet (Stage 5A),condition_K_norm_reliability_gate,condition_B_raw_resnet293_mono,speaker_count_error_abs,0.0,0.0,0.0,0.0,True,0,0,8

@@ -1,0 +1,11 @@
+{
+  "audit_status": "PASSED",
+  "baseline_files_count": 133,
+  "current_files_count": 133,
+  "baseline_total_bytes": 11457512,
+  "current_total_bytes": 11457512,
+  "missing_files": [],
+  "modified_files": [],
+  "added_files": [],
+  "git_status": "?? research_stages/stage5a_1/"
+}

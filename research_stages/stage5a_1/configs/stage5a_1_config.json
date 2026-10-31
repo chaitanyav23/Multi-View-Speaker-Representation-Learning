@@ -1,0 +1,48 @@
+{
+  "stage": "5a_1",
+  "name": "Affinity Normalization, Fusion Fairness & Implementation Audit",
+  "base_commit": "8826f5e5afaf9e3cf36b068c349486669c26c27a",
+  "seed": 42,
+  "recordings": [
+    "R01_sara_sharif",
+    "R02_dennis_skinner",
+    "R03_disabled_parking",
+    "R04_piers_robinson",
+    "R05_southwest_pilot",
+    "R06_rich_karen",
+    "R07_bwc_cheap_shot",
+    "R08_uk_parliament"
+  ],
+  "conditions": {
+    "A": "condition_A_raw_titanet_dfn",
+    "B": "condition_B_raw_resnet293_mono",
+    "C": "condition_C_norm_equal_weight_stage5a",
+    "H": "condition_H_norm_titanet_dfn_alone",
+    "I": "condition_I_norm_resnet293_mono_alone",
+    "J": "condition_J_norm_equal_weight_fusion",
+    "K": "condition_K_norm_reliability_gate",
+    "K_sig": "condition_K_sigmoid_gate"
+  },
+  "multiscale_weights": [
+    1.0,
+    2.0,
+    3.0,
+    3.0,
+    3.0
+  ],
+  "clustering_parameters": {
+    "method": "NME-SC",
+    "oracle_num_speakers": -1,
+    "max_num_speakers": 10,
+    "max_rp_threshold": 0.25,
+    "sparse_search_volume": 30,
+    "est_num_of_spk_enhanced": -1,
+    "fixed_thres": -1.0,
+    "kmeans_random_trials": 1
+  },
+  "bootstrap": {
+    "n_resamples": 2000,
+    "confidence_level": 0.95,
+    "seed": 42
+  }
+}

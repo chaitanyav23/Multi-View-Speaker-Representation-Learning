@@ -1,0 +1,26 @@
+[NeMo W 2026-10-31 03:54:13 <frozen importlib:241] Megatron num_microbatches_calculator not found, using Apex version.
+OneLogger: Setting error_handling_strategy to DISABLE_QUIETLY_AND_REPORT_METRIC_ERROR for rank (rank=0) with OneLogger disabled. To override: explicitly set error_handling_strategy parameter.
+No exporters were provided. This means that no telemetry data will be collected.
+================================================================================
+Stage 5A.1: Affinity Normalization, Fusion Fairness & Implementation Audit
+================================================================================
+Git Commit Hash: 8826f5e5afaf9e3cf36b068c349486669c26c27a
+Python: 3.10.20
+PyTorch: 2.8.0+cu128, CUDA: True
+GPU: NVIDIA GeForce RTX 4090
+
+[Stage 5A.1] Extracting Turn-Disjoint LOTO clean subsegments for hybrid gate training...
+[Stage 5A.1] Extracted 2771 clean turn-disjoint LOTO subsegments across eligible recordings.
+
+[Stage 5A.1] Executing Downstream Diarization & WhisperX Attribution for all conditions...
+
+[Stage 5A.1] Auditing Turn-Level Verification under 8-fold LORO with Fair Controls...
+[Stage 5A.1] Clean turns extracted: 250
+[Stage 5A.1] Revalidated 9489 within-recording clean turn pairs.
+
+[Stage 5A.1] Computing Error Complementarity Analysis...
+
+[Stage 5A.1] Computing Paired Clustered Bootstrap Analysis (B=2000, seed=42)...
+
+[Stage 5A.1] Master results saved to /home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage5a_1/downstream_metrics/stage5a_1_master_results.json
+[Stage 5A.1] Main controlled evaluation completed successfully!

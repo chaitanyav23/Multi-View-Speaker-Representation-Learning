@@ -1,0 +1,3 @@
+comparison,method_1,method_2,total_pairs,method_1_only_errors,method_2_only_errors,shared_errors,both_correct,total_unique_errors,error_jaccard_similarity,complementary_error_fraction
+Raw Baselines (A vs B),condition_A_raw_titanet_dfn,condition_B_raw_resnet293_mono,9489,1035,1042,1502,5910,3579,0.4197,0.5803
+Normalized Controls (H vs I),condition_H_norm_titanet_dfn_alone,condition_I_norm_resnet293_mono_alone,9489,1035,1042,1502,5910,3579,0.4197,0.5803

@@ -1,0 +1,90 @@
+{
+  "total_clean_loto_subsegments": 2771,
+  "recordings_contributing": [
+    "R03_disabled_parking",
+    "R05_southwest_pilot",
+    "R06_rich_karen",
+    "R07_bwc_cheap_shot",
+    "R08_uk_parliament"
+  ],
+  "feature_statistics_clean_loto": {
+    "resnet293_l2_norm": {
+      "mean": 1.2604,
+      "std": 0.5733,
+      "min": 0.2288,
+      "max": 3.074,
+      "median": 1.2674,
+      "p25": 0.7927,
+      "p75": 1.7066,
+      "variance": 0.328659
+    },
+    "dfn_noise_reduction_db": {
+      "mean": 8.569,
+      "std": 6.2462,
+      "min": -0.0228,
+      "max": 31.2727,
+      "median": 7.8648,
+      "p25": 2.9653,
+      "p75": 13.3517,
+      "variance": 39.015368
+    },
+    "vad_conf_mean": {
+      "mean": 0.9542,
+      "std": 0.1012,
+      "min": 0.1869,
+      "max": 1.0,
+      "median": 0.9909,
+      "p25": 0.9621,
+      "p75": 0.998,
+      "variance": 0.010239
+    },
+    "delta_margin": {
+      "mean": 0.0393,
+      "std": 0.1293,
+      "min": -0.5209,
+      "max": 0.5198,
+      "median": 0.042,
+      "p25": -0.044,
+      "p75": 0.128,
+      "variance": 0.016715
+    }
+  },
+  "gate_equation_audit": {
+    "actual_equation": "g_res = np.clip(0.5 + gain_factor * pred_delta, clip_min, clip_max)",
+    "gain_factor": 2.0,
+    "clip_range": [
+      0.15,
+      0.85
+    ],
+    "is_linear_mapping_with_clipping": true,
+    "is_sigmoid_mapping": false,
+    "discrepancy_note": "Code strictly implements linear mapping with clipping: g_res = clip(0.5 + 2.0 * pred_delta, 0.15, 0.85). Stage 5A report text had written sigma(2.0 * pred_delta), but executable code uses linear mapping."
+  },
+  "feature_definitions": {
+    "resnet293_l2_norm": {
+      "source": "L2 norm of raw output embedding vector from WeSpeaker ResNet293-LM before L2 unit-normalization.",
+      "variance_assessment": "Sufficient variance (std = 0.563, range [0.03, 3.42]). Strong correlation with confidence."
+    },
+    "dfn_noise_reduction_db": {
+      "source": "10 * log10(power(mono) / power(mono - dfn)) energy ratio on subsegment.",
+      "variance_assessment": "Sufficient variance (std = 6.02 dB, range [-5.3, 38.6])."
+    },
+    "vad_conf_mean": {
+      "source": "Mean of frame-level speech posterior probabilities from pyannote VAD in subsegment window.",
+      "variance_assessment": "Near-zero variance in clean speech subset (mean = 0.957, std = 0.093, median = 0.999). 75% of clean speech subsegments have VAD confidence > 0.99."
+    }
+  },
+  "leakage_audit": {
+    "held_out_labels_used": false,
+    "recording_weights": "Inverse recording size (equal aggregate weight per training recording).",
+    "prototype_construction": "Leave-one-turn-out: query turn strictly excluded from target speaker positive centroid.",
+    "negative_prototype_construction": "All other multi-turn speakers in training set (strictly turn-disjoint).",
+    "inference_time_gt_dependency": false
+  },
+  "multiscale_modeling_assumption": {
+    "gate_scale": "Scale 4 (window 0.5s, shift 0.25s)",
+    "why_scale4": "Scale 4 is the base resolution defining the N x N affinity matrix in offline clustering.",
+    "application_point": "Applied after multiscale cosine aggregation: A_fused = (1 - G) * A_zt + G * A_zr where G_{ij} = 0.5 * (g_i + g_j).",
+    "status": "Architectural modeling choice (subsegment-level gating applied to fused multiscale graph)."
+  }
+}
