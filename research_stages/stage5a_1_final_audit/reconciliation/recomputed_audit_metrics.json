@@ -1,0 +1,265 @@
+{
+  "verification_macro_recomputed": [
+    {
+      "method": "condition_A_raw_titanet_dfn",
+      "eligible_recordings_count": 6,
+      "eligible_recordings": [
+        "R01_sara_sharif",
+        "R03_disabled_parking",
+        "R05_southwest_pilot",
+        "R06_rich_karen",
+        "R07_bwc_cheap_shot",
+        "R08_uk_parliament"
+      ],
+      "recomputed_macro_5rec_roc_auc": 0.8238,
+      "recomputed_macro_5rec_frozen_hter": 0.338
+    },
+    {
+      "method": "condition_B_raw_resnet293_mono",
+      "eligible_recordings_count": 6,
+      "eligible_recordings": [
+        "R01_sara_sharif",
+        "R03_disabled_parking",
+        "R05_southwest_pilot",
+        "R06_rich_karen",
+        "R07_bwc_cheap_shot",
+        "R08_uk_parliament"
+      ],
+      "recomputed_macro_5rec_roc_auc": 0.823,
+      "recomputed_macro_5rec_frozen_hter": 0.324
+    },
+    {
+      "method": "condition_C_norm_equal_weight_stage5a",
+      "eligible_recordings_count": 6,
+      "eligible_recordings": [
+        "R01_sara_sharif",
+        "R03_disabled_parking",
+        "R05_southwest_pilot",
+        "R06_rich_karen",
+        "R07_bwc_cheap_shot",
+        "R08_uk_parliament"
+      ],
+      "recomputed_macro_5rec_roc_auc": 0.845,
+      "recomputed_macro_5rec_frozen_hter": 0.3269
+    },
+    {
+      "method": "condition_H_norm_titanet_dfn_alone",
+      "eligible_recordings_count": 6,
+      "eligible_recordings": [
+        "R01_sara_sharif",
+        "R03_disabled_parking",
+        "R05_southwest_pilot",
+        "R06_rich_karen",
+        "R07_bwc_cheap_shot",
+        "R08_uk_parliament"
+      ],
+      "recomputed_macro_5rec_roc_auc": 0.8238,
+      "recomputed_macro_5rec_frozen_hter": 0.338
+    },
+    {
+      "method": "condition_I_norm_resnet293_mono_alone",
+      "eligible_recordings_count": 6,
+      "eligible_recordings": [
+        "R01_sara_sharif",
+        "R03_disabled_parking",
+        "R05_southwest_pilot",
+        "R06_rich_karen",
+        "R07_bwc_cheap_shot",
+        "R08_uk_parliament"
+      ],
+      "recomputed_macro_5rec_roc_auc": 0.823,
+      "recomputed_macro_5rec_frozen_hter": 0.324
+    },
+    {
+      "method": "condition_J_norm_equal_weight_fusion",
+      "eligible_recordings_count": 6,
+      "eligible_recordings": [
+        "R01_sara_sharif",
+        "R03_disabled_parking",
+        "R05_southwest_pilot",
+        "R06_rich_karen",
+        "R07_bwc_cheap_shot",
+        "R08_uk_parliament"
+      ],
+      "recomputed_macro_5rec_roc_auc": 0.845,
+      "recomputed_macro_5rec_frozen_hter": 0.3269
+    },
+    {
+      "method": "condition_K_norm_reliability_gate",
+      "eligible_recordings_count": 6,
+      "eligible_recordings": [
+        "R01_sara_sharif",
+        "R03_disabled_parking",
+        "R05_southwest_pilot",
+        "R06_rich_karen",
+        "R07_bwc_cheap_shot",
+        "R08_uk_parliament"
+      ],
+      "recomputed_macro_5rec_roc_auc": 0.8458,
+      "recomputed_macro_5rec_frozen_hter": 0.319
+    },
+    {
+      "method": "condition_K_sigmoid_gate",
+      "eligible_recordings_count": 6,
+      "eligible_recordings": [
+        "R01_sara_sharif",
+        "R03_disabled_parking",
+        "R05_southwest_pilot",
+        "R06_rich_karen",
+        "R07_bwc_cheap_shot",
+        "R08_uk_parliament"
+      ],
+      "recomputed_macro_5rec_roc_auc": 0.8454,
+      "recomputed_macro_5rec_frozen_hter": 0.3269
+    }
+  ],
+  "diarization_summary_recomputed": [
+    {
+      "method": "condition_A_raw_titanet_dfn",
+      "macro_der_collar0_ovl": 0.4622,
+      "dur_weighted_der_collar0_ovl": 0.5144,
+      "macro_der_collar025_noovl": 0.3972,
+      "dur_weighted_der_collar025_noovl": 0.4529,
+      "macro_jer": 0.6214,
+      "macro_false_alarm": 0.1333,
+      "macro_miss": 0.2441,
+      "macro_confusion": 0.0848,
+      "spk_count_mae": 1.5,
+      "spk_count_signed_bias": -1.5,
+      "single_spk_collapse_count": 1,
+      "macro_cpwer": 0.3807,
+      "macro_sawer": 0.4658,
+      "macro_micro_sacc": 0.8427,
+      "macro_macro_sacc": 0.4942
+    },
+    {
+      "method": "condition_B_raw_resnet293_mono",
+      "macro_der_collar0_ovl": 0.4598,
+      "dur_weighted_der_collar0_ovl": 0.5222,
+      "macro_der_collar025_noovl": 0.3894,
+      "dur_weighted_der_collar025_noovl": 0.4561,
+      "macro_jer": 0.6207,
+      "macro_false_alarm": 0.1333,
+      "macro_miss": 0.2441,
+      "macro_confusion": 0.0824,
+      "spk_count_mae": 1.625,
+      "spk_count_signed_bias": -1.625,
+      "single_spk_collapse_count": 1,
+      "macro_cpwer": 0.3644,
+      "macro_sawer": 0.4658,
+      "macro_micro_sacc": 0.8429,
+      "macro_macro_sacc": 0.4894
+    },
+    {
+      "method": "condition_C_norm_equal_weight_stage5a",
+      "macro_der_collar0_ovl": 0.4617,
+      "dur_weighted_der_collar0_ovl": 0.5218,
+      "macro_der_collar025_noovl": 0.3965,
+      "dur_weighted_der_collar025_noovl": 0.4597,
+      "macro_jer": 0.622,
+      "macro_false_alarm": 0.1333,
+      "macro_miss": 0.2441,
+      "macro_confusion": 0.0843,
+      "spk_count_mae": 1.25,
+      "spk_count_signed_bias": -1.25,
+      "single_spk_collapse_count": 1,
+      "macro_cpwer": 0.3705,
+      "macro_sawer": 0.4645,
+      "macro_micro_sacc": 0.8401,
+      "macro_macro_sacc": 0.5025
+    },
+    {
+      "method": "condition_H_norm_titanet_dfn_alone",
+      "macro_der_collar0_ovl": 0.4622,
+      "dur_weighted_der_collar0_ovl": 0.5144,
+      "macro_der_collar025_noovl": 0.3972,
+      "dur_weighted_der_collar025_noovl": 0.4529,
+      "macro_jer": 0.6214,
+      "macro_false_alarm": 0.1333,
+      "macro_miss": 0.2441,
+      "macro_confusion": 0.0848,
+      "spk_count_mae": 1.5,
+      "spk_count_signed_bias": -1.5,
+      "single_spk_collapse_count": 1,
+      "macro_cpwer": 0.3807,
+      "macro_sawer": 0.4658,
+      "macro_micro_sacc": 0.8427,
+      "macro_macro_sacc": 0.4942
+    },
+    {
+      "method": "condition_I_norm_resnet293_mono_alone",
+      "macro_der_collar0_ovl": 0.4598,
+      "dur_weighted_der_collar0_ovl": 0.5222,
+      "macro_der_collar025_noovl": 0.3894,
+      "dur_weighted_der_collar025_noovl": 0.4561,
+      "macro_jer": 0.6207,
+      "macro_false_alarm": 0.1333,
+      "macro_miss": 0.2441,
+      "macro_confusion": 0.0824,
+      "spk_count_mae": 1.625,
+      "spk_count_signed_bias": -1.625,
+      "single_spk_collapse_count": 1,
+      "macro_cpwer": 0.3644,
+      "macro_sawer": 0.4658,
+      "macro_micro_sacc": 0.8429,
+      "macro_macro_sacc": 0.4894
+    },
+    {
+      "method": "condition_J_norm_equal_weight_fusion",
+      "macro_der_collar0_ovl": 0.4617,
+      "dur_weighted_der_collar0_ovl": 0.5218,
+      "macro_der_collar025_noovl": 0.3965,
+      "dur_weighted_der_collar025_noovl": 0.4597,
+      "macro_jer": 0.622,
+      "macro_false_alarm": 0.1333,
+      "macro_miss": 0.2441,
+      "macro_confusion": 0.0843,
+      "spk_count_mae": 1.25,
+      "spk_count_signed_bias": -1.25,
+      "single_spk_collapse_count": 1,
+      "macro_cpwer": 0.3705,
+      "macro_sawer": 0.4645,
+      "macro_micro_sacc": 0.8401,
+      "macro_macro_sacc": 0.5025
+    },
+    {
+      "method": "condition_K_norm_reliability_gate",
+      "macro_der_collar0_ovl": 0.4592,
+      "dur_weighted_der_collar0_ovl": 0.5149,
+      "macro_der_collar025_noovl": 0.3939,
+      "dur_weighted_der_collar025_noovl": 0.4526,
+      "macro_jer": 0.6263,
+      "macro_false_alarm": 0.1333,
+      "macro_miss": 0.2441,
+      "macro_confusion": 0.0818,
+      "spk_count_mae": 1.625,
+      "spk_count_signed_bias": -1.625,
+      "single_spk_collapse_count": 1,
+      "macro_cpwer": 0.3774,
+      "macro_sawer": 0.4665,
+      "macro_micro_sacc": 0.8418,
+      "macro_macro_sacc": 0.4899
+    },
+    {
+      "method": "condition_K_sigmoid_gate",
+      "macro_der_collar0_ovl": 0.4612,
+      "dur_weighted_der_collar0_ovl": 0.5203,
+      "macro_der_collar025_noovl": 0.3959,
+      "dur_weighted_der_collar025_noovl": 0.4581,
+      "macro_jer": 0.6217,
+      "macro_false_alarm": 0.1333,
+      "macro_miss": 0.2441,
+      "macro_confusion": 0.0837,
+      "spk_count_mae": 1.25,
+      "spk_count_signed_bias": -1.25,
+      "single_spk_collapse_count": 1,
+      "macro_cpwer": 0.3702,
+      "macro_sawer": 0.4637,
+      "macro_micro_sacc": 0.8401,
+      "macro_macro_sacc": 0.5024
+    }
+  ],
+  "c_vs_j_differences_count": 0,
+  "h_vs_a_differences_count": 0,
+  "i_vs_b_differences_count": 0
+}

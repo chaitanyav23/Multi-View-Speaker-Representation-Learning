@@ -1,0 +1,191 @@
+{
+  "stage5a_turns_count": 254,
+  "stage5a_1_turns_count": 250,
+  "diff_in_5a_only": [
+    {
+      "rec_id": "R03_disabled_parking",
+      "seg_idx": 41,
+      "speaker": "Speaker_1",
+      "global_speaker_id": "R03_disabled_parking::Speaker_1",
+      "start": 133.0,
+      "end": 134.0,
+      "duration": 1.0,
+      "num_subsegments_pooled": 1,
+      "pooled_idxs": [
+        455
+      ]
+    },
+    {
+      "rec_id": "R06_rich_karen",
+      "seg_idx": 66,
+      "speaker": "Speaker_7",
+      "global_speaker_id": "R06_rich_karen::Speaker_7",
+      "start": 288.0,
+      "end": 289.0,
+      "duration": 1.0,
+      "num_subsegments_pooled": 1,
+      "pooled_idxs": [
+        526
+      ]
+    },
+    {
+      "rec_id": "R06_rich_karen",
+      "seg_idx": 85,
+      "speaker": "Speaker_4",
+      "global_speaker_id": "R06_rich_karen::Speaker_4",
+      "start": 334.0,
+      "end": 335.0,
+      "duration": 1.0,
+      "num_subsegments_pooled": 1,
+      "pooled_idxs": [
+        669
+      ]
+    },
+    {
+      "rec_id": "R07_bwc_cheap_shot",
+      "seg_idx": 44,
+      "speaker": "Speaker_1",
+      "global_speaker_id": "R07_bwc_cheap_shot::Speaker_1",
+      "start": 135.0,
+      "end": 136.0,
+      "duration": 1.0,
+      "num_subsegments_pooled": 1,
+      "pooled_idxs": [
+        373
+      ]
+    }
+  ],
+  "diff_in_5a_1_only": [],
+  "stage5a_recording_breakdown": {
+    "R01_sara_sharif": {
+      "clean_turns": 6,
+      "pos_pairs": 1,
+      "neg_pairs": 14,
+      "total_pairs": 15,
+      "n_choose_2": 15,
+      "eligible_for_roc_auc": true
+    },
+    "R02_dennis_skinner": {
+      "clean_turns": 2,
+      "pos_pairs": 1,
+      "neg_pairs": 0,
+      "total_pairs": 16,
+      "n_choose_2": 1,
+      "eligible_for_roc_auc": false
+    },
+    "R03_disabled_parking": {
+      "clean_turns": 51,
+      "pos_pairs": 556,
+      "neg_pairs": 719,
+      "total_pairs": 1291,
+      "n_choose_2": 1275,
+      "eligible_for_roc_auc": true
+    },
+    "R04_piers_robinson": {
+      "clean_turns": 3,
+      "pos_pairs": 0,
+      "neg_pairs": 3,
+      "total_pairs": 1294,
+      "n_choose_2": 3,
+      "eligible_for_roc_auc": false
+    },
+    "R05_southwest_pilot": {
+      "clean_turns": 25,
+      "pos_pairs": 134,
+      "neg_pairs": 166,
+      "total_pairs": 1594,
+      "n_choose_2": 300,
+      "eligible_for_roc_auc": true
+    },
+    "R06_rich_karen": {
+      "clean_turns": 124,
+      "pos_pairs": 1834,
+      "neg_pairs": 5792,
+      "total_pairs": 9220,
+      "n_choose_2": 7626,
+      "eligible_for_roc_auc": true
+    },
+    "R07_bwc_cheap_shot": {
+      "clean_turns": 34,
+      "pos_pairs": 286,
+      "neg_pairs": 275,
+      "total_pairs": 9781,
+      "n_choose_2": 561,
+      "eligible_for_roc_auc": true
+    },
+    "R08_uk_parliament": {
+      "clean_turns": 9,
+      "pos_pairs": 16,
+      "neg_pairs": 20,
+      "total_pairs": 9817,
+      "n_choose_2": 36,
+      "eligible_for_roc_auc": true
+    }
+  },
+  "stage5a_1_recording_breakdown": {
+    "R01_sara_sharif": {
+      "clean_turns": 6,
+      "pos_pairs": 1,
+      "neg_pairs": 14,
+      "total_pairs": 15,
+      "n_choose_2": 15,
+      "eligible_for_roc_auc": true
+    },
+    "R02_dennis_skinner": {
+      "clean_turns": 2,
+      "pos_pairs": 1,
+      "neg_pairs": 0,
+      "total_pairs": 16,
+      "n_choose_2": 1,
+      "eligible_for_roc_auc": false
+    },
+    "R03_disabled_parking": {
+      "clean_turns": 50,
+      "pos_pairs": 531,
+      "neg_pairs": 694,
+      "total_pairs": 1241,
+      "n_choose_2": 1225,
+      "eligible_for_roc_auc": true
+    },
+    "R04_piers_robinson": {
+      "clean_turns": 3,
+      "pos_pairs": 0,
+      "neg_pairs": 3,
+      "total_pairs": 1244,
+      "n_choose_2": 3,
+      "eligible_for_roc_auc": false
+    },
+    "R05_southwest_pilot": {
+      "clean_turns": 25,
+      "pos_pairs": 134,
+      "neg_pairs": 166,
+      "total_pairs": 1544,
+      "n_choose_2": 300,
+      "eligible_for_roc_auc": true
+    },
+    "R06_rich_karen": {
+      "clean_turns": 122,
+      "pos_pairs": 1819,
+      "neg_pairs": 5562,
+      "total_pairs": 8925,
+      "n_choose_2": 7381,
+      "eligible_for_roc_auc": true
+    },
+    "R07_bwc_cheap_shot": {
+      "clean_turns": 33,
+      "pos_pairs": 265,
+      "neg_pairs": 263,
+      "total_pairs": 9453,
+      "n_choose_2": 528,
+      "eligible_for_roc_auc": true
+    },
+    "R08_uk_parliament": {
+      "clean_turns": 9,
+      "pos_pairs": 16,
+      "neg_pairs": 20,
+      "total_pairs": 9489,
+      "n_choose_2": 36,
+      "eligible_for_roc_auc": true
+    }
+  }
+}

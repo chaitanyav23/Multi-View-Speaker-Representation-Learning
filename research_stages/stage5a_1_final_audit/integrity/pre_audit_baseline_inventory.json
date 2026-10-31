@@ -1,0 +1,1436 @@
+{
+  "git_commit": "16d80ec3e98da93d9a8692df6dd9661723afe0c1",
+  "git_status": "",
+  "stage5a": {
+    "total_files": 133,
+    "total_size_bytes": 11457512,
+    "files": {
+      "research_stages/stage5a/logs/stage5a_execution.log": {
+        "size": 1694,
+        "mtime": 1793415314.252649,
+        "sha256": "53e5b45235bb2a1b7bf38d264d04b72f6b685344ea78d8f4af96fc278b112722"
+      },
+      "research_stages/stage5a/configs/stage5a_config.json": {
+        "size": 4134,
+        "mtime": 1793414979.567246,
+        "sha256": "e12812ebcd211b36bf9981d09c01b52e49911901780249422bef944e04034c42"
+      },
+      "research_stages/stage5a/metrics/stage5a_clustered_bootstrap_metrics.csv": {
+        "size": 4887,
+        "mtime": 1793415314.2376487,
+        "sha256": "aca7160e32545f35894230f0c4fa0510b1f84ed1c6b2d83b3e91ed93da7421b5"
+      },
+      "research_stages/stage5a/metrics/stage5a_gate_loto_evaluation.csv": {
+        "size": 4285,
+        "mtime": 1793415228.385619,
+        "sha256": "e91117eefb56a2711230e42a64841cc23cd671bb8ee04b806ddc6a4ce9267c07"
+      },
+      "research_stages/stage5a/metrics/stage5a_gate_parameters.json": {
+        "size": 17512,
+        "mtime": 1793415228.386619,
+        "sha256": "c1f434a0a9fa60e309eaab301cfbe4aee30a87b6392f0ba59bd5d8697a9edbaf"
+      },
+      "research_stages/stage5a/metrics/stage5a_loro_verification_per_recording.csv": {
+        "size": 6725,
+        "mtime": 1793415314.2096481,
+        "sha256": "2103a443eb669952d01bae02c9c8e56cdd041e1fd86fe048adeeaa9a59a6310b"
+      },
+      "research_stages/stage5a/metrics/stage5a_loro_verification_summary.csv": {
+        "size": 1189,
+        "mtime": 1793415314.2286487,
+        "sha256": "2e2e1189ae504502eedb57f6dad1d0071c57ae038373baccd7beb68e98a00aeb"
+      },
+      "research_stages/stage5a/metrics/stage5a_master_results.json": {
+        "size": 20797,
+        "mtime": 1793415314.249649,
+        "sha256": "c1bc73566be2ecda358771fcde472dc225b8c003df63df0f5c2bf9c06400ce59"
+      },
+      "research_stages/stage5a/metrics/stage5a_paired_bootstrap_differences.csv": {
+        "size": 11306,
+        "mtime": 1793415314.249649,
+        "sha256": "8a02fc0c7e83126108fd8f164bd40e844b98c3f3f835b7593c9b4cc2ec399a12"
+      },
+      "research_stages/stage5a/metrics/stage5a_per_recording_diarization.csv": {
+        "size": 9405,
+        "mtime": 1793415313.226626,
+        "sha256": "f49776942890acd96378b0306b0530135f9e86eaa4eb8a209752c929b3c1f0c5"
+      },
+      "research_stages/stage5a/metrics/stage5a_summary_diarization.csv": {
+        "size": 1071,
+        "mtime": 1793415313.227626,
+        "sha256": "a6fef5744e33d957c5a2e91afbb4f0def1a2ff862a2a8bd7b033219c9e0a3034"
+      },
+      "research_stages/stage5a/reports/STAGE5A_ABLATION_ANALYSIS.md": {
+        "size": 8318,
+        "mtime": 1793415511.3216717,
+        "sha256": "bee2d6c1bfb0f112a5e9aab3149c8581c3653c8caedac62c5eed4ab86a54476f"
+      },
+      "research_stages/stage5a/reports/STAGE5A_EXECUTION_REPORT.md": {
+        "size": 12734,
+        "mtime": 1793415445.9454222,
+        "sha256": "4ad00e4703b5ad1ff56d806b85b48e7d83f1109f4d6fa5a5c359ab5a2857e26b"
+      },
+      "research_stages/stage5a/reports/STAGE5A_NEXT_STAGE_RECOMMENDATION.md": {
+        "size": 9522,
+        "mtime": 1793415553.2964358,
+        "sha256": "0c709afa857dbffe3171762111e54550506742b126458130e27aa7f858dc8bdb"
+      },
+      "research_stages/stage5a/reports/STAGE5A_RESULTS.md": {
+        "size": 13620,
+        "mtime": 1793415485.11818,
+        "sha256": "9c9893cc118133af34901f81bb6983b09be3c10a36847a44ae5c2c8a6ccfebf5"
+      },
+      "research_stages/stage5a/reports/STAGE5A_VALIDATION_AUDIT.md": {
+        "size": 7002,
+        "mtime": 1793415529.5470068,
+        "sha256": "3e3ea40302fe534668676624fed734279138032a965cfef57310029e844ce9ef"
+      },
+      "research_stages/stage5a/scripts/fusion_models.py": {
+        "size": 5151,
+        "mtime": 1793415023.6655583,
+        "sha256": "88703dd07f5cb85fec481b7d212431048976cdbcece91f5e72af434d3ac4f2a4"
+      },
+      "research_stages/stage5a/scripts/run_stage5a_eval.py": {
+        "size": 38407,
+        "mtime": 1793415196.9908254,
+        "sha256": "3f689e0a66a8e602739bf452c42fc21c00ce8f0807e9ba2639276a257d6d55d2"
+      },
+      "research_stages/stage5a/scripts/validate_inputs_and_caches.py": {
+        "size": 5258,
+        "mtime": 1793414998.6123807,
+        "sha256": "bab1d4240cc95aae11deec3c916bf979d7c2165f9d3f6a7128e60f5ef38d1e35"
+      },
+      "research_stages/stage5a/scripts/__pycache__/fusion_models.cpython-310.pyc": {
+        "size": 6444,
+        "mtime": 1793415227.461596,
+        "sha256": "6ca3c766c7283e6a1ba99a291f51304ccdf1d18a89a79b1bfa61b7fad09d7a69"
+      },
+      "research_stages/stage5a/scripts/__pycache__/validate_inputs_and_caches.cpython-310.pyc": {
+        "size": 4437,
+        "mtime": 1793415227.4625962,
+        "sha256": "8eb33f624734b1ba26e0246149c11ce09786e9dd55557350299ad93ad5c63944"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_A_titanet_dfn_baseline/R01_sara_sharif_dfn.rttm": {
+        "size": 2231,
+        "mtime": 1793415228.8966317,
+        "sha256": "d097cbbffad9b83d453093b7609d65ecba66f71d6a4580e99f518d6d49bde5d0"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_A_titanet_dfn_baseline/R02_dennis_skinner_dfn.rttm": {
+        "size": 3702,
+        "mtime": 1793415231.3606927,
+        "sha256": "ce8ced59e7783da1b69c3c6327defdd13c8c8ef3190f1201dd6563f448456df7"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_A_titanet_dfn_baseline/R03_disabled_parking_dfn.rttm": {
+        "size": 5114,
+        "mtime": 1793415234.8757794,
+        "sha256": "7a5d8d118b55257a56f8caa3584137c8057b114ad29375c55b04881b43831fc7"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_A_titanet_dfn_baseline/R04_piers_robinson_dfn.rttm": {
+        "size": 4828,
+        "mtime": 1793415242.9759781,
+        "sha256": "16fc7c4afec1082a8faa8781e521155af463761dcf919a3b155e44b408927040"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_A_titanet_dfn_baseline/R05_southwest_pilot_dfn.rttm": {
+        "size": 5839,
+        "mtime": 1793415253.5122335,
+        "sha256": "3c0518d32be45ada7100ef6508565bb23578a7f8701a128f732ca938d287ca45"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_A_titanet_dfn_baseline/R06_rich_karen_dfn.rttm": {
+        "size": 17611,
+        "mtime": 1793415257.6673336,
+        "sha256": "2c47288743ae86455e0286bfb6a18ba86b4bb970bc856f62bffbea45e2b853c7"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_A_titanet_dfn_baseline/R07_bwc_cheap_shot_dfn.rttm": {
+        "size": 3545,
+        "mtime": 1793415302.4213808,
+        "sha256": "3f70b4b94727891cd669c153169e470499a8dcd20d2ed7e2d12069ed8aaea1b6"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_A_titanet_dfn_baseline/R08_uk_parliament_dfn.rttm": {
+        "size": 2460,
+        "mtime": 1793415308.5515203,
+        "sha256": "b3ce7f57386f63e828a78bb448463354b52589451219ec3876b48d6526e8e2a8"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_F_gate_ablation_no_dfn_nr/R01_sara_sharif_dfn.rttm": {
+        "size": 2077,
+        "mtime": 1793415230.3456676,
+        "sha256": "127aeba31fd00f61c755926cac9a9fb4616c8da105e2a9893f65928c0bc5b6d9"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_F_gate_ablation_no_dfn_nr/R02_dennis_skinner_dfn.rttm": {
+        "size": 4107,
+        "mtime": 1793415233.723751,
+        "sha256": "fdb9e3c5a97a4214971f758b85330628a577ffe855599b6b3012a9bdf66ac56c"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_F_gate_ablation_no_dfn_nr/R03_disabled_parking_dfn.rttm": {
+        "size": 5197,
+        "mtime": 1793415240.642921,
+        "sha256": "9321467343261b4c4c15b1a5a85aa79887c81fad0b8651e3d2b29cb9dbeded75"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_F_gate_ablation_no_dfn_nr/R04_piers_robinson_dfn.rttm": {
+        "size": 5709,
+        "mtime": 1793415250.391158,
+        "sha256": "cc491a3cd6efbf7f48a26a899617ef5d4e1e059a4422a019916c426512535afd"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_F_gate_ablation_no_dfn_nr/R05_southwest_pilot_dfn.rttm": {
+        "size": 5677,
+        "mtime": 1793415256.3313015,
+        "sha256": "d107966595c3fea9a25dca6b9c725b1b5053418dbecd8f996322f6fceeb24438"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_F_gate_ablation_no_dfn_nr/R06_rich_karen_dfn.rttm": {
+        "size": 16840,
+        "mtime": 1793415289.4090817,
+        "sha256": "ce8f31acc7349eaacd060a42393741e0f1f655a88cacee0e389e86f38435cfe9"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_F_gate_ablation_no_dfn_nr/R07_bwc_cheap_shot_dfn.rttm": {
+        "size": 3545,
+        "mtime": 1793415306.6194763,
+        "sha256": "3f70b4b94727891cd669c153169e470499a8dcd20d2ed7e2d12069ed8aaea1b6"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_F_gate_ablation_no_dfn_nr/R08_uk_parliament_dfn.rttm": {
+        "size": 2460,
+        "mtime": 1793415312.0766,
+        "sha256": "a2d3d98fda9aed0126c57b74a331f346ffafcbabcf19ca1fc516bee6d489a15d"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_G_gate_ablation_no_vad_conf/R01_sara_sharif_dfn.rttm": {
+        "size": 2077,
+        "mtime": 1793415230.8266795,
+        "sha256": "843a1b92305ec6d6ad09f168f025d843b2518342bfcdd77ea7f4c23b8d7cbdb6"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_G_gate_ablation_no_vad_conf/R02_dennis_skinner_dfn.rttm": {
+        "size": 4107,
+        "mtime": 1793415234.3847673,
+        "sha256": "fdb9e3c5a97a4214971f758b85330628a577ffe855599b6b3012a9bdf66ac56c"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_G_gate_ablation_no_vad_conf/R03_disabled_parking_dfn.rttm": {
+        "size": 5031,
+        "mtime": 1793415241.742948,
+        "sha256": "4e6db376f59765c2d5770b8004d511a32c2b95396f37a21b7615e851a8778748"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_G_gate_ablation_no_vad_conf/R04_piers_robinson_dfn.rttm": {
+        "size": 5709,
+        "mtime": 1793415251.8321931,
+        "sha256": "556e6697bba9420faef92782f7137273f6b1ee59b95eeeadfb8ccbc520e636d0"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_G_gate_ablation_no_vad_conf/R05_southwest_pilot_dfn.rttm": {
+        "size": 5838,
+        "mtime": 1793415256.8593142,
+        "sha256": "e1bd345194afc198e5a26d4ab5d2ebf35aab0f37366729228225e734d620b560"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_G_gate_ablation_no_vad_conf/R06_rich_karen_dfn.rttm": {
+        "size": 18457,
+        "mtime": 1793415295.84323,
+        "sha256": "0bc20ce606b044a21a5fc6fefa09e1e80481693e576f0e4f4b6aaa8217862055"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_G_gate_ablation_no_vad_conf/R07_bwc_cheap_shot_dfn.rttm": {
+        "size": 3545,
+        "mtime": 1793415307.4604955,
+        "sha256": "3f70b4b94727891cd669c153169e470499a8dcd20d2ed7e2d12069ed8aaea1b6"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_G_gate_ablation_no_vad_conf/R08_uk_parliament_dfn.rttm": {
+        "size": 2460,
+        "mtime": 1793415312.747615,
+        "sha256": "a2d3d98fda9aed0126c57b74a331f346ffafcbabcf19ca1fc516bee6d489a15d"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_E_gate_ablation_no_resnet_l2/R01_sara_sharif_dfn.rttm": {
+        "size": 2077,
+        "mtime": 1793415230.0546603,
+        "sha256": "127aeba31fd00f61c755926cac9a9fb4616c8da105e2a9893f65928c0bc5b6d9"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_E_gate_ablation_no_resnet_l2/R02_dennis_skinner_dfn.rttm": {
+        "size": 4107,
+        "mtime": 1793415233.2517395,
+        "sha256": "fdb9e3c5a97a4214971f758b85330628a577ffe855599b6b3012a9bdf66ac56c"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_E_gate_ablation_no_resnet_l2/R03_disabled_parking_dfn.rttm": {
+        "size": 5031,
+        "mtime": 1793415239.540894,
+        "sha256": "d4cb4cfc7ea7c546cd7176d97f615da319efa2a4e01858563cb10d8e8bf156cc"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_E_gate_ablation_no_resnet_l2/R04_piers_robinson_dfn.rttm": {
+        "size": 5789,
+        "mtime": 1793415248.943123,
+        "sha256": "d4c8d86b3df0c4b3d49cce579776436f7b6f629f0183a1f789c63507403072ba"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_E_gate_ablation_no_resnet_l2/R05_southwest_pilot_dfn.rttm": {
+        "size": 5839,
+        "mtime": 1793415255.6162841,
+        "sha256": "40bb3f37fd1da06ec0f0e34908cf3ee81efde5cd8b2114bb32c1f7e57a349f51"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_E_gate_ablation_no_resnet_l2/R06_rich_karen_dfn.rttm": {
+        "size": 20919,
+        "mtime": 1793415283.223938,
+        "sha256": "b8baf16cee3b8d030412f473cfa76443552a7597dd543ce5e69458822cca6248"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_E_gate_ablation_no_resnet_l2/R07_bwc_cheap_shot_dfn.rttm": {
+        "size": 3545,
+        "mtime": 1793415305.7814574,
+        "sha256": "3f70b4b94727891cd669c153169e470499a8dcd20d2ed7e2d12069ed8aaea1b6"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_E_gate_ablation_no_resnet_l2/R08_uk_parliament_dfn.rttm": {
+        "size": 2460,
+        "mtime": 1793415311.2195807,
+        "sha256": "a2d3d98fda9aed0126c57b74a331f346ffafcbabcf19ca1fc516bee6d489a15d"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_B_resnet293_mono_baseline/R01_sara_sharif_dfn.rttm": {
+        "size": 2077,
+        "mtime": 1793415229.185639,
+        "sha256": "41e566de585f627b961307243e5f0b209c82aab9d66588bf66165f2ca7afd1a2"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_B_resnet293_mono_baseline/R02_dennis_skinner_dfn.rttm": {
+        "size": 5160,
+        "mtime": 1793415231.8337045,
+        "sha256": "9186df0d0acef4a602265b846232608a5407ea6774ad0b43d915de8888a7c6fc"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_B_resnet293_mono_baseline/R03_disabled_parking_dfn.rttm": {
+        "size": 5280,
+        "mtime": 1793415235.992807,
+        "sha256": "185e2c8d0c71ff1a1f60465959de15c6f05b0e26e76eff4299c6627e3e6ff282"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_B_resnet293_mono_baseline/R04_piers_robinson_dfn.rttm": {
+        "size": 6109,
+        "mtime": 1793415244.4170132,
+        "sha256": "3e3f1b6326d56ae3f1780fd867aaf37379e50b8ae482bc5ce3fdfb313bf1e9fc"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_B_resnet293_mono_baseline/R05_southwest_pilot_dfn.rttm": {
+        "size": 6001,
+        "mtime": 1793415254.0382462,
+        "sha256": "4e4391edbd7c7ce1dec96b45ca62461cfc5190e0c9f044c504116d99f27122d3"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_B_resnet293_mono_baseline/R06_rich_karen_dfn.rttm": {
+        "size": 19379,
+        "mtime": 1793415264.1254878,
+        "sha256": "81c1212c7e1b8ff505d508f18e2312c3c5d8fe971dc17adcf12801c841cd9140"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_B_resnet293_mono_baseline/R07_bwc_cheap_shot_dfn.rttm": {
+        "size": 3545,
+        "mtime": 1793415303.2634,
+        "sha256": "3f70b4b94727891cd669c153169e470499a8dcd20d2ed7e2d12069ed8aaea1b6"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_B_resnet293_mono_baseline/R08_uk_parliament_dfn.rttm": {
+        "size": 2382,
+        "mtime": 1793415309.2185354,
+        "sha256": "5fd2fb4732bb7aa820bc03b57f23bcaebce97cc537a6b1372bf4b754f39e636d"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_C_equal_weight_affinity/R01_sara_sharif_dfn.rttm": {
+        "size": 2077,
+        "mtime": 1793415229.474646,
+        "sha256": "843a1b92305ec6d6ad09f168f025d843b2518342bfcdd77ea7f4c23b8d7cbdb6"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_C_equal_weight_affinity/R02_dennis_skinner_dfn.rttm": {
+        "size": 4107,
+        "mtime": 1793415232.3137162,
+        "sha256": "fdb9e3c5a97a4214971f758b85330628a577ffe855599b6b3012a9bdf66ac56c"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_C_equal_weight_affinity/R03_disabled_parking_dfn.rttm": {
+        "size": 5031,
+        "mtime": 1793415237.1248348,
+        "sha256": "4e6db376f59765c2d5770b8004d511a32c2b95396f37a21b7615e851a8778748"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_C_equal_weight_affinity/R04_piers_robinson_dfn.rttm": {
+        "size": 5549,
+        "mtime": 1793415246.0470529,
+        "sha256": "f2c72ba7533d9a39b63212e5d4ee413d105e7af666caa5134d380295d9211365"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_C_equal_weight_affinity/R05_southwest_pilot_dfn.rttm": {
+        "size": 5677,
+        "mtime": 1793415254.563259,
+        "sha256": "e0d874c2287c558416a9aa878695c4c4162e05d7fc59ec0477ae8201b078679b"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_C_equal_weight_affinity/R06_rich_karen_dfn.rttm": {
+        "size": 20150,
+        "mtime": 1793415270.3786364,
+        "sha256": "eb8aedfb64d2347e39239ac46c49fcb7f795f62e0aa41b9923cb84e6a4b046c6"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_C_equal_weight_affinity/R07_bwc_cheap_shot_dfn.rttm": {
+        "size": 3545,
+        "mtime": 1793415304.103419,
+        "sha256": "3f70b4b94727891cd669c153169e470499a8dcd20d2ed7e2d12069ed8aaea1b6"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_C_equal_weight_affinity/R08_uk_parliament_dfn.rttm": {
+        "size": 2460,
+        "mtime": 1793415309.8865504,
+        "sha256": "a2d3d98fda9aed0126c57b74a331f346ffafcbabcf19ca1fc516bee6d489a15d"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_D_three_feature_reliability_gate/R01_sara_sharif_dfn.rttm": {
+        "size": 2077,
+        "mtime": 1793415229.7646532,
+        "sha256": "127aeba31fd00f61c755926cac9a9fb4616c8da105e2a9893f65928c0bc5b6d9"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_D_three_feature_reliability_gate/R02_dennis_skinner_dfn.rttm": {
+        "size": 4107,
+        "mtime": 1793415232.7817278,
+        "sha256": "fdb9e3c5a97a4214971f758b85330628a577ffe855599b6b3012a9bdf66ac56c"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_D_three_feature_reliability_gate/R03_disabled_parking_dfn.rttm": {
+        "size": 5031,
+        "mtime": 1793415238.234862,
+        "sha256": "4e6db376f59765c2d5770b8004d511a32c2b95396f37a21b7615e851a8778748"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_D_three_feature_reliability_gate/R04_piers_robinson_dfn.rttm": {
+        "size": 5709,
+        "mtime": 1793415247.4890878,
+        "sha256": "556e6697bba9420faef92782f7137273f6b1ee59b95eeeadfb8ccbc520e636d0"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_D_three_feature_reliability_gate/R05_southwest_pilot_dfn.rttm": {
+        "size": 5838,
+        "mtime": 1793415255.0882716,
+        "sha256": "00d08e19b8c0c124f9c037bb373b994f3f7038d9d8810efd61e5f75a709b82ee"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_D_three_feature_reliability_gate/R06_rich_karen_dfn.rttm": {
+        "size": 18149,
+        "mtime": 1793415276.768787,
+        "sha256": "f788691c2050b0616808d551814d18570e95a3a49e24aa8be6391f58f03b3f67"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_D_three_feature_reliability_gate/R07_bwc_cheap_shot_dfn.rttm": {
+        "size": 3545,
+        "mtime": 1793415304.9424384,
+        "sha256": "3f70b4b94727891cd669c153169e470499a8dcd20d2ed7e2d12069ed8aaea1b6"
+      },
+      "research_stages/stage5a/predictions/rttms/condition_D_three_feature_reliability_gate/R08_uk_parliament_dfn.rttm": {
+        "size": 2460,
+        "mtime": 1793415310.5525656,
+        "sha256": "a2d3d98fda9aed0126c57b74a331f346ffafcbabcf19ca1fc516bee6d489a15d"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_A_titanet_dfn_baseline/R01_sara_sharif_condition_A_titanet_dfn_baseline_attributed.json": {
+        "size": 82438,
+        "mtime": 1793415228.908632,
+        "sha256": "92ba047be89c8fd07acf7b103a17bb9976182e49987753e593927aee67ae9031"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_A_titanet_dfn_baseline/R02_dennis_skinner_condition_A_titanet_dfn_baseline_attributed.json": {
+        "size": 97032,
+        "mtime": 1793415231.376693,
+        "sha256": "d1e2310d9cd3dd29859788fc7661736aeb7eed4eb409dd061b6b7473f7331645"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_A_titanet_dfn_baseline/R03_disabled_parking_condition_A_titanet_dfn_baseline_attributed.json": {
+        "size": 202952,
+        "mtime": 1793415234.9177804,
+        "sha256": "8496a81dda5160fedd5cdfeab0a4dee5dfcfc39bdd975b69ea385768aa999eca"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_A_titanet_dfn_baseline/R04_piers_robinson_condition_A_titanet_dfn_baseline_attributed.json": {
+        "size": 217568,
+        "mtime": 1793415243.0049787,
+        "sha256": "2d96cedd35f393d0089955aed0677e6ae1e77bc4cabf22b402805ccd40bc8b36"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_A_titanet_dfn_baseline/R05_southwest_pilot_condition_A_titanet_dfn_baseline_attributed.json": {
+        "size": 118876,
+        "mtime": 1793415253.5432343,
+        "sha256": "b63ae969126aa39e744216e38627cfa4c9dd3dd480cc3d02ccc4bce6335676f1"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_A_titanet_dfn_baseline/R06_rich_karen_condition_A_titanet_dfn_baseline_attributed.json": {
+        "size": 549552,
+        "mtime": 1793415257.8813386,
+        "sha256": "7f5a1eaf4b28122f060aabc5d180286d3fed2708ecb32fce681a490e2cd57383"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_A_titanet_dfn_baseline/R07_bwc_cheap_shot_condition_A_titanet_dfn_baseline_attributed.json": {
+        "size": 147316,
+        "mtime": 1793415302.4513814,
+        "sha256": "d300cebc3d206b740c5984be9f1a30a6c8a9bc3ca1ed50b00d4009534855b5f2"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_A_titanet_dfn_baseline/R08_uk_parliament_condition_A_titanet_dfn_baseline_attributed.json": {
+        "size": 144789,
+        "mtime": 1793415308.5675206,
+        "sha256": "6400289ce216a102280370bd05fb8d3101dc19339950ca987484ee3782da81aa"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_F_gate_ablation_no_dfn_nr/R01_sara_sharif_condition_F_gate_ablation_no_dfn_nr_attributed.json": {
+        "size": 82057,
+        "mtime": 1793415230.356668,
+        "sha256": "251d8f43be2c0bcf2f172b84fba2d8538035d45917dce1ddb8ee048b9fcbeefb"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_F_gate_ablation_no_dfn_nr/R02_dennis_skinner_condition_F_gate_ablation_no_dfn_nr_attributed.json": {
+        "size": 97163,
+        "mtime": 1793415233.7407515,
+        "sha256": "f157a01ccd1e71f4656f6a74aaef193ad45c8429273f56f752ebc577f5cc8992"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_F_gate_ablation_no_dfn_nr/R03_disabled_parking_condition_F_gate_ablation_no_dfn_nr_attributed.json": {
+        "size": 203472,
+        "mtime": 1793415240.6859221,
+        "sha256": "76c98ea98cca99d4fdf8a3614ae395d828bcd9468e673e787b87c708797c0929"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_F_gate_ablation_no_dfn_nr/R04_piers_robinson_condition_F_gate_ablation_no_dfn_nr_attributed.json": {
+        "size": 218731,
+        "mtime": 1793415250.422159,
+        "sha256": "cbc5d6c0dbb3c9a3aacb70676e8e4a4ece30809cbe5f5157453687585bfc6ddb"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_F_gate_ablation_no_dfn_nr/R05_southwest_pilot_condition_F_gate_ablation_no_dfn_nr_attributed.json": {
+        "size": 119014,
+        "mtime": 1793415256.3613021,
+        "sha256": "381dbb7881460c43beeaf8e5dca31d86ba8602de61d1cd7017360d83c4e71d0a"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_F_gate_ablation_no_dfn_nr/R06_rich_karen_condition_F_gate_ablation_no_dfn_nr_attributed.json": {
+        "size": 546839,
+        "mtime": 1793415289.6180866,
+        "sha256": "36eaf69ff11529e8d013b20e70e172dd518da17a15fccaf187fd481b28f427cc"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_F_gate_ablation_no_dfn_nr/R07_bwc_cheap_shot_condition_F_gate_ablation_no_dfn_nr_attributed.json": {
+        "size": 147319,
+        "mtime": 1793415306.649477,
+        "sha256": "7054edc17e3781bf0105c3f70aa79c08aae8585015806b0f45cf5f929acad533"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_F_gate_ablation_no_dfn_nr/R08_uk_parliament_condition_F_gate_ablation_no_dfn_nr_attributed.json": {
+        "size": 144792,
+        "mtime": 1793415312.0966005,
+        "sha256": "25f8606a725e58a91a0e4565b8bafe7104c8e4bdaa47e52926cb77ed5e17dada"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_G_gate_ablation_no_vad_conf/R01_sara_sharif_condition_G_gate_ablation_no_vad_conf_attributed.json": {
+        "size": 82059,
+        "mtime": 1793415230.8376799,
+        "sha256": "d0de6c8e04f6cf4cf38b3780df2d7c1052e550ee85b020752c8c75e59acb7786"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_G_gate_ablation_no_vad_conf/R02_dennis_skinner_condition_G_gate_ablation_no_vad_conf_attributed.json": {
+        "size": 97165,
+        "mtime": 1793415234.4017677,
+        "sha256": "2c5f9710ed064ef5779f80aea8fbf613331736bf32919d7611cf06962f6b9998"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_G_gate_ablation_no_vad_conf/R03_disabled_parking_condition_G_gate_ablation_no_vad_conf_attributed.json": {
+        "size": 203215,
+        "mtime": 1793415241.783949,
+        "sha256": "52b304fd48d3427c3cafac29935e53fc4732a1d0fe72ecad9e0d31f3ca817743"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_G_gate_ablation_no_vad_conf/R04_piers_robinson_condition_G_gate_ablation_no_vad_conf_attributed.json": {
+        "size": 218733,
+        "mtime": 1793415251.864194,
+        "sha256": "ea089b4eb5ceffaeec7d1da3dcc7fe21f22820d57cc0410d67e767df9d740c17"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_G_gate_ablation_no_vad_conf/R05_southwest_pilot_condition_G_gate_ablation_no_vad_conf_attributed.json": {
+        "size": 119267,
+        "mtime": 1793415256.889315,
+        "sha256": "5c533530a76f651e7be98f8db17f071265405222805dc787a2eaec77c28e04e9"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_G_gate_ablation_no_vad_conf/R06_rich_karen_condition_G_gate_ablation_no_vad_conf_attributed.json": {
+        "size": 547359,
+        "mtime": 1793415296.0642352,
+        "sha256": "54ff01da68a8a74ed0d22c204f09ee7e934f3fbdede28d2c1342b2beeb7870e3"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_G_gate_ablation_no_vad_conf/R07_bwc_cheap_shot_condition_G_gate_ablation_no_vad_conf_attributed.json": {
+        "size": 147321,
+        "mtime": 1793415307.4894962,
+        "sha256": "430fbbacb56f2bc6ee499799beda760fbc5f902a5e8ae62dc64bb07cc2fd41a5"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_G_gate_ablation_no_vad_conf/R08_uk_parliament_condition_G_gate_ablation_no_vad_conf_attributed.json": {
+        "size": 144794,
+        "mtime": 1793415312.7646155,
+        "sha256": "534d5f61557dfde0ad74cc07453a2e1004f47468dbb6957fc554353d0a4a2388"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_E_gate_ablation_no_resnet_l2/R01_sara_sharif_condition_E_gate_ablation_no_resnet_l2_attributed.json": {
+        "size": 82060,
+        "mtime": 1793415230.0656607,
+        "sha256": "cf3642b8674886ccdd2e2eeeb538f99515dfb62d5d178069c666eada09d5beb8"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_E_gate_ablation_no_resnet_l2/R02_dennis_skinner_condition_E_gate_ablation_no_resnet_l2_attributed.json": {
+        "size": 97166,
+        "mtime": 1793415233.26874,
+        "sha256": "2038cbf4d9dc00faf68369eaae193f643dcc5ff142bbb8786c75c14cb2d10242"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_E_gate_ablation_no_resnet_l2/R03_disabled_parking_condition_E_gate_ablation_no_resnet_l2_attributed.json": {
+        "size": 203216,
+        "mtime": 1793415239.582895,
+        "sha256": "1250394c07cf6305c0d93c2a842d8bbd7cfb11f346b33c918b823788af22e751"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_E_gate_ablation_no_resnet_l2/R04_piers_robinson_condition_E_gate_ablation_no_resnet_l2_attributed.json": {
+        "size": 218990,
+        "mtime": 1793415248.975124,
+        "sha256": "1ea8c3413ac60e6580208bae71ac29de2c330d102829c24ff76c0287bbdd88ed"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_E_gate_ablation_no_resnet_l2/R05_southwest_pilot_condition_E_gate_ablation_no_resnet_l2_attributed.json": {
+        "size": 119145,
+        "mtime": 1793415255.646285,
+        "sha256": "c08dd2b2b36b85b5b17163f15c6d80dc3d1b4204d625a69c70fd4b411d614391"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_E_gate_ablation_no_resnet_l2/R06_rich_karen_condition_E_gate_ablation_no_resnet_l2_attributed.json": {
+        "size": 551640,
+        "mtime": 1793415283.4629436,
+        "sha256": "a05b101c387a5a7d79000ff157f8d482bd5b5a2e5fd4588f63972ca656908989"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_E_gate_ablation_no_resnet_l2/R07_bwc_cheap_shot_condition_E_gate_ablation_no_resnet_l2_attributed.json": {
+        "size": 147322,
+        "mtime": 1793415305.810458,
+        "sha256": "f3f436d7e0bd11e797c48fef43b1ff30d5f38823cf361e5601595a63a3ec76c2"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_E_gate_ablation_no_resnet_l2/R08_uk_parliament_condition_E_gate_ablation_no_resnet_l2_attributed.json": {
+        "size": 144795,
+        "mtime": 1793415311.236581,
+        "sha256": "9b0d4ff924ef9b782bd5bb0b22321599766176e71015b072a10cfbaa637841f7"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_B_resnet293_mono_baseline/R01_sara_sharif_condition_B_resnet293_mono_baseline_attributed.json": {
+        "size": 82309,
+        "mtime": 1793415229.1976392,
+        "sha256": "7f0ca87c64214c7e88292f39dc55aa5e6cd4c6be3ff07296429208da44b7e8fd"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_B_resnet293_mono_baseline/R02_dennis_skinner_condition_B_resnet293_mono_baseline_attributed.json": {
+        "size": 98585,
+        "mtime": 1793415231.861705,
+        "sha256": "eba39c7176c4572a44ae11da48fd0d9a825156b48f832f2cee259bb90c961faa"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_B_resnet293_mono_baseline/R03_disabled_parking_condition_B_resnet293_mono_baseline_attributed.json": {
+        "size": 203732,
+        "mtime": 1793415236.034808,
+        "sha256": "9246971578c7973009b846ef81176dfb2e9f528af13554ae9c0cfaaf18032599"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_B_resnet293_mono_baseline/R04_piers_robinson_condition_B_resnet293_mono_baseline_attributed.json": {
+        "size": 219367,
+        "mtime": 1793415244.4500139,
+        "sha256": "2d333336c8bc0edc2b6a82c0397d07cc25d108e022a929f11a2a5ee6d053f3f8"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_B_resnet293_mono_baseline/R05_southwest_pilot_condition_B_resnet293_mono_baseline_attributed.json": {
+        "size": 119014,
+        "mtime": 1793415254.069247,
+        "sha256": "9f9e1774e2b5b94a449edc758456d3b1663964339028ee3c3401029342da6587"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_B_resnet293_mono_baseline/R06_rich_karen_condition_B_resnet293_mono_baseline_attributed.json": {
+        "size": 548133,
+        "mtime": 1793415264.3554933,
+        "sha256": "01b44782282afd775ee405065deb473977b47d65ae98f4567d43e8511686771f"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_B_resnet293_mono_baseline/R07_bwc_cheap_shot_condition_B_resnet293_mono_baseline_attributed.json": {
+        "size": 147319,
+        "mtime": 1793415303.2924006,
+        "sha256": "ef63950a5e42e754ee7ec3189ad131b8c0affca051ba4ff969f9a29f75bc70fd"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_B_resnet293_mono_baseline/R08_uk_parliament_condition_B_resnet293_mono_baseline_attributed.json": {
+        "size": 144792,
+        "mtime": 1793415309.2355359,
+        "sha256": "3999631b92b47d8f985c7fefe25114090539eae3c27c2b8275699563b3fe1fec"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_C_equal_weight_affinity/R01_sara_sharif_condition_C_equal_weight_affinity_attributed.json": {
+        "size": 82055,
+        "mtime": 1793415229.4856462,
+        "sha256": "ae5d3661f4f1fca01e68fce1b8eebb4a13475df6f901cc260aaec5c4c5bc2dd4"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_C_equal_weight_affinity/R02_dennis_skinner_condition_C_equal_weight_affinity_attributed.json": {
+        "size": 97161,
+        "mtime": 1793415232.3297167,
+        "sha256": "8de9e54e747f4ed19ffe6ae68dbb944f9bbd140b192cbee459c51f14e58d18f9"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_C_equal_weight_affinity/R03_disabled_parking_condition_C_equal_weight_affinity_attributed.json": {
+        "size": 203211,
+        "mtime": 1793415237.1668358,
+        "sha256": "2a32977df377c0549c51c7be9c83a66edc2e7615bd6a871ffb8ebfa276c1f9a2"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_C_equal_weight_affinity/R04_piers_robinson_condition_C_equal_weight_affinity_attributed.json": {
+        "size": 218601,
+        "mtime": 1793415246.0790536,
+        "sha256": "cc4e24db661bd500a6f7e7f5a031e617b0efe60b855bb26bb2d9c6782683e716"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_C_equal_weight_affinity/R05_southwest_pilot_condition_C_equal_weight_affinity_attributed.json": {
+        "size": 119012,
+        "mtime": 1793415254.5932596,
+        "sha256": "998eb181cf9d9df3d43a6785895cc54d24d73d33a4a5a0fccaea9d928770a9d0"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_C_equal_weight_affinity/R06_rich_karen_condition_C_equal_weight_affinity_attributed.json": {
+        "size": 550988,
+        "mtime": 1793415270.611642,
+        "sha256": "f75a3fa11e4801880742297a00d6350fb3bfdc33b97cea3cbb87a517abd174fd"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_C_equal_weight_affinity/R07_bwc_cheap_shot_condition_C_equal_weight_affinity_attributed.json": {
+        "size": 147317,
+        "mtime": 1793415304.1324198,
+        "sha256": "5e83d33d0b453af1f09e6197ab749be3b4769a37b6aec931d5b396cb9868bdb3"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_C_equal_weight_affinity/R08_uk_parliament_condition_C_equal_weight_affinity_attributed.json": {
+        "size": 144790,
+        "mtime": 1793415309.9035509,
+        "sha256": "d96505d386330cfbacf2bda9ff67c3263b76e52394b0982f2111460d40219876"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_D_three_feature_reliability_gate/R01_sara_sharif_condition_D_three_feature_reliability_gate_attributed.json": {
+        "size": 82064,
+        "mtime": 1793415229.7756536,
+        "sha256": "5b7b696427314b26e4d616426169d96126bdcf4c8aead1a14c155bb53084e0f5"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_D_three_feature_reliability_gate/R02_dennis_skinner_condition_D_three_feature_reliability_gate_attributed.json": {
+        "size": 97170,
+        "mtime": 1793415232.7977283,
+        "sha256": "0098566cab1df9cdb4588ca5759e90b1a6fe62c0668aae0fdcd296365fe9ca90"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_D_three_feature_reliability_gate/R03_disabled_parking_condition_D_three_feature_reliability_gate_attributed.json": {
+        "size": 203220,
+        "mtime": 1793415238.276863,
+        "sha256": "5a92a4c74d15324948cc587675161942cc2955417a57f77adb63656c53f88e75"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_D_three_feature_reliability_gate/R04_piers_robinson_condition_D_three_feature_reliability_gate_attributed.json": {
+        "size": 218738,
+        "mtime": 1793415247.5290887,
+        "sha256": "8cc51333172b712086c1d41a03fcc1bf1ef7ec253f450d2682dfc734195325cd"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_D_three_feature_reliability_gate/R05_southwest_pilot_condition_D_three_feature_reliability_gate_attributed.json": {
+        "size": 119272,
+        "mtime": 1793415255.1182723,
+        "sha256": "786a3f9334d7a787fdd19d5b9bb9ad4bf6993e8d9d9164654cb044e8fbea74ac"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_D_three_feature_reliability_gate/R06_rich_karen_condition_D_three_feature_reliability_gate_attributed.json": {
+        "size": 547104,
+        "mtime": 1793415276.986792,
+        "sha256": "4e1b18877795834eb0a2a7d74157c4fadb68a3a1b9b9a6824e823de80f6b35d7"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_D_three_feature_reliability_gate/R07_bwc_cheap_shot_condition_D_three_feature_reliability_gate_attributed.json": {
+        "size": 147326,
+        "mtime": 1793415304.971439,
+        "sha256": "50bfd9a843a525516412ca4212c35279c8932945a87667176d21a38eb7920dbc"
+      },
+      "research_stages/stage5a/predictions/attributions/condition_D_three_feature_reliability_gate/R08_uk_parliament_condition_D_three_feature_reliability_gate_attributed.json": {
+        "size": 144799,
+        "mtime": 1793415310.568566,
+        "sha256": "b78ad7a2b493b920cfeaf2c8127212539f932f2b0ae3e7354acf85169a0346ba"
+      }
+    }
+  },
+  "stage5a_1": {
+    "total_files": 151,
+    "total_size_bytes": 13145658,
+    "files": {
+      "research_stages/stage5a_1/logs/stage5a_1_execution.log": {
+        "size": 1616,
+        "mtime": 1793418954.143074,
+        "sha256": "ea858cdd52ec59a8eb21cc408b03c1f6783189e3940b8310b42dfe7f0c4e210a"
+      },
+      "research_stages/stage5a_1/configs/stage5a_1_config.json": {
+        "size": 1221,
+        "mtime": 1793418854.24313,
+        "sha256": "9709426d623d35758ac32ff88b0a43d6456b5acbfd23f01ff4996f7c418e8a40"
+      },
+      "research_stages/stage5a_1/verification/stage5a_1_error_complementarity.csv": {
+        "size": 459,
+        "mtime": 1793418951.923053,
+        "sha256": "9886fd483e107bb6cb252e59b62971f074e87ca41644f488bbf42fa5b3bbe3f4"
+      },
+      "research_stages/stage5a_1/verification/stage5a_1_verification_per_recording.csv": {
+        "size": 6026,
+        "mtime": 1793418951.9040527,
+        "sha256": "cfead6a0e6fb0c7877e2a8cc78c4f41ed1e70e87cd16a0e709c67e1baf6be193"
+      },
+      "research_stages/stage5a_1/verification/stage5a_1_verification_summary.csv": {
+        "size": 2067,
+        "mtime": 1793418951.9220529,
+        "sha256": "7ee148e5c12e1cc4c7c04d99a934d7f7b051e9bc72879f3c6bdd8a4df55b3721"
+      },
+      "research_stages/stage5a_1/reports/STAGE5A_1_DOWNSTREAM_RESULTS.md": {
+        "size": 12638,
+        "mtime": 1793419147.1069012,
+        "sha256": "7c92ddf0bbf86bac4d4a2a3832586484083020be2b0bd8e63d018e58a68f6152"
+      },
+      "research_stages/stage5a_1/reports/STAGE5A_1_EXECUTION_REPORT.md": {
+        "size": 8407,
+        "mtime": 1793419018.932687,
+        "sha256": "29463bd693f9312086d4fccd7ad4d185398e65b82cf5796831c536227cd08ec7"
+      },
+      "research_stages/stage5a_1/reports/STAGE5A_1_FILE_INTEGRITY.md": {
+        "size": 5389,
+        "mtime": 1793419192.8663375,
+        "sha256": "ea7a55ef46d7d9bf4f864a7be8438f6a184e1b065cba09e83ccb274f91c3ca66"
+      },
+      "research_stages/stage5a_1/reports/STAGE5A_1_FINAL_RECOMMENDATION.md": {
+        "size": 8352,
+        "mtime": 1793419172.4001422,
+        "sha256": "2724b159247e4efd916d4176b552f753369fdaf887256e818e76be7a510a27ab"
+      },
+      "research_stages/stage5a_1/reports/STAGE5A_1_GATE_IMPLEMENTATION_AUDIT.md": {
+        "size": 10144,
+        "mtime": 1793419082.8692925,
+        "sha256": "6c95b3e61986f81c846366298f463515f50c910161215ff1409b67dd6ba2e6a8"
+      },
+      "research_stages/stage5a_1/reports/STAGE5A_1_NORMALIZATION_AUDIT.md": {
+        "size": 11363,
+        "mtime": 1793419052.292003,
+        "sha256": "9e6624d87716adb3ee4bae8575461f7a84d816c48995dff86f03071ebc6fe707"
+      },
+      "research_stages/stage5a_1/reports/STAGE5A_1_VERIFICATION_RESULTS.md": {
+        "size": 8274,
+        "mtime": 1793419109.209542,
+        "sha256": "62759845082666644a2039e6e3bbeff7fe406f4ca3e66d0c7e9320403e4e1016"
+      },
+      "research_stages/stage5a_1/file_integrity/baseline_stage5a_inventory.json": {
+        "size": 32200,
+        "mtime": 1793418324.1721625,
+        "sha256": "0f70bba87e082ea1e5e3767bfabe1ca99881a724bb46281dc0c064ba0d363d6f"
+      },
+      "research_stages/stage5a_1/file_integrity/post_stage5a_1_integrity_check.json": {
+        "size": 279,
+        "mtime": 1793418998.1714904,
+        "sha256": "a4dafc93ac6c5d8142b2ac7498e5cbb44fc1680dbdde3e9fe7b1e401073d1011"
+      },
+      "research_stages/stage5a_1/gate_audit/gate_audit_results.json": {
+        "size": 3331,
+        "mtime": 1793418623.9569616,
+        "sha256": "0a0d6b14cc42283899b8f26a070465b0a8a19aee1114b6e1ea0869b8f9e5b7b7"
+      },
+      "research_stages/stage5a_1/bootstrap/stage5a_1_paired_bootstrap_differences.csv": {
+        "size": 16252,
+        "mtime": 1793418954.140074,
+        "sha256": "d4b870048e61ace2302f0f032679791e1560b874f4b71bf8131de8a38482b4fb"
+      },
+      "research_stages/stage5a_1/scripts/audit_gate_features.py": {
+        "size": 10024,
+        "mtime": 1793418615.8678856,
+        "sha256": "9f50cbf0281fc7b1e3c656b1ab9ee566ac273ffc70f8246efdde069cf1be114d"
+      },
+      "research_stages/stage5a_1/scripts/audit_normalization.py": {
+        "size": 7995,
+        "mtime": 1793418507.7838728,
+        "sha256": "8eec7f737f340459320c51488ee9e454f5e9700da3bf41bbb98c0142aa42f0c8"
+      },
+      "research_stages/stage5a_1/scripts/run_stage5a_1_controlled_eval.py": {
+        "size": 40902,
+        "mtime": 1793418846.6560583,
+        "sha256": "5ea3260c93f65ef9b9b4df4b7c96d345447048ff53acf4fb1487924f44bef9b9"
+      },
+      "research_stages/stage5a_1/normalization_audit/normalization_audit_results.json": {
+        "size": 11880,
+        "mtime": 1793418517.9849684,
+        "sha256": "4675e83e9b1adaef7cead920f345a0d2e723a2f09ffa14958157ef2223321063"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_A_raw_titanet_dfn/R01_sara_sharif_dfn.rttm": {
+        "size": 2231,
+        "mtime": 1793418855.1391385,
+        "sha256": "d097cbbffad9b83d453093b7609d65ecba66f71d6a4580e99f518d6d49bde5d0"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_A_raw_titanet_dfn/R02_dennis_skinner_dfn.rttm": {
+        "size": 3702,
+        "mtime": 1793418857.8851645,
+        "sha256": "ce8ced59e7783da1b69c3c6327defdd13c8c8ef3190f1201dd6563f448456df7"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_A_raw_titanet_dfn/R03_disabled_parking_dfn.rttm": {
+        "size": 5114,
+        "mtime": 1793418861.8752022,
+        "sha256": "7a5d8d118b55257a56f8caa3584137c8057b114ad29375c55b04881b43831fc7"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_A_raw_titanet_dfn/R04_piers_robinson_dfn.rttm": {
+        "size": 4828,
+        "mtime": 1793418871.2162902,
+        "sha256": "16fc7c4afec1082a8faa8781e521155af463761dcf919a3b155e44b408927040"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_A_raw_titanet_dfn/R05_southwest_pilot_dfn.rttm": {
+        "size": 5839,
+        "mtime": 1793418882.9484012,
+        "sha256": "3c0518d32be45ada7100ef6508565bb23578a7f8701a128f732ca938d287ca45"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_A_raw_titanet_dfn/R06_rich_karen_dfn.rttm": {
+        "size": 17611,
+        "mtime": 1793418887.7874467,
+        "sha256": "2c47288743ae86455e0286bfb6a18ba86b4bb970bc856f62bffbea45e2b853c7"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_A_raw_titanet_dfn/R07_bwc_cheap_shot_dfn.rttm": {
+        "size": 3545,
+        "mtime": 1793418938.6989279,
+        "sha256": "3f70b4b94727891cd669c153169e470499a8dcd20d2ed7e2d12069ed8aaea1b6"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_A_raw_titanet_dfn/R08_uk_parliament_dfn.rttm": {
+        "size": 2460,
+        "mtime": 1793418945.6989942,
+        "sha256": "b3ce7f57386f63e828a78bb448463354b52589451219ec3876b48d6526e8e2a8"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_H_norm_titanet_dfn_alone/R01_sara_sharif_dfn.rttm": {
+        "size": 2231,
+        "mtime": 1793418856.0141468,
+        "sha256": "d097cbbffad9b83d453093b7609d65ecba66f71d6a4580e99f518d6d49bde5d0"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_H_norm_titanet_dfn_alone/R02_dennis_skinner_dfn.rttm": {
+        "size": 3702,
+        "mtime": 1793418859.311178,
+        "sha256": "ce8ced59e7783da1b69c3c6327defdd13c8c8ef3190f1201dd6563f448456df7"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_H_norm_titanet_dfn_alone/R03_disabled_parking_dfn.rttm": {
+        "size": 5114,
+        "mtime": 1793418865.3872352,
+        "sha256": "7a5d8d118b55257a56f8caa3584137c8057b114ad29375c55b04881b43831fc7"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_H_norm_titanet_dfn_alone/R04_piers_robinson_dfn.rttm": {
+        "size": 4828,
+        "mtime": 1793418875.522331,
+        "sha256": "16fc7c4afec1082a8faa8781e521155af463761dcf919a3b155e44b408927040"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_H_norm_titanet_dfn_alone/R05_southwest_pilot_dfn.rttm": {
+        "size": 5839,
+        "mtime": 1793418884.7094178,
+        "sha256": "3c0518d32be45ada7100ef6508565bb23578a7f8701a128f732ca938d287ca45"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_H_norm_titanet_dfn_alone/R06_rich_karen_dfn.rttm": {
+        "size": 17611,
+        "mtime": 1793418906.841627,
+        "sha256": "2c47288743ae86455e0286bfb6a18ba86b4bb970bc856f62bffbea45e2b853c7"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_H_norm_titanet_dfn_alone/R07_bwc_cheap_shot_dfn.rttm": {
+        "size": 3545,
+        "mtime": 1793418941.4209538,
+        "sha256": "3f70b4b94727891cd669c153169e470499a8dcd20d2ed7e2d12069ed8aaea1b6"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_H_norm_titanet_dfn_alone/R08_uk_parliament_dfn.rttm": {
+        "size": 2460,
+        "mtime": 1793418947.8750148,
+        "sha256": "b3ce7f57386f63e828a78bb448463354b52589451219ec3876b48d6526e8e2a8"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_B_raw_resnet293_mono/R01_sara_sharif_dfn.rttm": {
+        "size": 2077,
+        "mtime": 1793418855.4331412,
+        "sha256": "41e566de585f627b961307243e5f0b209c82aab9d66588bf66165f2ca7afd1a2"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_B_raw_resnet293_mono/R02_dennis_skinner_dfn.rttm": {
+        "size": 5160,
+        "mtime": 1793418858.3581688,
+        "sha256": "9186df0d0acef4a602265b846232608a5407ea6774ad0b43d915de8888a7c6fc"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_B_raw_resnet293_mono/R03_disabled_parking_dfn.rttm": {
+        "size": 5280,
+        "mtime": 1793418862.9892125,
+        "sha256": "185e2c8d0c71ff1a1f60465959de15c6f05b0e26e76eff4299c6627e3e6ff282"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_B_raw_resnet293_mono/R04_piers_robinson_dfn.rttm": {
+        "size": 6109,
+        "mtime": 1793418872.6533039,
+        "sha256": "3e3f1b6326d56ae3f1780fd867aaf37379e50b8ae482bc5ce3fdfb313bf1e9fc"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_B_raw_resnet293_mono/R05_southwest_pilot_dfn.rttm": {
+        "size": 6001,
+        "mtime": 1793418883.6664078,
+        "sha256": "4e4391edbd7c7ce1dec96b45ca62461cfc5190e0c9f044c504116d99f27122d3"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_B_raw_resnet293_mono/R06_rich_karen_dfn.rttm": {
+        "size": 19379,
+        "mtime": 1793418894.1955073,
+        "sha256": "81c1212c7e1b8ff505d508f18e2312c3c5d8fe971dc17adcf12801c841cd9140"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_B_raw_resnet293_mono/R07_bwc_cheap_shot_dfn.rttm": {
+        "size": 3545,
+        "mtime": 1793418939.540936,
+        "sha256": "3f70b4b94727891cd669c153169e470499a8dcd20d2ed7e2d12069ed8aaea1b6"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_B_raw_resnet293_mono/R08_uk_parliament_dfn.rttm": {
+        "size": 2382,
+        "mtime": 1793418946.550002,
+        "sha256": "5fd2fb4732bb7aa820bc03b57f23bcaebce97cc537a6b1372bf4b754f39e636d"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_I_norm_resnet293_mono_alone/R01_sara_sharif_dfn.rttm": {
+        "size": 2077,
+        "mtime": 1793418856.3021495,
+        "sha256": "41e566de585f627b961307243e5f0b209c82aab9d66588bf66165f2ca7afd1a2"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_I_norm_resnet293_mono_alone/R02_dennis_skinner_dfn.rttm": {
+        "size": 5160,
+        "mtime": 1793418859.7831824,
+        "sha256": "9186df0d0acef4a602265b846232608a5407ea6774ad0b43d915de8888a7c6fc"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_I_norm_resnet293_mono_alone/R03_disabled_parking_dfn.rttm": {
+        "size": 5280,
+        "mtime": 1793418866.4902456,
+        "sha256": "185e2c8d0c71ff1a1f60465959de15c6f05b0e26e76eff4299c6627e3e6ff282"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_I_norm_resnet293_mono_alone/R04_piers_robinson_dfn.rttm": {
+        "size": 6109,
+        "mtime": 1793418877.1433463,
+        "sha256": "3e3f1b6326d56ae3f1780fd867aaf37379e50b8ae482bc5ce3fdfb313bf1e9fc"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_I_norm_resnet293_mono_alone/R05_southwest_pilot_dfn.rttm": {
+        "size": 6001,
+        "mtime": 1793418885.2354226,
+        "sha256": "4e4391edbd7c7ce1dec96b45ca62461cfc5190e0c9f044c504116d99f27122d3"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_I_norm_resnet293_mono_alone/R06_rich_karen_dfn.rttm": {
+        "size": 19379,
+        "mtime": 1793418913.2476873,
+        "sha256": "81c1212c7e1b8ff505d508f18e2312c3c5d8fe971dc17adcf12801c841cd9140"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_I_norm_resnet293_mono_alone/R07_bwc_cheap_shot_dfn.rttm": {
+        "size": 3545,
+        "mtime": 1793418942.2639616,
+        "sha256": "3f70b4b94727891cd669c153169e470499a8dcd20d2ed7e2d12069ed8aaea1b6"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_I_norm_resnet293_mono_alone/R08_uk_parliament_dfn.rttm": {
+        "size": 2382,
+        "mtime": 1793418948.539021,
+        "sha256": "5fd2fb4732bb7aa820bc03b57f23bcaebce97cc537a6b1372bf4b754f39e636d"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_K_sigmoid_gate/R01_sara_sharif_dfn.rttm": {
+        "size": 2077,
+        "mtime": 1793418857.3561594,
+        "sha256": "127aeba31fd00f61c755926cac9a9fb4616c8da105e2a9893f65928c0bc5b6d9"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_K_sigmoid_gate/R02_dennis_skinner_dfn.rttm": {
+        "size": 4107,
+        "mtime": 1793418861.3871975,
+        "sha256": "fdb9e3c5a97a4214971f758b85330628a577ffe855599b6b3012a9bdf66ac56c"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_K_sigmoid_gate/R03_disabled_parking_dfn.rttm": {
+        "size": 5031,
+        "mtime": 1793418869.9922788,
+        "sha256": "4e6db376f59765c2d5770b8004d511a32c2b95396f37a21b7615e851a8778748"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_K_sigmoid_gate/R04_piers_robinson_dfn.rttm": {
+        "size": 5709,
+        "mtime": 1793418881.4583871,
+        "sha256": "892be3abfa515cdef233f4480cab6824c873f3af2caf582a7f53b1995b0c12b5"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_K_sigmoid_gate/R05_southwest_pilot_dfn.rttm": {
+        "size": 5677,
+        "mtime": 1793418886.9934392,
+        "sha256": "e0d874c2287c558416a9aa878695c4c4162e05d7fc59ec0477ae8201b078679b"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_K_sigmoid_gate/R06_rich_karen_dfn.rttm": {
+        "size": 20073,
+        "mtime": 1793418932.365868,
+        "sha256": "820d128bb5490fc4779c741f998e0e3e1c1122a3a9423f3fc02b80954c96ab5b"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_K_sigmoid_gate/R07_bwc_cheap_shot_dfn.rttm": {
+        "size": 3545,
+        "mtime": 1793418944.8009856,
+        "sha256": "3f70b4b94727891cd669c153169e470499a8dcd20d2ed7e2d12069ed8aaea1b6"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_K_sigmoid_gate/R08_uk_parliament_dfn.rttm": {
+        "size": 2460,
+        "mtime": 1793418950.7200415,
+        "sha256": "a2d3d98fda9aed0126c57b74a331f346ffafcbabcf19ca1fc516bee6d489a15d"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_J_norm_equal_weight_fusion/R01_sara_sharif_dfn.rttm": {
+        "size": 2077,
+        "mtime": 1793418856.5911522,
+        "sha256": "843a1b92305ec6d6ad09f168f025d843b2518342bfcdd77ea7f4c23b8d7cbdb6"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_J_norm_equal_weight_fusion/R02_dennis_skinner_dfn.rttm": {
+        "size": 4107,
+        "mtime": 1793418860.4501886,
+        "sha256": "fdb9e3c5a97a4214971f758b85330628a577ffe855599b6b3012a9bdf66ac56c"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_J_norm_equal_weight_fusion/R03_disabled_parking_dfn.rttm": {
+        "size": 5031,
+        "mtime": 1793418867.5912561,
+        "sha256": "4e6db376f59765c2d5770b8004d511a32c2b95396f37a21b7615e851a8778748"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_J_norm_equal_weight_fusion/R04_piers_robinson_dfn.rttm": {
+        "size": 5549,
+        "mtime": 1793418878.5813599,
+        "sha256": "f2c72ba7533d9a39b63212e5d4ee413d105e7af666caa5134d380295d9211365"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_J_norm_equal_weight_fusion/R05_southwest_pilot_dfn.rttm": {
+        "size": 5677,
+        "mtime": 1793418885.7584276,
+        "sha256": "e0d874c2287c558416a9aa878695c4c4162e05d7fc59ec0477ae8201b078679b"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_J_norm_equal_weight_fusion/R06_rich_karen_dfn.rttm": {
+        "size": 20150,
+        "mtime": 1793418919.4997466,
+        "sha256": "eb8aedfb64d2347e39239ac46c49fcb7f795f62e0aa41b9923cb84e6a4b046c6"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_J_norm_equal_weight_fusion/R07_bwc_cheap_shot_dfn.rttm": {
+        "size": 3545,
+        "mtime": 1793418943.1089697,
+        "sha256": "3f70b4b94727891cd669c153169e470499a8dcd20d2ed7e2d12069ed8aaea1b6"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_J_norm_equal_weight_fusion/R08_uk_parliament_dfn.rttm": {
+        "size": 2460,
+        "mtime": 1793418949.3970292,
+        "sha256": "a2d3d98fda9aed0126c57b74a331f346ffafcbabcf19ca1fc516bee6d489a15d"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_C_norm_equal_weight_stage5a/R01_sara_sharif_dfn.rttm": {
+        "size": 2077,
+        "mtime": 1793418855.724144,
+        "sha256": "843a1b92305ec6d6ad09f168f025d843b2518342bfcdd77ea7f4c23b8d7cbdb6"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_C_norm_equal_weight_stage5a/R02_dennis_skinner_dfn.rttm": {
+        "size": 4107,
+        "mtime": 1793418858.8291733,
+        "sha256": "fdb9e3c5a97a4214971f758b85330628a577ffe855599b6b3012a9bdf66ac56c"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_C_norm_equal_weight_stage5a/R03_disabled_parking_dfn.rttm": {
+        "size": 5031,
+        "mtime": 1793418864.2842247,
+        "sha256": "4e6db376f59765c2d5770b8004d511a32c2b95396f37a21b7615e851a8778748"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_C_norm_equal_weight_stage5a/R04_piers_robinson_dfn.rttm": {
+        "size": 5549,
+        "mtime": 1793418874.0873175,
+        "sha256": "f2c72ba7533d9a39b63212e5d4ee413d105e7af666caa5134d380295d9211365"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_C_norm_equal_weight_stage5a/R05_southwest_pilot_dfn.rttm": {
+        "size": 5677,
+        "mtime": 1793418884.1904128,
+        "sha256": "e0d874c2287c558416a9aa878695c4c4162e05d7fc59ec0477ae8201b078679b"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_C_norm_equal_weight_stage5a/R06_rich_karen_dfn.rttm": {
+        "size": 20150,
+        "mtime": 1793418900.4465663,
+        "sha256": "eb8aedfb64d2347e39239ac46c49fcb7f795f62e0aa41b9923cb84e6a4b046c6"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_C_norm_equal_weight_stage5a/R07_bwc_cheap_shot_dfn.rttm": {
+        "size": 3545,
+        "mtime": 1793418940.3839438,
+        "sha256": "3f70b4b94727891cd669c153169e470499a8dcd20d2ed7e2d12069ed8aaea1b6"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_C_norm_equal_weight_stage5a/R08_uk_parliament_dfn.rttm": {
+        "size": 2460,
+        "mtime": 1793418947.2150085,
+        "sha256": "a2d3d98fda9aed0126c57b74a331f346ffafcbabcf19ca1fc516bee6d489a15d"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_K_norm_reliability_gate/R01_sara_sharif_dfn.rttm": {
+        "size": 2077,
+        "mtime": 1793418857.0651567,
+        "sha256": "127aeba31fd00f61c755926cac9a9fb4616c8da105e2a9893f65928c0bc5b6d9"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_K_norm_reliability_gate/R02_dennis_skinner_dfn.rttm": {
+        "size": 4107,
+        "mtime": 1793418860.919193,
+        "sha256": "fdb9e3c5a97a4214971f758b85330628a577ffe855599b6b3012a9bdf66ac56c"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_K_norm_reliability_gate/R03_disabled_parking_dfn.rttm": {
+        "size": 5031,
+        "mtime": 1793418868.6902664,
+        "sha256": "4e6db376f59765c2d5770b8004d511a32c2b95396f37a21b7615e851a8778748"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_K_norm_reliability_gate/R04_piers_robinson_dfn.rttm": {
+        "size": 5709,
+        "mtime": 1793418880.0183735,
+        "sha256": "556e6697bba9420faef92782f7137273f6b1ee59b95eeeadfb8ccbc520e636d0"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_K_norm_reliability_gate/R05_southwest_pilot_dfn.rttm": {
+        "size": 5838,
+        "mtime": 1793418886.2814326,
+        "sha256": "00d08e19b8c0c124f9c037bb373b994f3f7038d9d8810efd61e5f75a709b82ee"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_K_norm_reliability_gate/R06_rich_karen_dfn.rttm": {
+        "size": 18149,
+        "mtime": 1793418925.8798068,
+        "sha256": "f788691c2050b0616808d551814d18570e95a3a49e24aa8be6391f58f03b3f67"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_K_norm_reliability_gate/R07_bwc_cheap_shot_dfn.rttm": {
+        "size": 3545,
+        "mtime": 1793418943.9519775,
+        "sha256": "3f70b4b94727891cd669c153169e470499a8dcd20d2ed7e2d12069ed8aaea1b6"
+      },
+      "research_stages/stage5a_1/predictions/rttms/condition_K_norm_reliability_gate/R08_uk_parliament_dfn.rttm": {
+        "size": 2460,
+        "mtime": 1793418950.0580354,
+        "sha256": "a2d3d98fda9aed0126c57b74a331f346ffafcbabcf19ca1fc516bee6d489a15d"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_A_raw_titanet_dfn/R01_sara_sharif_condition_A_raw_titanet_dfn_attributed.json": {
+        "size": 82433,
+        "mtime": 1793418855.1511385,
+        "sha256": "0246ea385ddd3f86ae36b27a797e0eaca9cca42b968e47479fff959933a0e787"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_A_raw_titanet_dfn/R02_dennis_skinner_condition_A_raw_titanet_dfn_attributed.json": {
+        "size": 97027,
+        "mtime": 1793418857.9011645,
+        "sha256": "456106ed9035026df7cc0f77493f0dbe4b1462eaf992b4d26243f6af45dbf69b"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_A_raw_titanet_dfn/R03_disabled_parking_condition_A_raw_titanet_dfn_attributed.json": {
+        "size": 202947,
+        "mtime": 1793418861.9182024,
+        "sha256": "41c3cd21c96617bfdd51ed782b547f24b347709c5a9ed3063b25cf53441a0ff9"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_A_raw_titanet_dfn/R04_piers_robinson_condition_A_raw_titanet_dfn_attributed.json": {
+        "size": 217563,
+        "mtime": 1793418871.2542906,
+        "sha256": "976dc3536378634778062d81ad06895885e66c2c062d6bc681acd1ea324dc225"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_A_raw_titanet_dfn/R05_southwest_pilot_condition_A_raw_titanet_dfn_attributed.json": {
+        "size": 118871,
+        "mtime": 1793418882.9794014,
+        "sha256": "f5f8e946c8281f2d0ea967329ca7223c676c847f2ca564ccc8264b464e28b66c"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_A_raw_titanet_dfn/R06_rich_karen_condition_A_raw_titanet_dfn_attributed.json": {
+        "size": 549547,
+        "mtime": 1793418888.003449,
+        "sha256": "6b8ace4fd69c68377edf0cad8bdfdd3fd0e8a6f559ff2a60eb64ae15d8c486fe"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_A_raw_titanet_dfn/R07_bwc_cheap_shot_condition_A_raw_titanet_dfn_attributed.json": {
+        "size": 147311,
+        "mtime": 1793418938.7279282,
+        "sha256": "12efce92af19cb373ef7b43ae38b8d0dcb518eae7fd69bc3630fca412b9ef9c6"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_A_raw_titanet_dfn/R08_uk_parliament_condition_A_raw_titanet_dfn_attributed.json": {
+        "size": 144784,
+        "mtime": 1793418945.7159944,
+        "sha256": "8c7862d2b49c446f2b3e68bffaa81964a5c862583046d8245eb54465bb686ba2"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_H_norm_titanet_dfn_alone/R01_sara_sharif_condition_H_norm_titanet_dfn_alone_attributed.json": {
+        "size": 82440,
+        "mtime": 1793418856.026147,
+        "sha256": "f0157765754c24917940b8eded87a37ebfcc4134ede48c08908f594834278552"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_H_norm_titanet_dfn_alone/R02_dennis_skinner_condition_H_norm_titanet_dfn_alone_attributed.json": {
+        "size": 97034,
+        "mtime": 1793418859.327178,
+        "sha256": "14004c7d41664ea05a43f98f0bd5f8e4f44588cf5bf28ec2ff3ab69c98ff6de0"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_H_norm_titanet_dfn_alone/R03_disabled_parking_condition_H_norm_titanet_dfn_alone_attributed.json": {
+        "size": 202954,
+        "mtime": 1793418865.4292357,
+        "sha256": "c6539bb657427f8fc6d2523145af6fa5658c8298efd221e5632bb581496914d4"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_H_norm_titanet_dfn_alone/R04_piers_robinson_condition_H_norm_titanet_dfn_alone_attributed.json": {
+        "size": 217570,
+        "mtime": 1793418875.5513313,
+        "sha256": "298d9f135c9b71538ed2ea171e80b0bcc87a9518f0304c8ea11acb7296055936"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_H_norm_titanet_dfn_alone/R05_southwest_pilot_condition_H_norm_titanet_dfn_alone_attributed.json": {
+        "size": 118878,
+        "mtime": 1793418884.740418,
+        "sha256": "ccb512a9baf61b42037160bbd6d6f98c0f4caea7ea1d26abdd4478c050d11788"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_H_norm_titanet_dfn_alone/R06_rich_karen_condition_H_norm_titanet_dfn_alone_attributed.json": {
+        "size": 549554,
+        "mtime": 1793418907.0576289,
+        "sha256": "8d338437889b42ae09084596bbc7a6a49a6942568464ecf1833b931b0f9048f5"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_H_norm_titanet_dfn_alone/R07_bwc_cheap_shot_condition_H_norm_titanet_dfn_alone_attributed.json": {
+        "size": 147318,
+        "mtime": 1793418941.450954,
+        "sha256": "7b3022e6bb82a0247c41ee95eddc46c6f4b7d5d481d50ad83fca70f243f122f3"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_H_norm_titanet_dfn_alone/R08_uk_parliament_condition_H_norm_titanet_dfn_alone_attributed.json": {
+        "size": 144791,
+        "mtime": 1793418947.8910148,
+        "sha256": "486cc1e83d3469c711c1e968ef7bb19f15231909ec1e1fb9346eb90764ea42a9"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_B_raw_resnet293_mono/R01_sara_sharif_condition_B_raw_resnet293_mono_attributed.json": {
+        "size": 82304,
+        "mtime": 1793418855.4451413,
+        "sha256": "8afc8c6528964796aab6ca03bd9d406c3872c7bfbd3ab7d1f91e5d7f190413dc"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_B_raw_resnet293_mono/R02_dennis_skinner_condition_B_raw_resnet293_mono_attributed.json": {
+        "size": 98580,
+        "mtime": 1793418858.3771691,
+        "sha256": "b0141ac965feafcef7aa42f1a7228b7a004e5013a46739ec4e6f4ac87138eee9"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_B_raw_resnet293_mono/R03_disabled_parking_condition_B_raw_resnet293_mono_attributed.json": {
+        "size": 203727,
+        "mtime": 1793418863.032213,
+        "sha256": "46e0495f90543be97c68dfdb486bd95f3e1442af38ca859e72d4ca43334df6d7"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_B_raw_resnet293_mono/R04_piers_robinson_condition_B_raw_resnet293_mono_attributed.json": {
+        "size": 219362,
+        "mtime": 1793418872.686304,
+        "sha256": "3d0b716fed355facb0bec241282775c7bb0372f7aceaa47dc754d3d68a586858"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_B_raw_resnet293_mono/R05_southwest_pilot_condition_B_raw_resnet293_mono_attributed.json": {
+        "size": 119009,
+        "mtime": 1793418883.6974082,
+        "sha256": "e68a90fe27e27f21095dca31a565fa195a7d3dfcc5af7b3f1953e83b3ad59ce6"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_B_raw_resnet293_mono/R06_rich_karen_condition_B_raw_resnet293_mono_attributed.json": {
+        "size": 548128,
+        "mtime": 1793418894.4295096,
+        "sha256": "d270daaf07efce0da6b9c24708aa57e8c5c4eda9180a577c7662aeffe43e94ba"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_B_raw_resnet293_mono/R07_bwc_cheap_shot_condition_B_raw_resnet293_mono_attributed.json": {
+        "size": 147314,
+        "mtime": 1793418939.5699363,
+        "sha256": "92e4cfa629c39020aa80a90ed2f6ba8c4be575b6e190cfd0d0da621403de0a38"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_B_raw_resnet293_mono/R08_uk_parliament_condition_B_raw_resnet293_mono_attributed.json": {
+        "size": 144787,
+        "mtime": 1793418946.5670023,
+        "sha256": "2c61ee8c1e131f3d9d5510a1280be305e279f2f6aa8b4800b019a2105ae58001"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_I_norm_resnet293_mono_alone/R01_sara_sharif_condition_I_norm_resnet293_mono_alone_attributed.json": {
+        "size": 82311,
+        "mtime": 1793418856.3131497,
+        "sha256": "52b874176c7e1b17031262e1e87da726cb4aec0087fd8565018c3da02c7fbf7e"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_I_norm_resnet293_mono_alone/R02_dennis_skinner_condition_I_norm_resnet293_mono_alone_attributed.json": {
+        "size": 98587,
+        "mtime": 1793418859.8031826,
+        "sha256": "3eeefc4303eb4975001dae17bde315493f5c08eadf4350adfc29026380001832"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_I_norm_resnet293_mono_alone/R03_disabled_parking_condition_I_norm_resnet293_mono_alone_attributed.json": {
+        "size": 203734,
+        "mtime": 1793418866.533246,
+        "sha256": "b2fdfd3961c0d0242b8085b49c35d2836850f7866bd43472222ff48c8612a597"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_I_norm_resnet293_mono_alone/R04_piers_robinson_condition_I_norm_resnet293_mono_alone_attributed.json": {
+        "size": 219369,
+        "mtime": 1793418877.1773467,
+        "sha256": "18097cbdcd735929e6f2214786c5207701d4e1e61ba472261257d0f9baf37bb2"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_I_norm_resnet293_mono_alone/R05_southwest_pilot_condition_I_norm_resnet293_mono_alone_attributed.json": {
+        "size": 119016,
+        "mtime": 1793418885.266423,
+        "sha256": "a0052ecd1b49792be3b77041dd95134e20b88c2146051858b090a35530e56882"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_I_norm_resnet293_mono_alone/R06_rich_karen_condition_I_norm_resnet293_mono_alone_attributed.json": {
+        "size": 548135,
+        "mtime": 1793418913.4796896,
+        "sha256": "cfe29c74afdf087ebb7c095ae44cd9d20e6f2f40c8a09412f6ae1089e9ed6fa4"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_I_norm_resnet293_mono_alone/R07_bwc_cheap_shot_condition_I_norm_resnet293_mono_alone_attributed.json": {
+        "size": 147321,
+        "mtime": 1793418942.293962,
+        "sha256": "62ce32476bf14e96801dadeaa099a24df65992e0a1ffa7188217e446800dfa4e"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_I_norm_resnet293_mono_alone/R08_uk_parliament_condition_I_norm_resnet293_mono_alone_attributed.json": {
+        "size": 144794,
+        "mtime": 1793418948.555021,
+        "sha256": "106db664ff4cfc9bcfd60b61b83de4d7107788e219eac4b7ad148ab450278ec6"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_K_sigmoid_gate/R01_sara_sharif_condition_K_sigmoid_gate_attributed.json": {
+        "size": 82046,
+        "mtime": 1793418857.3671596,
+        "sha256": "1d18220a4cf0e085f0e7a3c524dbb78425ea196ce714889e0340771bf2f29ff5"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_K_sigmoid_gate/R02_dennis_skinner_condition_K_sigmoid_gate_attributed.json": {
+        "size": 97152,
+        "mtime": 1793418861.4041977,
+        "sha256": "52a29e43014af914843c1da162c5772eaf0713db89e4852f105064a960a241d6"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_K_sigmoid_gate/R03_disabled_parking_condition_K_sigmoid_gate_attributed.json": {
+        "size": 203202,
+        "mtime": 1793418870.034279,
+        "sha256": "5f50808c0d9a782f3be09881f8c3c5a86e5af87e9b542699500225c0ab169db9"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_K_sigmoid_gate/R04_piers_robinson_condition_K_sigmoid_gate_attributed.json": {
+        "size": 218720,
+        "mtime": 1793418881.4903874,
+        "sha256": "f315762b08ff85bf3f427d094fcc3b14757a5724589207f2a5367fa2f5ac8c9f"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_K_sigmoid_gate/R05_southwest_pilot_condition_K_sigmoid_gate_attributed.json": {
+        "size": 119003,
+        "mtime": 1793418887.0234396,
+        "sha256": "5aa9ec1888dd789a966ab9641457d00ba1b30d1c1166ebb95f335e219c33198e"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_K_sigmoid_gate/R06_rich_karen_condition_K_sigmoid_gate_attributed.json": {
+        "size": 550846,
+        "mtime": 1793418932.6008704,
+        "sha256": "47e64df0f16258897324b70b9f10bb247497429aac38c57d536a1394b779df9f"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_K_sigmoid_gate/R07_bwc_cheap_shot_condition_K_sigmoid_gate_attributed.json": {
+        "size": 147308,
+        "mtime": 1793418944.830986,
+        "sha256": "027184cdca177cf32e60697601f8127885e9143e7c2168b382ae843326770ac6"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_K_sigmoid_gate/R08_uk_parliament_condition_K_sigmoid_gate_attributed.json": {
+        "size": 144781,
+        "mtime": 1793418950.7370417,
+        "sha256": "65eab1f02461125a2f82eb8d56fcc81b2a47757af010e3d76eadd5961db3175c"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_J_norm_equal_weight_fusion/R01_sara_sharif_condition_J_norm_equal_weight_fusion_attributed.json": {
+        "size": 82058,
+        "mtime": 1793418856.6021523,
+        "sha256": "0a88424c350d13f2edec8cfbeb5c65b5d2a56140d6761f6df6f442f9f7317f3f"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_J_norm_equal_weight_fusion/R02_dennis_skinner_condition_J_norm_equal_weight_fusion_attributed.json": {
+        "size": 97164,
+        "mtime": 1793418860.4671888,
+        "sha256": "12e0a09b368429761c4966e01202730a441b4c52af86c85e777b8b18f1b371fb"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_J_norm_equal_weight_fusion/R03_disabled_parking_condition_J_norm_equal_weight_fusion_attributed.json": {
+        "size": 203214,
+        "mtime": 1793418867.6342564,
+        "sha256": "bf7408d98924ee24122dd3b13d981daea2a896c1327a80b7b740f85507eccc8a"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_J_norm_equal_weight_fusion/R04_piers_robinson_condition_J_norm_equal_weight_fusion_attributed.json": {
+        "size": 218604,
+        "mtime": 1793418878.6123602,
+        "sha256": "bdc02aa125da343e078f42cbc77d29af3454d18c5292b6040c4ebe3404f47eb5"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_J_norm_equal_weight_fusion/R05_southwest_pilot_condition_J_norm_equal_weight_fusion_attributed.json": {
+        "size": 119015,
+        "mtime": 1793418885.7884278,
+        "sha256": "ecc0cb5cb5bafae2ecdf8ae50bac9ef4756ebc33194e0bf32564be434eb27561"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_J_norm_equal_weight_fusion/R06_rich_karen_condition_J_norm_equal_weight_fusion_attributed.json": {
+        "size": 550991,
+        "mtime": 1793418919.7347486,
+        "sha256": "29151c02bd408957891f906fea713f0463a222824b1afffb981bdac79efd805f"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_J_norm_equal_weight_fusion/R07_bwc_cheap_shot_condition_J_norm_equal_weight_fusion_attributed.json": {
+        "size": 147320,
+        "mtime": 1793418943.13797,
+        "sha256": "a0ce6aee53d8448d2ac42cf6873261433218b556b9edadbc94852067efcf74df"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_J_norm_equal_weight_fusion/R08_uk_parliament_condition_J_norm_equal_weight_fusion_attributed.json": {
+        "size": 144793,
+        "mtime": 1793418949.4140294,
+        "sha256": "5c9d7141391438234e7049cd1329c23add8b486cacd38f49ff89d68fd743c110"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_C_norm_equal_weight_stage5a/R01_sara_sharif_condition_C_norm_equal_weight_stage5a_attributed.json": {
+        "size": 82059,
+        "mtime": 1793418855.7351441,
+        "sha256": "2fae6191a29147e0f81a240eac4d0db9188ea0c4342889b7e12bd2ba5f9745cb"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_C_norm_equal_weight_stage5a/R02_dennis_skinner_condition_C_norm_equal_weight_stage5a_attributed.json": {
+        "size": 97165,
+        "mtime": 1793418858.8461735,
+        "sha256": "da8839a660c7a0e469da7036314beacdf6a8782c3472bf79048c526ada01fc55"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_C_norm_equal_weight_stage5a/R03_disabled_parking_condition_C_norm_equal_weight_stage5a_attributed.json": {
+        "size": 203215,
+        "mtime": 1793418864.3262253,
+        "sha256": "a898829ccdec5f5e83d2c25d6877f0a84e3937208fc3dc726737627b677c6977"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_C_norm_equal_weight_stage5a/R04_piers_robinson_condition_C_norm_equal_weight_stage5a_attributed.json": {
+        "size": 218605,
+        "mtime": 1793418874.1193178,
+        "sha256": "1c9cbb9369b2d6b06e34761c1d161b0d4ea9f1f1b803c99002ed396f5e52de90"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_C_norm_equal_weight_stage5a/R05_southwest_pilot_condition_C_norm_equal_weight_stage5a_attributed.json": {
+        "size": 119016,
+        "mtime": 1793418884.2204132,
+        "sha256": "e5fbed0dd67ff3b821d6e13a0f2e1948b2ab10579052ddce52dfe1e3860e9de2"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_C_norm_equal_weight_stage5a/R06_rich_karen_condition_C_norm_equal_weight_stage5a_attributed.json": {
+        "size": 550992,
+        "mtime": 1793418900.6825686,
+        "sha256": "c394c4bc0d76da7e9ccc8972fb6faadc2999bf19ddbea5cbaf4db634d6729ae9"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_C_norm_equal_weight_stage5a/R07_bwc_cheap_shot_condition_C_norm_equal_weight_stage5a_attributed.json": {
+        "size": 147321,
+        "mtime": 1793418940.412944,
+        "sha256": "c290bb8833614b385a559c53a271afc304dc35dd892fd240a690301c9d00d385"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_C_norm_equal_weight_stage5a/R08_uk_parliament_condition_C_norm_equal_weight_stage5a_attributed.json": {
+        "size": 144794,
+        "mtime": 1793418947.2320087,
+        "sha256": "7f892d2191874846091961ef3422640ac3785ccfecc7a87d270fd4c5ce674c70"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_K_norm_reliability_gate/R01_sara_sharif_condition_K_norm_reliability_gate_attributed.json": {
+        "size": 82055,
+        "mtime": 1793418857.0761569,
+        "sha256": "f1b8c42433012229d15d5b89bd8dc8c82199a2320b6a3e6784beb9aaad0dc867"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_K_norm_reliability_gate/R02_dennis_skinner_condition_K_norm_reliability_gate_attributed.json": {
+        "size": 97161,
+        "mtime": 1793418860.9361932,
+        "sha256": "3b3bbd757735afdeb5febee2938e5ec6f3732ed0c322cc537cf3b351d85ac1cd"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_K_norm_reliability_gate/R03_disabled_parking_condition_K_norm_reliability_gate_attributed.json": {
+        "size": 203211,
+        "mtime": 1793418868.7332668,
+        "sha256": "bbaa4f0b59577669e243d28eb517943a0da2e69e9ec8bb69e161b62903084955"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_K_norm_reliability_gate/R04_piers_robinson_condition_K_norm_reliability_gate_attributed.json": {
+        "size": 218729,
+        "mtime": 1793418880.0513737,
+        "sha256": "cbefe5e3661e60820a946f51efed3aa97d71ccb08d168d5cb6820c5dd0b71ac4"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_K_norm_reliability_gate/R05_southwest_pilot_condition_K_norm_reliability_gate_attributed.json": {
+        "size": 119263,
+        "mtime": 1793418886.3124328,
+        "sha256": "66b822894a59249af6f6817196631066bed5002ed4591b64f53a5a4bfe3b4af5"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_K_norm_reliability_gate/R06_rich_karen_condition_K_norm_reliability_gate_attributed.json": {
+        "size": 547095,
+        "mtime": 1793418926.1008089,
+        "sha256": "b4542442530df78a4e01f94ea8f4578b4058a1e848d0c68560a87a3e559f8f39"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_K_norm_reliability_gate/R07_bwc_cheap_shot_condition_K_norm_reliability_gate_attributed.json": {
+        "size": 147317,
+        "mtime": 1793418943.988978,
+        "sha256": "e95bc45d352869c6ecca07da48e5fc02f5e90c59256ea7b8add14b5b30262ef7"
+      },
+      "research_stages/stage5a_1/predictions/attributions/condition_K_norm_reliability_gate/R08_uk_parliament_condition_K_norm_reliability_gate_attributed.json": {
+        "size": 144790,
+        "mtime": 1793418950.0750356,
+        "sha256": "56ecd605ce04bf4de91595e35ce8d2d69a5d10232da491f8599d6cec55bf77a1"
+      },
+      "research_stages/stage5a_1/downstream_metrics/stage5a_1_master_results.json": {
+        "size": 55064,
+        "mtime": 1793418954.141074,
+        "sha256": "ac1fa5a1c5705cc49124facab0eb0698a7467a43532dd52235abf9b4707fedd4"
+      },
+      "research_stages/stage5a_1/downstream_metrics/stage5a_1_per_recording_diarization.csv": {
+        "size": 10581,
+        "mtime": 1793418951.1980462,
+        "sha256": "b1ac5ead21668807d4b61df183e6aac0b8e8ec16d6603ba1fced873bd15a1924"
+      },
+      "research_stages/stage5a_1/downstream_metrics/stage5a_1_summary_diarization.csv": {
+        "size": 1376,
+        "mtime": 1793418951.1990461,
+        "sha256": "4b6c52a04a9e8b9826d766eae02fd07bc31e6a8775eed91fb1023e0e8edfcc98"
+      }
+    }
+  }
+}
