@@ -112,17 +112,19 @@ speech_reconstruction/
 # =========================================================
 # Ignore all audio files globally to ensure they are never pushed
 *.wav
-*.mp3
 *.m4a
 *.flac
 
+# Vim swap and backup files
+*.swp
+*.swo
+*~
+*.un~
+
+
 # Allow the experiments directory structure and non-audio files
 !experiments/
-experiments/**/*.wav
-experiments/**/*.mp3
 
-raw_audio/*
-!raw_audio/.gitkeep
 error_analysis_A/*
 !error_analysis_A/.gitkeep
 error_analysis_B/*
