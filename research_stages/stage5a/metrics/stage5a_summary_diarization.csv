@@ -1,0 +1,8 @@
+method_id,method,macro_der_collar0_ovl,dur_weighted_der_collar0_ovl,macro_der_collar025_noovl,dur_weighted_der_collar025_noovl,macro_jer,spk_count_mae,spk_count_signed_bias,single_spk_collapse_count,macro_cpwer,macro_sawer,macro_micro_sacc,macro_macro_sacc
+A,condition_A_titanet_dfn_baseline,0.4622,0.5144,0.3972,0.4529,0.6214,1.5,-1.5,1,0.3807,0.4658,0.8427,0.4942
+B,condition_B_resnet293_mono_baseline,0.4598,0.5222,0.3894,0.4561,0.6207,1.625,-1.625,1,0.3644,0.4658,0.8429,0.4894
+C,condition_C_equal_weight_affinity,0.4617,0.5218,0.3965,0.4597,0.622,1.25,-1.25,1,0.3705,0.4645,0.8401,0.5025
+D,condition_D_three_feature_reliability_gate,0.4592,0.5149,0.3939,0.4526,0.6263,1.625,-1.625,1,0.3774,0.4665,0.8418,0.4899
+E,condition_E_gate_ablation_no_resnet_l2,0.4622,0.5231,0.3971,0.4611,0.622,1.25,-1.25,1,0.3705,0.4647,0.8392,0.5017
+F,condition_F_gate_ablation_no_dfn_nr,0.4582,0.5121,0.3929,0.45,0.6261,1.625,-1.625,1,0.376,0.4652,0.8425,0.4901
+G,condition_G_gate_ablation_no_vad_conf,0.4591,0.5145,0.3938,0.4522,0.6261,1.625,-1.625,1,0.3772,0.4664,0.8418,0.4899

@@ -1,0 +1,3820 @@
+{
+  "file": "R01_sara_sharif.wav",
+  "method": "condition_D_three_feature_reliability_gate",
+  "words": [
+    {
+      "word": "Yes",
+      "start": 2.052,
+      "end": 2.174,
+      "confidence": 0.243,
+      "speaker": "UNK"
+    },
+    {
+      "word": "sir.",
+      "start": 2.194,
+      "end": 2.377,
+      "confidence": 0.339,
+      "speaker": "UNK"
+    },
+    {
+      "word": "We",
+      "start": 2.987,
+      "end": 3.11,
+      "confidence": 0.532,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "are,",
+      "start": 3.13,
+      "end": 3.293,
+      "confidence": 0.352,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "yes.",
+      "start": 3.334,
+      "end": 3.497,
+      "confidence": 0.479,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "Are",
+      "start": 4.502,
+      "end": 4.763,
+      "confidence": 0.205,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "you",
+      "start": 4.783,
+      "end": 5.143,
+      "confidence": 0.523,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "okay",
+      "start": 5.223,
+      "end": 5.504,
+      "confidence": 0.63,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "just",
+      "start": 5.524,
+      "end": 5.684,
+      "confidence": 0.364,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "to",
+      "start": 5.724,
+      "end": 5.844,
+      "confidence": 0.838,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "swap",
+      "start": 5.904,
+      "end": 6.145,
+      "confidence": 0.797,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "over,",
+      "start": 6.245,
+      "end": 6.445,
+      "confidence": 0.858,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "just",
+      "start": 6.465,
+      "end": 6.605,
+      "confidence": 0.728,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "yourself",
+      "start": 6.805,
+      "end": 7.126,
+      "confidence": 0.948,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "come",
+      "start": 7.166,
+      "end": 7.286,
+      "confidence": 0.89,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "with",
+      "start": 7.306,
+      "end": 7.406,
+      "confidence": 0.268,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "me",
+      "start": 7.446,
+      "end": 7.526,
+      "confidence": 0.751,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "and",
+      "start": 7.547,
+      "end": 7.607,
+      "confidence": 0.279,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "if",
+      "start": 7.667,
+      "end": 7.707,
+      "confidence": 0.044,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "you",
+      "start": 7.727,
+      "end": 7.787,
+      "confidence": 0.396,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "go",
+      "start": 7.827,
+      "end": 7.887,
+      "confidence": 0.191,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "with",
+      "start": 7.907,
+      "end": 8.027,
+      "confidence": 0.078,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "my",
+      "start": 8.047,
+      "end": 8.147,
+      "confidence": 0.616,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "colleague",
+      "start": 8.167,
+      "end": 8.408,
+      "confidence": 0.328,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "over",
+      "start": 8.428,
+      "end": 8.568,
+      "confidence": 0.28,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "there,",
+      "start": 8.588,
+      "end": 8.728,
+      "confidence": 0.458,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "is",
+      "start": 8.848,
+      "end": 8.929,
+      "confidence": 0.404,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "that",
+      "start": 8.949,
+      "end": 9.029,
+      "confidence": 0.193,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "alright?",
+      "start": 9.089,
+      "end": 9.329,
+      "confidence": 0.232,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "Alright.",
+      "start": 9.409,
+      "end": 9.85,
+      "confidence": 0.473,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "That's",
+      "start": 11.046,
+      "end": 11.168,
+      "confidence": 0.075,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "what",
+      "start": 11.188,
+      "end": 11.269,
+      "confidence": 0.066,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "I",
+      "start": 11.289,
+      "end": 11.329,
+      "confidence": 0.241,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "was",
+      "start": 11.35,
+      "end": 11.491,
+      "confidence": 0.715,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "going",
+      "start": 11.511,
+      "end": 11.633,
+      "confidence": 0.1,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "to",
+      "start": 11.653,
+      "end": 11.774,
+      "confidence": 0.448,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "say",
+      "start": 11.794,
+      "end": 11.976,
+      "confidence": 0.451,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "about",
+      "start": 11.997,
+      "end": 12.34,
+      "confidence": 0.579,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "it.",
+      "start": 12.36,
+      "end": 12.421,
+      "confidence": 0.287,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "Thank",
+      "start": 12.885,
+      "end": 13.006,
+      "confidence": 0.285,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "you.",
+      "start": 13.026,
+      "end": 13.126,
+      "confidence": 0.178,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "Cutting",
+      "start": 13.146,
+      "end": 13.387,
+      "confidence": 0.66,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "back.",
+      "start": 13.407,
+      "end": 13.628,
+      "confidence": 0.624,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "Yes.",
+      "start": 14.492,
+      "end": 14.833,
+      "confidence": 0.788,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "Which",
+      "start": 16.92,
+      "end": 17.06,
+      "confidence": 0.873,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "one",
+      "start": 17.121,
+      "end": 17.181,
+      "confidence": 0.986,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "is",
+      "start": 17.221,
+      "end": 17.281,
+      "confidence": 0.838,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "your",
+      "start": 17.301,
+      "end": 17.442,
+      "confidence": 0.926,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "bag?",
+      "start": 17.482,
+      "end": 17.703,
+      "confidence": 0.859,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "I",
+      "start": 17.984,
+      "end": 18.024,
+      "confidence": 0.655,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "don't",
+      "start": 18.064,
+      "end": 18.244,
+      "confidence": 0.523,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "have",
+      "start": 18.265,
+      "end": 18.345,
+      "confidence": 0.055,
+      "speaker": "UNK"
+    },
+    {
+      "word": "any",
+      "start": 18.365,
+      "end": 18.425,
+      "confidence": 0.067,
+      "speaker": "UNK"
+    },
+    {
+      "word": "bag.",
+      "start": 18.465,
+      "end": 18.646,
+      "confidence": 0.818,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "You",
+      "start": 18.927,
+      "end": 19.027,
+      "confidence": 0.783,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "have",
+      "start": 19.047,
+      "end": 19.168,
+      "confidence": 0.837,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "no",
+      "start": 19.188,
+      "end": 19.288,
+      "confidence": 0.624,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "bag?",
+      "start": 19.328,
+      "end": 19.529,
+      "confidence": 0.792,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "We'll",
+      "start": 21.235,
+      "end": 21.376,
+      "confidence": 0.275,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "look",
+      "start": 21.396,
+      "end": 21.476,
+      "confidence": 0.029,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "over",
+      "start": 21.536,
+      "end": 21.737,
+      "confidence": 0.475,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "here.",
+      "start": 21.757,
+      "end": 22.299,
+      "confidence": 0.667,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "Yance,",
+      "start": 22.379,
+      "end": 22.68,
+      "confidence": 0.724,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "you",
+      "start": 22.7,
+      "end": 22.921,
+      "confidence": 0.293,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "have",
+      "start": 23.102,
+      "end": 23.282,
+      "confidence": 0.394,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "a",
+      "start": 23.363,
+      "end": 23.383,
+      "confidence": 0.083,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "lot",
+      "start": 23.403,
+      "end": 23.543,
+      "confidence": 0.334,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "of",
+      "start": 23.583,
+      "end": 23.644,
+      "confidence": 0.934,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "peace.",
+      "start": 23.664,
+      "end": 23.884,
+      "confidence": 0.675,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "I'll",
+      "start": 28.056,
+      "end": 28.157,
+      "confidence": 0.145,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "explain",
+      "start": 28.177,
+      "end": 28.438,
+      "confidence": 0.272,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "more",
+      "start": 28.478,
+      "end": 28.599,
+      "confidence": 0.44,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "outside,",
+      "start": 28.619,
+      "end": 28.779,
+      "confidence": 0.036,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "okay?",
+      "start": 28.86,
+      "end": 29.201,
+      "confidence": 0.697,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "Sorry,",
+      "start": 29.913,
+      "end": 30.256,
+      "confidence": 0.474,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "I'll",
+      "start": 30.276,
+      "end": 30.356,
+      "confidence": 0.039,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "explain.",
+      "start": 30.397,
+      "end": 30.659,
+      "confidence": 0.441,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "Let's",
+      "start": 33.014,
+      "end": 33.256,
+      "confidence": 0.438,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "hold",
+      "start": 33.618,
+      "end": 33.8,
+      "confidence": 0.817,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "on",
+      "start": 33.84,
+      "end": 33.941,
+      "confidence": 0.742,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "to",
+      "start": 33.981,
+      "end": 34.021,
+      "confidence": 0.232,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "him",
+      "start": 34.041,
+      "end": 34.182,
+      "confidence": 0.324,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "a",
+      "start": 34.223,
+      "end": 34.243,
+      "confidence": 0.53,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "little.",
+      "start": 34.303,
+      "end": 34.484,
+      "confidence": 0.276,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "Yeah,",
+      "start": 37.185,
+      "end": 37.326,
+      "confidence": 0.477,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "could",
+      "start": 37.346,
+      "end": 37.466,
+      "confidence": 0.092,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "you",
+      "start": 37.486,
+      "end": 37.586,
+      "confidence": 0.121,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "just",
+      "start": 37.606,
+      "end": 37.686,
+      "confidence": 0.229,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "confirm",
+      "start": 37.706,
+      "end": 37.987,
+      "confidence": 0.537,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "your",
+      "start": 38.007,
+      "end": 38.107,
+      "confidence": 0.356,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "name",
+      "start": 38.127,
+      "end": 38.267,
+      "confidence": 0.324,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "for",
+      "start": 38.347,
+      "end": 38.488,
+      "confidence": 0.418,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "me",
+      "start": 38.508,
+      "end": 38.608,
+      "confidence": 0.601,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "please,",
+      "start": 38.648,
+      "end": 39.008,
+      "confidence": 0.521,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "sir?",
+      "start": 39.089,
+      "end": 39.209,
+      "confidence": 0.549,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "Sorry.",
+      "start": 41.102,
+      "end": 41.43,
+      "confidence": 0.819,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "Good",
+      "start": 42.387,
+      "end": 42.55,
+      "confidence": 0.677,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "punch,",
+      "start": 42.591,
+      "end": 42.816,
+      "confidence": 0.351,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "Sharif.",
+      "start": 42.836,
+      "end": 43.04,
+      "confidence": 0.307,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "Yes,",
+      "start": 43.598,
+      "end": 43.858,
+      "confidence": 0.85,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "yeah,",
+      "start": 43.958,
+      "end": 44.258,
+      "confidence": 0.719,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "often,",
+      "start": 44.898,
+      "end": 45.138,
+      "confidence": 0.588,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "okay.",
+      "start": 45.158,
+      "end": 45.519,
+      "confidence": 0.751,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "So,",
+      "start": 45.819,
+      "end": 46.079,
+      "confidence": 0.773,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "the",
+      "start": 46.519,
+      "end": 46.819,
+      "confidence": 0.818,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "time",
+      "start": 46.859,
+      "end": 47.319,
+      "confidence": 0.752,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "is",
+      "start": 47.759,
+      "end": 48.299,
+      "confidence": 0.562,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "19.47",
+      "start": 48.319,
+      "end": 48.539,
+      "confidence": 0.846,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "hours.",
+      "start": 48.559,
+      "end": 48.82,
+      "confidence": 0.906,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "The",
+      "start": 49.2,
+      "end": 49.28,
+      "confidence": 0.921,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "body",
+      "start": 49.3,
+      "end": 49.52,
+      "confidence": 0.952,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "of",
+      "start": 49.54,
+      "end": 49.6,
+      "confidence": 0.936,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "Sarah",
+      "start": 49.68,
+      "end": 49.94,
+      "confidence": 0.696,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "Sharif",
+      "start": 49.96,
+      "end": 50.3,
+      "confidence": 0.586,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "was",
+      "start": 50.36,
+      "end": 50.48,
+      "confidence": 0.611,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "discovered",
+      "start": 50.5,
+      "end": 50.96,
+      "confidence": 0.76,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "on",
+      "start": 51.22,
+      "end": 51.28,
+      "confidence": 0.923,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "the",
+      "start": 51.3,
+      "end": 51.36,
+      "confidence": 0.981,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "10th",
+      "start": 51.42,
+      "end": 51.6,
+      "confidence": 0.702,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "of",
+      "start": 51.62,
+      "end": 51.66,
+      "confidence": 0.161,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "August,",
+      "start": 51.74,
+      "end": 52.021,
+      "confidence": 0.912,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "2023,",
+      "start": 52.181,
+      "end": 52.561,
+      "confidence": 0.579,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "on",
+      "start": 53.281,
+      "end": 53.381,
+      "confidence": 0.424,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "6",
+      "start": 53.581,
+      "end": 53.721,
+      "confidence": 0.795,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "Hammond",
+      "start": 54.061,
+      "end": 54.341,
+      "confidence": 0.647,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "Road",
+      "start": 54.381,
+      "end": 54.661,
+      "confidence": 0.731,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "in",
+      "start": 54.701,
+      "end": 54.781,
+      "confidence": 0.829,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "Horsall.",
+      "start": 54.841,
+      "end": 55.261,
+      "confidence": 0.696,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "On",
+      "start": 55.642,
+      "end": 55.702,
+      "confidence": 0.795,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "the",
+      "start": 55.722,
+      "end": 55.782,
+      "confidence": 0.858,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "injuries",
+      "start": 55.822,
+      "end": 56.102,
+      "confidence": 0.366,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "sustained",
+      "start": 56.142,
+      "end": 56.502,
+      "confidence": 0.899,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "by",
+      "start": 56.542,
+      "end": 56.682,
+      "confidence": 0.806,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "her",
+      "start": 56.762,
+      "end": 56.902,
+      "confidence": 0.793,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "and",
+      "start": 56.922,
+      "end": 57.242,
+      "confidence": 0.309,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "the",
+      "start": 57.262,
+      "end": 57.342,
+      "confidence": 0.127,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "investigation",
+      "start": 57.362,
+      "end": 58.122,
+      "confidence": 0.937,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "conducted,",
+      "start": 58.142,
+      "end": 58.662,
+      "confidence": 0.944,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "you",
+      "start": 58.923,
+      "end": 59.023,
+      "confidence": 0.845,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "are",
+      "start": 59.063,
+      "end": 59.123,
+      "confidence": 0.987,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "suspected",
+      "start": 59.163,
+      "end": 59.643,
+      "confidence": 0.87,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "of",
+      "start": 59.703,
+      "end": 59.803,
+      "confidence": 0.768,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "her",
+      "start": 59.843,
+      "end": 59.963,
+      "confidence": 0.89,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "murder.",
+      "start": 60.023,
+      "end": 60.323,
+      "confidence": 0.931,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "You",
+      "start": 61.392,
+      "end": 61.492,
+      "confidence": 0.725,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "are",
+      "start": 61.532,
+      "end": 61.633,
+      "confidence": 0.502,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "therefore",
+      "start": 61.673,
+      "end": 62.093,
+      "confidence": 0.883,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "arrested",
+      "start": 62.114,
+      "end": 62.514,
+      "confidence": 0.392,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "for",
+      "start": 62.635,
+      "end": 62.775,
+      "confidence": 0.794,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "murder",
+      "start": 62.795,
+      "end": 63.216,
+      "confidence": 0.616,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "of",
+      "start": 63.436,
+      "end": 63.516,
+      "confidence": 0.94,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "Sarah",
+      "start": 63.577,
+      "end": 63.917,
+      "confidence": 0.83,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "Sharif.",
+      "start": 63.937,
+      "end": 64.258,
+      "confidence": 0.577,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "You",
+      "start": 65.0,
+      "end": 65.08,
+      "confidence": 0.667,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "do",
+      "start": 65.1,
+      "end": 65.14,
+      "confidence": 0.36,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "not",
+      "start": 65.16,
+      "end": 65.22,
+      "confidence": 0.1,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "have",
+      "start": 65.24,
+      "end": 65.32,
+      "confidence": 0.05,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "to",
+      "start": 65.34,
+      "end": 65.42,
+      "confidence": 0.348,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "say",
+      "start": 65.46,
+      "end": 65.541,
+      "confidence": 0.491,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "anything",
+      "start": 65.561,
+      "end": 65.941,
+      "confidence": 0.826,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "when",
+      "start": 65.962,
+      "end": 66.082,
+      "confidence": 0.455,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "it",
+      "start": 66.122,
+      "end": 66.162,
+      "confidence": 0.027,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "may",
+      "start": 66.202,
+      "end": 66.382,
+      "confidence": 0.569,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "harm",
+      "start": 66.402,
+      "end": 66.503,
+      "confidence": 0.359,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "your",
+      "start": 66.563,
+      "end": 66.643,
+      "confidence": 0.007,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "defence.",
+      "start": 66.663,
+      "end": 66.984,
+      "confidence": 0.615,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "You",
+      "start": 67.184,
+      "end": 67.284,
+      "confidence": 0.685,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "do",
+      "start": 67.304,
+      "end": 67.404,
+      "confidence": 0.706,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "not",
+      "start": 67.425,
+      "end": 67.525,
+      "confidence": 0.668,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "mention",
+      "start": 67.545,
+      "end": 67.805,
+      "confidence": 0.367,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "when",
+      "start": 67.825,
+      "end": 67.946,
+      "confidence": 0.229,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "questioned,",
+      "start": 67.986,
+      "end": 68.407,
+      "confidence": 0.787,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "something",
+      "start": 68.747,
+      "end": 68.988,
+      "confidence": 0.398,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "which",
+      "start": 69.008,
+      "end": 69.108,
+      "confidence": 0.052,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "you",
+      "start": 69.128,
+      "end": 69.208,
+      "confidence": 0.219,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "later",
+      "start": 69.248,
+      "end": 69.429,
+      "confidence": 0.355,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "rely",
+      "start": 69.449,
+      "end": 69.589,
+      "confidence": 0.423,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "on",
+      "start": 69.609,
+      "end": 69.729,
+      "confidence": 0.786,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "in",
+      "start": 69.749,
+      "end": 69.789,
+      "confidence": 0.132,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "court,",
+      "start": 69.83,
+      "end": 70.07,
+      "confidence": 0.589,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "and",
+      "start": 70.311,
+      "end": 70.371,
+      "confidence": 0.976,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "anything",
+      "start": 70.431,
+      "end": 70.671,
+      "confidence": 0.699,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "you",
+      "start": 70.691,
+      "end": 70.812,
+      "confidence": 0.787,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "do",
+      "start": 70.832,
+      "end": 70.972,
+      "confidence": 0.875,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "say",
+      "start": 71.012,
+      "end": 71.232,
+      "confidence": 0.4,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "may",
+      "start": 71.273,
+      "end": 71.333,
+      "confidence": 0.389,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "be",
+      "start": 71.393,
+      "end": 71.433,
+      "confidence": 0.015,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "given",
+      "start": 71.493,
+      "end": 71.754,
+      "confidence": 0.844,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "in",
+      "start": 71.814,
+      "end": 71.874,
+      "confidence": 0.843,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "evidence.",
+      "start": 71.934,
+      "end": 72.275,
+      "confidence": 0.877,
+      "speaker": "speaker_1"
+    },
+    {
+      "word": "You",
+      "start": 73.39,
+      "end": 73.491,
+      "confidence": 0.76,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "are",
+      "start": 73.531,
+      "end": 73.592,
+      "confidence": 0.177,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "therefore",
+      "start": 73.612,
+      "end": 73.874,
+      "confidence": 0.315,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "arrested",
+      "start": 73.894,
+      "end": 74.116,
+      "confidence": 0.556,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "for",
+      "start": 74.137,
+      "end": 74.338,
+      "confidence": 0.683,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "the",
+      "start": 74.419,
+      "end": 74.56,
+      "confidence": 0.548,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "murder",
+      "start": 74.6,
+      "end": 74.843,
+      "confidence": 0.299,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "of",
+      "start": 74.964,
+      "end": 75.145,
+      "confidence": 0.763,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "Cheryl",
+      "start": 75.266,
+      "end": 75.569,
+      "confidence": 0.533,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "Shree.",
+      "start": 75.609,
+      "end": 75.811,
+      "confidence": 0.637,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "You",
+      "start": 76.662,
+      "end": 76.823,
+      "confidence": 0.427,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "didn't",
+      "start": 77.103,
+      "end": 77.303,
+      "confidence": 0.256,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "have",
+      "start": 77.364,
+      "end": 77.484,
+      "confidence": 0.302,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "to",
+      "start": 77.544,
+      "end": 77.644,
+      "confidence": 0.53,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "say",
+      "start": 77.664,
+      "end": 77.824,
+      "confidence": 0.526,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "anything,",
+      "start": 77.905,
+      "end": 78.145,
+      "confidence": 0.221,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "but",
+      "start": 78.185,
+      "end": 78.325,
+      "confidence": 0.406,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "it",
+      "start": 78.345,
+      "end": 78.405,
+      "confidence": 0.23,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "may",
+      "start": 78.466,
+      "end": 78.586,
+      "confidence": 0.416,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "have",
+      "start": 78.626,
+      "end": 78.806,
+      "confidence": 0.339,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "been",
+      "start": 78.846,
+      "end": 78.966,
+      "confidence": 0.255,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "on",
+      "start": 79.007,
+      "end": 79.047,
+      "confidence": 0.0,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "your",
+      "start": 79.087,
+      "end": 79.207,
+      "confidence": 0.189,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "offence",
+      "start": 79.227,
+      "end": 79.387,
+      "confidence": 0.094,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "if",
+      "start": 79.407,
+      "end": 79.467,
+      "confidence": 0.262,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "you",
+      "start": 79.487,
+      "end": 79.608,
+      "confidence": 0.235,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "didn't",
+      "start": 79.648,
+      "end": 79.848,
+      "confidence": 0.261,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "mention",
+      "start": 79.888,
+      "end": 80.409,
+      "confidence": 0.446,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "one",
+      "start": 80.429,
+      "end": 80.509,
+      "confidence": 0.202,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "question,",
+      "start": 80.529,
+      "end": 80.91,
+      "confidence": 0.384,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "something",
+      "start": 80.93,
+      "end": 81.231,
+      "confidence": 0.256,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "which",
+      "start": 81.251,
+      "end": 81.391,
+      "confidence": 0.171,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "you",
+      "start": 81.431,
+      "end": 81.511,
+      "confidence": 0.149,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "later",
+      "start": 81.531,
+      "end": 81.712,
+      "confidence": 0.296,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "rely",
+      "start": 81.932,
+      "end": 82.052,
+      "confidence": 0.259,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "on",
+      "start": 82.092,
+      "end": 82.152,
+      "confidence": 0.218,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "in",
+      "start": 82.192,
+      "end": 82.253,
+      "confidence": 0.256,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "court.",
+      "start": 82.293,
+      "end": 82.453,
+      "confidence": 0.191,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "Any",
+      "start": 82.553,
+      "end": 82.633,
+      "confidence": 0.265,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "of",
+      "start": 82.693,
+      "end": 82.834,
+      "confidence": 0.57,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "you",
+      "start": 82.894,
+      "end": 82.994,
+      "confidence": 0.352,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "do",
+      "start": 83.014,
+      "end": 83.054,
+      "confidence": 0.012,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "say",
+      "start": 83.074,
+      "end": 83.154,
+      "confidence": 0.12,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "maybe",
+      "start": 83.174,
+      "end": 83.315,
+      "confidence": 0.173,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "they've",
+      "start": 83.355,
+      "end": 83.815,
+      "confidence": 0.308,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "never",
+      "start": 83.835,
+      "end": 83.976,
+      "confidence": 0.209,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "seen",
+      "start": 83.996,
+      "end": 84.096,
+      "confidence": 0.128,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "someone",
+      "start": 84.136,
+      "end": 84.316,
+      "confidence": 0.182,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "like",
+      "start": 84.336,
+      "end": 84.477,
+      "confidence": 0.312,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "me.",
+      "start": 84.537,
+      "end": 85.679,
+      "confidence": 0.492,
+      "speaker": "speaker_0"
+    },
+    {
+      "word": "From",
+      "start": 86.325,
+      "end": 86.425,
+      "confidence": 0.172,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "the",
+      "start": 86.485,
+      "end": 86.545,
+      "confidence": 0.097,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "injuries",
+      "start": 86.565,
+      "end": 87.005,
+      "confidence": 0.519,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "sustained",
+      "start": 87.025,
+      "end": 87.346,
+      "confidence": 0.26,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "by",
+      "start": 87.386,
+      "end": 87.586,
+      "confidence": 0.652,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "her",
+      "start": 87.646,
+      "end": 87.926,
+      "confidence": 0.647,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "and",
+      "start": 88.066,
+      "end": 88.126,
+      "confidence": 0.066,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "the",
+      "start": 88.146,
+      "end": 88.246,
+      "confidence": 0.246,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "investigation",
+      "start": 88.346,
+      "end": 89.067,
+      "confidence": 0.353,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "conducted,",
+      "start": 89.107,
+      "end": 89.507,
+      "confidence": 0.342,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "you",
+      "start": 89.947,
+      "end": 90.107,
+      "confidence": 0.592,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "are",
+      "start": 90.127,
+      "end": 90.207,
+      "confidence": 0.171,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "suspected",
+      "start": 90.307,
+      "end": 90.587,
+      "confidence": 0.205,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "of",
+      "start": 90.768,
+      "end": 90.848,
+      "confidence": 0.278,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "her",
+      "start": 90.928,
+      "end": 91.028,
+      "confidence": 0.404,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "murder.",
+      "start": 91.068,
+      "end": 91.288,
+      "confidence": 0.248,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "You",
+      "start": 91.308,
+      "end": 91.408,
+      "confidence": 0.314,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "are",
+      "start": 92.188,
+      "end": 92.268,
+      "confidence": 0.259,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "therefore",
+      "start": 92.288,
+      "end": 92.729,
+      "confidence": 0.499,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "arrested",
+      "start": 92.749,
+      "end": 92.969,
+      "confidence": 0.227,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "for",
+      "start": 93.029,
+      "end": 93.189,
+      "confidence": 0.368,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "the",
+      "start": 93.289,
+      "end": 93.409,
+      "confidence": 0.523,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "murder",
+      "start": 93.449,
+      "end": 93.789,
+      "confidence": 0.436,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "of",
+      "start": 93.829,
+      "end": 93.909,
+      "confidence": 0.42,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "Saad",
+      "start": 93.969,
+      "end": 94.31,
+      "confidence": 0.611,
+      "speaker": "speaker_2"
+    },
+    {
+      "word": "Sharif.",
+      "start": 94.33,
+      "end": 94.61,
+      "confidence": 0.354,
+      "speaker": "speaker_2"
+    }
+  ],
+  "segments": [
+    {
+      "speaker": "UNK",
+      "start": 2.052,
+      "end": 2.377,
+      "text": "Yes sir.",
+      "words": [
+        {
+          "word": "Yes",
+          "start": 2.052,
+          "end": 2.174,
+          "confidence": 0.243,
+          "speaker": "UNK"
+        },
+        {
+          "word": "sir.",
+          "start": 2.194,
+          "end": 2.377,
+          "confidence": 0.339,
+          "speaker": "UNK"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_2",
+      "start": 2.987,
+      "end": 13.628,
+      "text": "We are, yes. Are you okay just to swap over, just yourself come with me and if you go with my colleague over there, is that alright? Alright. That's what I was going to say about it. Thank you. Cutting back.",
+      "words": [
+        {
+          "word": "We",
+          "start": 2.987,
+          "end": 3.11,
+          "confidence": 0.532,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "are,",
+          "start": 3.13,
+          "end": 3.293,
+          "confidence": 0.352,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "yes.",
+          "start": 3.334,
+          "end": 3.497,
+          "confidence": 0.479,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "Are",
+          "start": 4.502,
+          "end": 4.763,
+          "confidence": 0.205,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "you",
+          "start": 4.783,
+          "end": 5.143,
+          "confidence": 0.523,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "okay",
+          "start": 5.223,
+          "end": 5.504,
+          "confidence": 0.63,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "just",
+          "start": 5.524,
+          "end": 5.684,
+          "confidence": 0.364,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "to",
+          "start": 5.724,
+          "end": 5.844,
+          "confidence": 0.838,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "swap",
+          "start": 5.904,
+          "end": 6.145,
+          "confidence": 0.797,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "over,",
+          "start": 6.245,
+          "end": 6.445,
+          "confidence": 0.858,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "just",
+          "start": 6.465,
+          "end": 6.605,
+          "confidence": 0.728,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "yourself",
+          "start": 6.805,
+          "end": 7.126,
+          "confidence": 0.948,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "come",
+          "start": 7.166,
+          "end": 7.286,
+          "confidence": 0.89,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "with",
+          "start": 7.306,
+          "end": 7.406,
+          "confidence": 0.268,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "me",
+          "start": 7.446,
+          "end": 7.526,
+          "confidence": 0.751,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "and",
+          "start": 7.547,
+          "end": 7.607,
+          "confidence": 0.279,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "if",
+          "start": 7.667,
+          "end": 7.707,
+          "confidence": 0.044,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "you",
+          "start": 7.727,
+          "end": 7.787,
+          "confidence": 0.396,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "go",
+          "start": 7.827,
+          "end": 7.887,
+          "confidence": 0.191,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "with",
+          "start": 7.907,
+          "end": 8.027,
+          "confidence": 0.078,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "my",
+          "start": 8.047,
+          "end": 8.147,
+          "confidence": 0.616,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "colleague",
+          "start": 8.167,
+          "end": 8.408,
+          "confidence": 0.328,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "over",
+          "start": 8.428,
+          "end": 8.568,
+          "confidence": 0.28,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "there,",
+          "start": 8.588,
+          "end": 8.728,
+          "confidence": 0.458,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "is",
+          "start": 8.848,
+          "end": 8.929,
+          "confidence": 0.404,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "that",
+          "start": 8.949,
+          "end": 9.029,
+          "confidence": 0.193,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "alright?",
+          "start": 9.089,
+          "end": 9.329,
+          "confidence": 0.232,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "Alright.",
+          "start": 9.409,
+          "end": 9.85,
+          "confidence": 0.473,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "That's",
+          "start": 11.046,
+          "end": 11.168,
+          "confidence": 0.075,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "what",
+          "start": 11.188,
+          "end": 11.269,
+          "confidence": 0.066,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "I",
+          "start": 11.289,
+          "end": 11.329,
+          "confidence": 0.241,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "was",
+          "start": 11.35,
+          "end": 11.491,
+          "confidence": 0.715,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "going",
+          "start": 11.511,
+          "end": 11.633,
+          "confidence": 0.1,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "to",
+          "start": 11.653,
+          "end": 11.774,
+          "confidence": 0.448,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "say",
+          "start": 11.794,
+          "end": 11.976,
+          "confidence": 0.451,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "about",
+          "start": 11.997,
+          "end": 12.34,
+          "confidence": 0.579,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "it.",
+          "start": 12.36,
+          "end": 12.421,
+          "confidence": 0.287,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "Thank",
+          "start": 12.885,
+          "end": 13.006,
+          "confidence": 0.285,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "you.",
+          "start": 13.026,
+          "end": 13.126,
+          "confidence": 0.178,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "Cutting",
+          "start": 13.146,
+          "end": 13.387,
+          "confidence": 0.66,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "back.",
+          "start": 13.407,
+          "end": 13.628,
+          "confidence": 0.624,
+          "speaker": "speaker_2"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_1",
+      "start": 14.492,
+      "end": 14.833,
+      "text": "Yes.",
+      "words": [
+        {
+          "word": "Yes.",
+          "start": 14.492,
+          "end": 14.833,
+          "confidence": 0.788,
+          "speaker": "speaker_1"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_1",
+      "start": 16.92,
+      "end": 18.244,
+      "text": "Which one is your bag? I don't",
+      "words": [
+        {
+          "word": "Which",
+          "start": 16.92,
+          "end": 17.06,
+          "confidence": 0.873,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "one",
+          "start": 17.121,
+          "end": 17.181,
+          "confidence": 0.986,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "is",
+          "start": 17.221,
+          "end": 17.281,
+          "confidence": 0.838,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "your",
+          "start": 17.301,
+          "end": 17.442,
+          "confidence": 0.926,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "bag?",
+          "start": 17.482,
+          "end": 17.703,
+          "confidence": 0.859,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "I",
+          "start": 17.984,
+          "end": 18.024,
+          "confidence": 0.655,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "don't",
+          "start": 18.064,
+          "end": 18.244,
+          "confidence": 0.523,
+          "speaker": "speaker_1"
+        }
+      ]
+    },
+    {
+      "speaker": "UNK",
+      "start": 18.265,
+      "end": 18.425,
+      "text": "have any",
+      "words": [
+        {
+          "word": "have",
+          "start": 18.265,
+          "end": 18.345,
+          "confidence": 0.055,
+          "speaker": "UNK"
+        },
+        {
+          "word": "any",
+          "start": 18.365,
+          "end": 18.425,
+          "confidence": 0.067,
+          "speaker": "UNK"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_1",
+      "start": 18.465,
+      "end": 23.884,
+      "text": "bag. You have no bag? We'll look over here. Yance, you have a lot of peace.",
+      "words": [
+        {
+          "word": "bag.",
+          "start": 18.465,
+          "end": 18.646,
+          "confidence": 0.818,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "You",
+          "start": 18.927,
+          "end": 19.027,
+          "confidence": 0.783,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "have",
+          "start": 19.047,
+          "end": 19.168,
+          "confidence": 0.837,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "no",
+          "start": 19.188,
+          "end": 19.288,
+          "confidence": 0.624,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "bag?",
+          "start": 19.328,
+          "end": 19.529,
+          "confidence": 0.792,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "We'll",
+          "start": 21.235,
+          "end": 21.376,
+          "confidence": 0.275,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "look",
+          "start": 21.396,
+          "end": 21.476,
+          "confidence": 0.029,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "over",
+          "start": 21.536,
+          "end": 21.737,
+          "confidence": 0.475,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "here.",
+          "start": 21.757,
+          "end": 22.299,
+          "confidence": 0.667,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "Yance,",
+          "start": 22.379,
+          "end": 22.68,
+          "confidence": 0.724,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "you",
+          "start": 22.7,
+          "end": 22.921,
+          "confidence": 0.293,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "have",
+          "start": 23.102,
+          "end": 23.282,
+          "confidence": 0.394,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "a",
+          "start": 23.363,
+          "end": 23.383,
+          "confidence": 0.083,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "lot",
+          "start": 23.403,
+          "end": 23.543,
+          "confidence": 0.334,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "of",
+          "start": 23.583,
+          "end": 23.644,
+          "confidence": 0.934,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "peace.",
+          "start": 23.664,
+          "end": 23.884,
+          "confidence": 0.675,
+          "speaker": "speaker_1"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_1",
+      "start": 28.056,
+      "end": 30.659,
+      "text": "I'll explain more outside, okay? Sorry, I'll explain.",
+      "words": [
+        {
+          "word": "I'll",
+          "start": 28.056,
+          "end": 28.157,
+          "confidence": 0.145,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "explain",
+          "start": 28.177,
+          "end": 28.438,
+          "confidence": 0.272,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "more",
+          "start": 28.478,
+          "end": 28.599,
+          "confidence": 0.44,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "outside,",
+          "start": 28.619,
+          "end": 28.779,
+          "confidence": 0.036,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "okay?",
+          "start": 28.86,
+          "end": 29.201,
+          "confidence": 0.697,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "Sorry,",
+          "start": 29.913,
+          "end": 30.256,
+          "confidence": 0.474,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "I'll",
+          "start": 30.276,
+          "end": 30.356,
+          "confidence": 0.039,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "explain.",
+          "start": 30.397,
+          "end": 30.659,
+          "confidence": 0.441,
+          "speaker": "speaker_1"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_1",
+      "start": 33.014,
+      "end": 34.484,
+      "text": "Let's hold on to him a little.",
+      "words": [
+        {
+          "word": "Let's",
+          "start": 33.014,
+          "end": 33.256,
+          "confidence": 0.438,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "hold",
+          "start": 33.618,
+          "end": 33.8,
+          "confidence": 0.817,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "on",
+          "start": 33.84,
+          "end": 33.941,
+          "confidence": 0.742,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "to",
+          "start": 33.981,
+          "end": 34.021,
+          "confidence": 0.232,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "him",
+          "start": 34.041,
+          "end": 34.182,
+          "confidence": 0.324,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "a",
+          "start": 34.223,
+          "end": 34.243,
+          "confidence": 0.53,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "little.",
+          "start": 34.303,
+          "end": 34.484,
+          "confidence": 0.276,
+          "speaker": "speaker_1"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_1",
+      "start": 37.185,
+      "end": 72.275,
+      "text": "Yeah, could you just confirm your name for me please, sir? Sorry. Good punch, Sharif. Yes, yeah, often, okay. So, the time is 19.47 hours. The body of Sarah Sharif was discovered on the 10th of August, 2023, on 6 Hammond Road in Horsall. On the injuries sustained by her and the investigation conducted, you are suspected of her murder. You are therefore arrested for murder of Sarah Sharif. You do not have to say anything when it may harm your defence. You do not mention when questioned, something which you later rely on in court, and anything you do say may be given in evidence.",
+      "words": [
+        {
+          "word": "Yeah,",
+          "start": 37.185,
+          "end": 37.326,
+          "confidence": 0.477,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "could",
+          "start": 37.346,
+          "end": 37.466,
+          "confidence": 0.092,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "you",
+          "start": 37.486,
+          "end": 37.586,
+          "confidence": 0.121,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "just",
+          "start": 37.606,
+          "end": 37.686,
+          "confidence": 0.229,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "confirm",
+          "start": 37.706,
+          "end": 37.987,
+          "confidence": 0.537,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "your",
+          "start": 38.007,
+          "end": 38.107,
+          "confidence": 0.356,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "name",
+          "start": 38.127,
+          "end": 38.267,
+          "confidence": 0.324,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "for",
+          "start": 38.347,
+          "end": 38.488,
+          "confidence": 0.418,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "me",
+          "start": 38.508,
+          "end": 38.608,
+          "confidence": 0.601,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "please,",
+          "start": 38.648,
+          "end": 39.008,
+          "confidence": 0.521,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "sir?",
+          "start": 39.089,
+          "end": 39.209,
+          "confidence": 0.549,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "Sorry.",
+          "start": 41.102,
+          "end": 41.43,
+          "confidence": 0.819,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "Good",
+          "start": 42.387,
+          "end": 42.55,
+          "confidence": 0.677,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "punch,",
+          "start": 42.591,
+          "end": 42.816,
+          "confidence": 0.351,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "Sharif.",
+          "start": 42.836,
+          "end": 43.04,
+          "confidence": 0.307,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "Yes,",
+          "start": 43.598,
+          "end": 43.858,
+          "confidence": 0.85,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "yeah,",
+          "start": 43.958,
+          "end": 44.258,
+          "confidence": 0.719,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "often,",
+          "start": 44.898,
+          "end": 45.138,
+          "confidence": 0.588,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "okay.",
+          "start": 45.158,
+          "end": 45.519,
+          "confidence": 0.751,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "So,",
+          "start": 45.819,
+          "end": 46.079,
+          "confidence": 0.773,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "the",
+          "start": 46.519,
+          "end": 46.819,
+          "confidence": 0.818,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "time",
+          "start": 46.859,
+          "end": 47.319,
+          "confidence": 0.752,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "is",
+          "start": 47.759,
+          "end": 48.299,
+          "confidence": 0.562,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "19.47",
+          "start": 48.319,
+          "end": 48.539,
+          "confidence": 0.846,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "hours.",
+          "start": 48.559,
+          "end": 48.82,
+          "confidence": 0.906,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "The",
+          "start": 49.2,
+          "end": 49.28,
+          "confidence": 0.921,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "body",
+          "start": 49.3,
+          "end": 49.52,
+          "confidence": 0.952,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "of",
+          "start": 49.54,
+          "end": 49.6,
+          "confidence": 0.936,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "Sarah",
+          "start": 49.68,
+          "end": 49.94,
+          "confidence": 0.696,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "Sharif",
+          "start": 49.96,
+          "end": 50.3,
+          "confidence": 0.586,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "was",
+          "start": 50.36,
+          "end": 50.48,
+          "confidence": 0.611,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "discovered",
+          "start": 50.5,
+          "end": 50.96,
+          "confidence": 0.76,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "on",
+          "start": 51.22,
+          "end": 51.28,
+          "confidence": 0.923,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "the",
+          "start": 51.3,
+          "end": 51.36,
+          "confidence": 0.981,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "10th",
+          "start": 51.42,
+          "end": 51.6,
+          "confidence": 0.702,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "of",
+          "start": 51.62,
+          "end": 51.66,
+          "confidence": 0.161,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "August,",
+          "start": 51.74,
+          "end": 52.021,
+          "confidence": 0.912,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "2023,",
+          "start": 52.181,
+          "end": 52.561,
+          "confidence": 0.579,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "on",
+          "start": 53.281,
+          "end": 53.381,
+          "confidence": 0.424,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "6",
+          "start": 53.581,
+          "end": 53.721,
+          "confidence": 0.795,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "Hammond",
+          "start": 54.061,
+          "end": 54.341,
+          "confidence": 0.647,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "Road",
+          "start": 54.381,
+          "end": 54.661,
+          "confidence": 0.731,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "in",
+          "start": 54.701,
+          "end": 54.781,
+          "confidence": 0.829,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "Horsall.",
+          "start": 54.841,
+          "end": 55.261,
+          "confidence": 0.696,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "On",
+          "start": 55.642,
+          "end": 55.702,
+          "confidence": 0.795,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "the",
+          "start": 55.722,
+          "end": 55.782,
+          "confidence": 0.858,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "injuries",
+          "start": 55.822,
+          "end": 56.102,
+          "confidence": 0.366,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "sustained",
+          "start": 56.142,
+          "end": 56.502,
+          "confidence": 0.899,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "by",
+          "start": 56.542,
+          "end": 56.682,
+          "confidence": 0.806,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "her",
+          "start": 56.762,
+          "end": 56.902,
+          "confidence": 0.793,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "and",
+          "start": 56.922,
+          "end": 57.242,
+          "confidence": 0.309,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "the",
+          "start": 57.262,
+          "end": 57.342,
+          "confidence": 0.127,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "investigation",
+          "start": 57.362,
+          "end": 58.122,
+          "confidence": 0.937,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "conducted,",
+          "start": 58.142,
+          "end": 58.662,
+          "confidence": 0.944,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "you",
+          "start": 58.923,
+          "end": 59.023,
+          "confidence": 0.845,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "are",
+          "start": 59.063,
+          "end": 59.123,
+          "confidence": 0.987,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "suspected",
+          "start": 59.163,
+          "end": 59.643,
+          "confidence": 0.87,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "of",
+          "start": 59.703,
+          "end": 59.803,
+          "confidence": 0.768,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "her",
+          "start": 59.843,
+          "end": 59.963,
+          "confidence": 0.89,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "murder.",
+          "start": 60.023,
+          "end": 60.323,
+          "confidence": 0.931,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "You",
+          "start": 61.392,
+          "end": 61.492,
+          "confidence": 0.725,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "are",
+          "start": 61.532,
+          "end": 61.633,
+          "confidence": 0.502,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "therefore",
+          "start": 61.673,
+          "end": 62.093,
+          "confidence": 0.883,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "arrested",
+          "start": 62.114,
+          "end": 62.514,
+          "confidence": 0.392,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "for",
+          "start": 62.635,
+          "end": 62.775,
+          "confidence": 0.794,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "murder",
+          "start": 62.795,
+          "end": 63.216,
+          "confidence": 0.616,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "of",
+          "start": 63.436,
+          "end": 63.516,
+          "confidence": 0.94,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "Sarah",
+          "start": 63.577,
+          "end": 63.917,
+          "confidence": 0.83,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "Sharif.",
+          "start": 63.937,
+          "end": 64.258,
+          "confidence": 0.577,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "You",
+          "start": 65.0,
+          "end": 65.08,
+          "confidence": 0.667,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "do",
+          "start": 65.1,
+          "end": 65.14,
+          "confidence": 0.36,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "not",
+          "start": 65.16,
+          "end": 65.22,
+          "confidence": 0.1,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "have",
+          "start": 65.24,
+          "end": 65.32,
+          "confidence": 0.05,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "to",
+          "start": 65.34,
+          "end": 65.42,
+          "confidence": 0.348,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "say",
+          "start": 65.46,
+          "end": 65.541,
+          "confidence": 0.491,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "anything",
+          "start": 65.561,
+          "end": 65.941,
+          "confidence": 0.826,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "when",
+          "start": 65.962,
+          "end": 66.082,
+          "confidence": 0.455,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "it",
+          "start": 66.122,
+          "end": 66.162,
+          "confidence": 0.027,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "may",
+          "start": 66.202,
+          "end": 66.382,
+          "confidence": 0.569,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "harm",
+          "start": 66.402,
+          "end": 66.503,
+          "confidence": 0.359,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "your",
+          "start": 66.563,
+          "end": 66.643,
+          "confidence": 0.007,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "defence.",
+          "start": 66.663,
+          "end": 66.984,
+          "confidence": 0.615,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "You",
+          "start": 67.184,
+          "end": 67.284,
+          "confidence": 0.685,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "do",
+          "start": 67.304,
+          "end": 67.404,
+          "confidence": 0.706,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "not",
+          "start": 67.425,
+          "end": 67.525,
+          "confidence": 0.668,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "mention",
+          "start": 67.545,
+          "end": 67.805,
+          "confidence": 0.367,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "when",
+          "start": 67.825,
+          "end": 67.946,
+          "confidence": 0.229,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "questioned,",
+          "start": 67.986,
+          "end": 68.407,
+          "confidence": 0.787,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "something",
+          "start": 68.747,
+          "end": 68.988,
+          "confidence": 0.398,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "which",
+          "start": 69.008,
+          "end": 69.108,
+          "confidence": 0.052,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "you",
+          "start": 69.128,
+          "end": 69.208,
+          "confidence": 0.219,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "later",
+          "start": 69.248,
+          "end": 69.429,
+          "confidence": 0.355,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "rely",
+          "start": 69.449,
+          "end": 69.589,
+          "confidence": 0.423,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "on",
+          "start": 69.609,
+          "end": 69.729,
+          "confidence": 0.786,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "in",
+          "start": 69.749,
+          "end": 69.789,
+          "confidence": 0.132,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "court,",
+          "start": 69.83,
+          "end": 70.07,
+          "confidence": 0.589,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "and",
+          "start": 70.311,
+          "end": 70.371,
+          "confidence": 0.976,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "anything",
+          "start": 70.431,
+          "end": 70.671,
+          "confidence": 0.699,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "you",
+          "start": 70.691,
+          "end": 70.812,
+          "confidence": 0.787,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "do",
+          "start": 70.832,
+          "end": 70.972,
+          "confidence": 0.875,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "say",
+          "start": 71.012,
+          "end": 71.232,
+          "confidence": 0.4,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "may",
+          "start": 71.273,
+          "end": 71.333,
+          "confidence": 0.389,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "be",
+          "start": 71.393,
+          "end": 71.433,
+          "confidence": 0.015,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "given",
+          "start": 71.493,
+          "end": 71.754,
+          "confidence": 0.844,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "in",
+          "start": 71.814,
+          "end": 71.874,
+          "confidence": 0.843,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "evidence.",
+          "start": 71.934,
+          "end": 72.275,
+          "confidence": 0.877,
+          "speaker": "speaker_1"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_0",
+      "start": 73.39,
+      "end": 85.679,
+      "text": "You are therefore arrested for the murder of Cheryl Shree. You didn't have to say anything, but it may have been on your offence if you didn't mention one question, something which you later rely on in court. Any of you do say maybe they've never seen someone like me.",
+      "words": [
+        {
+          "word": "You",
+          "start": 73.39,
+          "end": 73.491,
+          "confidence": 0.76,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "are",
+          "start": 73.531,
+          "end": 73.592,
+          "confidence": 0.177,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "therefore",
+          "start": 73.612,
+          "end": 73.874,
+          "confidence": 0.315,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "arrested",
+          "start": 73.894,
+          "end": 74.116,
+          "confidence": 0.556,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "for",
+          "start": 74.137,
+          "end": 74.338,
+          "confidence": 0.683,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "the",
+          "start": 74.419,
+          "end": 74.56,
+          "confidence": 0.548,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "murder",
+          "start": 74.6,
+          "end": 74.843,
+          "confidence": 0.299,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "of",
+          "start": 74.964,
+          "end": 75.145,
+          "confidence": 0.763,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "Cheryl",
+          "start": 75.266,
+          "end": 75.569,
+          "confidence": 0.533,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "Shree.",
+          "start": 75.609,
+          "end": 75.811,
+          "confidence": 0.637,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "You",
+          "start": 76.662,
+          "end": 76.823,
+          "confidence": 0.427,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "didn't",
+          "start": 77.103,
+          "end": 77.303,
+          "confidence": 0.256,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "have",
+          "start": 77.364,
+          "end": 77.484,
+          "confidence": 0.302,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "to",
+          "start": 77.544,
+          "end": 77.644,
+          "confidence": 0.53,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "say",
+          "start": 77.664,
+          "end": 77.824,
+          "confidence": 0.526,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "anything,",
+          "start": 77.905,
+          "end": 78.145,
+          "confidence": 0.221,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "but",
+          "start": 78.185,
+          "end": 78.325,
+          "confidence": 0.406,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "it",
+          "start": 78.345,
+          "end": 78.405,
+          "confidence": 0.23,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "may",
+          "start": 78.466,
+          "end": 78.586,
+          "confidence": 0.416,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "have",
+          "start": 78.626,
+          "end": 78.806,
+          "confidence": 0.339,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "been",
+          "start": 78.846,
+          "end": 78.966,
+          "confidence": 0.255,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "on",
+          "start": 79.007,
+          "end": 79.047,
+          "confidence": 0.0,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "your",
+          "start": 79.087,
+          "end": 79.207,
+          "confidence": 0.189,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "offence",
+          "start": 79.227,
+          "end": 79.387,
+          "confidence": 0.094,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "if",
+          "start": 79.407,
+          "end": 79.467,
+          "confidence": 0.262,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "you",
+          "start": 79.487,
+          "end": 79.608,
+          "confidence": 0.235,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "didn't",
+          "start": 79.648,
+          "end": 79.848,
+          "confidence": 0.261,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "mention",
+          "start": 79.888,
+          "end": 80.409,
+          "confidence": 0.446,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "one",
+          "start": 80.429,
+          "end": 80.509,
+          "confidence": 0.202,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "question,",
+          "start": 80.529,
+          "end": 80.91,
+          "confidence": 0.384,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "something",
+          "start": 80.93,
+          "end": 81.231,
+          "confidence": 0.256,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "which",
+          "start": 81.251,
+          "end": 81.391,
+          "confidence": 0.171,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "you",
+          "start": 81.431,
+          "end": 81.511,
+          "confidence": 0.149,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "later",
+          "start": 81.531,
+          "end": 81.712,
+          "confidence": 0.296,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "rely",
+          "start": 81.932,
+          "end": 82.052,
+          "confidence": 0.259,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "on",
+          "start": 82.092,
+          "end": 82.152,
+          "confidence": 0.218,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "in",
+          "start": 82.192,
+          "end": 82.253,
+          "confidence": 0.256,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "court.",
+          "start": 82.293,
+          "end": 82.453,
+          "confidence": 0.191,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "Any",
+          "start": 82.553,
+          "end": 82.633,
+          "confidence": 0.265,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "of",
+          "start": 82.693,
+          "end": 82.834,
+          "confidence": 0.57,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "you",
+          "start": 82.894,
+          "end": 82.994,
+          "confidence": 0.352,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "do",
+          "start": 83.014,
+          "end": 83.054,
+          "confidence": 0.012,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "say",
+          "start": 83.074,
+          "end": 83.154,
+          "confidence": 0.12,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "maybe",
+          "start": 83.174,
+          "end": 83.315,
+          "confidence": 0.173,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "they've",
+          "start": 83.355,
+          "end": 83.815,
+          "confidence": 0.308,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "never",
+          "start": 83.835,
+          "end": 83.976,
+          "confidence": 0.209,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "seen",
+          "start": 83.996,
+          "end": 84.096,
+          "confidence": 0.128,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "someone",
+          "start": 84.136,
+          "end": 84.316,
+          "confidence": 0.182,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "like",
+          "start": 84.336,
+          "end": 84.477,
+          "confidence": 0.312,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "me.",
+          "start": 84.537,
+          "end": 85.679,
+          "confidence": 0.492,
+          "speaker": "speaker_0"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_2",
+      "start": 86.325,
+      "end": 94.61,
+      "text": "From the injuries sustained by her and the investigation conducted, you are suspected of her murder. You are therefore arrested for the murder of Saad Sharif.",
+      "words": [
+        {
+          "word": "From",
+          "start": 86.325,
+          "end": 86.425,
+          "confidence": 0.172,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "the",
+          "start": 86.485,
+          "end": 86.545,
+          "confidence": 0.097,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "injuries",
+          "start": 86.565,
+          "end": 87.005,
+          "confidence": 0.519,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "sustained",
+          "start": 87.025,
+          "end": 87.346,
+          "confidence": 0.26,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "by",
+          "start": 87.386,
+          "end": 87.586,
+          "confidence": 0.652,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "her",
+          "start": 87.646,
+          "end": 87.926,
+          "confidence": 0.647,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "and",
+          "start": 88.066,
+          "end": 88.126,
+          "confidence": 0.066,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "the",
+          "start": 88.146,
+          "end": 88.246,
+          "confidence": 0.246,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "investigation",
+          "start": 88.346,
+          "end": 89.067,
+          "confidence": 0.353,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "conducted,",
+          "start": 89.107,
+          "end": 89.507,
+          "confidence": 0.342,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "you",
+          "start": 89.947,
+          "end": 90.107,
+          "confidence": 0.592,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "are",
+          "start": 90.127,
+          "end": 90.207,
+          "confidence": 0.171,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "suspected",
+          "start": 90.307,
+          "end": 90.587,
+          "confidence": 0.205,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "of",
+          "start": 90.768,
+          "end": 90.848,
+          "confidence": 0.278,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "her",
+          "start": 90.928,
+          "end": 91.028,
+          "confidence": 0.404,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "murder.",
+          "start": 91.068,
+          "end": 91.288,
+          "confidence": 0.248,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "You",
+          "start": 91.308,
+          "end": 91.408,
+          "confidence": 0.314,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "are",
+          "start": 92.188,
+          "end": 92.268,
+          "confidence": 0.259,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "therefore",
+          "start": 92.288,
+          "end": 92.729,
+          "confidence": 0.499,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "arrested",
+          "start": 92.749,
+          "end": 92.969,
+          "confidence": 0.227,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "for",
+          "start": 93.029,
+          "end": 93.189,
+          "confidence": 0.368,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "the",
+          "start": 93.289,
+          "end": 93.409,
+          "confidence": 0.523,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "murder",
+          "start": 93.449,
+          "end": 93.789,
+          "confidence": 0.436,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "of",
+          "start": 93.829,
+          "end": 93.909,
+          "confidence": 0.42,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "Saad",
+          "start": 93.969,
+          "end": 94.31,
+          "confidence": 0.611,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "Sharif.",
+          "start": 94.33,
+          "end": 94.61,
+          "confidence": 0.354,
+          "speaker": "speaker_2"
+        }
+      ]
+    }
+  ]
+}

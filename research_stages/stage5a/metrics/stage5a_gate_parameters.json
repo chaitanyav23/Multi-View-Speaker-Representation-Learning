@@ -1,0 +1,778 @@
+{
+  "condition_D_three_feature_reliability_gate": {
+    "R01_sara_sharif": {
+      "features": [
+        "resnet293_l2_norm",
+        "dfn_noise_reduction_db",
+        "vad_conf_mean"
+      ],
+      "regularization_lambda": 0.05,
+      "clip_min": 0.15,
+      "clip_max": 0.85,
+      "gain_factor": 2.0,
+      "mu_x": [
+        1.256187831209908,
+        9.096966123716056,
+        0.9568370788539903
+      ],
+      "sd_x": [
+        0.5632570622576828,
+        6.02814337364105,
+        0.09288613129934802
+      ],
+      "weights": [
+        0.03613734891011387,
+        0.0028635835407352724,
+        -0.001004164988606494
+      ],
+      "bias": 0.031821365423660486
+    },
+    "R02_dennis_skinner": {
+      "features": [
+        "resnet293_l2_norm",
+        "dfn_noise_reduction_db",
+        "vad_conf_mean"
+      ],
+      "regularization_lambda": 0.05,
+      "clip_min": 0.15,
+      "clip_max": 0.85,
+      "gain_factor": 2.0,
+      "mu_x": [
+        1.256187831209908,
+        9.096966123716056,
+        0.9568370788539903
+      ],
+      "sd_x": [
+        0.5632570622576828,
+        6.02814337364105,
+        0.09288613129934802
+      ],
+      "weights": [
+        0.03613734891011387,
+        0.0028635835407352724,
+        -0.001004164988606494
+      ],
+      "bias": 0.031821365423660486
+    },
+    "R03_disabled_parking": {
+      "features": [
+        "resnet293_l2_norm",
+        "dfn_noise_reduction_db",
+        "vad_conf_mean"
+      ],
+      "regularization_lambda": 0.05,
+      "clip_min": 0.15,
+      "clip_max": 0.85,
+      "gain_factor": 2.0,
+      "mu_x": [
+        1.2318701841104231,
+        8.511612360527383,
+        0.9545815593518048
+      ],
+      "sd_x": [
+        0.5741868130202022,
+        6.065110681988121,
+        0.09911491414494325
+      ],
+      "weights": [
+        0.03844240351216856,
+        0.0045644198930836774,
+        -0.002528851752908739
+      ],
+      "bias": 0.02866204222209438
+    },
+    "R04_piers_robinson": {
+      "features": [
+        "resnet293_l2_norm",
+        "dfn_noise_reduction_db",
+        "vad_conf_mean"
+      ],
+      "regularization_lambda": 0.05,
+      "clip_min": 0.15,
+      "clip_max": 0.85,
+      "gain_factor": 2.0,
+      "mu_x": [
+        1.256187831209908,
+        9.096966123716056,
+        0.9568370788539903
+      ],
+      "sd_x": [
+        0.5632570622576828,
+        6.02814337364105,
+        0.09288613129934802
+      ],
+      "weights": [
+        0.03613734891011387,
+        0.0028635835407352724,
+        -0.001004164988606494
+      ],
+      "bias": 0.031821365423660486
+    },
+    "R05_southwest_pilot": {
+      "features": [
+        "resnet293_l2_norm",
+        "dfn_noise_reduction_db",
+        "vad_conf_mean"
+      ],
+      "regularization_lambda": 0.05,
+      "clip_min": 0.15,
+      "clip_max": 0.85,
+      "gain_factor": 2.0,
+      "mu_x": [
+        1.3201347370516001,
+        9.13515177229209,
+        0.9519417897439617
+      ],
+      "sd_x": [
+        0.5811621744905421,
+        6.479662675238329,
+        0.1010407505181996
+      ],
+      "weights": [
+        0.031358560140449306,
+        0.007059233400295186,
+        0.0005431591422760289
+      ],
+      "bias": 0.045881512224253275
+    },
+    "R06_rich_karen": {
+      "features": [
+        "resnet293_l2_norm",
+        "dfn_noise_reduction_db",
+        "vad_conf_mean"
+      ],
+      "regularization_lambda": 0.05,
+      "clip_min": 0.15,
+      "clip_max": 0.85,
+      "gain_factor": 2.0,
+      "mu_x": [
+        1.2835773865907316,
+        10.116679781900503,
+        0.9604109853196272
+      ],
+      "sd_x": [
+        0.5557043857389788,
+        5.907316389405415,
+        0.08354812680609633
+      ],
+      "weights": [
+        0.036731832830206354,
+        0.0022432070631413265,
+        0.001603387269751155
+      ],
+      "bias": 0.03674115740489449
+    },
+    "R07_bwc_cheap_shot": {
+      "features": [
+        "resnet293_l2_norm",
+        "dfn_noise_reduction_db",
+        "vad_conf_mean"
+      ],
+      "regularization_lambda": 0.05,
+      "clip_min": 0.15,
+      "clip_max": 0.85,
+      "gain_factor": 2.0,
+      "mu_x": [
+        1.2329918822327237,
+        9.39534850210267,
+        0.9620466451776593
+      ],
+      "sd_x": [
+        0.5454655436577748,
+        5.90412375055817,
+        0.08740001505887861
+      ],
+      "weights": [
+        0.042182638447878784,
+        0.0011219662613582246,
+        -0.002374231358145983
+      ],
+      "bias": 0.03705637085966049
+    },
+    "R08_uk_parliament": {
+      "features": [
+        "resnet293_l2_norm",
+        "dfn_noise_reduction_db",
+        "vad_conf_mean"
+      ],
+      "regularization_lambda": 0.05,
+      "clip_min": 0.15,
+      "clip_max": 0.85,
+      "gain_factor": 2.0,
+      "mu_x": [
+        1.212364966064058,
+        8.3260382017575,
+        0.9552044146769095
+      ],
+      "sd_x": [
+        0.5519269516283959,
+        5.576614339244257,
+        0.091735958804287
+      ],
+      "weights": [
+        0.03042714358415965,
+        -0.004930781223041451,
+        -0.0006508738263991475
+      ],
+      "bias": 0.010765744407399774
+    }
+  },
+  "condition_E_gate_ablation_no_resnet_l2": {
+    "R01_sara_sharif": {
+      "features": [
+        "dfn_noise_reduction_db",
+        "vad_conf_mean"
+      ],
+      "regularization_lambda": 0.05,
+      "clip_min": 0.15,
+      "clip_max": 0.85,
+      "gain_factor": 2.0,
+      "mu_x": [
+        9.096966123716056,
+        0.9568370788539903
+      ],
+      "sd_x": [
+        6.02814337364105,
+        0.09288613129934802
+      ],
+      "weights": [
+        0.017756006263669917,
+        0.007351004629695905
+      ],
+      "bias": 0.031821365423660486
+    },
+    "R02_dennis_skinner": {
+      "features": [
+        "dfn_noise_reduction_db",
+        "vad_conf_mean"
+      ],
+      "regularization_lambda": 0.05,
+      "clip_min": 0.15,
+      "clip_max": 0.85,
+      "gain_factor": 2.0,
+      "mu_x": [
+        9.096966123716056,
+        0.9568370788539903
+      ],
+      "sd_x": [
+        6.02814337364105,
+        0.09288613129934802
+      ],
+      "weights": [
+        0.017756006263669917,
+        0.007351004629695905
+      ],
+      "bias": 0.031821365423660486
+    },
+    "R03_disabled_parking": {
+      "features": [
+        "dfn_noise_reduction_db",
+        "vad_conf_mean"
+      ],
+      "regularization_lambda": 0.05,
+      "clip_min": 0.15,
+      "clip_max": 0.85,
+      "gain_factor": 2.0,
+      "mu_x": [
+        8.511612360527383,
+        0.9545815593518048
+      ],
+      "sd_x": [
+        6.065110681988121,
+        0.09911491414494325
+      ],
+      "weights": [
+        0.021366431213442397,
+        0.0059294531478676195
+      ],
+      "bias": 0.02866204222209438
+    },
+    "R04_piers_robinson": {
+      "features": [
+        "dfn_noise_reduction_db",
+        "vad_conf_mean"
+      ],
+      "regularization_lambda": 0.05,
+      "clip_min": 0.15,
+      "clip_max": 0.85,
+      "gain_factor": 2.0,
+      "mu_x": [
+        9.096966123716056,
+        0.9568370788539903
+      ],
+      "sd_x": [
+        6.02814337364105,
+        0.09288613129934802
+      ],
+      "weights": [
+        0.017756006263669917,
+        0.007351004629695905
+      ],
+      "bias": 0.031821365423660486
+    },
+    "R05_southwest_pilot": {
+      "features": [
+        "dfn_noise_reduction_db",
+        "vad_conf_mean"
+      ],
+      "regularization_lambda": 0.05,
+      "clip_min": 0.15,
+      "clip_max": 0.85,
+      "gain_factor": 2.0,
+      "mu_x": [
+        9.13515177229209,
+        0.9519417897439617
+      ],
+      "sd_x": [
+        6.479662675238329,
+        0.1010407505181996
+      ],
+      "weights": [
+        0.019645294502383226,
+        0.009062788702923692
+      ],
+      "bias": 0.045881512224253275
+    },
+    "R06_rich_karen": {
+      "features": [
+        "dfn_noise_reduction_db",
+        "vad_conf_mean"
+      ],
+      "regularization_lambda": 0.05,
+      "clip_min": 0.15,
+      "clip_max": 0.85,
+      "gain_factor": 2.0,
+      "mu_x": [
+        10.116679781900503,
+        0.9604109853196272
+      ],
+      "sd_x": [
+        5.907316389405415,
+        0.08354812680609633
+      ],
+      "weights": [
+        0.01687233109567231,
+        0.009926348761991596
+      ],
+      "bias": 0.03674115740489449
+    },
+    "R07_bwc_cheap_shot": {
+      "features": [
+        "dfn_noise_reduction_db",
+        "vad_conf_mean"
+      ],
+      "regularization_lambda": 0.05,
+      "clip_min": 0.15,
+      "clip_max": 0.85,
+      "gain_factor": 2.0,
+      "mu_x": [
+        9.39534850210267,
+        0.9620466451776593
+      ],
+      "sd_x": [
+        5.90412375055817,
+        0.08740001505887861
+      ],
+      "weights": [
+        0.019349938272155472,
+        0.007034312319257418
+      ],
+      "bias": 0.03705637085966049
+    },
+    "R08_uk_parliament": {
+      "features": [
+        "dfn_noise_reduction_db",
+        "vad_conf_mean"
+      ],
+      "regularization_lambda": 0.05,
+      "clip_min": 0.15,
+      "clip_max": 0.85,
+      "gain_factor": 2.0,
+      "mu_x": [
+        8.3260382017575,
+        0.9552044146769095
+      ],
+      "sd_x": [
+        5.576614339244257,
+        0.091735958804287
+      ],
+      "weights": [
+        0.0068738083385437,
+        0.006114829603820407
+      ],
+      "bias": 0.010765744407399774
+    }
+  },
+  "condition_F_gate_ablation_no_dfn_nr": {
+    "R01_sara_sharif": {
+      "features": [
+        "resnet293_l2_norm",
+        "vad_conf_mean"
+      ],
+      "regularization_lambda": 0.05,
+      "clip_min": 0.15,
+      "clip_max": 0.85,
+      "gain_factor": 2.0,
+      "mu_x": [
+        1.256187831209908,
+        0.9568370788539903
+      ],
+      "sd_x": [
+        0.5632570622576828,
+        0.09288613129934802
+      ],
+      "weights": [
+        0.03737216500571603,
+        -0.0006220216770181016
+      ],
+      "bias": 0.031821365423660486
+    },
+    "R02_dennis_skinner": {
+      "features": [
+        "resnet293_l2_norm",
+        "vad_conf_mean"
+      ],
+      "regularization_lambda": 0.05,
+      "clip_min": 0.15,
+      "clip_max": 0.85,
+      "gain_factor": 2.0,
+      "mu_x": [
+        1.256187831209908,
+        0.9568370788539903
+      ],
+      "sd_x": [
+        0.5632570622576828,
+        0.09288613129934802
+      ],
+      "weights": [
+        0.03737216500571603,
+        -0.0006220216770181016
+      ],
+      "bias": 0.031821365423660486
+    },
+    "R03_disabled_parking": {
+      "features": [
+        "resnet293_l2_norm",
+        "vad_conf_mean"
+      ],
+      "regularization_lambda": 0.05,
+      "clip_min": 0.15,
+      "clip_max": 0.85,
+      "gain_factor": 2.0,
+      "mu_x": [
+        1.2318701841104231,
+        0.9545815593518048
+      ],
+      "sd_x": [
+        0.5741868130202022,
+        0.09911491414494325
+      ],
+      "weights": [
+        0.04051139472336808,
+        -0.0018760539080703268
+      ],
+      "bias": 0.02866204222209438
+    },
+    "R04_piers_robinson": {
+      "features": [
+        "resnet293_l2_norm",
+        "vad_conf_mean"
+      ],
+      "regularization_lambda": 0.05,
+      "clip_min": 0.15,
+      "clip_max": 0.85,
+      "gain_factor": 2.0,
+      "mu_x": [
+        1.256187831209908,
+        0.9568370788539903
+      ],
+      "sd_x": [
+        0.5632570622576828,
+        0.09288613129934802
+      ],
+      "weights": [
+        0.03737216500571603,
+        -0.0006220216770181016
+      ],
+      "bias": 0.031821365423660486
+    },
+    "R05_southwest_pilot": {
+      "features": [
+        "resnet293_l2_norm",
+        "vad_conf_mean"
+      ],
+      "regularization_lambda": 0.05,
+      "clip_min": 0.15,
+      "clip_max": 0.85,
+      "gain_factor": 2.0,
+      "mu_x": [
+        1.3201347370516001,
+        0.9519417897439617
+      ],
+      "sd_x": [
+        0.5811621744905421,
+        0.1010407505181996
+      ],
+      "weights": [
+        0.03441704158521553,
+        0.0013790160583943818
+      ],
+      "bias": 0.045881512224253275
+    },
+    "R06_rich_karen": {
+      "features": [
+        "resnet293_l2_norm",
+        "vad_conf_mean"
+      ],
+      "regularization_lambda": 0.05,
+      "clip_min": 0.15,
+      "clip_max": 0.85,
+      "gain_factor": 2.0,
+      "mu_x": [
+        1.2835773865907316,
+        0.9604109853196272
+      ],
+      "sd_x": [
+        0.5557043857389788,
+        0.08354812680609633
+      ],
+      "weights": [
+        0.03765747161890566,
+        0.001943864949629521
+      ],
+      "bias": 0.03674115740489449
+    },
+    "R07_bwc_cheap_shot": {
+      "features": [
+        "resnet293_l2_norm",
+        "vad_conf_mean"
+      ],
+      "regularization_lambda": 0.05,
+      "clip_min": 0.15,
+      "clip_max": 0.85,
+      "gain_factor": 2.0,
+      "mu_x": [
+        1.2329918822327237,
+        0.9620466451776593
+      ],
+      "sd_x": [
+        0.5454655436577748,
+        0.08740001505887861
+      ],
+      "weights": [
+        0.042692589210620184,
+        -0.0022582856928184646
+      ],
+      "bias": 0.03705637085966049
+    },
+    "R08_uk_parliament": {
+      "features": [
+        "resnet293_l2_norm",
+        "vad_conf_mean"
+      ],
+      "regularization_lambda": 0.05,
+      "clip_min": 0.15,
+      "clip_max": 0.85,
+      "gain_factor": 2.0,
+      "mu_x": [
+        1.212364966064058,
+        0.9552044146769095
+      ],
+      "sd_x": [
+        0.5519269516283959,
+        0.091735958804287
+      ],
+      "weights": [
+        0.028444691808023358,
+        -0.0013581898191250164
+      ],
+      "bias": 0.010765744407399774
+    }
+  },
+  "condition_G_gate_ablation_no_vad_conf": {
+    "R01_sara_sharif": {
+      "features": [
+        "resnet293_l2_norm",
+        "dfn_noise_reduction_db"
+      ],
+      "regularization_lambda": 0.05,
+      "clip_min": 0.15,
+      "clip_max": 0.85,
+      "gain_factor": 2.0,
+      "mu_x": [
+        1.256187831209908,
+        9.096966123716056
+      ],
+      "sd_x": [
+        0.5632570622576828,
+        6.02814337364105
+      ],
+      "weights": [
+        0.035860731400230814,
+        0.0027109978764392325
+      ],
+      "bias": 0.031821365423660486
+    },
+    "R02_dennis_skinner": {
+      "features": [
+        "resnet293_l2_norm",
+        "dfn_noise_reduction_db"
+      ],
+      "regularization_lambda": 0.05,
+      "clip_min": 0.15,
+      "clip_max": 0.85,
+      "gain_factor": 2.0,
+      "mu_x": [
+        1.256187831209908,
+        9.096966123716056
+      ],
+      "sd_x": [
+        0.5632570622576828,
+        6.02814337364105
+      ],
+      "weights": [
+        0.035860731400230814,
+        0.0027109978764392325
+      ],
+      "bias": 0.031821365423660486
+    },
+    "R03_disabled_parking": {
+      "features": [
+        "resnet293_l2_norm",
+        "dfn_noise_reduction_db"
+      ],
+      "regularization_lambda": 0.05,
+      "clip_min": 0.15,
+      "clip_max": 0.85,
+      "gain_factor": 2.0,
+      "mu_x": [
+        1.2318701841104231,
+        8.511612360527383
+      ],
+      "sd_x": [
+        0.5741868130202022,
+        6.065110681988121
+      ],
+      "weights": [
+        0.03776517804069404,
+        0.004139965251642256
+      ],
+      "bias": 0.02866204222209438
+    },
+    "R04_piers_robinson": {
+      "features": [
+        "resnet293_l2_norm",
+        "dfn_noise_reduction_db"
+      ],
+      "regularization_lambda": 0.05,
+      "clip_min": 0.15,
+      "clip_max": 0.85,
+      "gain_factor": 2.0,
+      "mu_x": [
+        1.256187831209908,
+        9.096966123716056
+      ],
+      "sd_x": [
+        0.5632570622576828,
+        6.02814337364105
+      ],
+      "weights": [
+        0.035860731400230814,
+        0.0027109978764392325
+      ],
+      "bias": 0.031821365423660486
+    },
+    "R05_southwest_pilot": {
+      "features": [
+        "resnet293_l2_norm",
+        "dfn_noise_reduction_db"
+      ],
+      "regularization_lambda": 0.05,
+      "clip_min": 0.15,
+      "clip_max": 0.85,
+      "gain_factor": 2.0,
+      "mu_x": [
+        1.3201347370516001,
+        9.13515177229209
+      ],
+      "sd_x": [
+        0.5811621744905421,
+        6.479662675238329
+      ],
+      "weights": [
+        0.031534425647929167,
+        0.007130236267061116
+      ],
+      "bias": 0.045881512224253275
+    },
+    "R06_rich_karen": {
+      "features": [
+        "resnet293_l2_norm",
+        "dfn_noise_reduction_db"
+      ],
+      "regularization_lambda": 0.05,
+      "clip_min": 0.15,
+      "clip_max": 0.85,
+      "gain_factor": 2.0,
+      "mu_x": [
+        1.2835773865907316,
+        10.116679781900503
+      ],
+      "sd_x": [
+        0.5557043857389788,
+        5.907316389405415
+      ],
+      "weights": [
+        0.03715532007788695,
+        0.0025170035525928797
+      ],
+      "bias": 0.03674115740489449
+    },
+    "R07_bwc_cheap_shot": {
+      "features": [
+        "resnet293_l2_norm",
+        "dfn_noise_reduction_db"
+      ],
+      "regularization_lambda": 0.05,
+      "clip_min": 0.15,
+      "clip_max": 0.85,
+      "gain_factor": 2.0,
+      "mu_x": [
+        1.2329918822327237,
+        9.39534850210267
+      ],
+      "sd_x": [
+        0.5454655436577748,
+        5.90412375055817
+      ],
+      "weights": [
+        0.04153187709532998,
+        0.000835308323658674
+      ],
+      "bias": 0.03705637085966049
+    },
+    "R08_uk_parliament": {
+      "features": [
+        "resnet293_l2_norm",
+        "dfn_noise_reduction_db"
+      ],
+      "regularization_lambda": 0.05,
+      "clip_min": 0.15,
+      "clip_max": 0.85,
+      "gain_factor": 2.0,
+      "mu_x": [
+        1.212364966064058,
+        8.3260382017575
+      ],
+      "sd_x": [
+        0.5519269516283959,
+        5.576614339244257
+      ],
+      "weights": [
+        0.03025961133841989,
+        -0.005035072309279296
+      ],
+      "bias": 0.010765744407399774
+    }
+  }
+}

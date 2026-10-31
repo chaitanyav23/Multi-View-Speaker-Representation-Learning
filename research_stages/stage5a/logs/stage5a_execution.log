@@ -1,0 +1,28 @@
+[NeMo W 2026-10-31 02:53:46 <frozen importlib:241] Megatron num_microbatches_calculator not found, using Apex version.
+OneLogger: Setting error_handling_strategy to DISABLE_QUIETLY_AND_REPORT_METRIC_ERROR for rank (rank=0) with OneLogger disabled. To override: explicitly set error_handling_strategy parameter.
+No exporters were provided. This means that no telemetry data will be collected.
+================================================================================
+Stage 5A: Controlled Validation of Hybrid Speaker-Affinity Fusion
+================================================================================
+Git Commit Hash: d01266c3dce17f2c01501eb69696f15929b06df1
+Git Working-Tree Status:
+?? research_stages/stage5a/
+Python Version: 3.10.20
+PyTorch Version: 2.8.0+cu128, CUDA Available: True
+GPU: NVIDIA GeForce RTX 4090
+[Stage 5A Validation] Starting cache and protocol validation...
+[Stage 5A Validation] SUCCESS! Validated 15994 subsegments across all 8 recordings and 5 scales.
+
+[Stage 5A] Extracting Turn-Disjoint LOTO clean subsegments for hybrid gate training...
+[Stage 5A] Extracted 2771 clean turn-disjoint LOTO subsegments across eligible recordings.
+
+[Stage 5A] Fitting Condition D (Full 3-Feature) and Ablation Gates (E, F, G) under strict LORO...
+
+[Stage 5A] Executing Downstream Diarization & WhisperX Attribution for all conditions...
+
+[Stage 5A] Evaluating Turn-Level Pairwise Verification under 8-fold LORO...
+[Stage 5A] Assembled 9817 within-recording clean turn pairs.
+
+[Stage 5A] Computing Paired Clustered Bootstrap Uncertainty (B=2000, seed=42)...
+
+[Stage 5A] Execution completed successfully! All metrics and artifacts saved under research_stages/stage5a/.

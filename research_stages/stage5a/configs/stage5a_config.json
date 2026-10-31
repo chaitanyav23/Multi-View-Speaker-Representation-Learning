@@ -1,0 +1,115 @@
+{
+  "stage": "Stage 5A — Controlled Validation of Hybrid Speaker-Affinity Fusion",
+  "random_seed": 42,
+  "repo_root": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning",
+  "paths": {
+    "manifest": "research_stages/stage1_data_prep/manifests/recording_manifest.json",
+    "stage1_dir": "research_stages/stage1_data_prep",
+    "stage2_dir": "research_stages/stage2_baseline",
+    "stage3_dir": "research_stages/stage3_dual_encoder",
+    "stage4_dir": "research_stages/stage4_complementarity",
+    "stage4_1_dir": "research_stages/stage4_1",
+    "stage5a_dir": "research_stages/stage5a"
+  },
+  "recordings": [
+    "R01_sara_sharif",
+    "R02_dennis_skinner",
+    "R03_disabled_parking",
+    "R04_piers_robinson",
+    "R05_southwest_pilot",
+    "R06_rich_karen",
+    "R07_bwc_cheap_shot",
+    "R08_uk_parliament"
+  ],
+  "encoders": {
+    "titanet": {
+      "model_id": "titanet_large",
+      "embedding_dim": 192,
+      "audio_condition": "dfn",
+      "cache_prefix": "titanet_large__dfn"
+    },
+    "resnet293": {
+      "model_id": "wespeaker_resnet293_lm",
+      "embedding_dim": 256,
+      "audio_condition": "16k_mono",
+      "cache_prefix": "wespeaker_resnet293_lm__16k_mono"
+    }
+  },
+  "temporal_scales": [
+    {"scale_idx": 0, "window_sec": 1.5, "shift_sec": 0.75, "multiscale_weight": 1.0},
+    {"scale_idx": 1, "window_sec": 1.2, "shift_sec": 0.60, "multiscale_weight": 2.0},
+    {"scale_idx": 2, "window_sec": 1.0, "shift_sec": 0.50, "multiscale_weight": 3.0},
+    {"scale_idx": 3, "window_sec": 0.8, "shift_sec": 0.40, "multiscale_weight": 3.0},
+    {"scale_idx": 4, "window_sec": 0.5, "shift_sec": 0.25, "multiscale_weight": 3.0}
+  ],
+  "conditions_and_ablations": [
+    {
+      "id": "A",
+      "name": "condition_A_titanet_dfn_baseline",
+      "description": "Primary single-encoder reference: NVIDIA TitaNet-Large on DFN-enhanced audio",
+      "features": []
+    },
+    {
+      "id": "B",
+      "name": "condition_B_resnet293_mono_baseline",
+      "description": "Second single-encoder reference: WeSpeaker ResNet293-LM on raw 16kHz mono audio",
+      "features": []
+    },
+    {
+      "id": "C",
+      "name": "condition_C_equal_weight_affinity",
+      "description": "Equal-weight affinity fusion: 0.5 * A_TitaNet_DFN + 0.5 * A_ResNet_mono",
+      "features": []
+    },
+    {
+      "id": "D",
+      "name": "condition_D_three_feature_reliability_gate",
+      "description": "Full 3-feature low-capacity LORO-calibrated reliability-aware affinity gate",
+      "features": ["resnet293_l2_norm", "dfn_noise_reduction_db", "vad_conf_mean"]
+    },
+    {
+      "id": "E",
+      "name": "condition_E_gate_ablation_no_resnet_l2",
+      "description": "Ablation without ResNet293 L2 norm (refitted in each fold using dfn_noise_reduction_db and vad_conf_mean)",
+      "features": ["dfn_noise_reduction_db", "vad_conf_mean"]
+    },
+    {
+      "id": "F",
+      "name": "condition_F_gate_ablation_no_dfn_nr",
+      "description": "Ablation without DFN noise reduction (refitted in each fold using resnet293_l2_norm and vad_conf_mean)",
+      "features": ["resnet293_l2_norm", "vad_conf_mean"]
+    },
+    {
+      "id": "G",
+      "name": "condition_G_gate_ablation_no_vad_conf",
+      "description": "Ablation without VAD confidence (refitted in each fold using resnet293_l2_norm and dfn_noise_reduction_db)",
+      "features": ["resnet293_l2_norm", "dfn_noise_reduction_db"]
+    }
+  ],
+  "reliability_gate_settings": {
+    "ridge_regularization_lambda": 0.05,
+    "gate_clip_min": 0.15,
+    "gate_clip_max": 0.85,
+    "gate_gain_factor": 2.0,
+    "target": "turn_disjoint_loto_margin_difference",
+    "equal_recording_weighting": true
+  },
+  "clustering_parameters": {
+    "method": "NME-SC",
+    "oracle_num_speakers": -1,
+    "max_num_speakers": 10,
+    "max_rp_threshold": 0.25,
+    "sparse_search_volume": 30,
+    "est_num_of_spk_enhanced": -1,
+    "fixed_thres": -1.0,
+    "kmeans_random_trials": 1
+  },
+  "bootstrap_settings": {
+    "num_replicates": 2000,
+    "random_seed": 42,
+    "resampling_schemes": [
+      "recording_cluster_bootstrap",
+      "turn_clustered_bootstrap_within_rec"
+    ]
+  }
+}

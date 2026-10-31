@@ -1,0 +1,8 @@
+method,total_within_rec_pairs,eligible_recordings_count,oof_pooled_far_frozen,oof_pooled_frr_frozen,oof_pooled_hter_frozen,oof_pooled_act_dcf_p001,oof_pooled_act_dcf_p01,oof_pooled_roc_auc,macro_6rec_hter_frozen,macro_6rec_roc_auc,macro_6rec_exploratory_eer,exploratory_full_dataset_eer_leaked,exploratory_full_dataset_mindcf_leaked
+condition_A_titanet_dfn_baseline,9817,6,0.2185,0.3632,0.2908,21.9933,2.3295,0.7724,0.3376,0.8304,0.219,0.3034,0.9682
+condition_B_resnet293_mono_baseline,9817,6,0.2362,0.3264,0.2813,23.713,2.4524,0.7864,0.3127,0.826,0.1991,0.2875,0.9975
+condition_C_equal_weight_affinity,9817,6,0.2149,0.3228,0.2689,21.5988,2.257,0.8005,0.3203,0.8508,0.1857,0.2765,0.9774
+condition_D_three_feature_reliability_gate,9817,6,0.2126,0.3214,0.267,21.3708,2.235,0.8038,0.3129,0.8516,0.1846,0.2754,0.9806
+condition_E_gate_ablation_no_resnet_l2,9817,6,0.2128,0.3236,0.2682,21.3871,2.2384,0.8018,0.3109,0.8507,0.1843,0.2754,0.9806
+condition_F_gate_ablation_no_dfn_nr,9817,6,0.2123,0.3211,0.2667,21.3421,2.2321,0.8038,0.3125,0.8516,0.1857,0.2754,0.9806
+condition_G_gate_ablation_no_vad_conf,9817,6,0.2133,0.3211,0.2672,21.4413,2.2411,0.8038,0.3129,0.8516,0.1852,0.2754,0.9806
