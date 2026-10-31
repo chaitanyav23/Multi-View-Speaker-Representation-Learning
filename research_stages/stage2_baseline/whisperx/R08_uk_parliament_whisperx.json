@@ -1,0 +1,167 @@
+{
+  "file": "R08_uk_parliament",
+  "model": "large-v3",
+  "fallback": false,
+  "segments": [
+    {
+      "start": 0.031,
+      "end": 5.515,
+      "text": "When he was leader of the opposition, the Prime Minister said, and I quote,"
+    },
+    {
+      "start": 5.667,
+      "end": 8.047,
+      "text": "I never turn on my staff."
+    },
+    {
+      "start": 8.502,
+      "end": 12.012,
+      "text": "When they make mistakes, I carry the can."
+    },
+    {
+      "start": 13.075,
+      "end": 14.122,
+      "text": "What changed?"
+    },
+    {
+      "start": 15.168,
+      "end": 15.792,
+      "text": "Thank you, Prime Minister."
+    },
+    {
+      "start": 16.197,
+      "end": 23.352,
+      "text": "Well, Mr Speaker, I've accepted responsibility and apologised for the mistakes that I made."
+    },
+    {
+      "start": 24.128,
+      "end": 31.503,
+      "text": "But let me say this, Mr. Speaker. Let me say this, Mr. Speaker. Morgan McSweeney helped me change our party."
+    },
+    {
+      "start": 32.363,
+      "end": 35.502,
+      "text": "and help me win a landslide election victory."
+    },
+    {
+      "start": 36.329,
+      "end": 41.088,
+      "text": "which delivered for them the smallest Tory party in over 100 years."
+    },
+    {
+      "start": 43.265,
+      "end": 45.391,
+      "text": "And what's her great achievement?"
+    },
+    {
+      "start": 45.897,
+      "end": 48.378,
+      "text": "to make it even smaller."
+    },
+    {
+      "start": 50.453,
+      "end": 51.331,
+      "text": "Okay, we're not..."
+    },
+    {
+      "start": 57.271,
+      "end": 79.799,
+      "text": "The Whips have done a great job today. This is like the 37th... Oh, you said, yeah, exactly. Done a great job today getting them cheering. We all know that they've been sick for the last week because let's remember, Mr Speaker, just last week, just last week, he told us that he had full confidence in his Chief of Staff, Morgan McSweeney. On Sunday, he sacked Morgan McSweeney."
+    },
+    {
+      "start": 80.39,
+      "end": 81.622,
+      "text": "Last week."
+    },
+    {
+      "start": 85.148,
+      "end": 86.549,
+      "text": "He resigned."
+    },
+    {
+      "start": 87.95,
+      "end": 96.151,
+      "text": "Last week, Mr Speaker, he was defending the cabinet secretary, now he is sacking him."
+    },
+    {
+      "start": 96.59,
+      "end": 97.484,
+      "text": "What changed?"
+    },
+    {
+      "start": 98.581,
+      "end": 102.428,
+      "text": "Prime Minister. Mr Speaker, in January, she said she had full confidence..."
+    },
+    {
+      "start": 103.019,
+      "end": 108.082,
+      "text": "100% confident, she said, there'd be no more defections from her party."
+    },
+    {
+      "start": 109.786,
+      "end": 112.469,
+      "text": "48 hours later, I can..."
+    },
+    {
+      "start": 112.925,
+      "end": 114.899,
+      "text": "the shadow Foreign Minister defected."
+    },
+    {
+      "start": 115.085,
+      "end": 118.882,
+      "text": "Eight days after that, the former Home Secretary defected."
+    },
+    {
+      "start": 119.472,
+      "end": 121.143,
+      "text": "The only question now is..."
+    },
+    {
+      "start": 121.396,
+      "end": 122.729,
+      "text": "Who's next?"
+    },
+    {
+      "start": 123.792,
+      "end": 131.099,
+      "text": "She needs to wake up. Her party is dying. Mr Speaker, Matthew Doyle did not give a full account of his actions."
+    },
+    {
+      "start": 131.926,
+      "end": 141.798,
+      "text": "And on Monday, I promised my party and my country there will be change. And yesterday, I removed the wick from Matthew Doyle."
+    },
+    {
+      "start": 142.439,
+      "end": 151.822,
+      "text": "I'll tell you what other action we've taken, Mr Speaker. Along with the safeguarding minister, I and this government have introduced the most far-reaching, vile against women and girls..."
+    },
+    {
+      "start": 153.408,
+      "end": 159.618,
+      "text": "Mr Speaker, he hasn't apologised for appointing Matthew Doyle because he won't take responsibility."
+    },
+    {
+      "start": 159.803,
+      "end": 167.802,
+      "text": "He never does, and they know it. The Prime Minister is now telling everyone that he's never lost a fight. It's because he won't step into the ring."
+    },
+    {
+      "start": 169.135,
+      "end": 192.372,
+      "text": "He's never lost a fight. He's walked away from welfare reform. He won't stand up to the unions. He won't stand up to China. He can't even stand up to Mauritius. He's had, Mr. Speaker, he's had three cabinet secretaries, four chiefs of staff, five director of communications in just 18 months. And now he is mired in yet another scandal."
+    },
+    {
+      "start": 192.372,
+      "end": 199.763,
+      "text": "Does he ever look in the mirror and ask himself, is the real problem staring him in the face? Yeah!"
+    },
+    {
+      "start": 201.181,
+      "end": 210.8,
+      "text": "Mr. Speaker, I delivered a landslide victory for our government. Only four people have ever elected the Labour Party to victory in a general election. I am one of them."
+    }
+  ]
+}

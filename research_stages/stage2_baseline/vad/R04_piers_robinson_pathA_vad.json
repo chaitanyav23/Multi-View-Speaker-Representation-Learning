@@ -1,0 +1,125 @@
+{
+  "file": "R04_piers_robinson_dfn.wav",
+  "model": "pyannote/voice-activity-detection (local PyanNet assets/pytorch_model.bin)",
+  "path": "pathA",
+  "fallback": false,
+  "duration": 204.544563,
+  "raw_count": 3,
+  "merged_count": 3,
+  "filtered_count": 3,
+  "split_count": 9,
+  "final_count": 9,
+  "removed_short_segments": 0,
+  "split_operations": [
+    {
+      "input_start": 3.001,
+      "input_end": 59.988,
+      "input_duration": 56.987,
+      "split_at": 24.044,
+      "method": "probability",
+      "depth": 0
+    },
+    {
+      "input_start": 24.044,
+      "input_end": 59.988,
+      "input_duration": 35.944,
+      "split_at": 53.17,
+      "method": "probability",
+      "depth": 1
+    },
+    {
+      "input_start": 83.967,
+      "input_end": 194.549,
+      "input_duration": 110.582,
+      "split_at": 99.323,
+      "method": "probability",
+      "depth": 0
+    },
+    {
+      "input_start": 99.323,
+      "input_end": 194.549,
+      "input_duration": 95.226,
+      "split_at": 119.59,
+      "method": "probability",
+      "depth": 1
+    },
+    {
+      "input_start": 119.59,
+      "input_end": 194.549,
+      "input_duration": 74.959,
+      "split_at": 146.928,
+      "method": "probability",
+      "depth": 2
+    },
+    {
+      "input_start": 146.928,
+      "input_end": 194.549,
+      "input_duration": 47.621,
+      "split_at": 173.455,
+      "method": "probability",
+      "depth": 3
+    }
+  ],
+  "recursive_depth": 4,
+  "pre_split_duration_histogram": {
+    "0-5": 0,
+    "5-10": 0,
+    "10-15": 0,
+    "15-20": 0,
+    "20-25": 1,
+    "25-30": 0,
+    ">30": 2
+  },
+  "post_split_duration_histogram": {
+    "0-5": 0,
+    "5-10": 1,
+    "10-15": 0,
+    "15-20": 1,
+    "20-25": 4,
+    "25-30": 3,
+    ">30": 0
+  },
+  "average_segment_duration": 21.166888888888884,
+  "maximum_segment_duration": 29.126,
+  "minimum_segment_duration": 6.818,
+  "total_speech_duration": 190.502,
+  "segments": [
+    {
+      "start": 3.001,
+      "end": 24.044
+    },
+    {
+      "start": 24.044,
+      "end": 53.17
+    },
+    {
+      "start": 53.17,
+      "end": 59.988
+    },
+    {
+      "start": 60.663,
+      "end": 83.596
+    },
+    {
+      "start": 83.967,
+      "end": 99.323
+    },
+    {
+      "start": 99.323,
+      "end": 119.59
+    },
+    {
+      "start": 119.59,
+      "end": 146.928
+    },
+    {
+      "start": 146.928,
+      "end": 173.455
+    },
+    {
+      "start": 173.455,
+      "end": 194.549
+    }
+  ],
+  "processing_time_sec": 0.1836
+}

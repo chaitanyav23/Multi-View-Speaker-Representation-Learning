@@ -1,0 +1,112 @@
+{
+  "file": "R01_sara_sharif_16k_mono.wav",
+  "model": "pyannote/voice-activity-detection (local PyanNet assets/pytorch_model.bin)",
+  "path": "mono",
+  "fallback": false,
+  "duration": 100.960375,
+  "raw_count": 19,
+  "merged_count": 18,
+  "filtered_count": 18,
+  "split_count": 18,
+  "final_count": 18,
+  "removed_short_segments": 0,
+  "split_operations": [],
+  "recursive_depth": 0,
+  "pre_split_duration_histogram": {
+    "0-5": 10,
+    "5-10": 7,
+    "10-15": 1,
+    "15-20": 0,
+    "20-25": 0,
+    "25-30": 0,
+    ">30": 0
+  },
+  "post_split_duration_histogram": {
+    "0-5": 10,
+    "5-10": 7,
+    "10-15": 1,
+    "15-20": 0,
+    "20-25": 0,
+    "25-30": 0,
+    ">30": 0
+  },
+  "average_segment_duration": 4.671722222222223,
+  "maximum_segment_duration": 11.103,
+  "minimum_segment_duration": 0.186,
+  "total_speech_duration": 84.091,
+  "segments": [
+    {
+      "start": 2.123,
+      "end": 2.309
+    },
+    {
+      "start": 2.933,
+      "end": 3.963
+    },
+    {
+      "start": 4.418,
+      "end": 10.021
+    },
+    {
+      "start": 10.409,
+      "end": 12.502
+    },
+    {
+      "start": 12.805,
+      "end": 18.695
+    },
+    {
+      "start": 18.847,
+      "end": 20.72
+    },
+    {
+      "start": 21.192,
+      "end": 26.812
+    },
+    {
+      "start": 27.385,
+      "end": 32.245
+    },
+    {
+      "start": 32.903,
+      "end": 39.89
+    },
+    {
+      "start": 41.003,
+      "end": 48.918
+    },
+    {
+      "start": 49.188,
+      "end": 52.883
+    },
+    {
+      "start": 53.204,
+      "end": 53.795
+    },
+    {
+      "start": 54.031,
+      "end": 55.28
+    },
+    {
+      "start": 55.567,
+      "end": 60.46
+    },
+    {
+      "start": 61.372,
+      "end": 72.475
+    },
+    {
+      "start": 73.37,
+      "end": 75.968
+    },
+    {
+      "start": 76.525,
+      "end": 85.672
+    },
+    {
+      "start": 86.262,
+      "end": 95.02
+    }
+  ],
+  "processing_time_sec": 0.1127
+}

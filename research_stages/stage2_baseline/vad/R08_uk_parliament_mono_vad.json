@@ -1,0 +1,165 @@
+{
+  "file": "R08_uk_parliament_16k_mono.wav",
+  "model": "pyannote/voice-activity-detection (local PyanNet assets/pytorch_model.bin)",
+  "path": "mono",
+  "fallback": false,
+  "duration": 215.341875,
+  "raw_count": 28,
+  "merged_count": 28,
+  "filtered_count": 28,
+  "split_count": 29,
+  "final_count": 29,
+  "removed_short_segments": 0,
+  "split_operations": [
+    {
+      "input_start": 169.169,
+      "input_end": 199.713,
+      "input_duration": 30.544,
+      "split_at": 192.372,
+      "method": "probability",
+      "depth": 0
+    }
+  ],
+  "recursive_depth": 1,
+  "pre_split_duration_histogram": {
+    "0-5": 15,
+    "5-10": 9,
+    "10-15": 2,
+    "15-20": 0,
+    "20-25": 1,
+    "25-30": 0,
+    ">30": 1
+  },
+  "post_split_duration_histogram": {
+    "0-5": 15,
+    "5-10": 10,
+    "10-15": 2,
+    "15-20": 0,
+    "20-25": 2,
+    "25-30": 0,
+    ">30": 0
+  },
+  "average_segment_duration": 6.147655172413793,
+  "maximum_segment_duration": 23.203,
+  "minimum_segment_duration": 0.304,
+  "total_speech_duration": 178.282,
+  "segments": [
+    {
+      "start": 0.031,
+      "end": 0.335
+    },
+    {
+      "start": 0.571,
+      "end": 5.414
+    },
+    {
+      "start": 5.684,
+      "end": 7.912
+    },
+    {
+      "start": 8.519,
+      "end": 12.113
+    },
+    {
+      "start": 13.092,
+      "end": 13.953
+    },
+    {
+      "start": 15.353,
+      "end": 15.775
+    },
+    {
+      "start": 16.231,
+      "end": 23.437
+    },
+    {
+      "start": 24.112,
+      "end": 31.587
+    },
+    {
+      "start": 32.397,
+      "end": 35.62
+    },
+    {
+      "start": 36.363,
+      "end": 41.105
+    },
+    {
+      "start": 43.298,
+      "end": 45.475
+    },
+    {
+      "start": 45.948,
+      "end": 48.479
+    },
+    {
+      "start": 50.521,
+      "end": 51.365
+    },
+    {
+      "start": 57.288,
+      "end": 79.782
+    },
+    {
+      "start": 80.407,
+      "end": 81.773
+    },
+    {
+      "start": 85.182,
+      "end": 86.566
+    },
+    {
+      "start": 87.95,
+      "end": 96.404
+    },
+    {
+      "start": 96.556,
+      "end": 97.568
+    },
+    {
+      "start": 98.615,
+      "end": 102.8
+    },
+    {
+      "start": 102.968,
+      "end": 108.098
+    },
+    {
+      "start": 109.837,
+      "end": 122.797
+    },
+    {
+      "start": 123.826,
+      "end": 131.167
+    },
+    {
+      "start": 131.96,
+      "end": 141.967
+    },
+    {
+      "start": 142.49,
+      "end": 151.855
+    },
+    {
+      "start": 153.442,
+      "end": 159.517
+    },
+    {
+      "start": 159.905,
+      "end": 167.802
+    },
+    {
+      "start": 169.169,
+      "end": 192.372
+    },
+    {
+      "start": 192.372,
+      "end": 199.713
+    },
+    {
+      "start": 201.215,
+      "end": 210.833
+    }
+  ],
+  "processing_time_sec": 0.189
+}

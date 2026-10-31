@@ -1,0 +1,216 @@
+{
+  "file": "R07_bwc_cheap_shot_dfn.wav",
+  "model": "pyannote/voice-activity-detection (local PyanNet assets/pytorch_model.bin)",
+  "path": "pathA",
+  "fallback": false,
+  "duration": 175.42675,
+  "raw_count": 44,
+  "merged_count": 44,
+  "filtered_count": 44,
+  "split_count": 44,
+  "final_count": 44,
+  "removed_short_segments": 0,
+  "split_operations": [],
+  "recursive_depth": 0,
+  "pre_split_duration_histogram": {
+    "0-5": 38,
+    "5-10": 4,
+    "10-15": 1,
+    "15-20": 0,
+    "20-25": 1,
+    "25-30": 0,
+    ">30": 0
+  },
+  "post_split_duration_histogram": {
+    "0-5": 38,
+    "5-10": 4,
+    "10-15": 1,
+    "15-20": 0,
+    "20-25": 1,
+    "25-30": 0,
+    ">30": 0
+  },
+  "average_segment_duration": 2.589136363636363,
+  "maximum_segment_duration": 23.355,
+  "minimum_segment_duration": 0.236,
+  "total_speech_duration": 113.922,
+  "segments": [
+    {
+      "start": 0.031,
+      "end": 23.386
+    },
+    {
+      "start": 23.673,
+      "end": 25.495
+    },
+    {
+      "start": 25.799,
+      "end": 26.474
+    },
+    {
+      "start": 26.744,
+      "end": 31.807
+    },
+    {
+      "start": 32.532,
+      "end": 38.32
+    },
+    {
+      "start": 39.232,
+      "end": 42.472
+    },
+    {
+      "start": 46.825,
+      "end": 52.04
+    },
+    {
+      "start": 56.444,
+      "end": 57.524
+    },
+    {
+      "start": 58.216,
+      "end": 60.123
+    },
+    {
+      "start": 60.815,
+      "end": 64.004
+    },
+    {
+      "start": 64.477,
+      "end": 67.919
+    },
+    {
+      "start": 70.062,
+      "end": 70.872
+    },
+    {
+      "start": 72.475,
+      "end": 73.673
+    },
+    {
+      "start": 74.416,
+      "end": 75.293
+    },
+    {
+      "start": 77.673,
+      "end": 81.183
+    },
+    {
+      "start": 81.335,
+      "end": 81.858
+    },
+    {
+      "start": 82.516,
+      "end": 84.44
+    },
+    {
+      "start": 85.807,
+      "end": 87.055
+    },
+    {
+      "start": 88.321,
+      "end": 90.987
+    },
+    {
+      "start": 92.692,
+      "end": 103.154
+    },
+    {
+      "start": 103.424,
+      "end": 103.93
+    },
+    {
+      "start": 106.158,
+      "end": 106.748
+    },
+    {
+      "start": 108.841,
+      "end": 111.153
+    },
+    {
+      "start": 111.49,
+      "end": 113.093
+    },
+    {
+      "start": 113.633,
+      "end": 119.725
+    },
+    {
+      "start": 120.063,
+      "end": 121.666
+    },
+    {
+      "start": 122.206,
+      "end": 122.594
+    },
+    {
+      "start": 122.881,
+      "end": 123.218
+    },
+    {
+      "start": 125.007,
+      "end": 125.733
+    },
+    {
+      "start": 126.087,
+      "end": 126.728
+    },
+    {
+      "start": 127.015,
+      "end": 128.332
+    },
+    {
+      "start": 130.424,
+      "end": 131.774
+    },
+    {
+      "start": 133.073,
+      "end": 135.048
+    },
+    {
+      "start": 135.554,
+      "end": 136.432
+    },
+    {
+      "start": 137.022,
+      "end": 137.9
+    },
+    {
+      "start": 138.254,
+      "end": 139.553
+    },
+    {
+      "start": 139.857,
+      "end": 141.697
+    },
+    {
+      "start": 143.148,
+      "end": 146.236
+    },
+    {
+      "start": 149.155,
+      "end": 149.392
+    },
+    {
+      "start": 150.016,
+      "end": 150.252
+    },
+    {
+      "start": 154.741,
+      "end": 158.74
+    },
+    {
+      "start": 159.719,
+      "end": 160.698
+    },
+    {
+      "start": 161.356,
+      "end": 161.845
+    },
+    {
+      "start": 162.014,
+      "end": 164.579
+    }
+  ],
+  "processing_time_sec": 0.157
+}

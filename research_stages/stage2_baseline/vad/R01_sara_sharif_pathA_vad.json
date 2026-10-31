@@ -1,0 +1,148 @@
+{
+  "file": "R01_sara_sharif_dfn.wav",
+  "model": "pyannote/voice-activity-detection (local PyanNet assets/pytorch_model.bin)",
+  "path": "pathA",
+  "fallback": false,
+  "duration": 100.960375,
+  "raw_count": 29,
+  "merged_count": 28,
+  "filtered_count": 27,
+  "split_count": 27,
+  "final_count": 27,
+  "removed_short_segments": 1,
+  "split_operations": [],
+  "recursive_depth": 0,
+  "pre_split_duration_histogram": {
+    "0-5": 23,
+    "5-10": 3,
+    "10-15": 1,
+    "15-20": 0,
+    "20-25": 0,
+    "25-30": 0,
+    ">30": 0
+  },
+  "post_split_duration_histogram": {
+    "0-5": 23,
+    "5-10": 3,
+    "10-15": 1,
+    "15-20": 0,
+    "20-25": 0,
+    "25-30": 0,
+    ">30": 0
+  },
+  "average_segment_duration": 2.5018888888888884,
+  "maximum_segment_duration": 11.054,
+  "minimum_segment_duration": 0.135,
+  "total_speech_duration": 67.551,
+  "segments": [
+    {
+      "start": 2.984,
+      "end": 3.642
+    },
+    {
+      "start": 4.452,
+      "end": 4.857
+    },
+    {
+      "start": 5.043,
+      "end": 9.582
+    },
+    {
+      "start": 11.168,
+      "end": 12.451
+    },
+    {
+      "start": 12.856,
+      "end": 13.666
+    },
+    {
+      "start": 14.746,
+      "end": 14.982
+    },
+    {
+      "start": 15.522,
+      "end": 15.792
+    },
+    {
+      "start": 16.535,
+      "end": 17.699
+    },
+    {
+      "start": 18.948,
+      "end": 19.758
+    },
+    {
+      "start": 21.243,
+      "end": 24.044
+    },
+    {
+      "start": 28.077,
+      "end": 29.377
+    },
+    {
+      "start": 29.917,
+      "end": 30.743
+    },
+    {
+      "start": 30.98,
+      "end": 31.908
+    },
+    {
+      "start": 33.005,
+      "end": 34.507
+    },
+    {
+      "start": 37.139,
+      "end": 39.805
+    },
+    {
+      "start": 41.02,
+      "end": 41.527
+    },
+    {
+      "start": 42.05,
+      "end": 43.13
+    },
+    {
+      "start": 43.552,
+      "end": 48.952
+    },
+    {
+      "start": 49.171,
+      "end": 55.28
+    },
+    {
+      "start": 55.567,
+      "end": 60.427
+    },
+    {
+      "start": 61.388,
+      "end": 72.442
+    },
+    {
+      "start": 73.387,
+      "end": 75.867
+    },
+    {
+      "start": 76.627,
+      "end": 79.85
+    },
+    {
+      "start": 80.204,
+      "end": 84.727
+    },
+    {
+      "start": 85.537,
+      "end": 85.672
+    },
+    {
+      "start": 86.347,
+      "end": 91.595
+    },
+    {
+      "start": 92.067,
+      "end": 94.801
+    }
+  ],
+  "processing_time_sec": 0.3264
+}

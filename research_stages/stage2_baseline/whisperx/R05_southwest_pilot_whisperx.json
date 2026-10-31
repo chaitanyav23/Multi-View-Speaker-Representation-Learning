@@ -1,0 +1,242 @@
+{
+  "file": "R05_southwest_pilot",
+  "model": "large-v3",
+  "fallback": false,
+  "segments": [
+    {
+      "start": 0.082,
+      "end": 3.338,
+      "text": "Good morning."
+    },
+    {
+      "start": 6.207,
+      "end": 11.523,
+      "text": "Say it again?"
+    },
+    {
+      "start": 13.632,
+      "end": 17.007,
+      "text": "Good morning, sir. Good morning. How are you? You good out there? Yeah. Fine."
+    },
+    {
+      "start": 17.311,
+      "end": 18.712,
+      "text": "When was the last time you had a sip of a drink?"
+    },
+    {
+      "start": 19.032,
+      "end": 19.589,
+      "text": "Last night?"
+    },
+    {
+      "start": 20.467,
+      "end": 21.682,
+      "text": "How many hours ago?"
+    },
+    {
+      "start": 22.508,
+      "end": 24.685,
+      "text": "Uh, like 10 hours ago, at least."
+    },
+    {
+      "start": 27.487,
+      "end": 28.516,
+      "text": "How many drinks did you have?"
+    },
+    {
+      "start": 29.545,
+      "end": 30.44,
+      "text": "a few beers."
+    },
+    {
+      "start": 30.608,
+      "end": 30.929,
+      "text": "Sir?"
+    },
+    {
+      "start": 31.638,
+      "end": 32.633,
+      "text": "to find a few beers."
+    },
+    {
+      "start": 33.967,
+      "end": 34.625,
+      "text": "few years."
+    },
+    {
+      "start": 35.317,
+      "end": 38.287,
+      "text": "Define a few beers. Three. Okay. Yeah."
+    },
+    {
+      "start": 38.692,
+      "end": 39.535,
+      "text": "We'll just drink."
+    },
+    {
+      "start": 40.193,
+      "end": 43.332,
+      "text": "Like beer, no lie. No lie? Yeah. Anything else? Nope."
+    },
+    {
+      "start": 44.227,
+      "end": 44.885,
+      "text": "What's up?"
+    },
+    {
+      "start": 46.117,
+      "end": 46.876,
+      "text": "Who are you with?"
+    },
+    {
+      "start": 48.496,
+      "end": 49.103,
+      "text": "May I follow?"
+    },
+    {
+      "start": 49.373,
+      "end": 50.268,
+      "text": "Uh huh."
+    },
+    {
+      "start": 50.707,
+      "end": 52.192,
+      "text": "Would you be willing to provide?"
+    },
+    {
+      "start": 52.546,
+      "end": 52.917,
+      "text": "Uh..."
+    },
+    {
+      "start": 53.086,
+      "end": 54.689,
+      "text": "Feel sobriety with me right now? No."
+    },
+    {
+      "start": 54.942,
+      "end": 55.381,
+      "text": "Hold on."
+    },
+    {
+      "start": 56.343,
+      "end": 61.591,
+      "text": "There's no need? Well, I can smell an odor consistent with an alcoholic beverage."
+    },
+    {
+      "start": 63.143,
+      "end": 76.846,
+      "text": "I can smell it, I can smell it. It is a fully booked flight. I have a smell of a adult beverage coming out of you. I don't know if it's coming out of your mouth or your skin. It's coming out of the pores, I get it. Do I see it?"
+    },
+    {
+      "start": 78.837,
+      "end": 80.288,
+      "text": "Would you do field sobriety?"
+    },
+    {
+      "start": 81.79,
+      "end": 86.667,
+      "text": "This would be a brand new uncharted territory. Let's go."
+    },
+    {
+      "start": 87.258,
+      "end": 89.047,
+      "text": "away from the passengers."
+    },
+    {
+      "start": 89.333,
+      "end": 89.603,
+      "text": "One."
+    },
+    {
+      "start": 90.548,
+      "end": 90.852,
+      "text": "to."
+    },
+    {
+      "start": 91.713,
+      "end": 92.455,
+      "text": "greatness."
+    },
+    {
+      "start": 92.911,
+      "end": 93.248,
+      "text": "war."
+    },
+    {
+      "start": 94.126,
+      "end": 94.514,
+      "text": "I don't know."
+    },
+    {
+      "start": 95.172,
+      "end": 95.729,
+      "text": "Sex."
+    },
+    {
+      "start": 96.269,
+      "end": 96.792,
+      "text": "So"
+    },
+    {
+      "start": 97.484,
+      "end": 98.041,
+      "text": "Peace."
+    },
+    {
+      "start": 98.53,
+      "end": 100.387,
+      "text": "No. Did you turn around and go the other way?"
+    },
+    {
+      "start": 102.243,
+      "end": 104.639,
+      "text": "One, two, three."
+    },
+    {
+      "start": 108.065,
+      "end": 108.368,
+      "text": "Thank you."
+    },
+    {
+      "start": 108.993,
+      "end": 114.308,
+      "text": "6, 7, 8, 9, 10."
+    },
+    {
+      "start": 114.646,
+      "end": 121.328,
+      "text": "I'm trained in standardized field sobriety, and you've exhibited strong signs, and even after speaking with your first pilot, like..."
+    },
+    {
+      "start": 122.122,
+      "end": 126.121,
+      "text": "The issue is, would you agree to a blood draw to test your blood alcohol content?"
+    },
+    {
+      "start": 126.965,
+      "end": 138.457,
+      "text": "Okay, well, the issue is when you agreed to the field sobriety, you exhibited the symptoms, and if you're refusing to a blood draw, that's DUI less safe for the willful intention to operate a commercial aircraft."
+    },
+    {
+      "start": 138.727,
+      "end": 142.895,
+      "text": "seriously yes sir even if i gave you blood then nothing would change okay"
+    },
+    {
+      "start": 143.08,
+      "end": 143.468,
+      "text": "Right?"
+    },
+    {
+      "start": 143.857,
+      "end": 153.712,
+      "text": "That is your willful choice that you were willing to make, but based off the calls that we received stating that people down in TSA could smell."
+    },
+    {
+      "start": 154.657,
+      "end": 160.512,
+      "text": "What smelled like alcohol, if you don't mind, we're just going to head up to the patrol car so that way we don't have to do it all in front of the public eye."
+    }
+  ]
+}

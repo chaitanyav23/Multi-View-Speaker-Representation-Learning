@@ -1,0 +1,97 @@
+{
+  "file": "R01_sara_sharif",
+  "model": "large-v3",
+  "fallback": false,
+  "segments": [
+    {
+      "start": 1.28,
+      "end": 2.377,
+      "text": "Yes sir."
+    },
+    {
+      "start": 2.967,
+      "end": 4.047,
+      "text": "We are, yes."
+    },
+    {
+      "start": 4.402,
+      "end": 9.97,
+      "text": "Are you okay just to swap over, just yourself come with me and if you go with my colleague over there, is that alright? Alright."
+    },
+    {
+      "start": 10.46,
+      "end": 12.502,
+      "text": "That's what I was going to say about it."
+    },
+    {
+      "start": 12.805,
+      "end": 15.134,
+      "text": "Thank you. Cutting back. Yes."
+    },
+    {
+      "start": 15.455,
+      "end": 20.753,
+      "text": "Which one is your bag? I don't have any bag. You have no bag?"
+    },
+    {
+      "start": 21.175,
+      "end": 24.888,
+      "text": "We'll look over here. Yance, you have a lot of peace."
+    },
+    {
+      "start": 27.976,
+      "end": 29.663,
+      "text": "I'll explain more outside, okay?"
+    },
+    {
+      "start": 29.832,
+      "end": 32.212,
+      "text": "Sorry, I'll explain."
+    },
+    {
+      "start": 32.954,
+      "end": 34.726,
+      "text": "Let's hold on to him a little."
+    },
+    {
+      "start": 36.464,
+      "end": 39.89,
+      "text": "Yeah, could you just confirm your name for me please, sir?"
+    },
+    {
+      "start": 41.02,
+      "end": 41.594,
+      "text": "Sorry."
+    },
+    {
+      "start": 41.999,
+      "end": 43.163,
+      "text": "Good punch, Sharif."
+    },
+    {
+      "start": 43.518,
+      "end": 60.443,
+      "text": "Yes, yeah, often, okay. So, the time is 19.47 hours. The body of Sarah Sharif was discovered on the 10th of August, 2023, on 6 Hammond Road in Horsall. On the injuries sustained by her and the investigation conducted, you are suspected of her murder."
+    },
+    {
+      "start": 61.372,
+      "end": 72.475,
+      "text": "You are therefore arrested for murder of Sarah Sharif. You do not have to say anything when it may harm your defence. You do not mention when questioned, something which you later rely on in court, and anything you do say may be given in evidence."
+    },
+    {
+      "start": 73.37,
+      "end": 75.952,
+      "text": "You are therefore arrested for the murder of Cheryl Shree."
+    },
+    {
+      "start": 76.542,
+      "end": 85.739,
+      "text": "You didn't have to say anything, but it may have been on your offence if you didn't mention one question, something which you later rely on in court. Any of you do say maybe they've never seen someone like me."
+    },
+    {
+      "start": 86.245,
+      "end": 94.97,
+      "text": "From the injuries sustained by her and the investigation conducted, you are suspected of her murder. You are therefore arrested for the murder of Saad Sharif."
+    }
+  ]
+}

@@ -1,0 +1,2810 @@
+[
+  {
+    "word": "When",
+    "start": 0.654,
+    "end": 0.835,
+    "confidence": 0.759
+  },
+  {
+    "word": "he",
+    "start": 0.895,
+    "end": 0.995,
+    "confidence": 0.986
+  },
+  {
+    "word": "was",
+    "start": 1.035,
+    "end": 1.156,
+    "confidence": 0.707
+  },
+  {
+    "word": "leader",
+    "start": 1.236,
+    "end": 1.457,
+    "confidence": 0.87
+  },
+  {
+    "word": "of",
+    "start": 1.497,
+    "end": 1.538,
+    "confidence": 1.0
+  },
+  {
+    "word": "the",
+    "start": 1.578,
+    "end": 1.638,
+    "confidence": 0.998
+  },
+  {
+    "word": "opposition,",
+    "start": 1.678,
+    "end": 2.2,
+    "confidence": 0.951
+  },
+  {
+    "word": "the",
+    "start": 2.763,
+    "end": 2.843,
+    "confidence": 0.923
+  },
+  {
+    "word": "Prime",
+    "start": 2.863,
+    "end": 3.084,
+    "confidence": 0.986
+  },
+  {
+    "word": "Minister",
+    "start": 3.104,
+    "end": 3.466,
+    "confidence": 0.855
+  },
+  {
+    "word": "said,",
+    "start": 3.486,
+    "end": 3.787,
+    "confidence": 0.814
+  },
+  {
+    "word": "and",
+    "start": 4.29,
+    "end": 4.39,
+    "confidence": 0.849
+  },
+  {
+    "word": "I",
+    "start": 4.45,
+    "end": 4.531,
+    "confidence": 0.755
+  },
+  {
+    "word": "quote,",
+    "start": 4.611,
+    "end": 4.912,
+    "confidence": 0.951
+  },
+  {
+    "word": "I",
+    "start": 5.808,
+    "end": 5.909,
+    "confidence": 0.756
+  },
+  {
+    "word": "never",
+    "start": 6.03,
+    "end": 6.373,
+    "confidence": 0.908
+  },
+  {
+    "word": "turn",
+    "start": 6.655,
+    "end": 6.918,
+    "confidence": 0.81
+  },
+  {
+    "word": "on",
+    "start": 6.978,
+    "end": 7.039,
+    "confidence": 0.804
+  },
+  {
+    "word": "my",
+    "start": 7.099,
+    "end": 7.24,
+    "confidence": 0.834
+  },
+  {
+    "word": "staff.",
+    "start": 7.281,
+    "end": 7.603,
+    "confidence": 0.997
+  },
+  {
+    "word": "When",
+    "start": 8.562,
+    "end": 8.723,
+    "confidence": 0.899
+  },
+  {
+    "word": "they",
+    "start": 8.783,
+    "end": 9.023,
+    "confidence": 0.824
+  },
+  {
+    "word": "make",
+    "start": 9.084,
+    "end": 9.284,
+    "confidence": 0.836
+  },
+  {
+    "word": "mistakes,",
+    "start": 9.344,
+    "end": 9.826,
+    "confidence": 0.852
+  },
+  {
+    "word": "I",
+    "start": 10.548,
+    "end": 10.668,
+    "confidence": 0.749
+  },
+  {
+    "word": "carry",
+    "start": 10.889,
+    "end": 11.33,
+    "confidence": 0.902
+  },
+  {
+    "word": "the",
+    "start": 11.511,
+    "end": 11.611,
+    "confidence": 0.935
+  },
+  {
+    "word": "can.",
+    "start": 11.631,
+    "end": 11.852,
+    "confidence": 0.674
+  },
+  {
+    "word": "What",
+    "start": 13.095,
+    "end": 13.256,
+    "confidence": 0.792
+  },
+  {
+    "word": "changed?",
+    "start": 13.296,
+    "end": 13.659,
+    "confidence": 0.939
+  },
+  {
+    "word": "Thank",
+    "start": 15.168,
+    "end": 15.293,
+    "confidence": 0.095
+  },
+  {
+    "word": "you,",
+    "start": 15.314,
+    "end": 15.397,
+    "confidence": 0.028
+  },
+  {
+    "word": "Prime",
+    "start": 15.418,
+    "end": 15.522,
+    "confidence": 0.012
+  },
+  {
+    "word": "Minister.",
+    "start": 15.542,
+    "end": 15.771,
+    "confidence": 0.109
+  },
+  {
+    "word": "Well,",
+    "start": 16.257,
+    "end": 16.478,
+    "confidence": 0.629
+  },
+  {
+    "word": "Mr",
+    "start": 16.538,
+    "end": 16.778,
+    "confidence": 0.566
+  },
+  {
+    "word": "Speaker,",
+    "start": 16.798,
+    "end": 17.179,
+    "confidence": 0.902
+  },
+  {
+    "word": "I've",
+    "start": 17.379,
+    "end": 17.54,
+    "confidence": 0.413
+  },
+  {
+    "word": "accepted",
+    "start": 18.101,
+    "end": 18.742,
+    "confidence": 0.922
+  },
+  {
+    "word": "responsibility",
+    "start": 18.843,
+    "end": 19.664,
+    "confidence": 0.921
+  },
+  {
+    "word": "and",
+    "start": 20.266,
+    "end": 20.366,
+    "confidence": 0.874
+  },
+  {
+    "word": "apologised",
+    "start": 20.466,
+    "end": 21.368,
+    "confidence": 0.732
+  },
+  {
+    "word": "for",
+    "start": 21.909,
+    "end": 22.029,
+    "confidence": 0.811
+  },
+  {
+    "word": "the",
+    "start": 22.049,
+    "end": 22.109,
+    "confidence": 0.893
+  },
+  {
+    "word": "mistakes",
+    "start": 22.149,
+    "end": 22.51,
+    "confidence": 0.709
+  },
+  {
+    "word": "that",
+    "start": 22.53,
+    "end": 22.671,
+    "confidence": 0.788
+  },
+  {
+    "word": "I",
+    "start": 22.731,
+    "end": 22.811,
+    "confidence": 0.758
+  },
+  {
+    "word": "made.",
+    "start": 22.851,
+    "end": 23.111,
+    "confidence": 0.767
+  },
+  {
+    "word": "But",
+    "start": 24.168,
+    "end": 24.328,
+    "confidence": 0.434
+  },
+  {
+    "word": "let",
+    "start": 24.348,
+    "end": 24.509,
+    "confidence": 0.994
+  },
+  {
+    "word": "me",
+    "start": 24.529,
+    "end": 24.649,
+    "confidence": 0.836
+  },
+  {
+    "word": "say",
+    "start": 24.709,
+    "end": 24.91,
+    "confidence": 0.722
+  },
+  {
+    "word": "this,",
+    "start": 24.95,
+    "end": 25.13,
+    "confidence": 0.922
+  },
+  {
+    "word": "Mr.",
+    "start": 25.19,
+    "end": 25.491,
+    "confidence": 0.653
+  },
+  {
+    "word": "Speaker.",
+    "start": 25.531,
+    "end": 25.992,
+    "confidence": 0.929
+  },
+  {
+    "word": "Let",
+    "start": 26.453,
+    "end": 26.593,
+    "confidence": 0.998
+  },
+  {
+    "word": "me",
+    "start": 26.633,
+    "end": 26.713,
+    "confidence": 0.97
+  },
+  {
+    "word": "say",
+    "start": 26.793,
+    "end": 26.954,
+    "confidence": 0.732
+  },
+  {
+    "word": "this,",
+    "start": 26.994,
+    "end": 27.134,
+    "confidence": 0.888
+  },
+  {
+    "word": "Mr.",
+    "start": 27.194,
+    "end": 27.455,
+    "confidence": 0.618
+  },
+  {
+    "word": "Speaker.",
+    "start": 27.495,
+    "end": 27.916,
+    "confidence": 0.953
+  },
+  {
+    "word": "Morgan",
+    "start": 28.437,
+    "end": 28.777,
+    "confidence": 0.709
+  },
+  {
+    "word": "McSweeney",
+    "start": 28.797,
+    "end": 29.379,
+    "confidence": 0.829
+  },
+  {
+    "word": "helped",
+    "start": 29.439,
+    "end": 29.719,
+    "confidence": 0.854
+  },
+  {
+    "word": "me",
+    "start": 29.8,
+    "end": 29.94,
+    "confidence": 0.795
+  },
+  {
+    "word": "change",
+    "start": 30.06,
+    "end": 30.561,
+    "confidence": 0.806
+  },
+  {
+    "word": "our",
+    "start": 30.761,
+    "end": 30.862,
+    "confidence": 0.932
+  },
+  {
+    "word": "party.",
+    "start": 30.922,
+    "end": 31.363,
+    "confidence": 0.924
+  },
+  {
+    "word": "and",
+    "start": 32.484,
+    "end": 32.584,
+    "confidence": 0.838
+  },
+  {
+    "word": "help",
+    "start": 32.645,
+    "end": 32.846,
+    "confidence": 0.888
+  },
+  {
+    "word": "me",
+    "start": 32.866,
+    "end": 33.027,
+    "confidence": 0.613
+  },
+  {
+    "word": "win",
+    "start": 33.067,
+    "end": 33.309,
+    "confidence": 0.357
+  },
+  {
+    "word": "a",
+    "start": 33.329,
+    "end": 33.349,
+    "confidence": 0.97
+  },
+  {
+    "word": "landslide",
+    "start": 33.409,
+    "end": 34.315,
+    "confidence": 0.897
+  },
+  {
+    "word": "election",
+    "start": 34.436,
+    "end": 34.898,
+    "confidence": 0.948
+  },
+  {
+    "word": "victory.",
+    "start": 34.939,
+    "end": 35.381,
+    "confidence": 0.916
+  },
+  {
+    "word": "which",
+    "start": 36.449,
+    "end": 36.67,
+    "confidence": 0.939
+  },
+  {
+    "word": "delivered",
+    "start": 36.731,
+    "end": 37.192,
+    "confidence": 0.938
+  },
+  {
+    "word": "for",
+    "start": 37.233,
+    "end": 37.373,
+    "confidence": 0.831
+  },
+  {
+    "word": "them",
+    "start": 37.433,
+    "end": 37.674,
+    "confidence": 0.876
+  },
+  {
+    "word": "the",
+    "start": 37.755,
+    "end": 37.895,
+    "confidence": 0.775
+  },
+  {
+    "word": "smallest",
+    "start": 37.955,
+    "end": 38.457,
+    "confidence": 0.917
+  },
+  {
+    "word": "Tory",
+    "start": 38.538,
+    "end": 38.919,
+    "confidence": 0.918
+  },
+  {
+    "word": "party",
+    "start": 38.98,
+    "end": 39.421,
+    "confidence": 0.926
+  },
+  {
+    "word": "in",
+    "start": 39.662,
+    "end": 39.743,
+    "confidence": 0.428
+  },
+  {
+    "word": "over",
+    "start": 39.803,
+    "end": 39.984,
+    "confidence": 0.946
+  },
+  {
+    "word": "100",
+    "start": 40.004,
+    "end": 40.064,
+    "confidence": 0.998
+  },
+  {
+    "word": "years.",
+    "start": 40.084,
+    "end": 40.285,
+    "confidence": 0.362
+  },
+  {
+    "word": "And",
+    "start": 43.405,
+    "end": 43.486,
+    "confidence": 0.857
+  },
+  {
+    "word": "what's",
+    "start": 43.566,
+    "end": 43.907,
+    "confidence": 0.809
+  },
+  {
+    "word": "her",
+    "start": 43.947,
+    "end": 44.208,
+    "confidence": 0.805
+  },
+  {
+    "word": "great",
+    "start": 44.228,
+    "end": 44.468,
+    "confidence": 0.474
+  },
+  {
+    "word": "achievement?",
+    "start": 44.529,
+    "end": 45.07,
+    "confidence": 0.902
+  },
+  {
+    "word": "to",
+    "start": 45.998,
+    "end": 46.139,
+    "confidence": 0.871
+  },
+  {
+    "word": "make",
+    "start": 46.22,
+    "end": 46.522,
+    "confidence": 0.891
+  },
+  {
+    "word": "it",
+    "start": 46.623,
+    "end": 46.764,
+    "confidence": 0.712
+  },
+  {
+    "word": "even",
+    "start": 47.087,
+    "end": 47.47,
+    "confidence": 0.914
+  },
+  {
+    "word": "smaller.",
+    "start": 47.773,
+    "end": 48.338,
+    "confidence": 0.948
+  },
+  {
+    "word": "Okay,",
+    "start": 50.535,
+    "end": 50.739,
+    "confidence": 0.377
+  },
+  {
+    "word": "we're",
+    "start": 50.759,
+    "end": 50.984,
+    "confidence": 0.518
+  },
+  {
+    "word": "not...",
+    "start": 51.025,
+    "end": 51.229,
+    "confidence": 0.544
+  },
+  {
+    "word": "The",
+    "start": 57.331,
+    "end": 57.411,
+    "confidence": 0.928
+  },
+  {
+    "word": "Whips",
+    "start": 57.451,
+    "end": 57.631,
+    "confidence": 0.968
+  },
+  {
+    "word": "have",
+    "start": 57.671,
+    "end": 57.771,
+    "confidence": 0.88
+  },
+  {
+    "word": "done",
+    "start": 57.791,
+    "end": 57.951,
+    "confidence": 0.712
+  },
+  {
+    "word": "a",
+    "start": 57.971,
+    "end": 58.011,
+    "confidence": 0.507
+  },
+  {
+    "word": "great",
+    "start": 58.071,
+    "end": 58.291,
+    "confidence": 0.849
+  },
+  {
+    "word": "job",
+    "start": 58.331,
+    "end": 58.571,
+    "confidence": 0.982
+  },
+  {
+    "word": "today.",
+    "start": 58.611,
+    "end": 58.892,
+    "confidence": 0.869
+  },
+  {
+    "word": "This",
+    "start": 58.912,
+    "end": 59.072,
+    "confidence": 0.704
+  },
+  {
+    "word": "is",
+    "start": 59.152,
+    "end": 59.212,
+    "confidence": 0.412
+  },
+  {
+    "word": "like",
+    "start": 59.272,
+    "end": 59.552,
+    "confidence": 0.772
+  },
+  {
+    "word": "the",
+    "start": 59.612,
+    "end": 59.852,
+    "confidence": 0.78
+  },
+  {
+    "word": "37th...",
+    "start": 59.872,
+    "end": 60.132,
+    "confidence": 0.853
+  },
+  {
+    "word": "Oh,",
+    "start": 60.212,
+    "end": 60.372,
+    "confidence": 0.584
+  },
+  {
+    "word": "you",
+    "start": 60.412,
+    "end": 60.492,
+    "confidence": 0.059
+  },
+  {
+    "word": "said,",
+    "start": 60.512,
+    "end": 60.692,
+    "confidence": 0.866
+  },
+  {
+    "word": "yeah,",
+    "start": 60.712,
+    "end": 60.992,
+    "confidence": 0.484
+  },
+  {
+    "word": "exactly.",
+    "start": 61.052,
+    "end": 61.553,
+    "confidence": 0.863
+  },
+  {
+    "word": "Done",
+    "start": 61.573,
+    "end": 61.713,
+    "confidence": 0.808
+  },
+  {
+    "word": "a",
+    "start": 61.733,
+    "end": 61.773,
+    "confidence": 0.48
+  },
+  {
+    "word": "great",
+    "start": 61.813,
+    "end": 61.993,
+    "confidence": 0.784
+  },
+  {
+    "word": "job",
+    "start": 62.013,
+    "end": 62.213,
+    "confidence": 0.776
+  },
+  {
+    "word": "today",
+    "start": 62.233,
+    "end": 62.473,
+    "confidence": 0.846
+  },
+  {
+    "word": "getting",
+    "start": 62.833,
+    "end": 63.073,
+    "confidence": 0.994
+  },
+  {
+    "word": "them",
+    "start": 63.113,
+    "end": 63.253,
+    "confidence": 0.881
+  },
+  {
+    "word": "cheering.",
+    "start": 63.293,
+    "end": 63.713,
+    "confidence": 0.868
+  },
+  {
+    "word": "We",
+    "start": 63.753,
+    "end": 63.873,
+    "confidence": 0.84
+  },
+  {
+    "word": "all",
+    "start": 63.933,
+    "end": 64.093,
+    "confidence": 0.714
+  },
+  {
+    "word": "know",
+    "start": 64.133,
+    "end": 64.354,
+    "confidence": 0.688
+  },
+  {
+    "word": "that",
+    "start": 64.374,
+    "end": 64.534,
+    "confidence": 0.554
+  },
+  {
+    "word": "they've",
+    "start": 64.554,
+    "end": 64.774,
+    "confidence": 0.721
+  },
+  {
+    "word": "been",
+    "start": 64.794,
+    "end": 64.954,
+    "confidence": 0.814
+  },
+  {
+    "word": "sick",
+    "start": 64.994,
+    "end": 65.214,
+    "confidence": 0.796
+  },
+  {
+    "word": "for",
+    "start": 65.274,
+    "end": 65.394,
+    "confidence": 0.889
+  },
+  {
+    "word": "the",
+    "start": 65.414,
+    "end": 65.494,
+    "confidence": 0.842
+  },
+  {
+    "word": "last",
+    "start": 65.554,
+    "end": 65.794,
+    "confidence": 0.797
+  },
+  {
+    "word": "week",
+    "start": 65.854,
+    "end": 66.034,
+    "confidence": 0.821
+  },
+  {
+    "word": "because",
+    "start": 66.354,
+    "end": 66.574,
+    "confidence": 0.82
+  },
+  {
+    "word": "let's",
+    "start": 66.614,
+    "end": 66.834,
+    "confidence": 0.723
+  },
+  {
+    "word": "remember,",
+    "start": 66.854,
+    "end": 67.295,
+    "confidence": 0.904
+  },
+  {
+    "word": "Mr",
+    "start": 67.395,
+    "end": 67.615,
+    "confidence": 0.492
+  },
+  {
+    "word": "Speaker,",
+    "start": 67.655,
+    "end": 68.015,
+    "confidence": 0.992
+  },
+  {
+    "word": "just",
+    "start": 68.515,
+    "end": 68.775,
+    "confidence": 0.814
+  },
+  {
+    "word": "last",
+    "start": 68.855,
+    "end": 69.095,
+    "confidence": 0.838
+  },
+  {
+    "word": "week,",
+    "start": 69.155,
+    "end": 69.355,
+    "confidence": 0.943
+  },
+  {
+    "word": "just",
+    "start": 70.236,
+    "end": 70.536,
+    "confidence": 0.78
+  },
+  {
+    "word": "last",
+    "start": 70.596,
+    "end": 70.836,
+    "confidence": 0.87
+  },
+  {
+    "word": "week,",
+    "start": 70.896,
+    "end": 71.076,
+    "confidence": 0.89
+  },
+  {
+    "word": "he",
+    "start": 71.596,
+    "end": 71.776,
+    "confidence": 0.738
+  },
+  {
+    "word": "told",
+    "start": 71.856,
+    "end": 72.116,
+    "confidence": 0.822
+  },
+  {
+    "word": "us",
+    "start": 72.216,
+    "end": 72.336,
+    "confidence": 0.752
+  },
+  {
+    "word": "that",
+    "start": 72.456,
+    "end": 72.576,
+    "confidence": 0.983
+  },
+  {
+    "word": "he",
+    "start": 72.616,
+    "end": 72.736,
+    "confidence": 0.573
+  },
+  {
+    "word": "had",
+    "start": 72.797,
+    "end": 72.997,
+    "confidence": 0.805
+  },
+  {
+    "word": "full",
+    "start": 73.457,
+    "end": 73.837,
+    "confidence": 0.864
+  },
+  {
+    "word": "confidence",
+    "start": 73.937,
+    "end": 74.497,
+    "confidence": 0.949
+  },
+  {
+    "word": "in",
+    "start": 74.637,
+    "end": 74.697,
+    "confidence": 0.995
+  },
+  {
+    "word": "his",
+    "start": 74.737,
+    "end": 74.837,
+    "confidence": 0.842
+  },
+  {
+    "word": "Chief",
+    "start": 74.877,
+    "end": 75.077,
+    "confidence": 0.804
+  },
+  {
+    "word": "of",
+    "start": 75.137,
+    "end": 75.197,
+    "confidence": 0.772
+  },
+  {
+    "word": "Staff,",
+    "start": 75.217,
+    "end": 75.557,
+    "confidence": 0.808
+  },
+  {
+    "word": "Morgan",
+    "start": 75.618,
+    "end": 75.858,
+    "confidence": 0.748
+  },
+  {
+    "word": "McSweeney.",
+    "start": 75.878,
+    "end": 76.498,
+    "confidence": 0.659
+  },
+  {
+    "word": "On",
+    "start": 77.078,
+    "end": 77.158,
+    "confidence": 0.988
+  },
+  {
+    "word": "Sunday,",
+    "start": 77.258,
+    "end": 77.718,
+    "confidence": 0.91
+  },
+  {
+    "word": "he",
+    "start": 78.058,
+    "end": 78.198,
+    "confidence": 0.712
+  },
+  {
+    "word": "sacked",
+    "start": 78.278,
+    "end": 78.599,
+    "confidence": 0.987
+  },
+  {
+    "word": "Morgan",
+    "start": 78.799,
+    "end": 79.059,
+    "confidence": 0.904
+  },
+  {
+    "word": "McSweeney.",
+    "start": 79.079,
+    "end": 79.519,
+    "confidence": 0.772
+  },
+  {
+    "word": "Last",
+    "start": 80.511,
+    "end": 80.895,
+    "confidence": 0.881
+  },
+  {
+    "word": "week.",
+    "start": 80.915,
+    "end": 81.077,
+    "confidence": 0.406
+  },
+  {
+    "word": "He",
+    "start": 85.229,
+    "end": 85.412,
+    "confidence": 0.79
+  },
+  {
+    "word": "resigned.",
+    "start": 85.513,
+    "end": 86.163,
+    "confidence": 0.772
+  },
+  {
+    "word": "Last",
+    "start": 88.07,
+    "end": 88.391,
+    "confidence": 0.938
+  },
+  {
+    "word": "week,",
+    "start": 88.451,
+    "end": 89.674,
+    "confidence": 0.715
+  },
+  {
+    "word": "Mr",
+    "start": 89.694,
+    "end": 89.935,
+    "confidence": 0.669
+  },
+  {
+    "word": "Speaker,",
+    "start": 89.955,
+    "end": 90.336,
+    "confidence": 0.91
+  },
+  {
+    "word": "he",
+    "start": 90.737,
+    "end": 90.837,
+    "confidence": 0.814
+  },
+  {
+    "word": "was",
+    "start": 90.877,
+    "end": 90.998,
+    "confidence": 0.767
+  },
+  {
+    "word": "defending",
+    "start": 91.098,
+    "end": 91.8,
+    "confidence": 0.933
+  },
+  {
+    "word": "the",
+    "start": 92.061,
+    "end": 92.141,
+    "confidence": 0.897
+  },
+  {
+    "word": "cabinet",
+    "start": 92.161,
+    "end": 92.582,
+    "confidence": 0.901
+  },
+  {
+    "word": "secretary,",
+    "start": 92.602,
+    "end": 93.103,
+    "confidence": 0.726
+  },
+  {
+    "word": "now",
+    "start": 93.865,
+    "end": 94.186,
+    "confidence": 0.726
+  },
+  {
+    "word": "he",
+    "start": 94.507,
+    "end": 94.607,
+    "confidence": 0.871
+  },
+  {
+    "word": "is",
+    "start": 94.667,
+    "end": 94.747,
+    "confidence": 0.682
+  },
+  {
+    "word": "sacking",
+    "start": 94.808,
+    "end": 95.209,
+    "confidence": 0.837
+  },
+  {
+    "word": "him.",
+    "start": 95.509,
+    "end": 95.71,
+    "confidence": 0.978
+  },
+  {
+    "word": "What",
+    "start": 96.631,
+    "end": 96.814,
+    "confidence": 0.804
+  },
+  {
+    "word": "changed?",
+    "start": 96.976,
+    "end": 97.362,
+    "confidence": 0.932
+  },
+  {
+    "word": "Prime",
+    "start": 98.601,
+    "end": 98.801,
+    "confidence": 0.558
+  },
+  {
+    "word": "Minister.",
+    "start": 98.841,
+    "end": 99.322,
+    "confidence": 0.79
+  },
+  {
+    "word": "Mr",
+    "start": 99.342,
+    "end": 99.443,
+    "confidence": 0.226
+  },
+  {
+    "word": "Speaker,",
+    "start": 99.463,
+    "end": 99.803,
+    "confidence": 0.686
+  },
+  {
+    "word": "in",
+    "start": 99.863,
+    "end": 99.943,
+    "confidence": 0.91
+  },
+  {
+    "word": "January,",
+    "start": 99.984,
+    "end": 100.404,
+    "confidence": 0.696
+  },
+  {
+    "word": "she",
+    "start": 100.444,
+    "end": 100.585,
+    "confidence": 0.991
+  },
+  {
+    "word": "said",
+    "start": 100.625,
+    "end": 100.825,
+    "confidence": 0.827
+  },
+  {
+    "word": "she",
+    "start": 100.985,
+    "end": 101.106,
+    "confidence": 0.892
+  },
+  {
+    "word": "had",
+    "start": 101.126,
+    "end": 101.266,
+    "confidence": 0.835
+  },
+  {
+    "word": "full",
+    "start": 101.326,
+    "end": 101.526,
+    "confidence": 0.883
+  },
+  {
+    "word": "confidence...",
+    "start": 101.546,
+    "end": 102.127,
+    "confidence": 0.906
+  },
+  {
+    "word": "100%",
+    "start": 103.34,
+    "end": 104.003,
+    "confidence": 0.643
+  },
+  {
+    "word": "confident,",
+    "start": 104.044,
+    "end": 104.466,
+    "confidence": 0.922
+  },
+  {
+    "word": "she",
+    "start": 104.486,
+    "end": 104.566,
+    "confidence": 0.979
+  },
+  {
+    "word": "said,",
+    "start": 104.606,
+    "end": 104.807,
+    "confidence": 0.997
+  },
+  {
+    "word": "there'd",
+    "start": 104.827,
+    "end": 105.108,
+    "confidence": 0.121
+  },
+  {
+    "word": "be",
+    "start": 105.129,
+    "end": 105.289,
+    "confidence": 0.865
+  },
+  {
+    "word": "no",
+    "start": 105.37,
+    "end": 105.651,
+    "confidence": 0.908
+  },
+  {
+    "word": "more",
+    "start": 105.731,
+    "end": 105.912,
+    "confidence": 0.986
+  },
+  {
+    "word": "defections",
+    "start": 105.952,
+    "end": 106.595,
+    "confidence": 0.895
+  },
+  {
+    "word": "from",
+    "start": 106.676,
+    "end": 106.937,
+    "confidence": 0.945
+  },
+  {
+    "word": "her",
+    "start": 107.077,
+    "end": 107.298,
+    "confidence": 0.757
+  },
+  {
+    "word": "party.",
+    "start": 107.54,
+    "end": 107.982,
+    "confidence": 0.706
+  },
+  {
+    "word": "48",
+    "start": 109.847,
+    "end": 110.028,
+    "confidence": 0.686
+  },
+  {
+    "word": "hours",
+    "start": 110.149,
+    "end": 110.31,
+    "confidence": 0.277
+  },
+  {
+    "word": "later,",
+    "start": 110.371,
+    "end": 110.633,
+    "confidence": 0.416
+  },
+  {
+    "word": "I",
+    "start": 110.774,
+    "end": 110.875,
+    "confidence": 0.597
+  },
+  {
+    "word": "can...",
+    "start": 110.896,
+    "end": 111.319,
+    "confidence": 0.797
+  },
+  {
+    "word": "the",
+    "start": 113.046,
+    "end": 113.147,
+    "confidence": 0.625
+  },
+  {
+    "word": "shadow",
+    "start": 113.207,
+    "end": 113.529,
+    "confidence": 0.914
+  },
+  {
+    "word": "Foreign",
+    "start": 113.57,
+    "end": 113.791,
+    "confidence": 0.224
+  },
+  {
+    "word": "Minister",
+    "start": 113.811,
+    "end": 114.154,
+    "confidence": 0.817
+  },
+  {
+    "word": "defected.",
+    "start": 114.174,
+    "end": 114.698,
+    "confidence": 0.765
+  },
+  {
+    "word": "Eight",
+    "start": 115.386,
+    "end": 115.567,
+    "confidence": 0.787
+  },
+  {
+    "word": "days",
+    "start": 115.648,
+    "end": 115.969,
+    "confidence": 0.803
+  },
+  {
+    "word": "after",
+    "start": 116.17,
+    "end": 116.411,
+    "confidence": 0.883
+  },
+  {
+    "word": "that,",
+    "start": 116.451,
+    "end": 116.773,
+    "confidence": 0.934
+  },
+  {
+    "word": "the",
+    "start": 117.074,
+    "end": 117.174,
+    "confidence": 0.891
+  },
+  {
+    "word": "former",
+    "start": 117.194,
+    "end": 117.456,
+    "confidence": 0.964
+  },
+  {
+    "word": "Home",
+    "start": 117.476,
+    "end": 117.677,
+    "confidence": 0.884
+  },
+  {
+    "word": "Secretary",
+    "start": 117.697,
+    "end": 118.159,
+    "confidence": 0.432
+  },
+  {
+    "word": "defected.",
+    "start": 118.219,
+    "end": 118.741,
+    "confidence": 0.963
+  },
+  {
+    "word": "The",
+    "start": 119.573,
+    "end": 119.653,
+    "confidence": 0.993
+  },
+  {
+    "word": "only",
+    "start": 119.814,
+    "end": 120.016,
+    "confidence": 0.829
+  },
+  {
+    "word": "question",
+    "start": 120.076,
+    "end": 120.458,
+    "confidence": 0.813
+  },
+  {
+    "word": "now",
+    "start": 120.519,
+    "end": 120.72,
+    "confidence": 0.899
+  },
+  {
+    "word": "is...",
+    "start": 120.841,
+    "end": 120.962,
+    "confidence": 0.956
+  },
+  {
+    "word": "Who's",
+    "start": 121.558,
+    "end": 122.083,
+    "confidence": 0.625
+  },
+  {
+    "word": "next?",
+    "start": 122.143,
+    "end": 122.547,
+    "confidence": 0.781
+  },
+  {
+    "word": "She",
+    "start": 123.992,
+    "end": 124.132,
+    "confidence": 0.847
+  },
+  {
+    "word": "needs",
+    "start": 124.172,
+    "end": 124.433,
+    "confidence": 0.995
+  },
+  {
+    "word": "to",
+    "start": 124.473,
+    "end": 124.593,
+    "confidence": 0.794
+  },
+  {
+    "word": "wake",
+    "start": 124.633,
+    "end": 124.873,
+    "confidence": 0.921
+  },
+  {
+    "word": "up.",
+    "start": 124.953,
+    "end": 125.033,
+    "confidence": 0.854
+  },
+  {
+    "word": "Her",
+    "start": 125.113,
+    "end": 125.233,
+    "confidence": 0.91
+  },
+  {
+    "word": "party",
+    "start": 125.313,
+    "end": 125.794,
+    "confidence": 0.924
+  },
+  {
+    "word": "is",
+    "start": 125.934,
+    "end": 126.034,
+    "confidence": 0.806
+  },
+  {
+    "word": "dying.",
+    "start": 126.174,
+    "end": 126.895,
+    "confidence": 0.924
+  },
+  {
+    "word": "Mr",
+    "start": 127.375,
+    "end": 127.616,
+    "confidence": 0.53
+  },
+  {
+    "word": "Speaker,",
+    "start": 127.636,
+    "end": 128.076,
+    "confidence": 0.808
+  },
+  {
+    "word": "Matthew",
+    "start": 128.116,
+    "end": 128.356,
+    "confidence": 0.873
+  },
+  {
+    "word": "Doyle",
+    "start": 128.396,
+    "end": 128.597,
+    "confidence": 0.557
+  },
+  {
+    "word": "did",
+    "start": 128.637,
+    "end": 128.777,
+    "confidence": 0.995
+  },
+  {
+    "word": "not",
+    "start": 128.877,
+    "end": 129.077,
+    "confidence": 0.924
+  },
+  {
+    "word": "give",
+    "start": 129.137,
+    "end": 129.377,
+    "confidence": 0.888
+  },
+  {
+    "word": "a",
+    "start": 129.397,
+    "end": 129.417,
+    "confidence": 0.0
+  },
+  {
+    "word": "full",
+    "start": 129.618,
+    "end": 129.798,
+    "confidence": 0.874
+  },
+  {
+    "word": "account",
+    "start": 129.818,
+    "end": 130.278,
+    "confidence": 0.834
+  },
+  {
+    "word": "of",
+    "start": 130.378,
+    "end": 130.438,
+    "confidence": 0.954
+  },
+  {
+    "word": "his",
+    "start": 130.478,
+    "end": 130.579,
+    "confidence": 0.84
+  },
+  {
+    "word": "actions.",
+    "start": 130.639,
+    "end": 131.039,
+    "confidence": 0.576
+  },
+  {
+    "word": "And",
+    "start": 132.126,
+    "end": 132.226,
+    "confidence": 0.222
+  },
+  {
+    "word": "on",
+    "start": 132.407,
+    "end": 132.507,
+    "confidence": 0.564
+  },
+  {
+    "word": "Monday,",
+    "start": 132.527,
+    "end": 132.887,
+    "confidence": 0.519
+  },
+  {
+    "word": "I",
+    "start": 133.588,
+    "end": 133.668,
+    "confidence": 0.844
+  },
+  {
+    "word": "promised",
+    "start": 133.728,
+    "end": 134.069,
+    "confidence": 0.535
+  },
+  {
+    "word": "my",
+    "start": 134.269,
+    "end": 134.449,
+    "confidence": 0.84
+  },
+  {
+    "word": "party",
+    "start": 134.569,
+    "end": 135.05,
+    "confidence": 0.615
+  },
+  {
+    "word": "and",
+    "start": 135.35,
+    "end": 135.43,
+    "confidence": 0.202
+  },
+  {
+    "word": "my",
+    "start": 135.49,
+    "end": 135.711,
+    "confidence": 0.849
+  },
+  {
+    "word": "country",
+    "start": 135.771,
+    "end": 136.351,
+    "confidence": 0.66
+  },
+  {
+    "word": "there",
+    "start": 136.752,
+    "end": 136.872,
+    "confidence": 0.132
+  },
+  {
+    "word": "will",
+    "start": 136.892,
+    "end": 137.012,
+    "confidence": 0.28
+  },
+  {
+    "word": "be",
+    "start": 137.032,
+    "end": 137.152,
+    "confidence": 0.572
+  },
+  {
+    "word": "change.",
+    "start": 137.192,
+    "end": 137.573,
+    "confidence": 0.58
+  },
+  {
+    "word": "And",
+    "start": 138.354,
+    "end": 138.434,
+    "confidence": 0.304
+  },
+  {
+    "word": "yesterday,",
+    "start": 138.494,
+    "end": 139.155,
+    "confidence": 0.88
+  },
+  {
+    "word": "I",
+    "start": 139.175,
+    "end": 139.195,
+    "confidence": 0.0
+  },
+  {
+    "word": "removed",
+    "start": 139.475,
+    "end": 139.816,
+    "confidence": 0.759
+  },
+  {
+    "word": "the",
+    "start": 139.836,
+    "end": 140.016,
+    "confidence": 0.628
+  },
+  {
+    "word": "wick",
+    "start": 140.036,
+    "end": 140.256,
+    "confidence": 0.416
+  },
+  {
+    "word": "from",
+    "start": 140.657,
+    "end": 140.817,
+    "confidence": 0.882
+  },
+  {
+    "word": "Matthew",
+    "start": 140.857,
+    "end": 141.177,
+    "confidence": 0.599
+  },
+  {
+    "word": "Doyle.",
+    "start": 141.217,
+    "end": 141.618,
+    "confidence": 0.836
+  },
+  {
+    "word": "I'll",
+    "start": 142.539,
+    "end": 142.66,
+    "confidence": 0.955
+  },
+  {
+    "word": "tell",
+    "start": 142.68,
+    "end": 142.8,
+    "confidence": 0.906
+  },
+  {
+    "word": "you",
+    "start": 142.84,
+    "end": 142.92,
+    "confidence": 0.848
+  },
+  {
+    "word": "what",
+    "start": 142.94,
+    "end": 143.04,
+    "confidence": 0.935
+  },
+  {
+    "word": "other",
+    "start": 143.081,
+    "end": 143.261,
+    "confidence": 0.827
+  },
+  {
+    "word": "action",
+    "start": 143.301,
+    "end": 143.542,
+    "confidence": 0.922
+  },
+  {
+    "word": "we've",
+    "start": 143.582,
+    "end": 143.742,
+    "confidence": 0.923
+  },
+  {
+    "word": "taken,",
+    "start": 143.762,
+    "end": 144.063,
+    "confidence": 0.965
+  },
+  {
+    "word": "Mr",
+    "start": 144.083,
+    "end": 144.304,
+    "confidence": 0.608
+  },
+  {
+    "word": "Speaker.",
+    "start": 144.324,
+    "end": 144.664,
+    "confidence": 0.952
+  },
+  {
+    "word": "Along",
+    "start": 144.945,
+    "end": 145.166,
+    "confidence": 0.901
+  },
+  {
+    "word": "with",
+    "start": 145.206,
+    "end": 145.326,
+    "confidence": 0.879
+  },
+  {
+    "word": "the",
+    "start": 145.346,
+    "end": 145.426,
+    "confidence": 0.714
+  },
+  {
+    "word": "safeguarding",
+    "start": 145.466,
+    "end": 146.048,
+    "confidence": 0.938
+  },
+  {
+    "word": "minister,",
+    "start": 146.088,
+    "end": 146.509,
+    "confidence": 0.868
+  },
+  {
+    "word": "I",
+    "start": 146.91,
+    "end": 146.99,
+    "confidence": 0.596
+  },
+  {
+    "word": "and",
+    "start": 147.03,
+    "end": 147.11,
+    "confidence": 0.84
+  },
+  {
+    "word": "this",
+    "start": 147.151,
+    "end": 147.271,
+    "confidence": 0.854
+  },
+  {
+    "word": "government",
+    "start": 147.331,
+    "end": 147.632,
+    "confidence": 0.609
+  },
+  {
+    "word": "have",
+    "start": 147.652,
+    "end": 147.792,
+    "confidence": 0.31
+  },
+  {
+    "word": "introduced",
+    "start": 147.832,
+    "end": 148.333,
+    "confidence": 0.961
+  },
+  {
+    "word": "the",
+    "start": 148.614,
+    "end": 148.694,
+    "confidence": 0.987
+  },
+  {
+    "word": "most",
+    "start": 148.734,
+    "end": 148.895,
+    "confidence": 0.864
+  },
+  {
+    "word": "far-reaching,",
+    "start": 149.035,
+    "end": 149.837,
+    "confidence": 0.864
+  },
+  {
+    "word": "vile",
+    "start": 149.897,
+    "end": 150.138,
+    "confidence": 0.75
+  },
+  {
+    "word": "against",
+    "start": 150.158,
+    "end": 150.419,
+    "confidence": 0.551
+  },
+  {
+    "word": "women",
+    "start": 150.479,
+    "end": 150.719,
+    "confidence": 0.839
+  },
+  {
+    "word": "and",
+    "start": 150.799,
+    "end": 150.88,
+    "confidence": 0.304
+  },
+  {
+    "word": "girls...",
+    "start": 151.06,
+    "end": 151.281,
+    "confidence": 0.471
+  },
+  {
+    "word": "Mr",
+    "start": 153.468,
+    "end": 153.688,
+    "confidence": 0.648
+  },
+  {
+    "word": "Speaker,",
+    "start": 153.708,
+    "end": 154.049,
+    "confidence": 0.805
+  },
+  {
+    "word": "he",
+    "start": 154.209,
+    "end": 154.329,
+    "confidence": 0.908
+  },
+  {
+    "word": "hasn't",
+    "start": 154.41,
+    "end": 154.73,
+    "confidence": 0.949
+  },
+  {
+    "word": "apologised",
+    "start": 154.79,
+    "end": 155.471,
+    "confidence": 0.869
+  },
+  {
+    "word": "for",
+    "start": 155.511,
+    "end": 155.612,
+    "confidence": 0.989
+  },
+  {
+    "word": "appointing",
+    "start": 155.632,
+    "end": 156.092,
+    "confidence": 0.598
+  },
+  {
+    "word": "Matthew",
+    "start": 156.132,
+    "end": 156.413,
+    "confidence": 0.601
+  },
+  {
+    "word": "Doyle",
+    "start": 156.453,
+    "end": 156.733,
+    "confidence": 0.683
+  },
+  {
+    "word": "because",
+    "start": 157.074,
+    "end": 157.314,
+    "confidence": 0.96
+  },
+  {
+    "word": "he",
+    "start": 157.354,
+    "end": 157.475,
+    "confidence": 0.747
+  },
+  {
+    "word": "won't",
+    "start": 157.535,
+    "end": 157.855,
+    "confidence": 0.839
+  },
+  {
+    "word": "take",
+    "start": 158.116,
+    "end": 158.356,
+    "confidence": 0.91
+  },
+  {
+    "word": "responsibility.",
+    "start": 158.576,
+    "end": 159.418,
+    "confidence": 0.837
+  },
+  {
+    "word": "He",
+    "start": 159.983,
+    "end": 160.164,
+    "confidence": 0.932
+  },
+  {
+    "word": "never",
+    "start": 160.445,
+    "end": 160.745,
+    "confidence": 0.895
+  },
+  {
+    "word": "does,",
+    "start": 160.805,
+    "end": 161.086,
+    "confidence": 0.802
+  },
+  {
+    "word": "and",
+    "start": 161.287,
+    "end": 161.387,
+    "confidence": 0.969
+  },
+  {
+    "word": "they",
+    "start": 161.507,
+    "end": 161.788,
+    "confidence": 0.715
+  },
+  {
+    "word": "know",
+    "start": 162.088,
+    "end": 162.289,
+    "confidence": 0.692
+  },
+  {
+    "word": "it.",
+    "start": 162.349,
+    "end": 162.429,
+    "confidence": 0.96
+  },
+  {
+    "word": "The",
+    "start": 162.67,
+    "end": 162.75,
+    "confidence": 0.998
+  },
+  {
+    "word": "Prime",
+    "start": 162.79,
+    "end": 162.991,
+    "confidence": 0.899
+  },
+  {
+    "word": "Minister",
+    "start": 163.011,
+    "end": 163.311,
+    "confidence": 0.801
+  },
+  {
+    "word": "is",
+    "start": 163.351,
+    "end": 163.412,
+    "confidence": 0.765
+  },
+  {
+    "word": "now",
+    "start": 163.452,
+    "end": 163.592,
+    "confidence": 0.865
+  },
+  {
+    "word": "telling",
+    "start": 163.652,
+    "end": 163.933,
+    "confidence": 0.88
+  },
+  {
+    "word": "everyone",
+    "start": 163.993,
+    "end": 164.354,
+    "confidence": 0.811
+  },
+  {
+    "word": "that",
+    "start": 164.414,
+    "end": 164.534,
+    "confidence": 0.864
+  },
+  {
+    "word": "he's",
+    "start": 164.554,
+    "end": 164.695,
+    "confidence": 0.874
+  },
+  {
+    "word": "never",
+    "start": 164.735,
+    "end": 164.915,
+    "confidence": 0.929
+  },
+  {
+    "word": "lost",
+    "start": 164.975,
+    "end": 165.176,
+    "confidence": 0.904
+  },
+  {
+    "word": "a",
+    "start": 165.236,
+    "end": 165.276,
+    "confidence": 0.338
+  },
+  {
+    "word": "fight.",
+    "start": 165.316,
+    "end": 165.597,
+    "confidence": 0.777
+  },
+  {
+    "word": "It's",
+    "start": 165.797,
+    "end": 165.897,
+    "confidence": 0.9
+  },
+  {
+    "word": "because",
+    "start": 165.938,
+    "end": 166.178,
+    "confidence": 0.855
+  },
+  {
+    "word": "he",
+    "start": 166.218,
+    "end": 166.298,
+    "confidence": 0.868
+  },
+  {
+    "word": "won't",
+    "start": 166.318,
+    "end": 166.539,
+    "confidence": 0.816
+  },
+  {
+    "word": "step",
+    "start": 166.579,
+    "end": 166.82,
+    "confidence": 0.83
+  },
+  {
+    "word": "into",
+    "start": 166.88,
+    "end": 167.181,
+    "confidence": 0.895
+  },
+  {
+    "word": "the",
+    "start": 167.221,
+    "end": 167.301,
+    "confidence": 0.832
+  },
+  {
+    "word": "ring.",
+    "start": 167.361,
+    "end": 167.642,
+    "confidence": 0.833
+  },
+  {
+    "word": "He's",
+    "start": 169.235,
+    "end": 169.335,
+    "confidence": 0.227
+  },
+  {
+    "word": "never",
+    "start": 169.375,
+    "end": 169.575,
+    "confidence": 0.935
+  },
+  {
+    "word": "lost",
+    "start": 169.635,
+    "end": 169.836,
+    "confidence": 0.894
+  },
+  {
+    "word": "a",
+    "start": 169.876,
+    "end": 169.916,
+    "confidence": 0.496
+  },
+  {
+    "word": "fight.",
+    "start": 169.936,
+    "end": 170.176,
+    "confidence": 0.502
+  },
+  {
+    "word": "He's",
+    "start": 170.216,
+    "end": 170.376,
+    "confidence": 0.748
+  },
+  {
+    "word": "walked",
+    "start": 170.416,
+    "end": 170.676,
+    "confidence": 0.864
+  },
+  {
+    "word": "away",
+    "start": 170.716,
+    "end": 170.936,
+    "confidence": 0.827
+  },
+  {
+    "word": "from",
+    "start": 170.996,
+    "end": 171.156,
+    "confidence": 0.801
+  },
+  {
+    "word": "welfare",
+    "start": 171.197,
+    "end": 171.597,
+    "confidence": 0.921
+  },
+  {
+    "word": "reform.",
+    "start": 171.637,
+    "end": 172.017,
+    "confidence": 0.959
+  },
+  {
+    "word": "He",
+    "start": 172.297,
+    "end": 172.377,
+    "confidence": 0.754
+  },
+  {
+    "word": "won't",
+    "start": 172.397,
+    "end": 172.638,
+    "confidence": 0.845
+  },
+  {
+    "word": "stand",
+    "start": 172.678,
+    "end": 172.918,
+    "confidence": 0.795
+  },
+  {
+    "word": "up",
+    "start": 172.978,
+    "end": 173.058,
+    "confidence": 0.821
+  },
+  {
+    "word": "to",
+    "start": 173.098,
+    "end": 173.198,
+    "confidence": 0.945
+  },
+  {
+    "word": "the",
+    "start": 173.218,
+    "end": 173.298,
+    "confidence": 0.767
+  },
+  {
+    "word": "unions.",
+    "start": 173.458,
+    "end": 173.798,
+    "confidence": 0.78
+  },
+  {
+    "word": "He",
+    "start": 174.099,
+    "end": 174.179,
+    "confidence": 0.989
+  },
+  {
+    "word": "won't",
+    "start": 174.199,
+    "end": 174.439,
+    "confidence": 0.717
+  },
+  {
+    "word": "stand",
+    "start": 174.479,
+    "end": 174.699,
+    "confidence": 0.81
+  },
+  {
+    "word": "up",
+    "start": 174.759,
+    "end": 174.839,
+    "confidence": 0.976
+  },
+  {
+    "word": "to",
+    "start": 174.879,
+    "end": 174.999,
+    "confidence": 0.822
+  },
+  {
+    "word": "China.",
+    "start": 175.019,
+    "end": 175.4,
+    "confidence": 0.883
+  },
+  {
+    "word": "He",
+    "start": 175.64,
+    "end": 175.76,
+    "confidence": 0.694
+  },
+  {
+    "word": "can't",
+    "start": 175.8,
+    "end": 176.04,
+    "confidence": 0.753
+  },
+  {
+    "word": "even",
+    "start": 176.1,
+    "end": 176.28,
+    "confidence": 0.854
+  },
+  {
+    "word": "stand",
+    "start": 176.32,
+    "end": 176.56,
+    "confidence": 0.71
+  },
+  {
+    "word": "up",
+    "start": 176.62,
+    "end": 176.701,
+    "confidence": 0.992
+  },
+  {
+    "word": "to",
+    "start": 176.741,
+    "end": 176.901,
+    "confidence": 0.854
+  },
+  {
+    "word": "Mauritius.",
+    "start": 176.941,
+    "end": 177.461,
+    "confidence": 0.705
+  },
+  {
+    "word": "He's",
+    "start": 178.202,
+    "end": 178.382,
+    "confidence": 0.869
+  },
+  {
+    "word": "had,",
+    "start": 178.422,
+    "end": 178.662,
+    "confidence": 0.907
+  },
+  {
+    "word": "Mr.",
+    "start": 179.062,
+    "end": 179.262,
+    "confidence": 0.55
+  },
+  {
+    "word": "Speaker,",
+    "start": 179.282,
+    "end": 179.563,
+    "confidence": 0.877
+  },
+  {
+    "word": "he's",
+    "start": 179.603,
+    "end": 179.743,
+    "confidence": 0.937
+  },
+  {
+    "word": "had",
+    "start": 179.783,
+    "end": 179.943,
+    "confidence": 0.871
+  },
+  {
+    "word": "three",
+    "start": 180.303,
+    "end": 180.683,
+    "confidence": 0.809
+  },
+  {
+    "word": "cabinet",
+    "start": 180.804,
+    "end": 181.244,
+    "confidence": 0.957
+  },
+  {
+    "word": "secretaries,",
+    "start": 181.284,
+    "end": 181.764,
+    "confidence": 0.72
+  },
+  {
+    "word": "four",
+    "start": 182.225,
+    "end": 182.465,
+    "confidence": 0.921
+  },
+  {
+    "word": "chiefs",
+    "start": 182.525,
+    "end": 182.825,
+    "confidence": 0.83
+  },
+  {
+    "word": "of",
+    "start": 182.865,
+    "end": 182.945,
+    "confidence": 0.834
+  },
+  {
+    "word": "staff,",
+    "start": 182.985,
+    "end": 183.325,
+    "confidence": 0.985
+  },
+  {
+    "word": "five",
+    "start": 183.746,
+    "end": 184.126,
+    "confidence": 0.925
+  },
+  {
+    "word": "director",
+    "start": 184.166,
+    "end": 184.586,
+    "confidence": 0.91
+  },
+  {
+    "word": "of",
+    "start": 184.606,
+    "end": 184.666,
+    "confidence": 0.744
+  },
+  {
+    "word": "communications",
+    "start": 184.706,
+    "end": 185.407,
+    "confidence": 0.91
+  },
+  {
+    "word": "in",
+    "start": 185.547,
+    "end": 185.627,
+    "confidence": 0.986
+  },
+  {
+    "word": "just",
+    "start": 185.707,
+    "end": 185.947,
+    "confidence": 0.786
+  },
+  {
+    "word": "18",
+    "start": 186.207,
+    "end": 186.888,
+    "confidence": 0.692
+  },
+  {
+    "word": "months.",
+    "start": 187.128,
+    "end": 187.428,
+    "confidence": 0.886
+  },
+  {
+    "word": "And",
+    "start": 187.929,
+    "end": 188.029,
+    "confidence": 0.945
+  },
+  {
+    "word": "now",
+    "start": 188.149,
+    "end": 188.529,
+    "confidence": 0.936
+  },
+  {
+    "word": "he",
+    "start": 188.869,
+    "end": 189.01,
+    "confidence": 0.871
+  },
+  {
+    "word": "is",
+    "start": 189.09,
+    "end": 189.19,
+    "confidence": 0.864
+  },
+  {
+    "word": "mired",
+    "start": 189.27,
+    "end": 189.67,
+    "confidence": 0.902
+  },
+  {
+    "word": "in",
+    "start": 190.03,
+    "end": 190.15,
+    "confidence": 0.834
+  },
+  {
+    "word": "yet",
+    "start": 190.27,
+    "end": 190.611,
+    "confidence": 0.925
+  },
+  {
+    "word": "another",
+    "start": 190.831,
+    "end": 191.271,
+    "confidence": 0.82
+  },
+  {
+    "word": "scandal.",
+    "start": 191.391,
+    "end": 191.952,
+    "confidence": 0.867
+  },
+  {
+    "word": "Does",
+    "start": 192.592,
+    "end": 192.833,
+    "confidence": 0.624
+  },
+  {
+    "word": "he",
+    "start": 192.873,
+    "end": 193.013,
+    "confidence": 0.817
+  },
+  {
+    "word": "ever",
+    "start": 193.173,
+    "end": 193.434,
+    "confidence": 0.714
+  },
+  {
+    "word": "look",
+    "start": 194.014,
+    "end": 194.215,
+    "confidence": 0.923
+  },
+  {
+    "word": "in",
+    "start": 194.335,
+    "end": 194.415,
+    "confidence": 0.832
+  },
+  {
+    "word": "the",
+    "start": 194.455,
+    "end": 194.535,
+    "confidence": 0.837
+  },
+  {
+    "word": "mirror",
+    "start": 194.575,
+    "end": 194.876,
+    "confidence": 0.774
+  },
+  {
+    "word": "and",
+    "start": 195.316,
+    "end": 195.437,
+    "confidence": 0.676
+  },
+  {
+    "word": "ask",
+    "start": 195.617,
+    "end": 195.817,
+    "confidence": 0.769
+  },
+  {
+    "word": "himself,",
+    "start": 195.857,
+    "end": 196.298,
+    "confidence": 0.952
+  },
+  {
+    "word": "is",
+    "start": 196.698,
+    "end": 196.779,
+    "confidence": 0.826
+  },
+  {
+    "word": "the",
+    "start": 196.819,
+    "end": 196.919,
+    "confidence": 0.797
+  },
+  {
+    "word": "real",
+    "start": 196.999,
+    "end": 197.259,
+    "confidence": 0.912
+  },
+  {
+    "word": "problem",
+    "start": 197.319,
+    "end": 197.74,
+    "confidence": 0.828
+  },
+  {
+    "word": "staring",
+    "start": 197.96,
+    "end": 198.341,
+    "confidence": 0.948
+  },
+  {
+    "word": "him",
+    "start": 198.401,
+    "end": 198.581,
+    "confidence": 0.838
+  },
+  {
+    "word": "in",
+    "start": 198.762,
+    "end": 198.842,
+    "confidence": 0.963
+  },
+  {
+    "word": "the",
+    "start": 198.882,
+    "end": 198.962,
+    "confidence": 0.941
+  },
+  {
+    "word": "face?",
+    "start": 199.002,
+    "end": 199.262,
+    "confidence": 0.97
+  },
+  {
+    "word": "Yeah!",
+    "start": 199.643,
+    "end": 199.763,
+    "confidence": 0.132
+  },
+  {
+    "word": "Mr.",
+    "start": 201.662,
+    "end": 201.802,
+    "confidence": 0.387
+  },
+  {
+    "word": "Speaker,",
+    "start": 201.822,
+    "end": 201.983,
+    "confidence": 0.092
+  },
+  {
+    "word": "I",
+    "start": 202.103,
+    "end": 202.223,
+    "confidence": 0.815
+  },
+  {
+    "word": "delivered",
+    "start": 202.243,
+    "end": 202.564,
+    "confidence": 0.365
+  },
+  {
+    "word": "a",
+    "start": 202.624,
+    "end": 202.684,
+    "confidence": 0.736
+  },
+  {
+    "word": "landslide",
+    "start": 202.744,
+    "end": 203.546,
+    "confidence": 0.602
+  },
+  {
+    "word": "victory",
+    "start": 203.606,
+    "end": 204.167,
+    "confidence": 0.417
+  },
+  {
+    "word": "for",
+    "start": 204.548,
+    "end": 204.688,
+    "confidence": 0.424
+  },
+  {
+    "word": "our",
+    "start": 204.748,
+    "end": 204.868,
+    "confidence": 0.299
+  },
+  {
+    "word": "government.",
+    "start": 204.888,
+    "end": 205.87,
+    "confidence": 0.424
+  },
+  {
+    "word": "Only",
+    "start": 205.89,
+    "end": 206.071,
+    "confidence": 0.436
+  },
+  {
+    "word": "four",
+    "start": 206.151,
+    "end": 206.451,
+    "confidence": 0.63
+  },
+  {
+    "word": "people",
+    "start": 206.532,
+    "end": 206.852,
+    "confidence": 0.887
+  },
+  {
+    "word": "have",
+    "start": 206.892,
+    "end": 206.992,
+    "confidence": 0.166
+  },
+  {
+    "word": "ever",
+    "start": 207.053,
+    "end": 207.213,
+    "confidence": 0.808
+  },
+  {
+    "word": "elected",
+    "start": 207.233,
+    "end": 207.473,
+    "confidence": 0.524
+  },
+  {
+    "word": "the",
+    "start": 207.493,
+    "end": 207.594,
+    "confidence": 0.819
+  },
+  {
+    "word": "Labour",
+    "start": 207.614,
+    "end": 207.874,
+    "confidence": 0.408
+  },
+  {
+    "word": "Party",
+    "start": 207.894,
+    "end": 208.195,
+    "confidence": 0.675
+  },
+  {
+    "word": "to",
+    "start": 208.235,
+    "end": 208.295,
+    "confidence": 0.974
+  },
+  {
+    "word": "victory",
+    "start": 208.335,
+    "end": 208.616,
+    "confidence": 0.577
+  },
+  {
+    "word": "in",
+    "start": 208.636,
+    "end": 208.696,
+    "confidence": 0.009
+  },
+  {
+    "word": "a",
+    "start": 208.736,
+    "end": 208.776,
+    "confidence": 0.259
+  },
+  {
+    "word": "general",
+    "start": 208.796,
+    "end": 209.057,
+    "confidence": 0.941
+  },
+  {
+    "word": "election.",
+    "start": 209.077,
+    "end": 209.417,
+    "confidence": 0.762
+  },
+  {
+    "word": "I",
+    "start": 209.638,
+    "end": 209.798,
+    "confidence": 0.632
+  },
+  {
+    "word": "am",
+    "start": 209.938,
+    "end": 210.018,
+    "confidence": 0.566
+  },
+  {
+    "word": "one",
+    "start": 210.119,
+    "end": 210.239,
+    "confidence": 0.643
+  },
+  {
+    "word": "of",
+    "start": 210.279,
+    "end": 210.339,
+    "confidence": 0.887
+  },
+  {
+    "word": "them.",
+    "start": 210.379,
+    "end": 210.519,
+    "confidence": 0.876
+  }
+]

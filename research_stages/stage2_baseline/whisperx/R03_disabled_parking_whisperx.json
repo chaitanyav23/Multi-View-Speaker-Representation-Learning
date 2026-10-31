@@ -1,0 +1,182 @@
+{
+  "file": "R03_disabled_parking",
+  "model": "large-v3",
+  "fallback": false,
+  "segments": [
+    {
+      "start": 0.031,
+      "end": 3.187,
+      "text": "I'll see you over there filming me forward, okay?"
+    },
+    {
+      "start": 5.077,
+      "end": 5.684,
+      "text": "You're right, little."
+    },
+    {
+      "start": 6.494,
+      "end": 15.404,
+      "text": "Well, I'm not alright. Can you not see that this space is for disabled badge holders? Okay, can you not see my badge?"
+    },
+    {
+      "start": 16.957,
+      "end": 20.77,
+      "text": "How do I know that that is your badge? Well, it's on my car."
+    },
+    {
+      "start": 22.778,
+      "end": 26.913,
+      "text": "That badge does not look authentic. What do you mean that doesn't look authentic?"
+    },
+    {
+      "start": 27.217,
+      "end": 29.36,
+      "text": "That badge looks fake."
+    },
+    {
+      "start": 29.866,
+      "end": 30.878,
+      "text": "Okay, well, it's real."
+    },
+    {
+      "start": 31.081,
+      "end": 35.266,
+      "text": "I've only got your word for it. Okay, well, are you a parking officer?"
+    },
+    {
+      "start": 36.346,
+      "end": 43.518,
+      "text": "I'm not a parking officer, but I work in this building and I'm quite happy to call a parking officer. Call them then."
+    },
+    {
+      "start": 44.041,
+      "end": 56.174,
+      "text": "Well, no, no, why don't you come out and show me your disability? Sorry? What? You don't look disabled. OK, well, OK, well, hold on a minute, yeah. Not all... Start as yeah, love. Not all disabilities are visible."
+    },
+    {
+      "start": 56.562,
+      "end": 62.519,
+      "text": "Well, what is your disability then? Well, it's none of your business what my disability is, love. Well, I think it is my business. How is it your business?"
+    },
+    {
+      "start": 62.722,
+      "end": 67.936,
+      "text": "Because I work in this building. Congratulations, love. What do you want? Do you want a medal?"
+    },
+    {
+      "start": 68.324,
+      "end": 94.143,
+      "text": "No, I'm doing my right as a citizen to tell you you should not be parking here if you don't have... Okay, and I'm showing you my right as a disabled person that I have a badge. Well, tell me what your disability is then. Well, it's mind your business. Oh, it doesn't sound like you actually are disabled. I think you're taking the mickey. Well, I'm not taking the mickey. It's just a bit irrelevant for me to tell you what my disability is because it's none of your business."
+    },
+    {
+      "start": 94.413,
+      "end": 101.72,
+      "text": "First of all, your badge does not look real. Now you're telling me you aren't gonna say what your disability is."
+    },
+    {
+      "start": 101.922,
+      "end": 103.053,
+      "text": "Although, no more."
+    },
+    {
+      "start": 103.525,
+      "end": 112.3,
+      "text": "Well, do you know how that comes across? Do you know how that looks? Well, do you know how that looks from your point of view? I mean, from my point of view, with you accusing me of not being disabled."
+    },
+    {
+      "start": 112.823,
+      "end": 115.793,
+      "text": "You're not even telling me what... Because I don't need to tell you."
+    },
+    {
+      "start": 117.278,
+      "end": 124.619,
+      "text": "Wouldn't it be easier if you tell me what your disability is and show me your badge? Come out the car, show me your disability. No, I can stay here. Show me your badge. I can stay here."
+    },
+    {
+      "start": 125.8,
+      "end": 129.968,
+      "text": "I am going to call that parking officer. Call the parking officer. Call the police if you want to."
+    },
+    {
+      "start": 130.137,
+      "end": 130.492,
+      "text": "Right."
+    },
+    {
+      "start": 130.981,
+      "end": 132.719,
+      "text": "Okay, that is what I'm going to do. What?"
+    },
+    {
+      "start": 133.597,
+      "end": 135.082,
+      "text": "I'm going to call the police. Four."
+    },
+    {
+      "start": 135.773,
+      "end": 144.16,
+      "text": "Because you are parked in a spot where you shouldn't be parking, you might be fraudulently using a disabled parking badge."
+    },
+    {
+      "start": 145.021,
+      "end": 146.388,
+      "text": "pretending to be disabled."
+    },
+    {
+      "start": 146.607,
+      "end": 149.358,
+      "text": "Okay, so now I'm committing a criminal offence here now."
+    },
+    {
+      "start": 149.543,
+      "end": 158.099,
+      "text": "That's right. Maybe you can tell the police about that. But I don't need to tell the police about that. Well, I think you do. For what?"
+    },
+    {
+      "start": 158.656,
+      "end": 167.127,
+      "text": "You are not telling me what your disability is. But I don't need to tell you that. Who are you? Who are you? I told you, I work in an office in this building. Okay, so what has that got to do with me?"
+    },
+    {
+      "start": 167.549,
+      "end": 172.274,
+      "text": "Because people need to use the space who are disabled. Do you need to park here?"
+    },
+    {
+      "start": 173.371,
+      "end": 176.375,
+      "text": "I don't need to park here because... So why are you here? So why are you here?"
+    },
+    {
+      "start": 176.864,
+      "end": 188.474,
+      "text": "I'm here as a concerned citizen that you are breaking a regulation. You're parking in a space for disabled people. Come and show me what your disability, come on."
+    },
+    {
+      "start": 188.93,
+      "end": 195.157,
+      "text": "Thank you so much for watching. The characters in this video are actors and are not based on real people. We hope you enjoyed."
+    },
+    {
+      "start": 195.562,
+      "end": 196.979,
+      "text": "Thanks for watching Storytender."
+    },
+    {
+      "start": 197.232,
+      "end": 198.194,
+      "text": "Don't forget to like."
+    },
+    {
+      "start": 198.937,
+      "end": 199.595,
+      "text": "and follow."
+    },
+    {
+      "start": 203.408,
+      "end": 205.18,
+      "text": "I'm gonna cry."
+    }
+  ]
+}

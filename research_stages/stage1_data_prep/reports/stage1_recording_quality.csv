@@ -1,0 +1,13 @@
+rec_id,original_stem,has_audio,total_segments,positive_dur_segments,zero_dur_segments,neg_dur_segments,overlapping_pos_segments,clean_single_speaker_segments,speakers_annotated_total,speakers_with_positive_dur,speakers_with_zero_dur_only,speakers_with_clean_segments,sum_pos_duration_sec,sum_clean_duration_sec,anomalies_logged
+R01_sara_sharif,Bodycam footage show arrests of Sara Sharif’s alleged killers,True,7,7,0,0,0,7,5,5,0,5,93.0,93.0,2
+R02_dennis_skinner,Dennis Skinner kicked out of Commons,True,15,13,2,0,11,2,5,4,1,1,284.0,44.0,3
+R03_disabled_parking,Karen Has A Problem With Disabled Parking,True,59,54,5,0,2,52,5,5,0,5,178.0,171.0,5
+R04_piers_robinson,Piers Confronts Tommy Robinson,True,33,31,2,0,28,3,3,3,0,3,284.0,14.0,19
+R05_southwest_pilot,Police bodycam shows arrest of Southwest Airlines pilot,True,61,26,35,0,0,26,4,3,1,3,97.0,97.0,35
+R06_rich_karen,Rich Karen Messes Around & Finds Out,True,187,131,56,0,4,127,9,9,0,9,371.0,363.0,56
+R07_bwc_cheap_shot,That was a bit of a cheap shot weren’t it mate,True,54,39,15,0,2,37,4,3,1,3,123.0,111.0,15
+R08_uk_parliament,UK Parliament Debate,True,16,11,5,0,0,10,6,4,2,3,195.0,194.0,8
+M01_drunk_karen,Drunk Karen Gets a Huge Reality Check,False,290,210,78,2,31,0,17,15,2,0,833.0,0,80
+M02_entitled_restaurant,Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager,False,251,229,22,0,227,0,10,10,0,0,7685.0,0,42
+M03_entitled_girl,When an Entitled Girl Gets Instantly Humbled,False,119,111,8,0,6,0,11,11,0,0,796.0,0,9
+M04_traffic_stop,Woman's Attitude Makes Traffic Stop 10x Worse,False,270,215,55,0,37,0,9,9,0,0,896.0,0,57

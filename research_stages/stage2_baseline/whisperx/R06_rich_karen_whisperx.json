@@ -1,0 +1,412 @@
+{
+  "file": "R06_rich_karen",
+  "model": "large-v3",
+  "fallback": false,
+  "segments": [
+    {
+      "start": 0.031,
+      "end": 6.832,
+      "text": "An officer initiates a routine traffic stop on this white Chevy pickup truck driven by a Karen. What follows is anything but routine."
+    },
+    {
+      "start": 7.034,
+      "end": 11.506,
+      "text": "Day 211, I'll be taking position 2, we're passing Old Howell Road."
+    },
+    {
+      "start": 12.282,
+      "end": 14.729,
+      "text": "520 speed position 1."
+    },
+    {
+      "start": 18.087,
+      "end": 22.188,
+      "text": "Copy the station's position. Passing Hollywood Oaks Drive. Speed's 35."
+    },
+    {
+      "start": 22.441,
+      "end": 24.5,
+      "text": "Across the front of the screen, speed's 30."
+    },
+    {
+      "start": 31.84,
+      "end": 34.726,
+      "text": "The cop people are coming up to 18 now."
+    },
+    {
+      "start": 43.973,
+      "end": 44.446,
+      "text": "Blessings."
+    },
+    {
+      "start": 48.53,
+      "end": 50.032,
+      "text": "Just a second."
+    },
+    {
+      "start": 54.807,
+      "end": 56.073,
+      "text": "Thank you."
+    },
+    {
+      "start": 71.21,
+      "end": 72.88,
+      "text": "Show me your hands!"
+    },
+    {
+      "start": 73.741,
+      "end": 74.534,
+      "text": "Move your ass!"
+    },
+    {
+      "start": 75.395,
+      "end": 76.559,
+      "text": "2-11, we're going to be out at 2."
+    },
+    {
+      "start": 81.942,
+      "end": 86.414,
+      "text": "I got a shatter ball. All right, your cover. I'm going to grab sticks and just throw them behind her."
+    },
+    {
+      "start": 89.148,
+      "end": 91.122,
+      "text": "Driver, turn off the vehicle!"
+    },
+    {
+      "start": 91.392,
+      "end": 93.4,
+      "text": "Just watch out if she throws it in reverse."
+    },
+    {
+      "start": 97.214,
+      "end": 99.374,
+      "text": "Slowly step out of the vehicle!"
+    },
+    {
+      "start": 103.627,
+      "end": 104.2,
+      "text": "Come on!"
+    },
+    {
+      "start": 104.656,
+      "end": 106.141,
+      "text": "DRIVE THE MOTORCYCLE!"
+    },
+    {
+      "start": 109.465,
+      "end": 110.309,
+      "text": "DRIVER!"
+    },
+    {
+      "start": 111.49,
+      "end": 115.473,
+      "text": "Matt, can you move your squad up in case she does try to throw it reverse?"
+    },
+    {
+      "start": 122.476,
+      "end": 128.399,
+      "text": "So we've got two tasers, two lethal. David, two level. We've got a canine en route."
+    },
+    {
+      "start": 128.821,
+      "end": 129.142,
+      "text": "Yeah."
+    },
+    {
+      "start": 129.344,
+      "end": 130.964,
+      "text": "RK9 coming. Perfect."
+    },
+    {
+      "start": 133.158,
+      "end": 138.963,
+      "text": "Tell her to get out of the car. You can see both her hands. She's got a cell phone. Will, since you're lethal, chatterball."
+    },
+    {
+      "start": 141.258,
+      "end": 144.447,
+      "text": "Ha! Ha! Give me your arms! Ha! Ha! Give me your arms!"
+    },
+    {
+      "start": 146.742,
+      "end": 151.855,
+      "text": "She's just on her cell phone."
+    },
+    {
+      "start": 154.403,
+      "end": 157.087,
+      "text": "Catherine, this is the police department."
+    },
+    {
+      "start": 157.508,
+      "end": 159.685,
+      "text": "We need you to exit the vehicle!"
+    },
+    {
+      "start": 160.023,
+      "end": 161.66,
+      "text": "Do it now, Catherine!"
+    },
+    {
+      "start": 162.655,
+      "end": 168.646,
+      "text": "Captain, this is the police."
+    },
+    {
+      "start": 169.118,
+      "end": 172.308,
+      "text": "You need to exit your vehicle with your hands up."
+    },
+    {
+      "start": 172.915,
+      "end": 176.746,
+      "text": "Do it now!"
+    },
+    {
+      "start": 177.235,
+      "end": 178.822,
+      "text": "Fuck that rear window out."
+    },
+    {
+      "start": 179.378,
+      "end": 180.914,
+      "text": "Don't get her attention."
+    },
+    {
+      "start": 181.268,
+      "end": 184.12,
+      "text": "Okay. Shutter ball up."
+    },
+    {
+      "start": 194.33,
+      "end": 201.721,
+      "text": "Get down, get down, get down, get down."
+    },
+    {
+      "start": 202.025,
+      "end": 203.56,
+      "text": "You're the best, yo!"
+    },
+    {
+      "start": 204.151,
+      "end": 206.075,
+      "text": "I'm not going to give people a hold up!"
+    },
+    {
+      "start": 212.183,
+      "end": 221.532,
+      "text": "Come on now, you're going to get bit by the dog. I don't want you to get bit by the dog. Ha! Ha! Get up! Get up! Get up!"
+    },
+    {
+      "start": 221.903,
+      "end": 225.97,
+      "text": "Can you hear me?"
+    },
+    {
+      "start": 231.32,
+      "end": 237.023,
+      "text": "Do you want another cheddar ball? I do. You want me to get the... We got pepper ball. I like pepper ball."
+    },
+    {
+      "start": 237.935,
+      "end": 238.846,
+      "text": "You got it, Joe? Yep."
+    },
+    {
+      "start": 239.504,
+      "end": 241.394,
+      "text": "Thank you."
+    },
+    {
+      "start": 242.137,
+      "end": 248.077,
+      "text": "Getting a pepper ball? Yeah, Joe's getting a pepper ball. Joe, this side, pepper ball through the back shattered window."
+    },
+    {
+      "start": 250.591,
+      "end": 253.595,
+      "text": "Let's give her a chance here. Hey, Catherine!"
+    },
+    {
+      "start": 253.932,
+      "end": 259.636,
+      "text": "come out of the car now we're going to send in some peppercorns it's going to be hard for you to breathe"
+    },
+    {
+      "start": 260.834,
+      "end": 281.793,
+      "text": "Come on out now. Thank you. All right. Come this way. We'll figure that out in a second, okay? Just put your hands behind your back, okay? Put your hands behind your back. Put your hands behind your back or you're going to get tasered. I'm going to have you guys go. You will not indict me."
+    },
+    {
+      "start": 284.02,
+      "end": 284.898,
+      "text": "Hands behind your back."
+    },
+    {
+      "start": 288.577,
+      "end": 289.64,
+      "text": "Put your hands behind your back."
+    },
+    {
+      "start": 290.872,
+      "end": 291.293,
+      "text": "I got it."
+    },
+    {
+      "start": 291.682,
+      "end": 294.567,
+      "text": "David, 211, we're 1080. Got anything on you?"
+    },
+    {
+      "start": 296.542,
+      "end": 298.988,
+      "text": "I just want to say thank you."
+    },
+    {
+      "start": 299.63,
+      "end": 302.043,
+      "text": "Here, roll this way."
+    },
+    {
+      "start": 302.667,
+      "end": 307.223,
+      "text": "Put your, tuck your feet in. You cannot assault me as a woman. What are you doing?"
+    },
+    {
+      "start": 307.628,
+      "end": 319.508,
+      "text": "Ready? We're going to help you out. I just got e-wiped, yeah. I just got e-wiped. I just got e-wiped for one reason. We've been trying to stop you for about 15 miles. For one reason."
+    },
+    {
+      "start": 320.369,
+      "end": 329.6,
+      "text": "What, for what reason, you cannot, you cannot? Is the vehicle cleared? Yes, the vehicle is cleared. Excuse me, you don't know that I'm Katie."
+    },
+    {
+      "start": 330.308,
+      "end": 333.869,
+      "text": "I don't know that. But do you live here alone? Daniel Thomas doesn't know that."
+    },
+    {
+      "start": 334.493,
+      "end": 351.217,
+      "text": "I don't know who Daniel Thomas is. Holy cow, guys. Do you live here alone? Yes, I do. This is my residence since 2011. Do you want it in mine or in Joe's? It doesn't matter. We'll throw it in Joe's. Excuse me, please grab my things. Yep, we'll get your things when we can. This is illegal. What traffic violations do you have me in? Are you injured at all, ma'am?"
+    },
+    {
+      "start": 351.52,
+      "end": 351.622,
+      "text": "Thank you."
+    },
+    {
+      "start": 351.824,
+      "end": 374.707,
+      "text": "Excuse me, you're not going to harass me. Your plates are expired, and that's why I attempted to stop for you. Excuse me, they are not expired. They are. They are not. They are. Excuse me, Chevrolet is my O'Connor walk, my Chevrolet. Okay. You guys are out of your minds. You better tell Daniel Thomas I'm suing the O'Connor shop. Does anyone want to contact the Journal Sentinel? Does anyone want to record this? Yeah, we've got it recorded. See you."
+    },
+    {
+      "start": 374.707,
+      "end": 382.047,
+      "text": "Did a dog bite you anywhere? Excuse me. Did a dog bite you anywhere? I'm pressing charges on you guys a lot. That's right. Did a dog bite you anywhere? I don't know if that's..."
+    },
+    {
+      "start": 382.418,
+      "end": 395.8,
+      "text": "when she went down. That's the only injury I see. Another one over here. You shattered my window. Excuse me, you guys are going to have injury with a lawsuit with Mr. Mr. Rudy. Just go ahead and have a seat in the vehicle."
+    },
+    {
+      "start": 396.087,
+      "end": 399.158,
+      "text": "I contact my financial advisor. Okay, have a seat."
+    },
+    {
+      "start": 399.563,
+      "end": 402.179,
+      "text": "This is our food for thought."
+    },
+    {
+      "start": 402.483,
+      "end": 425.112,
+      "text": "What do you guys think you're doing to an American woman just going to the post office and going to the town hall? Ma'am, take a couple deep breaths here. Excuse me. Are you injured at all? Excuse me, guys. You good, Joe? Yeah, I'm good. We're going to have you just sit tight. I contacted my capital wealth advisors' advisories, contacted my brother, contacted Paul Buffoni from Bravo Capital. You guys are going to have a huge lawsuit."
+    },
+    {
+      "start": 425.112,
+      "end": 450.509,
+      "text": "Okay. Are you injured, ma'am? Did you not learn your lesson from Sterling Brown? I'm just asking if you need medical attention. Do you need medical attention? Excuse me. Okay. Well, if anything changes with that, just let me know. Excuse me. I'm reporting to you guys for police brutality. The same way as Sterling Brown, but I am a white American woman. Bravo Company, USABCM. Paul Bifoni. My SWAT team is your AR-15s and M-16s."
+    },
+    {
+      "start": 451.184,
+      "end": 464.633,
+      "text": "You guys cannot tell from behind and make false arrests. Police brutality is no different than Sterling Brown. Mark Thompson represented Sterling Brown. I'm going to have Mark Thompson represent you. You would think a black man would never police brutality after Sterling Brown."
+    },
+    {
+      "start": 465.005,
+      "end": 466.102,
+      "text": "Because she is awesome."
+    },
+    {
+      "start": 466.473,
+      "end": 479.18,
+      "text": "Okay. Catherine, I'm an officer to pray at the City of Delafield Police Department. I was the one, I'm the one who... I reported you guys. You reported me? Yes, I did. Okay, that's fine. I'm here to... It's only from 100 feet from 200 feet behind."
+    },
+    {
+      "start": 479.467,
+      "end": 507.614,
+      "text": "Okay, I had my red lights and siren on. Catherine, hold on. I will not pull over until I'm in my safety van drive. Okay, Catherine, but you still didn't even comply with that. I did. Okay, so here's the deal. The reason I stopped you, the reason why I attempted to stop you is that your plates are expired. They expired in March of 23. They expired in March of 23. So that is why I attempted to stop you. Do you want to make a voluntary statement of what happened tonight? I don't want to."
+    },
+    {
+      "start": 507.867,
+      "end": 509.808,
+      "text": "You're open right now. I don't want to."
+    },
+    {
+      "start": 510.162,
+      "end": 516.355,
+      "text": "Those plates have not expired. I'm asking you, do you wish to make a voluntary statement right now? I just made my voluntary statement."
+    },
+    {
+      "start": 516.524,
+      "end": 526.818,
+      "text": "okay sounds good all right so what's going to happen is we're going to get you out of this car we're going to get you in that car you'll be going to the waukesha county jail tonight okay you're under arrest for felony fleeing and eluding state disorderly conduct"
+    },
+    {
+      "start": 527.138,
+      "end": 531.526,
+      "text": "and you're getting a traffic citation for your unregistered vehicle, okay?"
+    },
+    {
+      "start": 531.982,
+      "end": 557.598,
+      "text": "that's fine that's that's well within yours come on step out for me please those are brand new plates i contacted an attorney that's fine that's fine come on you guys don't have felony charges okay sounds good that's your opinion the plates never expired okay oh you better contact what kind of walk i'm not i don't have to contact anyone katherine go ahead you can take a seat in the squad car for me please"
+    },
+    {
+      "start": 557.885,
+      "end": 561.108,
+      "text": "look at the plates they're brand new 2020 take a seat in the squad car please"
+    },
+    {
+      "start": 561.26,
+      "end": 561.395,
+      "text": "Thank you."
+    },
+    {
+      "start": 561.901,
+      "end": 576.295,
+      "text": "How disgusting do you guys can even go home to your wives? Disgusting job that you just had. Disgusting. Those were all placed in 2023 on them. They're new places. Did you look at the registration? Did you look at the vehicle number on the registration?"
+    },
+    {
+      "start": 577.443,
+      "end": 604.055,
+      "text": "Catherine is no stranger to being non-compliant with police, as she once spit at an officer after being banned from a fitness building. For the incident in the body cam footage, she was charged with resisting or failing to stop and resisting obstructing. According to court records, the suspect actually did not get a high-powered attorney to take her case, and instead, just started skipping court appearances. Court records indicate the case has been going on for more than two and a half years, and the bail has since been forfeited. As her case is still ongoing, she is presumed innocent unless proven guilty in a court of law."
+    },
+    {
+      "start": 604.055,
+      "end": 628.372,
+      "text": "might think pursuit is always speeding swerving and just being reckless but some of the most unpredictable drivers are the ones trying to appear cooperative while refusing to stop and it might look polite but it's still resistance she was definitely running from the police but she was also deciding where she wanted to deal with them which was her house and that matters because once a suspect reaches the residence the risk to officers goes way up garages mean weapons family members or someone possibly disappearing inside and forcing a standoff that's exactly why Our officers boxed a car in like"
+    },
+    {
+      "start": 628.372,
+      "end": 652.132,
+      "text": "that. Now, you saw officers use the shatter bar, and what that does is allow officers to break the glass from a distance instead of walking up to a possibly armed driver, and police in Maine started using that around 2023. Most arrests aren't decided by how fast you drive. They're decided by the first moment you choose not to comply. Remember, it's about decisions, and if understanding why officers act help you see these videos differently, that's the point. Because our purpose here isn't just to show you videos. It's to give you insight and guidance so you won't cause yourself any problems during the traffic stop."
+    }
+  ]
+}

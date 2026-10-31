@@ -1,0 +1,3312 @@
+[
+  {
+    "rec_id": "R01_sara_sharif",
+    "stem": "Bodycam footage show arrests of Sara Sharif\u2019s alleged killers",
+    "line": 4,
+    "seg_idx": 1,
+    "speaker": "Speaker_2",
+    "type": "MULTI_PARAGRAPH_BLOCK",
+    "action": "MERGED_LINES_WITH_FLAG",
+    "reason": "2 consecutive text paragraphs under single 13.0s header"
+  },
+  {
+    "rec_id": "R01_sara_sharif",
+    "stem": "Bodycam footage show arrests of Sara Sharif\u2019s alleged killers",
+    "line": 15,
+    "seg_idx": 4,
+    "speaker": "Speaker_2",
+    "type": "MULTI_PARAGRAPH_BLOCK",
+    "action": "MERGED_LINES_WITH_FLAG",
+    "reason": "5 consecutive text paragraphs under single 53.0s header"
+  },
+  {
+    "rec_id": "R02_dennis_skinner",
+    "stem": "Dennis Skinner kicked out of Commons",
+    "line": 22,
+    "seg_idx": 7,
+    "speaker": "Speaker_1",
+    "type": "NON_MONOTONIC_START_TIME",
+    "action": "SORTED_FOR_RTTM_PRESERVED_IN_LEDGER",
+    "reason": "Start 52.0s < previous segment start 95.0s (line 19)"
+  },
+  {
+    "rec_id": "R02_dennis_skinner",
+    "stem": "Dennis Skinner kicked out of Commons",
+    "line": 31,
+    "seg_idx": 10,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (142.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "R02_dennis_skinner",
+    "stem": "Dennis Skinner kicked out of Commons",
+    "line": 34,
+    "seg_idx": 11,
+    "speaker": "Speaker_3",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (142.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "R03_disabled_parking",
+    "stem": "Karen Has A Problem With Disabled Parking",
+    "line": 37,
+    "seg_idx": 12,
+    "speaker": "Speaker_0",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (43.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "R03_disabled_parking",
+    "stem": "Karen Has A Problem With Disabled Parking",
+    "line": 43,
+    "seg_idx": 14,
+    "speaker": "Speaker_0",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (47.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "R03_disabled_parking",
+    "stem": "Karen Has A Problem With Disabled Parking",
+    "line": 103,
+    "seg_idx": 34,
+    "speaker": "Speaker_0",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (115.0s) due to 1-second timestamp rounding (7 words)"
+  },
+  {
+    "rec_id": "R03_disabled_parking",
+    "stem": "Karen Has A Problem With Disabled Parking",
+    "line": 121,
+    "seg_idx": 40,
+    "speaker": "Speaker_0",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (132.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "R03_disabled_parking",
+    "stem": "Karen Has A Problem With Disabled Parking",
+    "line": 127,
+    "seg_idx": 42,
+    "speaker": "Speaker_0",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (135.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "R04_piers_robinson",
+    "stem": "Piers Confronts Tommy Robinson",
+    "line": 1,
+    "seg_idx": 0,
+    "speaker": "Speaker_0",
+    "type": "UNICODE_ENDASH_DELIMITER",
+    "action": "IN_MEMORY_NORMALIZED_TO_HYPHEN",
+    "reason": "Delimiter '\u2013' (U+2013) normalized in-memory to '-'"
+  },
+  {
+    "rec_id": "R04_piers_robinson",
+    "stem": "Piers Confronts Tommy Robinson",
+    "line": 4,
+    "seg_idx": 1,
+    "speaker": "Speaker_1",
+    "type": "UNICODE_ENDASH_DELIMITER",
+    "action": "IN_MEMORY_NORMALIZED_TO_HYPHEN",
+    "reason": "Delimiter '\u2013' (U+2013) normalized in-memory to '-'"
+  },
+  {
+    "rec_id": "R04_piers_robinson",
+    "stem": "Piers Confronts Tommy Robinson",
+    "line": 10,
+    "seg_idx": 3,
+    "speaker": "Speaker_2",
+    "type": "UNICODE_ENDASH_DELIMITER",
+    "action": "IN_MEMORY_NORMALIZED_TO_HYPHEN",
+    "reason": "Delimiter '\u2013' (U+2013) normalized in-memory to '-'"
+  },
+  {
+    "rec_id": "R04_piers_robinson",
+    "stem": "Piers Confronts Tommy Robinson",
+    "line": 13,
+    "seg_idx": 4,
+    "speaker": "Speaker_1",
+    "type": "UNICODE_ENDASH_DELIMITER",
+    "action": "IN_MEMORY_NORMALIZED_TO_HYPHEN",
+    "reason": "Delimiter '\u2013' (U+2013) normalized in-memory to '-'"
+  },
+  {
+    "rec_id": "R04_piers_robinson",
+    "stem": "Piers Confronts Tommy Robinson",
+    "line": 28,
+    "seg_idx": 9,
+    "speaker": "Speaker_1",
+    "type": "UNICODE_ENDASH_DELIMITER",
+    "action": "IN_MEMORY_NORMALIZED_TO_HYPHEN",
+    "reason": "Delimiter '\u2013' (U+2013) normalized in-memory to '-'"
+  },
+  {
+    "rec_id": "R04_piers_robinson",
+    "stem": "Piers Confronts Tommy Robinson",
+    "line": 31,
+    "seg_idx": 10,
+    "speaker": "Speaker_0",
+    "type": "UNICODE_ENDASH_DELIMITER",
+    "action": "IN_MEMORY_NORMALIZED_TO_HYPHEN",
+    "reason": "Delimiter '\u2013' (U+2013) normalized in-memory to '-'"
+  },
+  {
+    "rec_id": "R04_piers_robinson",
+    "stem": "Piers Confronts Tommy Robinson",
+    "line": 34,
+    "seg_idx": 11,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (45.0s) due to 1-second timestamp rounding (4 words)"
+  },
+  {
+    "rec_id": "R04_piers_robinson",
+    "stem": "Piers Confronts Tommy Robinson",
+    "line": 40,
+    "seg_idx": 13,
+    "speaker": "Speaker_1",
+    "type": "UNICODE_ENDASH_DELIMITER",
+    "action": "IN_MEMORY_NORMALIZED_TO_HYPHEN",
+    "reason": "Delimiter '\u2013' (U+2013) normalized in-memory to '-'"
+  },
+  {
+    "rec_id": "R04_piers_robinson",
+    "stem": "Piers Confronts Tommy Robinson",
+    "line": 43,
+    "seg_idx": 14,
+    "speaker": "Speaker_0",
+    "type": "UNICODE_ENDASH_DELIMITER",
+    "action": "IN_MEMORY_NORMALIZED_TO_HYPHEN",
+    "reason": "Delimiter '\u2013' (U+2013) normalized in-memory to '-'"
+  },
+  {
+    "rec_id": "R04_piers_robinson",
+    "stem": "Piers Confronts Tommy Robinson",
+    "line": 52,
+    "seg_idx": 17,
+    "speaker": "Speaker_2",
+    "type": "UNICODE_ENDASH_DELIMITER",
+    "action": "IN_MEMORY_NORMALIZED_TO_HYPHEN",
+    "reason": "Delimiter '\u2013' (U+2013) normalized in-memory to '-'"
+  },
+  {
+    "rec_id": "R04_piers_robinson",
+    "stem": "Piers Confronts Tommy Robinson",
+    "line": 55,
+    "seg_idx": 18,
+    "speaker": "Speaker_1",
+    "type": "UNICODE_ENDASH_DELIMITER",
+    "action": "IN_MEMORY_NORMALIZED_TO_HYPHEN",
+    "reason": "Delimiter '\u2013' (U+2013) normalized in-memory to '-'"
+  },
+  {
+    "rec_id": "R04_piers_robinson",
+    "stem": "Piers Confronts Tommy Robinson",
+    "line": 61,
+    "seg_idx": 20,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (71.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "R04_piers_robinson",
+    "stem": "Piers Confronts Tommy Robinson",
+    "line": 64,
+    "seg_idx": 21,
+    "speaker": "Speaker_0",
+    "type": "UNICODE_ENDASH_DELIMITER",
+    "action": "IN_MEMORY_NORMALIZED_TO_HYPHEN",
+    "reason": "Delimiter '\u2013' (U+2013) normalized in-memory to '-'"
+  },
+  {
+    "rec_id": "R04_piers_robinson",
+    "stem": "Piers Confronts Tommy Robinson",
+    "line": 79,
+    "seg_idx": 26,
+    "speaker": "Speaker_1",
+    "type": "UNICODE_ENDASH_DELIMITER",
+    "action": "IN_MEMORY_NORMALIZED_TO_HYPHEN",
+    "reason": "Delimiter '\u2013' (U+2013) normalized in-memory to '-'"
+  },
+  {
+    "rec_id": "R04_piers_robinson",
+    "stem": "Piers Confronts Tommy Robinson",
+    "line": 79,
+    "seg_idx": 26,
+    "speaker": "Speaker_1",
+    "type": "SINGLE_DIGIT_HOUR",
+    "action": "IN_MEMORY_ZERO_PADDED_HOUR",
+    "reason": "Timestamp [0:02:25 - 00:02:30] zero-padded to HH:MM:SS in-memory"
+  },
+  {
+    "rec_id": "R04_piers_robinson",
+    "stem": "Piers Confronts Tommy Robinson",
+    "line": 82,
+    "seg_idx": 27,
+    "speaker": "Speaker_0",
+    "type": "UNICODE_ENDASH_DELIMITER",
+    "action": "IN_MEMORY_NORMALIZED_TO_HYPHEN",
+    "reason": "Delimiter '\u2013' (U+2013) normalized in-memory to '-'"
+  },
+  {
+    "rec_id": "R04_piers_robinson",
+    "stem": "Piers Confronts Tommy Robinson",
+    "line": 85,
+    "seg_idx": 28,
+    "speaker": "Speaker_1",
+    "type": "UNICODE_ENDASH_DELIMITER",
+    "action": "IN_MEMORY_NORMALIZED_TO_HYPHEN",
+    "reason": "Delimiter '\u2013' (U+2013) normalized in-memory to '-'"
+  },
+  {
+    "rec_id": "R04_piers_robinson",
+    "stem": "Piers Confronts Tommy Robinson",
+    "line": 88,
+    "seg_idx": 29,
+    "speaker": "Speaker_0",
+    "type": "UNICODE_ENDASH_DELIMITER",
+    "action": "IN_MEMORY_NORMALIZED_TO_HYPHEN",
+    "reason": "Delimiter '\u2013' (U+2013) normalized in-memory to '-'"
+  },
+  {
+    "rec_id": "R04_piers_robinson",
+    "stem": "Piers Confronts Tommy Robinson",
+    "line": 91,
+    "seg_idx": 30,
+    "speaker": "Speaker_1",
+    "type": "UNICODE_ENDASH_DELIMITER",
+    "action": "IN_MEMORY_NORMALIZED_TO_HYPHEN",
+    "reason": "Delimiter '\u2013' (U+2013) normalized in-memory to '-'"
+  },
+  {
+    "rec_id": "R05_southwest_pilot",
+    "stem": "Police bodycam shows arrest of Southwest Airlines pilot",
+    "line": 1,
+    "seg_idx": 0,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (1.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "R05_southwest_pilot",
+    "stem": "Police bodycam shows arrest of Southwest Airlines pilot",
+    "line": 4,
+    "seg_idx": 1,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (6.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "R05_southwest_pilot",
+    "stem": "Police bodycam shows arrest of Southwest Airlines pilot",
+    "line": 7,
+    "seg_idx": 2,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (7.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "R05_southwest_pilot",
+    "stem": "Police bodycam shows arrest of Southwest Airlines pilot",
+    "line": 10,
+    "seg_idx": 3,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (9.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "R05_southwest_pilot",
+    "stem": "Police bodycam shows arrest of Southwest Airlines pilot",
+    "line": 13,
+    "seg_idx": 4,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (10.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "R05_southwest_pilot",
+    "stem": "Police bodycam shows arrest of Southwest Airlines pilot",
+    "line": 16,
+    "seg_idx": 5,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (11.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "R05_southwest_pilot",
+    "stem": "Police bodycam shows arrest of Southwest Airlines pilot",
+    "line": 25,
+    "seg_idx": 8,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (16.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "R05_southwest_pilot",
+    "stem": "Police bodycam shows arrest of Southwest Airlines pilot",
+    "line": 34,
+    "seg_idx": 11,
+    "speaker": "Speaker_3",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (19.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "R05_southwest_pilot",
+    "stem": "Police bodycam shows arrest of Southwest Airlines pilot",
+    "line": 37,
+    "seg_idx": 12,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (21.0s) due to 1-second timestamp rounding (6 words)"
+  },
+  {
+    "rec_id": "R05_southwest_pilot",
+    "stem": "Police bodycam shows arrest of Southwest Airlines pilot",
+    "line": 49,
+    "seg_idx": 16,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (32.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "R05_southwest_pilot",
+    "stem": "Police bodycam shows arrest of Southwest Airlines pilot",
+    "line": 52,
+    "seg_idx": 17,
+    "speaker": "Speaker_3",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (34.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "R05_southwest_pilot",
+    "stem": "Police bodycam shows arrest of Southwest Airlines pilot",
+    "line": 58,
+    "seg_idx": 19,
+    "speaker": "Speaker_3",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (36.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "R05_southwest_pilot",
+    "stem": "Police bodycam shows arrest of Southwest Airlines pilot",
+    "line": 61,
+    "seg_idx": 20,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (37.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "R05_southwest_pilot",
+    "stem": "Police bodycam shows arrest of Southwest Airlines pilot",
+    "line": 64,
+    "seg_idx": 21,
+    "speaker": "Speaker_3",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (38.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "R05_southwest_pilot",
+    "stem": "Police bodycam shows arrest of Southwest Airlines pilot",
+    "line": 67,
+    "seg_idx": 22,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (39.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "R05_southwest_pilot",
+    "stem": "Police bodycam shows arrest of Southwest Airlines pilot",
+    "line": 73,
+    "seg_idx": 24,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (42.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "R05_southwest_pilot",
+    "stem": "Police bodycam shows arrest of Southwest Airlines pilot",
+    "line": 76,
+    "seg_idx": 25,
+    "speaker": "Speaker_3",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (42.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "R05_southwest_pilot",
+    "stem": "Police bodycam shows arrest of Southwest Airlines pilot",
+    "line": 79,
+    "seg_idx": 26,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (42.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "R05_southwest_pilot",
+    "stem": "Police bodycam shows arrest of Southwest Airlines pilot",
+    "line": 82,
+    "seg_idx": 27,
+    "speaker": "Speaker_3",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (43.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "R05_southwest_pilot",
+    "stem": "Police bodycam shows arrest of Southwest Airlines pilot",
+    "line": 88,
+    "seg_idx": 29,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (46.0s) due to 1-second timestamp rounding (4 words)"
+  },
+  {
+    "rec_id": "R05_southwest_pilot",
+    "stem": "Police bodycam shows arrest of Southwest Airlines pilot",
+    "line": 91,
+    "seg_idx": 30,
+    "speaker": "Speaker_3",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (48.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "R05_southwest_pilot",
+    "stem": "Police bodycam shows arrest of Southwest Airlines pilot",
+    "line": 94,
+    "seg_idx": 31,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (49.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "R05_southwest_pilot",
+    "stem": "Police bodycam shows arrest of Southwest Airlines pilot",
+    "line": 97,
+    "seg_idx": 32,
+    "speaker": "Speaker_3",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (50.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "R05_southwest_pilot",
+    "stem": "Police bodycam shows arrest of Southwest Airlines pilot",
+    "line": 103,
+    "seg_idx": 34,
+    "speaker": "Speaker_3",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (54.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "R05_southwest_pilot",
+    "stem": "Police bodycam shows arrest of Southwest Airlines pilot",
+    "line": 106,
+    "seg_idx": 35,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (55.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "R05_southwest_pilot",
+    "stem": "Police bodycam shows arrest of Southwest Airlines pilot",
+    "line": 109,
+    "seg_idx": 36,
+    "speaker": "Speaker_3",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (56.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "R05_southwest_pilot",
+    "stem": "Police bodycam shows arrest of Southwest Airlines pilot",
+    "line": 115,
+    "seg_idx": 38,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (63.0s) due to 1-second timestamp rounding (4 words)"
+  },
+  {
+    "rec_id": "R05_southwest_pilot",
+    "stem": "Police bodycam shows arrest of Southwest Airlines pilot",
+    "line": 127,
+    "seg_idx": 42,
+    "speaker": "Speaker_3",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (76.0s) due to 1-second timestamp rounding (4 words)"
+  },
+  {
+    "rec_id": "R05_southwest_pilot",
+    "stem": "Police bodycam shows arrest of Southwest Airlines pilot",
+    "line": 133,
+    "seg_idx": 44,
+    "speaker": "Speaker_3",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (82.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "R05_southwest_pilot",
+    "stem": "Police bodycam shows arrest of Southwest Airlines pilot",
+    "line": 142,
+    "seg_idx": 47,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (88.0s) due to 1-second timestamp rounding (4 words)"
+  },
+  {
+    "rec_id": "R05_southwest_pilot",
+    "stem": "Police bodycam shows arrest of Southwest Airlines pilot",
+    "line": 160,
+    "seg_idx": 53,
+    "speaker": "Speaker_3",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (126.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "R05_southwest_pilot",
+    "stem": "Police bodycam shows arrest of Southwest Airlines pilot",
+    "line": 166,
+    "seg_idx": 55,
+    "speaker": "Speaker_3",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (139.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "R05_southwest_pilot",
+    "stem": "Police bodycam shows arrest of Southwest Airlines pilot",
+    "line": 169,
+    "seg_idx": 56,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (139.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "R05_southwest_pilot",
+    "stem": "Police bodycam shows arrest of Southwest Airlines pilot",
+    "line": 175,
+    "seg_idx": 58,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (143.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "R05_southwest_pilot",
+    "stem": "Police bodycam shows arrest of Southwest Airlines pilot",
+    "line": 178,
+    "seg_idx": 59,
+    "speaker": "Speaker_3",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (143.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 19,
+    "seg_idx": 6,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (71.0s) due to 1-second timestamp rounding (4 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 22,
+    "seg_idx": 7,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (74.0s) due to 1-second timestamp rounding (8 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 28,
+    "seg_idx": 9,
+    "speaker": "Speaker_3",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (82.0s) due to 1-second timestamp rounding (5 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 46,
+    "seg_idx": 15,
+    "speaker": "Speaker_3",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (110.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 76,
+    "seg_idx": 25,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (153.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 88,
+    "seg_idx": 29,
+    "speaker": "Speaker_4",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (180.0s) due to 1-second timestamp rounding (4 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 91,
+    "seg_idx": 30,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (181.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 94,
+    "seg_idx": 31,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (182.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 103,
+    "seg_idx": 34,
+    "speaker": "Speaker_4",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (198.0s) due to 1-second timestamp rounding (4 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 118,
+    "seg_idx": 39,
+    "speaker": "Speaker_5",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (222.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 127,
+    "seg_idx": 42,
+    "speaker": "Speaker_3",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (233.0s) due to 1-second timestamp rounding (8 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 133,
+    "seg_idx": 44,
+    "speaker": "Speaker_5",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (235.0s) due to 1-second timestamp rounding (4 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 136,
+    "seg_idx": 45,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (236.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 139,
+    "seg_idx": 46,
+    "speaker": "Speaker_4",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (238.0s) due to 1-second timestamp rounding (4 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 142,
+    "seg_idx": 47,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (239.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 145,
+    "seg_idx": 48,
+    "speaker": "Speaker_3",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (242.0s) due to 1-second timestamp rounding (4 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 172,
+    "seg_idx": 57,
+    "speaker": "Speaker_6",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (271.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 178,
+    "seg_idx": 59,
+    "speaker": "Speaker_6",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (273.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 187,
+    "seg_idx": 62,
+    "speaker": "Speaker_3",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (279.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 202,
+    "seg_idx": 67,
+    "speaker": "Speaker_7",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (290.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 229,
+    "seg_idx": 76,
+    "speaker": "Speaker_6",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (318.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 241,
+    "seg_idx": 80,
+    "speaker": "Speaker_7",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (325.0s) due to 1-second timestamp rounding (4 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 244,
+    "seg_idx": 81,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (327.0s) due to 1-second timestamp rounding (4 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 262,
+    "seg_idx": 87,
+    "speaker": "Speaker_4",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (337.0s) due to 1-second timestamp rounding (5 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 271,
+    "seg_idx": 90,
+    "speaker": "Speaker_5",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (342.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 298,
+    "seg_idx": 99,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (357.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 301,
+    "seg_idx": 100,
+    "speaker": "Speaker_6",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (358.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 304,
+    "seg_idx": 101,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (358.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 310,
+    "seg_idx": 103,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (362.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 319,
+    "seg_idx": 106,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (373.0s) due to 1-second timestamp rounding (5 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 325,
+    "seg_idx": 108,
+    "speaker": "Speaker_5",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (375.0s) due to 1-second timestamp rounding (7 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 331,
+    "seg_idx": 110,
+    "speaker": "Speaker_5",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (377.0s) due to 1-second timestamp rounding (6 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 334,
+    "seg_idx": 111,
+    "speaker": "Speaker_5",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (380.0s) due to 1-second timestamp rounding (8 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 337,
+    "seg_idx": 112,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (381.0s) due to 1-second timestamp rounding (5 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 361,
+    "seg_idx": 120,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (404.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 370,
+    "seg_idx": 123,
+    "speaker": "Speaker_6",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (410.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 373,
+    "seg_idx": 124,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (412.0s) due to 1-second timestamp rounding (5 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 376,
+    "seg_idx": 125,
+    "speaker": "Speaker_6",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (413.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 379,
+    "seg_idx": 126,
+    "speaker": "Speaker_4",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (413.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 382,
+    "seg_idx": 127,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (414.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 391,
+    "seg_idx": 130,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (422.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 397,
+    "seg_idx": 132,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (425.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 400,
+    "seg_idx": 133,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (426.0s) due to 1-second timestamp rounding (4 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 409,
+    "seg_idx": 136,
+    "speaker": "Speaker_6",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (432.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 430,
+    "seg_idx": 143,
+    "speaker": "Speaker_4",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (467.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 436,
+    "seg_idx": 145,
+    "speaker": "Speaker_6",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (472.0s) due to 1-second timestamp rounding (4 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 439,
+    "seg_idx": 146,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (473.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 442,
+    "seg_idx": 147,
+    "speaker": "Speaker_6",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (474.0s) due to 1-second timestamp rounding (4 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 460,
+    "seg_idx": 153,
+    "speaker": "Speaker_6",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (487.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 466,
+    "seg_idx": 155,
+    "speaker": "Speaker_6",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (495.0s) due to 1-second timestamp rounding (4 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 472,
+    "seg_idx": 157,
+    "speaker": "Speaker_6",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (500.0s) due to 1-second timestamp rounding (7 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 481,
+    "seg_idx": 160,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (507.0s) due to 1-second timestamp rounding (4 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 484,
+    "seg_idx": 161,
+    "speaker": "Speaker_6",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (508.0s) due to 1-second timestamp rounding (4 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 499,
+    "seg_idx": 166,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (516.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 502,
+    "seg_idx": 167,
+    "speaker": "Speaker_6",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (516.0s) due to 1-second timestamp rounding (5 words)"
+  },
+  {
+    "rec_id": "R06_rich_karen",
+    "stem": "Rich Karen Messes Around & Finds Out",
+    "line": 529,
+    "seg_idx": 176,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (549.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "R07_bwc_cheap_shot",
+    "stem": "That was a bit of a cheap shot weren\u2019t it mate",
+    "line": 13,
+    "seg_idx": 6,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (28.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "R07_bwc_cheap_shot",
+    "stem": "That was a bit of a cheap shot weren\u2019t it mate",
+    "line": 15,
+    "seg_idx": 7,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (34.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "R07_bwc_cheap_shot",
+    "stem": "That was a bit of a cheap shot weren\u2019t it mate",
+    "line": 19,
+    "seg_idx": 9,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (35.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "R07_bwc_cheap_shot",
+    "stem": "That was a bit of a cheap shot weren\u2019t it mate",
+    "line": 23,
+    "seg_idx": 11,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (37.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "R07_bwc_cheap_shot",
+    "stem": "That was a bit of a cheap shot weren\u2019t it mate",
+    "line": 27,
+    "seg_idx": 13,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (39.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "R07_bwc_cheap_shot",
+    "stem": "That was a bit of a cheap shot weren\u2019t it mate",
+    "line": 41,
+    "seg_idx": 20,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (61.0s) due to 1-second timestamp rounding (6 words)"
+  },
+  {
+    "rec_id": "R07_bwc_cheap_shot",
+    "stem": "That was a bit of a cheap shot weren\u2019t it mate",
+    "line": 45,
+    "seg_idx": 22,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (67.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "R07_bwc_cheap_shot",
+    "stem": "That was a bit of a cheap shot weren\u2019t it mate",
+    "line": 57,
+    "seg_idx": 28,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (81.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "R07_bwc_cheap_shot",
+    "stem": "That was a bit of a cheap shot weren\u2019t it mate",
+    "line": 65,
+    "seg_idx": 32,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (96.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "R07_bwc_cheap_shot",
+    "stem": "That was a bit of a cheap shot weren\u2019t it mate",
+    "line": 73,
+    "seg_idx": 36,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (110.0s) due to 1-second timestamp rounding (4 words)"
+  },
+  {
+    "rec_id": "R07_bwc_cheap_shot",
+    "stem": "That was a bit of a cheap shot weren\u2019t it mate",
+    "line": 79,
+    "seg_idx": 39,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (122.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "R07_bwc_cheap_shot",
+    "stem": "That was a bit of a cheap shot weren\u2019t it mate",
+    "line": 81,
+    "seg_idx": 40,
+    "speaker": "Speaker_3",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (125.0s) due to 1-second timestamp rounding (5 words)"
+  },
+  {
+    "rec_id": "R07_bwc_cheap_shot",
+    "stem": "That was a bit of a cheap shot weren\u2019t it mate",
+    "line": 85,
+    "seg_idx": 42,
+    "speaker": "Speaker_3",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (127.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "R07_bwc_cheap_shot",
+    "stem": "That was a bit of a cheap shot weren\u2019t it mate",
+    "line": 91,
+    "seg_idx": 45,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (137.0s) due to 1-second timestamp rounding (4 words)"
+  },
+  {
+    "rec_id": "R07_bwc_cheap_shot",
+    "stem": "That was a bit of a cheap shot weren\u2019t it mate",
+    "line": 99,
+    "seg_idx": 49,
+    "speaker": "Speaker_4",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (149.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "R08_uk_parliament",
+    "stem": "UK Parliament Debate",
+    "line": 10,
+    "seg_idx": 3,
+    "speaker": "Speaker_all",
+    "type": "COLLECTIVE_SPEAKER_LABEL",
+    "action": "RETAINED_IN_LEDGER_FLAGGED_AMBIGUOUS",
+    "reason": "Label 'Speaker_all' denotes chorus/crowd speech, not a single speaker identity"
+  },
+  {
+    "rec_id": "R08_uk_parliament",
+    "stem": "UK Parliament Debate",
+    "line": 13,
+    "seg_idx": 4,
+    "speaker": "Speaker_3",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (51.0s) due to 1-second timestamp rounding (4 words)"
+  },
+  {
+    "rec_id": "R08_uk_parliament",
+    "stem": "UK Parliament Debate",
+    "line": 19,
+    "seg_idx": 6,
+    "speaker": "Speaker_4",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (59.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "R08_uk_parliament",
+    "stem": "UK Parliament Debate",
+    "line": 25,
+    "seg_idx": 8,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (98.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "R08_uk_parliament",
+    "stem": "UK Parliament Debate",
+    "line": 37,
+    "seg_idx": 12,
+    "speaker": "Speaker_all",
+    "type": "COLLECTIVE_SPEAKER_LABEL",
+    "action": "RETAINED_IN_LEDGER_FLAGGED_AMBIGUOUS",
+    "reason": "Label 'Speaker_all' denotes chorus/crowd speech, not a single speaker identity"
+  },
+  {
+    "rec_id": "R08_uk_parliament",
+    "stem": "UK Parliament Debate",
+    "line": 37,
+    "seg_idx": 12,
+    "speaker": "Speaker_all",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (159.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "R08_uk_parliament",
+    "stem": "UK Parliament Debate",
+    "line": 43,
+    "seg_idx": 14,
+    "speaker": "Speaker_all",
+    "type": "COLLECTIVE_SPEAKER_LABEL",
+    "action": "RETAINED_IN_LEDGER_FLAGGED_AMBIGUOUS",
+    "reason": "Label 'Speaker_all' denotes chorus/crowd speech, not a single speaker identity"
+  },
+  {
+    "rec_id": "R08_uk_parliament",
+    "stem": "UK Parliament Debate",
+    "line": 43,
+    "seg_idx": 14,
+    "speaker": "Speaker_all",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (199.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 13,
+    "seg_idx": 4,
+    "speaker": "Speaker_0",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (9.0s) due to 1-second timestamp rounding (7 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 64,
+    "seg_idx": 21,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (83.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 67,
+    "seg_idx": 22,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (84.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 82,
+    "seg_idx": 27,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (99.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 85,
+    "seg_idx": 28,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (100.0s) due to 1-second timestamp rounding (5 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 88,
+    "seg_idx": 29,
+    "speaker": "Speaker_3",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (102.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 94,
+    "seg_idx": 31,
+    "speaker": "Speaker_3",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (109.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 103,
+    "seg_idx": 34,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (116.0s) due to 1-second timestamp rounding (10 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 124,
+    "seg_idx": 41,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (136.0s) due to 1-second timestamp rounding (5 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 145,
+    "seg_idx": 48,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (152.0s) due to 1-second timestamp rounding (7 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 157,
+    "seg_idx": 52,
+    "speaker": "Speaker_3",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (165.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 166,
+    "seg_idx": 55,
+    "speaker": "Speaker_3",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (173.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 178,
+    "seg_idx": 59,
+    "speaker": "Speaker_4",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (185.0s) due to 1-second timestamp rounding (6 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 193,
+    "seg_idx": 64,
+    "speaker": "Speaker_5",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (197.0s) due to 1-second timestamp rounding (5 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 232,
+    "seg_idx": 77,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (272.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 259,
+    "seg_idx": 86,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (304.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 292,
+    "seg_idx": 97,
+    "speaker": "Speaker_5",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (347.0s) due to 1-second timestamp rounding (4 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 295,
+    "seg_idx": 98,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (348.0s) due to 1-second timestamp rounding (5 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 310,
+    "seg_idx": 103,
+    "speaker": "Speaker_5",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (362.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 325,
+    "seg_idx": 108,
+    "speaker": "Speaker_5",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (377.0s) due to 1-second timestamp rounding (6 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 337,
+    "seg_idx": 112,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (388.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 361,
+    "seg_idx": 120,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (426.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 385,
+    "seg_idx": 128,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (444.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 391,
+    "seg_idx": 130,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (450.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 394,
+    "seg_idx": 131,
+    "speaker": "Speaker_5",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (451.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 406,
+    "seg_idx": 135,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (470.0s) due to 1-second timestamp rounding (4 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 424,
+    "seg_idx": 141,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (485.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 427,
+    "seg_idx": 142,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (486.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 439,
+    "seg_idx": 146,
+    "speaker": "Speaker_5",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (505.0s) due to 1-second timestamp rounding (4 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 451,
+    "seg_idx": 150,
+    "speaker": "Speaker_5",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (516.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 460,
+    "seg_idx": 153,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (520.0s) due to 1-second timestamp rounding (4 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 466,
+    "seg_idx": 155,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (522.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 490,
+    "seg_idx": 163,
+    "speaker": "Speaker_7",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (571.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 496,
+    "seg_idx": 165,
+    "speaker": "Speaker_7",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (575.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 502,
+    "seg_idx": 167,
+    "speaker": "Speaker_8",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (578.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 511,
+    "seg_idx": 170,
+    "speaker": "Speaker_8",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (582.0s) due to 1-second timestamp rounding (5 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 517,
+    "seg_idx": 172,
+    "speaker": "Speaker_9",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (588.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 532,
+    "seg_idx": 177,
+    "speaker": "Speaker_8",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (598.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 553,
+    "seg_idx": 184,
+    "speaker": "Speaker_8",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (618.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 568,
+    "seg_idx": 189,
+    "speaker": "Speaker_8",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (632.0s) due to 1-second timestamp rounding (6 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 577,
+    "seg_idx": 192,
+    "speaker": "Speaker_9",
+    "type": "NEGATIVE_DURATION",
+    "action": "EXCLUDED_FROM_RTTM_KEPT_IN_LEDGER",
+    "reason": "End (45.0s) < Start (637.0s), duration=-592.0s"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 580,
+    "seg_idx": 193,
+    "speaker": "Speaker_8",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (644.0s) due to 1-second timestamp rounding (6 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 583,
+    "seg_idx": 194,
+    "speaker": "Speaker_9",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (645.0s) due to 1-second timestamp rounding (5 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 595,
+    "seg_idx": 198,
+    "speaker": "Speaker_8",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (670.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 598,
+    "seg_idx": 199,
+    "speaker": "Speaker_8",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (678.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 601,
+    "seg_idx": 200,
+    "speaker": "Speaker_8",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (682.0s) due to 1-second timestamp rounding (5 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 604,
+    "seg_idx": 201,
+    "speaker": "Speaker_8",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (687.0s) due to 1-second timestamp rounding (6 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 610,
+    "seg_idx": 203,
+    "speaker": "Speaker_8",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (692.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 616,
+    "seg_idx": 205,
+    "speaker": "Speaker_8",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (695.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 619,
+    "seg_idx": 206,
+    "speaker": "Speaker_8",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (698.0s) due to 1-second timestamp rounding (4 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 625,
+    "seg_idx": 208,
+    "speaker": "Speaker_8",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (703.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 631,
+    "seg_idx": 210,
+    "speaker": "Speaker_8",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (706.0s) due to 1-second timestamp rounding (5 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 637,
+    "seg_idx": 212,
+    "speaker": "Speaker_8",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (710.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 649,
+    "seg_idx": 216,
+    "speaker": "Speaker_8",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (726.0s) due to 1-second timestamp rounding (5 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 661,
+    "seg_idx": 220,
+    "speaker": "Speaker_8",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (734.0s) due to 1-second timestamp rounding (7 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 676,
+    "seg_idx": 225,
+    "speaker": "Speaker_9",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (747.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 682,
+    "seg_idx": 227,
+    "speaker": "Speaker_8",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (752.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 685,
+    "seg_idx": 228,
+    "speaker": "Speaker_8",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (756.0s) due to 1-second timestamp rounding (6 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 688,
+    "seg_idx": 229,
+    "speaker": "Speaker_9",
+    "type": "NEGATIVE_DURATION",
+    "action": "EXCLUDED_FROM_RTTM_KEPT_IN_LEDGER",
+    "reason": "End (0.0s) < Start (757.0s), duration=-757.0s"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 691,
+    "seg_idx": 230,
+    "speaker": "Speaker_8",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (758.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 697,
+    "seg_idx": 232,
+    "speaker": "Speaker_9",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (760.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 712,
+    "seg_idx": 237,
+    "speaker": "Speaker_8",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (780.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 721,
+    "seg_idx": 240,
+    "speaker": "Speaker_10",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (804.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 739,
+    "seg_idx": 246,
+    "speaker": "Speaker_11",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (817.0s) due to 1-second timestamp rounding (6 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 742,
+    "seg_idx": 247,
+    "speaker": "Speaker_8",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (830.0s) due to 1-second timestamp rounding (5 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 745,
+    "seg_idx": 248,
+    "speaker": "Speaker_10",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (832.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 748,
+    "seg_idx": 249,
+    "speaker": "Speaker_8",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (833.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 751,
+    "seg_idx": 250,
+    "speaker": "Speaker_12",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (834.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 754,
+    "seg_idx": 251,
+    "speaker": "Speaker_8",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (835.0s) due to 1-second timestamp rounding (8 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 760,
+    "seg_idx": 253,
+    "speaker": "Speaker_8",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (838.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 766,
+    "seg_idx": 255,
+    "speaker": "Speaker_13",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (846.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 769,
+    "seg_idx": 256,
+    "speaker": "Speaker_11",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (863.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 772,
+    "seg_idx": 257,
+    "speaker": "Speaker_14",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (874.0s) due to 1-second timestamp rounding (4 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 784,
+    "seg_idx": 261,
+    "speaker": "Speaker_14",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (886.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 787,
+    "seg_idx": 262,
+    "speaker": "Speaker_8",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (887.0s) due to 1-second timestamp rounding (5 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 790,
+    "seg_idx": 263,
+    "speaker": "Speaker_10",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (888.0s) due to 1-second timestamp rounding (5 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 799,
+    "seg_idx": 266,
+    "speaker": "Speaker_15",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (893.0s) due to 1-second timestamp rounding (4 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 823,
+    "seg_idx": 274,
+    "speaker": "Speaker_15",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (925.0s) due to 1-second timestamp rounding (6 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 826,
+    "seg_idx": 275,
+    "speaker": "Speaker_9",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (926.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "M01_drunk_karen",
+    "stem": "Drunk Karen Gets a Huge Reality Check",
+    "line": 859,
+    "seg_idx": 286,
+    "speaker": "Speaker_15",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (962.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 74,
+    "seg_idx": 24,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (145.0s) due to 1-second timestamp rounding (5 words)"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 77,
+    "seg_idx": 25,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (145.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 80,
+    "seg_idx": 26,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (145.0s) due to 1-second timestamp rounding (5 words)"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 83,
+    "seg_idx": 27,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (145.0s) due to 1-second timestamp rounding (6 words)"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 86,
+    "seg_idx": 28,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (145.0s) due to 1-second timestamp rounding (10 words)"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 89,
+    "seg_idx": 29,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (145.0s) due to 1-second timestamp rounding (12 words)"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 92,
+    "seg_idx": 30,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (145.0s) due to 1-second timestamp rounding (10 words)"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 95,
+    "seg_idx": 31,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (145.0s) due to 1-second timestamp rounding (12 words)"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 98,
+    "seg_idx": 32,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (145.0s) due to 1-second timestamp rounding (18 words)"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 101,
+    "seg_idx": 33,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (145.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 104,
+    "seg_idx": 34,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (145.0s) due to 1-second timestamp rounding (11 words)"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 107,
+    "seg_idx": 35,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (145.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 110,
+    "seg_idx": 36,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (145.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 113,
+    "seg_idx": 37,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (145.0s) due to 1-second timestamp rounding (6 words)"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 116,
+    "seg_idx": 38,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (145.0s) due to 1-second timestamp rounding (5 words)"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 119,
+    "seg_idx": 39,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (145.0s) due to 1-second timestamp rounding (11 words)"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 122,
+    "seg_idx": 40,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (145.0s) due to 1-second timestamp rounding (4 words)"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 125,
+    "seg_idx": 41,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (145.0s) due to 1-second timestamp rounding (14 words)"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 128,
+    "seg_idx": 42,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (145.0s) due to 1-second timestamp rounding (8 words)"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 131,
+    "seg_idx": 43,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (145.0s) due to 1-second timestamp rounding (9 words)"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 134,
+    "seg_idx": 44,
+    "speaker": "Speaker_2",
+    "type": "NON_MONOTONIC_START_TIME",
+    "action": "SORTED_FOR_RTTM_PRESERVED_IN_LEDGER",
+    "reason": "Start 91.0s < previous segment start 145.0s (line 131)"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 137,
+    "seg_idx": 45,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (145.0s) due to 1-second timestamp rounding (14 words)"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 146,
+    "seg_idx": 48,
+    "speaker": "Speaker_2",
+    "type": "NON_MONOTONIC_START_TIME",
+    "action": "SORTED_FOR_RTTM_PRESERVED_IN_LEDGER",
+    "reason": "Start 91.0s < previous segment start 166.0s (line 143)"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 158,
+    "seg_idx": 52,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (145.0s) due to 1-second timestamp rounding (9 words)"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 158,
+    "seg_idx": 52,
+    "speaker": "Speaker_1",
+    "type": "NON_MONOTONIC_START_TIME",
+    "action": "SORTED_FOR_RTTM_PRESERVED_IN_LEDGER",
+    "reason": "Start 145.0s < previous segment start 177.0s (line 155)"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 179,
+    "seg_idx": 59,
+    "speaker": "Speaker_2",
+    "type": "NON_MONOTONIC_START_TIME",
+    "action": "SORTED_FOR_RTTM_PRESERVED_IN_LEDGER",
+    "reason": "Start 172.0s < previous segment start 181.0s (line 176)"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 185,
+    "seg_idx": 61,
+    "speaker": "Speaker_2",
+    "type": "NON_MONOTONIC_START_TIME",
+    "action": "SORTED_FOR_RTTM_PRESERVED_IN_LEDGER",
+    "reason": "Start 172.0s < previous segment start 181.0s (line 182)"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 206,
+    "seg_idx": 68,
+    "speaker": "Speaker_1",
+    "type": "NON_MONOTONIC_START_TIME",
+    "action": "SORTED_FOR_RTTM_PRESERVED_IN_LEDGER",
+    "reason": "Start 181.0s < previous segment start 218.0s (line 203)"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 212,
+    "seg_idx": 70,
+    "speaker": "Speaker_2",
+    "type": "NON_MONOTONIC_START_TIME",
+    "action": "SORTED_FOR_RTTM_PRESERVED_IN_LEDGER",
+    "reason": "Start 218.0s < previous segment start 231.0s (line 209)"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 230,
+    "seg_idx": 76,
+    "speaker": "Speaker_2",
+    "type": "NON_MONOTONIC_START_TIME",
+    "action": "SORTED_FOR_RTTM_PRESERVED_IN_LEDGER",
+    "reason": "Start 231.0s < previous segment start 264.0s (line 227)"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 239,
+    "seg_idx": 79,
+    "speaker": "Speaker_2",
+    "type": "NON_MONOTONIC_START_TIME",
+    "action": "SORTED_FOR_RTTM_PRESERVED_IN_LEDGER",
+    "reason": "Start 231.0s < previous segment start 264.0s (line 236)"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 248,
+    "seg_idx": 82,
+    "speaker": "Speaker_2",
+    "type": "NON_MONOTONIC_START_TIME",
+    "action": "SORTED_FOR_RTTM_PRESERVED_IN_LEDGER",
+    "reason": "Start 231.0s < previous segment start 264.0s (line 245)"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 254,
+    "seg_idx": 84,
+    "speaker": "Speaker_2",
+    "type": "NON_MONOTONIC_START_TIME",
+    "action": "SORTED_FOR_RTTM_PRESERVED_IN_LEDGER",
+    "reason": "Start 231.0s < previous segment start 264.0s (line 251)"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 266,
+    "seg_idx": 88,
+    "speaker": "Speaker_1",
+    "type": "NON_MONOTONIC_START_TIME",
+    "action": "SORTED_FOR_RTTM_PRESERVED_IN_LEDGER",
+    "reason": "Start 264.0s < previous segment start 270.0s (line 263)"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 305,
+    "seg_idx": 101,
+    "speaker": "Speaker_1",
+    "type": "MULTI_PARAGRAPH_BLOCK",
+    "action": "MERGED_LINES_WITH_FLAG",
+    "reason": "2 consecutive text paragraphs under single 17.0s header"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 358,
+    "seg_idx": 118,
+    "speaker": "Speaker_2",
+    "type": "NON_MONOTONIC_START_TIME",
+    "action": "SORTED_FOR_RTTM_PRESERVED_IN_LEDGER",
+    "reason": "Start 264.0s < previous segment start 376.0s (line 355)"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 364,
+    "seg_idx": 120,
+    "speaker": "Speaker_2",
+    "type": "NON_MONOTONIC_START_TIME",
+    "action": "SORTED_FOR_RTTM_PRESERVED_IN_LEDGER",
+    "reason": "Start 264.0s < previous segment start 376.0s (line 361)"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 373,
+    "seg_idx": 123,
+    "speaker": "Speaker_3",
+    "type": "NON_MONOTONIC_START_TIME",
+    "action": "SORTED_FOR_RTTM_PRESERVED_IN_LEDGER",
+    "reason": "Start 0.0s < previous segment start 376.0s (line 370)"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 530,
+    "seg_idx": 175,
+    "speaker": "Speaker_2",
+    "type": "NON_MONOTONIC_START_TIME",
+    "action": "SORTED_FOR_RTTM_PRESERVED_IN_LEDGER",
+    "reason": "Start 0.0s < previous segment start 556.0s (line 527)"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 536,
+    "seg_idx": 177,
+    "speaker": "Speaker_2",
+    "type": "NON_MONOTONIC_START_TIME",
+    "action": "SORTED_FOR_RTTM_PRESERVED_IN_LEDGER",
+    "reason": "Start 0.0s < previous segment start 556.0s (line 533)"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 542,
+    "seg_idx": 179,
+    "speaker": "Speaker_2",
+    "type": "NON_MONOTONIC_START_TIME",
+    "action": "SORTED_FOR_RTTM_PRESERVED_IN_LEDGER",
+    "reason": "Start 0.0s < previous segment start 556.0s (line 539)"
+  },
+  {
+    "rec_id": "M02_entitled_restaurant",
+    "stem": "Entitled Karen Refuses to Pay Restaurant Bill Then Attacks the Manager",
+    "line": 743,
+    "seg_idx": 246,
+    "speaker": "Speaker_1",
+    "type": "MULTI_PARAGRAPH_BLOCK",
+    "action": "MERGED_LINES_WITH_FLAG",
+    "reason": "2 consecutive text paragraphs under single 47.0s header"
+  },
+  {
+    "rec_id": "M03_entitled_girl",
+    "stem": "When an Entitled Girl Gets Instantly Humbled",
+    "line": 181,
+    "seg_idx": 60,
+    "speaker": "Speaker_1",
+    "type": "MULTI_PARAGRAPH_BLOCK",
+    "action": "MERGED_LINES_WITH_FLAG",
+    "reason": "2 consecutive text paragraphs under single 26.0s header"
+  },
+  {
+    "rec_id": "M03_entitled_girl",
+    "stem": "When an Entitled Girl Gets Instantly Humbled",
+    "line": 209,
+    "seg_idx": 69,
+    "speaker": "Speaker_5",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (568.0s) due to 1-second timestamp rounding (4 words)"
+  },
+  {
+    "rec_id": "M03_entitled_girl",
+    "stem": "When an Entitled Girl Gets Instantly Humbled",
+    "line": 215,
+    "seg_idx": 71,
+    "speaker": "Speaker_5",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (572.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "M03_entitled_girl",
+    "stem": "When an Entitled Girl Gets Instantly Humbled",
+    "line": 230,
+    "seg_idx": 76,
+    "speaker": "Speaker_5",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (617.0s) due to 1-second timestamp rounding (4 words)"
+  },
+  {
+    "rec_id": "M03_entitled_girl",
+    "stem": "When an Entitled Girl Gets Instantly Humbled",
+    "line": 263,
+    "seg_idx": 87,
+    "speaker": "Speaker_8",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (675.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "M03_entitled_girl",
+    "stem": "When an Entitled Girl Gets Instantly Humbled",
+    "line": 293,
+    "seg_idx": 97,
+    "speaker": "Speaker_9",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (735.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "M03_entitled_girl",
+    "stem": "When an Entitled Girl Gets Instantly Humbled",
+    "line": 302,
+    "seg_idx": 100,
+    "speaker": "Speaker_10",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (751.0s) due to 1-second timestamp rounding (7 words)"
+  },
+  {
+    "rec_id": "M03_entitled_girl",
+    "stem": "When an Entitled Girl Gets Instantly Humbled",
+    "line": 305,
+    "seg_idx": 101,
+    "speaker": "Speaker_10",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (751.0s) due to 1-second timestamp rounding (6 words)"
+  },
+  {
+    "rec_id": "M03_entitled_girl",
+    "stem": "When an Entitled Girl Gets Instantly Humbled",
+    "line": 350,
+    "seg_idx": 116,
+    "speaker": "Speaker_9",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (982.0s) due to 1-second timestamp rounding (4 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 4,
+    "seg_idx": 1,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (4.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 13,
+    "seg_idx": 4,
+    "speaker": "Speaker_0",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (8.0s) due to 1-second timestamp rounding (6 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 22,
+    "seg_idx": 7,
+    "speaker": "Speaker_0",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (21.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 25,
+    "seg_idx": 8,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (22.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 43,
+    "seg_idx": 14,
+    "speaker": "Speaker_0",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (36.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 118,
+    "seg_idx": 39,
+    "speaker": "Speaker_0",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (109.0s) due to 1-second timestamp rounding (4 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 127,
+    "seg_idx": 42,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (112.0s) due to 1-second timestamp rounding (4 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 133,
+    "seg_idx": 44,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (116.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 145,
+    "seg_idx": 48,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (120.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 151,
+    "seg_idx": 50,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (121.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 160,
+    "seg_idx": 53,
+    "speaker": "Speaker_0",
+    "type": "MULTI_PARAGRAPH_BLOCK",
+    "action": "MERGED_LINES_WITH_FLAG",
+    "reason": "2 consecutive text paragraphs under single 3.0s header"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 173,
+    "seg_idx": 57,
+    "speaker": "Speaker_0",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (138.0s) due to 1-second timestamp rounding (14 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 176,
+    "seg_idx": 58,
+    "speaker": "Speaker_3",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (143.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 179,
+    "seg_idx": 59,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (146.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 206,
+    "seg_idx": 68,
+    "speaker": "Speaker_0",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (160.0s) due to 1-second timestamp rounding (5 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 209,
+    "seg_idx": 69,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (161.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 215,
+    "seg_idx": 71,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (165.0s) due to 1-second timestamp rounding (5 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 218,
+    "seg_idx": 72,
+    "speaker": "Speaker_0",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (165.0s) due to 1-second timestamp rounding (5 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 227,
+    "seg_idx": 75,
+    "speaker": "Speaker_3",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (172.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 236,
+    "seg_idx": 78,
+    "speaker": "Speaker_0",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (181.0s) due to 1-second timestamp rounding (5 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 257,
+    "seg_idx": 85,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (196.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 263,
+    "seg_idx": 87,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (201.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 266,
+    "seg_idx": 88,
+    "speaker": "Speaker_0",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (201.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 278,
+    "seg_idx": 92,
+    "speaker": "Speaker_0",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (206.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 281,
+    "seg_idx": 93,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (209.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 290,
+    "seg_idx": 96,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (219.0s) due to 1-second timestamp rounding (5 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 296,
+    "seg_idx": 98,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (223.0s) due to 1-second timestamp rounding (4 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 302,
+    "seg_idx": 100,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (229.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 320,
+    "seg_idx": 106,
+    "speaker": "Speaker_0",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (244.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 323,
+    "seg_idx": 107,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (244.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 335,
+    "seg_idx": 111,
+    "speaker": "Speaker_0",
+    "type": "MULTI_PARAGRAPH_BLOCK",
+    "action": "MERGED_LINES_WITH_FLAG",
+    "reason": "2 consecutive text paragraphs under single 15.0s header"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 456,
+    "seg_idx": 151,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (399.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 459,
+    "seg_idx": 152,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (403.0s) due to 1-second timestamp rounding (5 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 471,
+    "seg_idx": 156,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (410.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 486,
+    "seg_idx": 161,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (428.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 576,
+    "seg_idx": 191,
+    "speaker": "Speaker_4",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (519.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 591,
+    "seg_idx": 196,
+    "speaker": "Speaker_0",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (529.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 612,
+    "seg_idx": 203,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (541.0s) due to 1-second timestamp rounding (4 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 615,
+    "seg_idx": 204,
+    "speaker": "Speaker_3",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (542.0s) due to 1-second timestamp rounding (7 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 618,
+    "seg_idx": 205,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (543.0s) due to 1-second timestamp rounding (5 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 633,
+    "seg_idx": 210,
+    "speaker": "Speaker_3",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (561.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 642,
+    "seg_idx": 213,
+    "speaker": "Speaker_5",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (570.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 651,
+    "seg_idx": 216,
+    "speaker": "Speaker_0",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (664.0s) due to 1-second timestamp rounding (1 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 660,
+    "seg_idx": 219,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (677.0s) due to 1-second timestamp rounding (6 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 672,
+    "seg_idx": 223,
+    "speaker": "Speaker_2",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (684.0s) due to 1-second timestamp rounding (5 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 696,
+    "seg_idx": 231,
+    "speaker": "Speaker_5",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (765.0s) due to 1-second timestamp rounding (16 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 708,
+    "seg_idx": 235,
+    "speaker": "Speaker_5",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (777.0s) due to 1-second timestamp rounding (5 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 714,
+    "seg_idx": 237,
+    "speaker": "Speaker_5",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (780.0s) due to 1-second timestamp rounding (4 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 726,
+    "seg_idx": 241,
+    "speaker": "Speaker_4",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (796.0s) due to 1-second timestamp rounding (4 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 729,
+    "seg_idx": 242,
+    "speaker": "Speaker_5",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (797.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 732,
+    "seg_idx": 243,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (798.0s) due to 1-second timestamp rounding (7 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 741,
+    "seg_idx": 246,
+    "speaker": "Speaker_3",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (801.0s) due to 1-second timestamp rounding (4 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 744,
+    "seg_idx": 247,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (803.0s) due to 1-second timestamp rounding (3 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 747,
+    "seg_idx": 248,
+    "speaker": "Speaker_4",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (804.0s) due to 1-second timestamp rounding (6 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 759,
+    "seg_idx": 252,
+    "speaker": "Speaker_1",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (816.0s) due to 1-second timestamp rounding (2 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 768,
+    "seg_idx": 255,
+    "speaker": "Speaker_4",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (832.0s) due to 1-second timestamp rounding (4 words)"
+  },
+  {
+    "rec_id": "M04_traffic_stop",
+    "stem": "Woman's Attitude Makes Traffic Stop 10x Worse",
+    "line": 784,
+    "seg_idx": 260,
+    "speaker": "Speaker_6",
+    "type": "ZERO_DURATION_SEGMENT",
+    "action": "OMITTED_FROM_RTTM_RETAINED_IN_JSON_AND_LEDGER",
+    "reason": "Start == End (855.0s) due to 1-second timestamp rounding (6 words)"
+  }
+]

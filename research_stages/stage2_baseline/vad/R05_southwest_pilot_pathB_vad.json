@@ -1,0 +1,228 @@
+{
+  "file": "R05_southwest_pilot_normalized.wav",
+  "model": "pyannote/voice-activity-detection (local PyanNet assets/pytorch_model.bin)",
+  "path": "pathB",
+  "fallback": false,
+  "duration": 162.446813,
+  "raw_count": 47,
+  "merged_count": 47,
+  "filtered_count": 47,
+  "split_count": 47,
+  "final_count": 47,
+  "removed_short_segments": 0,
+  "split_operations": [],
+  "recursive_depth": 0,
+  "pre_split_duration_histogram": {
+    "0-5": 39,
+    "5-10": 6,
+    "10-15": 2,
+    "15-20": 0,
+    "20-25": 0,
+    "25-30": 0,
+    ">30": 0
+  },
+  "post_split_duration_histogram": {
+    "0-5": 39,
+    "5-10": 6,
+    "10-15": 2,
+    "15-20": 0,
+    "20-25": 0,
+    "25-30": 0,
+    ">30": 0
+  },
+  "average_segment_duration": 2.511063829787235,
+  "maximum_segment_duration": 13.703,
+  "minimum_segment_duration": 0.27,
+  "total_speech_duration": 118.02,
+  "segments": [
+    {
+      "start": 0.082,
+      "end": 3.338
+    },
+    {
+      "start": 6.207,
+      "end": 11.523
+    },
+    {
+      "start": 13.632,
+      "end": 17.007
+    },
+    {
+      "start": 17.311,
+      "end": 18.712
+    },
+    {
+      "start": 19.032,
+      "end": 19.589
+    },
+    {
+      "start": 20.467,
+      "end": 21.682
+    },
+    {
+      "start": 22.508,
+      "end": 24.685
+    },
+    {
+      "start": 27.487,
+      "end": 28.516
+    },
+    {
+      "start": 29.545,
+      "end": 30.44
+    },
+    {
+      "start": 30.608,
+      "end": 30.929
+    },
+    {
+      "start": 31.638,
+      "end": 32.633
+    },
+    {
+      "start": 33.967,
+      "end": 34.625
+    },
+    {
+      "start": 35.317,
+      "end": 38.287
+    },
+    {
+      "start": 38.692,
+      "end": 39.535
+    },
+    {
+      "start": 40.193,
+      "end": 43.332
+    },
+    {
+      "start": 44.227,
+      "end": 44.885
+    },
+    {
+      "start": 46.117,
+      "end": 46.876
+    },
+    {
+      "start": 48.496,
+      "end": 49.103
+    },
+    {
+      "start": 49.373,
+      "end": 50.268
+    },
+    {
+      "start": 50.707,
+      "end": 52.192
+    },
+    {
+      "start": 52.546,
+      "end": 52.917
+    },
+    {
+      "start": 53.086,
+      "end": 54.689
+    },
+    {
+      "start": 54.942,
+      "end": 55.381
+    },
+    {
+      "start": 56.343,
+      "end": 61.591
+    },
+    {
+      "start": 63.143,
+      "end": 76.846
+    },
+    {
+      "start": 78.837,
+      "end": 80.288
+    },
+    {
+      "start": 81.79,
+      "end": 86.667
+    },
+    {
+      "start": 87.258,
+      "end": 89.047
+    },
+    {
+      "start": 89.333,
+      "end": 89.603
+    },
+    {
+      "start": 90.548,
+      "end": 90.852
+    },
+    {
+      "start": 91.713,
+      "end": 92.455
+    },
+    {
+      "start": 92.911,
+      "end": 93.248
+    },
+    {
+      "start": 94.126,
+      "end": 94.514
+    },
+    {
+      "start": 95.172,
+      "end": 95.729
+    },
+    {
+      "start": 96.269,
+      "end": 96.792
+    },
+    {
+      "start": 97.484,
+      "end": 98.041
+    },
+    {
+      "start": 98.53,
+      "end": 100.387
+    },
+    {
+      "start": 102.243,
+      "end": 104.639
+    },
+    {
+      "start": 108.065,
+      "end": 108.368
+    },
+    {
+      "start": 108.993,
+      "end": 114.308
+    },
+    {
+      "start": 114.646,
+      "end": 121.328
+    },
+    {
+      "start": 122.122,
+      "end": 126.121
+    },
+    {
+      "start": 126.965,
+      "end": 138.457
+    },
+    {
+      "start": 138.727,
+      "end": 142.895
+    },
+    {
+      "start": 143.08,
+      "end": 143.468
+    },
+    {
+      "start": 143.857,
+      "end": 153.712
+    },
+    {
+      "start": 154.657,
+      "end": 160.512
+    }
+  ],
+  "processing_time_sec": 0.1467
+}

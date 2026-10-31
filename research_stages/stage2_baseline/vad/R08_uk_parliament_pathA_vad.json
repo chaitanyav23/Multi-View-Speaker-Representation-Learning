@@ -1,0 +1,173 @@
+{
+  "file": "R08_uk_parliament_dfn.wav",
+  "model": "pyannote/voice-activity-detection (local PyanNet assets/pytorch_model.bin)",
+  "path": "pathA",
+  "fallback": false,
+  "duration": 215.341875,
+  "raw_count": 30,
+  "merged_count": 30,
+  "filtered_count": 30,
+  "split_count": 31,
+  "final_count": 31,
+  "removed_short_segments": 0,
+  "split_operations": [
+    {
+      "input_start": 169.169,
+      "input_end": 199.595,
+      "input_duration": 30.426,
+      "split_at": 192.372,
+      "method": "probability",
+      "depth": 0
+    }
+  ],
+  "recursive_depth": 1,
+  "pre_split_duration_histogram": {
+    "0-5": 19,
+    "5-10": 8,
+    "10-15": 1,
+    "15-20": 0,
+    "20-25": 1,
+    "25-30": 0,
+    ">30": 1
+  },
+  "post_split_duration_histogram": {
+    "0-5": 19,
+    "5-10": 9,
+    "10-15": 1,
+    "15-20": 0,
+    "20-25": 2,
+    "25-30": 0,
+    ">30": 0
+  },
+  "average_segment_duration": 5.794548387096773,
+  "maximum_segment_duration": 23.203,
+  "minimum_segment_duration": 0.253,
+  "total_speech_duration": 179.631,
+  "segments": [
+    {
+      "start": 0.605,
+      "end": 5.498
+    },
+    {
+      "start": 5.667,
+      "end": 7.996
+    },
+    {
+      "start": 8.519,
+      "end": 12.029
+    },
+    {
+      "start": 13.075,
+      "end": 14.155
+    },
+    {
+      "start": 15.151,
+      "end": 23.858
+    },
+    {
+      "start": 24.078,
+      "end": 31.553
+    },
+    {
+      "start": 32.414,
+      "end": 35.654
+    },
+    {
+      "start": 36.38,
+      "end": 41.189
+    },
+    {
+      "start": 43.265,
+      "end": 45.458
+    },
+    {
+      "start": 45.948,
+      "end": 48.395
+    },
+    {
+      "start": 50.504,
+      "end": 51.263
+    },
+    {
+      "start": 52.934,
+      "end": 53.525
+    },
+    {
+      "start": 54.115,
+      "end": 54.368
+    },
+    {
+      "start": 57.288,
+      "end": 79.698
+    },
+    {
+      "start": 80.407,
+      "end": 81.301
+    },
+    {
+      "start": 85.199,
+      "end": 95.864
+    },
+    {
+      "start": 96.59,
+      "end": 97.535
+    },
+    {
+      "start": 98.615,
+      "end": 102.665
+    },
+    {
+      "start": 103.07,
+      "end": 108.031
+    },
+    {
+      "start": 109.837,
+      "end": 112.84
+    },
+    {
+      "start": 112.992,
+      "end": 119.253
+    },
+    {
+      "start": 119.489,
+      "end": 122.864
+    },
+    {
+      "start": 123.826,
+      "end": 131.234
+    },
+    {
+      "start": 132.044,
+      "end": 142.0
+    },
+    {
+      "start": 142.49,
+      "end": 152.328
+    },
+    {
+      "start": 153.442,
+      "end": 159.753
+    },
+    {
+      "start": 159.955,
+      "end": 167.853
+    },
+    {
+      "start": 169.169,
+      "end": 192.372
+    },
+    {
+      "start": 192.372,
+      "end": 199.595
+    },
+    {
+      "start": 201.248,
+      "end": 205.265
+    },
+    {
+      "start": 205.687,
+      "end": 210.614
+    }
+  ],
+  "processing_time_sec": 0.1886
+}

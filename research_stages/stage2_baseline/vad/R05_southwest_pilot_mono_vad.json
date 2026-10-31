@@ -1,0 +1,168 @@
+{
+  "file": "R05_southwest_pilot_16k_mono.wav",
+  "model": "pyannote/voice-activity-detection (local PyanNet assets/pytorch_model.bin)",
+  "path": "mono",
+  "fallback": false,
+  "duration": 162.446813,
+  "raw_count": 32,
+  "merged_count": 32,
+  "filtered_count": 32,
+  "split_count": 32,
+  "final_count": 32,
+  "removed_short_segments": 0,
+  "split_operations": [],
+  "recursive_depth": 0,
+  "pre_split_duration_histogram": {
+    "0-5": 23,
+    "5-10": 7,
+    "10-15": 1,
+    "15-20": 0,
+    "20-25": 0,
+    "25-30": 1,
+    ">30": 0
+  },
+  "post_split_duration_histogram": {
+    "0-5": 23,
+    "5-10": 7,
+    "10-15": 1,
+    "15-20": 0,
+    "20-25": 0,
+    "25-30": 1,
+    ">30": 0
+  },
+  "average_segment_duration": 3.8695937500000004,
+  "maximum_segment_duration": 26.932,
+  "minimum_segment_duration": 0.32,
+  "total_speech_duration": 123.827,
+  "segments": [
+    {
+      "start": 0.031,
+      "end": 3.49
+    },
+    {
+      "start": 6.224,
+      "end": 11.489
+    },
+    {
+      "start": 13.7,
+      "end": 17.108
+    },
+    {
+      "start": 17.277,
+      "end": 18.897
+    },
+    {
+      "start": 19.049,
+      "end": 19.724
+    },
+    {
+      "start": 20.5,
+      "end": 21.698
+    },
+    {
+      "start": 22.525,
+      "end": 24.668
+    },
+    {
+      "start": 27.537,
+      "end": 28.567
+    },
+    {
+      "start": 29.545,
+      "end": 32.768
+    },
+    {
+      "start": 34.0,
+      "end": 34.996
+    },
+    {
+      "start": 35.367,
+      "end": 38.202
+    },
+    {
+      "start": 38.759,
+      "end": 39.535
+    },
+    {
+      "start": 40.21,
+      "end": 43.349
+    },
+    {
+      "start": 44.26,
+      "end": 44.733
+    },
+    {
+      "start": 46.15,
+      "end": 46.893
+    },
+    {
+      "start": 48.479,
+      "end": 55.482
+    },
+    {
+      "start": 56.326,
+      "end": 61.557
+    },
+    {
+      "start": 63.143,
+      "end": 76.846
+    },
+    {
+      "start": 78.871,
+      "end": 80.305
+    },
+    {
+      "start": 81.807,
+      "end": 82.33
+    },
+    {
+      "start": 82.567,
+      "end": 89.148
+    },
+    {
+      "start": 89.317,
+      "end": 89.637
+    },
+    {
+      "start": 90.515,
+      "end": 90.886
+    },
+    {
+      "start": 91.679,
+      "end": 100.387
+    },
+    {
+      "start": 102.327,
+      "end": 104.352
+    },
+    {
+      "start": 109.043,
+      "end": 109.398
+    },
+    {
+      "start": 109.921,
+      "end": 112.199
+    },
+    {
+      "start": 112.621,
+      "end": 113.228
+    },
+    {
+      "start": 114.646,
+      "end": 121.7
+    },
+    {
+      "start": 122.122,
+      "end": 126.188
+    },
+    {
+      "start": 126.965,
+      "end": 153.897
+    },
+    {
+      "start": 154.657,
+      "end": 160.31
+    }
+  ],
+  "processing_time_sec": 0.1514
+}
