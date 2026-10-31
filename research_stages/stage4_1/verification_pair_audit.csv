@@ -1,0 +1,11 @@
+scope,rec_id,clean_gt_turns_stage1,usable_clean_turns_scale4,clean_speakers_present,speakers_with_ge2_clean_turns,turn_pos_pairs,turn_neg_pairs,turn_total_pairs,share_of_within_rec_pairs,turn_eer_eligible,ineligibility_reason,scale4_nonadj_subseg_pos_pairs,scale4_nonadj_subseg_neg_pairs,scale4_turndisj_subseg_pos_pairs,scale4_turndisj_subseg_neg_pairs
+WITHIN_RECORDING::R01_sara_sharif,R01_sara_sharif,7,6,5,1,1,14,15,0.0015,True,ELIGIBLE,16526,14692,4681,14698
+WITHIN_RECORDING::R02_dennis_skinner,R02_dennis_skinner,2,2,1,1,1,0,1,0.0001,False,ZERO_NEGATIVE_PAIRS_ONLY_1_CLEAN_SPEAKER,19704,30714,150,0
+WITHIN_RECORDING::R03_disabled_parking,R03_disabled_parking,52,51,5,2,556,719,1275,0.1299,True,ELIGIBLE,68924,78451,64454,76743
+WITHIN_RECORDING::R04_piers_robinson,R04_piers_robinson,3,3,3,0,0,3,3,0.0003,False,ZERO_POSITIVE_PAIRS_EACH_SPEAKER_HAS_1_CLEAN_TURN,22024,31033,0,749
+WITHIN_RECORDING::R05_southwest_pilot,R05_southwest_pilot,26,25,3,3,134,166,300,0.0306,True,ELIGIBLE,18114,13217,15590,13223
+WITHIN_RECORDING::R06_rich_karen,R06_rich_karen,127,124,9,8,1834,5792,7626,0.7768,True,ELIGIBLE,148209,521397,131499,509927
+WITHIN_RECORDING::R07_bwc_cheap_shot,R07_bwc_cheap_shot,37,34,3,2,286,275,561,0.0571,True,ELIGIBLE,45494,10053,32390,8774
+WITHIN_RECORDING::R08_uk_parliament,R08_uk_parliament,10,9,2,2,16,20,36,0.0037,True,ELIGIBLE,104519,108160,74270,108160
+SUMMARY::ALL_WITHIN_RECORDING_TURN_PAIRS,ALL_8_RECORDINGS_WITHIN,264,254,32,19,2828,6989,9817,1.0,True,VALID_WITHIN_RECORDING_POPULATION (Note: R06 holds 76.43% of pairs),443514,807717,323034,732274
+SUMMARY::CROSS_RECORDING_TURN_PAIRS_ONLY,CROSS_RECORDING_ONLY,264,254,32,0,0,22314,22314,0.0,False,INVALID_FOR_VERIFICATION_EER: 0 positive cross-recording pairs exist (no cross-recording speaker IDs),0,0,0,0
