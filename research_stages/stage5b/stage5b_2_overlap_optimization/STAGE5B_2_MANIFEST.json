@@ -1,0 +1,1270 @@
+{
+  "stage": "Stage 5B.2 Overlap Optimization",
+  "generated_at": "2026-11-03",
+  "files": {
+    "STAGE5B_2_EXECUTION_LOG.md": {
+      "sha256": "39d077496d91fe484c90a6637283706f593dd56cd613c0586c04331600adb25a",
+      "size_bytes": 2903
+    },
+    "STAGE5B_2_EXPERIMENT_PROTOCOL.md": {
+      "sha256": "4e8c646c31a657636235410e149e26ca77dcf00b5fc8000d304c0c7739685122",
+      "size_bytes": 5778
+    },
+    "STAGE5B_2_FAILURE_ANALYSIS.md": {
+      "sha256": "e6c11b402b9ad17c392ae11a12a5cc8647ae0d45b2a18e11e8cead600c2c51f1",
+      "size_bytes": 5417
+    },
+    "STAGE5B_2_FINAL_REPORT.md": {
+      "sha256": "f38b129a585e5aa45e3bd1b02afa4798d85f15354335600c662a3023c2af1175",
+      "size_bytes": 9325
+    },
+    "STAGE5B_2_METHOD_COMPARISON.md": {
+      "sha256": "5b691e4f11b4b81a1acaf046d63d1f8ea0da2f449bc6b91475e3aa09469e44ce",
+      "size_bytes": 6555
+    },
+    "STAGE5B_2_OVERLAP_AUDIT.md": {
+      "sha256": "23b46eb462e47ceb6348d8284724038c88e5aa741faccc8e92f940f2b2470352",
+      "size_bytes": 5782
+    },
+    "configs/stage5b_2_config.json": {
+      "sha256": "9448893ef3ccf3105ba6f091450da18e762ae005b6307fc59e3b23c0fb67d3f0",
+      "size_bytes": 4427
+    },
+    "metrics/STAGE5B_2_METRICS_PER_RECORDING.csv": {
+      "sha256": "23ab153ce0e4cb5efdbe70143f499010a4d1ca06f3bdd87be2fe73554a84e689",
+      "size_bytes": 46559
+    },
+    "metrics/STAGE5B_2_SUMMARY_RESULTS.csv": {
+      "sha256": "457e3264a4ea960201ba673e750ab5dee24fa6ca6cffe976a58097ce352950d2",
+      "size_bytes": 7408
+    },
+    "overlap_cache/R01_sara_sharif_dfn_overlap.npz": {
+      "sha256": "4ffda87cb2525563b90ff8b9b7fdae90bfb944b59d0958e1f8c41cfef60afa78",
+      "size_bytes": 40207
+    },
+    "overlap_cache/R01_sara_sharif_mono_overlap.npz": {
+      "sha256": "695b17b0e7c95b666d33bbe440059d1d130c5e642a2e4c30b92079445f6dd66b",
+      "size_bytes": 40114
+    },
+    "overlap_cache/R02_dennis_skinner_dfn_overlap.npz": {
+      "sha256": "b0cdf8eef4764be4fb423f73d9912543c8e119566d421f94652a81fc7f91b676",
+      "size_bytes": 68552
+    },
+    "overlap_cache/R02_dennis_skinner_mono_overlap.npz": {
+      "sha256": "3f18af571c90eec8e4414be1f6e90ee3402dbdb87abbadc54acb6a1f6e1c74bd",
+      "size_bytes": 68458
+    },
+    "overlap_cache/R03_disabled_parking_dfn_overlap.npz": {
+      "sha256": "5aa7c7de323f35b11fa670ba55bf533a13744d9280e2820b9e86186c56673fda",
+      "size_bytes": 79891
+    },
+    "overlap_cache/R03_disabled_parking_mono_overlap.npz": {
+      "sha256": "3178ba7eab3a6e5bff0632d1cb28ab3b0a8b0ae233116a311d46adb77a9c0d1f",
+      "size_bytes": 79878
+    },
+    "overlap_cache/R04_piers_robinson_dfn_overlap.npz": {
+      "sha256": "a6443da2cd4d18bc03089bbbac1708cfa20eb0fd8ab60dd33c1c5c4cd423356f",
+      "size_bytes": 79783
+    },
+    "overlap_cache/R04_piers_robinson_mono_overlap.npz": {
+      "sha256": "2d637b38e90d597deb7851fb8ba5deb9c4e6dc81de21a51a4e3d23e9f263ce8d",
+      "size_bytes": 79627
+    },
+    "overlap_cache/R05_southwest_pilot_dfn_overlap.npz": {
+      "sha256": "d4aaca34b3e2f354a1226d8d14e8848b569d15ef3caa8380c30f6ef454b9d2a9",
+      "size_bytes": 63332
+    },
+    "overlap_cache/R05_southwest_pilot_mono_overlap.npz": {
+      "sha256": "1e81a45d0a9c03f17cb9ecad7efb00d6ce4e09594840b4766f80f739511d1a30",
+      "size_bytes": 62947
+    },
+    "overlap_cache/R06_rich_karen_dfn_overlap.npz": {
+      "sha256": "29ab6fc959fed6804bc0ac8bc937d8e344790d034fbb06dee0ffb5e6ce90084d",
+      "size_bytes": 240126
+    },
+    "overlap_cache/R06_rich_karen_mono_overlap.npz": {
+      "sha256": "61ab844c38a51e933d94b4c65d7753f3d74660f5e280f3c7dec5759e213a1d62",
+      "size_bytes": 239524
+    },
+    "overlap_cache/R07_bwc_cheap_shot_dfn_overlap.npz": {
+      "sha256": "def4dbed3ea1984799de68b82c7dd040434f9cf8d5e535492ab08d6e723490c0",
+      "size_bytes": 68319
+    },
+    "overlap_cache/R07_bwc_cheap_shot_mono_overlap.npz": {
+      "sha256": "6b6257c7b5a254b268071639922f21e44246abc9190b7671d00c038cf731605b",
+      "size_bytes": 67762
+    },
+    "overlap_cache/R08_uk_parliament_dfn_overlap.npz": {
+      "sha256": "36d3b474a2427b18802c053d18b866c277aafb7f8a2ed04a32c188ebda583db7",
+      "size_bytes": 83338
+    },
+    "overlap_cache/R08_uk_parliament_mono_overlap.npz": {
+      "sha256": "413d48df20d4bf22c6fbedb6890b6a99beb39ceb10042f37ffcd121332525ed0",
+      "size_bytes": 83311
+    },
+    "scripts/run_stage5b_2_experiments.py": {
+      "sha256": "876ee3479bf4592224cf50b2bba5f7ccee296360fc38c45259b927f7ce6d118d",
+      "size_bytes": 30090
+    },
+    "predictions/O11_thresh_040/R01_sara_sharif_attr.json": {
+      "sha256": "34b287d20b4cd2274a01c9393c9c66aede87e4129200f19876e6e02ccdca47af",
+      "size_bytes": 46126
+    },
+    "predictions/O11_thresh_040/R01_sara_sharif_dfn.rttm": {
+      "sha256": "43e23d68e349c5b0db6702e9e06b9206a951a07907594d1691474b23cb813ac7",
+      "size_bytes": 2187
+    },
+    "predictions/O11_thresh_040/R02_dennis_skinner_attr.json": {
+      "sha256": "d70e90f8657134acbc1ac0173499898cca91e29d2ae27943459b83f96f8592f1",
+      "size_bytes": 55807
+    },
+    "predictions/O11_thresh_040/R02_dennis_skinner_dfn.rttm": {
+      "sha256": "0e2c988fbc041fdc4a7ea757ba77c8902d0b9cfaf4529264014137444041919f",
+      "size_bytes": 4134
+    },
+    "predictions/O11_thresh_040/R03_disabled_parking_attr.json": {
+      "sha256": "792ccda4a23ab8ff5d2bef9d112318313a115345bbee9e4bd2f5bc367b18620b",
+      "size_bytes": 115233
+    },
+    "predictions/O11_thresh_040/R03_disabled_parking_dfn.rttm": {
+      "sha256": "63eb2cb138f2c0412deca6efa5704f8afc803b9f21796977a549e3491df314a9",
+      "size_bytes": 6278
+    },
+    "predictions/O11_thresh_040/R04_piers_robinson_attr.json": {
+      "sha256": "a26e69c8821618282dbec3fdd20f22f0613484affb82da82b4d0c1909b9f377b",
+      "size_bytes": 125272
+    },
+    "predictions/O11_thresh_040/R04_piers_robinson_dfn.rttm": {
+      "sha256": "49bd029e34c6837885798f248a6476f9b8a9836df471b5119a8ff9bc4985e61c",
+      "size_bytes": 7416
+    },
+    "predictions/O11_thresh_040/R05_southwest_pilot_attr.json": {
+      "sha256": "9d341167ebde0af8488b6f22886e1ff01983d2b9ce661970d15ddc20aeace50c",
+      "size_bytes": 68635
+    },
+    "predictions/O11_thresh_040/R05_southwest_pilot_dfn.rttm": {
+      "sha256": "f9aa410903a906f0200ec2396f788104df46116b0fdc5927f74840ff9f58c45d",
+      "size_bytes": 5782
+    },
+    "predictions/O11_thresh_040/R06_rich_karen_attr.json": {
+      "sha256": "c2947e29452616cf08e8be348f2acac95c6d9e1084b541ea94a62997d3164703",
+      "size_bytes": 317637
+    },
+    "predictions/O11_thresh_040/R06_rich_karen_dfn.rttm": {
+      "sha256": "946f7bacb804bbc603a396aa357d3ed40433dd3214f658892fd7f1d64ade86aa",
+      "size_bytes": 22532
+    },
+    "predictions/O11_thresh_040/R07_bwc_cheap_shot_attr.json": {
+      "sha256": "058def757a10303c47de621fd85384ec188046b867045f83b4dff167e1a60ff1",
+      "size_bytes": 82398
+    },
+    "predictions/O11_thresh_040/R07_bwc_cheap_shot_dfn.rttm": {
+      "sha256": "fe733dbc0ea64e21c0eb0cd5e9f6e0fbcc93128166df0d50020935db1f7c785e",
+      "size_bytes": 3369
+    },
+    "predictions/O11_thresh_040/R08_uk_parliament_attr.json": {
+      "sha256": "4b3acb5bf3e90ff0a21c600c5b98b3db777659dde155eab5a3e8be44a500b188",
+      "size_bytes": 80821
+    },
+    "predictions/O11_thresh_040/R08_uk_parliament_dfn.rttm": {
+      "sha256": "41439cd2ed8ba8ccc0d77838bdd897cb0d04c2ce6c706de01db9386e593675eb",
+      "size_bytes": 2336
+    },
+    "predictions/O01_base_c50/R01_sara_sharif_attr.json": {
+      "sha256": "b30f647d36e5fc77b33a84a74d1c9f305655e2d9bd4c04f71d9a9f07ca78a9f2",
+      "size_bytes": 45780
+    },
+    "predictions/O01_base_c50/R01_sara_sharif_dfn.rttm": {
+      "sha256": "40133e77b7077b041a67257b2946b2439c7fb8aecf85f45b42e58b86d29eb159",
+      "size_bytes": 1458
+    },
+    "predictions/O01_base_c50/R02_dennis_skinner_attr.json": {
+      "sha256": "05a8cd5c82a47811d1fe01095989bef705f0da198ccc2ed356730655b1acb369",
+      "size_bytes": 54953
+    },
+    "predictions/O01_base_c50/R02_dennis_skinner_dfn.rttm": {
+      "sha256": "7b29644cb7dc130acd50b8f0bef1454083d15215cefcd8922fc5b57d15142752",
+      "size_bytes": 3138
+    },
+    "predictions/O01_base_c50/R03_disabled_parking_attr.json": {
+      "sha256": "bb5b1a1167cff757b1d1adb9ba40c35aa8422229970f6ef0288eab636d176937",
+      "size_bytes": 115917
+    },
+    "predictions/O01_base_c50/R03_disabled_parking_dfn.rttm": {
+      "sha256": "5fee5ee2b9e430688d99b7982f604e4c95a354715da34580a6da341dda9ab631",
+      "size_bytes": 4788
+    },
+    "predictions/O01_base_c50/R04_piers_robinson_attr.json": {
+      "sha256": "27b64a8f01a0e36c703ec419c149675e5e1d2144f1b43d58ee011d2e3edb7395",
+      "size_bytes": 124641
+    },
+    "predictions/O01_base_c50/R04_piers_robinson_dfn.rttm": {
+      "sha256": "f30d345d3598765e0fdf588b41e680b0c24a3eac8831f3fa1957229ccc86632b",
+      "size_bytes": 5273
+    },
+    "predictions/O01_base_c50/R05_southwest_pilot_attr.json": {
+      "sha256": "4513684893d1d4d655641a6ec62c450a97545ab302dc2fc470fda177a09e73aa",
+      "size_bytes": 68694
+    },
+    "predictions/O01_base_c50/R05_southwest_pilot_dfn.rttm": {
+      "sha256": "7d64de7d8c50ab9134f688bae1dc18439b625bdce932611793b97248372bfa90",
+      "size_bytes": 4323
+    },
+    "predictions/O01_base_c50/R06_rich_karen_attr.json": {
+      "sha256": "1a7178f651c62afe70d36947cd0838ea65d114235ad1eb55e1ffb80990fe528f",
+      "size_bytes": 315433
+    },
+    "predictions/O01_base_c50/R06_rich_karen_dfn.rttm": {
+      "sha256": "9f9f49902ffd8a72cf4eb47f6b6133f32a99f0d5804bf09d64717b2e3e6a12cd",
+      "size_bytes": 17429
+    },
+    "predictions/O01_base_c50/R07_bwc_cheap_shot_attr.json": {
+      "sha256": "6508775dcb64a4d48c64d6f30b55a500afe28f6d615ad90cf951c82f84a8213d",
+      "size_bytes": 82386
+    },
+    "predictions/O01_base_c50/R07_bwc_cheap_shot_dfn.rttm": {
+      "sha256": "e9ee915dcc8a1197dc7083256bdded7605aa10a2ccda3bc2fb6c64126943d96e",
+      "size_bytes": 1915
+    },
+    "predictions/O01_base_c50/R08_uk_parliament_attr.json": {
+      "sha256": "4b3acb5bf3e90ff0a21c600c5b98b3db777659dde155eab5a3e8be44a500b188",
+      "size_bytes": 80821
+    },
+    "predictions/O01_base_c50/R08_uk_parliament_dfn.rttm": {
+      "sha256": "9f21facd3ec1c9523f9e28a9516672efd028f906169b3d164c46b6b8d8dbdf94",
+      "size_bytes": 2183
+    },
+    "predictions/O13_thresh_060/R01_sara_sharif_attr.json": {
+      "sha256": "34b287d20b4cd2274a01c9393c9c66aede87e4129200f19876e6e02ccdca47af",
+      "size_bytes": 46126
+    },
+    "predictions/O13_thresh_060/R01_sara_sharif_dfn.rttm": {
+      "sha256": "8d6b5c18ea534d6f85ff49874aa8c5bbbc75af31a0d67e44a37db588a4cb10d6",
+      "size_bytes": 1969
+    },
+    "predictions/O13_thresh_060/R02_dennis_skinner_attr.json": {
+      "sha256": "b039139f4af99c8d53dcd53312e2fb7eaebb7dd61b5f69f67c9d441411e2e6de",
+      "size_bytes": 55417
+    },
+    "predictions/O13_thresh_060/R02_dennis_skinner_dfn.rttm": {
+      "sha256": "e0f76f0c6ebf4b091bb0da40eb67b505f4baa3f85bb3083292d5c1ba500a3efe",
+      "size_bytes": 4057
+    },
+    "predictions/O13_thresh_060/R03_disabled_parking_attr.json": {
+      "sha256": "7f63c417bff2a2777d3a425a56aaffb2cebd816ae0b2c071ea6abdfdf61e016b",
+      "size_bytes": 115493
+    },
+    "predictions/O13_thresh_060/R03_disabled_parking_dfn.rttm": {
+      "sha256": "8ce960b6f9e32ad853fe933e73da4ddd223972c474e25aae443e7faad0f4493f",
+      "size_bytes": 5652
+    },
+    "predictions/O13_thresh_060/R04_piers_robinson_attr.json": {
+      "sha256": "537b1a258d8118b5f592077dae8040a0190e07ea36c31ef4f74e057b6dcd8842",
+      "size_bytes": 125658
+    },
+    "predictions/O13_thresh_060/R04_piers_robinson_dfn.rttm": {
+      "sha256": "087b00cd725132fd8f5889f4db6e1ba47cc2b4d38977f27c7c9d6090af16836b",
+      "size_bytes": 7340
+    },
+    "predictions/O13_thresh_060/R05_southwest_pilot_attr.json": {
+      "sha256": "decd741ff2f38094810a681ef0186cd7511be60db6c9894f23db4978ba8065ba",
+      "size_bytes": 68254
+    },
+    "predictions/O13_thresh_060/R05_southwest_pilot_dfn.rttm": {
+      "sha256": "4fb92d8edda5dfc7a920c17b192ac1559503ddc922423d31b3c3851f8e5957d0",
+      "size_bytes": 5628
+    },
+    "predictions/O13_thresh_060/R06_rich_karen_attr.json": {
+      "sha256": "c388ce7e56bc48d25960a22995d5a2010413db343c7ff920c8fe4e4dbb41d6df",
+      "size_bytes": 316856
+    },
+    "predictions/O13_thresh_060/R06_rich_karen_dfn.rttm": {
+      "sha256": "0d48d1f308f79fc67784315e51c7b47a9dc5ac5c5340dafb06eac5c24ccc2fbc",
+      "size_bytes": 21365
+    },
+    "predictions/O13_thresh_060/R07_bwc_cheap_shot_attr.json": {
+      "sha256": "058def757a10303c47de621fd85384ec188046b867045f83b4dff167e1a60ff1",
+      "size_bytes": 82398
+    },
+    "predictions/O13_thresh_060/R07_bwc_cheap_shot_dfn.rttm": {
+      "sha256": "fe733dbc0ea64e21c0eb0cd5e9f6e0fbcc93128166df0d50020935db1f7c785e",
+      "size_bytes": 3369
+    },
+    "predictions/O13_thresh_060/R08_uk_parliament_attr.json": {
+      "sha256": "4b3acb5bf3e90ff0a21c600c5b98b3db777659dde155eab5a3e8be44a500b188",
+      "size_bytes": 80821
+    },
+    "predictions/O13_thresh_060/R08_uk_parliament_dfn.rttm": {
+      "sha256": "41439cd2ed8ba8ccc0d77838bdd897cb0d04c2ce6c706de01db9386e593675eb",
+      "size_bytes": 2336
+    },
+    "predictions/O14_thresh_070/R01_sara_sharif_attr.json": {
+      "sha256": "34b287d20b4cd2274a01c9393c9c66aede87e4129200f19876e6e02ccdca47af",
+      "size_bytes": 46126
+    },
+    "predictions/O14_thresh_070/R01_sara_sharif_dfn.rttm": {
+      "sha256": "8d6b5c18ea534d6f85ff49874aa8c5bbbc75af31a0d67e44a37db588a4cb10d6",
+      "size_bytes": 1969
+    },
+    "predictions/O14_thresh_070/R02_dennis_skinner_attr.json": {
+      "sha256": "b039139f4af99c8d53dcd53312e2fb7eaebb7dd61b5f69f67c9d441411e2e6de",
+      "size_bytes": 55417
+    },
+    "predictions/O14_thresh_070/R02_dennis_skinner_dfn.rttm": {
+      "sha256": "c24ca4c21b1546e2d15d5d1e5a9d666b29851264cf41c63c80ef724f6e00180e",
+      "size_bytes": 3980
+    },
+    "predictions/O14_thresh_070/R03_disabled_parking_attr.json": {
+      "sha256": "976f651c0595e14322f6f9b0d96ab21df2d724d29f1b6d054028a5e648f42d62",
+      "size_bytes": 116529
+    },
+    "predictions/O14_thresh_070/R03_disabled_parking_dfn.rttm": {
+      "sha256": "6933bb3ef6121a235c548385d832276e0883922efa52066cce96b633ed4e8a17",
+      "size_bytes": 5338
+    },
+    "predictions/O14_thresh_070/R04_piers_robinson_attr.json": {
+      "sha256": "d405c3f1739b2f3bac727c65e3ae0f6cfa6637b64275526f5531d67d9b4568e1",
+      "size_bytes": 126178
+    },
+    "predictions/O14_thresh_070/R04_piers_robinson_dfn.rttm": {
+      "sha256": "8dff5c7f4abc2f29bba4255c662c974d0e60ece810af43ea2ae3b9ba1f805e6f",
+      "size_bytes": 7187
+    },
+    "predictions/O14_thresh_070/R05_southwest_pilot_attr.json": {
+      "sha256": "d8e3b10b85250aa833df5187a98b19bdeea7835171e58f914d5d7926339568ea",
+      "size_bytes": 68510
+    },
+    "predictions/O14_thresh_070/R05_southwest_pilot_dfn.rttm": {
+      "sha256": "b69e1418933ff0805899911a059aba104372cf5c6ccaff6607279b3dc65fde7a",
+      "size_bytes": 5474
+    },
+    "predictions/O14_thresh_070/R06_rich_karen_attr.json": {
+      "sha256": "06148799cdf150322668c02af8c8a6ef6aae63c975a113bce09fe1ee766cc995",
+      "size_bytes": 316331
+    },
+    "predictions/O14_thresh_070/R06_rich_karen_dfn.rttm": {
+      "sha256": "ead91f477d4cb0cfeb1e9d062983711567c76b6ef12da76d09f616ff436eeb78",
+      "size_bytes": 20854
+    },
+    "predictions/O14_thresh_070/R07_bwc_cheap_shot_attr.json": {
+      "sha256": "058def757a10303c47de621fd85384ec188046b867045f83b4dff167e1a60ff1",
+      "size_bytes": 82398
+    },
+    "predictions/O14_thresh_070/R07_bwc_cheap_shot_dfn.rttm": {
+      "sha256": "fe733dbc0ea64e21c0eb0cd5e9f6e0fbcc93128166df0d50020935db1f7c785e",
+      "size_bytes": 3369
+    },
+    "predictions/O14_thresh_070/R08_uk_parliament_attr.json": {
+      "sha256": "4b3acb5bf3e90ff0a21c600c5b98b3db777659dde155eab5a3e8be44a500b188",
+      "size_bytes": 80821
+    },
+    "predictions/O14_thresh_070/R08_uk_parliament_dfn.rttm": {
+      "sha256": "41439cd2ed8ba8ccc0d77838bdd897cb0d04c2ce6c706de01db9386e593675eb",
+      "size_bytes": 2336
+    },
+    "predictions/O20_stream_dfn/R01_sara_sharif_attr.json": {
+      "sha256": "34b287d20b4cd2274a01c9393c9c66aede87e4129200f19876e6e02ccdca47af",
+      "size_bytes": 46126
+    },
+    "predictions/O20_stream_dfn/R01_sara_sharif_dfn.rttm": {
+      "sha256": "8d6b5c18ea534d6f85ff49874aa8c5bbbc75af31a0d67e44a37db588a4cb10d6",
+      "size_bytes": 1969
+    },
+    "predictions/O20_stream_dfn/R02_dennis_skinner_attr.json": {
+      "sha256": "b039139f4af99c8d53dcd53312e2fb7eaebb7dd61b5f69f67c9d441411e2e6de",
+      "size_bytes": 55417
+    },
+    "predictions/O20_stream_dfn/R02_dennis_skinner_dfn.rttm": {
+      "sha256": "a0fb3d0ec464b319d8e55afdd26b6a8c3178fd1774175bb3635502363f265bd6",
+      "size_bytes": 4211
+    },
+    "predictions/O20_stream_dfn/R03_disabled_parking_attr.json": {
+      "sha256": "96743b77a6674654ad2ff80a70e8450a0b6757c77dc746e7933799e51cdbaeed",
+      "size_bytes": 116011
+    },
+    "predictions/O20_stream_dfn/R03_disabled_parking_dfn.rttm": {
+      "sha256": "044a4478d8696eb2bb21a4d3ad3688184c570dd8a93590e6163e0378ace275dd",
+      "size_bytes": 5101
+    },
+    "predictions/O20_stream_dfn/R04_piers_robinson_attr.json": {
+      "sha256": "3f0da30a736bb69ed4eb6b22d66dbfa3e147fe5077f46640ac143b8951701bae",
+      "size_bytes": 125285
+    },
+    "predictions/O20_stream_dfn/R04_piers_robinson_dfn.rttm": {
+      "sha256": "1afd24bb1f5e1bb4857eb6168b6af0409b84976d810c1bab5fc7284036e338c2",
+      "size_bytes": 6037
+    },
+    "predictions/O20_stream_dfn/R05_southwest_pilot_attr.json": {
+      "sha256": "e231546f692b019544bc59e66586305ca22ae5fcae7e86c618926a3cbc6d8903",
+      "size_bytes": 68766
+    },
+    "predictions/O20_stream_dfn/R05_southwest_pilot_dfn.rttm": {
+      "sha256": "5fbbb513feaa4d8136ef2afb9fd6973e7286fb28c0e78afb66087b14d4930e71",
+      "size_bytes": 5629
+    },
+    "predictions/O20_stream_dfn/R06_rich_karen_attr.json": {
+      "sha256": "9442aaeea253bd30d12d883daeb3fc8849dbd13cadb82e1dadac1064e2119d60",
+      "size_bytes": 315691
+    },
+    "predictions/O20_stream_dfn/R06_rich_karen_dfn.rttm": {
+      "sha256": "dcf4d45bacfc0fb841655da07c8d9f4c8792955b08c10a8bf34fe564b9bece5f",
+      "size_bytes": 20414
+    },
+    "predictions/O20_stream_dfn/R07_bwc_cheap_shot_attr.json": {
+      "sha256": "058def757a10303c47de621fd85384ec188046b867045f83b4dff167e1a60ff1",
+      "size_bytes": 82398
+    },
+    "predictions/O20_stream_dfn/R07_bwc_cheap_shot_dfn.rttm": {
+      "sha256": "fe733dbc0ea64e21c0eb0cd5e9f6e0fbcc93128166df0d50020935db1f7c785e",
+      "size_bytes": 3369
+    },
+    "predictions/O20_stream_dfn/R08_uk_parliament_attr.json": {
+      "sha256": "4b3acb5bf3e90ff0a21c600c5b98b3db777659dde155eab5a3e8be44a500b188",
+      "size_bytes": 80821
+    },
+    "predictions/O20_stream_dfn/R08_uk_parliament_dfn.rttm": {
+      "sha256": "41439cd2ed8ba8ccc0d77838bdd897cb0d04c2ce6c706de01db9386e593675eb",
+      "size_bytes": 2336
+    },
+    "predictions/O12_thresh_050/R01_sara_sharif_attr.json": {
+      "sha256": "34b287d20b4cd2274a01c9393c9c66aede87e4129200f19876e6e02ccdca47af",
+      "size_bytes": 46126
+    },
+    "predictions/O12_thresh_050/R01_sara_sharif_dfn.rttm": {
+      "sha256": "ad77d4da0519fcc7eef4f6e0e22720a686c28b660cb1df4fcd6e200afdec5917",
+      "size_bytes": 2042
+    },
+    "predictions/O12_thresh_050/R02_dennis_skinner_attr.json": {
+      "sha256": "bfdbff85b582a2b995ca58aefe36f9ec190aed38f1471ec369add17a16a32cd0",
+      "size_bytes": 55547
+    },
+    "predictions/O12_thresh_050/R02_dennis_skinner_dfn.rttm": {
+      "sha256": "7e4fb9deb9ec420dd1562794810b2dccd920e2ce9d874840478e9013af7accab",
+      "size_bytes": 4134
+    },
+    "predictions/O12_thresh_050/R03_disabled_parking_attr.json": {
+      "sha256": "e7cb464f8ea102af703300ddd9593b8f3144b015eea8c9ae943aa1f329ab38dd",
+      "size_bytes": 115493
+    },
+    "predictions/O12_thresh_050/R03_disabled_parking_dfn.rttm": {
+      "sha256": "debb835fb30a457405654444d9df2e4b666d7db3bc76b77ee9b535b841a291d8",
+      "size_bytes": 5965
+    },
+    "predictions/O12_thresh_050/R04_piers_robinson_attr.json": {
+      "sha256": "68e5762a3055e731bb3339293d6fc8d828af9500863400e4da229ebb116fd974",
+      "size_bytes": 125012
+    },
+    "predictions/O12_thresh_050/R04_piers_robinson_dfn.rttm": {
+      "sha256": "0d16f9a4b41c222e7be5ce5c4289d28c621f9598f11be9af92699d6e4d172260",
+      "size_bytes": 7493
+    },
+    "predictions/O12_thresh_050/R05_southwest_pilot_attr.json": {
+      "sha256": "1c52f55c98f7fdbdb3fafcad5bc807cda167422ad80160d945e4513be5d67dfb",
+      "size_bytes": 68510
+    },
+    "predictions/O12_thresh_050/R05_southwest_pilot_dfn.rttm": {
+      "sha256": "fa013d71905b0c4e898bebcddf851c3fb420a057ef01437449784d430d497662",
+      "size_bytes": 5705
+    },
+    "predictions/O12_thresh_050/R06_rich_karen_attr.json": {
+      "sha256": "f4de7330ea8bba730c8dc5eb173223e183e9568bd72cd3bb609d817b3d529a57",
+      "size_bytes": 316339
+    },
+    "predictions/O12_thresh_050/R06_rich_karen_dfn.rttm": {
+      "sha256": "009a2e20a0a37b405af1ea1833aa131a21031f3b741bf602f8ff4320e32a0bfb",
+      "size_bytes": 21949
+    },
+    "predictions/O12_thresh_050/R07_bwc_cheap_shot_attr.json": {
+      "sha256": "058def757a10303c47de621fd85384ec188046b867045f83b4dff167e1a60ff1",
+      "size_bytes": 82398
+    },
+    "predictions/O12_thresh_050/R07_bwc_cheap_shot_dfn.rttm": {
+      "sha256": "fe733dbc0ea64e21c0eb0cd5e9f6e0fbcc93128166df0d50020935db1f7c785e",
+      "size_bytes": 3369
+    },
+    "predictions/O12_thresh_050/R08_uk_parliament_attr.json": {
+      "sha256": "4b3acb5bf3e90ff0a21c600c5b98b3db777659dde155eab5a3e8be44a500b188",
+      "size_bytes": 80821
+    },
+    "predictions/O12_thresh_050/R08_uk_parliament_dfn.rttm": {
+      "sha256": "41439cd2ed8ba8ccc0d77838bdd897cb0d04c2ce6c706de01db9386e593675eb",
+      "size_bytes": 2336
+    },
+    "predictions/O00_base_c00/R01_sara_sharif_attr.json": {
+      "sha256": "34b287d20b4cd2274a01c9393c9c66aede87e4129200f19876e6e02ccdca47af",
+      "size_bytes": 46126
+    },
+    "predictions/O00_base_c00/R01_sara_sharif_dfn.rttm": {
+      "sha256": "8d6b5c18ea534d6f85ff49874aa8c5bbbc75af31a0d67e44a37db588a4cb10d6",
+      "size_bytes": 1969
+    },
+    "predictions/O00_base_c00/R02_dennis_skinner_attr.json": {
+      "sha256": "b039139f4af99c8d53dcd53312e2fb7eaebb7dd61b5f69f67c9d441411e2e6de",
+      "size_bytes": 55417
+    },
+    "predictions/O00_base_c00/R02_dennis_skinner_dfn.rttm": {
+      "sha256": "44fcdde0a1740956df1dd39fd78895c24292633ea8348becdd76ff3638659f0b",
+      "size_bytes": 3903
+    },
+    "predictions/O00_base_c00/R03_disabled_parking_attr.json": {
+      "sha256": "96743b77a6674654ad2ff80a70e8450a0b6757c77dc746e7933799e51cdbaeed",
+      "size_bytes": 116011
+    },
+    "predictions/O00_base_c00/R03_disabled_parking_dfn.rttm": {
+      "sha256": "54fd6506646e00bcf9646647f5bc3171eeca4e0d0f816ef1a2a3b148bdbb6a12",
+      "size_bytes": 4787
+    },
+    "predictions/O00_base_c00/R04_piers_robinson_attr.json": {
+      "sha256": "27b64a8f01a0e36c703ec419c149675e5e1d2144f1b43d58ee011d2e3edb7395",
+      "size_bytes": 124641
+    },
+    "predictions/O00_base_c00/R04_piers_robinson_dfn.rttm": {
+      "sha256": "9ffe55253c5ee814a5ca022946f583268026d3d7905afb9a548ae4319c123abe",
+      "size_bytes": 5273
+    },
+    "predictions/O00_base_c00/R05_southwest_pilot_attr.json": {
+      "sha256": "91533fe8bde3f7c2befce8f33bdd2c4fd0c7c2b43b41cf03b363b745a5ce8f3e",
+      "size_bytes": 68510
+    },
+    "predictions/O00_base_c00/R05_southwest_pilot_dfn.rttm": {
+      "sha256": "067f2e482d79e74e644336d767e5efcf30de0e2f225933ba8e429c82b0140161",
+      "size_bytes": 5397
+    },
+    "predictions/O00_base_c00/R06_rich_karen_attr.json": {
+      "sha256": "476549547e2ff3a0b205a584940d56ef37c8c4b090ed8bf8e3f1747c893262cf",
+      "size_bytes": 315820
+    },
+    "predictions/O00_base_c00/R06_rich_karen_dfn.rttm": {
+      "sha256": "ba801f13e7fdd3119985a71fc12536c200ae13b86e34fd758473ff4182d16998",
+      "size_bytes": 19102
+    },
+    "predictions/O00_base_c00/R07_bwc_cheap_shot_attr.json": {
+      "sha256": "058def757a10303c47de621fd85384ec188046b867045f83b4dff167e1a60ff1",
+      "size_bytes": 82398
+    },
+    "predictions/O00_base_c00/R07_bwc_cheap_shot_dfn.rttm": {
+      "sha256": "fe733dbc0ea64e21c0eb0cd5e9f6e0fbcc93128166df0d50020935db1f7c785e",
+      "size_bytes": 3369
+    },
+    "predictions/O00_base_c00/R08_uk_parliament_attr.json": {
+      "sha256": "4b3acb5bf3e90ff0a21c600c5b98b3db777659dde155eab5a3e8be44a500b188",
+      "size_bytes": 80821
+    },
+    "predictions/O00_base_c00/R08_uk_parliament_dfn.rttm": {
+      "sha256": "41439cd2ed8ba8ccc0d77838bdd897cb0d04c2ce6c706de01db9386e593675eb",
+      "size_bytes": 2336
+    },
+    "predictions/O31_attr_prototype/R01_sara_sharif_attr.json": {
+      "sha256": "2f3202a617f214638dbda50ce4ce40d6bb12aad94c8411ead988334fc1b2aef1",
+      "size_bytes": 46254
+    },
+    "predictions/O31_attr_prototype/R01_sara_sharif_dfn.rttm": {
+      "sha256": "38b69bad2ff17cc8a16c060e4ad1ca5bd7ac31cdd5ab261063373b5e91be0397",
+      "size_bytes": 2187
+    },
+    "predictions/O31_attr_prototype/R02_dennis_skinner_attr.json": {
+      "sha256": "d70e90f8657134acbc1ac0173499898cca91e29d2ae27943459b83f96f8592f1",
+      "size_bytes": 55807
+    },
+    "predictions/O31_attr_prototype/R02_dennis_skinner_dfn.rttm": {
+      "sha256": "0e2c988fbc041fdc4a7ea757ba77c8902d0b9cfaf4529264014137444041919f",
+      "size_bytes": 4134
+    },
+    "predictions/O31_attr_prototype/R03_disabled_parking_attr.json": {
+      "sha256": "792ccda4a23ab8ff5d2bef9d112318313a115345bbee9e4bd2f5bc367b18620b",
+      "size_bytes": 115233
+    },
+    "predictions/O31_attr_prototype/R03_disabled_parking_dfn.rttm": {
+      "sha256": "63eb2cb138f2c0412deca6efa5704f8afc803b9f21796977a549e3491df314a9",
+      "size_bytes": 6278
+    },
+    "predictions/O31_attr_prototype/R04_piers_robinson_attr.json": {
+      "sha256": "a26e69c8821618282dbec3fdd20f22f0613484affb82da82b4d0c1909b9f377b",
+      "size_bytes": 125272
+    },
+    "predictions/O31_attr_prototype/R04_piers_robinson_dfn.rttm": {
+      "sha256": "49bd029e34c6837885798f248a6476f9b8a9836df471b5119a8ff9bc4985e61c",
+      "size_bytes": 7416
+    },
+    "predictions/O31_attr_prototype/R05_southwest_pilot_attr.json": {
+      "sha256": "9d341167ebde0af8488b6f22886e1ff01983d2b9ce661970d15ddc20aeace50c",
+      "size_bytes": 68635
+    },
+    "predictions/O31_attr_prototype/R05_southwest_pilot_dfn.rttm": {
+      "sha256": "f9aa410903a906f0200ec2396f788104df46116b0fdc5927f74840ff9f58c45d",
+      "size_bytes": 5782
+    },
+    "predictions/O31_attr_prototype/R06_rich_karen_attr.json": {
+      "sha256": "6b4a4f5e3b1868bbb4d7e945b1c0ee48592a0e897d0df548158a9651aa897877",
+      "size_bytes": 317637
+    },
+    "predictions/O31_attr_prototype/R06_rich_karen_dfn.rttm": {
+      "sha256": "a9f36c51d004b81cc94c771d77b6b3f25fec8ce325611dae42730908904221c6",
+      "size_bytes": 22532
+    },
+    "predictions/O31_attr_prototype/R07_bwc_cheap_shot_attr.json": {
+      "sha256": "058def757a10303c47de621fd85384ec188046b867045f83b4dff167e1a60ff1",
+      "size_bytes": 82398
+    },
+    "predictions/O31_attr_prototype/R07_bwc_cheap_shot_dfn.rttm": {
+      "sha256": "fe733dbc0ea64e21c0eb0cd5e9f6e0fbcc93128166df0d50020935db1f7c785e",
+      "size_bytes": 3369
+    },
+    "predictions/O31_attr_prototype/R08_uk_parliament_attr.json": {
+      "sha256": "4b3acb5bf3e90ff0a21c600c5b98b3db777659dde155eab5a3e8be44a500b188",
+      "size_bytes": 80821
+    },
+    "predictions/O31_attr_prototype/R08_uk_parliament_dfn.rttm": {
+      "sha256": "41439cd2ed8ba8ccc0d77838bdd897cb0d04c2ce6c706de01db9386e593675eb",
+      "size_bytes": 2336
+    },
+    "predictions/O10_thresh_030/R01_sara_sharif_attr.json": {
+      "sha256": "cf549135b5ac4b14842c1ccde9ead7382228c96f4c41f74ab7c008c12c4e598d",
+      "size_bytes": 46378
+    },
+    "predictions/O10_thresh_030/R01_sara_sharif_dfn.rttm": {
+      "sha256": "7b6c28e48b1a7704f86995e8380e398b5d1c4d5ecb87fc8bc934069ee2d3dddb",
+      "size_bytes": 2260
+    },
+    "predictions/O10_thresh_030/R02_dennis_skinner_attr.json": {
+      "sha256": "c700a14ab1f51d1d273b76aa8d9d723fcba47a8da43d305f08d84456621abd38",
+      "size_bytes": 55031
+    },
+    "predictions/O10_thresh_030/R02_dennis_skinner_dfn.rttm": {
+      "sha256": "486f407bfd6bb1cbd08cde8bcd00a0fcc50eb3d62b88d695c9b1eb28b5f564fc",
+      "size_bytes": 4516
+    },
+    "predictions/O10_thresh_030/R03_disabled_parking_attr.json": {
+      "sha256": "e0565325fdf95975f5674ff3a38b952f3eadd4e844f07f102c096478b0f6f8a5",
+      "size_bytes": 115231
+    },
+    "predictions/O10_thresh_030/R03_disabled_parking_dfn.rttm": {
+      "sha256": "e80462e171f4bf4a93ab4a17037f9a1f0ba2f5225a1f70a1615e41e3033c4b96",
+      "size_bytes": 6591
+    },
+    "predictions/O10_thresh_030/R04_piers_robinson_attr.json": {
+      "sha256": "88a017520c52d3df67c139f864a3fb4988d06469fb8c4768007c8e3950f82573",
+      "size_bytes": 125010
+    },
+    "predictions/O10_thresh_030/R04_piers_robinson_dfn.rttm": {
+      "sha256": "12076b29ccf1ede774905a46d997d2efee0626cbb63bb832cac92d714e29706a",
+      "size_bytes": 7643
+    },
+    "predictions/O10_thresh_030/R05_southwest_pilot_attr.json": {
+      "sha256": "e4b8fb44f45daa36f5ebefc6e123c2214069d8107d7c7af0a87d819b209e6d08",
+      "size_bytes": 68378
+    },
+    "predictions/O10_thresh_030/R05_southwest_pilot_dfn.rttm": {
+      "sha256": "1fa48c9e62ca7443a8623519f83ea73953a60ff8e4c6f1d2bf016522f9a564bc",
+      "size_bytes": 6400
+    },
+    "predictions/O10_thresh_030/R06_rich_karen_attr.json": {
+      "sha256": "5d2f1b7f81989319f3e95f9ac1e241397d5942876fb1809acef7db48b1a79386",
+      "size_bytes": 317644
+    },
+    "predictions/O10_thresh_030/R06_rich_karen_dfn.rttm": {
+      "sha256": "5425fbc0580273c21f9cf8ed3cdab978c5052120c9f96d228ba807f768226375",
+      "size_bytes": 23262
+    },
+    "predictions/O10_thresh_030/R07_bwc_cheap_shot_attr.json": {
+      "sha256": "058def757a10303c47de621fd85384ec188046b867045f83b4dff167e1a60ff1",
+      "size_bytes": 82398
+    },
+    "predictions/O10_thresh_030/R07_bwc_cheap_shot_dfn.rttm": {
+      "sha256": "fe733dbc0ea64e21c0eb0cd5e9f6e0fbcc93128166df0d50020935db1f7c785e",
+      "size_bytes": 3369
+    },
+    "predictions/O10_thresh_030/R08_uk_parliament_attr.json": {
+      "sha256": "4b3acb5bf3e90ff0a21c600c5b98b3db777659dde155eab5a3e8be44a500b188",
+      "size_bytes": 80821
+    },
+    "predictions/O10_thresh_030/R08_uk_parliament_dfn.rttm": {
+      "sha256": "41439cd2ed8ba8ccc0d77838bdd897cb0d04c2ce6c706de01db9386e593675eb",
+      "size_bytes": 2336
+    },
+    "predictions/O41_vad_c62_ovl/R01_sara_sharif_attr.json": {
+      "sha256": "420107ddddd79999b0411baf5a622aca6cdf3735a41cbe036ee818372309a67f",
+      "size_bytes": 45888
+    },
+    "predictions/O41_vad_c62_ovl/R01_sara_sharif_dfn.rttm": {
+      "sha256": "bc42e89ba55de69a6fac992662ddcc32148dd3b42650cee309ef8a13fa711df7",
+      "size_bytes": 1459
+    },
+    "predictions/O41_vad_c62_ovl/R02_dennis_skinner_attr.json": {
+      "sha256": "a4c744d7057aeb79be63ba87a603f2c4f70d1d2d3179acec543e2302b6149de3",
+      "size_bytes": 55573
+    },
+    "predictions/O41_vad_c62_ovl/R02_dennis_skinner_dfn.rttm": {
+      "sha256": "0bb06b9fd14145bfb34a9bf4f05f562e8d62255dcb4f0cbeb5a95f032f5cd541",
+      "size_bytes": 3216
+    },
+    "predictions/O41_vad_c62_ovl/R03_disabled_parking_attr.json": {
+      "sha256": "792ccda4a23ab8ff5d2bef9d112318313a115345bbee9e4bd2f5bc367b18620b",
+      "size_bytes": 115233
+    },
+    "predictions/O41_vad_c62_ovl/R03_disabled_parking_dfn.rttm": {
+      "sha256": "3aca2ff6c8eb778ee5bb5e776350ffa3a26855b827c11e47290fcfb3189c9a5b",
+      "size_bytes": 6199
+    },
+    "predictions/O41_vad_c62_ovl/R04_piers_robinson_attr.json": {
+      "sha256": "a26e69c8821618282dbec3fdd20f22f0613484affb82da82b4d0c1909b9f377b",
+      "size_bytes": 125272
+    },
+    "predictions/O41_vad_c62_ovl/R04_piers_robinson_dfn.rttm": {
+      "sha256": "1e36bc8499db74da67a1cde7e23baea7c74ab5cfd42e968c810c64d3a43ac384",
+      "size_bytes": 7416
+    },
+    "predictions/O41_vad_c62_ovl/R05_southwest_pilot_attr.json": {
+      "sha256": "a95fc34f72c920306a774aa2d860a54f170fdd679119c19e509fa70d4feb1df1",
+      "size_bytes": 68777
+    },
+    "predictions/O41_vad_c62_ovl/R05_southwest_pilot_dfn.rttm": {
+      "sha256": "f9ab114d25bf2672f5f526222af9b89b6c5552829df06ad6308ea2d6e7eb27f6",
+      "size_bytes": 4784
+    },
+    "predictions/O41_vad_c62_ovl/R06_rich_karen_attr.json": {
+      "sha256": "b937e20443360cc8d2b7059651344c1fa73e7e45d301dfd4552ca3840399a722",
+      "size_bytes": 317127
+    },
+    "predictions/O41_vad_c62_ovl/R06_rich_karen_dfn.rttm": {
+      "sha256": "e357e0a45f780037a7b91f6651a95e10c7f0986afbee14bb15abd79b1d3cf159",
+      "size_bytes": 20712
+    },
+    "predictions/O41_vad_c62_ovl/R07_bwc_cheap_shot_attr.json": {
+      "sha256": "058def757a10303c47de621fd85384ec188046b867045f83b4dff167e1a60ff1",
+      "size_bytes": 82398
+    },
+    "predictions/O41_vad_c62_ovl/R07_bwc_cheap_shot_dfn.rttm": {
+      "sha256": "24920a34f5287998f911446298ba692dd9bf519c2dbdb804eaae2de74d366395",
+      "size_bytes": 1915
+    },
+    "predictions/O41_vad_c62_ovl/R08_uk_parliament_attr.json": {
+      "sha256": "4b3acb5bf3e90ff0a21c600c5b98b3db777659dde155eab5a3e8be44a500b188",
+      "size_bytes": 80821
+    },
+    "predictions/O41_vad_c62_ovl/R08_uk_parliament_dfn.rttm": {
+      "sha256": "4619545c7636f8390907ef9ca641c326e5342f8d736720b7866ea95cc784f3a1",
+      "size_bytes": 1585
+    },
+    "predictions/O32_attr_alternation/R01_sara_sharif_attr.json": {
+      "sha256": "2f3202a617f214638dbda50ce4ce40d6bb12aad94c8411ead988334fc1b2aef1",
+      "size_bytes": 46254
+    },
+    "predictions/O32_attr_alternation/R01_sara_sharif_dfn.rttm": {
+      "sha256": "38b69bad2ff17cc8a16c060e4ad1ca5bd7ac31cdd5ab261063373b5e91be0397",
+      "size_bytes": 2187
+    },
+    "predictions/O32_attr_alternation/R02_dennis_skinner_attr.json": {
+      "sha256": "d70e90f8657134acbc1ac0173499898cca91e29d2ae27943459b83f96f8592f1",
+      "size_bytes": 55807
+    },
+    "predictions/O32_attr_alternation/R02_dennis_skinner_dfn.rttm": {
+      "sha256": "0e2c988fbc041fdc4a7ea757ba77c8902d0b9cfaf4529264014137444041919f",
+      "size_bytes": 4134
+    },
+    "predictions/O32_attr_alternation/R03_disabled_parking_attr.json": {
+      "sha256": "792ccda4a23ab8ff5d2bef9d112318313a115345bbee9e4bd2f5bc367b18620b",
+      "size_bytes": 115233
+    },
+    "predictions/O32_attr_alternation/R03_disabled_parking_dfn.rttm": {
+      "sha256": "63eb2cb138f2c0412deca6efa5704f8afc803b9f21796977a549e3491df314a9",
+      "size_bytes": 6278
+    },
+    "predictions/O32_attr_alternation/R04_piers_robinson_attr.json": {
+      "sha256": "b7101ca11aa8321755d87be88b42d2302b06eab0ac444181af4a2ba24f63b64e",
+      "size_bytes": 125528
+    },
+    "predictions/O32_attr_alternation/R04_piers_robinson_dfn.rttm": {
+      "sha256": "99e6fa2f3847e3792c1fcefa643692ad44e0cf233c623644409e56b1232dd877",
+      "size_bytes": 7416
+    },
+    "predictions/O32_attr_alternation/R05_southwest_pilot_attr.json": {
+      "sha256": "a8afe61bf2f747f10d6efd4ce0f3786bf8d285b2fe7b871edc75a3ad366102da",
+      "size_bytes": 68765
+    },
+    "predictions/O32_attr_alternation/R05_southwest_pilot_dfn.rttm": {
+      "sha256": "ddff1cd5a92cc68fc502e2d70969f2d808dc5f037a2b796669f8282b6d13fed8",
+      "size_bytes": 5782
+    },
+    "predictions/O32_attr_alternation/R06_rich_karen_attr.json": {
+      "sha256": "225b683e81122c334edd6b9b2a4b59b33a2ea4c2e4e183f5770064b73b94810a",
+      "size_bytes": 318417
+    },
+    "predictions/O32_attr_alternation/R06_rich_karen_dfn.rttm": {
+      "sha256": "9d45f5d9e713cfd819be86d9b9ea2d0c11e7e81ef0fd37b302137a03fc11fcd4",
+      "size_bytes": 22532
+    },
+    "predictions/O32_attr_alternation/R07_bwc_cheap_shot_attr.json": {
+      "sha256": "058def757a10303c47de621fd85384ec188046b867045f83b4dff167e1a60ff1",
+      "size_bytes": 82398
+    },
+    "predictions/O32_attr_alternation/R07_bwc_cheap_shot_dfn.rttm": {
+      "sha256": "fe733dbc0ea64e21c0eb0cd5e9f6e0fbcc93128166df0d50020935db1f7c785e",
+      "size_bytes": 3369
+    },
+    "predictions/O32_attr_alternation/R08_uk_parliament_attr.json": {
+      "sha256": "4b3acb5bf3e90ff0a21c600c5b98b3db777659dde155eab5a3e8be44a500b188",
+      "size_bytes": 80821
+    },
+    "predictions/O32_attr_alternation/R08_uk_parliament_dfn.rttm": {
+      "sha256": "41439cd2ed8ba8ccc0d77838bdd897cb0d04c2ce6c706de01db9386e593675eb",
+      "size_bytes": 2336
+    },
+    "predictions/O42_vad_c62_abstain/R01_sara_sharif_attr.json": {
+      "sha256": "420107ddddd79999b0411baf5a622aca6cdf3735a41cbe036ee818372309a67f",
+      "size_bytes": 45888
+    },
+    "predictions/O42_vad_c62_abstain/R01_sara_sharif_dfn.rttm": {
+      "sha256": "9aee57540bd6422d103e1d7218b6389dc8806e444a32819632aebc921a26dc2c",
+      "size_bytes": 1241
+    },
+    "predictions/O42_vad_c62_abstain/R02_dennis_skinner_attr.json": {
+      "sha256": "af4d7cb1a588b271ab3fea69f549518218059985f2c578bb44f428f33fa9d43e",
+      "size_bytes": 55313
+    },
+    "predictions/O42_vad_c62_abstain/R02_dennis_skinner_dfn.rttm": {
+      "sha256": "929f0eda699a6de49062dc81ff861f35a8b8f6fdfa474e0d7ac7effd5dfe4d32",
+      "size_bytes": 3139
+    },
+    "predictions/O42_vad_c62_abstain/R03_disabled_parking_attr.json": {
+      "sha256": "792ccda4a23ab8ff5d2bef9d112318313a115345bbee9e4bd2f5bc367b18620b",
+      "size_bytes": 115233
+    },
+    "predictions/O42_vad_c62_abstain/R03_disabled_parking_dfn.rttm": {
+      "sha256": "3aca2ff6c8eb778ee5bb5e776350ffa3a26855b827c11e47290fcfb3189c9a5b",
+      "size_bytes": 6199
+    },
+    "predictions/O42_vad_c62_abstain/R04_piers_robinson_attr.json": {
+      "sha256": "738cb4df137e09b65ab9e3b4afd5c69495257d325aa816d4ee9c45b46709ad06",
+      "size_bytes": 124504
+    },
+    "predictions/O42_vad_c62_abstain/R04_piers_robinson_dfn.rttm": {
+      "sha256": "f63921befd4342a371104cde3755d608b9c7343e804bad4c5e2bc840baa9f837",
+      "size_bytes": 6960
+    },
+    "predictions/O42_vad_c62_abstain/R05_southwest_pilot_attr.json": {
+      "sha256": "5a870c369c568f554f42e1c23b009d00f522d1037bef482f656afdbca645fc2a",
+      "size_bytes": 68649
+    },
+    "predictions/O42_vad_c62_abstain/R05_southwest_pilot_dfn.rttm": {
+      "sha256": "9e97e6b7a99041c741277d4984bfb8c8edcdbfaf73deef74fb25a63129a0f4a9",
+      "size_bytes": 4553
+    },
+    "predictions/O42_vad_c62_abstain/R06_rich_karen_attr.json": {
+      "sha256": "82c40fd00a3d707042878f8e8bd05f48e284fea0cb74fa2052754b9944088c05",
+      "size_bytes": 315829
+    },
+    "predictions/O42_vad_c62_abstain/R06_rich_karen_dfn.rttm": {
+      "sha256": "d8675731b4d063c21ec1836e3db40c659c0937a6ea337ab7db2d6fdc1b9e8350",
+      "size_bytes": 19180
+    },
+    "predictions/O42_vad_c62_abstain/R07_bwc_cheap_shot_attr.json": {
+      "sha256": "058def757a10303c47de621fd85384ec188046b867045f83b4dff167e1a60ff1",
+      "size_bytes": 82398
+    },
+    "predictions/O42_vad_c62_abstain/R07_bwc_cheap_shot_dfn.rttm": {
+      "sha256": "24920a34f5287998f911446298ba692dd9bf519c2dbdb804eaae2de74d366395",
+      "size_bytes": 1915
+    },
+    "predictions/O42_vad_c62_abstain/R08_uk_parliament_attr.json": {
+      "sha256": "4b3acb5bf3e90ff0a21c600c5b98b3db777659dde155eab5a3e8be44a500b188",
+      "size_bytes": 80821
+    },
+    "predictions/O42_vad_c62_abstain/R08_uk_parliament_dfn.rttm": {
+      "sha256": "4619545c7636f8390907ef9ca641c326e5342f8d736720b7866ea95cc784f3a1",
+      "size_bytes": 1585
+    },
+    "predictions/O40_vad_c50_ovl/R01_sara_sharif_attr.json": {
+      "sha256": "b30f647d36e5fc77b33a84a74d1c9f305655e2d9bd4c04f71d9a9f07ca78a9f2",
+      "size_bytes": 45780
+    },
+    "predictions/O40_vad_c50_ovl/R01_sara_sharif_dfn.rttm": {
+      "sha256": "ee4b1195d31627911716f74b7d22c6124834e4c0f66872524682cc6d0190f966",
+      "size_bytes": 1676
+    },
+    "predictions/O40_vad_c50_ovl/R02_dennis_skinner_attr.json": {
+      "sha256": "e83ef6a29372bf5bbd59027a6eef5fb7a8b8af22665d8f8d227adb9273c83223",
+      "size_bytes": 55343
+    },
+    "predictions/O40_vad_c50_ovl/R02_dennis_skinner_dfn.rttm": {
+      "sha256": "30d5aa2840c32a7a93bd46df07ab445dd4544b89f92ad369b111fe8c3db9db34",
+      "size_bytes": 3369
+    },
+    "predictions/O40_vad_c50_ovl/R03_disabled_parking_attr.json": {
+      "sha256": "6cc4e222e808a7bb650f77e234cb268d13269c4833f535493fc8d1e7fc7e40f2",
+      "size_bytes": 115139
+    },
+    "predictions/O40_vad_c50_ovl/R03_disabled_parking_dfn.rttm": {
+      "sha256": "cc2574bab262e363c8403dda8b1232b485f8848d6aa29abb914d6e087786c74e",
+      "size_bytes": 6279
+    },
+    "predictions/O40_vad_c50_ovl/R04_piers_robinson_attr.json": {
+      "sha256": "a26e69c8821618282dbec3fdd20f22f0613484affb82da82b4d0c1909b9f377b",
+      "size_bytes": 125272
+    },
+    "predictions/O40_vad_c50_ovl/R04_piers_robinson_dfn.rttm": {
+      "sha256": "ab9060a3e65a77e8908c927f4bfce26800df4c6edd5a9344288914880cea8ae8",
+      "size_bytes": 7416
+    },
+    "predictions/O40_vad_c50_ovl/R05_southwest_pilot_attr.json": {
+      "sha256": "efa7aabb7505a6c788c8fa8f8a2efe5458b42ff5997c26dd70008e75baa63b5f",
+      "size_bytes": 68819
+    },
+    "predictions/O40_vad_c50_ovl/R05_southwest_pilot_dfn.rttm": {
+      "sha256": "36b1b6a7a0bec5a64359a85121fe0e08f2d3f3811defd100121b540fe6406697",
+      "size_bytes": 4708
+    },
+    "predictions/O40_vad_c50_ovl/R06_rich_karen_attr.json": {
+      "sha256": "c070d5ff3d7aab94e5e552ddacade6766c8bfe64df5ddefc60084e35614a9625",
+      "size_bytes": 316990
+    },
+    "predictions/O40_vad_c50_ovl/R06_rich_karen_dfn.rttm": {
+      "sha256": "5a77cdeb4f4321d25a689e4440973922f10fc093369227dace8ee468cfcaf8cb",
+      "size_bytes": 20859
+    },
+    "predictions/O40_vad_c50_ovl/R07_bwc_cheap_shot_attr.json": {
+      "sha256": "6508775dcb64a4d48c64d6f30b55a500afe28f6d615ad90cf951c82f84a8213d",
+      "size_bytes": 82386
+    },
+    "predictions/O40_vad_c50_ovl/R07_bwc_cheap_shot_dfn.rttm": {
+      "sha256": "e9ee915dcc8a1197dc7083256bdded7605aa10a2ccda3bc2fb6c64126943d96e",
+      "size_bytes": 1915
+    },
+    "predictions/O40_vad_c50_ovl/R08_uk_parliament_attr.json": {
+      "sha256": "4b3acb5bf3e90ff0a21c600c5b98b3db777659dde155eab5a3e8be44a500b188",
+      "size_bytes": 80821
+    },
+    "predictions/O40_vad_c50_ovl/R08_uk_parliament_dfn.rttm": {
+      "sha256": "9f21facd3ec1c9523f9e28a9516672efd028f906169b3d164c46b6b8d8dbdf94",
+      "size_bytes": 2183
+    },
+    "predictions/O30_attr_temporal/R01_sara_sharif_attr.json": {
+      "sha256": "34b287d20b4cd2274a01c9393c9c66aede87e4129200f19876e6e02ccdca47af",
+      "size_bytes": 46126
+    },
+    "predictions/O30_attr_temporal/R01_sara_sharif_dfn.rttm": {
+      "sha256": "43e23d68e349c5b0db6702e9e06b9206a951a07907594d1691474b23cb813ac7",
+      "size_bytes": 2187
+    },
+    "predictions/O30_attr_temporal/R02_dennis_skinner_attr.json": {
+      "sha256": "d70e90f8657134acbc1ac0173499898cca91e29d2ae27943459b83f96f8592f1",
+      "size_bytes": 55807
+    },
+    "predictions/O30_attr_temporal/R02_dennis_skinner_dfn.rttm": {
+      "sha256": "0e2c988fbc041fdc4a7ea757ba77c8902d0b9cfaf4529264014137444041919f",
+      "size_bytes": 4134
+    },
+    "predictions/O30_attr_temporal/R03_disabled_parking_attr.json": {
+      "sha256": "792ccda4a23ab8ff5d2bef9d112318313a115345bbee9e4bd2f5bc367b18620b",
+      "size_bytes": 115233
+    },
+    "predictions/O30_attr_temporal/R03_disabled_parking_dfn.rttm": {
+      "sha256": "63eb2cb138f2c0412deca6efa5704f8afc803b9f21796977a549e3491df314a9",
+      "size_bytes": 6278
+    },
+    "predictions/O30_attr_temporal/R04_piers_robinson_attr.json": {
+      "sha256": "a26e69c8821618282dbec3fdd20f22f0613484affb82da82b4d0c1909b9f377b",
+      "size_bytes": 125272
+    },
+    "predictions/O30_attr_temporal/R04_piers_robinson_dfn.rttm": {
+      "sha256": "49bd029e34c6837885798f248a6476f9b8a9836df471b5119a8ff9bc4985e61c",
+      "size_bytes": 7416
+    },
+    "predictions/O30_attr_temporal/R05_southwest_pilot_attr.json": {
+      "sha256": "9d341167ebde0af8488b6f22886e1ff01983d2b9ce661970d15ddc20aeace50c",
+      "size_bytes": 68635
+    },
+    "predictions/O30_attr_temporal/R05_southwest_pilot_dfn.rttm": {
+      "sha256": "f9aa410903a906f0200ec2396f788104df46116b0fdc5927f74840ff9f58c45d",
+      "size_bytes": 5782
+    },
+    "predictions/O30_attr_temporal/R06_rich_karen_attr.json": {
+      "sha256": "c2947e29452616cf08e8be348f2acac95c6d9e1084b541ea94a62997d3164703",
+      "size_bytes": 317637
+    },
+    "predictions/O30_attr_temporal/R06_rich_karen_dfn.rttm": {
+      "sha256": "946f7bacb804bbc603a396aa357d3ed40433dd3214f658892fd7f1d64ade86aa",
+      "size_bytes": 22532
+    },
+    "predictions/O30_attr_temporal/R07_bwc_cheap_shot_attr.json": {
+      "sha256": "058def757a10303c47de621fd85384ec188046b867045f83b4dff167e1a60ff1",
+      "size_bytes": 82398
+    },
+    "predictions/O30_attr_temporal/R07_bwc_cheap_shot_dfn.rttm": {
+      "sha256": "fe733dbc0ea64e21c0eb0cd5e9f6e0fbcc93128166df0d50020935db1f7c785e",
+      "size_bytes": 3369
+    },
+    "predictions/O30_attr_temporal/R08_uk_parliament_attr.json": {
+      "sha256": "4b3acb5bf3e90ff0a21c600c5b98b3db777659dde155eab5a3e8be44a500b188",
+      "size_bytes": 80821
+    },
+    "predictions/O30_attr_temporal/R08_uk_parliament_dfn.rttm": {
+      "sha256": "41439cd2ed8ba8ccc0d77838bdd897cb0d04c2ce6c706de01db9386e593675eb",
+      "size_bytes": 2336
+    },
+    "predictions/O34_attr_oracle/R01_sara_sharif_attr.json": {
+      "sha256": "34b287d20b4cd2274a01c9393c9c66aede87e4129200f19876e6e02ccdca47af",
+      "size_bytes": 46126
+    },
+    "predictions/O34_attr_oracle/R01_sara_sharif_dfn.rttm": {
+      "sha256": "8d6b5c18ea534d6f85ff49874aa8c5bbbc75af31a0d67e44a37db588a4cb10d6",
+      "size_bytes": 1969
+    },
+    "predictions/O34_attr_oracle/R02_dennis_skinner_attr.json": {
+      "sha256": "b039139f4af99c8d53dcd53312e2fb7eaebb7dd61b5f69f67c9d441411e2e6de",
+      "size_bytes": 55417
+    },
+    "predictions/O34_attr_oracle/R02_dennis_skinner_dfn.rttm": {
+      "sha256": "19af84a076366139ac1c7c4fd898c6ffac84433c7792835630cf4abd2c7f2340",
+      "size_bytes": 4155
+    },
+    "predictions/O34_attr_oracle/R03_disabled_parking_attr.json": {
+      "sha256": "96743b77a6674654ad2ff80a70e8450a0b6757c77dc746e7933799e51cdbaeed",
+      "size_bytes": 116011
+    },
+    "predictions/O34_attr_oracle/R03_disabled_parking_dfn.rttm": {
+      "sha256": "a194fb7f012667eac7d661bab9988111bf50438db04a5f697f55eb4f8bf00d12",
+      "size_bytes": 4873
+    },
+    "predictions/O34_attr_oracle/R04_piers_robinson_attr.json": {
+      "sha256": "9e18f2840779b6ece981229968b2af44e91561cbcc313de771768e5e82bc357c",
+      "size_bytes": 127697
+    },
+    "predictions/O34_attr_oracle/R04_piers_robinson_dfn.rttm": {
+      "sha256": "980ba8b7587ef253a0078e60544b9c95b50be9dbe6b9c104fa2513ac854ee975",
+      "size_bytes": 7195
+    },
+    "predictions/O34_attr_oracle/R05_southwest_pilot_attr.json": {
+      "sha256": "91533fe8bde3f7c2befce8f33bdd2c4fd0c7c2b43b41cf03b363b745a5ce8f3e",
+      "size_bytes": 68510
+    },
+    "predictions/O34_attr_oracle/R05_southwest_pilot_dfn.rttm": {
+      "sha256": "067f2e482d79e74e644336d767e5efcf30de0e2f225933ba8e429c82b0140161",
+      "size_bytes": 5397
+    },
+    "predictions/O34_attr_oracle/R06_rich_karen_attr.json": {
+      "sha256": "470dfe597fce739a7decdabcee4c4e0d967047b6a2856641c51cf6fd0223b66a",
+      "size_bytes": 316094
+    },
+    "predictions/O34_attr_oracle/R06_rich_karen_dfn.rttm": {
+      "sha256": "0ac1eb11a3acf1b4ebfb71c796d0d18d7ffbf64ec4045b1b383ca279948189ec",
+      "size_bytes": 19182
+    },
+    "predictions/O34_attr_oracle/R07_bwc_cheap_shot_attr.json": {
+      "sha256": "058def757a10303c47de621fd85384ec188046b867045f83b4dff167e1a60ff1",
+      "size_bytes": 82398
+    },
+    "predictions/O34_attr_oracle/R07_bwc_cheap_shot_dfn.rttm": {
+      "sha256": "fe733dbc0ea64e21c0eb0cd5e9f6e0fbcc93128166df0d50020935db1f7c785e",
+      "size_bytes": 3369
+    },
+    "predictions/O34_attr_oracle/R08_uk_parliament_attr.json": {
+      "sha256": "4b3acb5bf3e90ff0a21c600c5b98b3db777659dde155eab5a3e8be44a500b188",
+      "size_bytes": 80821
+    },
+    "predictions/O34_attr_oracle/R08_uk_parliament_dfn.rttm": {
+      "sha256": "41439cd2ed8ba8ccc0d77838bdd897cb0d04c2ce6c706de01db9386e593675eb",
+      "size_bytes": 2336
+    },
+    "predictions/O33_attr_abstain/R01_sara_sharif_attr.json": {
+      "sha256": "34b287d20b4cd2274a01c9393c9c66aede87e4129200f19876e6e02ccdca47af",
+      "size_bytes": 46126
+    },
+    "predictions/O33_attr_abstain/R01_sara_sharif_dfn.rttm": {
+      "sha256": "8d6b5c18ea534d6f85ff49874aa8c5bbbc75af31a0d67e44a37db588a4cb10d6",
+      "size_bytes": 1969
+    },
+    "predictions/O33_attr_abstain/R02_dennis_skinner_attr.json": {
+      "sha256": "bfdbff85b582a2b995ca58aefe36f9ec190aed38f1471ec369add17a16a32cd0",
+      "size_bytes": 55547
+    },
+    "predictions/O33_attr_abstain/R02_dennis_skinner_dfn.rttm": {
+      "sha256": "9645f0682dbfa4c2a52191b4309f7d007cc23eeac88ba6d2b4161273065fb573",
+      "size_bytes": 4057
+    },
+    "predictions/O33_attr_abstain/R03_disabled_parking_attr.json": {
+      "sha256": "792ccda4a23ab8ff5d2bef9d112318313a115345bbee9e4bd2f5bc367b18620b",
+      "size_bytes": 115233
+    },
+    "predictions/O33_attr_abstain/R03_disabled_parking_dfn.rttm": {
+      "sha256": "63eb2cb138f2c0412deca6efa5704f8afc803b9f21796977a549e3491df314a9",
+      "size_bytes": 6278
+    },
+    "predictions/O33_attr_abstain/R04_piers_robinson_attr.json": {
+      "sha256": "738cb4df137e09b65ab9e3b4afd5c69495257d325aa816d4ee9c45b46709ad06",
+      "size_bytes": 124504
+    },
+    "predictions/O33_attr_abstain/R04_piers_robinson_dfn.rttm": {
+      "sha256": "68ba313e8828a6177c73c942531025aa68f676d32541fe0426472437b34ed070",
+      "size_bytes": 6960
+    },
+    "predictions/O33_attr_abstain/R05_southwest_pilot_attr.json": {
+      "sha256": "d86b34ce1af33ee87add9630a41fdfda0740e33cbb2dcfc49c36cd997b4e5330",
+      "size_bytes": 68507
+    },
+    "predictions/O33_attr_abstain/R05_southwest_pilot_dfn.rttm": {
+      "sha256": "880f3718444709dbcf4264f429a0fb68b32872f45b2e36a0610285938d79e67a",
+      "size_bytes": 5551
+    },
+    "predictions/O33_attr_abstain/R06_rich_karen_attr.json": {
+      "sha256": "1e66eb55027bd518e629e569b3fcc5de802dde3d668d24893ca649ece191c26c",
+      "size_bytes": 316339
+    },
+    "predictions/O33_attr_abstain/R06_rich_karen_dfn.rttm": {
+      "sha256": "9535b40ca55627c631a09baa8d4676daecfef00735554e5271416b4fd86776c4",
+      "size_bytes": 21073
+    },
+    "predictions/O33_attr_abstain/R07_bwc_cheap_shot_attr.json": {
+      "sha256": "058def757a10303c47de621fd85384ec188046b867045f83b4dff167e1a60ff1",
+      "size_bytes": 82398
+    },
+    "predictions/O33_attr_abstain/R07_bwc_cheap_shot_dfn.rttm": {
+      "sha256": "fe733dbc0ea64e21c0eb0cd5e9f6e0fbcc93128166df0d50020935db1f7c785e",
+      "size_bytes": 3369
+    },
+    "predictions/O33_attr_abstain/R08_uk_parliament_attr.json": {
+      "sha256": "4b3acb5bf3e90ff0a21c600c5b98b3db777659dde155eab5a3e8be44a500b188",
+      "size_bytes": 80821
+    },
+    "predictions/O33_attr_abstain/R08_uk_parliament_dfn.rttm": {
+      "sha256": "41439cd2ed8ba8ccc0d77838bdd897cb0d04c2ce6c706de01db9386e593675eb",
+      "size_bytes": 2336
+    },
+    "predictions/O02_base_c62/R01_sara_sharif_attr.json": {
+      "sha256": "420107ddddd79999b0411baf5a622aca6cdf3735a41cbe036ee818372309a67f",
+      "size_bytes": 45888
+    },
+    "predictions/O02_base_c62/R01_sara_sharif_dfn.rttm": {
+      "sha256": "9aee57540bd6422d103e1d7218b6389dc8806e444a32819632aebc921a26dc2c",
+      "size_bytes": 1241
+    },
+    "predictions/O02_base_c62/R02_dennis_skinner_attr.json": {
+      "sha256": "30867a53aacc90380b44ed84558a00fc60c6fe805abc0347a677711824468e7f",
+      "size_bytes": 55183
+    },
+    "predictions/O02_base_c62/R02_dennis_skinner_dfn.rttm": {
+      "sha256": "0e31058b07e71b05e4370e485d226d4afa1464e0727e0d8bb566c7f49722e21f",
+      "size_bytes": 2985
+    },
+    "predictions/O02_base_c62/R03_disabled_parking_attr.json": {
+      "sha256": "96743b77a6674654ad2ff80a70e8450a0b6757c77dc746e7933799e51cdbaeed",
+      "size_bytes": 116011
+    },
+    "predictions/O02_base_c62/R03_disabled_parking_dfn.rttm": {
+      "sha256": "b32aacd5f154674e582ca6fb4f99e90a597c1010acfb86abb2e8a44c4088813e",
+      "size_bytes": 4708
+    },
+    "predictions/O02_base_c62/R04_piers_robinson_attr.json": {
+      "sha256": "27b64a8f01a0e36c703ec419c149675e5e1d2144f1b43d58ee011d2e3edb7395",
+      "size_bytes": 124641
+    },
+    "predictions/O02_base_c62/R04_piers_robinson_dfn.rttm": {
+      "sha256": "0786d728c7457cfbf6f9c22998a6cc907524a143211ad7d72c6ea448d276854f",
+      "size_bytes": 5273
+    },
+    "predictions/O02_base_c62/R05_southwest_pilot_attr.json": {
+      "sha256": "ac59d0c37234fcb81f3503b511e7df4ff79cb7e1d9284c4ff3dfe716e4cc9f53",
+      "size_bytes": 68652
+    },
+    "predictions/O02_base_c62/R05_southwest_pilot_dfn.rttm": {
+      "sha256": "d2511d1beb56b4ea00114dd64d945aca1a8d8fffc1ba58e15df8494f2da41538",
+      "size_bytes": 4399
+    },
+    "predictions/O02_base_c62/R06_rich_karen_attr.json": {
+      "sha256": "ece01859f376a769e8b65df48f768efda417a92d7f5bff410c1d80197a8c1d4f",
+      "size_bytes": 315570
+    },
+    "predictions/O02_base_c62/R06_rich_karen_dfn.rttm": {
+      "sha256": "892b60932bc08af1f0f5801900f2866a153f4407b01283c56c1b8966a430d1dc",
+      "size_bytes": 17282
+    },
+    "predictions/O02_base_c62/R07_bwc_cheap_shot_attr.json": {
+      "sha256": "058def757a10303c47de621fd85384ec188046b867045f83b4dff167e1a60ff1",
+      "size_bytes": 82398
+    },
+    "predictions/O02_base_c62/R07_bwc_cheap_shot_dfn.rttm": {
+      "sha256": "24920a34f5287998f911446298ba692dd9bf519c2dbdb804eaae2de74d366395",
+      "size_bytes": 1915
+    },
+    "predictions/O02_base_c62/R08_uk_parliament_attr.json": {
+      "sha256": "4b3acb5bf3e90ff0a21c600c5b98b3db777659dde155eab5a3e8be44a500b188",
+      "size_bytes": 80821
+    },
+    "predictions/O02_base_c62/R08_uk_parliament_dfn.rttm": {
+      "sha256": "4619545c7636f8390907ef9ca641c326e5342f8d736720b7866ea95cc784f3a1",
+      "size_bytes": 1585
+    },
+    "predictions/O21_stream_mono/R01_sara_sharif_attr.json": {
+      "sha256": "34b287d20b4cd2274a01c9393c9c66aede87e4129200f19876e6e02ccdca47af",
+      "size_bytes": 46126
+    },
+    "predictions/O21_stream_mono/R01_sara_sharif_dfn.rttm": {
+      "sha256": "43e23d68e349c5b0db6702e9e06b9206a951a07907594d1691474b23cb813ac7",
+      "size_bytes": 2187
+    },
+    "predictions/O21_stream_mono/R02_dennis_skinner_attr.json": {
+      "sha256": "d70e90f8657134acbc1ac0173499898cca91e29d2ae27943459b83f96f8592f1",
+      "size_bytes": 55807
+    },
+    "predictions/O21_stream_mono/R02_dennis_skinner_dfn.rttm": {
+      "sha256": "0e2c988fbc041fdc4a7ea757ba77c8902d0b9cfaf4529264014137444041919f",
+      "size_bytes": 4134
+    },
+    "predictions/O21_stream_mono/R03_disabled_parking_attr.json": {
+      "sha256": "792ccda4a23ab8ff5d2bef9d112318313a115345bbee9e4bd2f5bc367b18620b",
+      "size_bytes": 115233
+    },
+    "predictions/O21_stream_mono/R03_disabled_parking_dfn.rttm": {
+      "sha256": "63eb2cb138f2c0412deca6efa5704f8afc803b9f21796977a549e3491df314a9",
+      "size_bytes": 6278
+    },
+    "predictions/O21_stream_mono/R04_piers_robinson_attr.json": {
+      "sha256": "a26e69c8821618282dbec3fdd20f22f0613484affb82da82b4d0c1909b9f377b",
+      "size_bytes": 125272
+    },
+    "predictions/O21_stream_mono/R04_piers_robinson_dfn.rttm": {
+      "sha256": "49bd029e34c6837885798f248a6476f9b8a9836df471b5119a8ff9bc4985e61c",
+      "size_bytes": 7416
+    },
+    "predictions/O21_stream_mono/R05_southwest_pilot_attr.json": {
+      "sha256": "9d341167ebde0af8488b6f22886e1ff01983d2b9ce661970d15ddc20aeace50c",
+      "size_bytes": 68635
+    },
+    "predictions/O21_stream_mono/R05_southwest_pilot_dfn.rttm": {
+      "sha256": "f9aa410903a906f0200ec2396f788104df46116b0fdc5927f74840ff9f58c45d",
+      "size_bytes": 5782
+    },
+    "predictions/O21_stream_mono/R06_rich_karen_attr.json": {
+      "sha256": "c2947e29452616cf08e8be348f2acac95c6d9e1084b541ea94a62997d3164703",
+      "size_bytes": 317637
+    },
+    "predictions/O21_stream_mono/R06_rich_karen_dfn.rttm": {
+      "sha256": "946f7bacb804bbc603a396aa357d3ed40433dd3214f658892fd7f1d64ade86aa",
+      "size_bytes": 22532
+    },
+    "predictions/O21_stream_mono/R07_bwc_cheap_shot_attr.json": {
+      "sha256": "058def757a10303c47de621fd85384ec188046b867045f83b4dff167e1a60ff1",
+      "size_bytes": 82398
+    },
+    "predictions/O21_stream_mono/R07_bwc_cheap_shot_dfn.rttm": {
+      "sha256": "fe733dbc0ea64e21c0eb0cd5e9f6e0fbcc93128166df0d50020935db1f7c785e",
+      "size_bytes": 3369
+    },
+    "predictions/O21_stream_mono/R08_uk_parliament_attr.json": {
+      "sha256": "4b3acb5bf3e90ff0a21c600c5b98b3db777659dde155eab5a3e8be44a500b188",
+      "size_bytes": 80821
+    },
+    "predictions/O21_stream_mono/R08_uk_parliament_dfn.rttm": {
+      "sha256": "41439cd2ed8ba8ccc0d77838bdd897cb0d04c2ce6c706de01db9386e593675eb",
+      "size_bytes": 2336
+    },
+    "plots/macro_der_overlap_attribution_comparison.png": {
+      "sha256": "d157dc4df5d00381ca47fdd99dbc06ebcd89568c665c970e1cf337c1121c2a28",
+      "size_bytes": 90159
+    },
+    "plots/overlap_threshold_sensitivity_r02_r04.png": {
+      "sha256": "e858eee0dbcd11bc17bdcbc17bce283f9f297401a15d42981f6eabfe9c3b589a",
+      "size_bytes": 129355
+    }
+  }
+}

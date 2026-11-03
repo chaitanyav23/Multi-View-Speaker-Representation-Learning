@@ -1,0 +1,150 @@
+{
+  "stage": "Stage 5B.2",
+  "description": "Multi-Speaker Overlap Optimization & Attribution",
+  "configurations": [
+    {
+      "id": "O00_base_c00",
+      "name": "Baseline Single-Label (C00 VAD, No Overlap)",
+      "vad_backbone": "C00",
+      "ovl_stream": "none",
+      "threshold": 0.0,
+      "attribution_method": "M0_no_overlap"
+    },
+    {
+      "id": "O01_base_c50",
+      "name": "Baseline Single-Label (C50 VAD, No Overlap)",
+      "vad_backbone": "C50",
+      "ovl_stream": "none",
+      "threshold": 0.0,
+      "attribution_method": "M0_no_overlap"
+    },
+    {
+      "id": "O02_base_c62",
+      "name": "Baseline Single-Label (C62 VAD, No Overlap)",
+      "vad_backbone": "C62",
+      "ovl_stream": "none",
+      "threshold": 0.0,
+      "attribution_method": "M0_no_overlap"
+    },
+    {
+      "id": "O10_thresh_030",
+      "name": "Overlap Sweep T=0.30 (Mono, Temporal Context)",
+      "vad_backbone": "C00",
+      "ovl_stream": "mono",
+      "threshold": 0.3,
+      "attribution_method": "M1_temporal_context"
+    },
+    {
+      "id": "O11_thresh_040",
+      "name": "Overlap Sweep T=0.40 (Mono, Temporal Context)",
+      "vad_backbone": "C00",
+      "ovl_stream": "mono",
+      "threshold": 0.4,
+      "attribution_method": "M1_temporal_context"
+    },
+    {
+      "id": "O12_thresh_050",
+      "name": "Overlap Sweep T=0.50 (Mono, Temporal Context)",
+      "vad_backbone": "C00",
+      "ovl_stream": "mono",
+      "threshold": 0.5,
+      "attribution_method": "M1_temporal_context"
+    },
+    {
+      "id": "O13_thresh_060",
+      "name": "Overlap Sweep T=0.60 (Mono, Temporal Context)",
+      "vad_backbone": "C00",
+      "ovl_stream": "mono",
+      "threshold": 0.6,
+      "attribution_method": "M1_temporal_context"
+    },
+    {
+      "id": "O14_thresh_070",
+      "name": "Overlap Sweep T=0.70 (Mono, Temporal Context)",
+      "vad_backbone": "C00",
+      "ovl_stream": "mono",
+      "threshold": 0.7,
+      "attribution_method": "M1_temporal_context"
+    },
+    {
+      "id": "O20_stream_dfn",
+      "name": "Overlap Stream DFN (T=0.40, Temporal Context)",
+      "vad_backbone": "C00",
+      "ovl_stream": "dfn",
+      "threshold": 0.4,
+      "attribution_method": "M1_temporal_context"
+    },
+    {
+      "id": "O21_stream_mono",
+      "name": "Overlap Stream Mono (T=0.40, Temporal Context)",
+      "vad_backbone": "C00",
+      "ovl_stream": "mono",
+      "threshold": 0.4,
+      "attribution_method": "M1_temporal_context"
+    },
+    {
+      "id": "O30_attr_temporal",
+      "name": "Attribution: M1 Temporal Context (T=0.40)",
+      "vad_backbone": "C00",
+      "ovl_stream": "mono",
+      "threshold": 0.4,
+      "attribution_method": "M1_temporal_context"
+    },
+    {
+      "id": "O31_attr_prototype",
+      "name": "Attribution: M2 Prototype Affinity (T=0.40)",
+      "vad_backbone": "C00",
+      "ovl_stream": "mono",
+      "threshold": 0.4,
+      "attribution_method": "M2_prototype_affinity"
+    },
+    {
+      "id": "O32_attr_alternation",
+      "name": "Attribution: M3 Turn Alternation (T=0.40)",
+      "vad_backbone": "C00",
+      "ovl_stream": "mono",
+      "threshold": 0.4,
+      "attribution_method": "M3_turn_alternation"
+    },
+    {
+      "id": "O33_attr_abstain",
+      "name": "Attribution: M4 Conservative Abstention (T=0.40)",
+      "vad_backbone": "C00",
+      "ovl_stream": "mono",
+      "threshold": 0.4,
+      "attribution_method": "M4_conservative_abstention"
+    },
+    {
+      "id": "O34_attr_oracle",
+      "name": "Attribution: M5 Oracle Secondary Speaker (T=0.40 Diagnostic)",
+      "vad_backbone": "C00",
+      "ovl_stream": "mono",
+      "threshold": 0.4,
+      "attribution_method": "M5_oracle"
+    },
+    {
+      "id": "O40_vad_c50_ovl",
+      "name": "Integrated: C50 Mono VAD + Mono Overlap (T=0.40, M1)",
+      "vad_backbone": "C50",
+      "ovl_stream": "mono",
+      "threshold": 0.4,
+      "attribution_method": "M1_temporal_context"
+    },
+    {
+      "id": "O41_vad_c62_ovl",
+      "name": "Integrated: C62 Consensus VAD + Mono Overlap (T=0.40, M1)",
+      "vad_backbone": "C62",
+      "ovl_stream": "mono",
+      "threshold": 0.4,
+      "attribution_method": "M1_temporal_context"
+    },
+    {
+      "id": "O42_vad_c62_abstain",
+      "name": "Integrated: C62 Consensus VAD + Conservative Overlap (M4)",
+      "vad_backbone": "C62",
+      "ovl_stream": "mono",
+      "threshold": 0.4,
+      "attribution_method": "M4_conservative_abstention"
+    }
+  ]
+}
