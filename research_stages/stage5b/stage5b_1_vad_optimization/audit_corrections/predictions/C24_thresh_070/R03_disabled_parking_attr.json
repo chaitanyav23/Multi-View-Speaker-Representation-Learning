@@ -1,0 +1,4963 @@
+{
+  "segments": [
+    {
+      "speaker": "speaker_0",
+      "start": 0.353,
+      "end": 3.046,
+      "text": "I'll see you over there filming me forward, okay?",
+      "words": [
+        {
+          "word": "I'll",
+          "start": 0.353,
+          "end": 0.433,
+          "confidence": 0.121,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "see",
+          "start": 0.453,
+          "end": 0.554,
+          "confidence": 0.98,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "you",
+          "start": 0.594,
+          "end": 0.654,
+          "confidence": 0.936,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "over",
+          "start": 0.694,
+          "end": 0.775,
+          "confidence": 0.179,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "there",
+          "start": 0.795,
+          "end": 0.996,
+          "confidence": 0.576,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "filming",
+          "start": 1.016,
+          "end": 1.358,
+          "confidence": 0.7,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "me",
+          "start": 1.378,
+          "end": 1.498,
+          "confidence": 0.788,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "forward,",
+          "start": 1.519,
+          "end": 2.001,
+          "confidence": 0.566,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "okay?",
+          "start": 2.765,
+          "end": 3.046,
+          "confidence": 0.746,
+          "speaker": "speaker_0"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_0",
+      "start": 5.138,
+      "end": 5.623,
+      "text": "You're right, little.",
+      "words": [
+        {
+          "word": "You're",
+          "start": 5.138,
+          "end": 5.3,
+          "confidence": 0.228,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "right,",
+          "start": 5.32,
+          "end": 5.461,
+          "confidence": 0.244,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "little.",
+          "start": 5.482,
+          "end": 5.623,
+          "confidence": 0.152,
+          "speaker": "speaker_0"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_1",
+      "start": 6.674,
+      "end": 13.222,
+      "text": "Well, I'm not alright. Can you not see that this space is for disabled badge holders?",
+      "words": [
+        {
+          "word": "Well,",
+          "start": 6.674,
+          "end": 6.854,
+          "confidence": 0.336,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "I'm",
+          "start": 6.914,
+          "end": 6.995,
+          "confidence": 0.165,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "not",
+          "start": 7.035,
+          "end": 7.155,
+          "confidence": 0.49,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "alright.",
+          "start": 7.175,
+          "end": 7.595,
+          "confidence": 0.773,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "Can",
+          "start": 7.956,
+          "end": 8.156,
+          "confidence": 0.773,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "you",
+          "start": 8.196,
+          "end": 8.316,
+          "confidence": 0.946,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "not",
+          "start": 8.376,
+          "end": 8.556,
+          "confidence": 0.833,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "see",
+          "start": 8.696,
+          "end": 9.077,
+          "confidence": 0.924,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "that",
+          "start": 9.097,
+          "end": 9.177,
+          "confidence": 0.0,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "this",
+          "start": 9.858,
+          "end": 10.098,
+          "confidence": 0.787,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "space",
+          "start": 10.178,
+          "end": 10.699,
+          "confidence": 0.989,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "is",
+          "start": 11.199,
+          "end": 11.299,
+          "confidence": 0.748,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "for",
+          "start": 11.339,
+          "end": 11.46,
+          "confidence": 0.857,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "disabled",
+          "start": 11.56,
+          "end": 12.22,
+          "confidence": 0.856,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "badge",
+          "start": 12.321,
+          "end": 12.601,
+          "confidence": 0.979,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "holders?",
+          "start": 12.661,
+          "end": 13.222,
+          "confidence": 0.921,
+          "speaker": "speaker_1"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_0",
+      "start": 13.482,
+      "end": 15.244,
+      "text": "Okay, can you not see my badge?",
+      "words": [
+        {
+          "word": "Okay,",
+          "start": 13.482,
+          "end": 14.002,
+          "confidence": 0.499,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "can",
+          "start": 14.062,
+          "end": 14.263,
+          "confidence": 0.658,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "you",
+          "start": 14.503,
+          "end": 14.623,
+          "confidence": 0.493,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "not",
+          "start": 14.643,
+          "end": 14.783,
+          "confidence": 0.59,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "see",
+          "start": 14.803,
+          "end": 14.863,
+          "confidence": 0.011,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "my",
+          "start": 14.883,
+          "end": 14.984,
+          "confidence": 0.746,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "badge?",
+          "start": 15.004,
+          "end": 15.244,
+          "confidence": 0.61,
+          "speaker": "speaker_0"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_1",
+      "start": 17.097,
+      "end": 19.265,
+      "text": "How do I know that that is your badge?",
+      "words": [
+        {
+          "word": "How",
+          "start": 17.097,
+          "end": 17.278,
+          "confidence": 0.998,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "do",
+          "start": 17.338,
+          "end": 17.479,
+          "confidence": 0.983,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "I",
+          "start": 17.579,
+          "end": 17.639,
+          "confidence": 0.639,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "know",
+          "start": 17.7,
+          "end": 17.94,
+          "confidence": 0.803,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "that",
+          "start": 18.061,
+          "end": 18.201,
+          "confidence": 0.752,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "that",
+          "start": 18.221,
+          "end": 18.422,
+          "confidence": 0.788,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "is",
+          "start": 18.482,
+          "end": 18.562,
+          "confidence": 0.816,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "your",
+          "start": 18.583,
+          "end": 18.763,
+          "confidence": 0.968,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "badge?",
+          "start": 18.823,
+          "end": 19.265,
+          "confidence": 0.989,
+          "speaker": "speaker_1"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_0",
+      "start": 19.486,
+      "end": 20.73,
+      "text": "Well, it's on my car.",
+      "words": [
+        {
+          "word": "Well,",
+          "start": 19.486,
+          "end": 19.747,
+          "confidence": 0.905,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "it's",
+          "start": 20.007,
+          "end": 20.168,
+          "confidence": 0.454,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "on",
+          "start": 20.228,
+          "end": 20.288,
+          "confidence": 0.523,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "my",
+          "start": 20.308,
+          "end": 20.449,
+          "confidence": 0.77,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "car.",
+          "start": 20.469,
+          "end": 20.73,
+          "confidence": 0.79,
+          "speaker": "speaker_0"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_1",
+      "start": 22.818,
+      "end": 25.367,
+      "text": "That badge does not look authentic.",
+      "words": [
+        {
+          "word": "That",
+          "start": 22.818,
+          "end": 23.039,
+          "confidence": 0.95,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "badge",
+          "start": 23.119,
+          "end": 23.561,
+          "confidence": 0.845,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "does",
+          "start": 23.741,
+          "end": 23.982,
+          "confidence": 0.743,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "not",
+          "start": 24.103,
+          "end": 24.344,
+          "confidence": 0.802,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "look",
+          "start": 24.404,
+          "end": 24.585,
+          "confidence": 0.988,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "authentic.",
+          "start": 24.685,
+          "end": 25.367,
+          "confidence": 0.785,
+          "speaker": "speaker_1"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_0",
+      "start": 25.387,
+      "end": 26.793,
+      "text": "What do you mean that doesn't look authentic?",
+      "words": [
+        {
+          "word": "What",
+          "start": 25.387,
+          "end": 25.468,
+          "confidence": 0.0,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "do",
+          "start": 25.508,
+          "end": 25.548,
+          "confidence": 0.479,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "you",
+          "start": 25.568,
+          "end": 25.628,
+          "confidence": 0.017,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "mean",
+          "start": 25.648,
+          "end": 25.749,
+          "confidence": 0.066,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "that",
+          "start": 25.769,
+          "end": 25.869,
+          "confidence": 0.797,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "doesn't",
+          "start": 25.909,
+          "end": 26.13,
+          "confidence": 0.698,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "look",
+          "start": 26.17,
+          "end": 26.331,
+          "confidence": 0.814,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "authentic?",
+          "start": 26.371,
+          "end": 26.793,
+          "confidence": 0.372,
+          "speaker": "speaker_0"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_1",
+      "start": 27.257,
+      "end": 29.097,
+      "text": "That badge looks fake.",
+      "words": [
+        {
+          "word": "That",
+          "start": 27.257,
+          "end": 27.52,
+          "confidence": 0.915,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "badge",
+          "start": 27.642,
+          "end": 28.107,
+          "confidence": 0.624,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "looks",
+          "start": 28.167,
+          "end": 28.43,
+          "confidence": 0.707,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "fake.",
+          "start": 28.632,
+          "end": 29.097,
+          "confidence": 0.87,
+          "speaker": "speaker_1"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_0",
+      "start": 29.927,
+      "end": 30.696,
+      "text": "Okay, well, it's real.",
+      "words": [
+        {
+          "word": "Okay,",
+          "start": 29.927,
+          "end": 30.129,
+          "confidence": 0.459,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "well,",
+          "start": 30.149,
+          "end": 30.291,
+          "confidence": 0.765,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "it's",
+          "start": 30.311,
+          "end": 30.392,
+          "confidence": 0.295,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "real.",
+          "start": 30.433,
+          "end": 30.696,
+          "confidence": 0.831,
+          "speaker": "speaker_0"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_1",
+      "start": 31.481,
+      "end": 32.903,
+      "text": "I've only got your word for it.",
+      "words": [
+        {
+          "word": "I've",
+          "start": 31.481,
+          "end": 31.562,
+          "confidence": 0.133,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "only",
+          "start": 31.642,
+          "end": 31.782,
+          "confidence": 0.598,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "got",
+          "start": 31.822,
+          "end": 31.922,
+          "confidence": 0.965,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "your",
+          "start": 31.962,
+          "end": 32.122,
+          "confidence": 0.851,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "word",
+          "start": 32.162,
+          "end": 32.363,
+          "confidence": 0.874,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "for",
+          "start": 32.443,
+          "end": 32.663,
+          "confidence": 0.874,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "it.",
+          "start": 32.803,
+          "end": 32.903,
+          "confidence": 0.913,
+          "speaker": "speaker_1"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_0",
+      "start": 33.103,
+      "end": 35.146,
+      "text": "Okay, well, are you a parking officer?",
+      "words": [
+        {
+          "word": "Okay,",
+          "start": 33.103,
+          "end": 33.444,
+          "confidence": 0.769,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "well,",
+          "start": 33.484,
+          "end": 34.345,
+          "confidence": 0.923,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "are",
+          "start": 34.365,
+          "end": 34.425,
+          "confidence": 0.242,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "you",
+          "start": 34.445,
+          "end": 34.565,
+          "confidence": 0.794,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "a",
+          "start": 34.585,
+          "end": 34.605,
+          "confidence": 0.022,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "parking",
+          "start": 34.625,
+          "end": 34.886,
+          "confidence": 0.646,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "officer?",
+          "start": 34.906,
+          "end": 35.146,
+          "confidence": 0.938,
+          "speaker": "speaker_0"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_1",
+      "start": 36.386,
+      "end": 47.084,
+      "text": "I'm not a parking officer, but I work in this building and I'm quite happy to call a parking officer. Call them then. Well, no, no, why don't you come out and show me your disability?",
+      "words": [
+        {
+          "word": "I'm",
+          "start": 36.386,
+          "end": 36.506,
+          "confidence": 0.877,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "not",
+          "start": 36.546,
+          "end": 36.667,
+          "confidence": 0.987,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "a",
+          "start": 36.687,
+          "end": 36.707,
+          "confidence": 0.0,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "parking",
+          "start": 36.727,
+          "end": 37.047,
+          "confidence": 0.879,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "officer,",
+          "start": 37.087,
+          "end": 37.608,
+          "confidence": 0.78,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "but",
+          "start": 37.869,
+          "end": 38.009,
+          "confidence": 0.79,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "I",
+          "start": 38.149,
+          "end": 38.229,
+          "confidence": 0.802,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "work",
+          "start": 38.329,
+          "end": 38.73,
+          "confidence": 0.614,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "in",
+          "start": 38.89,
+          "end": 38.97,
+          "confidence": 0.962,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "this",
+          "start": 39.01,
+          "end": 39.131,
+          "confidence": 0.863,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "building",
+          "start": 39.171,
+          "end": 39.591,
+          "confidence": 0.835,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "and",
+          "start": 39.932,
+          "end": 40.032,
+          "confidence": 0.782,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "I'm",
+          "start": 40.212,
+          "end": 40.373,
+          "confidence": 0.827,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "quite",
+          "start": 40.513,
+          "end": 40.813,
+          "confidence": 0.723,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "happy",
+          "start": 40.854,
+          "end": 41.214,
+          "confidence": 0.951,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "to",
+          "start": 41.274,
+          "end": 41.435,
+          "confidence": 0.826,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "call",
+          "start": 41.695,
+          "end": 41.935,
+          "confidence": 0.922,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "a",
+          "start": 41.995,
+          "end": 42.036,
+          "confidence": 0.668,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "parking",
+          "start": 42.056,
+          "end": 42.416,
+          "confidence": 0.823,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "officer.",
+          "start": 42.436,
+          "end": 42.917,
+          "confidence": 0.795,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "Call",
+          "start": 43.077,
+          "end": 43.238,
+          "confidence": 0.433,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "them",
+          "start": 43.258,
+          "end": 43.358,
+          "confidence": 0.28,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "then.",
+          "start": 43.378,
+          "end": 43.518,
+          "confidence": 0.407,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "Well,",
+          "start": 44.081,
+          "end": 44.221,
+          "confidence": 0.257,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "no,",
+          "start": 44.241,
+          "end": 44.321,
+          "confidence": 0.423,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "no,",
+          "start": 44.341,
+          "end": 44.481,
+          "confidence": 0.506,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "why",
+          "start": 44.682,
+          "end": 44.822,
+          "confidence": 0.951,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "don't",
+          "start": 44.842,
+          "end": 45.002,
+          "confidence": 0.907,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "you",
+          "start": 45.042,
+          "end": 45.142,
+          "confidence": 0.891,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "come",
+          "start": 45.182,
+          "end": 45.362,
+          "confidence": 0.819,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "out",
+          "start": 45.422,
+          "end": 45.503,
+          "confidence": 0.746,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "and",
+          "start": 45.563,
+          "end": 45.663,
+          "confidence": 0.799,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "show",
+          "start": 45.723,
+          "end": 45.963,
+          "confidence": 0.94,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "me",
+          "start": 46.003,
+          "end": 46.083,
+          "confidence": 0.995,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "your",
+          "start": 46.123,
+          "end": 46.263,
+          "confidence": 0.899,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "disability?",
+          "start": 46.303,
+          "end": 47.084,
+          "confidence": 0.929,
+          "speaker": "speaker_1"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_0",
+      "start": 47.405,
+      "end": 47.765,
+      "text": "Sorry?",
+      "words": [
+        {
+          "word": "Sorry?",
+          "start": 47.405,
+          "end": 47.765,
+          "confidence": 0.903,
+          "speaker": "speaker_0"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_1",
+      "start": 48.225,
+      "end": 49.847,
+      "text": "What? You don't look disabled.",
+      "words": [
+        {
+          "word": "What?",
+          "start": 48.225,
+          "end": 48.426,
+          "confidence": 0.679,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "You",
+          "start": 48.506,
+          "end": 48.646,
+          "confidence": 0.841,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "don't",
+          "start": 48.686,
+          "end": 48.866,
+          "confidence": 0.77,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "look",
+          "start": 48.906,
+          "end": 49.086,
+          "confidence": 0.89,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "disabled.",
+          "start": 49.126,
+          "end": 49.847,
+          "confidence": 0.895,
+          "speaker": "speaker_1"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_0",
+      "start": 50.047,
+      "end": 55.974,
+      "text": "OK, well, OK, well, hold on a minute, yeah. Not all... Start as yeah, love. Not all disabilities are visible.",
+      "words": [
+        {
+          "word": "OK,",
+          "start": 50.047,
+          "end": 50.268,
+          "confidence": 0.616,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "well,",
+          "start": 50.288,
+          "end": 50.468,
+          "confidence": 0.542,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "OK,",
+          "start": 50.528,
+          "end": 50.628,
+          "confidence": 0.427,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "well,",
+          "start": 50.668,
+          "end": 50.868,
+          "confidence": 0.476,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "hold",
+          "start": 50.888,
+          "end": 51.049,
+          "confidence": 0.42,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "on",
+          "start": 51.069,
+          "end": 51.109,
+          "confidence": 0.02,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "a",
+          "start": 51.209,
+          "end": 51.309,
+          "confidence": 0.387,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "minute,",
+          "start": 51.329,
+          "end": 51.689,
+          "confidence": 0.537,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "yeah.",
+          "start": 51.809,
+          "end": 52.03,
+          "confidence": 0.547,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "Not",
+          "start": 52.19,
+          "end": 52.33,
+          "confidence": 0.812,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "all...",
+          "start": 52.39,
+          "end": 53.011,
+          "confidence": 0.83,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "Start",
+          "start": 53.471,
+          "end": 53.631,
+          "confidence": 0.666,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "as",
+          "start": 53.671,
+          "end": 53.751,
+          "confidence": 0.728,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "yeah,",
+          "start": 53.771,
+          "end": 53.892,
+          "confidence": 0.371,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "love.",
+          "start": 53.912,
+          "end": 54.092,
+          "confidence": 0.707,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "Not",
+          "start": 54.712,
+          "end": 54.873,
+          "confidence": 0.866,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "all",
+          "start": 54.933,
+          "end": 55.073,
+          "confidence": 0.903,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "disabilities",
+          "start": 55.093,
+          "end": 55.593,
+          "confidence": 0.719,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "are",
+          "start": 55.613,
+          "end": 55.673,
+          "confidence": 0.485,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "visible.",
+          "start": 55.693,
+          "end": 55.974,
+          "confidence": 0.941,
+          "speaker": "speaker_0"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_1",
+      "start": 56.602,
+      "end": 58.126,
+      "text": "Well, what is your disability",
+      "words": [
+        {
+          "word": "Well,",
+          "start": 56.602,
+          "end": 56.783,
+          "confidence": 0.639,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "what",
+          "start": 57.063,
+          "end": 57.244,
+          "confidence": 0.792,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "is",
+          "start": 57.304,
+          "end": 57.384,
+          "confidence": 0.682,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "your",
+          "start": 57.424,
+          "end": 57.565,
+          "confidence": 0.905,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "disability",
+          "start": 57.605,
+          "end": 58.126,
+          "confidence": 0.898,
+          "speaker": "speaker_1"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_0",
+      "start": 58.147,
+      "end": 60.212,
+      "text": "then? Well, it's none of your business what my disability is, love. Well,",
+      "words": [
+        {
+          "word": "then?",
+          "start": 58.147,
+          "end": 58.267,
+          "confidence": 0.434,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "Well,",
+          "start": 58.287,
+          "end": 58.387,
+          "confidence": 0.023,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "it's",
+          "start": 58.407,
+          "end": 58.487,
+          "confidence": 0.033,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "none",
+          "start": 58.508,
+          "end": 58.588,
+          "confidence": 0.026,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "of",
+          "start": 58.608,
+          "end": 58.648,
+          "confidence": 0.0,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "your",
+          "start": 58.668,
+          "end": 58.748,
+          "confidence": 0.002,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "business",
+          "start": 58.768,
+          "end": 59.069,
+          "confidence": 0.884,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "what",
+          "start": 59.089,
+          "end": 59.25,
+          "confidence": 0.488,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "my",
+          "start": 59.27,
+          "end": 59.35,
+          "confidence": 0.982,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "disability",
+          "start": 59.39,
+          "end": 59.751,
+          "confidence": 0.648,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "is,",
+          "start": 59.791,
+          "end": 59.892,
+          "confidence": 0.696,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "love.",
+          "start": 59.912,
+          "end": 60.032,
+          "confidence": 0.265,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "Well,",
+          "start": 60.052,
+          "end": 60.212,
+          "confidence": 0.52,
+          "speaker": "speaker_0"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_1",
+      "start": 60.273,
+      "end": 61.316,
+      "text": "I think it is my business.",
+      "words": [
+        {
+          "word": "I",
+          "start": 60.273,
+          "end": 60.333,
+          "confidence": 0.986,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "think",
+          "start": 60.373,
+          "end": 60.553,
+          "confidence": 0.951,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "it",
+          "start": 60.614,
+          "end": 60.674,
+          "confidence": 0.761,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "is",
+          "start": 60.754,
+          "end": 60.854,
+          "confidence": 0.778,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "my",
+          "start": 60.914,
+          "end": 61.075,
+          "confidence": 0.609,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "business.",
+          "start": 61.115,
+          "end": 61.316,
+          "confidence": 0.339,
+          "speaker": "speaker_1"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_0",
+      "start": 61.376,
+      "end": 62.198,
+      "text": "How is it your business?",
+      "words": [
+        {
+          "word": "How",
+          "start": 61.376,
+          "end": 61.536,
+          "confidence": 0.794,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "is",
+          "start": 61.596,
+          "end": 61.657,
+          "confidence": 0.842,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "it",
+          "start": 61.697,
+          "end": 61.737,
+          "confidence": 0.009,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "your",
+          "start": 61.757,
+          "end": 61.837,
+          "confidence": 0.178,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "business?",
+          "start": 61.857,
+          "end": 62.198,
+          "confidence": 0.974,
+          "speaker": "speaker_0"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_1",
+      "start": 62.782,
+      "end": 64.527,
+      "text": "Because I work in this building.",
+      "words": [
+        {
+          "word": "Because",
+          "start": 62.782,
+          "end": 63.023,
+          "confidence": 0.893,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "I",
+          "start": 63.183,
+          "end": 63.344,
+          "confidence": 0.804,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "work",
+          "start": 63.404,
+          "end": 63.644,
+          "confidence": 0.746,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "in",
+          "start": 63.705,
+          "end": 63.785,
+          "confidence": 0.826,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "this",
+          "start": 63.805,
+          "end": 63.905,
+          "confidence": 0.572,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "building.",
+          "start": 63.965,
+          "end": 64.527,
+          "confidence": 0.539,
+          "speaker": "speaker_1"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_0",
+      "start": 65.149,
+      "end": 67.796,
+      "text": "Congratulations, love. What do you want? Do you want a medal?",
+      "words": [
+        {
+          "word": "Congratulations,",
+          "start": 65.149,
+          "end": 65.951,
+          "confidence": 0.946,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "love.",
+          "start": 65.971,
+          "end": 66.091,
+          "confidence": 0.5,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "What",
+          "start": 66.111,
+          "end": 66.211,
+          "confidence": 0.904,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "do",
+          "start": 66.231,
+          "end": 66.332,
+          "confidence": 0.492,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "you",
+          "start": 66.352,
+          "end": 66.552,
+          "confidence": 0.361,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "want?",
+          "start": 66.592,
+          "end": 66.753,
+          "confidence": 0.263,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "Do",
+          "start": 66.813,
+          "end": 67.034,
+          "confidence": 0.758,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "you",
+          "start": 67.194,
+          "end": 67.314,
+          "confidence": 0.37,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "want",
+          "start": 67.354,
+          "end": 67.495,
+          "confidence": 0.19,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "a",
+          "start": 67.515,
+          "end": 67.555,
+          "confidence": 0.95,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "medal?",
+          "start": 67.575,
+          "end": 67.796,
+          "confidence": 0.842,
+          "speaker": "speaker_0"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_1",
+      "start": 68.384,
+      "end": 76.07,
+      "text": "No, I'm doing my right as a citizen to tell you you should not be parking here if you don't have...",
+      "words": [
+        {
+          "word": "No,",
+          "start": 68.384,
+          "end": 68.524,
+          "confidence": 0.417,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "I'm",
+          "start": 68.884,
+          "end": 69.065,
+          "confidence": 0.925,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "doing",
+          "start": 69.205,
+          "end": 69.565,
+          "confidence": 0.716,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "my",
+          "start": 69.585,
+          "end": 69.625,
+          "confidence": 0.0,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "right",
+          "start": 69.645,
+          "end": 71.106,
+          "confidence": 0.627,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "as",
+          "start": 71.186,
+          "end": 71.286,
+          "confidence": 0.805,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "a",
+          "start": 71.346,
+          "end": 71.386,
+          "confidence": 0.713,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "citizen",
+          "start": 71.506,
+          "end": 72.107,
+          "confidence": 0.928,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "to",
+          "start": 72.127,
+          "end": 72.167,
+          "confidence": 0.0,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "tell",
+          "start": 72.827,
+          "end": 73.148,
+          "confidence": 0.82,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "you",
+          "start": 73.208,
+          "end": 73.448,
+          "confidence": 0.663,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "you",
+          "start": 73.928,
+          "end": 74.108,
+          "confidence": 0.858,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "should",
+          "start": 74.168,
+          "end": 74.368,
+          "confidence": 0.854,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "not",
+          "start": 74.428,
+          "end": 74.569,
+          "confidence": 0.833,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "be",
+          "start": 74.609,
+          "end": 74.729,
+          "confidence": 0.835,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "parking",
+          "start": 74.789,
+          "end": 75.249,
+          "confidence": 0.829,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "here",
+          "start": 75.289,
+          "end": 75.489,
+          "confidence": 0.874,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "if",
+          "start": 75.509,
+          "end": 75.549,
+          "confidence": 0.014,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "you",
+          "start": 75.569,
+          "end": 75.709,
+          "confidence": 0.425,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "don't",
+          "start": 75.749,
+          "end": 75.89,
+          "confidence": 0.239,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "have...",
+          "start": 75.93,
+          "end": 76.07,
+          "confidence": 0.3,
+          "speaker": "speaker_1"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_0",
+      "start": 76.09,
+      "end": 79.412,
+      "text": "Okay, and I'm showing you my right as a disabled person that I have a badge.",
+      "words": [
+        {
+          "word": "Okay,",
+          "start": 76.09,
+          "end": 76.19,
+          "confidence": 0.242,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "and",
+          "start": 76.21,
+          "end": 76.29,
+          "confidence": 0.166,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "I'm",
+          "start": 76.31,
+          "end": 76.37,
+          "confidence": 0.0,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "showing",
+          "start": 76.39,
+          "end": 76.59,
+          "confidence": 0.698,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "you",
+          "start": 76.61,
+          "end": 76.71,
+          "confidence": 0.952,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "my",
+          "start": 76.75,
+          "end": 76.93,
+          "confidence": 0.99,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "right",
+          "start": 77.01,
+          "end": 77.251,
+          "confidence": 0.875,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "as",
+          "start": 77.431,
+          "end": 77.511,
+          "confidence": 0.692,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "a",
+          "start": 77.571,
+          "end": 77.631,
+          "confidence": 0.519,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "disabled",
+          "start": 77.651,
+          "end": 78.071,
+          "confidence": 0.556,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "person",
+          "start": 78.091,
+          "end": 78.491,
+          "confidence": 0.952,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "that",
+          "start": 78.511,
+          "end": 78.592,
+          "confidence": 0.046,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "I",
+          "start": 78.792,
+          "end": 78.812,
+          "confidence": 0.848,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "have",
+          "start": 78.852,
+          "end": 78.972,
+          "confidence": 0.429,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "a",
+          "start": 78.992,
+          "end": 79.032,
+          "confidence": 0.485,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "badge.",
+          "start": 79.052,
+          "end": 79.412,
+          "confidence": 0.54,
+          "speaker": "speaker_0"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_1",
+      "start": 79.432,
+      "end": 81.173,
+      "text": "Well, tell me what your disability is then.",
+      "words": [
+        {
+          "word": "Well,",
+          "start": 79.432,
+          "end": 79.592,
+          "confidence": 0.384,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "tell",
+          "start": 79.692,
+          "end": 79.812,
+          "confidence": 0.955,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "me",
+          "start": 79.852,
+          "end": 79.913,
+          "confidence": 0.961,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "what",
+          "start": 79.953,
+          "end": 80.053,
+          "confidence": 0.875,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "your",
+          "start": 80.073,
+          "end": 80.193,
+          "confidence": 0.87,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "disability",
+          "start": 80.213,
+          "end": 80.713,
+          "confidence": 0.932,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "is",
+          "start": 80.773,
+          "end": 80.853,
+          "confidence": 0.804,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "then.",
+          "start": 80.913,
+          "end": 81.173,
+          "confidence": 0.823,
+          "speaker": "speaker_1"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_0",
+      "start": 81.274,
+      "end": 83.255,
+      "text": "Well, it's mind your business.",
+      "words": [
+        {
+          "word": "Well,",
+          "start": 81.274,
+          "end": 81.874,
+          "confidence": 0.492,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "it's",
+          "start": 82.334,
+          "end": 82.454,
+          "confidence": 0.239,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "mind",
+          "start": 82.494,
+          "end": 82.675,
+          "confidence": 0.919,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "your",
+          "start": 82.715,
+          "end": 82.815,
+          "confidence": 0.932,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "business.",
+          "start": 82.835,
+          "end": 83.255,
+          "confidence": 0.794,
+          "speaker": "speaker_0"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_1",
+      "start": 83.775,
+      "end": 88.279,
+      "text": "Oh, it doesn't sound like you actually are disabled. I think you're taking the mickey. Well,",
+      "words": [
+        {
+          "word": "Oh,",
+          "start": 83.775,
+          "end": 83.875,
+          "confidence": 0.387,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "it",
+          "start": 84.036,
+          "end": 84.116,
+          "confidence": 0.874,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "doesn't",
+          "start": 84.236,
+          "end": 84.656,
+          "confidence": 0.862,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "sound",
+          "start": 84.736,
+          "end": 85.116,
+          "confidence": 0.647,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "like",
+          "start": 85.196,
+          "end": 85.497,
+          "confidence": 0.801,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "you",
+          "start": 85.837,
+          "end": 85.997,
+          "confidence": 0.843,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "actually",
+          "start": 86.117,
+          "end": 86.417,
+          "confidence": 0.548,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "are",
+          "start": 86.497,
+          "end": 86.637,
+          "confidence": 0.129,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "disabled.",
+          "start": 86.678,
+          "end": 87.078,
+          "confidence": 0.42,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "I",
+          "start": 87.098,
+          "end": 87.218,
+          "confidence": 0.706,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "think",
+          "start": 87.238,
+          "end": 87.358,
+          "confidence": 0.899,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "you're",
+          "start": 87.378,
+          "end": 87.518,
+          "confidence": 0.616,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "taking",
+          "start": 87.538,
+          "end": 87.758,
+          "confidence": 0.745,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "the",
+          "start": 87.778,
+          "end": 87.858,
+          "confidence": 0.191,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "mickey.",
+          "start": 87.898,
+          "end": 88.079,
+          "confidence": 0.341,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "Well,",
+          "start": 88.099,
+          "end": 88.279,
+          "confidence": 0.331,
+          "speaker": "speaker_1"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_0",
+      "start": 88.559,
+      "end": 93.963,
+      "text": "I'm not taking the mickey. It's just a bit irrelevant for me to tell you what my disability is because it's none of your business.",
+      "words": [
+        {
+          "word": "I'm",
+          "start": 88.559,
+          "end": 88.639,
+          "confidence": 0.181,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "not",
+          "start": 88.679,
+          "end": 88.839,
+          "confidence": 0.578,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "taking",
+          "start": 88.859,
+          "end": 89.019,
+          "confidence": 0.248,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "the",
+          "start": 89.039,
+          "end": 89.139,
+          "confidence": 0.829,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "mickey.",
+          "start": 89.159,
+          "end": 89.52,
+          "confidence": 0.713,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "It's",
+          "start": 90.02,
+          "end": 90.26,
+          "confidence": 0.597,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "just",
+          "start": 90.46,
+          "end": 90.761,
+          "confidence": 0.542,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "a",
+          "start": 90.781,
+          "end": 90.801,
+          "confidence": 0.069,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "bit",
+          "start": 90.821,
+          "end": 90.981,
+          "confidence": 0.542,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "irrelevant",
+          "start": 91.001,
+          "end": 91.441,
+          "confidence": 0.833,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "for",
+          "start": 91.521,
+          "end": 91.641,
+          "confidence": 0.885,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "me",
+          "start": 91.661,
+          "end": 91.761,
+          "confidence": 0.836,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "to",
+          "start": 91.781,
+          "end": 91.841,
+          "confidence": 0.74,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "tell",
+          "start": 91.881,
+          "end": 92.041,
+          "confidence": 0.809,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "you",
+          "start": 92.061,
+          "end": 92.162,
+          "confidence": 0.866,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "what",
+          "start": 92.302,
+          "end": 92.462,
+          "confidence": 0.797,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "my",
+          "start": 92.482,
+          "end": 92.582,
+          "confidence": 0.986,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "disability",
+          "start": 92.622,
+          "end": 92.962,
+          "confidence": 0.576,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "is",
+          "start": 92.982,
+          "end": 93.042,
+          "confidence": 0.196,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "because",
+          "start": 93.062,
+          "end": 93.202,
+          "confidence": 0.146,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "it's",
+          "start": 93.222,
+          "end": 93.302,
+          "confidence": 0.002,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "none",
+          "start": 93.322,
+          "end": 93.402,
+          "confidence": 0.011,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "of",
+          "start": 93.462,
+          "end": 93.543,
+          "confidence": 0.636,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "your",
+          "start": 93.563,
+          "end": 93.663,
+          "confidence": 0.756,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "business.",
+          "start": 93.683,
+          "end": 93.963,
+          "confidence": 0.954,
+          "speaker": "speaker_0"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_1",
+      "start": 94.473,
+      "end": 101.54,
+      "text": "First of all, your badge does not look real. Now you're telling me you aren't gonna say what your disability is.",
+      "words": [
+        {
+          "word": "First",
+          "start": 94.473,
+          "end": 94.813,
+          "confidence": 0.881,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "of",
+          "start": 94.853,
+          "end": 94.893,
+          "confidence": 0.997,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "all,",
+          "start": 95.054,
+          "end": 95.214,
+          "confidence": 0.842,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "your",
+          "start": 95.514,
+          "end": 95.734,
+          "confidence": 0.918,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "badge",
+          "start": 95.814,
+          "end": 96.175,
+          "confidence": 0.845,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "does",
+          "start": 96.235,
+          "end": 96.395,
+          "confidence": 0.764,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "not",
+          "start": 96.435,
+          "end": 96.535,
+          "confidence": 0.832,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "look",
+          "start": 96.555,
+          "end": 96.715,
+          "confidence": 0.914,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "real.",
+          "start": 96.775,
+          "end": 97.015,
+          "confidence": 0.9,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "Now",
+          "start": 97.296,
+          "end": 97.436,
+          "confidence": 0.931,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "you're",
+          "start": 97.456,
+          "end": 97.636,
+          "confidence": 0.596,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "telling",
+          "start": 97.656,
+          "end": 97.956,
+          "confidence": 0.656,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "me",
+          "start": 97.996,
+          "end": 98.137,
+          "confidence": 0.672,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "you",
+          "start": 98.737,
+          "end": 99.037,
+          "confidence": 0.868,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "aren't",
+          "start": 99.718,
+          "end": 99.858,
+          "confidence": 0.452,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "gonna",
+          "start": 99.878,
+          "end": 100.098,
+          "confidence": 0.347,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "say",
+          "start": 100.138,
+          "end": 100.359,
+          "confidence": 0.743,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "what",
+          "start": 100.459,
+          "end": 100.579,
+          "confidence": 0.893,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "your",
+          "start": 100.599,
+          "end": 100.719,
+          "confidence": 0.96,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "disability",
+          "start": 100.739,
+          "end": 101.28,
+          "confidence": 0.695,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "is.",
+          "start": 101.44,
+          "end": 101.54,
+          "confidence": 0.884,
+          "speaker": "speaker_1"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_0",
+      "start": 101.983,
+      "end": 103.013,
+      "text": "Although, no more.",
+      "words": [
+        {
+          "word": "Although,",
+          "start": 101.983,
+          "end": 102.447,
+          "confidence": 0.612,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "no",
+          "start": 102.548,
+          "end": 102.73,
+          "confidence": 0.823,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "more.",
+          "start": 102.77,
+          "end": 103.013,
+          "confidence": 0.901,
+          "speaker": "speaker_0"
+        }
+      ]
+    },
+    {
+      "speaker": "UNK",
+      "start": 103.565,
+      "end": 103.826,
+      "text": "Well,",
+      "words": [
+        {
+          "word": "Well,",
+          "start": 103.565,
+          "end": 103.826,
+          "confidence": 0.416,
+          "speaker": "UNK"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_1",
+      "start": 104.467,
+      "end": 106.991,
+      "text": "do you know how that comes across? Do you know how that looks? Well,",
+      "words": [
+        {
+          "word": "do",
+          "start": 104.467,
+          "end": 104.507,
+          "confidence": 0.014,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "you",
+          "start": 104.567,
+          "end": 104.667,
+          "confidence": 0.225,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "know",
+          "start": 104.727,
+          "end": 104.867,
+          "confidence": 0.48,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "how",
+          "start": 104.907,
+          "end": 105.048,
+          "confidence": 0.927,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "that",
+          "start": 105.088,
+          "end": 105.228,
+          "confidence": 0.866,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "comes",
+          "start": 105.268,
+          "end": 105.508,
+          "confidence": 0.928,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "across?",
+          "start": 105.568,
+          "end": 105.909,
+          "confidence": 0.95,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "Do",
+          "start": 105.949,
+          "end": 105.989,
+          "confidence": 0.244,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "you",
+          "start": 106.009,
+          "end": 106.069,
+          "confidence": 0.0,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "know",
+          "start": 106.089,
+          "end": 106.21,
+          "confidence": 0.328,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "how",
+          "start": 106.23,
+          "end": 106.33,
+          "confidence": 0.645,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "that",
+          "start": 106.37,
+          "end": 106.49,
+          "confidence": 0.908,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "looks?",
+          "start": 106.53,
+          "end": 106.791,
+          "confidence": 0.634,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "Well,",
+          "start": 106.831,
+          "end": 106.991,
+          "confidence": 0.565,
+          "speaker": "speaker_1"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_0",
+      "start": 107.031,
+      "end": 112.22,
+      "text": "do you know how that looks from your point of view? I mean, from my point of view, with you accusing me of not being disabled.",
+      "words": [
+        {
+          "word": "do",
+          "start": 107.031,
+          "end": 107.171,
+          "confidence": 0.733,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "you",
+          "start": 107.211,
+          "end": 107.291,
+          "confidence": 0.139,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "know",
+          "start": 107.392,
+          "end": 107.552,
+          "confidence": 0.187,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "how",
+          "start": 107.572,
+          "end": 107.652,
+          "confidence": 0.357,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "that",
+          "start": 107.672,
+          "end": 107.772,
+          "confidence": 0.046,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "looks",
+          "start": 107.792,
+          "end": 107.973,
+          "confidence": 0.941,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "from",
+          "start": 108.013,
+          "end": 108.173,
+          "confidence": 0.838,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "your",
+          "start": 108.293,
+          "end": 108.514,
+          "confidence": 0.962,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "point",
+          "start": 108.554,
+          "end": 108.794,
+          "confidence": 0.854,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "of",
+          "start": 108.814,
+          "end": 108.874,
+          "confidence": 0.678,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "view?",
+          "start": 108.954,
+          "end": 109.155,
+          "confidence": 0.601,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "I",
+          "start": 109.255,
+          "end": 109.415,
+          "confidence": 0.826,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "mean,",
+          "start": 109.515,
+          "end": 109.996,
+          "confidence": 0.637,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "from",
+          "start": 110.016,
+          "end": 110.116,
+          "confidence": 0.888,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "my",
+          "start": 110.136,
+          "end": 110.236,
+          "confidence": 0.718,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "point",
+          "start": 110.277,
+          "end": 110.437,
+          "confidence": 0.875,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "of",
+          "start": 110.477,
+          "end": 110.537,
+          "confidence": 0.876,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "view,",
+          "start": 110.577,
+          "end": 110.697,
+          "confidence": 0.737,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "with",
+          "start": 110.717,
+          "end": 110.858,
+          "confidence": 0.864,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "you",
+          "start": 110.898,
+          "end": 111.038,
+          "confidence": 0.858,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "accusing",
+          "start": 111.098,
+          "end": 111.418,
+          "confidence": 0.93,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "me",
+          "start": 111.439,
+          "end": 111.479,
+          "confidence": 0.432,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "of",
+          "start": 111.499,
+          "end": 111.579,
+          "confidence": 0.194,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "not",
+          "start": 111.599,
+          "end": 111.679,
+          "confidence": 0.867,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "being",
+          "start": 111.719,
+          "end": 111.839,
+          "confidence": 0.631,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "disabled.",
+          "start": 111.859,
+          "end": 112.22,
+          "confidence": 0.621,
+          "speaker": "speaker_0"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_1",
+      "start": 112.903,
+      "end": 114.609,
+      "text": "You're not even telling me what...",
+      "words": [
+        {
+          "word": "You're",
+          "start": 112.903,
+          "end": 113.104,
+          "confidence": 0.767,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "not",
+          "start": 113.144,
+          "end": 113.285,
+          "confidence": 0.831,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "even",
+          "start": 113.405,
+          "end": 113.606,
+          "confidence": 0.868,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "telling",
+          "start": 113.646,
+          "end": 113.967,
+          "confidence": 0.865,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "me",
+          "start": 114.007,
+          "end": 114.127,
+          "confidence": 0.833,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "what...",
+          "start": 114.147,
+          "end": 114.609,
+          "confidence": 0.531,
+          "speaker": "speaker_1"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_0",
+      "start": 114.649,
+      "end": 115.653,
+      "text": "Because I don't need to tell you.",
+      "words": [
+        {
+          "word": "Because",
+          "start": 114.649,
+          "end": 114.87,
+          "confidence": 0.107,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "I",
+          "start": 114.89,
+          "end": 114.93,
+          "confidence": 0.934,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "don't",
+          "start": 114.97,
+          "end": 115.071,
+          "confidence": 0.902,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "need",
+          "start": 115.091,
+          "end": 115.211,
+          "confidence": 0.518,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "to",
+          "start": 115.231,
+          "end": 115.291,
+          "confidence": 0.742,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "tell",
+          "start": 115.331,
+          "end": 115.492,
+          "confidence": 0.995,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "you.",
+          "start": 115.532,
+          "end": 115.653,
+          "confidence": 0.959,
+          "speaker": "speaker_0"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_1",
+      "start": 117.398,
+      "end": 123.957,
+      "text": "Wouldn't it be easier if you tell me what your disability is and show me your badge? Come out the car, show me your disability. No, I can stay here. Show me your badge.",
+      "words": [
+        {
+          "word": "Wouldn't",
+          "start": 117.398,
+          "end": 117.579,
+          "confidence": 0.543,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "it",
+          "start": 117.599,
+          "end": 117.659,
+          "confidence": 0.722,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "be",
+          "start": 117.699,
+          "end": 117.779,
+          "confidence": 0.992,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "easier",
+          "start": 117.9,
+          "end": 118.14,
+          "confidence": 0.639,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "if",
+          "start": 118.161,
+          "end": 118.221,
+          "confidence": 0.757,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "you",
+          "start": 118.241,
+          "end": 118.341,
+          "confidence": 0.95,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "tell",
+          "start": 118.361,
+          "end": 118.582,
+          "confidence": 0.404,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "me",
+          "start": 118.602,
+          "end": 118.682,
+          "confidence": 0.462,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "what",
+          "start": 118.722,
+          "end": 118.822,
+          "confidence": 0.134,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "your",
+          "start": 118.842,
+          "end": 118.943,
+          "confidence": 0.078,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "disability",
+          "start": 118.963,
+          "end": 119.504,
+          "confidence": 0.887,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "is",
+          "start": 119.524,
+          "end": 119.605,
+          "confidence": 0.453,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "and",
+          "start": 119.745,
+          "end": 119.845,
+          "confidence": 0.838,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "show",
+          "start": 120.106,
+          "end": 120.387,
+          "confidence": 0.866,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "me",
+          "start": 120.447,
+          "end": 120.567,
+          "confidence": 0.879,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "your",
+          "start": 120.608,
+          "end": 120.768,
+          "confidence": 0.91,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "badge?",
+          "start": 120.788,
+          "end": 121.029,
+          "confidence": 0.7,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "Come",
+          "start": 121.049,
+          "end": 121.169,
+          "confidence": 0.99,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "out",
+          "start": 121.249,
+          "end": 121.33,
+          "confidence": 0.774,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "the",
+          "start": 121.37,
+          "end": 121.43,
+          "confidence": 0.984,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "car,",
+          "start": 121.45,
+          "end": 121.751,
+          "confidence": 0.983,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "show",
+          "start": 121.931,
+          "end": 122.092,
+          "confidence": 0.852,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "me",
+          "start": 122.112,
+          "end": 122.172,
+          "confidence": 0.948,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "your",
+          "start": 122.192,
+          "end": 122.272,
+          "confidence": 0.022,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "disability.",
+          "start": 122.292,
+          "end": 122.653,
+          "confidence": 0.572,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "No,",
+          "start": 122.673,
+          "end": 122.794,
+          "confidence": 0.505,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "I",
+          "start": 122.814,
+          "end": 122.834,
+          "confidence": 0.007,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "can",
+          "start": 122.854,
+          "end": 122.954,
+          "confidence": 0.266,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "stay",
+          "start": 122.974,
+          "end": 123.095,
+          "confidence": 0.302,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "here.",
+          "start": 123.115,
+          "end": 123.255,
+          "confidence": 0.294,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "Show",
+          "start": 123.275,
+          "end": 123.355,
+          "confidence": 0.164,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "me",
+          "start": 123.375,
+          "end": 123.416,
+          "confidence": 0.0,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "your",
+          "start": 123.436,
+          "end": 123.556,
+          "confidence": 0.428,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "badge.",
+          "start": 123.596,
+          "end": 123.957,
+          "confidence": 0.795,
+          "speaker": "speaker_1"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_0",
+      "start": 124.037,
+      "end": 124.559,
+      "text": "I can stay here.",
+      "words": [
+        {
+          "word": "I",
+          "start": 124.037,
+          "end": 124.077,
+          "confidence": 0.865,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "can",
+          "start": 124.118,
+          "end": 124.218,
+          "confidence": 0.276,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "stay",
+          "start": 124.238,
+          "end": 124.378,
+          "confidence": 0.482,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "here.",
+          "start": 124.418,
+          "end": 124.559,
+          "confidence": 0.662,
+          "speaker": "speaker_0"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_1",
+      "start": 125.96,
+      "end": 128.144,
+      "text": "I am going to call that parking officer. Call the",
+      "words": [
+        {
+          "word": "I",
+          "start": 125.96,
+          "end": 126.02,
+          "confidence": 0.753,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "am",
+          "start": 126.06,
+          "end": 126.141,
+          "confidence": 0.604,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "going",
+          "start": 126.161,
+          "end": 126.281,
+          "confidence": 0.781,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "to",
+          "start": 126.301,
+          "end": 126.361,
+          "confidence": 0.712,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "call",
+          "start": 126.381,
+          "end": 126.541,
+          "confidence": 0.794,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "that",
+          "start": 126.581,
+          "end": 126.702,
+          "confidence": 0.953,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "parking",
+          "start": 126.742,
+          "end": 127.102,
+          "confidence": 0.898,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "officer.",
+          "start": 127.123,
+          "end": 127.543,
+          "confidence": 0.867,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "Call",
+          "start": 127.804,
+          "end": 128.044,
+          "confidence": 0.399,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "the",
+          "start": 128.064,
+          "end": 128.144,
+          "confidence": 0.202,
+          "speaker": "speaker_1"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_0",
+      "start": 128.165,
+      "end": 129.868,
+      "text": "parking officer. Call the police if you want to.",
+      "words": [
+        {
+          "word": "parking",
+          "start": 128.165,
+          "end": 128.365,
+          "confidence": 0.433,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "officer.",
+          "start": 128.385,
+          "end": 128.665,
+          "confidence": 0.799,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "Call",
+          "start": 128.806,
+          "end": 128.966,
+          "confidence": 0.948,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "the",
+          "start": 129.006,
+          "end": 129.066,
+          "confidence": 0.967,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "police",
+          "start": 129.086,
+          "end": 129.347,
+          "confidence": 0.978,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "if",
+          "start": 129.387,
+          "end": 129.447,
+          "confidence": 0.256,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "you",
+          "start": 129.467,
+          "end": 129.547,
+          "confidence": 0.75,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "want",
+          "start": 129.567,
+          "end": 129.687,
+          "confidence": 0.872,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "to.",
+          "start": 129.728,
+          "end": 129.868,
+          "confidence": 0.719,
+          "speaker": "speaker_0"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_1",
+      "start": 130.2,
+      "end": 146.308,
+      "text": "Right. Okay, that is what I'm going to do. What? I'm going to call the police. Four. Because you are parked in a spot where you shouldn't be parking, you might be fraudulently using a disabled parking badge. pretending to be disabled.",
+      "words": [
+        {
+          "word": "Right.",
+          "start": 130.2,
+          "end": 130.429,
+          "confidence": 0.382,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "Okay,",
+          "start": 131.062,
+          "end": 131.405,
+          "confidence": 0.631,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "that",
+          "start": 131.527,
+          "end": 131.668,
+          "confidence": 0.932,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "is",
+          "start": 131.709,
+          "end": 131.789,
+          "confidence": 0.641,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "what",
+          "start": 131.81,
+          "end": 131.911,
+          "confidence": 0.892,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "I'm",
+          "start": 131.951,
+          "end": 132.052,
+          "confidence": 0.449,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "going",
+          "start": 132.072,
+          "end": 132.173,
+          "confidence": 0.255,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "to",
+          "start": 132.194,
+          "end": 132.254,
+          "confidence": 0.748,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "do.",
+          "start": 132.274,
+          "end": 132.537,
+          "confidence": 0.89,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "What?",
+          "start": 132.557,
+          "end": 132.699,
+          "confidence": 0.343,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "I'm",
+          "start": 133.657,
+          "end": 133.717,
+          "confidence": 0.009,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "going",
+          "start": 133.758,
+          "end": 133.858,
+          "confidence": 0.021,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "to",
+          "start": 133.878,
+          "end": 133.918,
+          "confidence": 0.002,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "call",
+          "start": 133.938,
+          "end": 134.099,
+          "confidence": 0.634,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "the",
+          "start": 134.119,
+          "end": 134.199,
+          "confidence": 0.792,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "police.",
+          "start": 134.239,
+          "end": 134.62,
+          "confidence": 0.828,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "Four.",
+          "start": 134.781,
+          "end": 135.022,
+          "confidence": 0.784,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "Because",
+          "start": 135.813,
+          "end": 136.133,
+          "confidence": 0.882,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "you",
+          "start": 136.394,
+          "end": 136.654,
+          "confidence": 0.971,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "are",
+          "start": 136.754,
+          "end": 136.874,
+          "confidence": 0.714,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "parked",
+          "start": 136.934,
+          "end": 137.394,
+          "confidence": 0.884,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "in",
+          "start": 137.554,
+          "end": 137.635,
+          "confidence": 0.968,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "a",
+          "start": 137.675,
+          "end": 137.695,
+          "confidence": 0.982,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "spot",
+          "start": 137.795,
+          "end": 138.335,
+          "confidence": 0.772,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "where",
+          "start": 138.515,
+          "end": 138.675,
+          "confidence": 0.873,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "you",
+          "start": 138.695,
+          "end": 138.796,
+          "confidence": 0.964,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "shouldn't",
+          "start": 138.836,
+          "end": 139.076,
+          "confidence": 0.886,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "be",
+          "start": 139.096,
+          "end": 139.196,
+          "confidence": 0.897,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "parking,",
+          "start": 139.236,
+          "end": 139.696,
+          "confidence": 0.751,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "you",
+          "start": 139.956,
+          "end": 140.077,
+          "confidence": 0.989,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "might",
+          "start": 140.117,
+          "end": 140.277,
+          "confidence": 0.938,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "be",
+          "start": 140.317,
+          "end": 140.397,
+          "confidence": 0.996,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "fraudulently",
+          "start": 140.457,
+          "end": 141.178,
+          "confidence": 0.746,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "using",
+          "start": 141.618,
+          "end": 141.998,
+          "confidence": 0.781,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "a",
+          "start": 142.018,
+          "end": 142.038,
+          "confidence": 0.002,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "disabled",
+          "start": 142.759,
+          "end": 143.199,
+          "confidence": 0.773,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "parking",
+          "start": 143.219,
+          "end": 143.62,
+          "confidence": 0.595,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "badge.",
+          "start": 143.66,
+          "end": 144.04,
+          "confidence": 0.967,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "pretending",
+          "start": 145.061,
+          "end": 145.684,
+          "confidence": 0.87,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "to",
+          "start": 145.704,
+          "end": 145.805,
+          "confidence": 0.764,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "be",
+          "start": 145.825,
+          "end": 145.926,
+          "confidence": 0.814,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "disabled.",
+          "start": 145.966,
+          "end": 146.308,
+          "confidence": 0.42,
+          "speaker": "speaker_1"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_0",
+      "start": 146.667,
+      "end": 149.338,
+      "text": "Okay, so now I'm committing a criminal offence here now.",
+      "words": [
+        {
+          "word": "Okay,",
+          "start": 146.667,
+          "end": 147.009,
+          "confidence": 0.745,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "so",
+          "start": 147.029,
+          "end": 147.149,
+          "confidence": 0.538,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "now",
+          "start": 147.189,
+          "end": 147.39,
+          "confidence": 0.907,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "I'm",
+          "start": 147.551,
+          "end": 147.691,
+          "confidence": 0.827,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "committing",
+          "start": 147.972,
+          "end": 148.374,
+          "confidence": 0.872,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "a",
+          "start": 148.414,
+          "end": 148.454,
+          "confidence": 0.498,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "criminal",
+          "start": 148.495,
+          "end": 148.756,
+          "confidence": 0.81,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "offence",
+          "start": 148.776,
+          "end": 149.037,
+          "confidence": 0.796,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "here",
+          "start": 149.057,
+          "end": 149.177,
+          "confidence": 0.456,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "now.",
+          "start": 149.217,
+          "end": 149.338,
+          "confidence": 0.989,
+          "speaker": "speaker_0"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_1",
+      "start": 149.583,
+      "end": 152.669,
+      "text": "That's right. Maybe you can tell the police about that.",
+      "words": [
+        {
+          "word": "That's",
+          "start": 149.583,
+          "end": 149.803,
+          "confidence": 0.804,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "right.",
+          "start": 149.904,
+          "end": 150.284,
+          "confidence": 0.824,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "Maybe",
+          "start": 150.485,
+          "end": 150.705,
+          "confidence": 0.971,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "you",
+          "start": 150.865,
+          "end": 151.186,
+          "confidence": 0.808,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "can",
+          "start": 151.246,
+          "end": 151.386,
+          "confidence": 0.967,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "tell",
+          "start": 151.427,
+          "end": 151.607,
+          "confidence": 0.87,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "the",
+          "start": 151.667,
+          "end": 151.727,
+          "confidence": 0.976,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "police",
+          "start": 151.787,
+          "end": 152.048,
+          "confidence": 0.583,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "about",
+          "start": 152.108,
+          "end": 152.328,
+          "confidence": 0.97,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "that.",
+          "start": 152.388,
+          "end": 152.669,
+          "confidence": 0.946,
+          "speaker": "speaker_1"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_0",
+      "start": 152.889,
+      "end": 155.775,
+      "text": "But I don't need to tell the police about that.",
+      "words": [
+        {
+          "word": "But",
+          "start": 152.889,
+          "end": 152.969,
+          "confidence": 0.415,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "I",
+          "start": 152.989,
+          "end": 153.05,
+          "confidence": 0.728,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "don't",
+          "start": 153.07,
+          "end": 153.19,
+          "confidence": 0.866,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "need",
+          "start": 153.23,
+          "end": 153.37,
+          "confidence": 0.596,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "to",
+          "start": 153.41,
+          "end": 153.49,
+          "confidence": 0.95,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "tell",
+          "start": 153.55,
+          "end": 153.771,
+          "confidence": 0.775,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "the",
+          "start": 154.152,
+          "end": 154.332,
+          "confidence": 0.363,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "police",
+          "start": 154.733,
+          "end": 154.973,
+          "confidence": 0.303,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "about",
+          "start": 155.033,
+          "end": 155.474,
+          "confidence": 0.31,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "that.",
+          "start": 155.614,
+          "end": 155.775,
+          "confidence": 0.618,
+          "speaker": "speaker_0"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_1",
+      "start": 156.075,
+      "end": 157.458,
+      "text": "Well, I think you do.",
+      "words": [
+        {
+          "word": "Well,",
+          "start": 156.075,
+          "end": 156.256,
+          "confidence": 0.926,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "I",
+          "start": 156.336,
+          "end": 156.416,
+          "confidence": 0.994,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "think",
+          "start": 156.496,
+          "end": 156.736,
+          "confidence": 0.946,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "you",
+          "start": 156.837,
+          "end": 157.077,
+          "confidence": 0.934,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "do.",
+          "start": 157.137,
+          "end": 157.458,
+          "confidence": 0.967,
+          "speaker": "speaker_1"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_0",
+      "start": 157.598,
+      "end": 157.979,
+      "text": "For what?",
+      "words": [
+        {
+          "word": "For",
+          "start": 157.598,
+          "end": 157.738,
+          "confidence": 0.975,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "what?",
+          "start": 157.758,
+          "end": 157.979,
+          "confidence": 0.714,
+          "speaker": "speaker_0"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_1",
+      "start": 158.776,
+      "end": 160.398,
+      "text": "You are not telling me what your disability is.",
+      "words": [
+        {
+          "word": "You",
+          "start": 158.776,
+          "end": 158.896,
+          "confidence": 0.998,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "are",
+          "start": 158.976,
+          "end": 159.097,
+          "confidence": 0.63,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "not",
+          "start": 159.137,
+          "end": 159.257,
+          "confidence": 0.923,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "telling",
+          "start": 159.297,
+          "end": 159.557,
+          "confidence": 0.895,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "me",
+          "start": 159.597,
+          "end": 159.677,
+          "confidence": 0.748,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "what",
+          "start": 159.717,
+          "end": 159.838,
+          "confidence": 0.866,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "your",
+          "start": 159.858,
+          "end": 159.998,
+          "confidence": 0.757,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "disability",
+          "start": 160.018,
+          "end": 160.318,
+          "confidence": 0.522,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "is.",
+          "start": 160.338,
+          "end": 160.398,
+          "confidence": 0.197,
+          "speaker": "speaker_1"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_0",
+      "start": 160.418,
+      "end": 162.461,
+      "text": "But I don't need to tell you that. Who are you? Who",
+      "words": [
+        {
+          "word": "But",
+          "start": 160.418,
+          "end": 160.538,
+          "confidence": 0.397,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "I",
+          "start": 160.578,
+          "end": 160.619,
+          "confidence": 0.972,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "don't",
+          "start": 160.639,
+          "end": 160.759,
+          "confidence": 0.723,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "need",
+          "start": 160.799,
+          "end": 160.919,
+          "confidence": 0.665,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "to",
+          "start": 160.939,
+          "end": 160.979,
+          "confidence": 0.948,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "tell",
+          "start": 161.019,
+          "end": 161.159,
+          "confidence": 0.816,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "you",
+          "start": 161.199,
+          "end": 161.279,
+          "confidence": 0.983,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "that.",
+          "start": 161.319,
+          "end": 161.44,
+          "confidence": 0.931,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "Who",
+          "start": 161.5,
+          "end": 161.66,
+          "confidence": 0.727,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "are",
+          "start": 161.78,
+          "end": 161.9,
+          "confidence": 0.827,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "you?",
+          "start": 161.96,
+          "end": 162.06,
+          "confidence": 0.811,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "Who",
+          "start": 162.321,
+          "end": 162.461,
+          "confidence": 0.881,
+          "speaker": "speaker_0"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_1",
+      "start": 162.621,
+      "end": 165.545,
+      "text": "are you? I told you, I work in an office in this building.",
+      "words": [
+        {
+          "word": "are",
+          "start": 162.621,
+          "end": 162.721,
+          "confidence": 0.456,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "you?",
+          "start": 162.741,
+          "end": 162.902,
+          "confidence": 0.38,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "I",
+          "start": 162.922,
+          "end": 162.982,
+          "confidence": 0.737,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "told",
+          "start": 163.022,
+          "end": 163.182,
+          "confidence": 0.557,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "you,",
+          "start": 163.202,
+          "end": 163.322,
+          "confidence": 0.89,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "I",
+          "start": 163.442,
+          "end": 163.522,
+          "confidence": 0.72,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "work",
+          "start": 163.562,
+          "end": 163.983,
+          "confidence": 0.894,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "in",
+          "start": 164.263,
+          "end": 164.343,
+          "confidence": 0.884,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "an",
+          "start": 164.363,
+          "end": 164.423,
+          "confidence": 0.742,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "office",
+          "start": 164.464,
+          "end": 164.704,
+          "confidence": 0.835,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "in",
+          "start": 164.744,
+          "end": 164.804,
+          "confidence": 0.749,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "this",
+          "start": 164.824,
+          "end": 164.944,
+          "confidence": 0.701,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "building.",
+          "start": 165.004,
+          "end": 165.545,
+          "confidence": 0.57,
+          "speaker": "speaker_1"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_0",
+      "start": 165.605,
+      "end": 166.987,
+      "text": "Okay, so what has that got to do with me?",
+      "words": [
+        {
+          "word": "Okay,",
+          "start": 165.605,
+          "end": 165.865,
+          "confidence": 0.574,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "so",
+          "start": 165.885,
+          "end": 165.986,
+          "confidence": 0.625,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "what",
+          "start": 166.026,
+          "end": 166.126,
+          "confidence": 0.951,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "has",
+          "start": 166.146,
+          "end": 166.226,
+          "confidence": 0.897,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "that",
+          "start": 166.246,
+          "end": 166.326,
+          "confidence": 0.0,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "got",
+          "start": 166.346,
+          "end": 166.466,
+          "confidence": 0.765,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "to",
+          "start": 166.506,
+          "end": 166.566,
+          "confidence": 0.762,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "do",
+          "start": 166.606,
+          "end": 166.686,
+          "confidence": 0.876,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "with",
+          "start": 166.706,
+          "end": 166.807,
+          "confidence": 0.978,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "me?",
+          "start": 166.847,
+          "end": 166.987,
+          "confidence": 0.94,
+          "speaker": "speaker_0"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_1",
+      "start": 167.629,
+      "end": 171.153,
+      "text": "Because people need to use the space who are disabled. Do",
+      "words": [
+        {
+          "word": "Because",
+          "start": 167.629,
+          "end": 167.889,
+          "confidence": 0.863,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "people",
+          "start": 168.09,
+          "end": 168.45,
+          "confidence": 0.898,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "need",
+          "start": 168.49,
+          "end": 168.69,
+          "confidence": 0.803,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "to",
+          "start": 168.71,
+          "end": 168.81,
+          "confidence": 0.501,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "use",
+          "start": 168.85,
+          "end": 168.93,
+          "confidence": 0.393,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "the",
+          "start": 168.95,
+          "end": 169.031,
+          "confidence": 0.954,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "space",
+          "start": 169.051,
+          "end": 169.391,
+          "confidence": 0.857,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "who",
+          "start": 169.691,
+          "end": 169.911,
+          "confidence": 0.58,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "are",
+          "start": 169.992,
+          "end": 170.052,
+          "confidence": 0.104,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "disabled.",
+          "start": 170.072,
+          "end": 170.933,
+          "confidence": 0.686,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "Do",
+          "start": 170.953,
+          "end": 171.153,
+          "confidence": 0.468,
+          "speaker": "speaker_1"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_0",
+      "start": 171.473,
+      "end": 172.114,
+      "text": "you need to park here?",
+      "words": [
+        {
+          "word": "you",
+          "start": 171.473,
+          "end": 171.573,
+          "confidence": 0.418,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "need",
+          "start": 171.593,
+          "end": 171.693,
+          "confidence": 0.594,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "to",
+          "start": 171.713,
+          "end": 171.753,
+          "confidence": 0.082,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "park",
+          "start": 171.793,
+          "end": 171.994,
+          "confidence": 0.899,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "here?",
+          "start": 172.014,
+          "end": 172.114,
+          "confidence": 0.588,
+          "speaker": "speaker_0"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_1",
+      "start": 173.552,
+      "end": 174.702,
+      "text": "I don't need to park here because... So",
+      "words": [
+        {
+          "word": "I",
+          "start": 173.552,
+          "end": 173.613,
+          "confidence": 0.902,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "don't",
+          "start": 173.653,
+          "end": 173.815,
+          "confidence": 0.259,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "need",
+          "start": 173.835,
+          "end": 173.915,
+          "confidence": 0.339,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "to",
+          "start": 173.956,
+          "end": 173.996,
+          "confidence": 0.009,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "park",
+          "start": 174.036,
+          "end": 174.198,
+          "confidence": 0.831,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "here",
+          "start": 174.218,
+          "end": 174.359,
+          "confidence": 0.47,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "because...",
+          "start": 174.379,
+          "end": 174.621,
+          "confidence": 0.287,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "So",
+          "start": 174.641,
+          "end": 174.702,
+          "confidence": 0.402,
+          "speaker": "speaker_1"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_0",
+      "start": 174.742,
+      "end": 176.335,
+      "text": "why are you here? So why are you here?",
+      "words": [
+        {
+          "word": "why",
+          "start": 174.742,
+          "end": 174.863,
+          "confidence": 0.596,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "are",
+          "start": 174.883,
+          "end": 174.964,
+          "confidence": 0.233,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "you",
+          "start": 175.004,
+          "end": 175.085,
+          "confidence": 0.479,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "here?",
+          "start": 175.125,
+          "end": 175.427,
+          "confidence": 0.547,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "So",
+          "start": 175.589,
+          "end": 175.649,
+          "confidence": 0.332,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "why",
+          "start": 175.69,
+          "end": 175.79,
+          "confidence": 0.677,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "are",
+          "start": 175.81,
+          "end": 175.891,
+          "confidence": 0.218,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "you",
+          "start": 175.931,
+          "end": 176.052,
+          "confidence": 0.906,
+          "speaker": "speaker_0"
+        },
+        {
+          "word": "here?",
+          "start": 176.133,
+          "end": 176.335,
+          "confidence": 0.691,
+          "speaker": "speaker_0"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_1",
+      "start": 176.944,
+      "end": 188.394,
+      "text": "I'm here as a concerned citizen that you are breaking a regulation. You're parking in a space for disabled people. Come and show me what your disability, come on.",
+      "words": [
+        {
+          "word": "I'm",
+          "start": 176.944,
+          "end": 177.104,
+          "confidence": 0.475,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "here",
+          "start": 177.204,
+          "end": 177.625,
+          "confidence": 0.6,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "as",
+          "start": 178.065,
+          "end": 178.165,
+          "confidence": 0.755,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "a",
+          "start": 178.205,
+          "end": 178.225,
+          "confidence": 0.987,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "concerned",
+          "start": 178.285,
+          "end": 178.906,
+          "confidence": 0.866,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "citizen",
+          "start": 179.066,
+          "end": 179.626,
+          "confidence": 0.875,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "that",
+          "start": 179.827,
+          "end": 179.987,
+          "confidence": 0.816,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "you",
+          "start": 180.087,
+          "end": 180.407,
+          "confidence": 0.914,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "are",
+          "start": 180.567,
+          "end": 180.667,
+          "confidence": 0.932,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "breaking",
+          "start": 180.727,
+          "end": 181.368,
+          "confidence": 0.889,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "a",
+          "start": 181.388,
+          "end": 181.408,
+          "confidence": 0.001,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "regulation.",
+          "start": 181.868,
+          "end": 182.649,
+          "confidence": 0.943,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "You're",
+          "start": 183.029,
+          "end": 183.189,
+          "confidence": 0.509,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "parking",
+          "start": 183.209,
+          "end": 183.87,
+          "confidence": 0.704,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "in",
+          "start": 184.491,
+          "end": 184.591,
+          "confidence": 0.792,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "a",
+          "start": 184.671,
+          "end": 184.691,
+          "confidence": 0.967,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "space",
+          "start": 184.771,
+          "end": 185.131,
+          "confidence": 0.876,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "for",
+          "start": 185.171,
+          "end": 185.291,
+          "confidence": 0.79,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "disabled",
+          "start": 185.331,
+          "end": 185.712,
+          "confidence": 0.756,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "people.",
+          "start": 185.732,
+          "end": 186.012,
+          "confidence": 0.913,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "Come",
+          "start": 186.332,
+          "end": 186.512,
+          "confidence": 0.751,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "and",
+          "start": 186.552,
+          "end": 186.652,
+          "confidence": 0.705,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "show",
+          "start": 186.692,
+          "end": 186.873,
+          "confidence": 0.857,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "me",
+          "start": 186.913,
+          "end": 186.993,
+          "confidence": 0.796,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "what",
+          "start": 187.053,
+          "end": 187.173,
+          "confidence": 0.876,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "your",
+          "start": 187.213,
+          "end": 187.353,
+          "confidence": 0.863,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "disability,",
+          "start": 187.393,
+          "end": 187.773,
+          "confidence": 0.533,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "come",
+          "start": 188.114,
+          "end": 188.314,
+          "confidence": 0.796,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "on.",
+          "start": 188.334,
+          "end": 188.394,
+          "confidence": 0.288,
+          "speaker": "speaker_1"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_2",
+      "start": 189.33,
+      "end": 196.898,
+      "text": "Thank you so much for watching. The characters in this video are actors and are not based on real people. We hope you enjoyed. Thanks for watching Storytender.",
+      "words": [
+        {
+          "word": "Thank",
+          "start": 189.33,
+          "end": 189.511,
+          "confidence": 0.904,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "you",
+          "start": 189.551,
+          "end": 189.671,
+          "confidence": 0.829,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "so",
+          "start": 189.691,
+          "end": 189.831,
+          "confidence": 0.78,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "much",
+          "start": 189.871,
+          "end": 190.011,
+          "confidence": 0.656,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "for",
+          "start": 190.031,
+          "end": 190.091,
+          "confidence": 0.0,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "watching.",
+          "start": 190.111,
+          "end": 190.652,
+          "confidence": 0.843,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "The",
+          "start": 190.692,
+          "end": 190.772,
+          "confidence": 0.838,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "characters",
+          "start": 190.792,
+          "end": 191.152,
+          "confidence": 0.821,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "in",
+          "start": 191.173,
+          "end": 191.213,
+          "confidence": 0.008,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "this",
+          "start": 191.233,
+          "end": 191.413,
+          "confidence": 0.294,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "video",
+          "start": 191.433,
+          "end": 191.713,
+          "confidence": 0.6,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "are",
+          "start": 191.753,
+          "end": 191.873,
+          "confidence": 0.488,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "actors",
+          "start": 191.993,
+          "end": 192.334,
+          "confidence": 0.718,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "and",
+          "start": 192.394,
+          "end": 192.454,
+          "confidence": 0.56,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "are",
+          "start": 192.514,
+          "end": 192.614,
+          "confidence": 0.4,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "not",
+          "start": 192.654,
+          "end": 192.814,
+          "confidence": 0.842,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "based",
+          "start": 192.834,
+          "end": 193.055,
+          "confidence": 0.781,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "on",
+          "start": 193.115,
+          "end": 193.175,
+          "confidence": 0.754,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "real",
+          "start": 193.215,
+          "end": 193.395,
+          "confidence": 0.591,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "people.",
+          "start": 193.415,
+          "end": 193.815,
+          "confidence": 0.913,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "We",
+          "start": 194.176,
+          "end": 194.276,
+          "confidence": 0.833,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "hope",
+          "start": 194.316,
+          "end": 194.436,
+          "confidence": 0.527,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "you",
+          "start": 194.456,
+          "end": 194.576,
+          "confidence": 0.881,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "enjoyed.",
+          "start": 194.636,
+          "end": 194.997,
+          "confidence": 0.964,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "Thanks",
+          "start": 195.562,
+          "end": 195.764,
+          "confidence": 0.301,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "for",
+          "start": 195.805,
+          "end": 195.866,
+          "confidence": 0.001,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "watching",
+          "start": 195.886,
+          "end": 196.169,
+          "confidence": 0.739,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "Storytender.",
+          "start": 196.21,
+          "end": 196.898,
+          "confidence": 0.695,
+          "speaker": "speaker_2"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_1",
+      "start": 197.273,
+      "end": 197.457,
+      "text": "Don't",
+      "words": [
+        {
+          "word": "Don't",
+          "start": 197.273,
+          "end": 197.457,
+          "confidence": 0.797,
+          "speaker": "speaker_1"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_2",
+      "start": 197.478,
+      "end": 198.112,
+      "text": "forget to like.",
+      "words": [
+        {
+          "word": "forget",
+          "start": 197.478,
+          "end": 197.723,
+          "confidence": 0.95,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "to",
+          "start": 197.764,
+          "end": 197.867,
+          "confidence": 0.927,
+          "speaker": "speaker_2"
+        },
+        {
+          "word": "like.",
+          "start": 197.907,
+          "end": 198.112,
+          "confidence": 0.765,
+          "speaker": "speaker_2"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_1",
+      "start": 199.019,
+      "end": 199.554,
+      "text": "and follow.",
+      "words": [
+        {
+          "word": "and",
+          "start": 199.019,
+          "end": 199.163,
+          "confidence": 0.867,
+          "speaker": "speaker_1"
+        },
+        {
+          "word": "follow.",
+          "start": 199.225,
+          "end": 199.554,
+          "confidence": 0.737,
+          "speaker": "speaker_1"
+        }
+      ]
+    },
+    {
+      "speaker": "UNK",
+      "start": 203.569,
+      "end": 204.334,
+      "text": "I'm gonna cry.",
+      "words": [
+        {
+          "word": "I'm",
+          "start": 203.569,
+          "end": 203.73,
+          "confidence": 0.43,
+          "speaker": "UNK"
+        },
+        {
+          "word": "gonna",
+          "start": 203.77,
+          "end": 204.133,
+          "confidence": 0.469,
+          "speaker": "UNK"
+        },
+        {
+          "word": "cry.",
+          "start": 204.173,
+          "end": 204.334,
+          "confidence": 0.465,
+          "speaker": "UNK"
+        }
+      ]
+    }
+  ]
+}
