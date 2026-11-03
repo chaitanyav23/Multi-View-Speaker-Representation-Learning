@@ -1,0 +1,45 @@
+{
+  "stage": "Stage 5B.1 — Voice Activity Detection (VAD) Optimization",
+  "seed": 42,
+  "clustering_backend": "M1_nmesc_auto (Frozen Condition J Equal Fusion)",
+  "recordings": [
+    "R01_sara_sharif",
+    "R02_dennis_skinner",
+    "R03_disabled_parking",
+    "R04_piers_robinson",
+    "R05_southwest_pilot",
+    "R06_rich_karen",
+    "R07_bwc_cheap_shot",
+    "R08_uk_parliament"
+  ],
+  "baseline_configuration": {
+    "config_id": "C00_baseline",
+    "model": "pyannote/voice-activity-detection (PyanNet)",
+    "checkpoint": "whisperx/assets/pytorch_model.bin",
+    "audio_stream": "dfn (DeepFilterNet3 enhanced 16kHz mono)",
+    "onset": 0.481,
+    "offset": 0.481,
+    "min_duration_on": 0.10,
+    "min_duration_off": 0.15,
+    "max_segment_duration": 30.0,
+    "merge_max_duration": 28.0
+  },
+  "sweeps": {
+    "short_turn_min_durations": [0.05, 0.10, 0.20, 0.30, 0.50],
+    "thresholds": [0.30, 0.40, 0.481, 0.55, 0.60, 0.70, 0.80],
+    "hysteresis_pairs": [
+      {"onset": 0.55, "offset": 0.40},
+      {"onset": 0.60, "offset": 0.35},
+      {"onset": 0.65, "offset": 0.35},
+      {"onset": 0.70, "offset": 0.40},
+      {"onset": 0.70, "offset": 0.30}
+    ],
+    "gap_filling_min_duration_off": [0.05, 0.15, 0.30, 0.50],
+    "audio_streams": ["dfn", "mono", "normalized", "consensus"]
+  },
+  "evaluation_protocols": {
+    "vad_resolution_sec": 0.01,
+    "diarization_collars": [0.0, 0.25],
+    "diarization_skip_overlap": [false, true]
+  }
+}

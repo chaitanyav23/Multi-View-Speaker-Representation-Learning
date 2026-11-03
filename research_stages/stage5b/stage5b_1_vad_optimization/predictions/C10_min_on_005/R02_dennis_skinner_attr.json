@@ -1,0 +1,2359 @@
+[
+  {
+    "speaker": "speaker_2",
+    "start": 0.537,
+    "end": 39.421,
+    "text": "Does the Prime Minister recall that at the time after he became Prime Minister under the coalition And at the time when he was dividing the nation between strivers and scroungers, I asked him a very important question about the windfall he received. when he wrote up the mortgage of the premises in Notting Hill and I said to him he didn't write off the mortgage of the one the taxpayers were helping to pay for at Oxford. I didn't receive a proper answer then. Maybe dodgy Dave will answer it",
+    "words": [
+      {
+        "word": "Does",
+        "start": 0.537,
+        "end": 0.817,
+        "confidence": 0.524,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "the",
+        "start": 0.837,
+        "end": 0.937,
+        "confidence": 0.798,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "Prime",
+        "start": 0.977,
+        "end": 1.258,
+        "confidence": 0.807,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "Minister",
+        "start": 1.278,
+        "end": 1.778,
+        "confidence": 0.57,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "recall",
+        "start": 1.798,
+        "end": 2.479,
+        "confidence": 0.738,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "that",
+        "start": 3.299,
+        "end": 3.46,
+        "confidence": 0.785,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "at",
+        "start": 3.54,
+        "end": 3.62,
+        "confidence": 0.682,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "the",
+        "start": 3.66,
+        "end": 3.76,
+        "confidence": 0.828,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "time",
+        "start": 3.82,
+        "end": 4.14,
+        "confidence": 0.648,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "after",
+        "start": 4.26,
+        "end": 4.501,
+        "confidence": 0.885,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "he",
+        "start": 4.541,
+        "end": 4.661,
+        "confidence": 0.773,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "became",
+        "start": 4.721,
+        "end": 5.101,
+        "confidence": 0.83,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "Prime",
+        "start": 5.161,
+        "end": 5.461,
+        "confidence": 0.848,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "Minister",
+        "start": 5.481,
+        "end": 5.882,
+        "confidence": 0.726,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "under",
+        "start": 5.922,
+        "end": 6.102,
+        "confidence": 0.446,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "the",
+        "start": 6.142,
+        "end": 6.222,
+        "confidence": 0.822,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "coalition",
+        "start": 6.282,
+        "end": 6.883,
+        "confidence": 0.883,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "And",
+        "start": 8.112,
+        "end": 8.212,
+        "confidence": 0.868,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "at",
+        "start": 8.272,
+        "end": 8.353,
+        "confidence": 0.632,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "the",
+        "start": 8.393,
+        "end": 8.493,
+        "confidence": 0.927,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "time",
+        "start": 8.553,
+        "end": 8.853,
+        "confidence": 0.797,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "when",
+        "start": 8.913,
+        "end": 9.073,
+        "confidence": 0.903,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "he",
+        "start": 9.113,
+        "end": 9.213,
+        "confidence": 0.825,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "was",
+        "start": 9.274,
+        "end": 9.414,
+        "confidence": 0.889,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "dividing",
+        "start": 9.474,
+        "end": 10.054,
+        "confidence": 0.941,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "the",
+        "start": 10.094,
+        "end": 10.175,
+        "confidence": 0.949,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "nation",
+        "start": 10.215,
+        "end": 10.715,
+        "confidence": 0.856,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "between",
+        "start": 10.815,
+        "end": 11.276,
+        "confidence": 0.89,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "strivers",
+        "start": 11.396,
+        "end": 12.057,
+        "confidence": 0.911,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "and",
+        "start": 12.317,
+        "end": 12.417,
+        "confidence": 0.811,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "scroungers,",
+        "start": 12.537,
+        "end": 13.338,
+        "confidence": 0.865,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "I",
+        "start": 14.179,
+        "end": 14.239,
+        "confidence": 0.667,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "asked",
+        "start": 14.359,
+        "end": 14.58,
+        "confidence": 0.997,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "him",
+        "start": 14.64,
+        "end": 14.78,
+        "confidence": 0.888,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "a",
+        "start": 14.84,
+        "end": 14.88,
+        "confidence": 0.5,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "very",
+        "start": 14.92,
+        "end": 15.2,
+        "confidence": 0.765,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "important",
+        "start": 15.28,
+        "end": 15.841,
+        "confidence": 0.858,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "question",
+        "start": 15.941,
+        "end": 16.502,
+        "confidence": 0.802,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "about",
+        "start": 17.183,
+        "end": 17.463,
+        "confidence": 0.917,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "the",
+        "start": 17.523,
+        "end": 17.623,
+        "confidence": 0.84,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "windfall",
+        "start": 17.683,
+        "end": 18.324,
+        "confidence": 0.896,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "he",
+        "start": 18.364,
+        "end": 18.524,
+        "confidence": 0.84,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "received.",
+        "start": 18.584,
+        "end": 19.165,
+        "confidence": 0.832,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "when",
+        "start": 19.794,
+        "end": 19.976,
+        "confidence": 0.956,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "he",
+        "start": 20.016,
+        "end": 20.117,
+        "confidence": 0.984,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "wrote",
+        "start": 20.218,
+        "end": 20.521,
+        "confidence": 0.848,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "up",
+        "start": 20.662,
+        "end": 20.783,
+        "confidence": 0.922,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "the",
+        "start": 20.824,
+        "end": 20.925,
+        "confidence": 0.942,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "mortgage",
+        "start": 20.965,
+        "end": 21.53,
+        "confidence": 0.831,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "of",
+        "start": 22.405,
+        "end": 22.485,
+        "confidence": 0.992,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "the",
+        "start": 22.545,
+        "end": 22.665,
+        "confidence": 0.891,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "premises",
+        "start": 22.725,
+        "end": 23.386,
+        "confidence": 0.898,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "in",
+        "start": 23.606,
+        "end": 23.706,
+        "confidence": 0.876,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "Notting",
+        "start": 23.766,
+        "end": 24.187,
+        "confidence": 0.875,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "Hill",
+        "start": 24.267,
+        "end": 24.627,
+        "confidence": 0.716,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "and",
+        "start": 25.408,
+        "end": 25.508,
+        "confidence": 0.881,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "I",
+        "start": 25.668,
+        "end": 25.768,
+        "confidence": 0.801,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "said",
+        "start": 25.868,
+        "end": 26.089,
+        "confidence": 0.998,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "to",
+        "start": 26.149,
+        "end": 26.269,
+        "confidence": 0.759,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "him",
+        "start": 26.309,
+        "end": 26.429,
+        "confidence": 0.881,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "he",
+        "start": 26.489,
+        "end": 26.569,
+        "confidence": 0.796,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "didn't",
+        "start": 26.609,
+        "end": 26.909,
+        "confidence": 0.846,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "write",
+        "start": 26.969,
+        "end": 27.27,
+        "confidence": 0.836,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "off",
+        "start": 27.37,
+        "end": 27.51,
+        "confidence": 0.418,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "the",
+        "start": 27.57,
+        "end": 27.65,
+        "confidence": 0.9,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "mortgage",
+        "start": 27.71,
+        "end": 28.251,
+        "confidence": 0.762,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "of",
+        "start": 28.411,
+        "end": 28.491,
+        "confidence": 0.838,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "the",
+        "start": 28.531,
+        "end": 28.631,
+        "confidence": 0.674,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "one",
+        "start": 28.791,
+        "end": 28.891,
+        "confidence": 0.508,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "the",
+        "start": 28.931,
+        "end": 29.091,
+        "confidence": 0.518,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "taxpayers",
+        "start": 29.131,
+        "end": 29.952,
+        "confidence": 0.947,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "were",
+        "start": 30.293,
+        "end": 30.513,
+        "confidence": 0.745,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "helping",
+        "start": 30.553,
+        "end": 30.973,
+        "confidence": 0.872,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "to",
+        "start": 31.013,
+        "end": 31.113,
+        "confidence": 0.996,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "pay",
+        "start": 31.173,
+        "end": 31.414,
+        "confidence": 0.952,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "for",
+        "start": 31.514,
+        "end": 31.794,
+        "confidence": 0.892,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "at",
+        "start": 32.234,
+        "end": 32.314,
+        "confidence": 0.834,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "Oxford.",
+        "start": 32.535,
+        "end": 33.055,
+        "confidence": 0.981,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "I",
+        "start": 33.476,
+        "end": 33.536,
+        "confidence": 0.997,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "didn't",
+        "start": 33.596,
+        "end": 33.876,
+        "confidence": 0.886,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "receive",
+        "start": 33.956,
+        "end": 34.436,
+        "confidence": 0.826,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "a",
+        "start": 34.497,
+        "end": 34.517,
+        "confidence": 0.997,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "proper",
+        "start": 34.577,
+        "end": 34.957,
+        "confidence": 0.87,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "answer",
+        "start": 35.157,
+        "end": 35.558,
+        "confidence": 0.834,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "then.",
+        "start": 35.598,
+        "end": 35.898,
+        "confidence": 0.859,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "Maybe",
+        "start": 36.639,
+        "end": 37.239,
+        "confidence": 0.94,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "dodgy",
+        "start": 37.559,
+        "end": 38.0,
+        "confidence": 0.936,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "Dave",
+        "start": 38.06,
+        "end": 38.44,
+        "confidence": 0.866,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "will",
+        "start": 38.5,
+        "end": 38.74,
+        "confidence": 0.889,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "answer",
+        "start": 38.941,
+        "end": 39.281,
+        "confidence": 0.918,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "it",
+        "start": 39.361,
+        "end": 39.421,
+        "confidence": 0.232,
+        "speaker": "speaker_2"
+      }
+    ]
+  },
+  {
+    "speaker": "speaker_0",
+    "start": 39.441,
+    "end": 42.259,
+    "text": "now. And by the way,",
+    "words": [
+      {
+        "word": "now.",
+        "start": 39.441,
+        "end": 40.042,
+        "confidence": 0.545,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "And",
+        "start": 41.25,
+        "end": 41.351,
+        "confidence": 0.332,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "by",
+        "start": 41.452,
+        "end": 41.734,
+        "confidence": 0.68,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "the",
+        "start": 41.775,
+        "end": 41.855,
+        "confidence": 0.167,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "way,",
+        "start": 41.896,
+        "end": 42.259,
+        "confidence": 0.738,
+        "speaker": "speaker_0"
+      }
+    ]
+  },
+  {
+    "speaker": "UNK",
+    "start": 45.217,
+    "end": 46.88,
+    "text": "Yeah.",
+    "words": [
+      {
+        "word": "Yeah.",
+        "start": 45.217,
+        "end": 46.88,
+        "confidence": 0.732,
+        "speaker": "UNK"
+      }
+    ]
+  },
+  {
+    "speaker": "speaker_0",
+    "start": 47.18,
+    "end": 48.042,
+    "text": "And by the",
+    "words": [
+      {
+        "word": "And",
+        "start": 47.18,
+        "end": 47.261,
+        "confidence": 0.188,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "by",
+        "start": 47.301,
+        "end": 47.621,
+        "confidence": 0.83,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "the",
+        "start": 47.841,
+        "end": 48.042,
+        "confidence": 0.637,
+        "speaker": "speaker_0"
+      }
+    ]
+  },
+  {
+    "speaker": "UNK",
+    "start": 48.102,
+    "end": 48.483,
+    "text": "way...",
+    "words": [
+      {
+        "word": "way...",
+        "start": 48.102,
+        "end": 48.483,
+        "confidence": 0.453,
+        "speaker": "UNK"
+      }
+    ]
+  },
+  {
+    "speaker": "UNK",
+    "start": 51.419,
+    "end": 51.481,
+    "text": "Oh!",
+    "words": [
+      {
+        "word": "Oh!",
+        "start": 51.419,
+        "end": 51.481,
+        "confidence": 0.007,
+        "speaker": "UNK"
+      }
+    ]
+  },
+  {
+    "speaker": "speaker_0",
+    "start": 53.308,
+    "end": 53.835,
+    "text": "Order!",
+    "words": [
+      {
+        "word": "Order!",
+        "start": 53.308,
+        "end": 53.835,
+        "confidence": 0.76,
+        "speaker": "speaker_0"
+      }
+    ]
+  },
+  {
+    "speaker": "speaker_1",
+    "start": 54.058,
+    "end": 58.071,
+    "text": "Order! Or... or... Or...",
+    "words": [
+      {
+        "word": "Order!",
+        "start": 54.058,
+        "end": 54.443,
+        "confidence": 0.779,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "Or...",
+        "start": 55.266,
+        "end": 55.547,
+        "confidence": 0.944,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "or...",
+        "start": 56.049,
+        "end": 56.511,
+        "confidence": 0.934,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "Or...",
+        "start": 57.826,
+        "end": 58.071,
+        "confidence": 0.925,
+        "speaker": "speaker_1"
+      }
+    ]
+  },
+  {
+    "speaker": "speaker_1",
+    "start": 60.089,
+    "end": 61.903,
+    "text": "I must ask the honourable gentleman order",
+    "words": [
+      {
+        "word": "I",
+        "start": 60.089,
+        "end": 60.149,
+        "confidence": 0.984,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "must",
+        "start": 60.21,
+        "end": 60.452,
+        "confidence": 0.898,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "ask",
+        "start": 60.532,
+        "end": 60.734,
+        "confidence": 0.969,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "the",
+        "start": 60.774,
+        "end": 60.855,
+        "confidence": 0.836,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "honourable",
+        "start": 60.875,
+        "end": 61.198,
+        "confidence": 0.848,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "gentleman",
+        "start": 61.238,
+        "end": 61.641,
+        "confidence": 0.818,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "order",
+        "start": 61.661,
+        "end": 61.903,
+        "confidence": 0.349,
+        "speaker": "speaker_1"
+      }
+    ]
+  },
+  {
+    "speaker": "speaker_1",
+    "start": 64.325,
+    "end": 67.428,
+    "text": "I don't require any assistance from some junior minister.",
+    "words": [
+      {
+        "word": "I",
+        "start": 64.325,
+        "end": 64.345,
+        "confidence": 0.0,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "don't",
+        "start": 64.365,
+        "end": 64.525,
+        "confidence": 0.368,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "require",
+        "start": 64.545,
+        "end": 65.026,
+        "confidence": 0.856,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "any",
+        "start": 65.086,
+        "end": 65.226,
+        "confidence": 0.818,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "assistance",
+        "start": 65.266,
+        "end": 65.926,
+        "confidence": 0.855,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "from",
+        "start": 66.007,
+        "end": 66.167,
+        "confidence": 0.93,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "some",
+        "start": 66.207,
+        "end": 66.367,
+        "confidence": 0.935,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "junior",
+        "start": 66.447,
+        "end": 66.867,
+        "confidence": 0.844,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "minister.",
+        "start": 66.947,
+        "end": 67.428,
+        "confidence": 0.706,
+        "speaker": "speaker_1"
+      }
+    ]
+  },
+  {
+    "speaker": "speaker_0",
+    "start": 68.229,
+    "end": 68.549,
+    "text": "What an",
+    "words": [
+      {
+        "word": "What",
+        "start": 68.229,
+        "end": 68.429,
+        "confidence": 0.464,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "an",
+        "start": 68.509,
+        "end": 68.549,
+        "confidence": 0.045,
+        "speaker": "speaker_0"
+      }
+    ]
+  },
+  {
+    "speaker": "speaker_1",
+    "start": 68.629,
+    "end": 91.518,
+    "text": "absurd proposition. I invite the Honourable Gentleman to withdraw that adjective that he used a moment ago. He's perfectly capable of asking his question without using that word. It is up to him, but if he doesn't wish to withdraw it, I can't reasonably ask the Prime Minister to answer the question. All he has to do is withdraw that word and think of another. Sorry? I",
+    "words": [
+      {
+        "word": "absurd",
+        "start": 68.629,
+        "end": 69.129,
+        "confidence": 0.56,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "proposition.",
+        "start": 69.23,
+        "end": 71.712,
+        "confidence": 0.713,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "I",
+        "start": 71.992,
+        "end": 72.032,
+        "confidence": 0.891,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "invite",
+        "start": 72.072,
+        "end": 72.393,
+        "confidence": 0.787,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "the",
+        "start": 72.433,
+        "end": 72.493,
+        "confidence": 0.984,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "Honourable",
+        "start": 72.533,
+        "end": 72.773,
+        "confidence": 0.88,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "Gentleman",
+        "start": 72.813,
+        "end": 73.113,
+        "confidence": 0.804,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "to",
+        "start": 73.133,
+        "end": 73.193,
+        "confidence": 0.754,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "withdraw",
+        "start": 73.233,
+        "end": 73.754,
+        "confidence": 0.79,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "that",
+        "start": 73.814,
+        "end": 73.974,
+        "confidence": 0.695,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "adjective",
+        "start": 74.134,
+        "end": 74.735,
+        "confidence": 0.942,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "that",
+        "start": 74.915,
+        "end": 75.035,
+        "confidence": 0.9,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "he",
+        "start": 75.075,
+        "end": 75.175,
+        "confidence": 0.842,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "used",
+        "start": 75.275,
+        "end": 75.435,
+        "confidence": 0.702,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "a",
+        "start": 75.475,
+        "end": 75.495,
+        "confidence": 0.992,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "moment",
+        "start": 75.535,
+        "end": 75.776,
+        "confidence": 0.859,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "ago.",
+        "start": 75.816,
+        "end": 76.096,
+        "confidence": 0.903,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "He's",
+        "start": 76.116,
+        "end": 76.316,
+        "confidence": 0.369,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "perfectly",
+        "start": 76.376,
+        "end": 76.757,
+        "confidence": 0.887,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "capable",
+        "start": 77.057,
+        "end": 77.878,
+        "confidence": 0.67,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "of",
+        "start": 77.898,
+        "end": 77.958,
+        "confidence": 0.746,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "asking",
+        "start": 78.018,
+        "end": 78.298,
+        "confidence": 0.876,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "his",
+        "start": 78.338,
+        "end": 78.438,
+        "confidence": 0.826,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "question",
+        "start": 78.478,
+        "end": 78.758,
+        "confidence": 0.806,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "without",
+        "start": 78.779,
+        "end": 79.079,
+        "confidence": 0.819,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "using",
+        "start": 79.219,
+        "end": 79.459,
+        "confidence": 0.743,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "that",
+        "start": 79.519,
+        "end": 79.679,
+        "confidence": 0.894,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "word.",
+        "start": 79.759,
+        "end": 80.18,
+        "confidence": 0.757,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "It",
+        "start": 80.7,
+        "end": 80.76,
+        "confidence": 0.946,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "is",
+        "start": 80.82,
+        "end": 80.921,
+        "confidence": 0.738,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "up",
+        "start": 81.001,
+        "end": 81.081,
+        "confidence": 0.935,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "to",
+        "start": 81.121,
+        "end": 81.201,
+        "confidence": 0.914,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "him,",
+        "start": 81.241,
+        "end": 81.421,
+        "confidence": 0.926,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "but",
+        "start": 81.441,
+        "end": 81.541,
+        "confidence": 0.817,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "if",
+        "start": 81.561,
+        "end": 81.601,
+        "confidence": 0.999,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "he",
+        "start": 81.641,
+        "end": 81.701,
+        "confidence": 0.765,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "doesn't",
+        "start": 81.721,
+        "end": 81.941,
+        "confidence": 0.822,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "wish",
+        "start": 81.982,
+        "end": 82.102,
+        "confidence": 0.885,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "to",
+        "start": 82.142,
+        "end": 82.202,
+        "confidence": 0.808,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "withdraw",
+        "start": 82.242,
+        "end": 82.642,
+        "confidence": 0.916,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "it,",
+        "start": 82.702,
+        "end": 82.802,
+        "confidence": 0.817,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "I",
+        "start": 82.842,
+        "end": 82.902,
+        "confidence": 0.712,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "can't",
+        "start": 82.942,
+        "end": 83.123,
+        "confidence": 0.818,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "reasonably",
+        "start": 83.483,
+        "end": 83.923,
+        "confidence": 0.785,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "ask",
+        "start": 84.063,
+        "end": 84.264,
+        "confidence": 0.892,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "the",
+        "start": 84.284,
+        "end": 84.364,
+        "confidence": 0.773,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "Prime",
+        "start": 84.384,
+        "end": 84.544,
+        "confidence": 0.524,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "Minister",
+        "start": 84.564,
+        "end": 84.924,
+        "confidence": 0.811,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "to",
+        "start": 85.205,
+        "end": 85.285,
+        "confidence": 0.994,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "answer",
+        "start": 85.425,
+        "end": 85.665,
+        "confidence": 0.776,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "the",
+        "start": 85.705,
+        "end": 85.765,
+        "confidence": 0.999,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "question.",
+        "start": 85.785,
+        "end": 86.105,
+        "confidence": 0.783,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "All",
+        "start": 86.125,
+        "end": 86.225,
+        "confidence": 0.994,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "he",
+        "start": 86.245,
+        "end": 86.306,
+        "confidence": 0.746,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "has",
+        "start": 86.326,
+        "end": 86.426,
+        "confidence": 0.96,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "to",
+        "start": 86.466,
+        "end": 86.506,
+        "confidence": 0.998,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "do",
+        "start": 86.546,
+        "end": 86.646,
+        "confidence": 0.834,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "is",
+        "start": 86.726,
+        "end": 86.786,
+        "confidence": 0.728,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "withdraw",
+        "start": 86.846,
+        "end": 87.306,
+        "confidence": 0.819,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "that",
+        "start": 87.367,
+        "end": 87.527,
+        "confidence": 0.833,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "word",
+        "start": 87.607,
+        "end": 87.867,
+        "confidence": 0.905,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "and",
+        "start": 87.927,
+        "end": 88.007,
+        "confidence": 0.889,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "think",
+        "start": 88.047,
+        "end": 88.247,
+        "confidence": 0.738,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "of",
+        "start": 88.287,
+        "end": 88.327,
+        "confidence": 0.983,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "another.",
+        "start": 88.408,
+        "end": 88.728,
+        "confidence": 0.816,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "Sorry?",
+        "start": 89.908,
+        "end": 90.192,
+        "confidence": 0.568,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "I",
+        "start": 91.398,
+        "end": 91.518,
+        "confidence": 0.668,
+        "speaker": "speaker_1"
+      }
+    ]
+  },
+  {
+    "speaker": "speaker_0",
+    "start": 93.423,
+    "end": 95.588,
+    "text": "think",
+    "words": [
+      {
+        "word": "think",
+        "start": 93.423,
+        "end": 95.588,
+        "confidence": 0.53,
+        "speaker": "speaker_0"
+      }
+    ]
+  },
+  {
+    "speaker": "speaker_1",
+    "start": 95.628,
+    "end": 100.559,
+    "text": "he knows the word beginning with D and ending in Y that he inappropriately used.",
+    "words": [
+      {
+        "word": "he",
+        "start": 95.628,
+        "end": 95.728,
+        "confidence": 0.758,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "knows",
+        "start": 95.928,
+        "end": 96.289,
+        "confidence": 0.649,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "the",
+        "start": 96.329,
+        "end": 96.41,
+        "confidence": 0.849,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "word",
+        "start": 96.47,
+        "end": 96.73,
+        "confidence": 0.836,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "beginning",
+        "start": 96.75,
+        "end": 97.131,
+        "confidence": 0.838,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "with",
+        "start": 97.191,
+        "end": 97.312,
+        "confidence": 0.785,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "D",
+        "start": 97.432,
+        "end": 97.733,
+        "confidence": 0.97,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "and",
+        "start": 97.793,
+        "end": 97.893,
+        "confidence": 0.697,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "ending",
+        "start": 97.973,
+        "end": 98.234,
+        "confidence": 0.891,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "in",
+        "start": 98.274,
+        "end": 98.354,
+        "confidence": 0.98,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "Y",
+        "start": 98.695,
+        "end": 98.795,
+        "confidence": 0.937,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "that",
+        "start": 98.835,
+        "end": 98.955,
+        "confidence": 0.773,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "he",
+        "start": 98.975,
+        "end": 99.096,
+        "confidence": 0.725,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "inappropriately",
+        "start": 99.136,
+        "end": 99.998,
+        "confidence": 0.636,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "used.",
+        "start": 100.258,
+        "end": 100.559,
+        "confidence": 0.773,
+        "speaker": "speaker_1"
+      }
+    ]
+  },
+  {
+    "speaker": "speaker_0",
+    "start": 101.712,
+    "end": 105.457,
+    "text": "Davey. Davey or Davey. Withdraw! Yeah, I know. I know what you're saying.",
+    "words": [
+      {
+        "word": "Davey.",
+        "start": 101.712,
+        "end": 102.013,
+        "confidence": 0.466,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "Davey",
+        "start": 102.113,
+        "end": 102.614,
+        "confidence": 0.691,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "or",
+        "start": 102.734,
+        "end": 102.854,
+        "confidence": 0.58,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "Davey.",
+        "start": 103.034,
+        "end": 103.475,
+        "confidence": 0.655,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "Withdraw!",
+        "start": 103.555,
+        "end": 104.095,
+        "confidence": 0.55,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "Yeah,",
+        "start": 104.115,
+        "end": 104.276,
+        "confidence": 0.372,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "I",
+        "start": 104.296,
+        "end": 104.316,
+        "confidence": 0.001,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "know.",
+        "start": 104.336,
+        "end": 104.516,
+        "confidence": 0.409,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "I",
+        "start": 104.536,
+        "end": 104.556,
+        "confidence": 0.0,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "know",
+        "start": 104.576,
+        "end": 104.696,
+        "confidence": 0.24,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "what",
+        "start": 104.716,
+        "end": 104.856,
+        "confidence": 0.376,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "you're",
+        "start": 104.896,
+        "end": 105.036,
+        "confidence": 0.084,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "saying.",
+        "start": 105.056,
+        "end": 105.457,
+        "confidence": 0.652,
+        "speaker": "speaker_0"
+      }
+    ]
+  },
+  {
+    "speaker": "speaker_0",
+    "start": 108.479,
+    "end": 109.545,
+    "text": "Very simple.",
+    "words": [
+      {
+        "word": "Very",
+        "start": 108.479,
+        "end": 108.7,
+        "confidence": 0.49,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "simple.",
+        "start": 108.72,
+        "end": 109.545,
+        "confidence": 0.563,
+        "speaker": "speaker_0"
+      }
+    ]
+  },
+  {
+    "speaker": "speaker_1",
+    "start": 109.565,
+    "end": 110.108,
+    "text": "Withdrawal.",
+    "words": [
+      {
+        "word": "Withdrawal.",
+        "start": 109.565,
+        "end": 110.108,
+        "confidence": 0.515,
+        "speaker": "speaker_1"
+      }
+    ]
+  },
+  {
+    "speaker": "speaker_2",
+    "start": 112.991,
+    "end": 114.572,
+    "text": "This man has done",
+    "words": [
+      {
+        "word": "This",
+        "start": 112.991,
+        "end": 113.291,
+        "confidence": 0.61,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "man",
+        "start": 113.451,
+        "end": 113.771,
+        "confidence": 0.944,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "has",
+        "start": 113.971,
+        "end": 114.131,
+        "confidence": 0.628,
+        "speaker": "speaker_2"
+      },
+      {
+        "word": "done",
+        "start": 114.312,
+        "end": 114.572,
+        "confidence": 0.598,
+        "speaker": "speaker_2"
+      }
+    ]
+  },
+  {
+    "speaker": "speaker_0",
+    "start": 114.692,
+    "end": 127.564,
+    "text": "more to divide this nation than anybody else. He's looked after his own pocket. I still refer to him as Dodgy Dave.",
+    "words": [
+      {
+        "word": "more",
+        "start": 114.692,
+        "end": 115.132,
+        "confidence": 0.688,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "to",
+        "start": 115.873,
+        "end": 116.013,
+        "confidence": 0.64,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "divide",
+        "start": 116.033,
+        "end": 116.894,
+        "confidence": 0.566,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "this",
+        "start": 116.934,
+        "end": 117.394,
+        "confidence": 0.732,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "nation",
+        "start": 117.474,
+        "end": 118.435,
+        "confidence": 0.542,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "than",
+        "start": 118.475,
+        "end": 118.675,
+        "confidence": 0.55,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "anybody",
+        "start": 118.715,
+        "end": 118.995,
+        "confidence": 0.324,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "else.",
+        "start": 119.175,
+        "end": 120.156,
+        "confidence": 0.453,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "He's",
+        "start": 120.356,
+        "end": 120.516,
+        "confidence": 0.319,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "looked",
+        "start": 120.616,
+        "end": 120.876,
+        "confidence": 0.296,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "after",
+        "start": 121.077,
+        "end": 121.397,
+        "confidence": 0.559,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "his",
+        "start": 121.477,
+        "end": 121.577,
+        "confidence": 0.332,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "own",
+        "start": 121.777,
+        "end": 121.977,
+        "confidence": 0.641,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "pocket.",
+        "start": 122.097,
+        "end": 122.578,
+        "confidence": 0.459,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "I",
+        "start": 123.592,
+        "end": 123.653,
+        "confidence": 0.981,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "still",
+        "start": 123.793,
+        "end": 124.274,
+        "confidence": 0.7,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "refer",
+        "start": 124.515,
+        "end": 125.117,
+        "confidence": 0.722,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "to",
+        "start": 125.157,
+        "end": 125.277,
+        "confidence": 0.71,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "him",
+        "start": 125.338,
+        "end": 125.558,
+        "confidence": 0.656,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "as",
+        "start": 125.919,
+        "end": 126.02,
+        "confidence": 0.376,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "Dodgy",
+        "start": 126.28,
+        "end": 126.762,
+        "confidence": 0.693,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "Dave.",
+        "start": 127.103,
+        "end": 127.564,
+        "confidence": 0.696,
+        "speaker": "speaker_0"
+      }
+    ]
+  },
+  {
+    "speaker": "speaker_0",
+    "start": 129.812,
+    "end": 134.054,
+    "text": "Do what you like.",
+    "words": [
+      {
+        "word": "Do",
+        "start": 129.812,
+        "end": 130.012,
+        "confidence": 0.754,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "what",
+        "start": 130.052,
+        "end": 130.212,
+        "confidence": 0.382,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "you",
+        "start": 130.232,
+        "end": 130.372,
+        "confidence": 0.681,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "like.",
+        "start": 130.452,
+        "end": 134.054,
+        "confidence": 0.873,
+        "speaker": "speaker_0"
+      }
+    ]
+  },
+  {
+    "speaker": "speaker_1",
+    "start": 134.174,
+    "end": 140.977,
+    "text": "Order. Order. Order. Order. I'm sorry. I must ask the Honourable Gentleman to withdraw the work.",
+    "words": [
+      {
+        "word": "Order.",
+        "start": 134.174,
+        "end": 134.494,
+        "confidence": 0.928,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "Order.",
+        "start": 135.074,
+        "end": 135.314,
+        "confidence": 0.919,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "Order.",
+        "start": 135.435,
+        "end": 135.695,
+        "confidence": 0.893,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "Order.",
+        "start": 136.255,
+        "end": 136.475,
+        "confidence": 0.951,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "I'm",
+        "start": 136.595,
+        "end": 136.715,
+        "confidence": 0.742,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "sorry.",
+        "start": 136.795,
+        "end": 137.235,
+        "confidence": 0.857,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "I",
+        "start": 137.455,
+        "end": 137.515,
+        "confidence": 0.77,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "must",
+        "start": 137.635,
+        "end": 137.896,
+        "confidence": 0.804,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "ask",
+        "start": 138.136,
+        "end": 138.336,
+        "confidence": 0.885,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "the",
+        "start": 138.396,
+        "end": 138.476,
+        "confidence": 0.84,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "Honourable",
+        "start": 138.516,
+        "end": 138.896,
+        "confidence": 0.85,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "Gentleman",
+        "start": 138.936,
+        "end": 139.396,
+        "confidence": 0.815,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "to",
+        "start": 139.436,
+        "end": 139.536,
+        "confidence": 0.994,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "withdraw",
+        "start": 139.576,
+        "end": 140.317,
+        "confidence": 0.854,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "the",
+        "start": 140.337,
+        "end": 140.597,
+        "confidence": 0.803,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "work.",
+        "start": 140.677,
+        "end": 140.977,
+        "confidence": 0.948,
+        "speaker": "speaker_1"
+      }
+    ]
+  },
+  {
+    "speaker": "speaker_0",
+    "start": 141.417,
+    "end": 147.72,
+    "text": "Very well.",
+    "words": [
+      {
+        "word": "Very",
+        "start": 141.417,
+        "end": 142.578,
+        "confidence": 0.767,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "well.",
+        "start": 142.638,
+        "end": 147.72,
+        "confidence": 0.688,
+        "speaker": "speaker_0"
+      }
+    ]
+  },
+  {
+    "speaker": "speaker_1",
+    "start": 150.681,
+    "end": 153.422,
+    "text": "Under the power given to me by Standing Order No. 43.",
+    "words": [
+      {
+        "word": "Under",
+        "start": 150.681,
+        "end": 150.941,
+        "confidence": 0.826,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "the",
+        "start": 150.981,
+        "end": 151.061,
+        "confidence": 0.875,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "power",
+        "start": 151.081,
+        "end": 151.402,
+        "confidence": 0.531,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "given",
+        "start": 151.442,
+        "end": 151.722,
+        "confidence": 0.804,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "to",
+        "start": 151.762,
+        "end": 151.862,
+        "confidence": 0.996,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "me",
+        "start": 151.902,
+        "end": 152.042,
+        "confidence": 0.95,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "by",
+        "start": 152.102,
+        "end": 152.242,
+        "confidence": 0.864,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "Standing",
+        "start": 152.322,
+        "end": 152.782,
+        "confidence": 0.84,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "Order",
+        "start": 152.882,
+        "end": 153.122,
+        "confidence": 0.835,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "No.",
+        "start": 153.182,
+        "end": 153.302,
+        "confidence": 0.674,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "43.",
+        "start": 153.362,
+        "end": 153.422,
+        "confidence": 0.961,
+        "speaker": "speaker_1"
+      }
+    ]
+  },
+  {
+    "speaker": "speaker_1",
+    "start": 156.143,
+    "end": 163.31,
+    "text": "I order the honourable member to withdraw immediately from the House for the remainder of this day's sitting.",
+    "words": [
+      {
+        "word": "I",
+        "start": 156.143,
+        "end": 156.203,
+        "confidence": 0.68,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "order",
+        "start": 156.423,
+        "end": 156.684,
+        "confidence": 0.828,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "the",
+        "start": 156.724,
+        "end": 156.804,
+        "confidence": 0.998,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "honourable",
+        "start": 156.844,
+        "end": 157.204,
+        "confidence": 0.85,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "member",
+        "start": 157.244,
+        "end": 157.484,
+        "confidence": 0.933,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "to",
+        "start": 157.504,
+        "end": 157.585,
+        "confidence": 0.77,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "withdraw",
+        "start": 157.625,
+        "end": 158.025,
+        "confidence": 0.841,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "immediately",
+        "start": 158.125,
+        "end": 158.806,
+        "confidence": 0.749,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "from",
+        "start": 159.066,
+        "end": 159.306,
+        "confidence": 0.754,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "the",
+        "start": 159.386,
+        "end": 159.486,
+        "confidence": 0.994,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "House",
+        "start": 159.527,
+        "end": 159.867,
+        "confidence": 0.835,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "for",
+        "start": 160.187,
+        "end": 160.407,
+        "confidence": 0.879,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "the",
+        "start": 160.447,
+        "end": 160.548,
+        "confidence": 0.836,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "remainder",
+        "start": 160.608,
+        "end": 161.308,
+        "confidence": 0.848,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "of",
+        "start": 161.909,
+        "end": 162.009,
+        "confidence": 0.748,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "this",
+        "start": 162.109,
+        "end": 162.329,
+        "confidence": 0.791,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "day's",
+        "start": 162.429,
+        "end": 162.77,
+        "confidence": 0.748,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "sitting.",
+        "start": 162.93,
+        "end": 163.31,
+        "confidence": 0.996,
+        "speaker": "speaker_1"
+      }
+    ]
+  },
+  {
+    "speaker": "speaker_0",
+    "start": 172.084,
+    "end": 173.634,
+    "text": "You're all frustrated! Stupid!",
+    "words": [
+      {
+        "word": "You're",
+        "start": 172.084,
+        "end": 172.426,
+        "confidence": 0.581,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "all",
+        "start": 172.547,
+        "end": 172.688,
+        "confidence": 0.802,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "frustrated!",
+        "start": 172.708,
+        "end": 173.312,
+        "confidence": 0.486,
+        "speaker": "speaker_0"
+      },
+      {
+        "word": "Stupid!",
+        "start": 173.332,
+        "end": 173.634,
+        "confidence": 0.394,
+        "speaker": "speaker_0"
+      }
+    ]
+  },
+  {
+    "speaker": "speaker_1",
+    "start": 175.523,
+    "end": 175.914,
+    "text": "Very well.",
+    "words": [
+      {
+        "word": "Very",
+        "start": 175.523,
+        "end": 175.729,
+        "confidence": 0.896,
+        "speaker": "speaker_1"
+      },
+      {
+        "word": "well.",
+        "start": 175.749,
+        "end": 175.914,
+        "confidence": 0.936,
+        "speaker": "speaker_1"
+      }
+    ]
+  }
+]
