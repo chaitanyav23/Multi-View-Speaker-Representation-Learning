@@ -1,0 +1,32 @@
+{
+  "stage": "Stage 5B.2 V4.2 Freeze-Readiness Addendum",
+  "timestamp": "2026-11-04T20:33:03Z",
+  "audit_status": "COMPLETE",
+  "total_files": 6,
+  "files": {
+    "STAGE5B_2_V4_2_FREEZE_READINESS_REPORT.md": {
+      "size_bytes": 10449,
+      "sha256": "f22124f27fbea89303480113948ad6dce3a36c1d40c0bdf7634f45ad2b2dec52"
+    },
+    "V4_2_BOOTSTRAP_REPRODUCTION_REPORT.md": {
+      "size_bytes": 6446,
+      "sha256": "697d012f59d74fc8b9d984d5f48a67603e71a4993f402a3f5edca4159c0d2075"
+    },
+    "V4_2_CONFIGURATION_ATTRIBUTION_AUDIT.md": {
+      "size_bytes": 7562,
+      "sha256": "0055acdf46ce2925de3e40548650655194895b06326f9d21141a6b213b8e504c"
+    },
+    "V4_2_EXECUTION_SCOPE_DEVIATION_REPORT.md": {
+      "size_bytes": 6036,
+      "sha256": "5d21c769aaa363358ec9be6136d62420b26df11d0344846daf925acf05c08626"
+    },
+    "V4_2_FINAL_METRIC_TABLE.csv": {
+      "size_bytes": 1298,
+      "sha256": "3f2497dc07bcc18e1a97c6d1377ab817d370f03769d4cd59b27980bb5caa4cf3"
+    },
+    "V4_2_HASH_VERIFICATION_REPORT.md": {
+      "size_bytes": 4752,
+      "sha256": "1cf7db3632e732d2151582e19e38a828e21326f1127eb65842ae9cbcf8956b81"
+    }
+  }
+}
