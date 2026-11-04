@@ -1,0 +1,182 @@
+{
+  "stage": "Stage 5B.2 Corrective Audit",
+  "description": "Corrected Multi-Speaker Overlap Optimization Suite",
+  "configurations": [
+    {
+      "id": "O00",
+      "name": "Baseline Single-Label (C00 VAD, No Overlap)",
+      "vad_backbone": "C00",
+      "ovl_stream": "none",
+      "threshold": 0.0,
+      "attribution_method": "M0_no_overlap"
+    },
+    {
+      "id": "O01",
+      "name": "Baseline Single-Label (C50 VAD, No Overlap)",
+      "vad_backbone": "C50",
+      "ovl_stream": "none",
+      "threshold": 0.0,
+      "attribution_method": "M0_no_overlap"
+    },
+    {
+      "id": "O02",
+      "name": "Baseline Single-Label (C62 VAD, No Overlap)",
+      "vad_backbone": "C62",
+      "ovl_stream": "none",
+      "threshold": 0.0,
+      "attribution_method": "M0_no_overlap"
+    },
+    {
+      "id": "O10-R1",
+      "name": "Overlap Sweep T=0.30 (Mono, M1-R1)",
+      "vad_backbone": "C00",
+      "ovl_stream": "mono",
+      "threshold": 0.3,
+      "attribution_method": "M1_temporal_context"
+    },
+    {
+      "id": "O11-R1",
+      "name": "Overlap Sweep T=0.40 (Mono, M1-R1)",
+      "vad_backbone": "C00",
+      "ovl_stream": "mono",
+      "threshold": 0.4,
+      "attribution_method": "M1_temporal_context"
+    },
+    {
+      "id": "O12-R1",
+      "name": "Overlap Sweep T=0.50 (Mono, M1-R1)",
+      "vad_backbone": "C00",
+      "ovl_stream": "mono",
+      "threshold": 0.5,
+      "attribution_method": "M1_temporal_context"
+    },
+    {
+      "id": "O13-R1",
+      "name": "Overlap Sweep T=0.60 (Mono, M1-R1)",
+      "vad_backbone": "C00",
+      "ovl_stream": "mono",
+      "threshold": 0.6,
+      "attribution_method": "M1_temporal_context"
+    },
+    {
+      "id": "O14-R1",
+      "name": "Overlap Sweep T=0.70 (Mono, M1-R1)",
+      "vad_backbone": "C00",
+      "ovl_stream": "mono",
+      "threshold": 0.7,
+      "attribution_method": "M1_temporal_context"
+    },
+    {
+      "id": "O20-R1",
+      "name": "Overlap Stream DFN (T=0.40, M1-R1)",
+      "vad_backbone": "C00",
+      "ovl_stream": "dfn",
+      "threshold": 0.4,
+      "attribution_method": "M1_temporal_context"
+    },
+    {
+      "id": "O21-R1",
+      "name": "Overlap Stream Mono (T=0.40, M1-R1)",
+      "vad_backbone": "C00",
+      "ovl_stream": "mono",
+      "threshold": 0.4,
+      "attribution_method": "M1_temporal_context"
+    },
+    {
+      "id": "O30-R1",
+      "name": "Attribution: M1-R1 Local Temporal Context",
+      "vad_backbone": "C00",
+      "ovl_stream": "mono",
+      "threshold": 0.4,
+      "attribution_method": "M1_temporal_context"
+    },
+    {
+      "id": "O31-R1",
+      "name": "Attribution: M2-R1 Prototype Affinity (Concat 448d)",
+      "vad_backbone": "C00",
+      "ovl_stream": "mono",
+      "threshold": 0.4,
+      "attribution_method": "M2_prototype_concat"
+    },
+    {
+      "id": "O31-T",
+      "name": "Attribution: M2-R1 TitaNet-Only (192d)",
+      "vad_backbone": "C00",
+      "ovl_stream": "mono",
+      "threshold": 0.4,
+      "attribution_method": "M2_prototype_titanet"
+    },
+    {
+      "id": "O31-W",
+      "name": "Attribution: M2-R1 WeSpeaker-Only (256d)",
+      "vad_backbone": "C00",
+      "ovl_stream": "mono",
+      "threshold": 0.4,
+      "attribution_method": "M2_prototype_wespeaker"
+    },
+    {
+      "id": "O31-NF",
+      "name": "Attribution: M2-R1 Normalized Cosine Average",
+      "vad_backbone": "C00",
+      "ovl_stream": "mono",
+      "threshold": 0.4,
+      "attribution_method": "M2_prototype_normfusion"
+    },
+    {
+      "id": "O32-R1",
+      "name": "Attribution: M3-R1 Local Turn Alternation",
+      "vad_backbone": "C00",
+      "ovl_stream": "mono",
+      "threshold": 0.4,
+      "attribution_method": "M3_turn_alternation"
+    },
+    {
+      "id": "O33-R1",
+      "name": "Attribution: M4-R1 Conservative Abstention",
+      "vad_backbone": "C00",
+      "ovl_stream": "mono",
+      "threshold": 0.4,
+      "attribution_method": "M4_conservative_abstention"
+    },
+    {
+      "id": "O34-R1",
+      "name": "Oracle Diag: M5B Predicted Overlap + Hungarian Oracle Attr",
+      "vad_backbone": "C00",
+      "ovl_stream": "mono",
+      "threshold": 0.4,
+      "attribution_method": "M5B_predicted_ovl_oracle_attr"
+    },
+    {
+      "id": "O35-R1",
+      "name": "Oracle Diag: M5C Full Oracle Overlap + Hungarian Oracle Attr",
+      "vad_backbone": "C00",
+      "ovl_stream": "oracle_gt",
+      "threshold": 0.0,
+      "attribution_method": "M5C_full_oracle"
+    },
+    {
+      "id": "O40-R1",
+      "name": "Integrated: C50 Mono VAD + Mono Overlap (M1-R1)",
+      "vad_backbone": "C50",
+      "ovl_stream": "mono",
+      "threshold": 0.4,
+      "attribution_method": "M1_temporal_context"
+    },
+    {
+      "id": "O41-R1",
+      "name": "Integrated: C62 Consensus VAD + Mono Overlap (M1-R1)",
+      "vad_backbone": "C62",
+      "ovl_stream": "mono",
+      "threshold": 0.4,
+      "attribution_method": "M1_temporal_context"
+    },
+    {
+      "id": "O42-R1",
+      "name": "Integrated: C62 Consensus VAD + Conservative Overlap (M4-R1)",
+      "vad_backbone": "C62",
+      "ovl_stream": "mono",
+      "threshold": 0.4,
+      "attribution_method": "M4_conservative_abstention"
+    }
+  ]
+}
