@@ -1,7 +1,7 @@
 # Stage 5B.2 V4.2: Hash Verification and Cryptographic Integrity Report
 
 **Audit Phase**: Stage 5B.2 V4.2 Cryptographic Integrity Audit  
-**Date**: November 4, 2026  
+**Date**: November 4, 2026 (Updated for V4.2.1 Erratum, November 5, 2026)  
 **Auditor**: Independent Forensic Research Engineer  
 **Status**: 100% INTEGRITY VERIFIED — ALL BOUNDARIES PRESERVED
 
@@ -9,7 +9,7 @@
 
 ## 1. Executive Summary
 
-This report establishes the complete cryptographic integrity of the codebase following the creation of the Stage 5B.2 V4.2 Freeze-Readiness Addendum.
+This report establishes the complete cryptographic integrity of the codebase following the creation and erratum reconciliation of the Stage 5B.2 V4.2 deliverables.
 
 All immutable boundaries have been rigorously enforced:
 - **Stage 1 through Stage 5A.1.2**: 298/298 frozen artifacts remain bit-for-bit identical to their reference hashes.
@@ -59,8 +59,6 @@ The four benchmark result CSVs remain cryptographically identical across all aud
 
 ## 4. Git Working Tree State
 
-- **Initial Git Commit**: `484c7063c71bdead165de695558f844e7bc69163` (`research_stages/stage5b/stage5b_2_overlap_optimization/audit_corrections_v4_1/ added`).
-- **Initial Working Tree Status**: Clean.
-- **Current Git Status**: Only untracked new directory `research_stages/stage5b/stage5b_2_overlap_optimization/audit_corrections_v4_2/`.
-- **Modifications to Tracked Files**: Zero.
+- **Git HEAD Commit**: `ff68fd80b142a12339a7aa6ff75b01a752e26e3f`.
+- **Modifications to Prior Stages**: Zero.
 - **Git Commit Created**: NONE (execution halted per stop condition).

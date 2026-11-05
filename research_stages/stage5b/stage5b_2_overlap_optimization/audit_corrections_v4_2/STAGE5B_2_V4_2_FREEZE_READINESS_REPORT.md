@@ -1,7 +1,7 @@
 # Stage 5B.2 V4.2: Freeze-Readiness Addendum and Final Scientific Audit Report
 
 **Audit Phase**: Stage 5B.2 V4.2 Final Freeze-Readiness Addendum  
-**Date**: November 4, 2026  
+**Date**: November 4, 2026 (Updated for V4.2.1 Erratum, November 5, 2026)  
 **Auditor**: Independent Senior Forensic Research Engineer  
 **Status**: AUDIT COMPLETE — MATHEMATICALLY & SCIENTIFICALLY RECONCILED — STOP PROTOCOL ENGAGED
 
@@ -11,9 +11,9 @@
 
 This addendum establishes the definitive, scientifically verified documentation for Stage 5B.2 (Multi-Speaker Overlap Optimization & Attribution). 
 
-It resolves the three remaining documentation and statistical discrepancies identified during independent forensic review:
+It resolves the three primary documentation and statistical discrepancies identified during independent forensic review:
 1. **Correction A (Scientific Attribution)**: Formally corrects the scientific attribution of the headline intervention `O42-R2` to **Method M4 (Conservative Contiguous Overlap Attribution)** with C62 consensus VAD, rather than Method M2 (Dual-Encoder Prototype Nearest Neighbor). Method M2 is documented strictly as an independent implementation audit result that did not demonstrate downstream diarization improvement.
-2. **Correction B (Bootstrap Reconciliation)**: Formally reconciles the paired bootstrap confidence interval using the protocol-mandated $B = 5,000$ resamples and random seed `42`, reporting the exact linear-interpolated 95% interval of **`[-2.35%, +2.90%]`**. The previously reported 10,000-resample interval (`[-2.35%, +3.04%]`) is reconciled as expected Monte Carlo variance. All pseudo-Bayesian phrasing is retracted.
+2. **Correction B (Bootstrap Reconciliation)**: Formally reconciles the paired bootstrap confidence interval using the protocol-mandated $B = 5,000$ resamples and random seed `42`, reporting the observed paired mean difference of **`+0.5221 pp`** and the exact linear-interpolated 95% percentile interval of **`[-2.35, +2.90] pp`** (`[-2.3501, +2.9050]` percentage points). The previously reported 10,000-resample interval (`[-2.35, +3.04] pp`) is reconciled as expected Monte Carlo variance. All pseudo-Bayesian phrasing is retracted.
 3. **Correction C (Execution-Scope Deviation)**: Transparently documents the 48-evaluation minimal benchmark rerun executed during Stage 5B.2 V4.1 as a protocol-scope deviation beyond conditional authorization, while confirming cryptographically that no neural inference, embedding extraction, or data mutations occurred.
 
 All 298 frozen artifacts from Stage 1–5A.1.2, all Stage 5B.1 and 5B.3 artifacts, and all V3, V4, and V4.1 files remain intact and bit-identical. Stage 5B.2 is now fully reconciled and ready for human freeze review.
@@ -50,27 +50,27 @@ The table below provides the consolidated, cryptographically verified comparison
 
 | Recording ID | Acoustic Scenario / Description | O02 DER (c=0 ms) | O42-R2 DER (c=0 ms) | $\Delta$ DER (c=0 ms) | Direction | O02 DER (c=250 ms) | O42-R2 DER (c=250 ms) | $\Delta$ DER (c=250 ms) |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| `R01_sara_sharif` | Courtroom testimony | 31.19% | 31.19% | +0.00% | Tie | 30.15% | 30.15% | +0.00% |
-| `R02_dennis_skinner` | Parliamentary floor debate | 64.67% | 64.67% | +0.00% | Tie | 64.23% | 64.23% | +0.00% |
-| `R03_disabled_parking` | Traffic dispute, ambient noise | 34.29% | 36.92% | +2.64% | Loss | 30.52% | 32.97% | +2.45% |
-| `R04_piers_robinson` | High-overlap broadcast panel | 39.35% | 31.26% | **-8.09%** | **Win** | 38.48% | 29.97% | **-8.50%** |
-| `R05_southwest_pilot` | Cockpit / ATC radio comms | 60.38% | 63.20% | +2.82% | Loss | 57.38% | 59.76% | +2.39% |
-| `R06_rich_karen` | Reverberant outdoor argument | 71.07% | 77.87% | +6.81% | Loss | 66.61% | 73.04% | +6.42% |
-| `R07_bwc_cheap_shot` | Police BWC patrol audio | 41.98% | 41.98% | +0.00% | Tie | 38.54% | 38.54% | +0.00% |
-| `R08_uk_parliament` | Clean chamber acoustics | 16.28% | 16.28% | +0.00% | Tie | 15.07% | 15.07% | +0.00% |
-| **Macro Average** | **Unweighted Mean (N=8)** | **44.90%** | **45.42%** | **+0.52%** | **Loss** | **42.62%** | **42.97%** | **+0.35%** |
-| **Pooled Total** | **Duration-Weighted Total** | **48.68%** | **49.28%** | **+0.60%** | **Loss** | — | — | — |
+| `R01_sara_sharif` | Courtroom testimony | 31.19% | 31.19% | +0.00 pp | Tie | 30.15% | 30.15% | +0.00 pp |
+| `R02_dennis_skinner` | Parliamentary floor debate | 64.67% | 64.67% | +0.00 pp | Tie | 64.23% | 64.23% | +0.00 pp |
+| `R03_disabled_parking` | Traffic dispute, ambient noise | 34.29% | 36.92% | +2.64 pp | Loss | 30.52% | 32.97% | +2.45 pp |
+| `R04_piers_robinson` | High-overlap broadcast panel | 39.35% | 31.26% | **-8.09 pp** | **Win** | 38.48% | 29.97% | **-8.50 pp** |
+| `R05_southwest_pilot` | Cockpit / ATC radio comms | 60.38% | 63.20% | +2.82 pp | Loss | 57.38% | 59.76% | +2.39 pp |
+| `R06_rich_karen` | Reverberant outdoor argument | 71.07% | 77.87% | +6.81 pp | Loss | 66.61% | 73.04% | +6.42 pp |
+| `R07_bwc_cheap_shot` | Police BWC patrol audio | 41.98% | 41.98% | +0.00 pp | Tie | 38.54% | 38.54% | +0.00 pp |
+| `R08_uk_parliament` | Clean chamber acoustics | 16.28% | 16.28% | +0.00 pp | Tie | 15.07% | 15.07% | +0.00 pp |
+| **Macro Average** | **Unweighted Mean (N=8)** | **44.90%** | **45.42%** | **+0.52 pp** | **Loss** | **42.62%** | **42.97%** | **+0.35 pp** |
+| **Pooled Total** | **Duration-Weighted Total** | **48.68%** | **49.28%** | **+0.60 pp** | **Loss** | — | — | — |
 
-*Note: Macro DER represents the unweighted arithmetic mean across recordings. Pooled DER represents the speech-duration-weighted total error. VAD-projected DER (Stage 5B.1) and verification AUC/cpWER/JER are preserved separately in their respective stage manifests and are not mixed with full diarization DER.*
+*Note: Macro DER represents the unweighted arithmetic mean across recordings (+0.5221 pp at c=0 ms, +0.3444 pp at c=250 ms). Pooled DER represents the speech-duration-weighted total error (+0.5980 pp at c=0 ms). VAD-projected DER (Stage 5B.1) and verification AUC/cpWER/JER are preserved separately in their respective stage manifests and are not mixed with full diarization DER.*
 
 ---
 
 ## 4. Statistical Analysis & Interpretation
 
 ### 4.1 Outcome Distribution
-- **Wins**: 1 / 8 (12.5%) — `R04_piers_robinson` (-8.09 pp at c=0 ms, -8.50 pp at c=250 ms).
-- **Losses**: 3 / 8 (37.5%) — `R03_disabled_parking` (+2.64 pp), `R05_southwest_pilot` (+2.82 pp), `R06_rich_karen` (+6.81 pp).
-- **Ties**: 4 / 8 (50.0%) — `R01`, `R02`, `R07`, `R08` (0.00 pp change due to conservative abstention).
+- **Wins**: 1 / 8 (12.5%) — `R04_piers_robinson` (-8.0852 pp at c=0 ms, -8.5048 pp at c=250 ms).
+- **Losses**: 3 / 8 (37.5%) — `R03_disabled_parking` (+2.6354 pp), `R05_southwest_pilot` (+2.8196 pp), `R06_rich_karen` (+6.8067 pp).
+- **Ties**: 4 / 8 (50.0%) — `R01`, `R02`, `R07`, `R08` (0.0000 pp change due to conservative abstention).
 
 ### 4.2 Non-Parametric Significance (Wilcoxon Signed-Rank Test)
 - Tested on non-zero paired differences ($N_{\text{effective}} = 4$).
@@ -80,10 +80,11 @@ The table below provides the consolidated, cryptographically verified comparison
 
 ### 4.3 Paired Bootstrap Confidence Intervals
 - **Protocol Recomputation ($B = 5,000$, Seed = 42)**:
-  - Mean Paired Difference: $+0.5221\%$
-  - 95% Confidence Interval: **`[-2.35%, +2.90%]`**
+  - Observed Paired Mean Difference: **`+0.5221 pp`** (+0.005221)
+  - Empirical Bootstrap Replicate Mean: **`+0.5027 pp`** (+0.005027)
+  - 95% Percentile Confidence Interval: **`[-2.3501, +2.9050] pp`** (`[-2.35, +2.90] pp`)
 - **Reconciliation with 10,000-Resample Run**:
-  - The previously reported interval (`[-2.35%, +3.04%]`) reflects minor Monte Carlo fluctuation in the extreme right tail ($+0.14\%$ difference) due to the small sample size ($N=8$). Both intervals span zero.
+  - The previously reported interval (`[-2.35, +3.04] pp`) reflects minor Monte Carlo fluctuation in the extreme right tail ($+0.14$ pp difference) due to the small sample size ($N=8$). Both intervals span zero.
 - **Authoritative Statistical Statement**:
   > *"The paired bootstrap confidence interval includes zero, and the Wilcoxon signed-rank test does not establish a statistically significant corpus-level difference."*
 
@@ -120,7 +121,7 @@ Stage 5B.2 is now scientifically accurate, fully reconciled, mathematically robu
 
 Key takeaways for Stage 5B.4 (Integration):
 1. **Selective Overlap Gating**: Unconditional overlap attribution is counterproductive on unconstrained audio. Attribution must be gated conditionally based on overlap detector confidence or turn-taking structure.
-2. **Specialized Efficacy**: M4 provides dramatic error reduction ($-8.09\%$) in dense conversational interactions (`R04`).
+2. **Specialized Efficacy**: M4 provides dramatic error reduction ($-8.09$ pp) in dense conversational interactions (`R04`).
 3. **M2 Role**: Prototype nearest neighbor remains an experimental option requiring further tuning and should not be used as the default attribution backbone.
 
 ---
@@ -131,6 +132,6 @@ Key takeaways for Stage 5B.4 (Integration):
 > - Execution has halted.
 > - Stage 5B.2 has NOT been frozen.
 > - Stage 5B.4 has NOT been initiated.
-> - No models have been trained or evaluated.
+> - No model training, neural inference, embedding extraction, VAD inference or ASR inference occurred during V4.2/V4.2.1. The 48 downstream assignment/scoring evaluations performed during V4.1 remain transparently documented as a protocol-scope deviation.
 > - No Git commit has been created.
 > - Awaiting explicit user authorization.
