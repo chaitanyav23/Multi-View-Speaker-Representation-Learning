@@ -1,0 +1,92 @@
+{
+  "stage": "Stage 5B.4-A.1.1",
+  "title": "Targeted Corrective Remediation & Integration Audit",
+  "timestamp": "2026-11-06T10:50:00Z",
+  "file_count": 21,
+  "files": {
+    "README.md": {
+      "sha256": "dc0c5074d17d4e3dac55936e4861baefd18910517f00af6050f4601d8e61b8df",
+      "size_bytes": 3949
+    },
+    "reports/STAGE5B_4_A1_1_CORRECTIVE_REMEDIATION_REPORT.md": {
+      "sha256": "096f4f8a35c80eca4f015dfa992b643b9c90abd17220fc6c47bb77e0a1d0f775",
+      "size_bytes": 8611
+    },
+    "reports/STAGE5B_4_A1_1_INTEGRATION_AND_PATH_AUDIT.md": {
+      "sha256": "a33d4d60cd2217cf00a44055119f91f7878a2ebf8ad1a2a12a1bb0d938eba8b8",
+      "size_bytes": 7158
+    },
+    "reports/STAGE5B_4_A1_1_LIMITATIONS_AND_READINESS.md": {
+      "sha256": "a77925e209aaa69e28e73a7d704bf73337ec4fe8d3c1b1ab20cb1b49f4ff4113",
+      "size_bytes": 4652
+    },
+    "reports/STAGE5B_4_A1_1_TEST_AND_VALIDATION_REPORT.md": {
+      "sha256": "2c92167c054e1fcfc6f02ee2cf78ea200c67578b636a40a5511a7ec0b9952279",
+      "size_bytes": 6635
+    },
+    "scripts/__init__.py": {
+      "sha256": "86966601de5c7b25d7958ff6e170c734c090075d22c95be545ef9b81ed0a8063",
+      "size_bytes": 64
+    },
+    "scripts/cache_manager_remediated.py": {
+      "sha256": "93a21a11360ed81c19209b81b1709f5a97791ca71daf3a2dab34bc15a91c1737",
+      "size_bytes": 4082
+    },
+    "scripts/checkpoint_preflight.py": {
+      "sha256": "42c604dae7005d93fe305c90b68d625a3deda00cbbcfd7d6c58548f364aeb377",
+      "size_bytes": 3256
+    },
+    "scripts/cpwer_adapter.py": {
+      "sha256": "2eb80ed0ee9c8c8870de724301a9ac394ce17cfeb4d031e145e60dbbf52c71ec",
+      "size_bytes": 9402
+    },
+    "scripts/evaluation_adapters_remediated.py": {
+      "sha256": "842f54e69f669cb6e047f0440d09b35e0dfe5783b5f765582184d3dd1767856f",
+      "size_bytes": 5451
+    },
+    "scripts/orchestrator_remediated.py": {
+      "sha256": "c22c97a5968cb338b850a6404cd378d763f555e2064c67bf20f72685cf43e225",
+      "size_bytes": 17514
+    },
+    "scripts/output_path_guard.py": {
+      "sha256": "c5fba9202f1b7ba5700b6d25f7a4df8d4137fc818ecd88eec21c898e4640d905",
+      "size_bytes": 3310
+    },
+    "scripts/overlap_posterior_loader.py": {
+      "sha256": "1345d68afce3fd7df0ffa4e5ba6edaf17f72ae9bfa495fcd3dc69b4aa8eacfd9",
+      "size_bytes": 4740
+    },
+    "scripts/path_utils.py": {
+      "sha256": "5c6b683bde8b3bfc818e989ee5ec4cda5d81d62e0bddf76cca033687d3835347",
+      "size_bytes": 2565
+    },
+    "tests/test_cache_precise_errors.py": {
+      "sha256": "b7718f714c363313fab84c349a186f1285c2ed9e0fc358c00bd08db994b745b2",
+      "size_bytes": 3789
+    },
+    "tests/test_checkpoint_preflight.py": {
+      "sha256": "1a33e4349669065a63c534fddefad6452646310698f0ca7d56f7d288c7bc7a34",
+      "size_bytes": 2596
+    },
+    "tests/test_cpwer_adapter.py": {
+      "sha256": "49f756c56a6f31c0ff829eb3ee1ab0991b78473ef18b6cef1de16d82b7c1c931",
+      "size_bytes": 5159
+    },
+    "tests/test_cross_component_scenarios.py": {
+      "sha256": "e2d80b6988975872f426e588867263fb38b540a83eedbd980db6b68a6e99cc6c",
+      "size_bytes": 13420
+    },
+    "tests/test_output_containment.py": {
+      "sha256": "bd5569301d0d5337c47ec428df315e8bb620f136770ab8882591d169628cb07b",
+      "size_bytes": 2789
+    },
+    "tests/test_overlap_posterior_loader.py": {
+      "sha256": "ca29c15e87454b71c4442e25b5ae427ab71330cfc486bde333c8c3514183d8ad",
+      "size_bytes": 2865
+    },
+    "tests/test_path_utils.py": {
+      "sha256": "e1cc12576e6874de5c20db23ae149f46c2733bbcfcb591bcac240f9077fb7250",
+      "size_bytes": 2110
+    }
+  }
+}
