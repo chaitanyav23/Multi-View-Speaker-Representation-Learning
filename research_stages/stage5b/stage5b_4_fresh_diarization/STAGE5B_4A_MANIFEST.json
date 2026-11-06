@@ -1,0 +1,295 @@
+{
+  "metadata": {
+    "stage": "Stage 5B.4-A Fresh Diarization Orchestrator & Isolated Cache Implementation",
+    "timestamp_iso": "2026-11-06T09:47:27Z",
+    "authoritative_finding": "IMPLEMENTATION READY FOR REVIEW",
+    "auditor": "Senior ML Research Engineer & Diarization Systems Auditor",
+    "repository": "Multi-View-Speaker-Representation-Learning",
+    "branch": "main",
+    "commit_head_prior": "c0699b6c5e3e83545c87983798b7269613b59319",
+    "tests_summary": {
+      "total_executed": 43,
+      "passed": 43,
+      "failed": 0,
+      "skipped": 0,
+      "gpu_used": false,
+      "model_weights_loaded": false,
+      "real_audio_read": false
+    },
+    "preservation_status": {
+      "stage1_to_5a12_frozen": "UNTOUCHED",
+      "stage5b1_frozen": "UNTOUCHED",
+      "stage5b2_frozen": "UNTOUCHED",
+      "stage5b3_frozen": "UNTOUCHED",
+      "stage3_cache_frozen": "UNTOUCHED"
+    },
+    "boundary_statement": "Stage 5B.4-A is the only authorized work completed. No R01 inference pilot, no experimental condition execution, and no full 48-evaluation benchmark has been authorized or performed."
+  },
+  "deliverables": {
+    "STAGE5B_4A_CACHE_SCHEMA_REPORT.md": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/STAGE5B_4A_CACHE_SCHEMA_REPORT.md",
+      "size_bytes": 6333,
+      "sha256": "b669828246bf87c44a4006c77901887efdc76f922d61171756fb6adc56e28fdd"
+    },
+    "STAGE5B_4A_FREEZE_READINESS_REPORT.md": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/STAGE5B_4A_FREEZE_READINESS_REPORT.md",
+      "size_bytes": 4830,
+      "sha256": "73aa6cc42472c0b38cfd06617cce697071334e27792d815d78079172306a49ee"
+    },
+    "STAGE5B_4A_IMPLEMENTATION_AUDIT.md": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/STAGE5B_4A_IMPLEMENTATION_AUDIT.md",
+      "size_bytes": 8244,
+      "sha256": "1352f534145bf98d5b703e23ade2d6b1aaa7b9a09e51dfd1029e694024a6bd0c"
+    },
+    "STAGE5B_4A_IMPLEMENTATION_REPORT.md": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/STAGE5B_4A_IMPLEMENTATION_REPORT.md",
+      "size_bytes": 9919,
+      "sha256": "4a6d286dc5f1d25a0845e11db0affd545d08422e37ea12ee3be5d7dec6ca35d5"
+    },
+    "STAGE5B_4A_TEST_REPORT.md": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/STAGE5B_4A_TEST_REPORT.md",
+      "size_bytes": 7122,
+      "sha256": "d325effc8455de11436b15b142e521acdf2a2d45991d46e53df33e8daab62645"
+    },
+    "STAGE5B_4_AUDIT_MANIFEST.json": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/STAGE5B_4_AUDIT_MANIFEST.json",
+      "size_bytes": 1967,
+      "sha256": "3c91df650b0627473220743af16eefe3cec44034d6fdc180899b5763159d648f"
+    },
+    "STAGE5B_4_DEPENDENCY_AND_ENVIRONMENT_AUDIT.md": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/STAGE5B_4_DEPENDENCY_AND_ENVIRONMENT_AUDIT.md",
+      "size_bytes": 8272,
+      "sha256": "c02702a493366639f735985829ff740bd9521bd7e5fa6ae47f31454cef35675e"
+    },
+    "STAGE5B_4_EMBEDDING_CACHE_AUDIT.md": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/STAGE5B_4_EMBEDDING_CACHE_AUDIT.md",
+      "size_bytes": 8556,
+      "sha256": "2ddf6b868cd12311949424b846e1125f02252cbde8eb84fed3fe4ab607aca3fa"
+    },
+    "STAGE5B_4_EVALUATION_AUDIT.md": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/STAGE5B_4_EVALUATION_AUDIT.md",
+      "size_bytes": 7308,
+      "sha256": "73e01e770e2347b0fffca99c8787de491ad97d1236eba7028cb335361ca4e2f8"
+    },
+    "STAGE5B_4_FRESH_DIARIZATION_PATH_AUDIT.md": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/STAGE5B_4_FRESH_DIARIZATION_PATH_AUDIT.md",
+      "size_bytes": 11332,
+      "sha256": "671b464f1a870377cca9a4adc2352008206abfb927c2258d13df8689d4b805ed"
+    },
+    "STAGE5B_4_PRE_EXECUTION_AUDIT_REPORT.md": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/STAGE5B_4_PRE_EXECUTION_AUDIT_REPORT.md",
+      "size_bytes": 14296,
+      "sha256": "38e439f99406146162a6435f140b68da205ec6588b8428a9a7d70ef6fcff73af"
+    },
+    "STAGE5B_4_PROTOCOL_REVIEW.md": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/STAGE5B_4_PROTOCOL_REVIEW.md",
+      "size_bytes": 10973,
+      "sha256": "89554a579bae466b4c2034d524bff43470e43e5c0baa6ee1aafad8b39e5e834f"
+    },
+    "tests/test_affinity_fusion.py": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/tests/test_affinity_fusion.py",
+      "size_bytes": 2281,
+      "sha256": "d88f808675eb35fdb7b82fd35d89179bbb8daff432d56af0f21d0b812ce420b2"
+    },
+    "tests/test_cli_safety.py": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/tests/test_cli_safety.py",
+      "size_bytes": 1551,
+      "sha256": "d7a8c813246409a26ab0f892add930f684fe0381198e8354d1e7ba2e4801dc12"
+    },
+    "tests/test_condition_registry.py": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/tests/test_condition_registry.py",
+      "size_bytes": 2464,
+      "sha256": "c5df0a35a0f703a0096c36fe40c38d9b9da05f8b176baea0b7d2b4f338802151"
+    },
+    "tests/test_embedding_cache.py": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/tests/test_embedding_cache.py",
+      "size_bytes": 4524,
+      "sha256": "2ec0f54ac91351b893d6530399961dc1bdfa275cf69c59175471a2590e0ddb1e"
+    },
+    "tests/test_evaluation_adapter.py": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/tests/test_evaluation_adapter.py",
+      "size_bytes": 2865,
+      "sha256": "430d34c53208ccf5bb415859dc1080a2e15da2742b71af577112ce3f513effdd"
+    },
+    "tests/test_fresh_clustering.py": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/tests/test_fresh_clustering.py",
+      "size_bytes": 2498,
+      "sha256": "486e0a5890fccefe9d9555d433579d2ff3f7b25ae57b4e52caec405724309083"
+    },
+    "tests/test_overlap_adapter.py": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/tests/test_overlap_adapter.py",
+      "size_bytes": 3211,
+      "sha256": "a8d901aa0396361a736501f8979c666f6d5e84c556f0754141e9f9f35e24e082"
+    },
+    "tests/test_rttm_adapter.py": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/tests/test_rttm_adapter.py",
+      "size_bytes": 2114,
+      "sha256": "41806f8c6f01539be223ab015caf0d8ea55a15bcf43b08282612422b5d70b1b1"
+    },
+    "tests/test_subsegment_adapter.py": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/tests/test_subsegment_adapter.py",
+      "size_bytes": 2276,
+      "sha256": "09777cb2b10f461b38a31b14c3e849d7ca8f299e093710f3225bdf98ff984f3d"
+    },
+    "tests/test_vad_adapter.py": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/tests/test_vad_adapter.py",
+      "size_bytes": 2932,
+      "sha256": "f29012df2a6137e9ad7ba53ade39a6d1f1c04c1007f0666d1f674adec6890888"
+    },
+    "tests/__pycache__/test_affinity_fusion.cpython-310-pytest-9.0.3.pyc": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/tests/__pycache__/test_affinity_fusion.cpython-310-pytest-9.0.3.pyc",
+      "size_bytes": 7276,
+      "sha256": "493f41fbdb375681df58340de76188943eb1acf022e19451262a2268e1dcd832"
+    },
+    "tests/__pycache__/test_cli_safety.cpython-310-pytest-9.0.3.pyc": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/tests/__pycache__/test_cli_safety.cpython-310-pytest-9.0.3.pyc",
+      "size_bytes": 3013,
+      "sha256": "7a9bd10b8b051eceee8e4a2ef6c77a0c778803bebcdf4450d6124ee58aa0c00f"
+    },
+    "tests/__pycache__/test_condition_registry.cpython-310-pytest-9.0.3.pyc": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/tests/__pycache__/test_condition_registry.cpython-310-pytest-9.0.3.pyc",
+      "size_bytes": 9265,
+      "sha256": "f8551eaab05e5feae6ed195af9cb653a9d5c5a2c45ab5df7f5d9bc98e4db4bf1"
+    },
+    "tests/__pycache__/test_embedding_cache.cpython-310-pytest-9.0.3.pyc": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/tests/__pycache__/test_embedding_cache.cpython-310-pytest-9.0.3.pyc",
+      "size_bytes": 5633,
+      "sha256": "fba9cf477e3675de91d315af201fc1bb08784d59d0c56001ef04fdfa3bff95fe"
+    },
+    "tests/__pycache__/test_evaluation_adapter.cpython-310-pytest-9.0.3.pyc": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/tests/__pycache__/test_evaluation_adapter.cpython-310-pytest-9.0.3.pyc",
+      "size_bytes": 6610,
+      "sha256": "aff3dc7b69247c07043e893da9f4f50ce128cf47a4aa221a9c702c3de0e70ad1"
+    },
+    "tests/__pycache__/test_fresh_clustering.cpython-310-pytest-9.0.3.pyc": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/tests/__pycache__/test_fresh_clustering.cpython-310-pytest-9.0.3.pyc",
+      "size_bytes": 4450,
+      "sha256": "3d870538a731523a832ece76ca21ca88185c97e7755ddbfda0cf4c9390e39206"
+    },
+    "tests/__pycache__/test_overlap_adapter.cpython-310-pytest-9.0.3.pyc": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/tests/__pycache__/test_overlap_adapter.cpython-310-pytest-9.0.3.pyc",
+      "size_bytes": 5078,
+      "sha256": "047e4a4db42041abe6f73818dbfcc8d240b0a573c2e356b68f22b22e492ab476"
+    },
+    "tests/__pycache__/test_rttm_adapter.cpython-310-pytest-9.0.3.pyc": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/tests/__pycache__/test_rttm_adapter.cpython-310-pytest-9.0.3.pyc",
+      "size_bytes": 4949,
+      "sha256": "d46b7af3707e02b3511797bc7e43a66c904ef89c9d17be64c9ac61fabe6f64ac"
+    },
+    "tests/__pycache__/test_subsegment_adapter.cpython-310-pytest-9.0.3.pyc": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/tests/__pycache__/test_subsegment_adapter.cpython-310-pytest-9.0.3.pyc",
+      "size_bytes": 5404,
+      "sha256": "6397b0d7230a9df819473cb6a35ae61790c3fb5d330d149dfa23b075daffb777"
+    },
+    "tests/__pycache__/test_vad_adapter.cpython-310-pytest-9.0.3.pyc": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/tests/__pycache__/test_vad_adapter.cpython-310-pytest-9.0.3.pyc",
+      "size_bytes": 4008,
+      "sha256": "a7a623cc2ba45e13776350a0e71f9176b6eaf0c3309d2e152368b4e39edb9ae9"
+    },
+    "scripts/affinity_fusion.py": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/scripts/affinity_fusion.py",
+      "size_bytes": 5491,
+      "sha256": "507278583b8b698f427f762793d6a2f45033d641f1b00955f9a7bdd9b4fa5f0b"
+    },
+    "scripts/condition_registry.py": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/scripts/condition_registry.py",
+      "size_bytes": 6162,
+      "sha256": "48b4b6d5c315175914db93161c5c2187ac57385272d0429bff6a6e9f5d316787"
+    },
+    "scripts/embedding_cache.py": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/scripts/embedding_cache.py",
+      "size_bytes": 7226,
+      "sha256": "ce4f3d3985def1182b70c33a9f6bb8582dba1943ef64433373c6e26315407513"
+    },
+    "scripts/embedding_extractor.py": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/scripts/embedding_extractor.py",
+      "size_bytes": 6458,
+      "sha256": "b9e2d3676f6d56e5b9d47db8cf815cc9947885d9db9d01853718a2c94b62f93c"
+    },
+    "scripts/evaluation_adapter.py": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/scripts/evaluation_adapter.py",
+      "size_bytes": 6697,
+      "sha256": "e1c611d84be961b5d38b342c1fc5c1377b9fdd01c45b989c323c4c947e217408"
+    },
+    "scripts/fresh_clustering.py": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/scripts/fresh_clustering.py",
+      "size_bytes": 5157,
+      "sha256": "6574f48a7d1df23d04f6cfb3655f8f3ccca52d460e3dd9b607485452a9c48f33"
+    },
+    "scripts/overlap_adapter.py": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/scripts/overlap_adapter.py",
+      "size_bytes": 10244,
+      "sha256": "21bdb2d33470a64b1717d2dce4297e660df3dbb754e7836d745dff540ecb3180"
+    },
+    "scripts/rttm_adapter.py": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/scripts/rttm_adapter.py",
+      "size_bytes": 4368,
+      "sha256": "14f955094d073ad767b1f57d1e7b02b0f26277caae02a8c83a8f7750fc36e912"
+    },
+    "scripts/run_stage5b_4_fresh_diarization.py": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/scripts/run_stage5b_4_fresh_diarization.py",
+      "size_bytes": 7660,
+      "sha256": "c9c9cccfe4aa413d8d803ac6bae71176ccb328df57392ff407ab9951a5458c99"
+    },
+    "scripts/subsegment_adapter.py": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/scripts/subsegment_adapter.py",
+      "size_bytes": 3768,
+      "sha256": "3559c604c364b32c9a5f9645c70abf24c9effd7a364ede2ed4a246cb84bb64dc"
+    },
+    "scripts/vad_adapter.py": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/scripts/vad_adapter.py",
+      "size_bytes": 6399,
+      "sha256": "c61c0c5274a222601e54894078fdb7a9d96c8d249d535c754e45ff0ae3d8d1d5"
+    },
+    "scripts/__pycache__/affinity_fusion.cpython-310.pyc": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/scripts/__pycache__/affinity_fusion.cpython-310.pyc",
+      "size_bytes": 4629,
+      "sha256": "7aa346bd8b6af34cd7df2f0de76365d05d71ca80d4a684d9591d6c60e5cd4329"
+    },
+    "scripts/__pycache__/condition_registry.cpython-310.pyc": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/scripts/__pycache__/condition_registry.cpython-310.pyc",
+      "size_bytes": 4577,
+      "sha256": "7d364e1b3d885bb66f0d32f60b61d5f796e8a188506a21d718bf9bf7cd7682e0"
+    },
+    "scripts/__pycache__/embedding_cache.cpython-310.pyc": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/scripts/__pycache__/embedding_cache.cpython-310.pyc",
+      "size_bytes": 6098,
+      "sha256": "20a781a6d99ec1302ad96b5ade7fc1805459a5212a62a38fa772be7ae90c045e"
+    },
+    "scripts/__pycache__/embedding_extractor.cpython-310.pyc": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/scripts/__pycache__/embedding_extractor.cpython-310.pyc",
+      "size_bytes": 6376,
+      "sha256": "97d5e73da48ec77b5cee7b3073372efa2a4a0ded2900da72f91c0781d19d9e5c"
+    },
+    "scripts/__pycache__/evaluation_adapter.cpython-310.pyc": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/scripts/__pycache__/evaluation_adapter.cpython-310.pyc",
+      "size_bytes": 6934,
+      "sha256": "623a3c03e953c841e2c17ddc088a77d55184f088c5d8bd7b0cfcbdcc9475c4b6"
+    },
+    "scripts/__pycache__/fresh_clustering.cpython-310.pyc": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/scripts/__pycache__/fresh_clustering.cpython-310.pyc",
+      "size_bytes": 4801,
+      "sha256": "4d51d9eab20ebb733c18894d4aedff7748d4aeabf0c4c8bd7944749bc366366b"
+    },
+    "scripts/__pycache__/overlap_adapter.cpython-310.pyc": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/scripts/__pycache__/overlap_adapter.cpython-310.pyc",
+      "size_bytes": 6133,
+      "sha256": "519103b8a3e8e5e358d1f9c357d2fe6f22e98de3e6c7d86e78eab6685df779ff"
+    },
+    "scripts/__pycache__/rttm_adapter.cpython-310.pyc": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/scripts/__pycache__/rttm_adapter.cpython-310.pyc",
+      "size_bytes": 4140,
+      "sha256": "65d56100d85a5cb9d0cb1579cfbe28560f349616d54025205b9843244ff8cb4a"
+    },
+    "scripts/__pycache__/subsegment_adapter.cpython-310.pyc": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/scripts/__pycache__/subsegment_adapter.cpython-310.pyc",
+      "size_bytes": 3172,
+      "sha256": "2c97253364afa10e4884053b2b18c586534bcd3923b88cddf02e5b1ef7fc44bb"
+    },
+    "scripts/__pycache__/vad_adapter.cpython-310.pyc": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/scripts/__pycache__/vad_adapter.cpython-310.pyc",
+      "size_bytes": 5812,
+      "sha256": "7a2ba394be998356c3652cdf2e40dc63de92f225e8aba1652df923e97343037a"
+    }
+  }
+}
