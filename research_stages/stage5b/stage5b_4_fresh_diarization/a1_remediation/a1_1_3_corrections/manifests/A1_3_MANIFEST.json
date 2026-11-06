@@ -1,0 +1,107 @@
+{
+  "manifest_version": "1.0",
+  "stage": "Stage 5B.4-A.1.3",
+  "description": "Model Identity and Overlap Provenance Closure Deliverables Manifest",
+  "files": {
+    "README.md": {
+      "size_bytes": 3354,
+      "sha256": "c305ab70158f4c9d4a2a59969243132404d2831dc7d144b4cde7c9c046f781d4"
+    },
+    "tests/test_checkpoint_and_model_factory.py": {
+      "size_bytes": 11841,
+      "sha256": "a1901aeb59a89963bf2c46ee7090b8ae411145c12097c551228225d1e3600a15"
+    },
+    "tests/test_cross_component_scenarios.py": {
+      "size_bytes": 18267,
+      "sha256": "be5711df3d8f80751ae776fe94bad112da9a5a154460ce834606e69f079e8d61"
+    },
+    "tests/test_manifest_validation.py": {
+      "size_bytes": 3637,
+      "sha256": "4b0e47e150829fadab0441bde05353dd2a7c08c48df0522459b2af7a0feaf62a"
+    },
+    "tests/test_output_containment.py": {
+      "size_bytes": 8135,
+      "sha256": "294d6c0d1cb26adc0f3082d8ea89092907572e0bd9a8be1900f1effda93fade5"
+    },
+    "tests/test_overlap_provenance.py": {
+      "size_bytes": 10771,
+      "sha256": "2d5a533689856c1c3064b02fbdb44d442ef72eed8fe8659bc55a64466d2e6de2"
+    },
+    "tests/test_phase20_cpwer_parity.py": {
+      "size_bytes": 6868,
+      "sha256": "8e2d667eeb11c7b19bb140645d20587da25c1ce135fe1373b787b11c351b7831"
+    },
+    "tests/test_pipeline_validation_state.py": {
+      "size_bytes": 16556,
+      "sha256": "532e538657f053c5dd3bd3eb00c4b4c8fd151200e695279b5a03953a8f5b916b"
+    },
+    "reports/STAGE5B_4_A1_3_IMPLEMENTATION_REPORT.md": {
+      "size_bytes": 6369,
+      "sha256": "237b5c62c364c956d5d44875406426a8b3acd611bf9053479ea7fc0ea5fe7275"
+    },
+    "reports/STAGE5B_4_A1_3_LIMITATIONS_AND_READINESS.md": {
+      "size_bytes": 3747,
+      "sha256": "20e127e6bd569fcf1b335227c8bb6c79c41cedcce5b8e0487b7994a65e878ddb"
+    },
+    "reports/STAGE5B_4_A1_3_PROTECTED_ARTIFACTS_INTEGRITY.md": {
+      "size_bytes": 3266,
+      "sha256": "66591827e118c37d52b2dfa992776028dc53b301d5ad76e75e510bb3cdb039de"
+    },
+    "reports/STAGE5B_4_A1_3_TEST_AND_VALIDATION_REPORT.md": {
+      "size_bytes": 6681,
+      "sha256": "c49fb1a5dd76323547763b956ed038eedb1efcc3f6a16a50970df11c06f6347d"
+    },
+    "scripts/__init__.py": {
+      "size_bytes": 40,
+      "sha256": "8c05bc0a0cb3b29acb83da3e5fbf916303457809a3f92d845a91bc90f67f2423"
+    },
+    "scripts/cache_manager_remediated.py": {
+      "size_bytes": 4319,
+      "sha256": "c60284dc358884d47f5054533449869003625e33be5dad27a831b6949f14950f"
+    },
+    "scripts/checkpoint_preflight.py": {
+      "size_bytes": 12616,
+      "sha256": "9db6f7bf58286449ed7c51d12aaabdfb6d390ffd3db9c370dfc882314b9cb81e"
+    },
+    "scripts/cpwer_adapter.py": {
+      "size_bytes": 6546,
+      "sha256": "da5faa2cbe3e63d5e50f614ce231ceb5f84e65429879a92e4398c0b6e69e0c07"
+    },
+    "scripts/evaluation_adapters_remediated.py": {
+      "size_bytes": 4903,
+      "sha256": "46450526a54351bbd65956bc6ba924d972681211937979ef1595e6aa23b78272"
+    },
+    "scripts/model_factory.py": {
+      "size_bytes": 11588,
+      "sha256": "6d804f2da2e5ece058d978fefdf1874d58ed9e4d527ab715c5c0ccefc6177c9a"
+    },
+    "scripts/orchestrator_remediated.py": {
+      "size_bytes": 24866,
+      "sha256": "f69c08f59f5ca547ce27eb6c2220baab9849c3f8c80fcea82e40f036c856c7f2"
+    },
+    "scripts/output_path_guard.py": {
+      "size_bytes": 10880,
+      "sha256": "839925333b41f209db80156a689a8a9390b3e2be205817ad42d6663cc25fb5bf"
+    },
+    "scripts/overlap_posterior_loader.py": {
+      "size_bytes": 11560,
+      "sha256": "a5758ae73b6733d30e0cccd2414c2ce6952ceea3c4c55cbe4171f3798bdf918a"
+    },
+    "scripts/overlap_provenance.py": {
+      "size_bytes": 11139,
+      "sha256": "fd18d4be5d4a1e56cd9a3b2ac368c13e982c6bde30c382603db733374c5b3974"
+    },
+    "scripts/path_utils.py": {
+      "size_bytes": 3141,
+      "sha256": "6f5b0dc9a5cdeffcd310c9ea0cefa0344f29af82207ee03892b1547bb0f7c1ba"
+    },
+    "scripts/verify_manifest.py": {
+      "size_bytes": 5809,
+      "sha256": "893c108df5c447264429a995e068991b55b59f74404ed07d683aa121b1c0bb4c"
+    },
+    "manifests/overlap_posterior_provenance_manifest.json": {
+      "size_bytes": 26074,
+      "sha256": "e5fb700ec86bf62c4d97d77cd6679f2ed734f92c0d7fcbe55927bffaaafd4480"
+    }
+  }
+}
