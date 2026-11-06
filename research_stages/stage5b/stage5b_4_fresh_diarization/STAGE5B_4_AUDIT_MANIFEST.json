@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "stage": "Stage 5B.4 Protocol Review & Pre-Execution Audit",
+    "timestamp_iso": "2026-11-06T08:37:22Z",
+    "authoritative_recommendation": "CONDITIONAL GO",
+    "auditor": "Senior ML Research Engineer & Diarization Systems Auditor",
+    "repository": "Multi-View-Speaker-Representation-Learning"
+  },
+  "audit_deliverables": {
+    "STAGE5B_4_PROTOCOL_REVIEW.md": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/STAGE5B_4_PROTOCOL_REVIEW.md",
+      "size_bytes": 10973,
+      "sha256": "89554a579bae466b4c2034d524bff43470e43e5c0baa6ee1aafad8b39e5e834f"
+    },
+    "STAGE5B_4_FRESH_DIARIZATION_PATH_AUDIT.md": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/STAGE5B_4_FRESH_DIARIZATION_PATH_AUDIT.md",
+      "size_bytes": 11332,
+      "sha256": "671b464f1a870377cca9a4adc2352008206abfb927c2258d13df8689d4b805ed"
+    },
+    "STAGE5B_4_EMBEDDING_CACHE_AUDIT.md": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/STAGE5B_4_EMBEDDING_CACHE_AUDIT.md",
+      "size_bytes": 8556,
+      "sha256": "2ddf6b868cd12311949424b846e1125f02252cbde8eb84fed3fe4ab607aca3fa"
+    },
+    "STAGE5B_4_EVALUATION_AUDIT.md": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/STAGE5B_4_EVALUATION_AUDIT.md",
+      "size_bytes": 7308,
+      "sha256": "73e01e770e2347b0fffca99c8787de491ad97d1236eba7028cb335361ca4e2f8"
+    },
+    "STAGE5B_4_DEPENDENCY_AND_ENVIRONMENT_AUDIT.md": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/STAGE5B_4_DEPENDENCY_AND_ENVIRONMENT_AUDIT.md",
+      "size_bytes": 8272,
+      "sha256": "c02702a493366639f735985829ff740bd9521bd7e5fa6ae47f31454cef35675e"
+    },
+    "STAGE5B_4_PRE_EXECUTION_AUDIT_REPORT.md": {
+      "path": "research_stages/stage5b/stage5b_4_fresh_diarization/STAGE5B_4_PRE_EXECUTION_AUDIT_REPORT.md",
+      "size_bytes": 14296,
+      "sha256": "38e439f99406146162a6435f140b68da205ec6588b8428a9a7d70ef6fcff73af"
+    }
+  }
+}
