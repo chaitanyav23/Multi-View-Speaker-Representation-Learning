@@ -1,0 +1,120 @@
+{
+  "manifest_version": "1.0",
+  "stage": "Stage 5B.4-A.1.3.2",
+  "description": "Cryptographic deliverables manifest for Stage 5B.4-A.1.3.2 Final Integration Blocker Closure",
+  "total_files": 28,
+  "files": {
+    "README.md": {
+      "sha256": "54366a9901e6efdcfbc8487e0f26281ac3cafe3b6035408c06bf9fdde5ce5ff1",
+      "size_bytes": 5164
+    },
+    "manifests/overlap_posterior_provenance_manifest.json": {
+      "sha256": "14c58416a9cbb57aae79503038915dc02ccf4099fd6f5cb9f4ef0f79931bdeec",
+      "size_bytes": 26412
+    },
+    "reports/A1_3_2_EXECUTION_LOG.md": {
+      "sha256": "a811a815ff6538880d85a5fdbf2cff3d2de88f140c39789608b3dceb51b050f3",
+      "size_bytes": 2933
+    },
+    "reports/STAGE5B_4_A1_3_2_IMPLEMENTATION_REPORT.md": {
+      "sha256": "996cfdf20d813944d59fc54546d70a8a9fd5c14b31aecc80c696ef5eff5961b2",
+      "size_bytes": 6725
+    },
+    "reports/STAGE5B_4_A1_3_2_INTEGRATION_PATCH_GUIDE.md": {
+      "sha256": "3b481558e5781fe047c85a3466a7820478dd12b004cbee88278c8626ef94f3d2",
+      "size_bytes": 5083
+    },
+    "reports/STAGE5B_4_A1_3_2_LIMITATIONS_AND_READINESS.md": {
+      "sha256": "30999d3aa308cc3dd01bd1d89a1456046d390e1a40adfefe2ecd08ab80557d25",
+      "size_bytes": 2538
+    },
+    "reports/STAGE5B_4_A1_3_2_PROTECTED_ARTIFACTS_INTEGRITY.md": {
+      "sha256": "2fa4a108f9e67c8c4b9e2ed4889d2ed73fa3cc29049ebda99cf1ef8fa61076ab",
+      "size_bytes": 2947
+    },
+    "reports/STAGE5B_4_A1_3_2_PROVENANCE_REPORT.md": {
+      "sha256": "c5c07ac94ea39e32cfb8738995ce16f945ee661d2c40bb962c40f7a86e32b479",
+      "size_bytes": 5199
+    },
+    "reports/STAGE5B_4_A1_3_2_RTTM_SECURITY_REPORT.md": {
+      "sha256": "472e90ec6f7b1eb409810ece1e67634dfe7bb6fa10f1f3ae72f377da44d1d530",
+      "size_bytes": 4884
+    },
+    "reports/STAGE5B_4_A1_3_2_TEST_AND_VALIDATION_REPORT.md": {
+      "sha256": "90a79d7478947b5d5b06f592c7dc63276c66f6d2be98c6a88b21d619016c8ef3",
+      "size_bytes": 5398
+    },
+    "reports/STAGE5B_4_A1_3_2_TITANET_LOADING_REPORT.md": {
+      "sha256": "f0e557af29bc65bfa667e5154abf6ade97458fb318b26e78c5ff4b2f50726b2a",
+      "size_bytes": 6350
+    },
+    "scripts/__init__.py": {
+      "sha256": "a92f5016465740a1e5f27d7737f7b0e0b83dbf70600fe0b653b845a427b66eff",
+      "size_bytes": 60
+    },
+    "scripts/cache_manager_remediated.py": {
+      "sha256": "e242ef19e7af4e26ace9eadf60fe0d6078359405a83e0a505f5f213196fe3e38",
+      "size_bytes": 4415
+    },
+    "scripts/checkpoint_preflight.py": {
+      "sha256": "438e0c192be7814e40ec1ca23afc456167e476b539aad6e0b07b9ac74ef67ae4",
+      "size_bytes": 16393
+    },
+    "scripts/cpwer_adapter.py": {
+      "sha256": "da5faa2cbe3e63d5e50f614ce231ceb5f84e65429879a92e4398c0b6e69e0c07",
+      "size_bytes": 6546
+    },
+    "scripts/evaluation_adapters_remediated.py": {
+      "sha256": "46450526a54351bbd65956bc6ba924d972681211937979ef1595e6aa23b78272",
+      "size_bytes": 4903
+    },
+    "scripts/model_factory.py": {
+      "sha256": "4dd2d4891ee581f74ca9ac00291e1077fd711b5f45cbda675dfe8ad88f621ee9",
+      "size_bytes": 23151
+    },
+    "scripts/orchestrator_remediated.py": {
+      "sha256": "86c7a6daa6ceb97876f1e09808cd77c98dd659ca0e5ab9e5fbb2171f9398c1ac",
+      "size_bytes": 27352
+    },
+    "scripts/output_path_guard.py": {
+      "sha256": "f5254c3637cd7db9c826f10e0c5c3d4e407d252ec86c0434b5df99bd66f6675e",
+      "size_bytes": 14625
+    },
+    "scripts/overlap_posterior_loader.py": {
+      "sha256": "d2582c2826f2056c2bddb27558a923870d7defda86d5dbcc5cc3f10af17987cb",
+      "size_bytes": 12194
+    },
+    "scripts/overlap_provenance.py": {
+      "sha256": "07a6f2edbdd644ccbede277b751a9e13ded0d748ba0a563e616e346fd9c513d3",
+      "size_bytes": 21295
+    },
+    "scripts/path_utils.py": {
+      "sha256": "16c6a81898665cd2b0f61635ff093c7ee51ab4636f2de1fecc4295a3d42222ef",
+      "size_bytes": 3649
+    },
+    "scripts/verify_manifest.py": {
+      "sha256": "ac69cdec9fc7e9f3d8ea32708fb93b927f740dc16932cd16d0403fff92aec494",
+      "size_bytes": 6637
+    },
+    "tests/test_cross_component_scenarios.py": {
+      "sha256": "20b34a83b554691a06d848e0391265e5dd1774968e2b4a28800f94203f887d6b",
+      "size_bytes": 17505
+    },
+    "tests/test_mandatory_provenance_fields.py": {
+      "sha256": "4afba6bd4c8e5154812c100e8dd17743b992f7acff0266956d2280e53eadf3c8",
+      "size_bytes": 13544
+    },
+    "tests/test_manifest_validation.py": {
+      "sha256": "f9d31000e5e6e2c7d34de9400f969057c8e87b89d744bcd635039852e54478d1",
+      "size_bytes": 3665
+    },
+    "tests/test_rttm_descriptor_security.py": {
+      "sha256": "e3144cdb0281940cfa5a2d89f256c6f83059109a6c72ae18c96e3dcd9dcc972a",
+      "size_bytes": 9481
+    },
+    "tests/test_titanet_loader_security.py": {
+      "sha256": "078b9b119e906d579d54acd8d8c7b203fd1ec6912b973477feebf3235241ca25",
+      "size_bytes": 9413
+    }
+  }
+}
