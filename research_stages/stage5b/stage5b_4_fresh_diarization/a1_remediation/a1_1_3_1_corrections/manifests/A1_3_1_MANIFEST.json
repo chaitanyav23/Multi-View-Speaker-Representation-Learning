@@ -1,0 +1,128 @@
+{
+  "stage": "5B.4-A.1.3.1",
+  "description": "Cryptographic deliverables manifest for Stage 5B.4-A.1.3.1 Security, Checkpoint Identity, and Provenance Closure",
+  "git_head_commit": "8dc5fe2",
+  "file_count": 30,
+  "files": {
+    "README.md": {
+      "sha256": "fb0b746d685bbdcf98dfe3d908c9585de35597193a92290dc9b61a979947eb87",
+      "size_bytes": 4356
+    },
+    "manifests/overlap_posterior_provenance_manifest.json": {
+      "sha256": "14c58416a9cbb57aae79503038915dc02ccf4099fd6f5cb9f4ef0f79931bdeec",
+      "size_bytes": 26412
+    },
+    "reports/A1_3_1_EXECUTION_LOG.md": {
+      "sha256": "0037dac76294c0807a1142973b3425fff51927c345fac6f7774b40c577e16935",
+      "size_bytes": 4632
+    },
+    "reports/STAGE5B_4_A1_3_1_ERRATUM.md": {
+      "sha256": "c060a8d9bc66265aea5952509c2de5a06e4c47674781777cc872b324efe2c5a9",
+      "size_bytes": 4978
+    },
+    "reports/STAGE5B_4_A1_3_1_IMPLEMENTATION_REPORT.md": {
+      "sha256": "377762ce1743bfc14ba4e05f412e4351c37ad2c5eca71740deec707d7bed0f74",
+      "size_bytes": 4795
+    },
+    "reports/STAGE5B_4_A1_3_1_LIMITATIONS_AND_READINESS.md": {
+      "sha256": "86f4e7e1b85c6d0cc4d6e0565c7e4b10c837e6a784695dccef2b7557e5d0afbc",
+      "size_bytes": 3506
+    },
+    "reports/STAGE5B_4_A1_3_1_PROTECTED_ARTIFACTS_INTEGRITY.md": {
+      "sha256": "7abe3eb5be11e10275c40edc441b1552739b8ce2e20fa6372942a06eec55def4",
+      "size_bytes": 3896
+    },
+    "reports/STAGE5B_4_A1_3_1_PROVENANCE_VALIDATION_REPORT.md": {
+      "sha256": "1ea46e3f5a81fd9185ba8dfe2f0c2ae0e076ec4fd3062319a45f6718c0d98d7a",
+      "size_bytes": 5556
+    },
+    "reports/STAGE5B_4_A1_3_1_SECURITY_AUDIT_REPORT.md": {
+      "sha256": "49cef91f5acc75006fd7878b14e40432fa01bd26909eac6543fca447874cd056",
+      "size_bytes": 6364
+    },
+    "reports/STAGE5B_4_A1_3_1_TEST_AND_VALIDATION_REPORT.md": {
+      "sha256": "3571342cb705dcb610f1db1182632bc9accfa1f9929b6f63371d9d2c5d376711",
+      "size_bytes": 8512
+    },
+    "scripts/__init__.py": {
+      "sha256": "12a0e7b4688d062b246295c56ed1fb9382e357fed9dc71ee447d185587252b01",
+      "size_bytes": 45
+    },
+    "scripts/cache_manager_remediated.py": {
+      "sha256": "e242ef19e7af4e26ace9eadf60fe0d6078359405a83e0a505f5f213196fe3e38",
+      "size_bytes": 4415
+    },
+    "scripts/checkpoint_preflight.py": {
+      "sha256": "438e0c192be7814e40ec1ca23afc456167e476b539aad6e0b07b9ac74ef67ae4",
+      "size_bytes": 16393
+    },
+    "scripts/cpwer_adapter.py": {
+      "sha256": "da5faa2cbe3e63d5e50f614ce231ceb5f84e65429879a92e4398c0b6e69e0c07",
+      "size_bytes": 6546
+    },
+    "scripts/evaluation_adapters_remediated.py": {
+      "sha256": "46450526a54351bbd65956bc6ba924d972681211937979ef1595e6aa23b78272",
+      "size_bytes": 4903
+    },
+    "scripts/model_factory.py": {
+      "sha256": "06878b1badaa23b41a75010bdf9b29119ffa1c724e7f37be2d56008c45177112",
+      "size_bytes": 18663
+    },
+    "scripts/orchestrator_remediated.py": {
+      "sha256": "86c7a6daa6ceb97876f1e09808cd77c98dd659ca0e5ab9e5fbb2171f9398c1ac",
+      "size_bytes": 27352
+    },
+    "scripts/output_path_guard.py": {
+      "sha256": "9c7fb4a15fb1ceb238d2b794eee5c6cc3dc55719897ff7d96967e6ab22793d7a",
+      "size_bytes": 12574
+    },
+    "scripts/overlap_posterior_loader.py": {
+      "sha256": "d2582c2826f2056c2bddb27558a923870d7defda86d5dbcc5cc3f10af17987cb",
+      "size_bytes": 12194
+    },
+    "scripts/overlap_provenance.py": {
+      "sha256": "abfb0c1e9a7c112079241c51a84101104e00f20d1c2462e8cebc082c5e83e25e",
+      "size_bytes": 19874
+    },
+    "scripts/path_utils.py": {
+      "sha256": "14316c677f0789b165fe8355a2560db3dde859944534e03cca74d42d820c2d38",
+      "size_bytes": 3390
+    },
+    "scripts/verify_manifest.py": {
+      "sha256": "3fbf4c583414956b039826cdbda26c7a7453882df7022e091356ad45c9fb6de8",
+      "size_bytes": 6571
+    },
+    "tests/test_checkpoint_roots.py": {
+      "sha256": "452fc988369a8a6a3ba36d69660349b993ee549a448f0ebf968e35f10e3cf04c",
+      "size_bytes": 11147
+    },
+    "tests/test_cross_component_scenarios.py": {
+      "sha256": "27f412fd6251e07997d8835172570580e81b59ab07c48efd27047151b1302732",
+      "size_bytes": 13861
+    },
+    "tests/test_m0_m4_eligibility.py": {
+      "sha256": "efba4a6086775fedd1fc9e1e62ce5e39ae594ad523a3294908df908f218419c3",
+      "size_bytes": 6347
+    },
+    "tests/test_manifest_validation.py": {
+      "sha256": "23e30ece1e06e2d14dcf443bbb82e7a20f27d32770c7a8e17c67de80a8ece99c",
+      "size_bytes": 3707
+    },
+    "tests/test_provenance_schema_and_config.py": {
+      "sha256": "7bb3e66237694462b200fa9063c264d43c5127b82c9a28780e9f8b150a4aa4dd",
+      "size_bytes": 13162
+    },
+    "tests/test_rttm_symlink_race.py": {
+      "sha256": "1e3b067d678d3815bdd8e09f728cf54567ed2290e1069e6d317583f3c7546012",
+      "size_bytes": 7846
+    },
+    "tests/test_source_and_checkpoint_hashes.py": {
+      "sha256": "3edc5680df9c764382bccf2349f9181691a48962c1afe68d106945dffc6cdba0",
+      "size_bytes": 16557
+    },
+    "tests/test_wespeaker_and_toctou.py": {
+      "sha256": "76e613d646c28340c9b4556fe2e003370095a517f920a290322736f5fb3f9af1",
+      "size_bytes": 8095
+    }
+  }
+}
