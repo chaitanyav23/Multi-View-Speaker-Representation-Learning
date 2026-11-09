@@ -1,0 +1,124 @@
+{
+  "manifest_version": "1.0",
+  "stage": "Stage 5B.4-A.1.3.2.1",
+  "description": "Cryptographic deliverables manifest for Stage 5B.4-A.1.3.2.1 Final Security and Integration Closure",
+  "total_files": 29,
+  "files": {
+    "README.md": {
+      "sha256": "be98c3a00b86da2525cdeefbb783c318368195afcdca0d5cfe08c634c8c82b7b",
+      "size_bytes": 4427
+    },
+    "manifests/overlap_posterior_provenance_manifest.json": {
+      "sha256": "14c58416a9cbb57aae79503038915dc02ccf4099fd6f5cb9f4ef0f79931bdeec",
+      "size_bytes": 26412
+    },
+    "reports/A1_3_2_1_EXECUTION_LOG.md": {
+      "sha256": "7b656632d2f77127bfaf575f2e6b87d2f27c917be8b7ce12cb3c88a72a3dacdd",
+      "size_bytes": 3086
+    },
+    "reports/STAGE5B_4_A1_3_2_1_IMPLEMENTATION_REPORT.md": {
+      "sha256": "00ad5b85d398ab1ad8b430ff5c6a291653dbb5f82f6ad7cd75731f753120269a",
+      "size_bytes": 6901
+    },
+    "reports/STAGE5B_4_A1_3_2_1_INTEGRATION_CONSISTENCY_REPORT.md": {
+      "sha256": "950cca380130b181497b793ec4f91e875f526aa0bb2b6ce0281283978a4e1ffe",
+      "size_bytes": 5725
+    },
+    "reports/STAGE5B_4_A1_3_2_1_LIMITATIONS_AND_READINESS.md": {
+      "sha256": "57c5976109320f44ea7599488162fb7698f9ad780709306b4d521cf0e7c627a8",
+      "size_bytes": 3478
+    },
+    "reports/STAGE5B_4_A1_3_2_1_PROTECTED_ARTIFACTS_INTEGRITY.md": {
+      "sha256": "b6a84d771149bcc01922aed040ba307a7d5bf0e20d0d2e96dcec7e4888c9fa18",
+      "size_bytes": 3298
+    },
+    "reports/STAGE5B_4_A1_3_2_1_RTTM_SECURITY_REPORT.md": {
+      "sha256": "68188087d133429b7b0b742f884918b0726e874805f6826969055e0f01732223",
+      "size_bytes": 5239
+    },
+    "reports/STAGE5B_4_A1_3_2_1_TEST_AND_VALIDATION_REPORT.md": {
+      "sha256": "9615a7ff4b98663f7ea5bd1b68257cfc0214f3d46b2ea3279e276f77162be1ee",
+      "size_bytes": 6324
+    },
+    "reports/STAGE5B_4_A1_3_2_1_TITANET_SECURITY_REPORT.md": {
+      "sha256": "fde6c487615024b78a6d2409bda429b18025d1c2cdd6b25b491db48073d5268a",
+      "size_bytes": 6480
+    },
+    "scripts/__init__.py": {
+      "sha256": "a92f5016465740a1e5f27d7737f7b0e0b83dbf70600fe0b653b845a427b66eff",
+      "size_bytes": 60
+    },
+    "scripts/cache_manager_remediated.py": {
+      "sha256": "e242ef19e7af4e26ace9eadf60fe0d6078359405a83e0a505f5f213196fe3e38",
+      "size_bytes": 4415
+    },
+    "scripts/checkpoint_preflight.py": {
+      "sha256": "438e0c192be7814e40ec1ca23afc456167e476b539aad6e0b07b9ac74ef67ae4",
+      "size_bytes": 16393
+    },
+    "scripts/clustering_backends.py": {
+      "sha256": "238b180dca8e7f9d3ef1283ed31eee42aae0e901c0be80ecc3a1e61f32e4e410",
+      "size_bytes": 7939
+    },
+    "scripts/cpwer_adapter.py": {
+      "sha256": "da5faa2cbe3e63d5e50f614ce231ceb5f84e65429879a92e4398c0b6e69e0c07",
+      "size_bytes": 6546
+    },
+    "scripts/evaluation_adapters_remediated.py": {
+      "sha256": "46450526a54351bbd65956bc6ba924d972681211937979ef1595e6aa23b78272",
+      "size_bytes": 4903
+    },
+    "scripts/model_factory.py": {
+      "sha256": "0693190dafc43609c967ca5911f4f0afbc51e5e753f7fef7d1fc939812e67ecd",
+      "size_bytes": 24458
+    },
+    "scripts/orchestrator_remediated.py": {
+      "sha256": "86c7a6daa6ceb97876f1e09808cd77c98dd659ca0e5ab9e5fbb2171f9398c1ac",
+      "size_bytes": 27352
+    },
+    "scripts/output_path_guard.py": {
+      "sha256": "20162a849c388210c8e12c3cbdb07891787bcfae628c744c64c1e0ab4113efcd",
+      "size_bytes": 15815
+    },
+    "scripts/overlap_posterior_loader.py": {
+      "sha256": "d2582c2826f2056c2bddb27558a923870d7defda86d5dbcc5cc3f10af17987cb",
+      "size_bytes": 12194
+    },
+    "scripts/overlap_provenance.py": {
+      "sha256": "07a6f2edbdd644ccbede277b751a9e13ded0d748ba0a563e616e346fd9c513d3",
+      "size_bytes": 21295
+    },
+    "scripts/path_utils.py": {
+      "sha256": "5351d69ab3c98650f86197c7281898dc4dcfb1673035675feff2f3ecc0bc5396",
+      "size_bytes": 3924
+    },
+    "scripts/vad_adapter_remediated.py": {
+      "sha256": "b6f22d67f8d9287c4c7c4ae7522c7c6d41c30658fc479dde791974227cb3f73d",
+      "size_bytes": 5959
+    },
+    "scripts/verify_manifest.py": {
+      "sha256": "974e0c1a6b7174654266b282eb288bfe268715cb1940cbfdfc8f63e526972bad",
+      "size_bytes": 6885
+    },
+    "tests/test_cross_component_scenarios.py": {
+      "sha256": "dbe8d0b8bdce3cc8668753824443ac4bfa47767432cb11bf5ce3847ee0e2fb72",
+      "size_bytes": 18419
+    },
+    "tests/test_mandatory_provenance_fields.py": {
+      "sha256": "4afba6bd4c8e5154812c100e8dd17743b992f7acff0266956d2280e53eadf3c8",
+      "size_bytes": 13544
+    },
+    "tests/test_manifest_validation.py": {
+      "sha256": "4a4f5f8f2d7d55e3a7ee1364ca07cfe3db0b7683b7219832d8bd089fb452e1a2",
+      "size_bytes": 3764
+    },
+    "tests/test_rttm_atomic_security.py": {
+      "sha256": "a90b9d5a2fdc1d89691d31771458c6d5ec04088305081a37a2e2bf671698e880",
+      "size_bytes": 10052
+    },
+    "tests/test_titanet_memfd_security.py": {
+      "sha256": "ab13d6bc3443e03fe563da97bc291af93da6c5b387a04abce8d291dd66a66e0e",
+      "size_bytes": 10158
+    }
+  }
+}
