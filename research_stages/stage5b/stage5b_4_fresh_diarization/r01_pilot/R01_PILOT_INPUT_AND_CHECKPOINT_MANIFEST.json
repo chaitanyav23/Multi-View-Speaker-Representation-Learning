@@ -1,0 +1,69 @@
+{
+  "manifest_version": "1.0",
+  "stage": "Stage 5B.4 Authorized R01 Controlled Pilot Preflight",
+  "timestamp": "2026-11-10T12:03:00Z",
+  "recording_id": "R01_sara_sharif",
+  "git_head": "03b26c6",
+  "preflight_status": "BLOCKED_MANDATORY_STOP_CONDITIONS",
+  "inputs": {
+    "dfn_audio": {
+      "path": "research_stages/stage1_data_prep/audio/R01_sara_sharif/R01_sara_sharif_dfn.wav",
+      "sha256": "90520b893a11c9690e44c88ca5b9e94be49f36aa9e4eae1db88570b4bb051ced",
+      "size_bytes": 3230810,
+      "sample_rate": 16000,
+      "channels": 1,
+      "duration_sec": 100.9604,
+      "provenance_status": "VERIFIED_STAGE1_MANIFEST"
+    },
+    "mono_audio": {
+      "path": "research_stages/stage1_data_prep/audio/R01_sara_sharif/R01_sara_sharif_16k_mono.wav",
+      "sha256": "96f9af8d250ed8e26749433e2da6e1928a6d78eb6caad002cc1587fffcc0e45d",
+      "size_bytes": 3230810,
+      "sample_rate": 16000,
+      "channels": 1,
+      "duration_sec": 100.9604,
+      "provenance_status": "UNRECORDED_IN_HISTORICAL_STAGE1_MANIFEST"
+    },
+    "reference_rttm": {
+      "path": "research_stages/stage1_data_prep/rttm/R01_sara_sharif.rttm",
+      "sha256": "3cb40398ef9e7c4ea092a83e02aaeccebfa042898dbf5f5c353594feee19d2db",
+      "size_bytes": 11370
+    },
+    "aligned_words_json": {
+      "path": "research_stages/stage1_data_prep/json/aligned/R01_sara_sharif.aligned.json",
+      "sha256": "a3bc9ae44093c834a317e57c6b73812759e663884fbf31742461413695ce1f57",
+      "size_bytes": 35431
+    },
+    "dfn_overlap_posterior": {
+      "path": "research_stages/stage5b/stage5b_2_overlap_optimization/overlap_cache/R01_sara_sharif_dfn_overlap.npz",
+      "sha256": "4ffda87cb2525563b90ff8b9b7fdae90bfb944b59d0958e1f8c41cfef60afa78",
+      "size_bytes": 40207,
+      "shape": [5983],
+      "first_frame_center_sec": 0.03096875,
+      "frame_step_sec": 0.016875,
+      "provenance_status": "VERIFIED_AUTHORITATIVE_PROVENANCE_MANIFEST"
+    }
+  },
+  "checkpoints": {
+    "titanet_large": {
+      "path": "/home/priyanka/.cache/torch/NeMo/NeMo_2.7.3/diar_msdd_telephonic/3c3697a0a46f945574fa407149975a13/diar_msdd_telephonic.nemo",
+      "sha256": "450f6bd279a3f78348f6e883359f9b3b34687dbd15814fd0f10e446ca0f708f6",
+      "size_bytes": 104181957,
+      "model_type": "nemo.collections.asr.models.msdd_models.EncDecDiarLabelModel",
+      "interface_status": "MISMATCH_REQUIRES_SUBMODULE_EXTRACTION"
+    },
+    "wespeaker_resnet293_lm": {
+      "path": "/home/priyanka/.cache/huggingface/hub/models--Wespeaker--wespeaker-voxceleb-resnet293-LM/snapshots/6e6bffe5bf3d772a1f143dc6dbfea58a0799ea83/voxceleb_resnet293_LM.onnx",
+      "sha256": "dbb1ccc7754caff552ebc46347a51aaee2669bb24efc740e665d1a1133d20e98",
+      "size_bytes": 224195496,
+      "model_type": "onnxruntime.InferenceSession",
+      "interface_status": "MISMATCH_CALLABLE_FORWARD_CONTRACT"
+    },
+    "pyannet_segmentation": {
+      "path": "research_stages/.venv_phase20/lib/python3.10/site-packages/whisperx/assets/pytorch_model.bin",
+      "sha256": "0b5b3216d60a2d32fc086b47ea8c67589aaeb26b7e07fcbe620d6d0b83e209ea",
+      "size_bytes": 17242851,
+      "provenance_status": "VERIFIED_PYANNET_CHECKPOINT"
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "manifest_version": "1.0",
+  "document_type": "Stage 5B.4 Preflight Verification & Blocker Manifest",
+  "generated_at": "2026-11-10T12:12:00Z",
+  "recording_id": "R01_sara_sharif",
+  "git_state": {
+    "head_commit": "03b26c6",
+    "parent_commit": "2c7c185",
+    "working_tree_clean": true,
+    "historical_baselines_verified_count": 13,
+    "historical_baselines_status": "ALL_13_UNTOUCHED_AND_VERIFIED"
+  },
+  "authorized_experiment": {
+    "condition_e20": {
+      "condition_id": "E20",
+      "vad_config": "C62",
+      "vad_description": "Linear Consensus VAD (DFN + Raw Mono) with hysteresis",
+      "overlap_method": "M0_no_overlap",
+      "status": "BLOCKED / NOT RUN",
+      "reason": "Pipeline and model factory interface blockers prevent execution"
+    },
+    "condition_e21": {
+      "condition_id": "E21",
+      "vad_config": "C62",
+      "vad_description": "Linear Consensus VAD (DFN + Raw Mono) with hysteresis",
+      "overlap_method": "M4_conservative_abstention",
+      "authorized_overlap_stream": "dfn",
+      "status": "BLOCKED / NOT RUN",
+      "reason": "Orchestrator hardcodes stream='mono', blocking verified DFN posterior"
+    },
+    "registry_clarification": {
+      "c50_mapping": "Maps to E10 and E11, not E20 and E21",
+      "e20_e21_mapping": "Maps strictly to C62",
+      "reinterpretation_permitted": false
+    }
+  },
+  "overall_pilot_status": {
+    "pilot_status": "NOT EXECUTED",
+    "neural_inference_occurred": false,
+    "embeddings_extracted": false,
+    "metrics_generated": false,
+    "production_pipeline_ready": false
+  },
+  "preflight_checks": {
+    "completed_and_passed": [
+      {
+        "check": "Git HEAD and clean tree verification",
+        "result": "HEAD 03b26c6 verified; 13 historical baseline manifests verified intact"
+      },
+      {
+        "check": "R01 DFN audio verification",
+        "result": "SHA-256 90520b893a11c9690e44c88ca5b9e94be49f36aa9e4eae1db88570b4bb051ced matches Stage 1 manifest"
+      },
+      {
+        "check": "PyanNet physical checkpoint byte verification",
+        "result": "SHA-256 0b5b3216d60a2d32fc086b47ea8c67589aaeb26b7e07fcbe620d6d0b83e209ea matches trusted spec"
+      },
+      {
+        "check": "R01 DFN overlap posterior provenance verification",
+        "result": "Verified eligible (SHA-256 4ffda87cb2525563b90ff8b9b7fdae90bfb944b59d0958e1f8c41cfef60afa78, 5983 frames)"
+      },
+      {
+        "check": "DFN posterior timeline compatibility",
+        "result": "Frame center 0.03096875s, step 0.016875s, duration 100.9772s aligns with Stage 2 posteriors"
+      },
+      {
+        "check": "Frozen Stage 5A affinity fusion configuration",
+        "result": "Multiscale weights [0.225, 0.225, 0.225, 0.225, 0.100], off-diagonal z-score, Condition J equal-weight verified"
+      },
+      {
+        "check": "Frozen Stage 5B.3 clustering configuration",
+        "result": "NeMo SpeakerClustering(cuda=True) parameters (max_rp_threshold=0.25, sparse_search_volume=30) verified"
+      }
+    ],
+    "failed_checks_and_blockers": [
+      {
+        "blocker_id": "BLOCKER_1_ORCHESTRATOR_STREAM_HARDCODING",
+        "file": "research_stages/stage5b/stage5b_4_fresh_diarization/a1_remediation/a1_3_2_2_rttm_atomic_publication/scripts/orchestrator_remediated.py",
+        "lines": "389-396",
+        "issue": "Hardcoded stream='mono' in load_and_validate call prevents loading verified DFN posterior; mono fails closed"
+      },
+      {
+        "blocker_id": "BLOCKER_2_TITANET_CHECKPOINT_AND_INTERFACE_MISMATCH",
+        "file": "research_stages/stage5b/stage5b_4_fresh_diarization/a1_remediation/a1_3_2_2_rttm_atomic_publication/scripts/model_factory.py",
+        "lines": "322-326, 481-487",
+        "issue": "Standalone TitaNet-Large checkpoint is missing. diar_msdd_telephonic.nemo restores as EncDecDiarLabelModel whose forward takes 7 arguments instead of 2 expected by extract_titanet_embedding"
+      },
+      {
+        "blocker_id": "BLOCKER_3_WESPEAKER_ONNX_INTERFACE_MISMATCH",
+        "file": "research_stages/stage5b/stage5b_4_fresh_diarization/a1_remediation/a1_3_2_2_rttm_atomic_publication/scripts/model_factory.py",
+        "lines": "490-493",
+        "issue": "voxceleb_resnet293_LM.onnx instantiates as onnxruntime.InferenceSession, which has no .forward() or __call__(), failing extract_wespeaker_embedding"
+      },
+      {
+        "blocker_id": "BLOCKER_4_PRODUCTION_CLI_STUB",
+        "file": "research_stages/stage5b/stage5b_4_fresh_diarization/scripts/run_stage5b_4_fresh_diarization.py",
+        "lines": "126-153",
+        "issue": "mode_run_inference contains only a placeholder stub and does not invoke the orchestrator"
+      }
+    ],
+    "not_attempted": [
+      "VAD neural inference",
+      "Speaker embedding extraction",
+      "Real waveform audio processing",
+      "Clustering on real audio embeddings",
+      "RTTM generation for E20/E21",
+      "DER / JER / cpWER evaluation",
+      "Execution on recordings R02-R08"
+    ]
+  }
+}
