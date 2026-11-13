@@ -1,0 +1,24 @@
+{
+  "segment_id": "R04_piers_robinson__seg_002",
+  "recording_id": "R04_piers_robinson",
+  "prompt": "<|turn>user\n<speaker:2> wording of Islam. And they perpetrate evil, and it is completely wrong. Do you know that how? that the vast majority of muslims who are decent law-abiding people to trying to abuse and mock their faith and their holy book is an outrage <speaker:1> their holy book when you talk okay <speaker:3> so when the <speaker:1> sacred maps are past slay the non-muslims wherever you find them and take them captive and besiege them and prepare for them in ambush. Who's slaying who? I'm not slaying hatred, this calls <speaker:3> for my death. --> <turn|>\n<|turn>model\n",
+  "completion_data": {
+    "raw_completion": "<speaker:2> wording of Islam. And they perpetrate evil, and it is completely wrong. Do you know that how? that the vast majority of muslims who are decent law-abiding people to trying to abuse and mock their faith and their holy book is an outrage <speaker:1> their holy book when you talk okay so when the sacred maps are past slay the non-muslims wherever you find them and take them captive and besiege them and prepare for them in ambush. Who's slaying who? I'm not slaying hatred, this calls for my death. ",
+    "done": true,
+    "done_reason": "stop",
+    "prompt_tokens": 160,
+    "completion_tokens": 124,
+    "runtime_sec": 1.3464,
+    "ollama_total_duration_ns": 1344441085,
+    "prompt_configuration": {
+      "temperature": 0.0,
+      "top_k": 1,
+      "seed": 42,
+      "num_predict": 2048,
+      "stop": [
+        "<turn|>",
+        "[eod]"
+      ]
+    }
+  }
+}

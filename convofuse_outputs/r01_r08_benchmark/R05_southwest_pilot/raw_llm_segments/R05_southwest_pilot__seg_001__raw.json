@@ -1,0 +1,24 @@
+{
+  "segment_id": "R05_southwest_pilot__seg_001",
+  "recording_id": "R05_southwest_pilot",
+  "prompt": "<|turn>user\n<speaker:1> if i gave you blood then nothing would change <speaker:2> okay <speaker:1> Right? <speaker:2> That is your willful choice that you were willing to make, but based off the calls that we received stating that people down in TSA could smell. What smelled like alcohol, if you don't mind, we're just going to head up to the patrol car so that way we don't have to do it all in front of the public eye. --> <turn|>\n<|turn>model\n",
+  "completion_data": {
+    "raw_completion": "<speaker:1> if i gave you blood then nothing would change <speaker:2> okay <speaker:1> Right? <speaker:2> That is your willful choice that you were willing to make, but based off the calls that we received stating that people down in TSA could smell. What smelled like alcohol, if you don't mind, we're just going to head up to the patrol car so that way we don't have to do it all in front of the public eye. ",
+    "done": true,
+    "done_reason": "stop",
+    "prompt_tokens": 129,
+    "completion_tokens": 108,
+    "runtime_sec": 1.2243,
+    "ollama_total_duration_ns": 1222216097,
+    "prompt_configuration": {
+      "temperature": 0.0,
+      "top_k": 1,
+      "seed": 42,
+      "num_predict": 2048,
+      "stop": [
+        "<turn|>",
+        "[eod]"
+      ]
+    }
+  }
+}

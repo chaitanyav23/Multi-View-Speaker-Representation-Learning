@@ -1,0 +1,37 @@
+# ConvoFuse Conversational Transcript — R01_sara_sharif (R01_sara_sharif.wav)
+# Execution Mode: FROZEN_INPUT_REPLAY
+# Diarization Condition: Stage5B.4_E20_C62_DualEncoder_EqualFusion_M0
+# Generative Refinement Model: diarizers-community/DiarizationLM-Gemma-4-E4B-v1 (Q4_K_M, LG-TPST)
+# Media Duration: 100.96s | Total Turns: 13
+#
+# Speaker Summary Index:
+#   - SPEAKER_00: 42.53s | 6 turns | 146 words | [00:00:16.920 – 00:01:12.275]
+#   - SPEAKER_01: 13.07s | 3 turns | 52 words | [00:00:09.409 – 00:01:25.679]
+#   - SPEAKER_02: 17.21s | 3 turns | 66 words | [00:00:02.987 – 00:01:34.610]
+#   - UNK: 0.33s | 1 turns | 2 words | [00:00:02.052 – 00:00:02.377]
+
+[00:00:02.052 – 00:00:02.377] UNK: Yes sir.
+
+[00:00:02.987 – 00:00:09.329] SPEAKER_02: We are, yes. Are you okay just to swap over, just yourself come with me and if you go with my colleague over there, is that alright?
+
+[00:00:09.409 – 00:00:09.850] SPEAKER_01: Alright.
+
+[00:00:11.046 – 00:00:13.628] SPEAKER_02: That's what I was going to say about it. Thank you. Cutting back.
+
+[00:00:14.492 – 00:00:14.833] SPEAKER_01: Yes.
+
+[00:00:16.920 – 00:00:19.529] SPEAKER_00: Which one is your bag? I don't have any bag. You have no bag?
+
+[00:00:21.235 – 00:00:23.884] SPEAKER_00: We'll look over here. Yance, you have a lot of peace.
+
+[00:00:28.056 – 00:00:30.659] SPEAKER_00: I'll explain more outside, okay? Sorry, I'll explain.
+
+[00:00:33.014 – 00:00:34.484] SPEAKER_00: Let's hold on to him a little.
+
+[00:00:37.185 – 00:00:39.209] SPEAKER_00: Yeah, could you just confirm your name for me please, sir?
+
+[00:00:41.102 – 00:01:12.275] SPEAKER_00: Sorry. Good punch, Sharif. Yes, yeah, often, okay. So, the time is 19.47 hours. The body of Sarah Sharif was discovered on the 10th of August, 2023, on 6 Hammond Road in Horsall. On the injuries sustained by her and the investigation conducted, you are suspected of her murder. You are therefore arrested for murder of Sarah Sharif. You do not have to say anything when it may harm your defence. You do not mention when questioned, something which you later rely on in court, and anything you do say may be given in evidence.
+
+[00:01:13.390 – 00:01:25.679] SPEAKER_01: You are therefore arrested for the murder of Cheryl Shree. You didn't have to say anything, but it may have been on your offence if you didn't mention one question, something which you later rely on in court. Any of you do say maybe they've never seen someone like me.
+
+[00:01:26.325 – 00:01:34.610] SPEAKER_02: From the injuries sustained by her and the investigation conducted, you are suspected of her murder. You are therefore arrested for the murder of Saad Sharif.

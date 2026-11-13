@@ -30,6 +30,7 @@ import argparse
 from dataclasses import asdict
 import hashlib
 import json
+import os
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
@@ -185,7 +186,9 @@ def run_single_condition(
         reconciler_config=reconciler_config,
         llm_provider=provider,
     )
-    out_path = output_dir / f"R01_sara_sharif__{condition_name}__{mode_name}.json"
+    out_path = (
+        output_dir / f"R01_sara_sharif__{condition_name}__{mode_name}.json"
+    ).resolve()
     result: Stage6PipelineResult = pipeline.run_from_files(
         words_json_path=asr_words_path,
         diarization_rttm_path=rttm_path,
@@ -194,11 +197,10 @@ def run_single_condition(
         reference_transcript_json_path=ref_json_path,
         output_json_path=out_path,
     )
-    rel_or_abs = (
-        str(out_path.relative_to(REPO_ROOT))
-        if out_path.resolve().is_relative_to(REPO_ROOT.resolve())
-        else str(out_path)
-    )
+    try:
+        rel_or_abs = str(out_path.resolve().relative_to(REPO_ROOT.resolve()))
+    except ValueError:
+        rel_or_abs = str(out_path.resolve())
     return {
         "condition": condition_name,
         "mode": mode_name,
@@ -230,12 +232,20 @@ def main(argv: Optional[List[str]] = None) -> int:
     parser.add_argument(
         "--live-model",
         type=str,
-        default="gpt-4o-mini",
-        help="Model identifier when --live-provider is specified.",
+        default=None,
+        help=(
+            "Optional model identifier when --live-provider is specified. "
+            "Defaults to GEMINI_MODEL for Gemini or gpt-4o-mini for OpenAI-compatible."
+        ),
     )
     args = parser.parse_args(argv)
 
-    output_dir: Path = args.output_dir
+    raw_output_dir = Path(args.output_dir)
+    output_dir: Path = (
+        (REPO_ROOT / raw_output_dir).resolve()
+        if not raw_output_dir.is_absolute()
+        else raw_output_dir.resolve()
+    )
     output_dir.mkdir(parents=True, exist_ok=True)
 
     # Record input hashes BEFORE execution to verify read-only integrity
@@ -321,14 +331,37 @@ def main(argv: Optional[List[str]] = None) -> int:
             )
         )
 
-        # Optional Mode 4: Live external provider if requested by user
-        if args.live_provider is not None:
-            live_provider = create_llm_provider(
-                LLMConfig(
-                    provider=args.live_provider,
-                    model_name=args.live_model,
+        # Optional Mode 4: Live external provider.
+        # Initial live experiment is restricted to R01 E20 only.
+        if args.live_provider is not None and cond_name == "E20":
+
+            # Resolve model identifier based on the selected provider.
+            if args.live_model:
+                live_model = args.live_model
+
+            elif args.live_provider == "gemini":
+                live_model = os.getenv(
+                    "GEMINI_MODEL",
+                    "gemini-3.5-flash-lite",
                 )
+
+            else:
+                live_model = "gpt-4o-mini"
+
+            # Explicitly select the appropriate API-key environment variable.
+            if args.live_provider == "gemini":
+                api_key_env_var = "GEMINI_API_KEY"
+            else:
+                api_key_env_var = "OPENAI_API_KEY"
+
+            live_config = LLMConfig(
+                provider=args.live_provider,
+                model_name=live_model,
+                api_key_env_var=api_key_env_var,
             )
+
+            live_provider = create_llm_provider(live_config)
+
             runs_summary.append(
                 run_single_condition(
                     condition_name=cond_name,

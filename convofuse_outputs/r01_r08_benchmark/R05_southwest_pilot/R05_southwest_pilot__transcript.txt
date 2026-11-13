@@ -1,0 +1,105 @@
+# ConvoFuse Conversational Transcript — R05_southwest_pilot (R05_southwest_pilot.wav)
+# Execution Mode: FROZEN_INPUT_REPLAY
+# Diarization Condition: Stage5A.1_Condition_J_DualEncoder_EqualFusion
+# Generative Refinement Model: diarizers-community/DiarizationLM-Gemma-4-E4B-v1 (Q4_K_M, LG-TPST)
+# Media Duration: 162.45s | Total Turns: 47
+#
+# Speaker Summary Index:
+#   - SPEAKER_00: 26.91s | 18 turns | 74 words | [00:00:14.255 – 00:02:23.366]
+#   - SPEAKER_01: 63.41s | 23 turns | 244 words | [00:00:01.127 – 00:02:39.931]
+#   - SPEAKER_02: 12.18s | 4 turns | 44 words | [00:00:07.190 – 00:01:15.323]
+#   - UNK: 4.96s | 2 turns | 10 words | [00:01:42.706 – 00:01:51.620]
+
+[00:00:01.127 – 00:00:01.509] SPEAKER_01: Good morning.
+
+[00:00:07.190 – 00:00:07.350] SPEAKER_02: Say
+
+[00:00:09.015 – 00:00:10.500] SPEAKER_02: it again?
+
+[00:00:13.712 – 00:00:14.194] SPEAKER_01: Good morning, sir.
+
+[00:00:14.255 – 00:00:15.540] SPEAKER_00: Good morning. How are you?
+
+[00:00:15.561 – 00:00:16.163] SPEAKER_01: You good out there?
+
+[00:00:16.224 – 00:00:16.846] SPEAKER_00: Yeah. Fine.
+
+[00:00:17.372 – 00:00:18.610] SPEAKER_01: When was the last time you had a sip of a drink?
+
+[00:00:19.115 – 00:00:19.568] SPEAKER_00: Last night?
+
+[00:00:20.690 – 00:00:21.641] SPEAKER_01: How many hours ago?
+
+[00:00:22.891 – 00:00:24.604] SPEAKER_00: Uh, like 10 hours ago, at least.
+
+[00:00:27.608 – 00:00:28.415] SPEAKER_01: How many drinks did you have?
+
+[00:00:29.667 – 00:00:30.908] SPEAKER_00: a few beers. Sir?
+
+[00:00:31.679 – 00:00:32.491] SPEAKER_01: to find a few beers.
+
+[00:00:34.029 – 00:00:34.440] SPEAKER_00: few years.
+
+[00:00:35.437 – 00:00:36.300] SPEAKER_01: Define a few beers.
+
+[00:00:36.742 – 00:00:37.043] SPEAKER_00: Three.
+
+[00:00:37.424 – 00:00:37.705] SPEAKER_01: Okay.
+
+[00:00:37.906 – 00:00:38.086] SPEAKER_00: Yeah.
+
+[00:00:38.877 – 00:00:39.371] SPEAKER_01: We'll just drink.
+
+[00:00:40.314 – 00:00:42.004] SPEAKER_00: Like beer, no lie. No lie?
+
+[00:00:42.084 – 00:00:42.909] SPEAKER_01: Yeah. Anything else?
+
+[00:00:42.990 – 00:00:44.535] SPEAKER_00: Nope. What's up?
+
+[00:00:46.179 – 00:00:46.712] SPEAKER_01: Who are you with?
+
+[00:00:48.496 – 00:00:49.042] SPEAKER_00: May I follow?
+
+[00:00:49.373 – 00:00:52.112] SPEAKER_01: Uh huh. Would you be willing to provide?
+
+[00:00:52.711 – 00:00:52.876] SPEAKER_00: Uh...
+
+[00:00:53.187 – 00:00:54.202] SPEAKER_01: Feel sobriety with me right now?
+
+[00:00:54.425 – 00:00:54.608] SPEAKER_00: No.
+
+[00:00:55.005 – 00:00:55.214] SPEAKER_01: Hold on.
+
+[00:00:56.363 – 00:00:56.924] SPEAKER_00: There's no need?
+
+[00:00:57.264 – 00:01:01.271] SPEAKER_01: Well, I can smell an odor consistent with an alcoholic beverage.
+
+[00:01:03.283 – 00:01:05.046] SPEAKER_02: I can smell it, I can smell it.
+
+[00:01:05.106 – 00:01:06.449] SPEAKER_01: It is a fully booked flight.
+
+[00:01:06.549 – 00:01:15.323] SPEAKER_02: I have a smell of a adult beverage coming out of you. I don't know if it's coming out of your mouth or your skin. It's coming out of the pores, I get
+
+[00:01:16.005 – 00:01:16.666] SPEAKER_00: it. Do I see it?
+
+[00:01:18.938 – 00:01:20.066] SPEAKER_01: Would you do field sobriety?
+
+[00:01:22.954 – 00:01:25.764] SPEAKER_01: This would be a brand new uncharted territory.
+
+[00:01:25.844 – 00:01:38.934] SPEAKER_00: Let's go. away from the passengers. One. to. greatness. war. I don't know. Sex. So Peace. No.
+
+[00:01:39.115 – 00:01:40.326] SPEAKER_01: Did you turn around and go the other way?
+
+[00:01:42.706 – 00:01:44.116] UNK: One, two, three.
+
+[00:01:48.065 – 00:01:51.620] UNK: Thank you. 6, 7, 8, 9, 10.
+
+[00:01:54.726 – 00:02:19.809] SPEAKER_01: I'm trained in standardized field sobriety, and you've exhibited strong signs, and even after speaking with your first pilot, like... The issue is, would you agree to a blood draw to test your blood alcohol content? Okay, well, the issue is when you agreed to the field sobriety, you exhibited the symptoms, and if you're refusing to a blood draw, that's DUI less safe for the willful intention to operate a commercial aircraft. seriously yes sir
+
+[00:02:20.230 – 00:02:22.314] SPEAKER_00: even if i gave you blood then nothing would change
+
+[00:02:22.614 – 00:02:22.815] SPEAKER_01: okay
+
+[00:02:23.182 – 00:02:23.366] SPEAKER_00: Right?
+
+[00:02:24.538 – 00:02:39.931] SPEAKER_01: That is your willful choice that you were willing to make, but based off the calls that we received stating that people down in TSA could smell. What smelled like alcohol, if you don't mind, we're just going to head up to the patrol car so that way we don't have to do it all in front of the public eye.

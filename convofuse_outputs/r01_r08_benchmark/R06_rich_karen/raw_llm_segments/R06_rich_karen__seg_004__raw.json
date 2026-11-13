@@ -1,0 +1,24 @@
+{
+  "segment_id": "R06_rich_karen__seg_004",
+  "recording_id": "R06_rich_karen",
+  "prompt": "<|turn>user\n<speaker:2> statement. <speaker:1> okay sounds good all right so what's going to happen is we're going to get you out of this car we're going to get you in that car you'll be going to the waukesha county jail tonight okay you're under arrest for felony fleeing and eluding state disorderly conduct and you're getting a traffic citation for your unregistered vehicle, okay? that's fine that's that's well within yours <speaker:2> come <speaker:1> on step out for me please those <speaker:2> are brand new plates i contacted an attorney that's fine that's fine come <speaker:1> on you <speaker:2> guys don't have felony charges okay <speaker:1> sounds good that's your opinion <speaker:2> the plates never expired <speaker:1> okay <speaker:2> oh you better contact what kind of walk <speaker:1> i'm not i don't have to contact anyone katherine go ahead you can take a seat in the squad car for me please <speaker:2> look at the plates they're brand new 2020 take <speaker:1> a seat in the squad car please <speaker:2> How disgusting do you guys can even go home to your wives? Disgusting job that you just had. Disgusting. Those were all placed in 2023 on them. They're new places. Did you look at the registration? Did you look at the vehicle number on the registration? <speaker:4> Catherine is no stranger to being non-compliant with police, as she once spit at an officer after being banned from a fitness building. For the incident in the body cam footage, she was charged with resisting or failing to stop and resisting obstructing. According to court records, the suspect actually did not get a high-powered attorney to take her case, and instead, just started skipping court appearances. Court records indicate the case has been going on for more than two and a half years, and the bail has since been forfeited. As her case is still ongoing, she is presumed --> <turn|>\n<|turn>model\n",
+  "completion_data": {
+    "raw_completion": "<speaker:2> statement. <speaker:1> okay sounds good all right so what's going to happen is we're going to get you out of this car we're going to get you in that car you'll be going to the waukesha county jail tonight okay you're under arrest for felony fleeing and eluding state disorderly conduct and you're getting a traffic citation for your unregistered vehicle, okay? that's fine that's that's well within yours come on step out for me please <speaker:2> those are brand new plates i contacted an attorney <speaker:1> that's fine that's fine come on <speaker:2> you guys don't have felony charges okay sounds good <speaker:1> that's your opinion <speaker:2> the plates never expired <speaker:1> okay oh you better contact <speaker:2> what kind of walk <speaker:1> i'm not i don't have to contact anyone katherine go ahead you can take a seat in the squad car for me please <speaker:2> look at the plates they're brand new 2020 <speaker:1> take a seat in the squad car please <speaker:2> How disgusting do you guys can even go home to your wives? Disgusting job that you just had. Disgusting. Those were all placed in 2023 on them. They're new places. Did you look at the registration? Did you look at the vehicle number on the registration? <speaker:4> Catherine is no stranger to being non-compliant with police, as she once spit at an officer after being banned from a fitness building. For the incident in the body cam footage, she was charged with resisting or failing to stop and resisting obstructing. According to court records, the suspect actually did not get a high-powered attorney to take her case, and instead, just started skipping court appearances. Court records indicate the case has been going on for more than two and a half years, and the bail has since been forfeited. As her case is still ongoing, she is presumed ",
+    "done": true,
+    "done_reason": "stop",
+    "prompt_tokens": 481,
+    "completion_tokens": 450,
+    "runtime_sec": 3.6748,
+    "ollama_total_duration_ns": 3670706160,
+    "prompt_configuration": {
+      "temperature": 0.0,
+      "top_k": 1,
+      "seed": 42,
+      "num_predict": 2048,
+      "stop": [
+        "<turn|>",
+        "[eod]"
+      ]
+    }
+  }
+}

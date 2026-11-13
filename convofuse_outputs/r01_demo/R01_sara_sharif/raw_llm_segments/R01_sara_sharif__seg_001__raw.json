@@ -1,0 +1,22 @@
+{
+  "segment_id": "R01_sara_sharif__seg_001",
+  "recording_id": "R01_sara_sharif",
+  "prompt": "<|turn>user\n<speaker:1> August, 2023, on 6 Hammond Road in Horsall. On the injuries sustained by her and the investigation conducted, you are suspected of her murder. You are therefore arrested for murder of Sarah Sharif. You do not have to say anything when it may harm your defence. You do not mention when questioned, something which you later rely on in court, and anything you do say may be given in evidence. <speaker:2> You are therefore arrested for the murder of Cheryl Shree. You didn't have to say anything, but it may have been on your offence if you didn't mention one question, something which you later rely on in court. Any of you do say maybe they've never seen someone like me. --> <turn|>\n<|turn>model\n",
+  "completion_data": {
+    "raw_completion": "<speaker:1> August, 2023, on 6 Hammond Road in Horsall. On the injuries sustained by her and the investigation conducted, you are suspected of her murder. You are therefore arrested for murder of Sarah Sharif. You do not have to say anything when it may harm your defence. You do not mention when questioned, something which you later rely on in court, and anything you do say may be given in evidence. <speaker:2> You are therefore arrested for the murder of Cheryl Shree. You didn't have to say anything, but it may have been on your offence if you didn't mention one question, something which you later rely on in court. Any of you do say maybe they've never seen someone like me. ",
+    "done": true,
+    "done_reason": "stop",
+    "prompt_tokens": 182,
+    "completion_tokens": 161,
+    "runtime_sec": 1.7457,
+    "ollama_total_duration_ns": 1743096128,
+    "prompt_configuration": {
+      "temperature": 0.0,
+      "num_predict": 1024,
+      "stop": [
+        "<turn|>",
+        "[eod]"
+      ]
+    }
+  }
+}

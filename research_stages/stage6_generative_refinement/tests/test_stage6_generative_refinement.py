@@ -609,6 +609,59 @@ class TestStage6GenerativeRefinement(unittest.TestCase):
         }
         self.assertEqual(before_hashes, after_hashes)
 
+    def test_14_relative_and_external_output_dir_normalization(self) -> None:
+        """
+        Regression test verifying that:
+        1. Passing a relative --output-dir CLI argument resolves relative to REPO_ROOT,
+           writes all artifacts there, and logs repository-relative output_artifact paths
+           without raising ValueError.
+        2. Passing an external absolute --output-dir outside REPO_ROOT falls back to
+           logging resolved absolute output_artifact paths without raising ValueError.
+        """
+        from pathlib import Path
+        import shutil
+        import tempfile
+        from research_stages.stage6_generative_refinement.run_stage6_r01_pilot import (
+            REPO_ROOT,
+            main as run_r01_main,
+        )
+
+        # Case 1: Relative --output-dir inside repository
+        rel_arg = "research_stages/stage6_generative_refinement/outputs/_tmp_rel_regression_test"
+        expected_abs_dir = (REPO_ROOT / rel_arg).resolve()
+        if expected_abs_dir.exists():
+            shutil.rmtree(expected_abs_dir)
+        try:
+            rc = run_r01_main(["--output-dir", rel_arg])
+            self.assertEqual(rc, 0)
+            summary_path = expected_abs_dir / "R01_STAGE6_EVALUATION_SUMMARY.json"
+            self.assertTrue(summary_path.is_file())
+            summary = json.loads(summary_path.read_text(encoding="utf-8"))
+            for run_entry in summary["runs"]:
+                artifact_rel = run_entry["output_artifact"]
+                self.assertTrue(
+                    artifact_rel.startswith(rel_arg + "/"),
+                    f"Expected repo-relative path starting with {rel_arg!r}, got {artifact_rel!r}",
+                )
+                self.assertTrue((REPO_ROOT / artifact_rel).is_file())
+        finally:
+            if expected_abs_dir.exists():
+                shutil.rmtree(expected_abs_dir)
+
+        # Case 2: External absolute --output-dir outside REPO_ROOT
+        with tempfile.TemporaryDirectory() as ext_tmp:
+            ext_abs = Path(ext_tmp).resolve()
+            rc_ext = run_r01_main(["--output-dir", str(ext_abs)])
+            self.assertEqual(rc_ext, 0)
+            ext_summary_path = ext_abs / "R01_STAGE6_EVALUATION_SUMMARY.json"
+            self.assertTrue(ext_summary_path.is_file())
+            ext_summary = json.loads(ext_summary_path.read_text(encoding="utf-8"))
+            for run_entry in ext_summary["runs"]:
+                artifact_abs = Path(run_entry["output_artifact"])
+                self.assertTrue(artifact_abs.is_absolute())
+                self.assertTrue(artifact_abs.is_file())
+                self.assertEqual(artifact_abs.parent, ext_abs)
+
 
 if __name__ == "__main__":
     unittest.main()

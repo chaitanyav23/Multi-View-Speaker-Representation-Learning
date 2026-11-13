@@ -1,0 +1,24 @@
+{
+  "segment_id": "R06_rich_karen__seg_003",
+  "recording_id": "R06_rich_karen",
+  "prompt": "<|turn>user\n<speaker:2> lawsuit. Okay. <speaker:6> Are you injured, ma'am? <speaker:2> Did you not learn your lesson from Sterling Brown? <speaker:6> I'm just asking if you need medical attention. Do you need medical attention? Excuse me. Okay. Well, if anything changes with that, just let me know. Excuse <speaker:2> me. I'm reporting to you guys for police brutality. The same way as Sterling Brown, but I am a white American woman. Bravo Company, USABCM. Paul Bifoni. My SWAT team is your AR-15s and M-16s. You guys cannot tell from behind and make false arrests. Police brutality is no different than Sterling Brown. Mark Thompson represented Sterling Brown. I'm going to have Mark Thompson represent you. You would think a black man would never police brutality after Sterling Brown. <speaker:1> Because she is awesome. <speaker:8> Okay. <speaker:1> Catherine, I'm an officer to pray at the City of Delafield Police Department. I was the one, I'm the one who... I <speaker:2> reported you guys. <speaker:1> You reported me? <speaker:2> Yes, I did. <speaker:1> Okay, that's fine. I'm here to... It's <speaker:2> only from 100 feet from 200 feet behind. <speaker:1> Okay, I had my red lights and siren on. Catherine, hold on. I will not pull <speaker:2> over until I'm in my safety van drive. <speaker:1> Okay, Catherine, but you still didn't even comply with that. I <speaker:2> did. <speaker:1> Okay, so here's the deal. The reason I stopped you, the reason why I attempted to stop you is that your plates are expired. They expired in March of 23. They expired in March of 23. So that is why I attempted to stop you. Do you want to make a voluntary statement of what happened tonight? I don't <speaker:2> want to. <speaker:1> You're open <speaker:2> right <speaker:1> now. I don't want to. <speaker:8> Those <speaker:1> plates have not expired. I'm asking you, do you wish to make a voluntary statement right now? I <speaker:2> just made my voluntary --> <turn|>\n<|turn>model\n",
+  "completion_data": {
+    "raw_completion": "<speaker:2> lawsuit. <speaker:1> Okay. <speaker:6> Are you injured, ma'am? <speaker:2> Did you not learn your lesson from Sterling Brown? <speaker:6> I'm just asking if you need medical attention. Do you need medical attention? Excuse me. Okay. Well, if anything changes with that, just let me know. Excuse <speaker:2> me. I'm reporting to you guys for police brutality. The same way as Sterling Brown, but I am a white American woman. Bravo Company, USABCM. Paul Bifoni. My SWAT team is your AR-15s and M-16s. You guys cannot tell from behind and make false arrests. Police brutality is no different than Sterling Brown. Mark Thompson represented Sterling Brown. I'm going to have Mark Thompson represent you. You would think a black man would never police brutality after Sterling Brown. <speaker:1> Because she is awesome. <speaker:2> Okay. <speaker:1> Catherine, I'm an officer to pray at the City of Delafield Police Department. I was the one, I'm the one who... I <speaker:2> reported you guys. <speaker:1> You reported me? <speaker:2> Yes, I did. <speaker:1> Okay, that's fine. I'm here to... It's <speaker:2> only from 100 feet from 200 feet behind. <speaker:1> Okay, I had my red lights and siren on. Catherine, hold on. I will not pull <speaker:2> over until I'm in my safety van drive. <speaker:1> Okay, Catherine, but you still didn't even comply with that. I <speaker:2> did. <speaker:1> Okay, so here's the deal. The reason I stopped you, the reason why I attempted to stop you is that your plates are expired. They expired in March of 23. They expired in March of 23. So that is why I attempted to stop you. Do you want to make a voluntary statement of what happened tonight? <speaker:2> I don't want to. <speaker:1> You're open right now. <speaker:2> I don't want to. <speaker:1> Those plates have not expired. I'm asking you, do you wish to make a voluntary statement right now? <speaker:2> I just made my voluntary ",
+    "done": true,
+    "done_reason": "stop",
+    "prompt_tokens": 567,
+    "completion_tokens": 541,
+    "runtime_sec": 4.2867,
+    "ollama_total_duration_ns": 4282606629,
+    "prompt_configuration": {
+      "temperature": 0.0,
+      "top_k": 1,
+      "seed": 42,
+      "num_predict": 2048,
+      "stop": [
+        "<turn|>",
+        "[eod]"
+      ]
+    }
+  }
+}

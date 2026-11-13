@@ -1,0 +1,334 @@
+{
+  "total_words": 641,
+  "baseline_turn_count": 59,
+  "refined_turn_count": 59,
+  "refinement_summary": {
+    "recording_id": "R03_disabled_parking",
+    "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+    "ollama_model_name": "diarizationlm-gemma",
+    "quantization": "Q4_K_M",
+    "provider_version": "ollama-0.32.6",
+    "total_runtime_sec": 9.6667,
+    "total_prompt_tokens": 1228,
+    "total_completion_tokens": 1160,
+    "segment_count": 3,
+    "summary_counts": {
+      "total_words": 641,
+      "accepted_corrections": 11,
+      "rejected_proposals": 6,
+      "abstained_words": 3,
+      "unchanged_words": 621,
+      "reasons_breakdown": {
+        "ABSTAINED_PRESERVE_UNK": 3,
+        "ACCEPTED_VALIDATED_TRANSFER": 11,
+        "REJECTED_UNKNOWN_SPEAKER_MAPPING": 1,
+        "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION": 5,
+        "UNCHANGED_BASELINE_CONFIRMED": 621
+      }
+    },
+    "segment_telemetries": [
+      {
+        "segment_id": "R03_disabled_parking__seg_000",
+        "recording_id": "R03_disabled_parking",
+        "start_word_index": 0,
+        "end_word_index": 299,
+        "word_count": 300,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 582,
+        "completion_tokens": 571,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 4.4732,
+        "prompt_text": "<|turn>user\n<speaker:1> I'll see you over there filming me forward, okay? You're right, little. <speaker:2> Well, I'm not alright. Can you not see that this space is for disabled badge holders? <speaker:1> Okay, can you not see my badge? <speaker:2> How do I know that that is your badge? <speaker:1> Well, it's on my car. <speaker:2> That badge does not look authentic. <speaker:1> What do you mean that doesn't look authentic? <speaker:2> That badge looks fake. <speaker:1> Okay, well, it's real. <speaker:2> I've only got your word for it. <speaker:1> Okay, well, are you a parking officer? <speaker:2> I'm not a parking officer, but I work in this building and I'm quite happy to call a parking officer. Call them then. Well, no, no, why don't you come out and show me your disability? <speaker:1> Sorry? <speaker:2> What? You don't look disabled. <speaker:1> OK, well, OK, well, hold on a minute, yeah. Not all... Start as yeah, love. Not all disabilities are visible. <speaker:2> Well, what is your disability <speaker:1> then? Well, it's none of your business what my disability is, love. Well, <speaker:2> I think it is my business. <speaker:1> How is it your business? <speaker:2> Because I work in this building. <speaker:1> Congratulations, love. What do you want? Do you want a medal? <speaker:2> No, I'm doing my right as a citizen to tell you you should not be parking here if you don't have... <speaker:1> Okay, and I'm showing you my right as a disabled person that I have a badge. <speaker:2> Well, tell me what your disability is then. <speaker:1> Well, it's mind your business. <speaker:2> Oh, it doesn't sound like you actually are disabled. I think you're taking the mickey. Well, <speaker:1> I'm not taking the mickey. It's just a bit irrelevant for me to tell you what my disability is because it's none of your business. <speaker:2> First of all, your badge does not look real. Now you're telling me you aren't gonna --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:1> I'll see you over there filming me forward, okay? You're right, little. <speaker:2> Well, I'm not alright. Can you not see that this space is for disabled badge holders? <speaker:1> Okay, can you not see my badge? <speaker:2> How do I know that that is your badge? <speaker:1> Well, it's on my car. <speaker:2> That badge does not look authentic. <speaker:1> What do you mean that doesn't look authentic? <speaker:2> That badge looks fake. <speaker:1> Okay, well, it's real. <speaker:2> I've only got your word for it. <speaker:1> Okay, well, are you a parking officer? <speaker:2> I'm not a parking officer, but I work in this building and I'm quite happy to call a parking officer. Call them then. Well, no, no, why don't you come out and show me your disability? <speaker:1> Sorry? What? <speaker:2> You don't look disabled. <speaker:1> OK, well, OK, well, hold on a minute, yeah. Not all... <speaker:2> Start as yeah, love. <speaker:1> Not all disabilities are visible. <speaker:2> Well, what is your disability then? <speaker:1> Well, it's none of your business what my disability is, love. <speaker:2> Well, I think it is my business. <speaker:1> How is it your business? <speaker:2> Because I work in this building. <speaker:1> Congratulations, love. What do you want? Do you want a medal? <speaker:2> No, I'm doing my right as a citizen to tell you you should not be parking here if you don't have... <speaker:1> Okay, and I'm showing you my right as a disabled person that I have a badge. <speaker:2> Well, tell me what your disability is then. <speaker:1> Well, it's mind your business. <speaker:2> Oh, it doesn't sound like you actually are disabled. I think you're taking the mickey. <speaker:1> Well, I'm not taking the mickey. It's just a bit irrelevant for me to tell you what my disability is because it's none of your business. <speaker:2> First of all, your badge does not look real. Now you're telling me you aren't gonna ",
+        "cleaned_completion": "<speaker:1> I'll see you over there filming me forward, okay? You're right, little. <speaker:2> Well, I'm not alright. Can you not see that this space is for disabled badge holders? <speaker:1> Okay, can you not see my badge? <speaker:2> How do I know that that is your badge? <speaker:1> Well, it's on my car. <speaker:2> That badge does not look authentic. <speaker:1> What do you mean that doesn't look authentic? <speaker:2> That badge looks fake. <speaker:1> Okay, well, it's real. <speaker:2> I've only got your word for it. <speaker:1> Okay, well, are you a parking officer? <speaker:2> I'm not a parking officer, but I work in this building and I'm quite happy to call a parking officer. Call them then. Well, no, no, why don't you come out and show me your disability? <speaker:1> Sorry? What? <speaker:2> You don't look disabled. <speaker:1> OK, well, OK, well, hold on a minute, yeah. Not all... <speaker:2> Start as yeah, love. <speaker:1> Not all disabilities are visible. <speaker:2> Well, what is your disability then? <speaker:1> Well, it's none of your business what my disability is, love. <speaker:2> Well, I think it is my business. <speaker:1> How is it your business? <speaker:2> Because I work in this building. <speaker:1> Congratulations, love. What do you want? Do you want a medal? <speaker:2> No, I'm doing my right as a citizen to tell you you should not be parking here if you don't have... <speaker:1> Okay, and I'm showing you my right as a disabled person that I have a badge. <speaker:2> Well, tell me what your disability is then. <speaker:1> Well, it's mind your business. <speaker:2> Oh, it doesn't sound like you actually are disabled. I think you're taking the mickey. <speaker:1> Well, I'm not taking the mickey. It's just a bit irrelevant for me to tell you what my disability is because it's none of your business. <speaker:2> First of all, your badge does not look real. Now you're telling me you aren't gonna",
+        "accepted_count": 5,
+        "rejected_count": 3,
+        "abstained_count": 0,
+        "unchanged_count": 292,
+        "rejection_reasons_breakdown": {
+          "UNCHANGED_BASELINE_CONFIRMED": 292,
+          "ACCEPTED_VALIDATED_TRANSFER": 5,
+          "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION": 3
+        }
+      },
+      {
+        "segment_id": "R03_disabled_parking__seg_001",
+        "recording_id": "R03_disabled_parking",
+        "start_word_index": 300,
+        "end_word_index": 599,
+        "word_count": 300,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 536,
+        "completion_tokens": 510,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 4.0601,
+        "prompt_text": "<|turn>user\n<speaker:2> say what your disability is. <speaker:1> Although, no more. <speaker:0> Well, <speaker:2> do you know how that comes across? Do you know how that looks? Well, <speaker:1> do you know how that looks from your point of view? I mean, from my point of view, with you accusing me of not being disabled. <speaker:2> You're not even telling me what... <speaker:1> Because I don't need to tell you. <speaker:2> Wouldn't it be easier if you tell me what your disability is and show me your badge? Come out the car, show me your disability. No, I can stay here. Show me your badge. <speaker:1> I can stay here. <speaker:2> I am going to call that parking officer. Call the <speaker:1> parking officer. Call the police if you want to. <speaker:2> Right. Okay, that is what I'm going to do. What? I'm going to call the police. Four. Because you are parked in a spot where you shouldn't be parking, you might be fraudulently using a disabled parking badge. pretending to be disabled. <speaker:1> Okay, so now I'm committing a criminal offence here now. <speaker:2> That's right. Maybe you can tell the police about that. <speaker:1> But I don't need to tell the police about that. <speaker:2> Well, I think you do. <speaker:1> For what? <speaker:2> You are not telling me what your disability is. <speaker:1> But I don't need to tell you that. Who are you? Who are you? <speaker:2> I told you, I work in an office in this building. <speaker:1> Okay, so what has that got to do with me? <speaker:2> Because people need to use the space who are disabled. Do <speaker:1> you need to park here? <speaker:2> I don't need to park here because... So <speaker:1> why are you here? So why are you here? <speaker:2> I'm here as a concerned citizen that you are breaking a regulation. You're parking in a space for disabled people. Come and show me what --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:2> say what your disability is. <speaker:1> Although, no more. <speaker:2> Well, do you know how that comes across? Do you know how that looks? <speaker:1> Well, do you know how that looks from your point of view? I mean, from my point of view, with you accusing me of not being disabled. <speaker:2> You're not even telling me what... <speaker:1> Because I don't need to tell you. <speaker:2> Wouldn't it be easier if you tell me what your disability is and show me your badge? Come out the car, show me your disability. No, I can stay here. Show me your badge. <speaker:1> I can stay here. <speaker:2> I am going to call that parking officer. <speaker:1> Call the parking officer. Call the police if you want to. <speaker:2> Right. Okay, that is what I'm going to do. What? I'm going to call the police. Four. Because you are parked in a spot where you shouldn't be parking, you might be fraudulently using a disabled parking badge. pretending to be disabled. <speaker:1> Okay, so now I'm committing a criminal offence here now. <speaker:2> That's right. Maybe you can tell the police about that. <speaker:1> But I don't need to tell the police about that. <speaker:2> Well, I think you do. <speaker:1> For what? <speaker:2> You are not telling me what your disability is. <speaker:1> But I don't need to tell you that. Who are you? Who are you? <speaker:2> I told you, I work in an office in this building. <speaker:1> Okay, so what has that got to do with me? <speaker:2> Because people need to use the space who are disabled. <speaker:1> Do you need to park here? <speaker:2> I don't need to park here because... <speaker:1> So why are you here? So why are you here? <speaker:2> I'm here as a concerned citizen that you are breaking a regulation. You're parking in a space for disabled people. Come and show me what ",
+        "cleaned_completion": "<speaker:2> say what your disability is. <speaker:1> Although, no more. <speaker:2> Well, do you know how that comes across? Do you know how that looks? <speaker:1> Well, do you know how that looks from your point of view? I mean, from my point of view, with you accusing me of not being disabled. <speaker:2> You're not even telling me what... <speaker:1> Because I don't need to tell you. <speaker:2> Wouldn't it be easier if you tell me what your disability is and show me your badge? Come out the car, show me your disability. No, I can stay here. Show me your badge. <speaker:1> I can stay here. <speaker:2> I am going to call that parking officer. <speaker:1> Call the parking officer. Call the police if you want to. <speaker:2> Right. Okay, that is what I'm going to do. What? I'm going to call the police. Four. Because you are parked in a spot where you shouldn't be parking, you might be fraudulently using a disabled parking badge. pretending to be disabled. <speaker:1> Okay, so now I'm committing a criminal offence here now. <speaker:2> That's right. Maybe you can tell the police about that. <speaker:1> But I don't need to tell the police about that. <speaker:2> Well, I think you do. <speaker:1> For what? <speaker:2> You are not telling me what your disability is. <speaker:1> But I don't need to tell you that. Who are you? Who are you? <speaker:2> I told you, I work in an office in this building. <speaker:1> Okay, so what has that got to do with me? <speaker:2> Because people need to use the space who are disabled. <speaker:1> Do you need to park here? <speaker:2> I don't need to park here because... <speaker:1> So why are you here? So why are you here? <speaker:2> I'm here as a concerned citizen that you are breaking a regulation. You're parking in a space for disabled people. Come and show me what",
+        "accepted_count": 3,
+        "rejected_count": 3,
+        "abstained_count": 0,
+        "unchanged_count": 294,
+        "rejection_reasons_breakdown": {
+          "UNCHANGED_BASELINE_CONFIRMED": 294,
+          "REJECTED_UNKNOWN_SPEAKER_MAPPING": 1,
+          "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION": 2,
+          "ACCEPTED_VALIDATED_TRANSFER": 3
+        }
+      },
+      {
+        "segment_id": "R03_disabled_parking__seg_002",
+        "recording_id": "R03_disabled_parking",
+        "start_word_index": 600,
+        "end_word_index": 640,
+        "word_count": 41,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 110,
+        "completion_tokens": 79,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 1.0164,
+        "prompt_text": "<|turn>user\n<speaker:2> your disability, come on. <speaker:3> Thank you so much for watching. The characters in this video are actors and are not based on real people. We hope you enjoyed. Thanks for watching Storytender. <speaker:2> Don't <speaker:3> forget to like. <speaker:2> and follow. <speaker:0> I'm gonna cry. --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:2> your disability, come on. <speaker:3> Thank you so much for watching. The characters in this video are actors and are not based on real people. We hope you enjoyed. Thanks for watching Storytender. <speaker:2> Don't forget to like. and follow. <speaker:0> I'm gonna cry. ",
+        "cleaned_completion": "<speaker:2> your disability, come on. <speaker:3> Thank you so much for watching. The characters in this video are actors and are not based on real people. We hope you enjoyed. Thanks for watching Storytender. <speaker:2> Don't forget to like. and follow. <speaker:0> I'm gonna cry.",
+        "accepted_count": 3,
+        "rejected_count": 0,
+        "abstained_count": 3,
+        "unchanged_count": 35,
+        "rejection_reasons_breakdown": {
+          "UNCHANGED_BASELINE_CONFIRMED": 35,
+          "ACCEPTED_VALIDATED_TRANSFER": 3,
+          "ABSTAINED_PRESERVE_UNK": 3
+        }
+      }
+    ]
+  },
+  "changed_words_count": 11,
+  "changed_words": [
+    {
+      "word_index": 122,
+      "word": "What?",
+      "start": 48.225,
+      "end": 48.426,
+      "baseline_speaker_id": "SPEAKER_01",
+      "refined_speaker_id": "SPEAKER_00",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_01 to SPEAKER_00."
+    },
+    {
+      "word_index": 138,
+      "word": "Start",
+      "start": 53.471,
+      "end": 53.631,
+      "baseline_speaker_id": "SPEAKER_00",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_00 to SPEAKER_01."
+    },
+    {
+      "word_index": 139,
+      "word": "as",
+      "start": 53.671,
+      "end": 53.751,
+      "baseline_speaker_id": "SPEAKER_00",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_00 to SPEAKER_01."
+    },
+    {
+      "word_index": 140,
+      "word": "yeah,",
+      "start": 53.771,
+      "end": 53.892,
+      "baseline_speaker_id": "SPEAKER_00",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_00 to SPEAKER_01."
+    },
+    {
+      "word_index": 141,
+      "word": "love.",
+      "start": 53.912,
+      "end": 54.092,
+      "baseline_speaker_id": "SPEAKER_00",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_00 to SPEAKER_01."
+    },
+    {
+      "word_index": 408,
+      "word": "Call",
+      "start": 127.804,
+      "end": 128.044,
+      "baseline_speaker_id": "SPEAKER_01",
+      "refined_speaker_id": "SPEAKER_00",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_01 to SPEAKER_00."
+    },
+    {
+      "word_index": 409,
+      "word": "the",
+      "start": 128.064,
+      "end": 128.144,
+      "baseline_speaker_id": "SPEAKER_01",
+      "refined_speaker_id": "SPEAKER_00",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_01 to SPEAKER_00."
+    },
+    {
+      "word_index": 565,
+      "word": "So",
+      "start": 174.641,
+      "end": 174.702,
+      "baseline_speaker_id": "SPEAKER_01",
+      "refined_speaker_id": "SPEAKER_00",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_01 to SPEAKER_00."
+    },
+    {
+      "word_index": 633,
+      "word": "forget",
+      "start": 197.478,
+      "end": 197.723,
+      "baseline_speaker_id": "SPEAKER_02",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_02 to SPEAKER_01."
+    },
+    {
+      "word_index": 634,
+      "word": "to",
+      "start": 197.764,
+      "end": 197.867,
+      "baseline_speaker_id": "SPEAKER_02",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_02 to SPEAKER_01."
+    },
+    {
+      "word_index": 635,
+      "word": "like.",
+      "start": 197.907,
+      "end": 198.112,
+      "baseline_speaker_id": "SPEAKER_02",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_02 to SPEAKER_01."
+    }
+  ],
+  "rejected_proposals_count": 6,
+  "rejected_proposals": [
+    {
+      "word_index": 152,
+      "word": "then?",
+      "start": 58.147,
+      "end": 58.267,
+      "baseline_speaker_id": "SPEAKER_00",
+      "proposed_speaker_id": "SPEAKER_01",
+      "reconciliation_reason": "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION",
+      "reasoning_note": "Word lies in a simultaneous multi-speaker overlap interval; lexical LLM reassignment rejected to avoid unsupported simultaneous-overlap claim."
+    },
+    {
+      "word_index": 164,
+      "word": "Well,",
+      "start": 60.052,
+      "end": 60.212,
+      "baseline_speaker_id": "SPEAKER_00",
+      "proposed_speaker_id": "SPEAKER_01",
+      "reconciliation_reason": "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION",
+      "reasoning_note": "Word lies in a simultaneous multi-speaker overlap interval; lexical LLM reassignment rejected to avoid unsupported simultaneous-overlap claim."
+    },
+    {
+      "word_index": 258,
+      "word": "Well,",
+      "start": 88.099,
+      "end": 88.279,
+      "baseline_speaker_id": "SPEAKER_01",
+      "proposed_speaker_id": "SPEAKER_00",
+      "reconciliation_reason": "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION",
+      "reasoning_note": "Word lies in a simultaneous multi-speaker overlap interval; lexical LLM reassignment rejected to avoid unsupported simultaneous-overlap claim."
+    },
+    {
+      "word_index": 308,
+      "word": "Well,",
+      "start": 103.565,
+      "end": 103.826,
+      "baseline_speaker_id": "UNK",
+      "proposed_speaker_id": "2",
+      "reconciliation_reason": "REJECTED_UNKNOWN_SPEAKER_MAPPING",
+      "reasoning_note": "Rejected LLM proposal (REJECTED_UNKNOWN_SPEAKER_MAPPING); baseline speaker UNK preserved."
+    },
+    {
+      "word_index": 322,
+      "word": "Well,",
+      "start": 106.831,
+      "end": 106.991,
+      "baseline_speaker_id": "SPEAKER_01",
+      "proposed_speaker_id": "SPEAKER_00",
+      "reconciliation_reason": "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION",
+      "reasoning_note": "Word lies in a simultaneous multi-speaker overlap interval; lexical LLM reassignment rejected to avoid unsupported simultaneous-overlap claim."
+    },
+    {
+      "word_index": 552,
+      "word": "Do",
+      "start": 170.953,
+      "end": 171.153,
+      "baseline_speaker_id": "SPEAKER_01",
+      "proposed_speaker_id": "SPEAKER_00",
+      "reconciliation_reason": "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION",
+      "reasoning_note": "Word lies in a simultaneous multi-speaker overlap interval; lexical LLM reassignment rejected to avoid unsupported simultaneous-overlap claim."
+    }
+  ]
+}

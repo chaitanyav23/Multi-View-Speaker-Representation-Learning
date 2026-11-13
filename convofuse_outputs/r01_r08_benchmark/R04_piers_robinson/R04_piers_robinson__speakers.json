@@ -1,0 +1,51 @@
+{
+  "recording_id": "R04_piers_robinson",
+  "speaker_inventory": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02"
+  ],
+  "rttm_to_canonical_speaker_map": {
+    "speaker_0": "SPEAKER_00",
+    "SPEAKER_00": "SPEAKER_00",
+    "speaker_1": "SPEAKER_01",
+    "SPEAKER_01": "SPEAKER_01",
+    "speaker_2": "SPEAKER_02",
+    "SPEAKER_02": "SPEAKER_02"
+  },
+  "speaker_summaries": [
+    {
+      "speaker_id": "SPEAKER_00",
+      "total_speaking_duration_sec": 94.662,
+      "turn_count": 30,
+      "word_count": 402,
+      "first_appearance_sec": 11.707,
+      "last_appearance_sec": 194.466,
+      "mean_word_confidence": 0.6101,
+      "accepted_corrections_into_speaker": 8,
+      "accepted_corrections_out_of_speaker": 10
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "total_speaking_duration_sec": 76.596,
+      "turn_count": 26,
+      "word_count": 260,
+      "first_appearance_sec": 3.084,
+      "last_appearance_sec": 183.252,
+      "mean_word_confidence": 0.6589,
+      "accepted_corrections_into_speaker": 14,
+      "accepted_corrections_out_of_speaker": 4
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "total_speaking_duration_sec": 8.671,
+      "turn_count": 5,
+      "word_count": 27,
+      "first_appearance_sec": 16.629,
+      "last_appearance_sec": 193.925,
+      "mean_word_confidence": 0.7209,
+      "accepted_corrections_into_speaker": 0,
+      "accepted_corrections_out_of_speaker": 8
+    }
+  ]
+}

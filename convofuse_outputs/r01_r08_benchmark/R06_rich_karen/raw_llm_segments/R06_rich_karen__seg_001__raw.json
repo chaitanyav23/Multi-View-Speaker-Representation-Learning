@@ -1,0 +1,24 @@
+{
+  "segment_id": "R06_rich_karen__seg_001",
+  "recording_id": "R06_rich_karen",
+  "prompt": "<|turn>user\n<speaker:0> dog. Ha! Ha! Get up! Get <speaker:8> up! Get up! Can you hear me? <speaker:5> Do you want another cheddar ball? I do. You want me to get the... <speaker:1> We got pepper ball. I like pepper <speaker:8> ball. <speaker:1> You got it, Joe? Yep. <speaker:0> Thank <speaker:8> you. <speaker:5> Getting a pepper ball? Yeah, Joe's getting a pepper <speaker:8> ball. <speaker:1> Joe, this side, pepper ball through the back shattered window. <speaker:5> Let's give her a chance here. <speaker:7> Hey, Catherine! come out of the car now we're going to send in some <speaker:8> peppercorns <speaker:7> it's going to be hard for you to breathe Come on out now. <speaker:5> Thank you. All right. <speaker:7> Come <speaker:5> this way. We'll <speaker:8> figure <speaker:7> that out in a <speaker:5> second, okay? Just put your hands behind your back, okay? Put your hands behind your <speaker:8> back. Put your <speaker:5> hands behind your back or you're going to get tasered. <speaker:8> I'm going to have you guys go. You <speaker:2> will not indict <speaker:8> me. <speaker:5> Hands behind your back. Put your hands behind your back. <speaker:8> I got it. <speaker:1> David, 211, we're 1080. <speaker:5> Got anything on you? <speaker:8> I just want to say thank you. Here, <speaker:5> roll this way. Put your, tuck your feet in. You <speaker:8> cannot assault me as a woman. What are you doing? <speaker:5> Ready? We're going to help you out. I just got <speaker:8> e-wiped, yeah. I just got e-wiped. I just got e-wiped for one reason. We've been <speaker:2> trying <speaker:8> to stop you <speaker:5> for about 15 miles. <speaker:8> For one <speaker:2> reason. What, for what reason, you cannot, you <speaker:8> cannot? Is <speaker:6> the vehicle <speaker:8> cleared? <speaker:1> Yes, the vehicle is cleared. <speaker:2> Excuse me, you don't know that I'm Katie. <speaker:5> I don't know that. But do you live here <speaker:2> alone? Daniel Thomas doesn't know that. <speaker:5> I don't know who Daniel Thomas <speaker:2> is. Holy cow, guys. Do you live here alone? Yes, I do. This is my residence since 2011. Do you --> <turn|>\n<|turn>model\n",
+  "completion_data": {
+    "raw_completion": "<speaker:0> dog. Ha! Ha! Get up! Get <speaker:8> up! Get up! Can you hear me? <speaker:5> Do you want another cheddar ball? I do. You want me to get the... <speaker:1> We got pepper ball. I like pepper <speaker:8> ball. <speaker:1> You got it, Joe? Yep. <speaker:0> Thank <speaker:8> you. <speaker:5> Getting a pepper ball? Yeah, Joe's getting a pepper <speaker:8> ball. <speaker:1> Joe, this side, pepper ball through the back shattered window. <speaker:5> Let's give her a chance here. <speaker:7> Hey, Catherine! come out of the car now we're going to send in some <speaker:8> peppercorns <speaker:7> it's going to be hard for you to breathe Come on out now. <speaker:5> Thank you. All right. <speaker:7> Come this way. We'll <speaker:8> figure <speaker:7> that out in a <speaker:5> second, okay? Just put your hands behind your back, okay? Put your hands behind your <speaker:8> back. Put your <speaker:5> hands behind your back or you're going to get tasered. <speaker:8> I'm going to have you guys go. You <speaker:2> will not indict <speaker:8> me. <speaker:5> Hands behind your back. Put your hands behind your back. <speaker:8> I got it. <speaker:1> David, 211, we're 1080. <speaker:5> Got anything on you? <speaker:8> I just want to say thank you. Here, <speaker:5> roll this way. Put your, tuck your feet in. You <speaker:8> cannot assault me as a woman. What are you doing? <speaker:5> Ready? We're going to help you out. I just got <speaker:8> e-wiped, yeah. I just got e-wiped. I just got e-wiped for one reason. We've been <speaker:2> trying <speaker:8> to stop you <speaker:5> for about 15 miles. <speaker:8> For one <speaker:2> reason. What, for what reason, you cannot, you <speaker:8> cannot? Is <speaker:6> the vehicle <speaker:8> cleared? <speaker:1> Yes, the vehicle is cleared. <speaker:2> Excuse me, you don't know that I'm Katie. <speaker:5> I don't know that. <speaker:2> But do you live here alone? Daniel Thomas doesn't know that. <speaker:5> I don't know who Daniel Thomas is. <speaker:2> Holy cow, guys. Do you live here alone? Yes, I do. This is my residence since 2011. Do you ",
+    "done": true,
+    "done_reason": "stop",
+    "prompt_tokens": 703,
+    "completion_tokens": 677,
+    "runtime_sec": 5.2238,
+    "ollama_total_duration_ns": 5219571311,
+    "prompt_configuration": {
+      "temperature": 0.0,
+      "top_k": 1,
+      "seed": 42,
+      "num_predict": 2048,
+      "stop": [
+        "<turn|>",
+        "[eod]"
+      ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "segment_id": "R05_southwest_pilot__seg_000",
+  "recording_id": "R05_southwest_pilot",
+  "prompt": "<|turn>user\n<speaker:2> Good morning. <speaker:3> Say it again? <speaker:2> Good morning, sir. <speaker:1> Good morning. How are <speaker:2> you? You good out there? <speaker:1> Yeah. Fine. <speaker:2> When was the last time you had a sip of a drink? <speaker:1> Last night? <speaker:2> How many hours ago? <speaker:1> Uh, like 10 hours ago, at least. <speaker:2> How many drinks did you have? <speaker:1> a few beers. Sir? <speaker:2> to find a few beers. <speaker:1> few years. <speaker:2> Define a few beers. <speaker:1> Three. <speaker:2> Okay. Yeah. We'll just drink. <speaker:1> Like beer, no lie. No lie? <speaker:2> Yeah. Anything <speaker:1> else? Nope. <speaker:3> What's up? <speaker:2> Who are you with? <speaker:1> May I follow? Uh huh. <speaker:2> Would you be willing to provide? Uh... Feel sobriety with me right now? <speaker:1> No. <speaker:2> Hold on. <speaker:1> There's no need? <speaker:2> Well, I can smell an odor consistent with an alcoholic beverage. <speaker:3> I can smell it, I can smell it. <speaker:2> It is a fully booked flight. <speaker:3> I have a smell of a adult beverage coming out of you. I don't know if it's coming out of your mouth or your skin. It's coming out of the pores, I get <speaker:1> it. Do I see it? <speaker:2> Would you do field sobriety? This would be a brand new uncharted territory. <speaker:1> Let's go. away from the passengers. One. to. greatness. <speaker:3> war. <speaker:1> I don't know. Sex. So Peace. No. <speaker:2> Did you turn around and go the other way? <speaker:0> One, two, three. Thank you. 6, 7, 8, 9, 10. <speaker:2> I'm trained in standardized field sobriety, and you've exhibited strong signs, and even after speaking with your first pilot, like... The issue is, would you agree to a blood draw to test your blood alcohol content? Okay, well, the issue is when you agreed to the field sobriety, you exhibited the symptoms, and if you're refusing to a blood draw, that's DUI less safe for the willful intention to operate a commercial aircraft. seriously yes sir <speaker:1> even --> <turn|>\n<|turn>model\n",
+  "completion_data": {
+    "raw_completion": "<speaker:2> Good morning. <speaker:3> Say it again? <speaker:2> Good morning, sir. <speaker:1> Good morning. How are you? <speaker:2> You good out there? <speaker:1> Yeah. Fine. <speaker:2> When was the last time you had a sip of a drink? <speaker:1> Last night? <speaker:2> How many hours ago? <speaker:1> Uh, like 10 hours ago, at least. <speaker:2> How many drinks did you have? <speaker:1> a few beers. Sir? <speaker:2> to find a few beers. <speaker:1> few years. <speaker:2> Define a few beers. <speaker:1> Three. <speaker:2> Okay. <speaker:1> Yeah. <speaker:2> We'll just drink. <speaker:1> Like beer, no lie. No lie? <speaker:2> Yeah. Anything else? <speaker:1> Nope. What's up? <speaker:2> Who are you with? <speaker:1> May I follow? <speaker:2> Uh huh. Would you be willing to provide? <speaker:1> Uh... <speaker:2> Feel sobriety with me right now? <speaker:1> No. <speaker:2> Hold on. <speaker:1> There's no need? <speaker:2> Well, I can smell an odor consistent with an alcoholic beverage. <speaker:3> I can smell it, I can smell it. <speaker:2> It is a fully booked flight. <speaker:3> I have a smell of a adult beverage coming out of you. I don't know if it's coming out of your mouth or your skin. It's coming out of the pores, I get <speaker:1> it. Do I see it? <speaker:2> Would you do field sobriety? This would be a brand new uncharted territory. <speaker:1> Let's go. away from the passengers. One. to. greatness. war. I don't know. Sex. So Peace. No. <speaker:2> Did you turn around and go the other way? <speaker:0> One, two, three. Thank you. 6, 7, 8, 9, 10. <speaker:2> I'm trained in standardized field sobriety, and you've exhibited strong signs, and even after speaking with your first pilot, like... The issue is, would you agree to a blood draw to test your blood alcohol content? Okay, well, the issue is when you agreed to the field sobriety, you exhibited the symptoms, and if you're refusing to a blood draw, that's DUI less safe for the willful intention to operate a commercial aircraft. seriously yes sir <speaker:1> even ",
+    "done": true,
+    "done_reason": "stop",
+    "prompt_tokens": 642,
+    "completion_tokens": 626,
+    "runtime_sec": 4.8634,
+    "ollama_total_duration_ns": 4859228903,
+    "prompt_configuration": {
+      "temperature": 0.0,
+      "top_k": 1,
+      "seed": 42,
+      "num_predict": 2048,
+      "stop": [
+        "<turn|>",
+        "[eod]"
+      ]
+    }
+  }
+}

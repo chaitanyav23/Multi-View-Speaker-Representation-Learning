@@ -1,0 +1,118 @@
+{
+  "total_words": 468,
+  "baseline_turn_count": 13,
+  "refined_turn_count": 14,
+  "refinement_summary": {
+    "recording_id": "R08_uk_parliament",
+    "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+    "ollama_model_name": "diarizationlm-gemma",
+    "quantization": "Q4_K_M",
+    "provider_version": "ollama-0.32.6",
+    "total_runtime_sec": 5.8495,
+    "total_prompt_tokens": 722,
+    "total_completion_tokens": 680,
+    "segment_count": 2,
+    "summary_counts": {
+      "total_words": 468,
+      "accepted_corrections": 1,
+      "rejected_proposals": 0,
+      "abstained_words": 0,
+      "unchanged_words": 467,
+      "reasons_breakdown": {
+        "ACCEPTED_VALIDATED_TRANSFER": 1,
+        "UNCHANGED_BASELINE_CONFIRMED": 467
+      }
+    },
+    "segment_telemetries": [
+      {
+        "segment_id": "R08_uk_parliament__seg_000",
+        "recording_id": "R08_uk_parliament",
+        "start_word_index": 0,
+        "end_word_index": 299,
+        "word_count": 300,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 456,
+        "completion_tokens": 435,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 3.5816,
+        "prompt_text": "<|turn>user\n<speaker:1> When he was leader of the opposition, the Prime Minister said, and I quote, I never turn on my staff. When they make mistakes, I carry the can. What changed? <speaker:2> Thank you, Prime Minister. Well, Mr Speaker, I've accepted responsibility and apologised for the mistakes that I made. But let me say this, Mr. Speaker. Let me say this, Mr. Speaker. Morgan McSweeney helped me change our party. and help me win a landslide election victory. which delivered for them the smallest Tory party in over 100 years. And what's her great achievement? to make it even smaller. Okay, we're not... <speaker:1> The Whips have done a great job today. This is like the 37th... Oh, you said, yeah, exactly. Done a great job today getting them cheering. We all know that they've been sick for the last week because let's remember, Mr Speaker, just last week, just last week, he told us that he had full confidence in his Chief of Staff, Morgan McSweeney. On Sunday, he sacked Morgan McSweeney. Last week. He resigned. Last week, Mr Speaker, he was defending the cabinet secretary, now he is sacking him. What changed? <speaker:2> Prime Minister. Mr Speaker, in January, she said she had full confidence... 100% confident, she said, there'd be no more defections from her party. 48 hours later, I can... the shadow Foreign Minister defected. Eight days after that, the former Home Secretary defected. The only question now is... Who's next? She needs to wake up. Her party is dying. Mr Speaker, Matthew Doyle did not give a full account of his actions. And on Monday, I promised my party and my country there will be change. And yesterday, I removed the wick from Matthew Doyle. I'll tell you what other action we've taken, Mr Speaker. Along with the safeguarding --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:1> When he was leader of the opposition, the Prime Minister said, and I quote, I never turn on my staff. When they make mistakes, I carry the can. What changed? <speaker:2> Thank you, Prime Minister. Well, Mr Speaker, I've accepted responsibility and apologised for the mistakes that I made. But let me say this, Mr. Speaker. Let me say this, Mr. Speaker. Morgan McSweeney helped me change our party. and help me win a landslide election victory. which delivered for them the smallest Tory party in over 100 years. And what's her great achievement? to make it even smaller. Okay, we're not... <speaker:1> The Whips have done a great job today. This is like the 37th... Oh, you said, yeah, exactly. Done a great job today getting them cheering. We all know that they've been sick for the last week because let's remember, Mr Speaker, just last week, just last week, he told us that he had full confidence in his Chief of Staff, Morgan McSweeney. On Sunday, he sacked Morgan McSweeney. Last week. He resigned. Last week, Mr Speaker, he was defending the cabinet secretary, now he is sacking him. What changed? <speaker:2> Prime Minister. Mr Speaker, in January, she said she had full confidence... 100% confident, she said, there'd be no more defections from her party. 48 hours later, I can... the shadow Foreign Minister defected. Eight days after that, the former Home Secretary defected. The only question now is... Who's next? She needs to wake up. Her party is dying. Mr Speaker, Matthew Doyle did not give a full account of his actions. And on Monday, I promised my party and my country there will be change. And yesterday, I removed the wick from Matthew Doyle. I'll tell you what other action we've taken, Mr Speaker. Along with the safeguarding ",
+        "cleaned_completion": "<speaker:1> When he was leader of the opposition, the Prime Minister said, and I quote, I never turn on my staff. When they make mistakes, I carry the can. What changed? <speaker:2> Thank you, Prime Minister. Well, Mr Speaker, I've accepted responsibility and apologised for the mistakes that I made. But let me say this, Mr. Speaker. Let me say this, Mr. Speaker. Morgan McSweeney helped me change our party. and help me win a landslide election victory. which delivered for them the smallest Tory party in over 100 years. And what's her great achievement? to make it even smaller. Okay, we're not... <speaker:1> The Whips have done a great job today. This is like the 37th... Oh, you said, yeah, exactly. Done a great job today getting them cheering. We all know that they've been sick for the last week because let's remember, Mr Speaker, just last week, just last week, he told us that he had full confidence in his Chief of Staff, Morgan McSweeney. On Sunday, he sacked Morgan McSweeney. Last week. He resigned. Last week, Mr Speaker, he was defending the cabinet secretary, now he is sacking him. What changed? <speaker:2> Prime Minister. Mr Speaker, in January, she said she had full confidence... 100% confident, she said, there'd be no more defections from her party. 48 hours later, I can... the shadow Foreign Minister defected. Eight days after that, the former Home Secretary defected. The only question now is... Who's next? She needs to wake up. Her party is dying. Mr Speaker, Matthew Doyle did not give a full account of his actions. And on Monday, I promised my party and my country there will be change. And yesterday, I removed the wick from Matthew Doyle. I'll tell you what other action we've taken, Mr Speaker. Along with the safeguarding",
+        "accepted_count": 0,
+        "rejected_count": 0,
+        "abstained_count": 0,
+        "unchanged_count": 300,
+        "rejection_reasons_breakdown": {
+          "UNCHANGED_BASELINE_CONFIRMED": 300
+        }
+      },
+      {
+        "segment_id": "R08_uk_parliament__seg_001",
+        "recording_id": "R08_uk_parliament",
+        "start_word_index": 300,
+        "end_word_index": 467,
+        "word_count": 168,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 266,
+        "completion_tokens": 245,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 2.1907,
+        "prompt_text": "<|turn>user\n<speaker:2> minister, I and this government have introduced the most far-reaching, vile against women and girls... <speaker:1> Mr Speaker, he hasn't apologised for appointing Matthew Doyle because he won't take responsibility. He never does, and they know it. The Prime Minister is now telling everyone that he's never lost a fight. It's because he won't step into the ring. He's never lost a fight. He's walked away from welfare reform. He won't stand up to the unions. He won't stand up to China. He can't even stand up to Mauritius. He's had, Mr. Speaker, he's had three cabinet secretaries, four chiefs of staff, five director of communications in just 18 months. And now he is mired in yet another scandal. Does he ever look in the mirror and ask himself, is the real problem staring him in the face? Yeah! <speaker:2> Mr. Speaker, I delivered a landslide victory for our government. Only four people have ever elected the Labour Party to victory in a general election. I am one of them. --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:2> minister, I and this government have introduced the most far-reaching, vile against women and girls... <speaker:1> Mr Speaker, he hasn't apologised for appointing Matthew Doyle because he won't take responsibility. He never does, and they know it. The Prime Minister is now telling everyone that he's never lost a fight. It's because he won't step into the ring. He's never lost a fight. He's walked away from welfare reform. He won't stand up to the unions. He won't stand up to China. He can't even stand up to Mauritius. He's had, Mr. Speaker, he's had three cabinet secretaries, four chiefs of staff, five director of communications in just 18 months. And now he is mired in yet another scandal. Does he ever look in the mirror and ask himself, is the real problem staring him in the face? <speaker:2> Yeah! Mr. Speaker, I delivered a landslide victory for our government. Only four people have ever elected the Labour Party to victory in a general election. I am one of them. ",
+        "cleaned_completion": "<speaker:2> minister, I and this government have introduced the most far-reaching, vile against women and girls... <speaker:1> Mr Speaker, he hasn't apologised for appointing Matthew Doyle because he won't take responsibility. He never does, and they know it. The Prime Minister is now telling everyone that he's never lost a fight. It's because he won't step into the ring. He's never lost a fight. He's walked away from welfare reform. He won't stand up to the unions. He won't stand up to China. He can't even stand up to Mauritius. He's had, Mr. Speaker, he's had three cabinet secretaries, four chiefs of staff, five director of communications in just 18 months. And now he is mired in yet another scandal. Does he ever look in the mirror and ask himself, is the real problem staring him in the face? <speaker:2> Yeah! Mr. Speaker, I delivered a landslide victory for our government. Only four people have ever elected the Labour Party to victory in a general election. I am one of them.",
+        "accepted_count": 1,
+        "rejected_count": 0,
+        "abstained_count": 0,
+        "unchanged_count": 167,
+        "rejection_reasons_breakdown": {
+          "UNCHANGED_BASELINE_CONFIRMED": 167,
+          "ACCEPTED_VALIDATED_TRANSFER": 1
+        }
+      }
+    ]
+  },
+  "changed_words_count": 1,
+  "changed_words": [
+    {
+      "word_index": 437,
+      "word": "Yeah!",
+      "start": 199.643,
+      "end": 199.763,
+      "baseline_speaker_id": "SPEAKER_00",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_00 to SPEAKER_01."
+    }
+  ],
+  "rejected_proposals_count": 0,
+  "rejected_proposals": []
+}

@@ -1,0 +1,24 @@
+{
+  "segment_id": "R03_disabled_parking__seg_002",
+  "recording_id": "R03_disabled_parking",
+  "prompt": "<|turn>user\n<speaker:2> your disability, come on. <speaker:3> Thank you so much for watching. The characters in this video are actors and are not based on real people. We hope you enjoyed. Thanks for watching Storytender. <speaker:2> Don't <speaker:3> forget to like. <speaker:2> and follow. <speaker:0> I'm gonna cry. --> <turn|>\n<|turn>model\n",
+  "completion_data": {
+    "raw_completion": "<speaker:2> your disability, come on. <speaker:3> Thank you so much for watching. The characters in this video are actors and are not based on real people. We hope you enjoyed. Thanks for watching Storytender. <speaker:2> Don't forget to like. and follow. <speaker:0> I'm gonna cry. ",
+    "done": true,
+    "done_reason": "stop",
+    "prompt_tokens": 110,
+    "completion_tokens": 79,
+    "runtime_sec": 1.0164,
+    "ollama_total_duration_ns": 1014663879,
+    "prompt_configuration": {
+      "temperature": 0.0,
+      "top_k": 1,
+      "seed": 42,
+      "num_predict": 2048,
+      "stop": [
+        "<turn|>",
+        "[eod]"
+      ]
+    }
+  }
+}

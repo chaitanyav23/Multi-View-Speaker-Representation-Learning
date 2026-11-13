@@ -1,0 +1,548 @@
+{
+  "recording_id": "R06_rich_karen",
+  "filename": "R06_rich_karen.wav",
+  "execution_mode": "FROZEN_INPUT_REPLAY",
+  "diarization_condition": "Stage5A.1_Condition_J_DualEncoder_EqualFusion",
+  "diarization_backend": "TitaNet-Large(DFN,192D) + WeSpeaker-ResNet293-LM(Mono,256D) -> ZScore-Equal-Affinity-Fusion -> NME-SC",
+  "refinement_model": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1 (Q4_K_M, LG-TPST)",
+  "created_at": "2026-11-13T15:05:24.795303+00:00",
+  "total_pipeline_sec": 36.6579,
+  "ground_truth_isolation_enforced": true,
+  "frozen_inputs_sha256_verified": true,
+  "input_sha256_hashes": {
+    "asr_aligned_words": "a2eb56f6e7bd2ddfb6dc589050bfde4a96b0e754719455ab35e3af22908327eb",
+    "predicted_rttm": "eb8aedfb64d2347e39239ac46c49fcb7f795f62e0aa41b9923cb84e6a4b046c6",
+    "overlap_posteriors": "61ab844c38a51e933d94b4c65d7753f3d74660f5e280f3c7dec5759e213a1d62",
+    "16k_mono_wav": "15b6404668a059767ad2d05314559ffbc5171690e8a2a5e204b701ff01508543",
+    "dfn_wav": "a40c867256013c32f842912210a733e135562d5394291aac9e4dd719f9ced7cb",
+    "normalized_wav": "f0aa072b4fa6ecb518775fb2475bf08ecf497cc715f08fb914495a9bdd28b6a2"
+  },
+  "audio_routing": {
+    "source_media_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R06_rich_karen/R06_rich_karen_16k_mono.wav",
+    "titanet_dfn_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R06_rich_karen/R06_rich_karen_dfn.wav",
+    "wespeaker_raw_mono_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R06_rich_karen/R06_rich_karen_16k_mono.wav",
+    "asr_normalized_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R06_rich_karen/R06_rich_karen_normalized.wav",
+    "overlap_raw_mono_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R06_rich_karen/R06_rich_karen_16k_mono.wav",
+    "sample_rate": 16000,
+    "channels": 1,
+    "duration_sec": 652.1789,
+    "sha256_hashes": {
+      "16k_mono_wav": "15b6404668a059767ad2d05314559ffbc5171690e8a2a5e204b701ff01508543",
+      "dfn_wav": "a40c867256013c32f842912210a733e135562d5394291aac9e4dd719f9ced7cb",
+      "normalized_wav": "f0aa072b4fa6ecb518775fb2475bf08ecf497cc715f08fb914495a9bdd28b6a2"
+    }
+  },
+  "rttm_to_canonical_speaker_map": {
+    "speaker_0": "SPEAKER_00",
+    "SPEAKER_00": "SPEAKER_00",
+    "speaker_1": "SPEAKER_01",
+    "SPEAKER_01": "SPEAKER_01",
+    "speaker_2": "SPEAKER_02",
+    "SPEAKER_02": "SPEAKER_02",
+    "speaker_3": "SPEAKER_03",
+    "SPEAKER_03": "SPEAKER_03",
+    "speaker_4": "SPEAKER_04",
+    "SPEAKER_04": "SPEAKER_04",
+    "speaker_5": "SPEAKER_05",
+    "SPEAKER_05": "SPEAKER_05",
+    "speaker_6": "SPEAKER_06",
+    "SPEAKER_06": "SPEAKER_06",
+    "speaker_7": "SPEAKER_07",
+    "SPEAKER_07": "SPEAKER_07"
+  },
+  "canonical_to_dlm_tag_map": {
+    "SPEAKER_00": "1",
+    "SPEAKER_01": "2",
+    "SPEAKER_02": "3",
+    "SPEAKER_03": "4",
+    "SPEAKER_04": "5",
+    "SPEAKER_05": "6",
+    "SPEAKER_06": "7",
+    "SPEAKER_07": "8"
+  },
+  "refinement_telemetry": {
+    "recording_id": "R06_rich_karen",
+    "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+    "ollama_model_name": "diarizationlm-gemma",
+    "quantization": "Q4_K_M",
+    "provider_version": "ollama-0.32.6",
+    "total_runtime_sec": 25.5801,
+    "total_prompt_tokens": 3348,
+    "total_completion_tokens": 3177,
+    "segment_count": 6,
+    "summary_counts": {
+      "total_words": 1719,
+      "accepted_corrections": 47,
+      "rejected_proposals": 11,
+      "abstained_words": 35,
+      "unchanged_words": 1626,
+      "reasons_breakdown": {
+        "ABSTAINED_PRESERVE_UNK": 35,
+        "ACCEPTED_VALIDATED_TRANSFER": 47,
+        "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION": 11,
+        "UNCHANGED_BASELINE_CONFIRMED": 1626
+      }
+    },
+    "segment_telemetries": [
+      {
+        "segment_id": "R06_rich_karen__seg_000",
+        "recording_id": "R06_rich_karen",
+        "start_word_index": 0,
+        "end_word_index": 299,
+        "word_count": 300,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 655,
+        "completion_tokens": 619,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 4.8292,
+        "prompt_text": "<|turn>user\n<speaker:4> An officer initiates a routine traffic stop on this white Chevy pickup truck driven by a Karen. What follows is anything but routine. <speaker:1> Day 211, I'll be taking position 2, we're passing Old Howell Road. 520 speed position 1. Copy the station's position. Passing Hollywood Oaks Drive. Speed's 35. Across the front of the screen, speed's 30. The cop people are coming up to 18 now. Blessings. Just a <speaker:8> second. <speaker:1> Thank you. Show me your hands! <speaker:0> Move your ass! <speaker:1> 2-11, we're going to be out at 2. <speaker:5> I got a shatter ball. <speaker:8> All right, <speaker:1> your cover. I'm going to grab sticks and just throw them behind her. <speaker:7> Driver, turn off the vehicle! <speaker:5> Just watch out if she throws it in reverse. <speaker:7> Slowly step out of the vehicle! <speaker:8> Come on! DRIVE THE MOTORCYCLE! DRIVER! <speaker:5> Matt, can you move your squad up in case she does try to throw it reverse? So we've got two tasers, two lethal. <speaker:1> David, two level. We've got a canine en route. <speaker:6> Yeah. RK9 coming. <speaker:1> Perfect. <speaker:5> Tell her to get out of the car. You can see both her hands. She's got a cell phone. <speaker:1> Will, since you're lethal, chatterball. <speaker:0> Ha! Ha! Give me your arms! Ha! Ha! Give me your arms! She's just on her <speaker:8> cell phone. <speaker:7> Catherine, this is the police department. We need you to exit the vehicle! Do it now, Catherine! <speaker:0> Captain, this is the police. <speaker:7> You need to exit your vehicle with your hands up. Do it <speaker:8> now! <speaker:1> Fuck that <speaker:5> rear <speaker:8> window out. <speaker:5> Don't get her attention. <speaker:8> Okay. <speaker:1> Shutter ball up. <speaker:8> Get down, get down, get down, get <speaker:7> down. You're the best, yo! I'm not going to give <speaker:8> people a hold up! <speaker:7> Come on now, <speaker:8> you're <speaker:7> going to get bit by <speaker:8> the dog. I don't want you to <speaker:0> get bit by the --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:4> An officer initiates a routine traffic stop on this white Chevy pickup truck driven by a Karen. What follows is anything but routine. <speaker:1> Day 211, I'll be taking position 2, we're passing Old Howell Road. 520 speed position 1. Copy the station's position. Passing Hollywood Oaks Drive. Speed's 35. Across the front of the screen, speed's 30. The cop people are coming up to 18 now. Blessings. Just a <speaker:8> second. <speaker:1> Thank you. Show me your hands! <speaker:0> Move your ass! <speaker:1> 2-11, we're going to be out at 2. <speaker:5> I got a shatter ball. <speaker:8> All right, <speaker:1> your cover. I'm going to grab sticks and just throw them behind her. <speaker:7> Driver, turn off the vehicle! <speaker:5> Just watch out if she throws it in reverse. <speaker:7> Slowly step out of the vehicle! <speaker:8> Come on! Drive the motorcycle! DRIVER! <speaker:5> Matt, can you move your squad up in case she does try to throw it reverse? So we've got two tasers, two lethal. <speaker:1> David, two level. We've got a canine en route. <speaker:6> Yeah. RK9 coming. <speaker:1> Perfect. <speaker:5> Tell her to get out of the car. You can see both her hands. She's got a cell phone. <speaker:1> Will, since you're lethal, chatterball. <speaker:0> Ha! Ha! Give me your arms! Ha! Ha! Give me your arms! She's just on her <speaker:8> cell phone. <speaker:7> Catherine, this is the police department. We need you to exit the vehicle! Do it now, Catherine! <speaker:0> Captain, this is the police. <speaker:7> You need to exit your vehicle with your hands up. Do it now! <speaker:1> Fuck that <speaker:5> rear <speaker:8> window out. <speaker:5> Don't get her attention. <speaker:8> Okay. <speaker:1> Shutter ball up. <speaker:8> Get down, get down, get down, get <speaker:7> down. You're the best, yo! I'm not going to give <speaker:8> people a hold up! <speaker:7> Come on now, you're going to get bit by <speaker:8> the dog. I don't want you to <speaker:0> get bit by the ",
+        "cleaned_completion": "<speaker:4> An officer initiates a routine traffic stop on this white Chevy pickup truck driven by a Karen. What follows is anything but routine. <speaker:1> Day 211, I'll be taking position 2, we're passing Old Howell Road. 520 speed position 1. Copy the station's position. Passing Hollywood Oaks Drive. Speed's 35. Across the front of the screen, speed's 30. The cop people are coming up to 18 now. Blessings. Just a <speaker:8> second. <speaker:1> Thank you. Show me your hands! <speaker:0> Move your ass! <speaker:1> 2-11, we're going to be out at 2. <speaker:5> I got a shatter ball. <speaker:8> All right, <speaker:1> your cover. I'm going to grab sticks and just throw them behind her. <speaker:7> Driver, turn off the vehicle! <speaker:5> Just watch out if she throws it in reverse. <speaker:7> Slowly step out of the vehicle! <speaker:8> Come on! Drive the motorcycle! DRIVER! <speaker:5> Matt, can you move your squad up in case she does try to throw it reverse? So we've got two tasers, two lethal. <speaker:1> David, two level. We've got a canine en route. <speaker:6> Yeah. RK9 coming. <speaker:1> Perfect. <speaker:5> Tell her to get out of the car. You can see both her hands. She's got a cell phone. <speaker:1> Will, since you're lethal, chatterball. <speaker:0> Ha! Ha! Give me your arms! Ha! Ha! Give me your arms! She's just on her <speaker:8> cell phone. <speaker:7> Catherine, this is the police department. We need you to exit the vehicle! Do it now, Catherine! <speaker:0> Captain, this is the police. <speaker:7> You need to exit your vehicle with your hands up. Do it now! <speaker:1> Fuck that <speaker:5> rear <speaker:8> window out. <speaker:5> Don't get her attention. <speaker:8> Okay. <speaker:1> Shutter ball up. <speaker:8> Get down, get down, get down, get <speaker:7> down. You're the best, yo! I'm not going to give <speaker:8> people a hold up! <speaker:7> Come on now, you're going to get bit by <speaker:8> the dog. I don't want you to <speaker:0> get bit by the",
+        "accepted_count": 2,
+        "rejected_count": 0,
+        "abstained_count": 28,
+        "unchanged_count": 270,
+        "rejection_reasons_breakdown": {
+          "UNCHANGED_BASELINE_CONFIRMED": 270,
+          "ABSTAINED_PRESERVE_UNK": 28,
+          "ACCEPTED_VALIDATED_TRANSFER": 2
+        }
+      },
+      {
+        "segment_id": "R06_rich_karen__seg_001",
+        "recording_id": "R06_rich_karen",
+        "start_word_index": 300,
+        "end_word_index": 599,
+        "word_count": 300,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 703,
+        "completion_tokens": 677,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 5.2238,
+        "prompt_text": "<|turn>user\n<speaker:0> dog. Ha! Ha! Get up! Get <speaker:8> up! Get up! Can you hear me? <speaker:5> Do you want another cheddar ball? I do. You want me to get the... <speaker:1> We got pepper ball. I like pepper <speaker:8> ball. <speaker:1> You got it, Joe? Yep. <speaker:0> Thank <speaker:8> you. <speaker:5> Getting a pepper ball? Yeah, Joe's getting a pepper <speaker:8> ball. <speaker:1> Joe, this side, pepper ball through the back shattered window. <speaker:5> Let's give her a chance here. <speaker:7> Hey, Catherine! come out of the car now we're going to send in some <speaker:8> peppercorns <speaker:7> it's going to be hard for you to breathe Come on out now. <speaker:5> Thank you. All right. <speaker:7> Come <speaker:5> this way. We'll <speaker:8> figure <speaker:7> that out in a <speaker:5> second, okay? Just put your hands behind your back, okay? Put your hands behind your <speaker:8> back. Put your <speaker:5> hands behind your back or you're going to get tasered. <speaker:8> I'm going to have you guys go. You <speaker:2> will not indict <speaker:8> me. <speaker:5> Hands behind your back. Put your hands behind your back. <speaker:8> I got it. <speaker:1> David, 211, we're 1080. <speaker:5> Got anything on you? <speaker:8> I just want to say thank you. Here, <speaker:5> roll this way. Put your, tuck your feet in. You <speaker:8> cannot assault me as a woman. What are you doing? <speaker:5> Ready? We're going to help you out. I just got <speaker:8> e-wiped, yeah. I just got e-wiped. I just got e-wiped for one reason. We've been <speaker:2> trying <speaker:8> to stop you <speaker:5> for about 15 miles. <speaker:8> For one <speaker:2> reason. What, for what reason, you cannot, you <speaker:8> cannot? Is <speaker:6> the vehicle <speaker:8> cleared? <speaker:1> Yes, the vehicle is cleared. <speaker:2> Excuse me, you don't know that I'm Katie. <speaker:5> I don't know that. But do you live here <speaker:2> alone? Daniel Thomas doesn't know that. <speaker:5> I don't know who Daniel Thomas <speaker:2> is. Holy cow, guys. Do you live here alone? Yes, I do. This is my residence since 2011. Do you --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:0> dog. Ha! Ha! Get up! Get <speaker:8> up! Get up! Can you hear me? <speaker:5> Do you want another cheddar ball? I do. You want me to get the... <speaker:1> We got pepper ball. I like pepper <speaker:8> ball. <speaker:1> You got it, Joe? Yep. <speaker:0> Thank <speaker:8> you. <speaker:5> Getting a pepper ball? Yeah, Joe's getting a pepper <speaker:8> ball. <speaker:1> Joe, this side, pepper ball through the back shattered window. <speaker:5> Let's give her a chance here. <speaker:7> Hey, Catherine! come out of the car now we're going to send in some <speaker:8> peppercorns <speaker:7> it's going to be hard for you to breathe Come on out now. <speaker:5> Thank you. All right. <speaker:7> Come this way. We'll <speaker:8> figure <speaker:7> that out in a <speaker:5> second, okay? Just put your hands behind your back, okay? Put your hands behind your <speaker:8> back. Put your <speaker:5> hands behind your back or you're going to get tasered. <speaker:8> I'm going to have you guys go. You <speaker:2> will not indict <speaker:8> me. <speaker:5> Hands behind your back. Put your hands behind your back. <speaker:8> I got it. <speaker:1> David, 211, we're 1080. <speaker:5> Got anything on you? <speaker:8> I just want to say thank you. Here, <speaker:5> roll this way. Put your, tuck your feet in. You <speaker:8> cannot assault me as a woman. What are you doing? <speaker:5> Ready? We're going to help you out. I just got <speaker:8> e-wiped, yeah. I just got e-wiped. I just got e-wiped for one reason. We've been <speaker:2> trying <speaker:8> to stop you <speaker:5> for about 15 miles. <speaker:8> For one <speaker:2> reason. What, for what reason, you cannot, you <speaker:8> cannot? Is <speaker:6> the vehicle <speaker:8> cleared? <speaker:1> Yes, the vehicle is cleared. <speaker:2> Excuse me, you don't know that I'm Katie. <speaker:5> I don't know that. <speaker:2> But do you live here alone? Daniel Thomas doesn't know that. <speaker:5> I don't know who Daniel Thomas is. <speaker:2> Holy cow, guys. Do you live here alone? Yes, I do. This is my residence since 2011. Do you ",
+        "cleaned_completion": "<speaker:0> dog. Ha! Ha! Get up! Get <speaker:8> up! Get up! Can you hear me? <speaker:5> Do you want another cheddar ball? I do. You want me to get the... <speaker:1> We got pepper ball. I like pepper <speaker:8> ball. <speaker:1> You got it, Joe? Yep. <speaker:0> Thank <speaker:8> you. <speaker:5> Getting a pepper ball? Yeah, Joe's getting a pepper <speaker:8> ball. <speaker:1> Joe, this side, pepper ball through the back shattered window. <speaker:5> Let's give her a chance here. <speaker:7> Hey, Catherine! come out of the car now we're going to send in some <speaker:8> peppercorns <speaker:7> it's going to be hard for you to breathe Come on out now. <speaker:5> Thank you. All right. <speaker:7> Come this way. We'll <speaker:8> figure <speaker:7> that out in a <speaker:5> second, okay? Just put your hands behind your back, okay? Put your hands behind your <speaker:8> back. Put your <speaker:5> hands behind your back or you're going to get tasered. <speaker:8> I'm going to have you guys go. You <speaker:2> will not indict <speaker:8> me. <speaker:5> Hands behind your back. Put your hands behind your back. <speaker:8> I got it. <speaker:1> David, 211, we're 1080. <speaker:5> Got anything on you? <speaker:8> I just want to say thank you. Here, <speaker:5> roll this way. Put your, tuck your feet in. You <speaker:8> cannot assault me as a woman. What are you doing? <speaker:5> Ready? We're going to help you out. I just got <speaker:8> e-wiped, yeah. I just got e-wiped. I just got e-wiped for one reason. We've been <speaker:2> trying <speaker:8> to stop you <speaker:5> for about 15 miles. <speaker:8> For one <speaker:2> reason. What, for what reason, you cannot, you <speaker:8> cannot? Is <speaker:6> the vehicle <speaker:8> cleared? <speaker:1> Yes, the vehicle is cleared. <speaker:2> Excuse me, you don't know that I'm Katie. <speaker:5> I don't know that. <speaker:2> But do you live here alone? Daniel Thomas doesn't know that. <speaker:5> I don't know who Daniel Thomas is. <speaker:2> Holy cow, guys. Do you live here alone? Yes, I do. This is my residence since 2011. Do you",
+        "accepted_count": 8,
+        "rejected_count": 1,
+        "abstained_count": 7,
+        "unchanged_count": 284,
+        "rejection_reasons_breakdown": {
+          "ABSTAINED_PRESERVE_UNK": 7,
+          "UNCHANGED_BASELINE_CONFIRMED": 284,
+          "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION": 1,
+          "ACCEPTED_VALIDATED_TRANSFER": 8
+        }
+      },
+      {
+        "segment_id": "R06_rich_karen__seg_002",
+        "recording_id": "R06_rich_karen",
+        "start_word_index": 600,
+        "end_word_index": 899,
+        "word_count": 300,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 651,
+        "completion_tokens": 620,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 4.8374,
+        "prompt_text": "<|turn>user\n<speaker:2> want it in <speaker:1> mine or in Joe's? It doesn't matter. We'll throw it in Joe's. <speaker:2> Excuse me, please grab my things. Yep, <speaker:1> we'll get your things when we can. This <speaker:2> is illegal. What traffic violations do you have me in? <speaker:6> Are you injured at all, ma'am? <speaker:2> Excuse me, you're not going to harass me. <speaker:1> Your plates are expired, and that's why I attempted to stop for you. Excuse me, they <speaker:2> are not expired. <speaker:1> They are. <speaker:2> They are not. <speaker:1> They are. <speaker:2> Excuse me, Chevrolet is my O'Connor walk, my Chevrolet. <speaker:1> Okay. <speaker:2> You guys are out of your minds. You better tell Daniel Thomas I'm suing the O'Connor shop. Does anyone want to contact the Journal Sentinel? Does anyone want to record this? <speaker:6> Yeah, we've got it recorded. See you. <speaker:1> Did a dog bite you anywhere? <speaker:2> Excuse me. Did a dog <speaker:1> bite you <speaker:2> anywhere? I'm pressing charges on you guys a lot. <speaker:1> That's right. Did a dog bite you anywhere? I don't know if <speaker:2> that's... <speaker:1> when she went down. That's the only injury I see. Another one over here. You <speaker:2> shattered my window. Excuse me, you guys are going to have injury with a lawsuit with Mr. Mr. <speaker:8> Rudy. Just <speaker:2> go ahead and <speaker:6> have a seat in the vehicle. <speaker:2> I contact my financial advisor. Okay, have a seat. This is <speaker:8> our food for thought. <speaker:2> What do you guys think you're <speaker:6> doing to <speaker:2> an American woman just going to the post office and going to the town <speaker:8> hall? Ma'am, <speaker:6> take a couple deep breaths here. <speaker:8> Excuse me. Are you <speaker:6> injured at all? Excuse <speaker:2> me, guys. <speaker:1> You good, Joe? Yeah, I'm <speaker:8> good. We're <speaker:6> going to have you just sit tight. I <speaker:2> contacted my capital wealth advisors' advisories, contacted my brother, contacted Paul Buffoni from Bravo Capital. You guys <speaker:8> are going <speaker:2> to have a huge --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:2> want it in <speaker:1> mine or in Joe's? It doesn't matter. We'll throw it in Joe's. <speaker:2> Excuse me, please grab my things. <speaker:1> Yep, we'll get your things when we can. <speaker:2> This is illegal. What traffic violations do you have me in? <speaker:6> Are you injured at all, ma'am? <speaker:2> Excuse me, you're not going to harass me. <speaker:1> Your plates are expired, and that's why I attempted to stop for you. <speaker:2> Excuse me, they are not expired. <speaker:1> They are. <speaker:2> They are not. <speaker:1> They are. <speaker:2> Excuse me, Chevrolet is my O'Connor walk, my Chevrolet. <speaker:1> Okay. <speaker:2> You guys are out of your minds. You better tell Daniel Thomas I'm suing the O'Connor shop. Does anyone want to contact the Journal Sentinel? Does anyone want to record this? <speaker:6> Yeah, we've got it recorded. See you. <speaker:1> Did a dog bite you anywhere? <speaker:2> Excuse me. <speaker:1> Did a dog bite you anywhere? <speaker:2> I'm pressing charges on you guys a lot. <speaker:1> That's right. Did a dog bite you anywhere? <speaker:2> I don't know if that's... <speaker:1> when she went down. That's the only injury I see. Another one over here. <speaker:2> You shattered my window. Excuse me, you guys are going to have injury with a lawsuit with Mr. Mr. <speaker:8> Rudy. Just <speaker:2> go ahead and <speaker:6> have a seat in the vehicle. <speaker:2> I contact my financial advisor. Okay, have a seat. This is <speaker:8> our food for thought. <speaker:2> What do you guys think you're <speaker:6> doing to <speaker:2> an American woman just going to the post office and going to the town <speaker:8> hall? Ma'am, <speaker:6> take a couple deep breaths here. <speaker:8> Excuse me. Are you <speaker:6> injured at all? Excuse <speaker:2> me, guys. <speaker:1> You good, Joe? <speaker:2> Yeah, I'm good. <speaker:6> We're going to have you just sit tight. <speaker:2> I contacted my capital wealth advisors' advisories, contacted my brother, contacted Paul Buffoni from Bravo Capital. You guys are going to have a huge ",
+        "cleaned_completion": "<speaker:2> want it in <speaker:1> mine or in Joe's? It doesn't matter. We'll throw it in Joe's. <speaker:2> Excuse me, please grab my things. <speaker:1> Yep, we'll get your things when we can. <speaker:2> This is illegal. What traffic violations do you have me in? <speaker:6> Are you injured at all, ma'am? <speaker:2> Excuse me, you're not going to harass me. <speaker:1> Your plates are expired, and that's why I attempted to stop for you. <speaker:2> Excuse me, they are not expired. <speaker:1> They are. <speaker:2> They are not. <speaker:1> They are. <speaker:2> Excuse me, Chevrolet is my O'Connor walk, my Chevrolet. <speaker:1> Okay. <speaker:2> You guys are out of your minds. You better tell Daniel Thomas I'm suing the O'Connor shop. Does anyone want to contact the Journal Sentinel? Does anyone want to record this? <speaker:6> Yeah, we've got it recorded. See you. <speaker:1> Did a dog bite you anywhere? <speaker:2> Excuse me. <speaker:1> Did a dog bite you anywhere? <speaker:2> I'm pressing charges on you guys a lot. <speaker:1> That's right. Did a dog bite you anywhere? <speaker:2> I don't know if that's... <speaker:1> when she went down. That's the only injury I see. Another one over here. <speaker:2> You shattered my window. Excuse me, you guys are going to have injury with a lawsuit with Mr. Mr. <speaker:8> Rudy. Just <speaker:2> go ahead and <speaker:6> have a seat in the vehicle. <speaker:2> I contact my financial advisor. Okay, have a seat. This is <speaker:8> our food for thought. <speaker:2> What do you guys think you're <speaker:6> doing to <speaker:2> an American woman just going to the post office and going to the town <speaker:8> hall? Ma'am, <speaker:6> take a couple deep breaths here. <speaker:8> Excuse me. Are you <speaker:6> injured at all? Excuse <speaker:2> me, guys. <speaker:1> You good, Joe? <speaker:2> Yeah, I'm good. <speaker:6> We're going to have you just sit tight. <speaker:2> I contacted my capital wealth advisors' advisories, contacted my brother, contacted Paul Buffoni from Bravo Capital. You guys are going to have a huge",
+        "accepted_count": 16,
+        "rejected_count": 5,
+        "abstained_count": 0,
+        "unchanged_count": 279,
+        "rejection_reasons_breakdown": {
+          "UNCHANGED_BASELINE_CONFIRMED": 279,
+          "ACCEPTED_VALIDATED_TRANSFER": 16,
+          "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION": 5
+        }
+      },
+      {
+        "segment_id": "R06_rich_karen__seg_003",
+        "recording_id": "R06_rich_karen",
+        "start_word_index": 900,
+        "end_word_index": 1199,
+        "word_count": 300,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 567,
+        "completion_tokens": 541,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 4.2867,
+        "prompt_text": "<|turn>user\n<speaker:2> lawsuit. Okay. <speaker:6> Are you injured, ma'am? <speaker:2> Did you not learn your lesson from Sterling Brown? <speaker:6> I'm just asking if you need medical attention. Do you need medical attention? Excuse me. Okay. Well, if anything changes with that, just let me know. Excuse <speaker:2> me. I'm reporting to you guys for police brutality. The same way as Sterling Brown, but I am a white American woman. Bravo Company, USABCM. Paul Bifoni. My SWAT team is your AR-15s and M-16s. You guys cannot tell from behind and make false arrests. Police brutality is no different than Sterling Brown. Mark Thompson represented Sterling Brown. I'm going to have Mark Thompson represent you. You would think a black man would never police brutality after Sterling Brown. <speaker:1> Because she is awesome. <speaker:8> Okay. <speaker:1> Catherine, I'm an officer to pray at the City of Delafield Police Department. I was the one, I'm the one who... I <speaker:2> reported you guys. <speaker:1> You reported me? <speaker:2> Yes, I did. <speaker:1> Okay, that's fine. I'm here to... It's <speaker:2> only from 100 feet from 200 feet behind. <speaker:1> Okay, I had my red lights and siren on. Catherine, hold on. I will not pull <speaker:2> over until I'm in my safety van drive. <speaker:1> Okay, Catherine, but you still didn't even comply with that. I <speaker:2> did. <speaker:1> Okay, so here's the deal. The reason I stopped you, the reason why I attempted to stop you is that your plates are expired. They expired in March of 23. They expired in March of 23. So that is why I attempted to stop you. Do you want to make a voluntary statement of what happened tonight? I don't <speaker:2> want to. <speaker:1> You're open <speaker:2> right <speaker:1> now. I don't want to. <speaker:8> Those <speaker:1> plates have not expired. I'm asking you, do you wish to make a voluntary statement right now? I <speaker:2> just made my voluntary --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:2> lawsuit. <speaker:1> Okay. <speaker:6> Are you injured, ma'am? <speaker:2> Did you not learn your lesson from Sterling Brown? <speaker:6> I'm just asking if you need medical attention. Do you need medical attention? Excuse me. Okay. Well, if anything changes with that, just let me know. Excuse <speaker:2> me. I'm reporting to you guys for police brutality. The same way as Sterling Brown, but I am a white American woman. Bravo Company, USABCM. Paul Bifoni. My SWAT team is your AR-15s and M-16s. You guys cannot tell from behind and make false arrests. Police brutality is no different than Sterling Brown. Mark Thompson represented Sterling Brown. I'm going to have Mark Thompson represent you. You would think a black man would never police brutality after Sterling Brown. <speaker:1> Because she is awesome. <speaker:2> Okay. <speaker:1> Catherine, I'm an officer to pray at the City of Delafield Police Department. I was the one, I'm the one who... I <speaker:2> reported you guys. <speaker:1> You reported me? <speaker:2> Yes, I did. <speaker:1> Okay, that's fine. I'm here to... It's <speaker:2> only from 100 feet from 200 feet behind. <speaker:1> Okay, I had my red lights and siren on. Catherine, hold on. I will not pull <speaker:2> over until I'm in my safety van drive. <speaker:1> Okay, Catherine, but you still didn't even comply with that. I <speaker:2> did. <speaker:1> Okay, so here's the deal. The reason I stopped you, the reason why I attempted to stop you is that your plates are expired. They expired in March of 23. They expired in March of 23. So that is why I attempted to stop you. Do you want to make a voluntary statement of what happened tonight? <speaker:2> I don't want to. <speaker:1> You're open right now. <speaker:2> I don't want to. <speaker:1> Those plates have not expired. I'm asking you, do you wish to make a voluntary statement right now? <speaker:2> I just made my voluntary ",
+        "cleaned_completion": "<speaker:2> lawsuit. <speaker:1> Okay. <speaker:6> Are you injured, ma'am? <speaker:2> Did you not learn your lesson from Sterling Brown? <speaker:6> I'm just asking if you need medical attention. Do you need medical attention? Excuse me. Okay. Well, if anything changes with that, just let me know. Excuse <speaker:2> me. I'm reporting to you guys for police brutality. The same way as Sterling Brown, but I am a white American woman. Bravo Company, USABCM. Paul Bifoni. My SWAT team is your AR-15s and M-16s. You guys cannot tell from behind and make false arrests. Police brutality is no different than Sterling Brown. Mark Thompson represented Sterling Brown. I'm going to have Mark Thompson represent you. You would think a black man would never police brutality after Sterling Brown. <speaker:1> Because she is awesome. <speaker:2> Okay. <speaker:1> Catherine, I'm an officer to pray at the City of Delafield Police Department. I was the one, I'm the one who... I <speaker:2> reported you guys. <speaker:1> You reported me? <speaker:2> Yes, I did. <speaker:1> Okay, that's fine. I'm here to... It's <speaker:2> only from 100 feet from 200 feet behind. <speaker:1> Okay, I had my red lights and siren on. Catherine, hold on. I will not pull <speaker:2> over until I'm in my safety van drive. <speaker:1> Okay, Catherine, but you still didn't even comply with that. I <speaker:2> did. <speaker:1> Okay, so here's the deal. The reason I stopped you, the reason why I attempted to stop you is that your plates are expired. They expired in March of 23. They expired in March of 23. So that is why I attempted to stop you. Do you want to make a voluntary statement of what happened tonight? <speaker:2> I don't want to. <speaker:1> You're open right now. <speaker:2> I don't want to. <speaker:1> Those plates have not expired. I'm asking you, do you wish to make a voluntary statement right now? <speaker:2> I just made my voluntary",
+        "accepted_count": 8,
+        "rejected_count": 3,
+        "abstained_count": 0,
+        "unchanged_count": 289,
+        "rejection_reasons_breakdown": {
+          "UNCHANGED_BASELINE_CONFIRMED": 289,
+          "ACCEPTED_VALIDATED_TRANSFER": 8,
+          "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION": 3
+        }
+      },
+      {
+        "segment_id": "R06_rich_karen__seg_004",
+        "recording_id": "R06_rich_karen",
+        "start_word_index": 1200,
+        "end_word_index": 1499,
+        "word_count": 300,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 481,
+        "completion_tokens": 450,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 3.6748,
+        "prompt_text": "<|turn>user\n<speaker:2> statement. <speaker:1> okay sounds good all right so what's going to happen is we're going to get you out of this car we're going to get you in that car you'll be going to the waukesha county jail tonight okay you're under arrest for felony fleeing and eluding state disorderly conduct and you're getting a traffic citation for your unregistered vehicle, okay? that's fine that's that's well within yours <speaker:2> come <speaker:1> on step out for me please those <speaker:2> are brand new plates i contacted an attorney that's fine that's fine come <speaker:1> on you <speaker:2> guys don't have felony charges okay <speaker:1> sounds good that's your opinion <speaker:2> the plates never expired <speaker:1> okay <speaker:2> oh you better contact what kind of walk <speaker:1> i'm not i don't have to contact anyone katherine go ahead you can take a seat in the squad car for me please <speaker:2> look at the plates they're brand new 2020 take <speaker:1> a seat in the squad car please <speaker:2> How disgusting do you guys can even go home to your wives? Disgusting job that you just had. Disgusting. Those were all placed in 2023 on them. They're new places. Did you look at the registration? Did you look at the vehicle number on the registration? <speaker:4> Catherine is no stranger to being non-compliant with police, as she once spit at an officer after being banned from a fitness building. For the incident in the body cam footage, she was charged with resisting or failing to stop and resisting obstructing. According to court records, the suspect actually did not get a high-powered attorney to take her case, and instead, just started skipping court appearances. Court records indicate the case has been going on for more than two and a half years, and the bail has since been forfeited. As her case is still ongoing, she is presumed --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:2> statement. <speaker:1> okay sounds good all right so what's going to happen is we're going to get you out of this car we're going to get you in that car you'll be going to the waukesha county jail tonight okay you're under arrest for felony fleeing and eluding state disorderly conduct and you're getting a traffic citation for your unregistered vehicle, okay? that's fine that's that's well within yours come on step out for me please <speaker:2> those are brand new plates i contacted an attorney <speaker:1> that's fine that's fine come on <speaker:2> you guys don't have felony charges okay sounds good <speaker:1> that's your opinion <speaker:2> the plates never expired <speaker:1> okay oh you better contact <speaker:2> what kind of walk <speaker:1> i'm not i don't have to contact anyone katherine go ahead you can take a seat in the squad car for me please <speaker:2> look at the plates they're brand new 2020 <speaker:1> take a seat in the squad car please <speaker:2> How disgusting do you guys can even go home to your wives? Disgusting job that you just had. Disgusting. Those were all placed in 2023 on them. They're new places. Did you look at the registration? Did you look at the vehicle number on the registration? <speaker:4> Catherine is no stranger to being non-compliant with police, as she once spit at an officer after being banned from a fitness building. For the incident in the body cam footage, she was charged with resisting or failing to stop and resisting obstructing. According to court records, the suspect actually did not get a high-powered attorney to take her case, and instead, just started skipping court appearances. Court records indicate the case has been going on for more than two and a half years, and the bail has since been forfeited. As her case is still ongoing, she is presumed ",
+        "cleaned_completion": "<speaker:2> statement. <speaker:1> okay sounds good all right so what's going to happen is we're going to get you out of this car we're going to get you in that car you'll be going to the waukesha county jail tonight okay you're under arrest for felony fleeing and eluding state disorderly conduct and you're getting a traffic citation for your unregistered vehicle, okay? that's fine that's that's well within yours come on step out for me please <speaker:2> those are brand new plates i contacted an attorney <speaker:1> that's fine that's fine come on <speaker:2> you guys don't have felony charges okay sounds good <speaker:1> that's your opinion <speaker:2> the plates never expired <speaker:1> okay oh you better contact <speaker:2> what kind of walk <speaker:1> i'm not i don't have to contact anyone katherine go ahead you can take a seat in the squad car for me please <speaker:2> look at the plates they're brand new 2020 <speaker:1> take a seat in the squad car please <speaker:2> How disgusting do you guys can even go home to your wives? Disgusting job that you just had. Disgusting. Those were all placed in 2023 on them. They're new places. Did you look at the registration? Did you look at the vehicle number on the registration? <speaker:4> Catherine is no stranger to being non-compliant with police, as she once spit at an officer after being banned from a fitness building. For the incident in the body cam footage, she was charged with resisting or failing to stop and resisting obstructing. According to court records, the suspect actually did not get a high-powered attorney to take her case, and instead, just started skipping court appearances. Court records indicate the case has been going on for more than two and a half years, and the bail has since been forfeited. As her case is still ongoing, she is presumed",
+        "accepted_count": 13,
+        "rejected_count": 2,
+        "abstained_count": 0,
+        "unchanged_count": 285,
+        "rejection_reasons_breakdown": {
+          "UNCHANGED_BASELINE_CONFIRMED": 285,
+          "ACCEPTED_VALIDATED_TRANSFER": 13,
+          "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION": 2
+        }
+      },
+      {
+        "segment_id": "R06_rich_karen__seg_005",
+        "recording_id": "R06_rich_karen",
+        "start_word_index": 1500,
+        "end_word_index": 1718,
+        "word_count": 219,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 291,
+        "completion_tokens": 270,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 2.4063,
+        "prompt_text": "<|turn>user\n<speaker:4> innocent unless proven guilty in a court of law. <speaker:3> might think pursuit is always speeding swerving and just being reckless but some of the most unpredictable drivers are the ones trying to appear cooperative while refusing to stop and it might look polite but it's still resistance she was definitely running from the police but she was also deciding where she wanted to deal with them which was her house and that matters because once a suspect reaches the residence the risk to officers goes way up garages mean weapons family members or someone possibly disappearing inside and forcing a standoff that's exactly why Our officers boxed a car in like that. Now, you saw officers use the shatter bar, and what that does is allow officers to break the glass from a distance instead of walking up to a possibly armed driver, and police in Maine started using that around 2023. Most arrests aren't decided by how fast you drive. They're decided by the first moment you choose not to comply. Remember, it's about decisions, and if understanding why officers act help you see these videos differently, that's the point. Because our purpose here isn't just to show you videos. It's to give you insight and guidance so you won't cause yourself any problems during the traffic stop. --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:4> innocent unless proven guilty in a court of law. <speaker:3> might think pursuit is always speeding swerving and just being reckless but some of the most unpredictable drivers are the ones trying to appear cooperative while refusing to stop and it might look polite but it's still resistance she was definitely running from the police but she was also deciding where she wanted to deal with them which was her house and that matters because once a suspect reaches the residence the risk to officers goes way up garages mean weapons family members or someone possibly disappearing inside and forcing a standoff that's exactly why Our officers boxed a car in like that. Now, you saw officers use the shatter bar, and what that does is allow officers to break the glass from a distance instead of walking up to a possibly armed driver, and police in Maine started using that around 2023. Most arrests aren't decided by how fast you drive. They're decided by the first moment you choose not to comply. Remember, it's about decisions, and if understanding why officers act help you see these videos differently, that's the point. Because our purpose here isn't just to show you videos. It's to give you insight and guidance so you won't cause yourself any problems during the traffic stop. ",
+        "cleaned_completion": "<speaker:4> innocent unless proven guilty in a court of law. <speaker:3> might think pursuit is always speeding swerving and just being reckless but some of the most unpredictable drivers are the ones trying to appear cooperative while refusing to stop and it might look polite but it's still resistance she was definitely running from the police but she was also deciding where she wanted to deal with them which was her house and that matters because once a suspect reaches the residence the risk to officers goes way up garages mean weapons family members or someone possibly disappearing inside and forcing a standoff that's exactly why Our officers boxed a car in like that. Now, you saw officers use the shatter bar, and what that does is allow officers to break the glass from a distance instead of walking up to a possibly armed driver, and police in Maine started using that around 2023. Most arrests aren't decided by how fast you drive. They're decided by the first moment you choose not to comply. Remember, it's about decisions, and if understanding why officers act help you see these videos differently, that's the point. Because our purpose here isn't just to show you videos. It's to give you insight and guidance so you won't cause yourself any problems during the traffic stop.",
+        "accepted_count": 0,
+        "rejected_count": 0,
+        "abstained_count": 0,
+        "unchanged_count": 219,
+        "rejection_reasons_breakdown": {
+          "UNCHANGED_BASELINE_CONFIRMED": 219
+        }
+      }
+    ]
+  },
+  "stage_history": [
+    {
+      "stage": "UPLOADED",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.05,
+      "started_at": "2026-11-13T15:04:48.137367+00:00",
+      "completed_at": "2026-11-13T15:04:48.137384+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Resolved frozen benchmark inputs for R06_rich_karen",
+      "artifacts": {
+        "recording_id": "R06_rich_karen"
+      }
+    },
+    {
+      "stage": "QUEUED",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.1,
+      "started_at": "2026-11-13T15:04:48.137390+00:00",
+      "completed_at": "2026-11-13T15:04:48.137393+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Queued ConvoFuse job (Stage5A.1_Condition_J_DualEncoder_EqualFusion)",
+      "artifacts": {
+        "diarization_condition": "Stage5A.1_Condition_J_DualEncoder_EqualFusion"
+      }
+    },
+    {
+      "stage": "AUDIO_EXTRACTION",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.18,
+      "started_at": "2026-11-13T15:04:48.137397+00:00",
+      "completed_at": "2026-11-13T15:04:48.137402+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Reused task-specific conditioned audio streams (DFN 16kHz, Raw Mono 16kHz, EBU R128 Normalized 16kHz)",
+      "artifacts": {
+        "source_media_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R06_rich_karen/R06_rich_karen_16k_mono.wav",
+        "titanet_dfn_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R06_rich_karen/R06_rich_karen_dfn.wav",
+        "wespeaker_raw_mono_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R06_rich_karen/R06_rich_karen_16k_mono.wav",
+        "asr_normalized_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R06_rich_karen/R06_rich_karen_normalized.wav",
+        "overlap_raw_mono_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R06_rich_karen/R06_rich_karen_16k_mono.wav",
+        "sample_rate": 16000,
+        "channels": 1,
+        "duration_sec": 652.1789,
+        "sha256_hashes": {
+          "16k_mono_wav": "15b6404668a059767ad2d05314559ffbc5171690e8a2a5e204b701ff01508543",
+          "dfn_wav": "a40c867256013c32f842912210a733e135562d5394291aac9e4dd719f9ced7cb",
+          "normalized_wav": "f0aa072b4fa6ecb518775fb2475bf08ecf497cc715f08fb914495a9bdd28b6a2"
+        }
+      }
+    },
+    {
+      "stage": "VAD",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.25,
+      "started_at": "2026-11-13T15:04:48.137405+00:00",
+      "completed_at": "2026-11-13T15:04:48.137408+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Reused Stage 2 / Stage 5B.4 C62 Silero VAD speech regions",
+      "artifacts": {
+        "condition": "Stage5A.1_Condition_J_DualEncoder_EqualFusion"
+      }
+    },
+    {
+      "stage": "ASR",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.35,
+      "started_at": "2026-11-13T15:04:48.137412+00:00",
+      "completed_at": "2026-11-13T15:04:48.138384+00:00",
+      "elapsed_sec": 0.000966,
+      "detail": "Loaded 1719 Faster-Whisper Large-v3 words from frozen Stage 2 output",
+      "artifacts": {
+        "asr_aligned_words_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage2_baseline/whisperx/R06_rich_karen_aligned.json",
+        "word_count": 1719
+      }
+    },
+    {
+      "stage": "WORD_ALIGNMENT",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.42,
+      "started_at": "2026-11-13T15:04:48.138389+00:00",
+      "completed_at": "2026-11-13T15:04:48.138392+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Verified Wav2Vec2 CTC word-level timestamps (1719 words)",
+      "artifacts": {
+        "word_count": 1719
+      }
+    },
+    {
+      "stage": "SPEAKER_REPRESENTATION",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.5,
+      "started_at": "2026-11-13T15:04:48.138396+00:00",
+      "completed_at": "2026-11-13T15:04:48.138629+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Reused dual-path speaker embeddings: TitaNet-Large (192-D on DFN) + WeSpeaker ResNet293-LM (256-D on Raw Mono)",
+      "artifacts": {
+        "diarization_backend": "TitaNet-Large(DFN,192D) + WeSpeaker-ResNet293-LM(Mono,256D) -> ZScore-Equal-Affinity-Fusion -> NME-SC"
+      }
+    },
+    {
+      "stage": "AFFINITY_FUSION",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.58,
+      "started_at": "2026-11-13T15:04:48.138633+00:00",
+      "completed_at": "2026-11-13T15:04:48.138636+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Reused off-diagonal Z-score normalized dual-encoder cosine affinity fusion",
+      "artifacts": {
+        "diarization_condition": "Stage5A.1_Condition_J_DualEncoder_EqualFusion"
+      }
+    },
+    {
+      "stage": "CLUSTERING",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.65,
+      "started_at": "2026-11-13T15:04:48.138639+00:00",
+      "completed_at": "2026-11-13T15:04:48.138644+00:00",
+      "elapsed_sec": 0.000232,
+      "detail": "Loaded 262 NME-SC spectral clustering speaker segments from R06_rich_karen_dfn.rttm",
+      "artifacts": {
+        "predicted_rttm_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage5a_1/predictions/rttms/condition_J_norm_equal_weight_fusion/R06_rich_karen_dfn.rttm",
+        "rttm_segment_count": 262
+      }
+    },
+    {
+      "stage": "WORD_SPEAKER_ASSIGNMENT",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.72,
+      "started_at": "2026-11-13T15:04:48.138647+00:00",
+      "completed_at": "2026-11-13T15:04:48.283912+00:00",
+      "elapsed_sec": 0.145133,
+      "detail": "Associated 1719 words across 8 speakers (35 UNK, 79 overlapping)",
+      "artifacts": {
+        "word_count": 1719,
+        "speaker_inventory": [
+          "SPEAKER_00",
+          "SPEAKER_01",
+          "SPEAKER_02",
+          "SPEAKER_03",
+          "SPEAKER_04",
+          "SPEAKER_05",
+          "SPEAKER_06",
+          "SPEAKER_07"
+        ],
+        "unk_word_count": 35,
+        "overlapping_word_count": 79
+      }
+    },
+    {
+      "stage": "GENERATIVE_REFINEMENT",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.88,
+      "started_at": "2026-11-13T15:04:48.283925+00:00",
+      "completed_at": "2026-11-13T15:05:13.866851+00:00",
+      "elapsed_sec": 25.582916,
+      "detail": "Completed DiarizationLM-Gemma TPST refinement in 25.58s (ground-truth isolated)",
+      "artifacts": {
+        "model": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1 (Q4_K_M, LG-TPST)",
+        "summary_counts": {
+          "total_words": 1719,
+          "accepted_corrections": 47,
+          "rejected_proposals": 11,
+          "abstained_words": 35,
+          "unchanged_words": 1626,
+          "reasons_breakdown": {
+            "ABSTAINED_PRESERVE_UNK": 35,
+            "ACCEPTED_VALIDATED_TRANSFER": 47,
+            "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION": 11,
+            "UNCHANGED_BASELINE_CONFIRMED": 1626
+          }
+        },
+        "ground_truth_isolated": true
+      }
+    },
+    {
+      "stage": "TRANSCRIPT_RECONSTRUCTION",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.94,
+      "started_at": "2026-11-13T15:05:13.866863+00:00",
+      "completed_at": "2026-11-13T15:05:13.882003+00:00",
+      "elapsed_sec": 0.015134,
+      "detail": "Reconstructed 184 chronological turns across 9 speakers",
+      "artifacts": {
+        "baseline_turn_count": 183,
+        "refined_turn_count": 184,
+        "speaker_count": 9
+      }
+    },
+    {
+      "stage": "EVALUATION",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.98,
+      "started_at": "2026-11-13T15:05:13.921689+00:00",
+      "completed_at": "2026-11-13T15:05:24.795263+00:00",
+      "elapsed_sec": 10.873566,
+      "detail": "Executed post-inference evaluation (strictly isolated from inference)",
+      "artifacts": {
+        "has_reference_annotations": true,
+        "metric_deltas": {
+          "delta_wder_timestamp_assigned": 0.0113,
+          "delta_wder_timestamp_all_ref": 0.0112,
+          "delta_wder_lexical": 0.0043,
+          "delta_cpwer": -0.0039
+        }
+      }
+    },
+    {
+      "stage": "COMPLETED",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 1.0,
+      "started_at": "2026-11-13T15:05:24.795285+00:00",
+      "completed_at": "2026-11-13T15:05:24.795297+00:00",
+      "elapsed_sec": 36.657927,
+      "detail": "ConvoFuse pipeline completed in 36.66s",
+      "artifacts": {
+        "total_pipeline_sec": 36.6579
+      }
+    }
+  ]
+}

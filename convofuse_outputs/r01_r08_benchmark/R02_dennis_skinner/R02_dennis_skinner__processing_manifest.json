@@ -1,0 +1,379 @@
+{
+  "recording_id": "R02_dennis_skinner",
+  "filename": "R02_dennis_skinner.wav",
+  "execution_mode": "FROZEN_INPUT_REPLAY",
+  "diarization_condition": "Stage5A.1_Condition_J_DualEncoder_EqualFusion",
+  "diarization_backend": "TitaNet-Large(DFN,192D) + WeSpeaker-ResNet293-LM(Mono,256D) -> ZScore-Equal-Affinity-Fusion -> NME-SC",
+  "refinement_model": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1 (Q4_K_M, LG-TPST)",
+  "created_at": "2026-11-13T15:04:18.703432+00:00",
+  "total_pipeline_sec": 4.7756,
+  "ground_truth_isolation_enforced": true,
+  "frozen_inputs_sha256_verified": true,
+  "input_sha256_hashes": {
+    "asr_aligned_words": "e0954617da8e618de6e2e355e7a4571aeda1fb4ff4cb1d18344b7b4920431fd4",
+    "predicted_rttm": "fdb9e3c5a97a4214971f758b85330628a577ffe855599b6b3012a9bdf66ac56c",
+    "overlap_posteriors": "3f18af571c90eec8e4414be1f6e90ee3402dbdb87abbadc54acb6a1f6e1c74bd",
+    "16k_mono_wav": "1c19dac03c172013ad4fdd52f5858b63d669dae9b6c9ea63787fa2452ef5c104",
+    "dfn_wav": "86a527afc38a2cba757af57bdf18449ee0d735c491b28e0e4f6a14080971a562",
+    "normalized_wav": "c1e7d61899b87501f5253c4b9657dd910626a6cf02a964ad04ad9565a08c2e36"
+  },
+  "audio_routing": {
+    "source_media_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R02_dennis_skinner/R02_dennis_skinner_16k_mono.wav",
+    "titanet_dfn_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R02_dennis_skinner/R02_dennis_skinner_dfn.wav",
+    "wespeaker_raw_mono_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R02_dennis_skinner/R02_dennis_skinner_16k_mono.wav",
+    "asr_normalized_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R02_dennis_skinner/R02_dennis_skinner_normalized.wav",
+    "overlap_raw_mono_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R02_dennis_skinner/R02_dennis_skinner_16k_mono.wav",
+    "sample_rate": 16000,
+    "channels": 1,
+    "duration_sec": 176.2627,
+    "sha256_hashes": {
+      "16k_mono_wav": "1c19dac03c172013ad4fdd52f5858b63d669dae9b6c9ea63787fa2452ef5c104",
+      "dfn_wav": "86a527afc38a2cba757af57bdf18449ee0d735c491b28e0e4f6a14080971a562",
+      "normalized_wav": "c1e7d61899b87501f5253c4b9657dd910626a6cf02a964ad04ad9565a08c2e36"
+    }
+  },
+  "rttm_to_canonical_speaker_map": {
+    "speaker_0": "SPEAKER_00",
+    "SPEAKER_00": "SPEAKER_00",
+    "speaker_1": "SPEAKER_01",
+    "SPEAKER_01": "SPEAKER_01",
+    "speaker_2": "SPEAKER_02",
+    "SPEAKER_02": "SPEAKER_02"
+  },
+  "canonical_to_dlm_tag_map": {
+    "SPEAKER_00": "1",
+    "SPEAKER_01": "2",
+    "SPEAKER_02": "3"
+  },
+  "refinement_telemetry": {
+    "recording_id": "R02_dennis_skinner",
+    "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+    "ollama_model_name": "diarizationlm-gemma",
+    "quantization": "Q4_K_M",
+    "provider_version": "ollama-0.32.6",
+    "total_runtime_sec": 4.4245,
+    "total_prompt_tokens": 546,
+    "total_completion_tokens": 479,
+    "segment_count": 2,
+    "summary_counts": {
+      "total_words": 307,
+      "accepted_corrections": 1,
+      "rejected_proposals": 7,
+      "abstained_words": 1,
+      "unchanged_words": 298,
+      "reasons_breakdown": {
+        "ABSTAINED_PRESERVE_UNK": 1,
+        "ACCEPTED_VALIDATED_TRANSFER": 1,
+        "REJECTED_UNKNOWN_SPEAKER_MAPPING": 3,
+        "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION": 4,
+        "UNCHANGED_BASELINE_CONFIRMED": 298
+      }
+    },
+    "segment_telemetries": [
+      {
+        "segment_id": "R02_dennis_skinner__seg_000",
+        "recording_id": "R02_dennis_skinner",
+        "start_word_index": 0,
+        "end_word_index": 299,
+        "word_count": 300,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 493,
+        "completion_tokens": 447,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 3.6638,
+        "prompt_text": "<|turn>user\n<speaker:3> Does the Prime Minister recall that at the time after he became Prime Minister under the coalition And at the time when he was dividing the nation between strivers and scroungers, I asked him a very important question about the windfall he received. when he wrote up the mortgage of the premises in Notting Hill and I said to him he didn't write off the mortgage of the one the taxpayers were helping to pay for at Oxford. I didn't receive a proper answer then. Maybe dodgy Dave will answer it <speaker:1> now. And by the way, <speaker:0> Yeah. <speaker:1> And by the <speaker:0> way... Oh! <speaker:1> Order! <speaker:2> Order! Or... or... Or... I must ask the honourable gentleman order I don't require any assistance from some junior minister. <speaker:1> What an <speaker:2> absurd proposition. I invite the Honourable Gentleman to withdraw that adjective that he used a moment ago. He's perfectly capable of asking his question without using that word. It is up to him, but if he doesn't wish to withdraw it, I can't reasonably ask the Prime Minister to answer the question. All he has to do is withdraw that word and think of another. Sorry? I <speaker:1> think <speaker:2> he knows the word beginning with D and ending in Y that he inappropriately used. <speaker:1> Davey. Davey or Davey. Withdraw! Yeah, I know. I know what you're saying. Very <speaker:0> simple. <speaker:2> Withdrawal. <speaker:3> This man has done <speaker:1> more to divide this nation than anybody else. He's looked after his own pocket. I still refer to him as Dodgy Dave. Do what you like. <speaker:2> Order. Order. Order. Order. I'm sorry. I must ask the Honourable Gentleman to withdraw the work. <speaker:1> Very well. <speaker:2> Under the power given to me by Standing Order No. 43. I order the honourable member to withdraw immediately from the House for the remainder of this day's --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:3> Does the Prime Minister recall that at the time after he became Prime Minister under the coalition And at the time when he was dividing the nation between strivers and scroungers, I asked him a very important question about the windfall he received. when he wrote up the mortgage of the premises in Notting Hill and I said to him he didn't write off the mortgage of the one the taxpayers were helping to pay for at Oxford. I didn't receive a proper answer then. Maybe dodgy Dave will answer it now. <speaker:1> And by the way, <speaker:0> Yeah. <speaker:1> And by the way... <speaker:2> Oh! Order! Order! Or... or... Or... I must ask the honourable gentleman order I don't require any assistance from some junior minister. <speaker:1> What an absurd proposition. <speaker:2> I invite the Honourable Gentleman to withdraw that adjective that he used a moment ago. He's perfectly capable of asking his question without using that word. It is up to him, but if he doesn't wish to withdraw it, I can't reasonably ask the Prime Minister to answer the question. All he has to do is withdraw that word and think of another. Sorry? I think he knows the word beginning with D and ending in Y that he inappropriately used. <speaker:1> Davey. Davey or Davey. Withdraw! Yeah, I know. I know what you're saying. Very simple. <speaker:2> Withdrawal. <speaker:3> This man has done <speaker:1> more to divide this nation than anybody else. He's looked after his own pocket. I still refer to him as Dodgy Dave. Do what you like. <speaker:2> Order. Order. Order. Order. I'm sorry. I must ask the Honourable Gentleman to withdraw the work. <speaker:1> Very well. <speaker:2> Under the power given to me by Standing Order No. 43. I order the honourable member to withdraw immediately from the House for the remainder of this day's ",
+        "cleaned_completion": "<speaker:3> Does the Prime Minister recall that at the time after he became Prime Minister under the coalition And at the time when he was dividing the nation between strivers and scroungers, I asked him a very important question about the windfall he received. when he wrote up the mortgage of the premises in Notting Hill and I said to him he didn't write off the mortgage of the one the taxpayers were helping to pay for at Oxford. I didn't receive a proper answer then. Maybe dodgy Dave will answer it now. <speaker:1> And by the way, <speaker:0> Yeah. <speaker:1> And by the way... <speaker:2> Oh! Order! Order! Or... or... Or... I must ask the honourable gentleman order I don't require any assistance from some junior minister. <speaker:1> What an absurd proposition. <speaker:2> I invite the Honourable Gentleman to withdraw that adjective that he used a moment ago. He's perfectly capable of asking his question without using that word. It is up to him, but if he doesn't wish to withdraw it, I can't reasonably ask the Prime Minister to answer the question. All he has to do is withdraw that word and think of another. Sorry? I think he knows the word beginning with D and ending in Y that he inappropriately used. <speaker:1> Davey. Davey or Davey. Withdraw! Yeah, I know. I know what you're saying. Very simple. <speaker:2> Withdrawal. <speaker:3> This man has done <speaker:1> more to divide this nation than anybody else. He's looked after his own pocket. I still refer to him as Dodgy Dave. Do what you like. <speaker:2> Order. Order. Order. Order. I'm sorry. I must ask the Honourable Gentleman to withdraw the work. <speaker:1> Very well. <speaker:2> Under the power given to me by Standing Order No. 43. I order the honourable member to withdraw immediately from the House for the remainder of this day's",
+        "accepted_count": 1,
+        "rejected_count": 7,
+        "abstained_count": 1,
+        "unchanged_count": 291,
+        "rejection_reasons_breakdown": {
+          "UNCHANGED_BASELINE_CONFIRMED": 291,
+          "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION": 4,
+          "ABSTAINED_PRESERVE_UNK": 1,
+          "REJECTED_UNKNOWN_SPEAKER_MAPPING": 3,
+          "ACCEPTED_VALIDATED_TRANSFER": 1
+        }
+      },
+      {
+        "segment_id": "R02_dennis_skinner__seg_001",
+        "recording_id": "R02_dennis_skinner",
+        "start_word_index": 300,
+        "end_word_index": 306,
+        "word_count": 7,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 53,
+        "completion_tokens": 32,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 0.703,
+        "prompt_text": "<|turn>user\n<speaker:2> sitting. <speaker:1> You're all frustrated! Stupid! <speaker:2> Very well. --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:2> sitting. <speaker:1> You're all frustrated! Stupid! <speaker:2> Very well. ",
+        "cleaned_completion": "<speaker:2> sitting. <speaker:1> You're all frustrated! Stupid! <speaker:2> Very well.",
+        "accepted_count": 0,
+        "rejected_count": 0,
+        "abstained_count": 0,
+        "unchanged_count": 7,
+        "rejection_reasons_breakdown": {
+          "UNCHANGED_BASELINE_CONFIRMED": 7
+        }
+      }
+    ]
+  },
+  "stage_history": [
+    {
+      "stage": "UPLOADED",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.05,
+      "started_at": "2026-11-13T15:04:13.927878+00:00",
+      "completed_at": "2026-11-13T15:04:13.927892+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Resolved frozen benchmark inputs for R02_dennis_skinner",
+      "artifacts": {
+        "recording_id": "R02_dennis_skinner"
+      }
+    },
+    {
+      "stage": "QUEUED",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.1,
+      "started_at": "2026-11-13T15:04:13.927899+00:00",
+      "completed_at": "2026-11-13T15:04:13.927901+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Queued ConvoFuse job (Stage5A.1_Condition_J_DualEncoder_EqualFusion)",
+      "artifacts": {
+        "diarization_condition": "Stage5A.1_Condition_J_DualEncoder_EqualFusion"
+      }
+    },
+    {
+      "stage": "AUDIO_EXTRACTION",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.18,
+      "started_at": "2026-11-13T15:04:13.927905+00:00",
+      "completed_at": "2026-11-13T15:04:13.927910+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Reused task-specific conditioned audio streams (DFN 16kHz, Raw Mono 16kHz, EBU R128 Normalized 16kHz)",
+      "artifacts": {
+        "source_media_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R02_dennis_skinner/R02_dennis_skinner_16k_mono.wav",
+        "titanet_dfn_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R02_dennis_skinner/R02_dennis_skinner_dfn.wav",
+        "wespeaker_raw_mono_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R02_dennis_skinner/R02_dennis_skinner_16k_mono.wav",
+        "asr_normalized_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R02_dennis_skinner/R02_dennis_skinner_normalized.wav",
+        "overlap_raw_mono_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R02_dennis_skinner/R02_dennis_skinner_16k_mono.wav",
+        "sample_rate": 16000,
+        "channels": 1,
+        "duration_sec": 176.2627,
+        "sha256_hashes": {
+          "16k_mono_wav": "1c19dac03c172013ad4fdd52f5858b63d669dae9b6c9ea63787fa2452ef5c104",
+          "dfn_wav": "86a527afc38a2cba757af57bdf18449ee0d735c491b28e0e4f6a14080971a562",
+          "normalized_wav": "c1e7d61899b87501f5253c4b9657dd910626a6cf02a964ad04ad9565a08c2e36"
+        }
+      }
+    },
+    {
+      "stage": "VAD",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.25,
+      "started_at": "2026-11-13T15:04:13.927913+00:00",
+      "completed_at": "2026-11-13T15:04:13.927916+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Reused Stage 2 / Stage 5B.4 C62 Silero VAD speech regions",
+      "artifacts": {
+        "condition": "Stage5A.1_Condition_J_DualEncoder_EqualFusion"
+      }
+    },
+    {
+      "stage": "ASR",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.35,
+      "started_at": "2026-11-13T15:04:13.927918+00:00",
+      "completed_at": "2026-11-13T15:04:13.928137+00:00",
+      "elapsed_sec": 0.000215,
+      "detail": "Loaded 307 Faster-Whisper Large-v3 words from frozen Stage 2 output",
+      "artifacts": {
+        "asr_aligned_words_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage2_baseline/whisperx/R02_dennis_skinner_aligned.json",
+        "word_count": 307
+      }
+    },
+    {
+      "stage": "WORD_ALIGNMENT",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.42,
+      "started_at": "2026-11-13T15:04:13.928142+00:00",
+      "completed_at": "2026-11-13T15:04:13.928144+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Verified Wav2Vec2 CTC word-level timestamps (307 words)",
+      "artifacts": {
+        "word_count": 307
+      }
+    },
+    {
+      "stage": "SPEAKER_REPRESENTATION",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.5,
+      "started_at": "2026-11-13T15:04:13.928147+00:00",
+      "completed_at": "2026-11-13T15:04:13.928222+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Reused dual-path speaker embeddings: TitaNet-Large (192-D on DFN) + WeSpeaker ResNet293-LM (256-D on Raw Mono)",
+      "artifacts": {
+        "diarization_backend": "TitaNet-Large(DFN,192D) + WeSpeaker-ResNet293-LM(Mono,256D) -> ZScore-Equal-Affinity-Fusion -> NME-SC"
+      }
+    },
+    {
+      "stage": "AFFINITY_FUSION",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.58,
+      "started_at": "2026-11-13T15:04:13.928226+00:00",
+      "completed_at": "2026-11-13T15:04:13.928228+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Reused off-diagonal Z-score normalized dual-encoder cosine affinity fusion",
+      "artifacts": {
+        "diarization_condition": "Stage5A.1_Condition_J_DualEncoder_EqualFusion"
+      }
+    },
+    {
+      "stage": "CLUSTERING",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.65,
+      "started_at": "2026-11-13T15:04:13.928232+00:00",
+      "completed_at": "2026-11-13T15:04:13.928236+00:00",
+      "elapsed_sec": 7.4e-05,
+      "detail": "Loaded 51 NME-SC spectral clustering speaker segments from R02_dennis_skinner_dfn.rttm",
+      "artifacts": {
+        "predicted_rttm_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage5a_1/predictions/rttms/condition_J_norm_equal_weight_fusion/R02_dennis_skinner_dfn.rttm",
+        "rttm_segment_count": 51
+      }
+    },
+    {
+      "stage": "WORD_SPEAKER_ASSIGNMENT",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.72,
+      "started_at": "2026-11-13T15:04:13.928239+00:00",
+      "completed_at": "2026-11-13T15:04:13.940134+00:00",
+      "elapsed_sec": 0.011867,
+      "detail": "Associated 307 words across 3 speakers (4 UNK, 7 overlapping)",
+      "artifacts": {
+        "word_count": 307,
+        "speaker_inventory": [
+          "SPEAKER_00",
+          "SPEAKER_01",
+          "SPEAKER_02"
+        ],
+        "unk_word_count": 4,
+        "overlapping_word_count": 7
+      }
+    },
+    {
+      "stage": "GENERATIVE_REFINEMENT",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.88,
+      "started_at": "2026-11-13T15:04:13.940143+00:00",
+      "completed_at": "2026-11-13T15:04:18.365310+00:00",
+      "elapsed_sec": 4.42516,
+      "detail": "Completed DiarizationLM-Gemma TPST refinement in 4.43s (ground-truth isolated)",
+      "artifacts": {
+        "model": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1 (Q4_K_M, LG-TPST)",
+        "summary_counts": {
+          "total_words": 307,
+          "accepted_corrections": 1,
+          "rejected_proposals": 7,
+          "abstained_words": 1,
+          "unchanged_words": 298,
+          "reasons_breakdown": {
+            "ABSTAINED_PRESERVE_UNK": 1,
+            "ACCEPTED_VALIDATED_TRANSFER": 1,
+            "REJECTED_UNKNOWN_SPEAKER_MAPPING": 3,
+            "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION": 4,
+            "UNCHANGED_BASELINE_CONFIRMED": 298
+          }
+        },
+        "ground_truth_isolated": true
+      }
+    },
+    {
+      "stage": "TRANSCRIPT_RECONSTRUCTION",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.94,
+      "started_at": "2026-11-13T15:04:18.365322+00:00",
+      "completed_at": "2026-11-13T15:04:18.367377+00:00",
+      "elapsed_sec": 0.002052,
+      "detail": "Reconstructed 26 chronological turns across 4 speakers",
+      "artifacts": {
+        "baseline_turn_count": 27,
+        "refined_turn_count": 26,
+        "speaker_count": 4
+      }
+    },
+    {
+      "stage": "EVALUATION",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.98,
+      "started_at": "2026-11-13T15:04:18.378543+00:00",
+      "completed_at": "2026-11-13T15:04:18.703408+00:00",
+      "elapsed_sec": 0.324864,
+      "detail": "Executed post-inference evaluation (strictly isolated from inference)",
+      "artifacts": {
+        "has_reference_annotations": true,
+        "metric_deltas": {
+          "delta_wder_timestamp_assigned": 0.0,
+          "delta_wder_timestamp_all_ref": 0.0,
+          "delta_wder_lexical": -0.0033,
+          "delta_cpwer": -0.0033
+        }
+      }
+    },
+    {
+      "stage": "COMPLETED",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 1.0,
+      "started_at": "2026-11-13T15:04:18.703420+00:00",
+      "completed_at": "2026-11-13T15:04:18.703427+00:00",
+      "elapsed_sec": 4.775552,
+      "detail": "ConvoFuse pipeline completed in 4.78s",
+      "artifacts": {
+        "total_pipeline_sec": 4.7756
+      }
+    }
+  ]
+}

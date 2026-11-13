@@ -1,0 +1,564 @@
+{
+  "total_words": 689,
+  "baseline_turn_count": 59,
+  "refined_turn_count": 61,
+  "refinement_summary": {
+    "recording_id": "R04_piers_robinson",
+    "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+    "ollama_model_name": "diarizationlm-gemma",
+    "quantization": "Q4_K_M",
+    "provider_version": "ollama-0.32.6",
+    "total_runtime_sec": 9.2539,
+    "total_prompt_tokens": 1250,
+    "total_completion_tokens": 1092,
+    "segment_count": 3,
+    "summary_counts": {
+      "total_words": 689,
+      "accepted_corrections": 22,
+      "rejected_proposals": 17,
+      "abstained_words": 20,
+      "unchanged_words": 630,
+      "reasons_breakdown": {
+        "ABSTAINED_LOCALITY_GATE": 20,
+        "ACCEPTED_VALIDATED_TRANSFER": 22,
+        "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION": 17,
+        "UNCHANGED_BASELINE_CONFIRMED": 630
+      }
+    },
+    "segment_telemetries": [
+      {
+        "segment_id": "R04_piers_robinson__seg_000",
+        "recording_id": "R04_piers_robinson",
+        "start_word_index": 0,
+        "end_word_index": 299,
+        "word_count": 300,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 563,
+        "completion_tokens": 522,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 4.1395,
+        "prompt_text": "<|turn>user\n<speaker:2> Would you have a ban, like Donald Trump suggested in America, would you have a ban on Muslims entering the country, new Muslims trying to have a home in this country? <speaker:1> I believe, I believe we need to protect the British public right now. <speaker:2> So what's the answer to the <speaker:3> question? Including British <speaker:1> Muslims? Yeah, the British public. I didn't say British non-Muslim public, I said the British public. We've had three terror attacks, children are being killed. <speaker:2> Yes, we all know what's been happening. <speaker:1> Yes, I would. <speaker:2> You would ban all Muslims? I <speaker:1> would temporarily halt Muslim immigration to this country until we get a grip of the problem. I differentiate Muslims from Islam. Right, <speaker:2> but what you don't do... How can you <speaker:3> differentiate Muslims <speaker:1> from Islam? Muslims are people. Islam is an idea. Islam is an idea, a bad idea. And <speaker:2> Muslims <speaker:1> follow that faith. It's an idea that you can change your mind. <speaker:2> No, it's a faith. Like Christianity. <speaker:1> Like Scientology. <speaker:2> Like all faiths. Like Scientology. It's a religion, it's a faith. <speaker:1> Like Scientology. <speaker:3> So, Tommy, if you're saying that the problem is with Islam, are you accepting that you're Islamophobic? <speaker:1> Because there are a hundred verses in this book. <speaker:3> Yes or no? Are you Islamophobic? There's <speaker:1> no such word as Islamophobia. Phobia is an irrational fear. It's not irrational to fear these things. Now, if I hold this book up and say, there will never be peace on this earth so long as we have this book, it's a violent and cursed book. Can I tell you who said that? Sir William Gladstone said that. You wouldn't do that with the Bible. <speaker:2> Show some respect. <speaker:1> Show some respect. Show <speaker:2> some respect. <speaker:1> Have you read this <speaker:2> book? For people? Have <speaker:1> you read this book? There are over --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:2> Would you have a ban, like Donald Trump suggested in America, would you have a ban on Muslims entering the country, new Muslims trying to have a home in this country? <speaker:1> I believe, I believe we need to protect the British public right now. <speaker:2> So what's the answer to the question? Including British <speaker:1> Muslims? Yeah, the British public. I didn't say British non-Muslim public, I said the British public. We've had three terror attacks, children are being killed. <speaker:2> Yes, we all know what's been happening. <speaker:1> Yes, I would. <speaker:2> You would ban all Muslims? <speaker:1> I would temporarily halt Muslim immigration to this country until we get a grip of the problem. I differentiate Muslims from Islam. <speaker:2> Right, but what you don't do... How can you differentiate Muslims from Islam? <speaker:1> Muslims are people. Islam is an idea. Islam is an idea, a bad idea. And Muslims follow that faith. It's an idea that you can change your mind. <speaker:2> No, it's a faith. Like Christianity. <speaker:1> Like Scientology. <speaker:2> Like all faiths. Like Scientology. It's a religion, it's a faith. <speaker:1> Like Scientology. <speaker:3> So, Tommy, if you're saying that the problem is with Islam, are you accepting that you're Islamophobic? <speaker:1> Because there are a hundred verses in this book. <speaker:3> Yes or no? Are you Islamophobic? There's <speaker:1> no such word as Islamophobia. Phobia is an irrational fear. It's not irrational to fear these things. Now, if I hold this book up and say, there will never be peace on this earth so long as we have this book, it's a violent and cursed book. Can I tell you who said that? Sir William Gladstone said that. You wouldn't do that with the Bible. <speaker:2> Show some respect. <speaker:1> Show some respect. <speaker:2> Show some respect. <speaker:1> Have you read this book? <speaker:2> For people? <speaker:1> Have you read this book? There are over ",
+        "cleaned_completion": "<speaker:2> Would you have a ban, like Donald Trump suggested in America, would you have a ban on Muslims entering the country, new Muslims trying to have a home in this country? <speaker:1> I believe, I believe we need to protect the British public right now. <speaker:2> So what's the answer to the question? Including British <speaker:1> Muslims? Yeah, the British public. I didn't say British non-Muslim public, I said the British public. We've had three terror attacks, children are being killed. <speaker:2> Yes, we all know what's been happening. <speaker:1> Yes, I would. <speaker:2> You would ban all Muslims? <speaker:1> I would temporarily halt Muslim immigration to this country until we get a grip of the problem. I differentiate Muslims from Islam. <speaker:2> Right, but what you don't do... How can you differentiate Muslims from Islam? <speaker:1> Muslims are people. Islam is an idea. Islam is an idea, a bad idea. And Muslims follow that faith. It's an idea that you can change your mind. <speaker:2> No, it's a faith. Like Christianity. <speaker:1> Like Scientology. <speaker:2> Like all faiths. Like Scientology. It's a religion, it's a faith. <speaker:1> Like Scientology. <speaker:3> So, Tommy, if you're saying that the problem is with Islam, are you accepting that you're Islamophobic? <speaker:1> Because there are a hundred verses in this book. <speaker:3> Yes or no? Are you Islamophobic? There's <speaker:1> no such word as Islamophobia. Phobia is an irrational fear. It's not irrational to fear these things. Now, if I hold this book up and say, there will never be peace on this earth so long as we have this book, it's a violent and cursed book. Can I tell you who said that? Sir William Gladstone said that. You wouldn't do that with the Bible. <speaker:2> Show some respect. <speaker:1> Show some respect. <speaker:2> Show some respect. <speaker:1> Have you read this book? <speaker:2> For people? <speaker:1> Have you read this book? There are over",
+        "accepted_count": 8,
+        "rejected_count": 5,
+        "abstained_count": 0,
+        "unchanged_count": 287,
+        "rejection_reasons_breakdown": {
+          "UNCHANGED_BASELINE_CONFIRMED": 287,
+          "ACCEPTED_VALIDATED_TRANSFER": 8,
+          "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION": 5
+        }
+      },
+      {
+        "segment_id": "R04_piers_robinson__seg_001",
+        "recording_id": "R04_piers_robinson",
+        "start_word_index": 300,
+        "end_word_index": 599,
+        "word_count": 300,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 527,
+        "completion_tokens": 446,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 3.6469,
+        "prompt_text": "<|turn>user\n<speaker:1> a billion people. There are a hundred verses in this book that incite violence and murder against us. Show <speaker:2> some damn respect for people's religious beliefs, right? <speaker:1> I should show some respect for a book that incites murder against me. Put <speaker:2> it down. <speaker:1> And calls me, this calls me an animal. No, I put it down. sir william gladstone held this book above his head in parliament and he said there will never be peace on this earth so long as we have this book it's a violent and cursed book was sir william gladstone who we have statues across our capital c was he a bigot or an islamic winston church <speaker:2> sounding like a complete <speaker:1> winston church no i'm quoting previous some of the best leaders in this country <speaker:2> sounding like a bigoted lunatic <speaker:1> no i'm not <speaker:2> somebody that <speaker:1> basically <speaker:2> you are an islamic who hates islam no <speaker:1> i don't <speaker:2> basically think all muslims are blame we've seen you on video saying it and what you're doing now is deliberately inflammatory it is deliberately poisonous <speaker:1> and you are having the complete <speaker:2> opposite effect to the one that you <speaker:1> say you are you are <speaker:2> stirring up hatred you are abusing people's religion you're abusing their faith and you're being a complete disgrace <speaker:1> what do you know about the prophet muhammad We've established nothing. You are ignorant. I know <speaker:2> that you're deliberately insulting people. What <speaker:1> do you know about the Prophet? How am I insulting people? <speaker:2> Who have deeply held religious beliefs. <speaker:1> And you <speaker:2> flouncing the Quran around in your hand <speaker:1> in that <speaker:2> disgraceful manner is <speaker:1> outrageous. This book is the reason we're in such a mess. That's the reality. <speaker:2> No, we're in this mess because people take Islam, they are terrorists, and they abuse the nature of Islam and the --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:1> a billion people. There are a hundred verses in this book that incite violence and murder against us. <speaker:2> Show some damn respect for people's religious beliefs, right? <speaker:1> I should show some respect for a book that incites murder against me. <speaker:2> Put it down. <speaker:1> And calls me, this calls me an animal. No, I put it down. sir william gladstone held this book above his head in parliament and he said there will never be peace on this earth so long as we have this book it's a violent and cursed book was sir william gladstone who we have statues across our capital c <speaker:2> was he a bigot or an islamic winston church sounding like a complete <speaker:1> winston church no i'm quoting previous some of the best leaders in this country <speaker:2> sounding like a bigoted lunatic <speaker:1> no i'm not somebody that basically you are an islamic who hates islam no i don't <speaker:2> basically think all muslims are blame we've seen you on video saying it and what you're doing now is deliberately inflammatory it is deliberately poisonous and you are having the complete opposite effect to the one that you say you are you are stirring up hatred you are abusing people's religion you're abusing their faith and you're being a complete disgrace <speaker:1> what do you know about the prophet muhammad We've established nothing. You are ignorant. <speaker:2> I know that you're deliberately insulting people. <speaker:1> What do you know about the Prophet? How am I insulting people? <speaker:2> Who have deeply held religious beliefs. And you flouncing the Quran around in your hand in that disgraceful manner is outrageous. <speaker:1> This book is the reason we're in such a mess. That's the reality. <speaker:2> No, we're in this mess because people take Islam, they are terrorists, and they abuse the nature of Islam and the ",
+        "cleaned_completion": "<speaker:1> a billion people. There are a hundred verses in this book that incite violence and murder against us. <speaker:2> Show some damn respect for people's religious beliefs, right? <speaker:1> I should show some respect for a book that incites murder against me. <speaker:2> Put it down. <speaker:1> And calls me, this calls me an animal. No, I put it down. sir william gladstone held this book above his head in parliament and he said there will never be peace on this earth so long as we have this book it's a violent and cursed book was sir william gladstone who we have statues across our capital c <speaker:2> was he a bigot or an islamic winston church sounding like a complete <speaker:1> winston church no i'm quoting previous some of the best leaders in this country <speaker:2> sounding like a bigoted lunatic <speaker:1> no i'm not somebody that basically you are an islamic who hates islam no i don't <speaker:2> basically think all muslims are blame we've seen you on video saying it and what you're doing now is deliberately inflammatory it is deliberately poisonous and you are having the complete opposite effect to the one that you say you are you are stirring up hatred you are abusing people's religion you're abusing their faith and you're being a complete disgrace <speaker:1> what do you know about the prophet muhammad We've established nothing. You are ignorant. <speaker:2> I know that you're deliberately insulting people. <speaker:1> What do you know about the Prophet? How am I insulting people? <speaker:2> Who have deeply held religious beliefs. And you flouncing the Quran around in your hand in that disgraceful manner is outrageous. <speaker:1> This book is the reason we're in such a mess. That's the reality. <speaker:2> No, we're in this mess because people take Islam, they are terrorists, and they abuse the nature of Islam and the",
+        "accepted_count": 10,
+        "rejected_count": 10,
+        "abstained_count": 20,
+        "unchanged_count": 260,
+        "rejection_reasons_breakdown": {
+          "UNCHANGED_BASELINE_CONFIRMED": 260,
+          "ACCEPTED_VALIDATED_TRANSFER": 10,
+          "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION": 10,
+          "ABSTAINED_LOCALITY_GATE": 20
+        }
+      },
+      {
+        "segment_id": "R04_piers_robinson__seg_002",
+        "recording_id": "R04_piers_robinson",
+        "start_word_index": 600,
+        "end_word_index": 688,
+        "word_count": 89,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 160,
+        "completion_tokens": 124,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 1.3464,
+        "prompt_text": "<|turn>user\n<speaker:2> wording of Islam. And they perpetrate evil, and it is completely wrong. Do you know that how? that the vast majority of muslims who are decent law-abiding people to trying to abuse and mock their faith and their holy book is an outrage <speaker:1> their holy book when you talk okay <speaker:3> so when the <speaker:1> sacred maps are past slay the non-muslims wherever you find them and take them captive and besiege them and prepare for them in ambush. Who's slaying who? I'm not slaying hatred, this calls <speaker:3> for my death. --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:2> wording of Islam. And they perpetrate evil, and it is completely wrong. Do you know that how? that the vast majority of muslims who are decent law-abiding people to trying to abuse and mock their faith and their holy book is an outrage <speaker:1> their holy book when you talk okay so when the sacred maps are past slay the non-muslims wherever you find them and take them captive and besiege them and prepare for them in ambush. Who's slaying who? I'm not slaying hatred, this calls for my death. ",
+        "cleaned_completion": "<speaker:2> wording of Islam. And they perpetrate evil, and it is completely wrong. Do you know that how? that the vast majority of muslims who are decent law-abiding people to trying to abuse and mock their faith and their holy book is an outrage <speaker:1> their holy book when you talk okay so when the sacred maps are past slay the non-muslims wherever you find them and take them captive and besiege them and prepare for them in ambush. Who's slaying who? I'm not slaying hatred, this calls for my death.",
+        "accepted_count": 4,
+        "rejected_count": 2,
+        "abstained_count": 0,
+        "unchanged_count": 83,
+        "rejection_reasons_breakdown": {
+          "UNCHANGED_BASELINE_CONFIRMED": 83,
+          "ACCEPTED_VALIDATED_TRANSFER": 4,
+          "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION": 2
+        }
+      }
+    ]
+  },
+  "changed_words_count": 22,
+  "changed_words": [
+    {
+      "word_index": 50,
+      "word": "question?",
+      "start": 15.948,
+      "end": 16.248,
+      "baseline_speaker_id": "SPEAKER_02",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_02 to SPEAKER_01."
+    },
+    {
+      "word_index": 51,
+      "word": "Including",
+      "start": 16.268,
+      "end": 16.609,
+      "baseline_speaker_id": "SPEAKER_02",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_02 to SPEAKER_01."
+    },
+    {
+      "word_index": 93,
+      "word": "I",
+      "start": 30.277,
+      "end": 30.337,
+      "baseline_speaker_id": "SPEAKER_01",
+      "refined_speaker_id": "SPEAKER_00",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_01 to SPEAKER_00."
+    },
+    {
+      "word_index": 115,
+      "word": "Right,",
+      "start": 36.382,
+      "end": 36.582,
+      "baseline_speaker_id": "SPEAKER_00",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_00 to SPEAKER_01."
+    },
+    {
+      "word_index": 124,
+      "word": "differentiate",
+      "start": 38.203,
+      "end": 38.743,
+      "baseline_speaker_id": "SPEAKER_02",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_02 to SPEAKER_01."
+    },
+    {
+      "word_index": 125,
+      "word": "Muslims",
+      "start": 38.783,
+      "end": 39.244,
+      "baseline_speaker_id": "SPEAKER_02",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_02 to SPEAKER_01."
+    },
+    {
+      "word_index": 127,
+      "word": "Islam?",
+      "start": 39.704,
+      "end": 39.824,
+      "baseline_speaker_id": "SPEAKER_00",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_00 to SPEAKER_01."
+    },
+    {
+      "word_index": 289,
+      "word": "book?",
+      "start": 87.107,
+      "end": 87.207,
+      "baseline_speaker_id": "SPEAKER_01",
+      "refined_speaker_id": "SPEAKER_00",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_01 to SPEAKER_00."
+    },
+    {
+      "word_index": 318,
+      "word": "Show",
+      "start": 93.112,
+      "end": 93.312,
+      "baseline_speaker_id": "SPEAKER_00",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_00 to SPEAKER_01."
+    },
+    {
+      "word_index": 438,
+      "word": "somebody",
+      "start": 119.853,
+      "end": 120.313,
+      "baseline_speaker_id": "SPEAKER_01",
+      "refined_speaker_id": "SPEAKER_00",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_01 to SPEAKER_00."
+    },
+    {
+      "word_index": 439,
+      "word": "that",
+      "start": 120.333,
+      "end": 120.534,
+      "baseline_speaker_id": "SPEAKER_01",
+      "refined_speaker_id": "SPEAKER_00",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_01 to SPEAKER_00."
+    },
+    {
+      "word_index": 490,
+      "word": "you",
+      "start": 137.583,
+      "end": 137.783,
+      "baseline_speaker_id": "SPEAKER_00",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_00 to SPEAKER_01."
+    },
+    {
+      "word_index": 491,
+      "word": "are",
+      "start": 137.864,
+      "end": 137.944,
+      "baseline_speaker_id": "SPEAKER_00",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_00 to SPEAKER_01."
+    },
+    {
+      "word_index": 492,
+      "word": "you",
+      "start": 137.964,
+      "end": 138.064,
+      "baseline_speaker_id": "SPEAKER_00",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_00 to SPEAKER_01."
+    },
+    {
+      "word_index": 526,
+      "word": "I",
+      "start": 147.348,
+      "end": 147.388,
+      "baseline_speaker_id": "SPEAKER_00",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_00 to SPEAKER_01."
+    },
+    {
+      "word_index": 552,
+      "word": "you",
+      "start": 153.611,
+      "end": 153.771,
+      "baseline_speaker_id": "SPEAKER_00",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_00 to SPEAKER_01."
+    },
+    {
+      "word_index": 560,
+      "word": "in",
+      "start": 155.793,
+      "end": 155.833,
+      "baseline_speaker_id": "SPEAKER_00",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_00 to SPEAKER_01."
+    },
+    {
+      "word_index": 561,
+      "word": "that",
+      "start": 155.853,
+      "end": 156.093,
+      "baseline_speaker_id": "SPEAKER_00",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_00 to SPEAKER_01."
+    },
+    {
+      "word_index": 650,
+      "word": "so",
+      "start": 185.215,
+      "end": 185.335,
+      "baseline_speaker_id": "SPEAKER_02",
+      "refined_speaker_id": "SPEAKER_00",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_02 to SPEAKER_00."
+    },
+    {
+      "word_index": 651,
+      "word": "when",
+      "start": 185.375,
+      "end": 185.495,
+      "baseline_speaker_id": "SPEAKER_02",
+      "refined_speaker_id": "SPEAKER_00",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_02 to SPEAKER_00."
+    },
+    {
+      "word_index": 687,
+      "word": "my",
+      "start": 193.945,
+      "end": 194.065,
+      "baseline_speaker_id": "SPEAKER_02",
+      "refined_speaker_id": "SPEAKER_00",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_02 to SPEAKER_00."
+    },
+    {
+      "word_index": 688,
+      "word": "death.",
+      "start": 194.085,
+      "end": 194.466,
+      "baseline_speaker_id": "SPEAKER_02",
+      "refined_speaker_id": "SPEAKER_00",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_02 to SPEAKER_00."
+    }
+  ],
+  "rejected_proposals_count": 17,
+  "rejected_proposals": [
+    {
+      "word_index": 52,
+      "word": "British",
+      "start": 16.629,
+      "end": 17.049,
+      "baseline_speaker_id": "SPEAKER_02",
+      "proposed_speaker_id": "SPEAKER_01",
+      "reconciliation_reason": "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION",
+      "reasoning_note": "Word lies in a simultaneous multi-speaker overlap interval; lexical LLM reassignment rejected to avoid unsupported simultaneous-overlap claim."
+    },
+    {
+      "word_index": 126,
+      "word": "from",
+      "start": 39.344,
+      "end": 39.684,
+      "baseline_speaker_id": "SPEAKER_00",
+      "proposed_speaker_id": "SPEAKER_01",
+      "reconciliation_reason": "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION",
+      "reasoning_note": "Word lies in a simultaneous multi-speaker overlap interval; lexical LLM reassignment rejected to avoid unsupported simultaneous-overlap claim."
+    },
+    {
+      "word_index": 143,
+      "word": "Muslims",
+      "start": 43.687,
+      "end": 44.348,
+      "baseline_speaker_id": "SPEAKER_01",
+      "proposed_speaker_id": "SPEAKER_00",
+      "reconciliation_reason": "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION",
+      "reasoning_note": "Word lies in a simultaneous multi-speaker overlap interval; lexical LLM reassignment rejected to avoid unsupported simultaneous-overlap claim."
+    },
+    {
+      "word_index": 282,
+      "word": "Show",
+      "start": 85.726,
+      "end": 85.886,
+      "baseline_speaker_id": "SPEAKER_00",
+      "proposed_speaker_id": "SPEAKER_01",
+      "reconciliation_reason": "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION",
+      "reasoning_note": "Word lies in a simultaneous multi-speaker overlap interval; lexical LLM reassignment rejected to avoid unsupported simultaneous-overlap claim."
+    },
+    {
+      "word_index": 292,
+      "word": "Have",
+      "start": 87.767,
+      "end": 87.847,
+      "baseline_speaker_id": "SPEAKER_01",
+      "proposed_speaker_id": "SPEAKER_00",
+      "reconciliation_reason": "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION",
+      "reasoning_note": "Word lies in a simultaneous multi-speaker overlap interval; lexical LLM reassignment rejected to avoid unsupported simultaneous-overlap claim."
+    },
+    {
+      "word_index": 340,
+      "word": "Put",
+      "start": 98.497,
+      "end": 98.617,
+      "baseline_speaker_id": "SPEAKER_00",
+      "proposed_speaker_id": "SPEAKER_01",
+      "reconciliation_reason": "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION",
+      "reasoning_note": "Word lies in a simultaneous multi-speaker overlap interval; lexical LLM reassignment rejected to avoid unsupported simultaneous-overlap claim."
+    },
+    {
+      "word_index": 441,
+      "word": "you",
+      "start": 121.694,
+      "end": 121.794,
+      "baseline_speaker_id": "SPEAKER_01",
+      "proposed_speaker_id": "SPEAKER_00",
+      "reconciliation_reason": "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION",
+      "reasoning_note": "Word lies in a simultaneous multi-speaker overlap interval; lexical LLM reassignment rejected to avoid unsupported simultaneous-overlap claim."
+    },
+    {
+      "word_index": 448,
+      "word": "no",
+      "start": 124.576,
+      "end": 124.797,
+      "baseline_speaker_id": "SPEAKER_01",
+      "proposed_speaker_id": "SPEAKER_00",
+      "reconciliation_reason": "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION",
+      "reasoning_note": "Word lies in a simultaneous multi-speaker overlap interval; lexical LLM reassignment rejected to avoid unsupported simultaneous-overlap claim."
+    },
+    {
+      "word_index": 481,
+      "word": "complete",
+      "start": 134.782,
+      "end": 135.002,
+      "baseline_speaker_id": "SPEAKER_00",
+      "proposed_speaker_id": "SPEAKER_01",
+      "reconciliation_reason": "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION",
+      "reasoning_note": "Word lies in a simultaneous multi-speaker overlap interval; lexical LLM reassignment rejected to avoid unsupported simultaneous-overlap claim."
+    },
+    {
+      "word_index": 489,
+      "word": "say",
+      "start": 136.803,
+      "end": 137.523,
+      "baseline_speaker_id": "SPEAKER_00",
+      "proposed_speaker_id": "SPEAKER_01",
+      "reconciliation_reason": "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION",
+      "reasoning_note": "Word lies in a simultaneous multi-speaker overlap interval; lexical LLM reassignment rejected to avoid unsupported simultaneous-overlap claim."
+    },
+    {
+      "word_index": 493,
+      "word": "are",
+      "start": 138.104,
+      "end": 138.224,
+      "baseline_speaker_id": "SPEAKER_00",
+      "proposed_speaker_id": "SPEAKER_01",
+      "reconciliation_reason": "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION",
+      "reasoning_note": "Word lies in a simultaneous multi-speaker overlap interval; lexical LLM reassignment rejected to avoid unsupported simultaneous-overlap claim."
+    },
+    {
+      "word_index": 527,
+      "word": "know",
+      "start": 147.428,
+      "end": 147.588,
+      "baseline_speaker_id": "SPEAKER_00",
+      "proposed_speaker_id": "SPEAKER_01",
+      "reconciliation_reason": "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION",
+      "reasoning_note": "Word lies in a simultaneous multi-speaker overlap interval; lexical LLM reassignment rejected to avoid unsupported simultaneous-overlap claim."
+    },
+    {
+      "word_index": 533,
+      "word": "What",
+      "start": 148.729,
+      "end": 148.809,
+      "baseline_speaker_id": "SPEAKER_01",
+      "proposed_speaker_id": "SPEAKER_00",
+      "reconciliation_reason": "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION",
+      "reasoning_note": "Word lies in a simultaneous multi-speaker overlap interval; lexical LLM reassignment rejected to avoid unsupported simultaneous-overlap claim."
+    },
+    {
+      "word_index": 551,
+      "word": "And",
+      "start": 153.011,
+      "end": 153.191,
+      "baseline_speaker_id": "SPEAKER_00",
+      "proposed_speaker_id": "SPEAKER_01",
+      "reconciliation_reason": "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION",
+      "reasoning_note": "Word lies in a simultaneous multi-speaker overlap interval; lexical LLM reassignment rejected to avoid unsupported simultaneous-overlap claim."
+    },
+    {
+      "word_index": 565,
+      "word": "outrageous.",
+      "start": 157.233,
+      "end": 158.154,
+      "baseline_speaker_id": "SPEAKER_00",
+      "proposed_speaker_id": "SPEAKER_01",
+      "reconciliation_reason": "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION",
+      "reasoning_note": "Word lies in a simultaneous multi-speaker overlap interval; lexical LLM reassignment rejected to avoid unsupported simultaneous-overlap claim."
+    },
+    {
+      "word_index": 652,
+      "word": "the",
+      "start": 185.515,
+      "end": 185.635,
+      "baseline_speaker_id": "SPEAKER_02",
+      "proposed_speaker_id": "SPEAKER_00",
+      "reconciliation_reason": "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION",
+      "reasoning_note": "Word lies in a simultaneous multi-speaker overlap interval; lexical LLM reassignment rejected to avoid unsupported simultaneous-overlap claim."
+    },
+    {
+      "word_index": 686,
+      "word": "for",
+      "start": 193.785,
+      "end": 193.925,
+      "baseline_speaker_id": "SPEAKER_02",
+      "proposed_speaker_id": "SPEAKER_00",
+      "reconciliation_reason": "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION",
+      "reasoning_note": "Word lies in a simultaneous multi-speaker overlap interval; lexical LLM reassignment rejected to avoid unsupported simultaneous-overlap claim."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "window_id": "R01_sara_sharif__E20__live_gemini__win_000",
+  "is_valid_json": true,
+  "is_valid_schema": true,
+  "expected_word_count": 75,
+  "received_decision_count": 75,
+  "missing_word_indices": [],
+  "extra_decisions_count": 0,
+  "extra_decisions": [],
+  "reordered_word_indices": [],
+  "mismatched_word_indices": [],
+  "invalid_speaker_word_indices": [],
+  "accepted_word_indices": [],
+  "abstained_word_indices": [
+    0,
+    1
+  ],
+  "window_rejection_reason": null
+}

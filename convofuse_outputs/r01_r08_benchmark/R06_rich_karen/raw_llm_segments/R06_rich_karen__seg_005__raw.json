@@ -1,0 +1,24 @@
+{
+  "segment_id": "R06_rich_karen__seg_005",
+  "recording_id": "R06_rich_karen",
+  "prompt": "<|turn>user\n<speaker:4> innocent unless proven guilty in a court of law. <speaker:3> might think pursuit is always speeding swerving and just being reckless but some of the most unpredictable drivers are the ones trying to appear cooperative while refusing to stop and it might look polite but it's still resistance she was definitely running from the police but she was also deciding where she wanted to deal with them which was her house and that matters because once a suspect reaches the residence the risk to officers goes way up garages mean weapons family members or someone possibly disappearing inside and forcing a standoff that's exactly why Our officers boxed a car in like that. Now, you saw officers use the shatter bar, and what that does is allow officers to break the glass from a distance instead of walking up to a possibly armed driver, and police in Maine started using that around 2023. Most arrests aren't decided by how fast you drive. They're decided by the first moment you choose not to comply. Remember, it's about decisions, and if understanding why officers act help you see these videos differently, that's the point. Because our purpose here isn't just to show you videos. It's to give you insight and guidance so you won't cause yourself any problems during the traffic stop. --> <turn|>\n<|turn>model\n",
+  "completion_data": {
+    "raw_completion": "<speaker:4> innocent unless proven guilty in a court of law. <speaker:3> might think pursuit is always speeding swerving and just being reckless but some of the most unpredictable drivers are the ones trying to appear cooperative while refusing to stop and it might look polite but it's still resistance she was definitely running from the police but she was also deciding where she wanted to deal with them which was her house and that matters because once a suspect reaches the residence the risk to officers goes way up garages mean weapons family members or someone possibly disappearing inside and forcing a standoff that's exactly why Our officers boxed a car in like that. Now, you saw officers use the shatter bar, and what that does is allow officers to break the glass from a distance instead of walking up to a possibly armed driver, and police in Maine started using that around 2023. Most arrests aren't decided by how fast you drive. They're decided by the first moment you choose not to comply. Remember, it's about decisions, and if understanding why officers act help you see these videos differently, that's the point. Because our purpose here isn't just to show you videos. It's to give you insight and guidance so you won't cause yourself any problems during the traffic stop. ",
+    "done": true,
+    "done_reason": "stop",
+    "prompt_tokens": 291,
+    "completion_tokens": 270,
+    "runtime_sec": 2.4063,
+    "ollama_total_duration_ns": 2402809255,
+    "prompt_configuration": {
+      "temperature": 0.0,
+      "top_k": 1,
+      "seed": 42,
+      "num_predict": 2048,
+      "stop": [
+        "<turn|>",
+        "[eod]"
+      ]
+    }
+  }
+}

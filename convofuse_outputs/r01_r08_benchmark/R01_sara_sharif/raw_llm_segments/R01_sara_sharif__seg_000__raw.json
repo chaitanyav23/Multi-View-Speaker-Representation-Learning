@@ -1,0 +1,24 @@
+{
+  "segment_id": "R01_sara_sharif__seg_000",
+  "recording_id": "R01_sara_sharif",
+  "prompt": "<|turn>user\n<speaker:0> Yes sir. <speaker:3> We are, yes. Are you okay just to swap over, just yourself come with me and if you go with my colleague over there, is that alright? Alright. That's what I was going to say about it. Thank you. Cutting back. <speaker:2> Yes. <speaker:1> Which one is your bag? I don't have any bag. You have no bag? We'll look over here. Yance, you have a lot of peace. I'll explain more outside, okay? Sorry, I'll explain. Let's hold on to him a little. Yeah, could you just confirm your name for me please, sir? Sorry. Good punch, Sharif. Yes, yeah, often, okay. So, the time is 19.47 hours. The body of Sarah Sharif was discovered on the 10th of August, 2023, on 6 Hammond Road in Horsall. On the injuries sustained by her and the investigation conducted, you are suspected of her murder. You are therefore arrested for murder of Sarah Sharif. You do not have to say anything when it may harm your defence. You do not mention when questioned, something which you later rely on in court, and anything you do say may be given in evidence. <speaker:2> You are therefore arrested for the murder of Cheryl Shree. You didn't have to say anything, but it may have been on your offence if you didn't mention one question, something which you later rely on in court. Any of you do say maybe they've never seen someone like me. <speaker:3> From the injuries sustained by her and the investigation conducted, you are suspected of her murder. You are therefore arrested for the murder of Saad Sharif. --> <turn|>\n<|turn>model\n",
+  "completion_data": {
+    "raw_completion": "<speaker:2> Yes sir. <speaker:3> We are, yes. Are you okay just to swap over, just yourself come with me and if you go with my colleague over there, is that alright? <speaker:2> Alright. <speaker:3> That's what I was going to say about it. Thank you. Cutting back. <speaker:2> Yes. <speaker:1> Which one is your bag? I don't have any bag. You have no bag? We'll look over here. Yance, you have a lot of peace. I'll explain more outside, okay? Sorry, I'll explain. Let's hold on to him a little. Yeah, could you just confirm your name for me please, sir? Sorry. Good punch, Sharif. Yes, yeah, often, okay. So, the time is 19.47 hours. The body of Sarah Sharif was discovered on the 10th of August, 2023, on 6 Hammond Road in Horsall. On the injuries sustained by her and the investigation conducted, you are suspected of her murder. You are therefore arrested for murder of Sarah Sharif. You do not have to say anything when it may harm your defence. You do not mention when questioned, something which you later rely on in court, and anything you do say may be given in evidence. <speaker:2> You are therefore arrested for the murder of Cheryl Shree. You didn't have to say anything, but it may have been on your offence if you didn't mention one question, something which you later rely on in court. Any of you do say maybe they've never seen someone like me. <speaker:3> From the injuries sustained by her and the investigation conducted, you are suspected of her murder. You are therefore arrested for the murder of Saad Sharif. ",
+    "done": true,
+    "done_reason": "stop",
+    "prompt_tokens": 406,
+    "completion_tokens": 395,
+    "runtime_sec": 3.2597,
+    "ollama_total_duration_ns": 3255259115,
+    "prompt_configuration": {
+      "temperature": 0.0,
+      "top_k": 1,
+      "seed": 42,
+      "num_predict": 2048,
+      "stop": [
+        "<turn|>",
+        "[eod]"
+      ]
+    }
+  }
+}

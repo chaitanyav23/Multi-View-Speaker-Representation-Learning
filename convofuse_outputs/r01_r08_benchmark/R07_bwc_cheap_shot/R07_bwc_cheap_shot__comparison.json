@@ -1,0 +1,157 @@
+{
+  "total_words": 478,
+  "baseline_turn_count": 16,
+  "refined_turn_count": 16,
+  "refinement_summary": {
+    "recording_id": "R07_bwc_cheap_shot",
+    "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+    "ollama_model_name": "diarizationlm-gemma",
+    "quantization": "Q4_K_M",
+    "provider_version": "ollama-0.32.6",
+    "total_runtime_sec": 6.1905,
+    "total_prompt_tokens": 752,
+    "total_completion_tokens": 730,
+    "segment_count": 2,
+    "summary_counts": {
+      "total_words": 478,
+      "accepted_corrections": 0,
+      "rejected_proposals": 5,
+      "abstained_words": 0,
+      "unchanged_words": 473,
+      "reasons_breakdown": {
+        "REJECTED_UNKNOWN_SPEAKER_MAPPING": 5,
+        "UNCHANGED_BASELINE_CONFIRMED": 473
+      }
+    },
+    "segment_telemetries": [
+      {
+        "segment_id": "R07_bwc_cheap_shot__seg_000",
+        "recording_id": "R07_bwc_cheap_shot",
+        "start_word_index": 0,
+        "end_word_index": 299,
+        "word_count": 300,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 458,
+        "completion_tokens": 457,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 3.7228,
+        "prompt_text": "<|turn>user\n<speaker:1> Okay, my name's Peter, I'm based at Fortwood Police Station in Peterborough. I have to go through this bit, yeah. The grounds for the search is that the vehicle is linked to drug supply. There's lots of loose cash in that centre console, which often is linked to drug supply. And I can smell a faint smell of cannabis coming out of the vehicle as well. Just do your thing, isn't it? Yeah, alright. So, you are entitled to a copy of this search, okay, and it's section 23 of the Misuse of Drugs Act, so I'm going to be searching for any controlled drugs. Have you got any controlled drugs on you? No. Okay, cool. Have you got anything on you? No. Weapon, anything like that? Anything that's going to hurt me? Cool, alright. If you haven't got anything on you mate, you'll be all the way around. We'll be searching the vehicle. <speaker:0> Do <speaker:1> you want me to, like, put the thing against the vehicle? Say again? Is this all cool? Yeah, mate, it's fine. Yeah, it's fine. Basically, if you have got anything on you, it's important that you tell me, alright? What's that in there? I don't even know what it is. What is that? My balls. Your balls aren't hard and square. Yeah, they are. Your balls are hard and square, eh? Oh, they're hard and square. You can get two bands. Yeah. yeah i'm not i'm not convinced you haven't got something down there mate all right all right so we're what will happen you'll go back to the police station yeah you'll be strip searched if if it's nothing there it's fine but that seems too hard to be all right Oi! Stay on the floor! Get on the floor now! I'm on the --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:1> Okay, my name's Peter, I'm based at Fortwood Police Station in Peterborough. I have to go through this bit, yeah. The grounds for the search is that the vehicle is linked to drug supply. There's lots of loose cash in that centre console, which often is linked to drug supply. And I can smell a faint smell of cannabis coming out of the vehicle as well. Just do your thing, isn't it? Yeah, alright. So, you are entitled to a copy of this search, okay, and it's section 23 of the Misuse of Drugs Act, so I'm going to be searching for any controlled drugs. Have you got any controlled drugs on you? <speaker:0> No. <speaker:1> Okay, cool. Have you got anything on you? <speaker:0> No. <speaker:1> Weapon, anything like that? Anything that's going to hurt me? Cool, alright. If you haven't got anything on you mate, you'll be all the way around. We'll be searching the vehicle. Do you want me to, like, put the thing against the vehicle? <speaker:0> Say again? <speaker:1> Is this all cool? Yeah, mate, it's fine. Yeah, it's fine. Basically, if you have got anything on you, it's important that you tell me, alright? What's that in there? I don't even know what it is. What is that? My balls. Your balls aren't hard and square. Yeah, they are. Your balls are hard and square, eh? Oh, they're hard and square. You can get two bands. Yeah. yeah i'm not i'm not convinced you haven't got something down there mate all right all right so we're what will happen you'll go back to the police station yeah you'll be strip searched if if it's nothing there it's fine but that seems too hard to be all right Oi! Stay on the floor! Get on the floor now! I'm on the ",
+        "cleaned_completion": "<speaker:1> Okay, my name's Peter, I'm based at Fortwood Police Station in Peterborough. I have to go through this bit, yeah. The grounds for the search is that the vehicle is linked to drug supply. There's lots of loose cash in that centre console, which often is linked to drug supply. And I can smell a faint smell of cannabis coming out of the vehicle as well. Just do your thing, isn't it? Yeah, alright. So, you are entitled to a copy of this search, okay, and it's section 23 of the Misuse of Drugs Act, so I'm going to be searching for any controlled drugs. Have you got any controlled drugs on you? <speaker:0> No. <speaker:1> Okay, cool. Have you got anything on you? <speaker:0> No. <speaker:1> Weapon, anything like that? Anything that's going to hurt me? Cool, alright. If you haven't got anything on you mate, you'll be all the way around. We'll be searching the vehicle. Do you want me to, like, put the thing against the vehicle? <speaker:0> Say again? <speaker:1> Is this all cool? Yeah, mate, it's fine. Yeah, it's fine. Basically, if you have got anything on you, it's important that you tell me, alright? What's that in there? I don't even know what it is. What is that? My balls. Your balls aren't hard and square. Yeah, they are. Your balls are hard and square, eh? Oh, they're hard and square. You can get two bands. Yeah. yeah i'm not i'm not convinced you haven't got something down there mate all right all right so we're what will happen you'll go back to the police station yeah you'll be strip searched if if it's nothing there it's fine but that seems too hard to be all right Oi! Stay on the floor! Get on the floor now! I'm on the",
+        "accepted_count": 0,
+        "rejected_count": 5,
+        "abstained_count": 0,
+        "unchanged_count": 295,
+        "rejection_reasons_breakdown": {
+          "UNCHANGED_BASELINE_CONFIRMED": 295,
+          "REJECTED_UNKNOWN_SPEAKER_MAPPING": 5
+        }
+      },
+      {
+        "segment_id": "R07_bwc_cheap_shot__seg_001",
+        "recording_id": "R07_bwc_cheap_shot",
+        "start_word_index": 300,
+        "end_word_index": 477,
+        "word_count": 178,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 294,
+        "completion_tokens": 273,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 2.388,
+        "prompt_text": "<|turn>user\n<speaker:1> floor, I'm on the floor! What are you doing?! I'm on the floor, brother. I'm on the floor, brother. Right, you're under arrest for assault and emergency work. You don't have to say anything, mate, I'm on your fence. If you do not mention my question, it's not like you're going to go to court. Anything you do, you say, may be given in evidence. Okay, cool. Yeah. We'll get them to the back in a minute. That's a bit of a cheap shop, isn't it mate? All right, take that out. Oh, you scumbag. Mate, you just need me in the... Nah, no idea. All right. Watch your hand because I can't see. My camera was rolling the whole time mate, alright? Right mate, just to confirm, you're under arrest for assault of an emergency worker, alright? Yeah. You did get me, I'll give you that mate. I don't know, I honestly don't know what you were thinking then. You've got to try it, man. Did you? Nothing was ever going to happen, was it? I know. --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:1> floor, I'm on the floor! What are you doing?! I'm on the floor, brother. I'm on the floor, brother. Right, you're under arrest for assault and emergency work. You don't have to say anything, mate, I'm on your fence. If you do not mention my question, it's not like you're going to go to court. Anything you do, you say, may be given in evidence. Okay, cool. Yeah. We'll get them to the back in a minute. That's a bit of a cheap shop, isn't it mate? All right, take that out. Oh, you scumbag. Mate, you just need me in the... Nah, no idea. All right. Watch your hand because I can't see. My camera was rolling the whole time mate, alright? Right mate, just to confirm, you're under arrest for assault of an emergency worker, alright? Yeah. You did get me, I'll give you that mate. I don't know, I honestly don't know what you were thinking then. You've got to try it, man. Did you? Nothing was ever going to happen, was it? I know. ",
+        "cleaned_completion": "<speaker:1> floor, I'm on the floor! What are you doing?! I'm on the floor, brother. I'm on the floor, brother. Right, you're under arrest for assault and emergency work. You don't have to say anything, mate, I'm on your fence. If you do not mention my question, it's not like you're going to go to court. Anything you do, you say, may be given in evidence. Okay, cool. Yeah. We'll get them to the back in a minute. That's a bit of a cheap shop, isn't it mate? All right, take that out. Oh, you scumbag. Mate, you just need me in the... Nah, no idea. All right. Watch your hand because I can't see. My camera was rolling the whole time mate, alright? Right mate, just to confirm, you're under arrest for assault of an emergency worker, alright? Yeah. You did get me, I'll give you that mate. I don't know, I honestly don't know what you were thinking then. You've got to try it, man. Did you? Nothing was ever going to happen, was it? I know.",
+        "accepted_count": 0,
+        "rejected_count": 0,
+        "abstained_count": 0,
+        "unchanged_count": 178,
+        "rejection_reasons_breakdown": {
+          "UNCHANGED_BASELINE_CONFIRMED": 178
+        }
+      }
+    ]
+  },
+  "changed_words_count": 0,
+  "changed_words": [],
+  "rejected_proposals_count": 5,
+  "rejected_proposals": [
+    {
+      "word_index": 113,
+      "word": "No.",
+      "start": 34.961,
+      "end": 35.222,
+      "baseline_speaker_id": "SPEAKER_00",
+      "proposed_speaker_id": "0",
+      "reconciliation_reason": "REJECTED_UNKNOWN_SPEAKER_MAPPING",
+      "reasoning_note": "Rejected LLM proposal (REJECTED_UNKNOWN_SPEAKER_MAPPING); baseline speaker SPEAKER_00 preserved."
+    },
+    {
+      "word_index": 122,
+      "word": "No.",
+      "start": 36.822,
+      "end": 37.022,
+      "baseline_speaker_id": "SPEAKER_00",
+      "proposed_speaker_id": "0",
+      "reconciliation_reason": "REJECTED_UNKNOWN_SPEAKER_MAPPING",
+      "reasoning_note": "Rejected LLM proposal (REJECTED_UNKNOWN_SPEAKER_MAPPING); baseline speaker SPEAKER_00 preserved."
+    },
+    {
+      "word_index": 154,
+      "word": "Do",
+      "start": 55.75,
+      "end": 56.031,
+      "baseline_speaker_id": "UNK",
+      "proposed_speaker_id": "1",
+      "reconciliation_reason": "REJECTED_UNKNOWN_SPEAKER_MAPPING",
+      "reasoning_note": "Rejected LLM proposal (REJECTED_UNKNOWN_SPEAKER_MAPPING); baseline speaker UNK preserved."
+    },
+    {
+      "word_index": 166,
+      "word": "Say",
+      "start": 59.595,
+      "end": 60.916,
+      "baseline_speaker_id": "SPEAKER_00",
+      "proposed_speaker_id": "0",
+      "reconciliation_reason": "REJECTED_UNKNOWN_SPEAKER_MAPPING",
+      "reasoning_note": "Rejected LLM proposal (REJECTED_UNKNOWN_SPEAKER_MAPPING); baseline speaker SPEAKER_00 preserved."
+    },
+    {
+      "word_index": 167,
+      "word": "again?",
+      "start": 60.956,
+      "end": 61.137,
+      "baseline_speaker_id": "SPEAKER_00",
+      "proposed_speaker_id": "0",
+      "reconciliation_reason": "REJECTED_UNKNOWN_SPEAKER_MAPPING",
+      "reasoning_note": "Rejected LLM proposal (REJECTED_UNKNOWN_SPEAKER_MAPPING); baseline speaker SPEAKER_00 preserved."
+    }
+  ]
+}

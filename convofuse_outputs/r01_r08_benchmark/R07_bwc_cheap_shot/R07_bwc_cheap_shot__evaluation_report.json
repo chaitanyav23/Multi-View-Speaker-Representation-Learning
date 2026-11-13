@@ -1,0 +1,156 @@
+{
+  "recording_id": "R07_bwc_cheap_shot",
+  "has_reference_annotations": true,
+  "reference_annotation_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/annotations_json/R07_bwc_cheap_shot.json",
+  "word_count": 478,
+  "baseline_turn_count": 16,
+  "refined_turn_count": 16,
+  "speaker_inventory": [
+    "SPEAKER_00"
+  ],
+  "refinement_outcomes": {
+    "accepted_corrections": 0,
+    "rejected_proposals": 5,
+    "abstentions": 0,
+    "unchanged_words": 473,
+    "reasons_breakdown": {
+      "REJECTED_UNKNOWN_SPEAKER_MAPPING": 5,
+      "UNCHANGED_BASELINE_CONFIRMED": 473
+    },
+    "correction_precision": null,
+    "beneficial_corrections": 0,
+    "harmful_corrections": 0,
+    "neutral_corrections": 0
+  },
+  "integrity_verification": {
+    "word_sequence_intact": true,
+    "timestamp_sequence_intact": true,
+    "unk_invariance_verified": true,
+    "words_sha256": "0feb455c72409f5dd550fabbf4cb2e43550b58f8979dac032cdd0c25b0aa1e62",
+    "timestamps_sha256": "ca0c6c8917b30f5cd88f23a3e9b09030c89002b7417027ae6283ec30cc8a79ed"
+  },
+  "baseline_metrics": {
+    "word_count": 478,
+    "grouped_turn_count": 13,
+    "cpwer": 0.5299,
+    "cpwer_details": {
+      "cpwer": 0.5299,
+      "errors": 266,
+      "substitutions": 56,
+      "insertions": 93,
+      "deletions": 117,
+      "reference_words": 502,
+      "hypothesis_words": 478,
+      "assignment": [
+        [
+          "Speaker_1",
+          "SPEAKER_00"
+        ],
+        [
+          "Speaker_2",
+          "UNK"
+        ],
+        [
+          "Speaker_3",
+          null
+        ],
+        [
+          "Speaker_4",
+          null
+        ]
+      ],
+      "hyp_turn_count": 13,
+      "ref_segment_count": 54
+    },
+    "wder_timestamp": {
+      "wder_assigned": 0.1253,
+      "speaker_accuracy_assigned": 0.8747,
+      "wder_all_ref": 0.1274,
+      "words_evaluated_assigned": 423,
+      "words_evaluated_all_ref": 424,
+      "unassigned_words_in_ref_speech": 1,
+      "correct_attributions": 370,
+      "incorrect_attributions_assigned": 53,
+      "speaker_mapping": {
+        "SPEAKER_00": "Speaker_1"
+      }
+    },
+    "wder_lexical": {
+      "wder_lexical": 0.1593,
+      "aligned_words_c_plus_s": 452,
+      "lexical_correct_c": 378,
+      "lexical_substitutions_s": 74,
+      "speaker_errors_on_c": 58,
+      "speaker_errors_on_s": 14,
+      "total_speaker_errors": 72,
+      "speaker_mapping": {
+        "SPEAKER_00": "Speaker_1"
+      }
+    }
+  },
+  "refined_metrics": {
+    "word_count": 478,
+    "grouped_turn_count": 13,
+    "cpwer": 0.5299,
+    "cpwer_details": {
+      "cpwer": 0.5299,
+      "errors": 266,
+      "substitutions": 56,
+      "insertions": 93,
+      "deletions": 117,
+      "reference_words": 502,
+      "hypothesis_words": 478,
+      "assignment": [
+        [
+          "Speaker_1",
+          "SPEAKER_00"
+        ],
+        [
+          "Speaker_2",
+          "UNK"
+        ],
+        [
+          "Speaker_3",
+          null
+        ],
+        [
+          "Speaker_4",
+          null
+        ]
+      ],
+      "hyp_turn_count": 13,
+      "ref_segment_count": 54
+    },
+    "wder_timestamp": {
+      "wder_assigned": 0.1253,
+      "speaker_accuracy_assigned": 0.8747,
+      "wder_all_ref": 0.1274,
+      "words_evaluated_assigned": 423,
+      "words_evaluated_all_ref": 424,
+      "unassigned_words_in_ref_speech": 1,
+      "correct_attributions": 370,
+      "incorrect_attributions_assigned": 53,
+      "speaker_mapping": {
+        "SPEAKER_00": "Speaker_1"
+      }
+    },
+    "wder_lexical": {
+      "wder_lexical": 0.1593,
+      "aligned_words_c_plus_s": 452,
+      "lexical_correct_c": 378,
+      "lexical_substitutions_s": 74,
+      "speaker_errors_on_c": 58,
+      "speaker_errors_on_s": 14,
+      "total_speaker_errors": 72,
+      "speaker_mapping": {
+        "SPEAKER_00": "Speaker_1"
+      }
+    }
+  },
+  "metric_deltas": {
+    "delta_wder_timestamp_assigned": 0.0,
+    "delta_wder_timestamp_all_ref": 0.0,
+    "delta_wder_lexical": 0.0,
+    "delta_cpwer": 0.0
+  }
+}

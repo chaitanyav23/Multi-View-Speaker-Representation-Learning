@@ -17,6 +17,15 @@ import urllib.request
 
 from .schemas import ConfidenceStatus, ContextWindow, LLMRefinementRequest
 
+import os
+import random
+import time
+from pathlib import Path
+from dotenv import load_dotenv
+
+REPO_ROOT = Path(__file__).resolve().parents[2]
+load_dotenv(REPO_ROOT / ".env")
+
 
 class LLMProviderError(Exception):
     """Base exception for LLM provider errors."""
@@ -30,12 +39,13 @@ class LLMProviderUnavailableError(LLMProviderError):
 class LLMConfig:
     """Configuration for the runtime LLM provider and model."""
     provider: str = "offline_abstaining"
-    model_name: str = "gpt-4o-mini"
-    api_key_env_var: str = "OPENAI_API_KEY"
+    model_name: str = "offline-abstaining-v1"
+    api_key_env_var: str = "GEMINI_API_KEY"
     endpoint_url: Optional[str] = None
     temperature: float = 0.0
-    max_tokens: int = 4096
+    max_tokens: int = 16384
     timeout_sec: float = 60.0
+    raw_log_dir: Optional[str] = None
 
 
 SYSTEM_PROMPT_TEMPLATE = """You are an expert conversational intelligence and speaker diarization refinement assistant for multi-speaker Body-Worn Camera (BWC) recordings, inspired by DiarizationLM (Wang et al., 2024).
@@ -351,17 +361,96 @@ class GeminiLLMProvider(BaseLLMProvider):
         }
 
         req = urllib.request.Request(
-            url,
+            base_url,
             data=json.dumps(payload).encode("utf-8"),
-            headers={"Content-Type": "application/json"},
+            headers={
+                "Content-Type": "application/json",
+                "x-goog-api-key": api_key,
+            },
             method="POST",
         )
-        try:
-            with urllib.request.urlopen(req, timeout=self.config.timeout_sec) as resp:
-                resp_body = json.loads(resp.read().decode("utf-8"))
-                return str(resp_body["candidates"][0]["content"]["parts"][0]["text"])
-        except (urllib.error.URLError, KeyError, IndexError, json.JSONDecodeError) as exc:
-            raise LLMProviderError(f"Gemini API call failed: {exc}") from exc
+
+        retryable_statuses = {408, 429, 500, 502, 503, 504}
+        max_attempts = 4
+
+        for attempt in range(max_attempts):
+            try:
+                t0 = time.time()
+                with urllib.request.urlopen(
+                    req,
+                    timeout=self.config.timeout_sec
+                ) as resp:
+                    resp_body = json.loads(resp.read().decode("utf-8"))
+                    elapsed = time.time() - t0
+
+                    candidates = resp_body.get("candidates", [])
+                    if not candidates:
+                        raise LLMProviderError(f"Gemini API returned no candidates: {resp_body}")
+                    candidate = candidates[0]
+                    finish_reason = candidate.get("finishReason", "UNKNOWN")
+                    usage_metadata = resp_body.get("usageMetadata", {})
+                    parts = candidate.get("content", {}).get("parts", [])
+                    raw_text = str(parts[0].get("text", "")) if parts else ""
+
+                    # Save raw response if logging directory is configured
+                    raw_dir_path = self.config.raw_log_dir or os.getenv("STAGE6_RAW_LOG_DIR")
+                    if raw_dir_path:
+                        try:
+                            log_dir = Path(raw_dir_path)
+                            log_dir.mkdir(parents=True, exist_ok=True)
+                            log_file = log_dir / f"{request.window_id}__raw_gemini_response.json"
+                            log_file.write_text(
+                                json.dumps(
+                                    {
+                                        "window_id": request.window_id,
+                                        "model": self.config.model_name,
+                                        "finishReason": finish_reason,
+                                        "usageMetadata": usage_metadata,
+                                        "elapsed_sec": elapsed,
+                                        "response_text": raw_text,
+                                        "full_api_response": resp_body,
+                                    },
+                                    indent=2,
+                                ),
+                                encoding="utf-8",
+                            )
+                        except Exception as log_exc:
+                            print(f"Warning: failed to persist raw Gemini log: {log_exc}")
+
+                    if finish_reason == "MAX_TOKENS":
+                        print(
+                            f"WARNING: Gemini output truncated at {usage_metadata.get('candidatesTokenCount')} "
+                            f"tokens (finishReason=MAX_TOKENS) for window {request.window_id}!"
+                        )
+
+                    return raw_text
+
+            except urllib.error.HTTPError as exc:
+                error_body = exc.read().decode("utf-8", errors="replace")
+
+                if exc.code not in retryable_statuses:
+                    raise LLMProviderError(
+                        f"Gemini API HTTP {exc.code}: {error_body[:1500]}"
+                    ) from exc
+
+                if attempt == max_attempts - 1:
+                    raise LLMProviderError(
+                        f"Gemini API failed after {max_attempts} attempts. "
+                        f"HTTP {exc.code}: {error_body[:1500]}"
+                    ) from exc
+
+                delay = min(2 ** attempt, 30) + random.uniform(0, 1)
+                print(
+                    f"Gemini temporarily unavailable (HTTP {exc.code}). "
+                    f"Retrying in {delay:.1f}s "
+                    f"(attempt {attempt + 2}/{max_attempts})."
+                )
+                time.sleep(delay)
+
+            except (urllib.error.URLError, KeyError, IndexError, json.JSONDecodeError) as exc:
+                raise LLMProviderError(
+                    f"Gemini API request failed: {type(exc).__name__}: {exc}"
+                ) from exc
 
 
 def create_llm_provider(config: LLMConfig) -> BaseLLMProvider:

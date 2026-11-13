@@ -1,0 +1,373 @@
+{
+  "recording_id": "R05_southwest_pilot",
+  "filename": "R05_southwest_pilot.wav",
+  "execution_mode": "FROZEN_INPUT_REPLAY",
+  "diarization_condition": "Stage5A.1_Condition_J_DualEncoder_EqualFusion",
+  "diarization_backend": "TitaNet-Large(DFN,192D) + WeSpeaker-ResNet293-LM(Mono,256D) -> ZScore-Equal-Affinity-Fusion -> NME-SC",
+  "refinement_model": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1 (Q4_K_M, LG-TPST)",
+  "created_at": "2026-11-13T15:04:48.032572+00:00",
+  "total_pipeline_sec": 6.6822,
+  "ground_truth_isolation_enforced": true,
+  "frozen_inputs_sha256_verified": true,
+  "input_sha256_hashes": {
+    "asr_aligned_words": "bf743ee54185f78beee755c937633ac71ba20d34fa5b83fbc5074b3fdff06a59",
+    "predicted_rttm": "e0d874c2287c558416a9aa878695c4c4162e05d7fc59ec0477ae8201b078679b",
+    "overlap_posteriors": "1e81a45d0a9c03f17cb9ecad7efb00d6ce4e09594840b4766f80f739511d1a30",
+    "16k_mono_wav": "ccc4b5aa097a3bcae55c1676cbebba5ba4fd04a61f25f6d3f99d29a8efb483c0",
+    "dfn_wav": "9457bf5e4fb206307c76a089ea8d064c021a808a475fc3f407c97df20dd733b2",
+    "normalized_wav": "10e577690c4439090cbd861e1a0948a617b3231601b01c6b639951a5c79ce405"
+  },
+  "audio_routing": {
+    "source_media_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R05_southwest_pilot/R05_southwest_pilot_16k_mono.wav",
+    "titanet_dfn_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R05_southwest_pilot/R05_southwest_pilot_dfn.wav",
+    "wespeaker_raw_mono_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R05_southwest_pilot/R05_southwest_pilot_16k_mono.wav",
+    "asr_normalized_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R05_southwest_pilot/R05_southwest_pilot_normalized.wav",
+    "overlap_raw_mono_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R05_southwest_pilot/R05_southwest_pilot_16k_mono.wav",
+    "sample_rate": 16000,
+    "channels": 1,
+    "duration_sec": 162.4468,
+    "sha256_hashes": {
+      "16k_mono_wav": "ccc4b5aa097a3bcae55c1676cbebba5ba4fd04a61f25f6d3f99d29a8efb483c0",
+      "dfn_wav": "9457bf5e4fb206307c76a089ea8d064c021a808a475fc3f407c97df20dd733b2",
+      "normalized_wav": "10e577690c4439090cbd861e1a0948a617b3231601b01c6b639951a5c79ce405"
+    }
+  },
+  "rttm_to_canonical_speaker_map": {
+    "speaker_0": "SPEAKER_00",
+    "SPEAKER_00": "SPEAKER_00",
+    "speaker_1": "SPEAKER_01",
+    "SPEAKER_01": "SPEAKER_01",
+    "speaker_2": "SPEAKER_02",
+    "SPEAKER_02": "SPEAKER_02"
+  },
+  "canonical_to_dlm_tag_map": {
+    "SPEAKER_00": "1",
+    "SPEAKER_01": "2",
+    "SPEAKER_02": "3"
+  },
+  "refinement_telemetry": {
+    "recording_id": "R05_southwest_pilot",
+    "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+    "ollama_model_name": "diarizationlm-gemma",
+    "quantization": "Q4_K_M",
+    "provider_version": "ollama-0.32.6",
+    "total_runtime_sec": 6.1503,
+    "total_prompt_tokens": 771,
+    "total_completion_tokens": 734,
+    "segment_count": 2,
+    "summary_counts": {
+      "total_words": 372,
+      "accepted_corrections": 9,
+      "rejected_proposals": 0,
+      "abstained_words": 10,
+      "unchanged_words": 353,
+      "reasons_breakdown": {
+        "ABSTAINED_PRESERVE_UNK": 10,
+        "ACCEPTED_VALIDATED_TRANSFER": 9,
+        "UNCHANGED_BASELINE_CONFIRMED": 353
+      }
+    },
+    "segment_telemetries": [
+      {
+        "segment_id": "R05_southwest_pilot__seg_000",
+        "recording_id": "R05_southwest_pilot",
+        "start_word_index": 0,
+        "end_word_index": 299,
+        "word_count": 300,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 642,
+        "completion_tokens": 626,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 4.8634,
+        "prompt_text": "<|turn>user\n<speaker:2> Good morning. <speaker:3> Say it again? <speaker:2> Good morning, sir. <speaker:1> Good morning. How are <speaker:2> you? You good out there? <speaker:1> Yeah. Fine. <speaker:2> When was the last time you had a sip of a drink? <speaker:1> Last night? <speaker:2> How many hours ago? <speaker:1> Uh, like 10 hours ago, at least. <speaker:2> How many drinks did you have? <speaker:1> a few beers. Sir? <speaker:2> to find a few beers. <speaker:1> few years. <speaker:2> Define a few beers. <speaker:1> Three. <speaker:2> Okay. Yeah. We'll just drink. <speaker:1> Like beer, no lie. No lie? <speaker:2> Yeah. Anything <speaker:1> else? Nope. <speaker:3> What's up? <speaker:2> Who are you with? <speaker:1> May I follow? Uh huh. <speaker:2> Would you be willing to provide? Uh... Feel sobriety with me right now? <speaker:1> No. <speaker:2> Hold on. <speaker:1> There's no need? <speaker:2> Well, I can smell an odor consistent with an alcoholic beverage. <speaker:3> I can smell it, I can smell it. <speaker:2> It is a fully booked flight. <speaker:3> I have a smell of a adult beverage coming out of you. I don't know if it's coming out of your mouth or your skin. It's coming out of the pores, I get <speaker:1> it. Do I see it? <speaker:2> Would you do field sobriety? This would be a brand new uncharted territory. <speaker:1> Let's go. away from the passengers. One. to. greatness. <speaker:3> war. <speaker:1> I don't know. Sex. So Peace. No. <speaker:2> Did you turn around and go the other way? <speaker:0> One, two, three. Thank you. 6, 7, 8, 9, 10. <speaker:2> I'm trained in standardized field sobriety, and you've exhibited strong signs, and even after speaking with your first pilot, like... The issue is, would you agree to a blood draw to test your blood alcohol content? Okay, well, the issue is when you agreed to the field sobriety, you exhibited the symptoms, and if you're refusing to a blood draw, that's DUI less safe for the willful intention to operate a commercial aircraft. seriously yes sir <speaker:1> even --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:2> Good morning. <speaker:3> Say it again? <speaker:2> Good morning, sir. <speaker:1> Good morning. How are you? <speaker:2> You good out there? <speaker:1> Yeah. Fine. <speaker:2> When was the last time you had a sip of a drink? <speaker:1> Last night? <speaker:2> How many hours ago? <speaker:1> Uh, like 10 hours ago, at least. <speaker:2> How many drinks did you have? <speaker:1> a few beers. Sir? <speaker:2> to find a few beers. <speaker:1> few years. <speaker:2> Define a few beers. <speaker:1> Three. <speaker:2> Okay. <speaker:1> Yeah. <speaker:2> We'll just drink. <speaker:1> Like beer, no lie. No lie? <speaker:2> Yeah. Anything else? <speaker:1> Nope. What's up? <speaker:2> Who are you with? <speaker:1> May I follow? <speaker:2> Uh huh. Would you be willing to provide? <speaker:1> Uh... <speaker:2> Feel sobriety with me right now? <speaker:1> No. <speaker:2> Hold on. <speaker:1> There's no need? <speaker:2> Well, I can smell an odor consistent with an alcoholic beverage. <speaker:3> I can smell it, I can smell it. <speaker:2> It is a fully booked flight. <speaker:3> I have a smell of a adult beverage coming out of you. I don't know if it's coming out of your mouth or your skin. It's coming out of the pores, I get <speaker:1> it. Do I see it? <speaker:2> Would you do field sobriety? This would be a brand new uncharted territory. <speaker:1> Let's go. away from the passengers. One. to. greatness. war. I don't know. Sex. So Peace. No. <speaker:2> Did you turn around and go the other way? <speaker:0> One, two, three. Thank you. 6, 7, 8, 9, 10. <speaker:2> I'm trained in standardized field sobriety, and you've exhibited strong signs, and even after speaking with your first pilot, like... The issue is, would you agree to a blood draw to test your blood alcohol content? Okay, well, the issue is when you agreed to the field sobriety, you exhibited the symptoms, and if you're refusing to a blood draw, that's DUI less safe for the willful intention to operate a commercial aircraft. seriously yes sir <speaker:1> even ",
+        "cleaned_completion": "<speaker:2> Good morning. <speaker:3> Say it again? <speaker:2> Good morning, sir. <speaker:1> Good morning. How are you? <speaker:2> You good out there? <speaker:1> Yeah. Fine. <speaker:2> When was the last time you had a sip of a drink? <speaker:1> Last night? <speaker:2> How many hours ago? <speaker:1> Uh, like 10 hours ago, at least. <speaker:2> How many drinks did you have? <speaker:1> a few beers. Sir? <speaker:2> to find a few beers. <speaker:1> few years. <speaker:2> Define a few beers. <speaker:1> Three. <speaker:2> Okay. <speaker:1> Yeah. <speaker:2> We'll just drink. <speaker:1> Like beer, no lie. No lie? <speaker:2> Yeah. Anything else? <speaker:1> Nope. What's up? <speaker:2> Who are you with? <speaker:1> May I follow? <speaker:2> Uh huh. Would you be willing to provide? <speaker:1> Uh... <speaker:2> Feel sobriety with me right now? <speaker:1> No. <speaker:2> Hold on. <speaker:1> There's no need? <speaker:2> Well, I can smell an odor consistent with an alcoholic beverage. <speaker:3> I can smell it, I can smell it. <speaker:2> It is a fully booked flight. <speaker:3> I have a smell of a adult beverage coming out of you. I don't know if it's coming out of your mouth or your skin. It's coming out of the pores, I get <speaker:1> it. Do I see it? <speaker:2> Would you do field sobriety? This would be a brand new uncharted territory. <speaker:1> Let's go. away from the passengers. One. to. greatness. war. I don't know. Sex. So Peace. No. <speaker:2> Did you turn around and go the other way? <speaker:0> One, two, three. Thank you. 6, 7, 8, 9, 10. <speaker:2> I'm trained in standardized field sobriety, and you've exhibited strong signs, and even after speaking with your first pilot, like... The issue is, would you agree to a blood draw to test your blood alcohol content? Okay, well, the issue is when you agreed to the field sobriety, you exhibited the symptoms, and if you're refusing to a blood draw, that's DUI less safe for the willful intention to operate a commercial aircraft. seriously yes sir <speaker:1> even",
+        "accepted_count": 9,
+        "rejected_count": 0,
+        "abstained_count": 10,
+        "unchanged_count": 281,
+        "rejection_reasons_breakdown": {
+          "UNCHANGED_BASELINE_CONFIRMED": 281,
+          "ACCEPTED_VALIDATED_TRANSFER": 9,
+          "ABSTAINED_PRESERVE_UNK": 10
+        }
+      },
+      {
+        "segment_id": "R05_southwest_pilot__seg_001",
+        "recording_id": "R05_southwest_pilot",
+        "start_word_index": 300,
+        "end_word_index": 371,
+        "word_count": 72,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 129,
+        "completion_tokens": 108,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 1.2243,
+        "prompt_text": "<|turn>user\n<speaker:1> if i gave you blood then nothing would change <speaker:2> okay <speaker:1> Right? <speaker:2> That is your willful choice that you were willing to make, but based off the calls that we received stating that people down in TSA could smell. What smelled like alcohol, if you don't mind, we're just going to head up to the patrol car so that way we don't have to do it all in front of the public eye. --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:1> if i gave you blood then nothing would change <speaker:2> okay <speaker:1> Right? <speaker:2> That is your willful choice that you were willing to make, but based off the calls that we received stating that people down in TSA could smell. What smelled like alcohol, if you don't mind, we're just going to head up to the patrol car so that way we don't have to do it all in front of the public eye. ",
+        "cleaned_completion": "<speaker:1> if i gave you blood then nothing would change <speaker:2> okay <speaker:1> Right? <speaker:2> That is your willful choice that you were willing to make, but based off the calls that we received stating that people down in TSA could smell. What smelled like alcohol, if you don't mind, we're just going to head up to the patrol car so that way we don't have to do it all in front of the public eye.",
+        "accepted_count": 0,
+        "rejected_count": 0,
+        "abstained_count": 0,
+        "unchanged_count": 72,
+        "rejection_reasons_breakdown": {
+          "UNCHANGED_BASELINE_CONFIRMED": 72
+        }
+      }
+    ]
+  },
+  "stage_history": [
+    {
+      "stage": "UPLOADED",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.05,
+      "started_at": "2026-11-13T15:04:41.350360+00:00",
+      "completed_at": "2026-11-13T15:04:41.350375+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Resolved frozen benchmark inputs for R05_southwest_pilot",
+      "artifacts": {
+        "recording_id": "R05_southwest_pilot"
+      }
+    },
+    {
+      "stage": "QUEUED",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.1,
+      "started_at": "2026-11-13T15:04:41.350381+00:00",
+      "completed_at": "2026-11-13T15:04:41.350384+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Queued ConvoFuse job (Stage5A.1_Condition_J_DualEncoder_EqualFusion)",
+      "artifacts": {
+        "diarization_condition": "Stage5A.1_Condition_J_DualEncoder_EqualFusion"
+      }
+    },
+    {
+      "stage": "AUDIO_EXTRACTION",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.18,
+      "started_at": "2026-11-13T15:04:41.350388+00:00",
+      "completed_at": "2026-11-13T15:04:41.350392+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Reused task-specific conditioned audio streams (DFN 16kHz, Raw Mono 16kHz, EBU R128 Normalized 16kHz)",
+      "artifacts": {
+        "source_media_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R05_southwest_pilot/R05_southwest_pilot_16k_mono.wav",
+        "titanet_dfn_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R05_southwest_pilot/R05_southwest_pilot_dfn.wav",
+        "wespeaker_raw_mono_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R05_southwest_pilot/R05_southwest_pilot_16k_mono.wav",
+        "asr_normalized_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R05_southwest_pilot/R05_southwest_pilot_normalized.wav",
+        "overlap_raw_mono_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R05_southwest_pilot/R05_southwest_pilot_16k_mono.wav",
+        "sample_rate": 16000,
+        "channels": 1,
+        "duration_sec": 162.4468,
+        "sha256_hashes": {
+          "16k_mono_wav": "ccc4b5aa097a3bcae55c1676cbebba5ba4fd04a61f25f6d3f99d29a8efb483c0",
+          "dfn_wav": "9457bf5e4fb206307c76a089ea8d064c021a808a475fc3f407c97df20dd733b2",
+          "normalized_wav": "10e577690c4439090cbd861e1a0948a617b3231601b01c6b639951a5c79ce405"
+        }
+      }
+    },
+    {
+      "stage": "VAD",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.25,
+      "started_at": "2026-11-13T15:04:41.350396+00:00",
+      "completed_at": "2026-11-13T15:04:41.350399+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Reused Stage 2 / Stage 5B.4 C62 Silero VAD speech regions",
+      "artifacts": {
+        "condition": "Stage5A.1_Condition_J_DualEncoder_EqualFusion"
+      }
+    },
+    {
+      "stage": "ASR",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.35,
+      "started_at": "2026-11-13T15:04:41.350402+00:00",
+      "completed_at": "2026-11-13T15:04:41.350660+00:00",
+      "elapsed_sec": 0.000254,
+      "detail": "Loaded 372 Faster-Whisper Large-v3 words from frozen Stage 2 output",
+      "artifacts": {
+        "asr_aligned_words_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage2_baseline/whisperx/R05_southwest_pilot_aligned.json",
+        "word_count": 372
+      }
+    },
+    {
+      "stage": "WORD_ALIGNMENT",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.42,
+      "started_at": "2026-11-13T15:04:41.350664+00:00",
+      "completed_at": "2026-11-13T15:04:41.350667+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Verified Wav2Vec2 CTC word-level timestamps (372 words)",
+      "artifacts": {
+        "word_count": 372
+      }
+    },
+    {
+      "stage": "SPEAKER_REPRESENTATION",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.5,
+      "started_at": "2026-11-13T15:04:41.350670+00:00",
+      "completed_at": "2026-11-13T15:04:41.350766+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Reused dual-path speaker embeddings: TitaNet-Large (192-D on DFN) + WeSpeaker ResNet293-LM (256-D on Raw Mono)",
+      "artifacts": {
+        "diarization_backend": "TitaNet-Large(DFN,192D) + WeSpeaker-ResNet293-LM(Mono,256D) -> ZScore-Equal-Affinity-Fusion -> NME-SC"
+      }
+    },
+    {
+      "stage": "AFFINITY_FUSION",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.58,
+      "started_at": "2026-11-13T15:04:41.350770+00:00",
+      "completed_at": "2026-11-13T15:04:41.350773+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Reused off-diagonal Z-score normalized dual-encoder cosine affinity fusion",
+      "artifacts": {
+        "diarization_condition": "Stage5A.1_Condition_J_DualEncoder_EqualFusion"
+      }
+    },
+    {
+      "stage": "CLUSTERING",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.65,
+      "started_at": "2026-11-13T15:04:41.350776+00:00",
+      "completed_at": "2026-11-13T15:04:41.350780+00:00",
+      "elapsed_sec": 9.4e-05,
+      "detail": "Loaded 70 NME-SC spectral clustering speaker segments from R05_southwest_pilot_dfn.rttm",
+      "artifacts": {
+        "predicted_rttm_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage5a_1/predictions/rttms/condition_J_norm_equal_weight_fusion/R05_southwest_pilot_dfn.rttm",
+        "rttm_segment_count": 70
+      }
+    },
+    {
+      "stage": "WORD_SPEAKER_ASSIGNMENT",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.72,
+      "started_at": "2026-11-13T15:04:41.350784+00:00",
+      "completed_at": "2026-11-13T15:04:41.365575+00:00",
+      "elapsed_sec": 0.014758,
+      "detail": "Associated 372 words across 3 speakers (10 UNK, 6 overlapping)",
+      "artifacts": {
+        "word_count": 372,
+        "speaker_inventory": [
+          "SPEAKER_00",
+          "SPEAKER_01",
+          "SPEAKER_02"
+        ],
+        "unk_word_count": 10,
+        "overlapping_word_count": 6
+      }
+    },
+    {
+      "stage": "GENERATIVE_REFINEMENT",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.88,
+      "started_at": "2026-11-13T15:04:41.365583+00:00",
+      "completed_at": "2026-11-13T15:04:47.516631+00:00",
+      "elapsed_sec": 6.15104,
+      "detail": "Completed DiarizationLM-Gemma TPST refinement in 6.15s (ground-truth isolated)",
+      "artifacts": {
+        "model": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1 (Q4_K_M, LG-TPST)",
+        "summary_counts": {
+          "total_words": 372,
+          "accepted_corrections": 9,
+          "rejected_proposals": 0,
+          "abstained_words": 10,
+          "unchanged_words": 353,
+          "reasons_breakdown": {
+            "ABSTAINED_PRESERVE_UNK": 10,
+            "ACCEPTED_VALIDATED_TRANSFER": 9,
+            "UNCHANGED_BASELINE_CONFIRMED": 353
+          }
+        },
+        "ground_truth_isolated": true
+      }
+    },
+    {
+      "stage": "TRANSCRIPT_RECONSTRUCTION",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.94,
+      "started_at": "2026-11-13T15:04:47.516644+00:00",
+      "completed_at": "2026-11-13T15:04:47.519373+00:00",
+      "elapsed_sec": 0.002726,
+      "detail": "Reconstructed 47 chronological turns across 4 speakers",
+      "artifacts": {
+        "baseline_turn_count": 46,
+        "refined_turn_count": 47,
+        "speaker_count": 4
+      }
+    },
+    {
+      "stage": "EVALUATION",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.98,
+      "started_at": "2026-11-13T15:04:47.529487+00:00",
+      "completed_at": "2026-11-13T15:04:48.032547+00:00",
+      "elapsed_sec": 0.503058,
+      "detail": "Executed post-inference evaluation (strictly isolated from inference)",
+      "artifacts": {
+        "has_reference_annotations": true,
+        "metric_deltas": {
+          "delta_wder_timestamp_assigned": 0.0,
+          "delta_wder_timestamp_all_ref": 0.0,
+          "delta_wder_lexical": -0.0056,
+          "delta_cpwer": -0.0104
+        }
+      }
+    },
+    {
+      "stage": "COMPLETED",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 1.0,
+      "started_at": "2026-11-13T15:04:48.032561+00:00",
+      "completed_at": "2026-11-13T15:04:48.032567+00:00",
+      "elapsed_sec": 6.68221,
+      "detail": "ConvoFuse pipeline completed in 6.68s",
+      "artifacts": {
+        "total_pipeline_sec": 6.6822
+      }
+    }
+  ]
+}

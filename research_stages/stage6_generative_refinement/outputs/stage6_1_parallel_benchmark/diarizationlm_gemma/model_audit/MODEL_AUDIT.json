@@ -1,0 +1,23 @@
+{
+  "model_id": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+  "huggingface_url": "https://huggingface.co/diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+  "paper_citation": "DiarizationLM (Wang et al., 2024, arXiv:2401.03506)",
+  "foundation_model": "google/gemma-4-E4B",
+  "checkpoint_file": "DiarizationLM-Gemma-4-E4B-v1-q4_k_m.gguf",
+  "checkpoint_size_bytes": 5300582656,
+  "checkpoint_sha256": "935b122a66c70b1e54fcaba2511910e5ff0a1b4713806d0448bab6e6fb9bb3d0",
+  "quantization": "Q4_K_M (4-bit K-quant Medium)",
+  "inference_backend": "Ollama (llama.cpp engine with CUDA sm_89)",
+  "device": "NVIDIA GeForce RTX 4090 (24.5 GB VRAM)",
+  "peak_vram_allocated_mb": 4112,
+  "context_window_length": 32768,
+  "license": "Apache-2.0",
+  "generation_settings": {
+    "temperature": 0.0,
+    "num_predict": 512,
+    "stop": [
+      "<turn|>",
+      "[eod]"
+    ]
+  }
+}

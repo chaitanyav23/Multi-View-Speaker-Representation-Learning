@@ -14,6 +14,9 @@ __pycache__/
 
 venv/
 .env/
+.env
+.env.*
+!.env.example
 .conda/
 bwc_pipeline/
 marston-venv/

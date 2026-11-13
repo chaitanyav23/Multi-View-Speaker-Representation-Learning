@@ -1,0 +1,32 @@
+# Application Configuration & Model Parameters
+
+application:
+  name: "CS698B Video Transcription with Confidence Analytics"
+  version: "1.0.0"
+  max_upload_size_mb: 250
+  max_duration_seconds: 1800
+
+pipeline:
+  audio:
+    sample_rate: 16000
+    channels: 1
+    normalization_target_lufs: -20.0
+  vad:
+    pipeline: "pyannote/voice-activity-detection"
+    merge_gap_seconds: 0.30
+    min_duration_seconds: 0.20
+    max_chunk_seconds: 30.0
+  asr:
+    model: "large-v3"
+    compute_type: "int8"
+    condition_on_previous_text: false
+  alignment:
+    model: "WAV2VEC2_ASR_BASE_960H"
+  diarization:
+    model: "diar_msdd_telephonic"
+    embedding_model: "titanet_large"
+    collar: 0.25
+  confidence:
+    low_threshold: 0.30
+    high_threshold: 0.60
+    calibration_method: "isotonic_regression"

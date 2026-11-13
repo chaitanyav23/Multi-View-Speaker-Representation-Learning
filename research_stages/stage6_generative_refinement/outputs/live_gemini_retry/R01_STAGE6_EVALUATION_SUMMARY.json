@@ -1,0 +1,1224 @@
+{
+  "stage": "Stage 6 \u2014 Generative AI Integration (DiarizationLM-Inspired Post-Processing)",
+  "recording_id": "R01_sara_sharif",
+  "frozen_inputs": {
+    "asr_words_path": "research_stages/stage2_baseline/whisperx/R01_sara_sharif_aligned.json",
+    "reference_json_path": "research_stages/stage1_data_prep/annotations_json/R01_sara_sharif.json",
+    "rttm_E20_path": "research_stages/stage5b/stage5b_4_fresh_diarization/outputs/E20/R01_sara_sharif.rttm",
+    "rttm_E21_path": "research_stages/stage5b/stage5b_4_fresh_diarization/outputs/E21/R01_sara_sharif.rttm",
+    "sha256_before": {
+      "asr_words": "2dab0db97539fc00865c90c81e9f8fcacf011ce7c3ee2bd59beea10966511add",
+      "ref_json": "20a8300a780d9fefab9f9e05774776ea55b58674f744e1b8059d18932e1f9ce1",
+      "rttm_E20": "109f49a6bd3da3503721c7f6ddc9b1c757985f316be0b5d95cb4995b47b9712a",
+      "rttm_E21": "109f49a6bd3da3503721c7f6ddc9b1c757985f316be0b5d95cb4995b47b9712a"
+    },
+    "sha256_after": {
+      "asr_words": "2dab0db97539fc00865c90c81e9f8fcacf011ce7c3ee2bd59beea10966511add",
+      "ref_json": "20a8300a780d9fefab9f9e05774776ea55b58674f744e1b8059d18932e1f9ce1",
+      "rttm_E20": "109f49a6bd3da3503721c7f6ddc9b1c757985f316be0b5d95cb4995b47b9712a",
+      "rttm_E21": "109f49a6bd3da3503721c7f6ddc9b1c757985f316be0b5d95cb4995b47b9712a"
+    },
+    "inputs_unmodified": true
+  },
+  "window_config": {
+    "window_size_words": 60,
+    "context_overlap_words": 15,
+    "surrounding_turns_radius": 4,
+    "turn_grouping_max_gap_sec": 2.0
+  },
+  "reconciler_config": {
+    "strict_word_text_match": true,
+    "reject_window_on_extra_words": true,
+    "reject_window_on_reordering": true,
+    "min_confidence_to_accept": "LOW",
+    "allow_reassigning_unk": true
+  },
+  "runs": [
+    {
+      "condition": "E20",
+      "mode": "offline_abstaining",
+      "provider_name": "offline_abstaining",
+      "model_name": "offline-abstaining-v1",
+      "output_artifact": "research_stages/stage6_generative_refinement/outputs/live_gemini_retry/R01_sara_sharif__E20__offline_abstaining.json",
+      "output_sha256": "71e234242c01997b6354c4895e2087a6949bfeb4871fa4d8c697a67528187b72",
+      "evaluation_report": {
+        "integrity_checks": {
+          "word_sequence_integrity_verified": true,
+          "timestamp_integrity_verified": true,
+          "original_transcript_recoverable": true,
+          "original_words_sha256": "b5e13093a8cdef464c374b9b01507385c34b36f2c6cae20871e5ea97f10a21dd",
+          "refined_words_sha256": "b5e13093a8cdef464c374b9b01507385c34b36f2c6cae20871e5ea97f10a21dd",
+          "original_timestamps_sha256": "9c7ba033fce4fb4b660a2a9ca4ef49494d7f0227a2de0c779d64749f450870f0",
+          "refined_timestamps_sha256": "9c7ba033fce4fb4b660a2a9ca4ef49494d7f0227a2de0c779d64749f450870f0"
+        },
+        "refinement_telemetry": {
+          "total_words": 266,
+          "proposed_corrections_count": 0,
+          "accepted_corrections_count": 0,
+          "rejected_corrections_count": 0,
+          "abstentions_count": 266,
+          "reasons_breakdown": {
+            "ABSTAINED_BY_LLM": 266
+          }
+        },
+        "baseline_metrics": {
+          "word_count": 266,
+          "grouped_turn_count": 9,
+          "cpwer": 0.523,
+          "cpwer_details": {
+            "cpwer": 0.523,
+            "errors": 148,
+            "substitutions": 43,
+            "insertions": 44,
+            "deletions": 61,
+            "reference_words": 283,
+            "hypothesis_words": 266,
+            "assignment": [
+              [
+                "Speaker_1",
+                "UNK"
+              ],
+              [
+                "Speaker_2",
+                "speaker_0"
+              ],
+              [
+                "Speaker_3",
+                null
+              ],
+              [
+                "Speaker_4",
+                "speaker_1"
+              ],
+              [
+                "Speaker_5",
+                "speaker_2"
+              ]
+            ],
+            "hyp_turn_count": 9,
+            "ref_segment_count": 7
+          },
+          "wder_timestamp": {
+            "wder_assigned": 0.2008,
+            "speaker_accuracy_assigned": 0.7992,
+            "wder_all_ref": 0.2008,
+            "words_evaluated_assigned": 264,
+            "words_evaluated_all_ref": 264,
+            "unassigned_words_in_ref_speech": 0,
+            "correct_attributions": 211,
+            "incorrect_attributions_assigned": 53,
+            "speaker_mapping": {
+              "speaker_0": "Speaker_2",
+              "speaker_1": "Speaker_4",
+              "speaker_2": "Speaker_5"
+            }
+          },
+          "wder_lexical": {
+            "wder_lexical": 0.1938,
+            "aligned_words_c_plus_s": 258,
+            "lexical_correct_c": 212,
+            "lexical_substitutions_s": 46,
+            "speaker_errors_on_c": 37,
+            "speaker_errors_on_s": 13,
+            "total_speaker_errors": 50,
+            "speaker_mapping": {
+              "speaker_0": "Speaker_2",
+              "speaker_1": "Speaker_4",
+              "speaker_2": "Speaker_5"
+            }
+          }
+        },
+        "refined_metrics": {
+          "word_count": 266,
+          "grouped_turn_count": 9,
+          "cpwer": 0.523,
+          "cpwer_details": {
+            "cpwer": 0.523,
+            "errors": 148,
+            "substitutions": 43,
+            "insertions": 44,
+            "deletions": 61,
+            "reference_words": 283,
+            "hypothesis_words": 266,
+            "assignment": [
+              [
+                "Speaker_1",
+                "UNK"
+              ],
+              [
+                "Speaker_2",
+                "speaker_0"
+              ],
+              [
+                "Speaker_3",
+                null
+              ],
+              [
+                "Speaker_4",
+                "speaker_1"
+              ],
+              [
+                "Speaker_5",
+                "speaker_2"
+              ]
+            ],
+            "hyp_turn_count": 9,
+            "ref_segment_count": 7
+          },
+          "wder_timestamp": {
+            "wder_assigned": 0.2008,
+            "speaker_accuracy_assigned": 0.7992,
+            "wder_all_ref": 0.2008,
+            "words_evaluated_assigned": 264,
+            "words_evaluated_all_ref": 264,
+            "unassigned_words_in_ref_speech": 0,
+            "correct_attributions": 211,
+            "incorrect_attributions_assigned": 53,
+            "speaker_mapping": {
+              "speaker_0": "Speaker_2",
+              "speaker_1": "Speaker_4",
+              "speaker_2": "Speaker_5"
+            }
+          },
+          "wder_lexical": {
+            "wder_lexical": 0.1938,
+            "aligned_words_c_plus_s": 258,
+            "lexical_correct_c": 212,
+            "lexical_substitutions_s": 46,
+            "speaker_errors_on_c": 37,
+            "speaker_errors_on_s": 13,
+            "total_speaker_errors": 50,
+            "speaker_mapping": {
+              "speaker_0": "Speaker_2",
+              "speaker_1": "Speaker_4",
+              "speaker_2": "Speaker_5"
+            }
+          }
+        },
+        "metric_deltas": {
+          "delta_cpwer": 0.0,
+          "delta_wder_timestamp_assigned": 0.0,
+          "delta_wder_timestamp_all_ref": 0.0,
+          "delta_wder_lexical": 0.0
+        }
+      }
+    },
+    {
+      "condition": "E20",
+      "mode": "offline_contextual_diagnostic",
+      "provider_name": "offline_contextual_diagnostic",
+      "model_name": "deterministic-bwc-dialogue-analyzer-v1",
+      "output_artifact": "research_stages/stage6_generative_refinement/outputs/live_gemini_retry/R01_sara_sharif__E20__offline_contextual_diagnostic.json",
+      "output_sha256": "6c349448b04dff31f45feea04bde283c1a971bb1be62365d0fd7d7ac397bd18e",
+      "evaluation_report": {
+        "integrity_checks": {
+          "word_sequence_integrity_verified": true,
+          "timestamp_integrity_verified": true,
+          "original_transcript_recoverable": true,
+          "original_words_sha256": "b5e13093a8cdef464c374b9b01507385c34b36f2c6cae20871e5ea97f10a21dd",
+          "refined_words_sha256": "b5e13093a8cdef464c374b9b01507385c34b36f2c6cae20871e5ea97f10a21dd",
+          "original_timestamps_sha256": "9c7ba033fce4fb4b660a2a9ca4ef49494d7f0227a2de0c779d64749f450870f0",
+          "refined_timestamps_sha256": "9c7ba033fce4fb4b660a2a9ca4ef49494d7f0227a2de0c779d64749f450870f0"
+        },
+        "refinement_telemetry": {
+          "total_words": 266,
+          "proposed_corrections_count": 0,
+          "accepted_corrections_count": 0,
+          "rejected_corrections_count": 0,
+          "abstentions_count": 266,
+          "reasons_breakdown": {
+            "ABSTAINED_BY_LLM": 266
+          }
+        },
+        "baseline_metrics": {
+          "word_count": 266,
+          "grouped_turn_count": 9,
+          "cpwer": 0.523,
+          "cpwer_details": {
+            "cpwer": 0.523,
+            "errors": 148,
+            "substitutions": 43,
+            "insertions": 44,
+            "deletions": 61,
+            "reference_words": 283,
+            "hypothesis_words": 266,
+            "assignment": [
+              [
+                "Speaker_1",
+                "UNK"
+              ],
+              [
+                "Speaker_2",
+                "speaker_0"
+              ],
+              [
+                "Speaker_3",
+                null
+              ],
+              [
+                "Speaker_4",
+                "speaker_1"
+              ],
+              [
+                "Speaker_5",
+                "speaker_2"
+              ]
+            ],
+            "hyp_turn_count": 9,
+            "ref_segment_count": 7
+          },
+          "wder_timestamp": {
+            "wder_assigned": 0.2008,
+            "speaker_accuracy_assigned": 0.7992,
+            "wder_all_ref": 0.2008,
+            "words_evaluated_assigned": 264,
+            "words_evaluated_all_ref": 264,
+            "unassigned_words_in_ref_speech": 0,
+            "correct_attributions": 211,
+            "incorrect_attributions_assigned": 53,
+            "speaker_mapping": {
+              "speaker_0": "Speaker_2",
+              "speaker_1": "Speaker_4",
+              "speaker_2": "Speaker_5"
+            }
+          },
+          "wder_lexical": {
+            "wder_lexical": 0.1938,
+            "aligned_words_c_plus_s": 258,
+            "lexical_correct_c": 212,
+            "lexical_substitutions_s": 46,
+            "speaker_errors_on_c": 37,
+            "speaker_errors_on_s": 13,
+            "total_speaker_errors": 50,
+            "speaker_mapping": {
+              "speaker_0": "Speaker_2",
+              "speaker_1": "Speaker_4",
+              "speaker_2": "Speaker_5"
+            }
+          }
+        },
+        "refined_metrics": {
+          "word_count": 266,
+          "grouped_turn_count": 9,
+          "cpwer": 0.523,
+          "cpwer_details": {
+            "cpwer": 0.523,
+            "errors": 148,
+            "substitutions": 43,
+            "insertions": 44,
+            "deletions": 61,
+            "reference_words": 283,
+            "hypothesis_words": 266,
+            "assignment": [
+              [
+                "Speaker_1",
+                "UNK"
+              ],
+              [
+                "Speaker_2",
+                "speaker_0"
+              ],
+              [
+                "Speaker_3",
+                null
+              ],
+              [
+                "Speaker_4",
+                "speaker_1"
+              ],
+              [
+                "Speaker_5",
+                "speaker_2"
+              ]
+            ],
+            "hyp_turn_count": 9,
+            "ref_segment_count": 7
+          },
+          "wder_timestamp": {
+            "wder_assigned": 0.2008,
+            "speaker_accuracy_assigned": 0.7992,
+            "wder_all_ref": 0.2008,
+            "words_evaluated_assigned": 264,
+            "words_evaluated_all_ref": 264,
+            "unassigned_words_in_ref_speech": 0,
+            "correct_attributions": 211,
+            "incorrect_attributions_assigned": 53,
+            "speaker_mapping": {
+              "speaker_0": "Speaker_2",
+              "speaker_1": "Speaker_4",
+              "speaker_2": "Speaker_5"
+            }
+          },
+          "wder_lexical": {
+            "wder_lexical": 0.1938,
+            "aligned_words_c_plus_s": 258,
+            "lexical_correct_c": 212,
+            "lexical_substitutions_s": 46,
+            "speaker_errors_on_c": 37,
+            "speaker_errors_on_s": 13,
+            "total_speaker_errors": 50,
+            "speaker_mapping": {
+              "speaker_0": "Speaker_2",
+              "speaker_1": "Speaker_4",
+              "speaker_2": "Speaker_5"
+            }
+          }
+        },
+        "metric_deltas": {
+          "delta_cpwer": 0.0,
+          "delta_wder_timestamp_assigned": 0.0,
+          "delta_wder_timestamp_all_ref": 0.0,
+          "delta_wder_lexical": 0.0
+        }
+      }
+    },
+    {
+      "condition": "E20",
+      "mode": "simulated_conversational_qa",
+      "provider_name": "mock_scripted",
+      "model_name": "r01-scripted-conversational-qa-simulation-v1",
+      "output_artifact": "research_stages/stage6_generative_refinement/outputs/live_gemini_retry/R01_sara_sharif__E20__simulated_conversational_qa.json",
+      "output_sha256": "3d873b39c778ac95d3429cfc50944418a0f3a4bbb2233a3a05b622e3214a8f8b",
+      "evaluation_report": {
+        "integrity_checks": {
+          "word_sequence_integrity_verified": true,
+          "timestamp_integrity_verified": true,
+          "original_transcript_recoverable": true,
+          "original_words_sha256": "b5e13093a8cdef464c374b9b01507385c34b36f2c6cae20871e5ea97f10a21dd",
+          "refined_words_sha256": "b5e13093a8cdef464c374b9b01507385c34b36f2c6cae20871e5ea97f10a21dd",
+          "original_timestamps_sha256": "9c7ba033fce4fb4b660a2a9ca4ef49494d7f0227a2de0c779d64749f450870f0",
+          "refined_timestamps_sha256": "9c7ba033fce4fb4b660a2a9ca4ef49494d7f0227a2de0c779d64749f450870f0"
+        },
+        "refinement_telemetry": {
+          "total_words": 266,
+          "proposed_corrections_count": 3,
+          "accepted_corrections_count": 3,
+          "rejected_corrections_count": 0,
+          "abstentions_count": 263,
+          "reasons_breakdown": {
+            "ABSTAINED_BY_LLM": 263,
+            "ACCEPTED_VALIDATED_CORRECTION": 3
+          }
+        },
+        "baseline_metrics": {
+          "word_count": 266,
+          "grouped_turn_count": 9,
+          "cpwer": 0.523,
+          "cpwer_details": {
+            "cpwer": 0.523,
+            "errors": 148,
+            "substitutions": 43,
+            "insertions": 44,
+            "deletions": 61,
+            "reference_words": 283,
+            "hypothesis_words": 266,
+            "assignment": [
+              [
+                "Speaker_1",
+                "UNK"
+              ],
+              [
+                "Speaker_2",
+                "speaker_0"
+              ],
+              [
+                "Speaker_3",
+                null
+              ],
+              [
+                "Speaker_4",
+                "speaker_1"
+              ],
+              [
+                "Speaker_5",
+                "speaker_2"
+              ]
+            ],
+            "hyp_turn_count": 9,
+            "ref_segment_count": 7
+          },
+          "wder_timestamp": {
+            "wder_assigned": 0.2008,
+            "speaker_accuracy_assigned": 0.7992,
+            "wder_all_ref": 0.2008,
+            "words_evaluated_assigned": 264,
+            "words_evaluated_all_ref": 264,
+            "unassigned_words_in_ref_speech": 0,
+            "correct_attributions": 211,
+            "incorrect_attributions_assigned": 53,
+            "speaker_mapping": {
+              "speaker_0": "Speaker_2",
+              "speaker_1": "Speaker_4",
+              "speaker_2": "Speaker_5"
+            }
+          },
+          "wder_lexical": {
+            "wder_lexical": 0.1938,
+            "aligned_words_c_plus_s": 258,
+            "lexical_correct_c": 212,
+            "lexical_substitutions_s": 46,
+            "speaker_errors_on_c": 37,
+            "speaker_errors_on_s": 13,
+            "total_speaker_errors": 50,
+            "speaker_mapping": {
+              "speaker_0": "Speaker_2",
+              "speaker_1": "Speaker_4",
+              "speaker_2": "Speaker_5"
+            }
+          }
+        },
+        "refined_metrics": {
+          "word_count": 266,
+          "grouped_turn_count": 9,
+          "cpwer": 0.523,
+          "cpwer_details": {
+            "cpwer": 0.523,
+            "errors": 148,
+            "substitutions": 41,
+            "insertions": 45,
+            "deletions": 62,
+            "reference_words": 283,
+            "hypothesis_words": 266,
+            "assignment": [
+              [
+                "Speaker_1",
+                null
+              ],
+              [
+                "Speaker_2",
+                "speaker_0"
+              ],
+              [
+                "Speaker_3",
+                null
+              ],
+              [
+                "Speaker_4",
+                "speaker_1"
+              ],
+              [
+                "Speaker_5",
+                "speaker_2"
+              ]
+            ],
+            "hyp_turn_count": 9,
+            "ref_segment_count": 7
+          },
+          "wder_timestamp": {
+            "wder_assigned": 0.197,
+            "speaker_accuracy_assigned": 0.803,
+            "wder_all_ref": 0.197,
+            "words_evaluated_assigned": 264,
+            "words_evaluated_all_ref": 264,
+            "unassigned_words_in_ref_speech": 0,
+            "correct_attributions": 212,
+            "incorrect_attributions_assigned": 52,
+            "speaker_mapping": {
+              "speaker_0": "Speaker_2",
+              "speaker_1": "Speaker_4",
+              "speaker_2": "Speaker_5"
+            }
+          },
+          "wder_lexical": {
+            "wder_lexical": 0.1899,
+            "aligned_words_c_plus_s": 258,
+            "lexical_correct_c": 212,
+            "lexical_substitutions_s": 46,
+            "speaker_errors_on_c": 37,
+            "speaker_errors_on_s": 12,
+            "total_speaker_errors": 49,
+            "speaker_mapping": {
+              "speaker_0": "Speaker_2",
+              "speaker_1": "Speaker_4",
+              "speaker_2": "Speaker_5"
+            }
+          }
+        },
+        "metric_deltas": {
+          "delta_cpwer": 0.0,
+          "delta_wder_timestamp_assigned": -0.0038,
+          "delta_wder_timestamp_all_ref": -0.0038,
+          "delta_wder_lexical": -0.0039
+        }
+      }
+    },
+    {
+      "condition": "E20",
+      "mode": "live_gemini",
+      "provider_name": "gemini",
+      "model_name": "gemini-3.5-flash-lite",
+      "output_artifact": "research_stages/stage6_generative_refinement/outputs/live_gemini_retry/R01_sara_sharif__E20__live_gemini.json",
+      "output_sha256": "bcd3826b723d1472c3c40e0a91dab3df251db3e542d6d2e3df4cbd0c9020b58e",
+      "evaluation_report": {
+        "integrity_checks": {
+          "word_sequence_integrity_verified": true,
+          "timestamp_integrity_verified": true,
+          "original_transcript_recoverable": true,
+          "original_words_sha256": "b5e13093a8cdef464c374b9b01507385c34b36f2c6cae20871e5ea97f10a21dd",
+          "refined_words_sha256": "b5e13093a8cdef464c374b9b01507385c34b36f2c6cae20871e5ea97f10a21dd",
+          "original_timestamps_sha256": "9c7ba033fce4fb4b660a2a9ca4ef49494d7f0227a2de0c779d64749f450870f0",
+          "refined_timestamps_sha256": "9c7ba033fce4fb4b660a2a9ca4ef49494d7f0227a2de0c779d64749f450870f0"
+        },
+        "refinement_telemetry": {
+          "total_words": 266,
+          "proposed_corrections_count": 0,
+          "accepted_corrections_count": 0,
+          "rejected_corrections_count": 240,
+          "abstentions_count": 26,
+          "reasons_breakdown": {
+            "ABSTAINED_BY_LLM": 26,
+            "REJECTED_MALFORMED_JSON": 240
+          }
+        },
+        "baseline_metrics": {
+          "word_count": 266,
+          "grouped_turn_count": 9,
+          "cpwer": 0.523,
+          "cpwer_details": {
+            "cpwer": 0.523,
+            "errors": 148,
+            "substitutions": 43,
+            "insertions": 44,
+            "deletions": 61,
+            "reference_words": 283,
+            "hypothesis_words": 266,
+            "assignment": [
+              [
+                "Speaker_1",
+                "UNK"
+              ],
+              [
+                "Speaker_2",
+                "speaker_0"
+              ],
+              [
+                "Speaker_3",
+                null
+              ],
+              [
+                "Speaker_4",
+                "speaker_1"
+              ],
+              [
+                "Speaker_5",
+                "speaker_2"
+              ]
+            ],
+            "hyp_turn_count": 9,
+            "ref_segment_count": 7
+          },
+          "wder_timestamp": {
+            "wder_assigned": 0.2008,
+            "speaker_accuracy_assigned": 0.7992,
+            "wder_all_ref": 0.2008,
+            "words_evaluated_assigned": 264,
+            "words_evaluated_all_ref": 264,
+            "unassigned_words_in_ref_speech": 0,
+            "correct_attributions": 211,
+            "incorrect_attributions_assigned": 53,
+            "speaker_mapping": {
+              "speaker_0": "Speaker_2",
+              "speaker_1": "Speaker_4",
+              "speaker_2": "Speaker_5"
+            }
+          },
+          "wder_lexical": {
+            "wder_lexical": 0.1938,
+            "aligned_words_c_plus_s": 258,
+            "lexical_correct_c": 212,
+            "lexical_substitutions_s": 46,
+            "speaker_errors_on_c": 37,
+            "speaker_errors_on_s": 13,
+            "total_speaker_errors": 50,
+            "speaker_mapping": {
+              "speaker_0": "Speaker_2",
+              "speaker_1": "Speaker_4",
+              "speaker_2": "Speaker_5"
+            }
+          }
+        },
+        "refined_metrics": {
+          "word_count": 266,
+          "grouped_turn_count": 9,
+          "cpwer": 0.523,
+          "cpwer_details": {
+            "cpwer": 0.523,
+            "errors": 148,
+            "substitutions": 43,
+            "insertions": 44,
+            "deletions": 61,
+            "reference_words": 283,
+            "hypothesis_words": 266,
+            "assignment": [
+              [
+                "Speaker_1",
+                "UNK"
+              ],
+              [
+                "Speaker_2",
+                "speaker_0"
+              ],
+              [
+                "Speaker_3",
+                null
+              ],
+              [
+                "Speaker_4",
+                "speaker_1"
+              ],
+              [
+                "Speaker_5",
+                "speaker_2"
+              ]
+            ],
+            "hyp_turn_count": 9,
+            "ref_segment_count": 7
+          },
+          "wder_timestamp": {
+            "wder_assigned": 0.2008,
+            "speaker_accuracy_assigned": 0.7992,
+            "wder_all_ref": 0.2008,
+            "words_evaluated_assigned": 264,
+            "words_evaluated_all_ref": 264,
+            "unassigned_words_in_ref_speech": 0,
+            "correct_attributions": 211,
+            "incorrect_attributions_assigned": 53,
+            "speaker_mapping": {
+              "speaker_0": "Speaker_2",
+              "speaker_1": "Speaker_4",
+              "speaker_2": "Speaker_5"
+            }
+          },
+          "wder_lexical": {
+            "wder_lexical": 0.1938,
+            "aligned_words_c_plus_s": 258,
+            "lexical_correct_c": 212,
+            "lexical_substitutions_s": 46,
+            "speaker_errors_on_c": 37,
+            "speaker_errors_on_s": 13,
+            "total_speaker_errors": 50,
+            "speaker_mapping": {
+              "speaker_0": "Speaker_2",
+              "speaker_1": "Speaker_4",
+              "speaker_2": "Speaker_5"
+            }
+          }
+        },
+        "metric_deltas": {
+          "delta_cpwer": 0.0,
+          "delta_wder_timestamp_assigned": 0.0,
+          "delta_wder_timestamp_all_ref": 0.0,
+          "delta_wder_lexical": 0.0
+        }
+      }
+    },
+    {
+      "condition": "E21",
+      "mode": "offline_abstaining",
+      "provider_name": "offline_abstaining",
+      "model_name": "offline-abstaining-v1",
+      "output_artifact": "research_stages/stage6_generative_refinement/outputs/live_gemini_retry/R01_sara_sharif__E21__offline_abstaining.json",
+      "output_sha256": "fc414240443bbcb114570272438b0d0ef99d2a28400578b7ebaa6c5521d8e374",
+      "evaluation_report": {
+        "integrity_checks": {
+          "word_sequence_integrity_verified": true,
+          "timestamp_integrity_verified": true,
+          "original_transcript_recoverable": true,
+          "original_words_sha256": "b5e13093a8cdef464c374b9b01507385c34b36f2c6cae20871e5ea97f10a21dd",
+          "refined_words_sha256": "b5e13093a8cdef464c374b9b01507385c34b36f2c6cae20871e5ea97f10a21dd",
+          "original_timestamps_sha256": "9c7ba033fce4fb4b660a2a9ca4ef49494d7f0227a2de0c779d64749f450870f0",
+          "refined_timestamps_sha256": "9c7ba033fce4fb4b660a2a9ca4ef49494d7f0227a2de0c779d64749f450870f0"
+        },
+        "refinement_telemetry": {
+          "total_words": 266,
+          "proposed_corrections_count": 0,
+          "accepted_corrections_count": 0,
+          "rejected_corrections_count": 0,
+          "abstentions_count": 266,
+          "reasons_breakdown": {
+            "ABSTAINED_BY_LLM": 266
+          }
+        },
+        "baseline_metrics": {
+          "word_count": 266,
+          "grouped_turn_count": 9,
+          "cpwer": 0.523,
+          "cpwer_details": {
+            "cpwer": 0.523,
+            "errors": 148,
+            "substitutions": 43,
+            "insertions": 44,
+            "deletions": 61,
+            "reference_words": 283,
+            "hypothesis_words": 266,
+            "assignment": [
+              [
+                "Speaker_1",
+                "UNK"
+              ],
+              [
+                "Speaker_2",
+                "speaker_0"
+              ],
+              [
+                "Speaker_3",
+                null
+              ],
+              [
+                "Speaker_4",
+                "speaker_1"
+              ],
+              [
+                "Speaker_5",
+                "speaker_2"
+              ]
+            ],
+            "hyp_turn_count": 9,
+            "ref_segment_count": 7
+          },
+          "wder_timestamp": {
+            "wder_assigned": 0.2008,
+            "speaker_accuracy_assigned": 0.7992,
+            "wder_all_ref": 0.2008,
+            "words_evaluated_assigned": 264,
+            "words_evaluated_all_ref": 264,
+            "unassigned_words_in_ref_speech": 0,
+            "correct_attributions": 211,
+            "incorrect_attributions_assigned": 53,
+            "speaker_mapping": {
+              "speaker_0": "Speaker_2",
+              "speaker_1": "Speaker_4",
+              "speaker_2": "Speaker_5"
+            }
+          },
+          "wder_lexical": {
+            "wder_lexical": 0.1938,
+            "aligned_words_c_plus_s": 258,
+            "lexical_correct_c": 212,
+            "lexical_substitutions_s": 46,
+            "speaker_errors_on_c": 37,
+            "speaker_errors_on_s": 13,
+            "total_speaker_errors": 50,
+            "speaker_mapping": {
+              "speaker_0": "Speaker_2",
+              "speaker_1": "Speaker_4",
+              "speaker_2": "Speaker_5"
+            }
+          }
+        },
+        "refined_metrics": {
+          "word_count": 266,
+          "grouped_turn_count": 9,
+          "cpwer": 0.523,
+          "cpwer_details": {
+            "cpwer": 0.523,
+            "errors": 148,
+            "substitutions": 43,
+            "insertions": 44,
+            "deletions": 61,
+            "reference_words": 283,
+            "hypothesis_words": 266,
+            "assignment": [
+              [
+                "Speaker_1",
+                "UNK"
+              ],
+              [
+                "Speaker_2",
+                "speaker_0"
+              ],
+              [
+                "Speaker_3",
+                null
+              ],
+              [
+                "Speaker_4",
+                "speaker_1"
+              ],
+              [
+                "Speaker_5",
+                "speaker_2"
+              ]
+            ],
+            "hyp_turn_count": 9,
+            "ref_segment_count": 7
+          },
+          "wder_timestamp": {
+            "wder_assigned": 0.2008,
+            "speaker_accuracy_assigned": 0.7992,
+            "wder_all_ref": 0.2008,
+            "words_evaluated_assigned": 264,
+            "words_evaluated_all_ref": 264,
+            "unassigned_words_in_ref_speech": 0,
+            "correct_attributions": 211,
+            "incorrect_attributions_assigned": 53,
+            "speaker_mapping": {
+              "speaker_0": "Speaker_2",
+              "speaker_1": "Speaker_4",
+              "speaker_2": "Speaker_5"
+            }
+          },
+          "wder_lexical": {
+            "wder_lexical": 0.1938,
+            "aligned_words_c_plus_s": 258,
+            "lexical_correct_c": 212,
+            "lexical_substitutions_s": 46,
+            "speaker_errors_on_c": 37,
+            "speaker_errors_on_s": 13,
+            "total_speaker_errors": 50,
+            "speaker_mapping": {
+              "speaker_0": "Speaker_2",
+              "speaker_1": "Speaker_4",
+              "speaker_2": "Speaker_5"
+            }
+          }
+        },
+        "metric_deltas": {
+          "delta_cpwer": 0.0,
+          "delta_wder_timestamp_assigned": 0.0,
+          "delta_wder_timestamp_all_ref": 0.0,
+          "delta_wder_lexical": 0.0
+        }
+      }
+    },
+    {
+      "condition": "E21",
+      "mode": "offline_contextual_diagnostic",
+      "provider_name": "offline_contextual_diagnostic",
+      "model_name": "deterministic-bwc-dialogue-analyzer-v1",
+      "output_artifact": "research_stages/stage6_generative_refinement/outputs/live_gemini_retry/R01_sara_sharif__E21__offline_contextual_diagnostic.json",
+      "output_sha256": "b0787b7a437146ef5fce02b41db6d70ce3a57dadfe155b41747ee9331c09eb90",
+      "evaluation_report": {
+        "integrity_checks": {
+          "word_sequence_integrity_verified": true,
+          "timestamp_integrity_verified": true,
+          "original_transcript_recoverable": true,
+          "original_words_sha256": "b5e13093a8cdef464c374b9b01507385c34b36f2c6cae20871e5ea97f10a21dd",
+          "refined_words_sha256": "b5e13093a8cdef464c374b9b01507385c34b36f2c6cae20871e5ea97f10a21dd",
+          "original_timestamps_sha256": "9c7ba033fce4fb4b660a2a9ca4ef49494d7f0227a2de0c779d64749f450870f0",
+          "refined_timestamps_sha256": "9c7ba033fce4fb4b660a2a9ca4ef49494d7f0227a2de0c779d64749f450870f0"
+        },
+        "refinement_telemetry": {
+          "total_words": 266,
+          "proposed_corrections_count": 0,
+          "accepted_corrections_count": 0,
+          "rejected_corrections_count": 0,
+          "abstentions_count": 266,
+          "reasons_breakdown": {
+            "ABSTAINED_BY_LLM": 266
+          }
+        },
+        "baseline_metrics": {
+          "word_count": 266,
+          "grouped_turn_count": 9,
+          "cpwer": 0.523,
+          "cpwer_details": {
+            "cpwer": 0.523,
+            "errors": 148,
+            "substitutions": 43,
+            "insertions": 44,
+            "deletions": 61,
+            "reference_words": 283,
+            "hypothesis_words": 266,
+            "assignment": [
+              [
+                "Speaker_1",
+                "UNK"
+              ],
+              [
+                "Speaker_2",
+                "speaker_0"
+              ],
+              [
+                "Speaker_3",
+                null
+              ],
+              [
+                "Speaker_4",
+                "speaker_1"
+              ],
+              [
+                "Speaker_5",
+                "speaker_2"
+              ]
+            ],
+            "hyp_turn_count": 9,
+            "ref_segment_count": 7
+          },
+          "wder_timestamp": {
+            "wder_assigned": 0.2008,
+            "speaker_accuracy_assigned": 0.7992,
+            "wder_all_ref": 0.2008,
+            "words_evaluated_assigned": 264,
+            "words_evaluated_all_ref": 264,
+            "unassigned_words_in_ref_speech": 0,
+            "correct_attributions": 211,
+            "incorrect_attributions_assigned": 53,
+            "speaker_mapping": {
+              "speaker_0": "Speaker_2",
+              "speaker_1": "Speaker_4",
+              "speaker_2": "Speaker_5"
+            }
+          },
+          "wder_lexical": {
+            "wder_lexical": 0.1938,
+            "aligned_words_c_plus_s": 258,
+            "lexical_correct_c": 212,
+            "lexical_substitutions_s": 46,
+            "speaker_errors_on_c": 37,
+            "speaker_errors_on_s": 13,
+            "total_speaker_errors": 50,
+            "speaker_mapping": {
+              "speaker_0": "Speaker_2",
+              "speaker_1": "Speaker_4",
+              "speaker_2": "Speaker_5"
+            }
+          }
+        },
+        "refined_metrics": {
+          "word_count": 266,
+          "grouped_turn_count": 9,
+          "cpwer": 0.523,
+          "cpwer_details": {
+            "cpwer": 0.523,
+            "errors": 148,
+            "substitutions": 43,
+            "insertions": 44,
+            "deletions": 61,
+            "reference_words": 283,
+            "hypothesis_words": 266,
+            "assignment": [
+              [
+                "Speaker_1",
+                "UNK"
+              ],
+              [
+                "Speaker_2",
+                "speaker_0"
+              ],
+              [
+                "Speaker_3",
+                null
+              ],
+              [
+                "Speaker_4",
+                "speaker_1"
+              ],
+              [
+                "Speaker_5",
+                "speaker_2"
+              ]
+            ],
+            "hyp_turn_count": 9,
+            "ref_segment_count": 7
+          },
+          "wder_timestamp": {
+            "wder_assigned": 0.2008,
+            "speaker_accuracy_assigned": 0.7992,
+            "wder_all_ref": 0.2008,
+            "words_evaluated_assigned": 264,
+            "words_evaluated_all_ref": 264,
+            "unassigned_words_in_ref_speech": 0,
+            "correct_attributions": 211,
+            "incorrect_attributions_assigned": 53,
+            "speaker_mapping": {
+              "speaker_0": "Speaker_2",
+              "speaker_1": "Speaker_4",
+              "speaker_2": "Speaker_5"
+            }
+          },
+          "wder_lexical": {
+            "wder_lexical": 0.1938,
+            "aligned_words_c_plus_s": 258,
+            "lexical_correct_c": 212,
+            "lexical_substitutions_s": 46,
+            "speaker_errors_on_c": 37,
+            "speaker_errors_on_s": 13,
+            "total_speaker_errors": 50,
+            "speaker_mapping": {
+              "speaker_0": "Speaker_2",
+              "speaker_1": "Speaker_4",
+              "speaker_2": "Speaker_5"
+            }
+          }
+        },
+        "metric_deltas": {
+          "delta_cpwer": 0.0,
+          "delta_wder_timestamp_assigned": 0.0,
+          "delta_wder_timestamp_all_ref": 0.0,
+          "delta_wder_lexical": 0.0
+        }
+      }
+    },
+    {
+      "condition": "E21",
+      "mode": "simulated_conversational_qa",
+      "provider_name": "mock_scripted",
+      "model_name": "r01-scripted-conversational-qa-simulation-v1",
+      "output_artifact": "research_stages/stage6_generative_refinement/outputs/live_gemini_retry/R01_sara_sharif__E21__simulated_conversational_qa.json",
+      "output_sha256": "fddf67e22c3d175cc4d3a0a5deac37431f168d97cb5633bb4c8ca01bc06a2548",
+      "evaluation_report": {
+        "integrity_checks": {
+          "word_sequence_integrity_verified": true,
+          "timestamp_integrity_verified": true,
+          "original_transcript_recoverable": true,
+          "original_words_sha256": "b5e13093a8cdef464c374b9b01507385c34b36f2c6cae20871e5ea97f10a21dd",
+          "refined_words_sha256": "b5e13093a8cdef464c374b9b01507385c34b36f2c6cae20871e5ea97f10a21dd",
+          "original_timestamps_sha256": "9c7ba033fce4fb4b660a2a9ca4ef49494d7f0227a2de0c779d64749f450870f0",
+          "refined_timestamps_sha256": "9c7ba033fce4fb4b660a2a9ca4ef49494d7f0227a2de0c779d64749f450870f0"
+        },
+        "refinement_telemetry": {
+          "total_words": 266,
+          "proposed_corrections_count": 3,
+          "accepted_corrections_count": 3,
+          "rejected_corrections_count": 0,
+          "abstentions_count": 263,
+          "reasons_breakdown": {
+            "ABSTAINED_BY_LLM": 263,
+            "ACCEPTED_VALIDATED_CORRECTION": 3
+          }
+        },
+        "baseline_metrics": {
+          "word_count": 266,
+          "grouped_turn_count": 9,
+          "cpwer": 0.523,
+          "cpwer_details": {
+            "cpwer": 0.523,
+            "errors": 148,
+            "substitutions": 43,
+            "insertions": 44,
+            "deletions": 61,
+            "reference_words": 283,
+            "hypothesis_words": 266,
+            "assignment": [
+              [
+                "Speaker_1",
+                "UNK"
+              ],
+              [
+                "Speaker_2",
+                "speaker_0"
+              ],
+              [
+                "Speaker_3",
+                null
+              ],
+              [
+                "Speaker_4",
+                "speaker_1"
+              ],
+              [
+                "Speaker_5",
+                "speaker_2"
+              ]
+            ],
+            "hyp_turn_count": 9,
+            "ref_segment_count": 7
+          },
+          "wder_timestamp": {
+            "wder_assigned": 0.2008,
+            "speaker_accuracy_assigned": 0.7992,
+            "wder_all_ref": 0.2008,
+            "words_evaluated_assigned": 264,
+            "words_evaluated_all_ref": 264,
+            "unassigned_words_in_ref_speech": 0,
+            "correct_attributions": 211,
+            "incorrect_attributions_assigned": 53,
+            "speaker_mapping": {
+              "speaker_0": "Speaker_2",
+              "speaker_1": "Speaker_4",
+              "speaker_2": "Speaker_5"
+            }
+          },
+          "wder_lexical": {
+            "wder_lexical": 0.1938,
+            "aligned_words_c_plus_s": 258,
+            "lexical_correct_c": 212,
+            "lexical_substitutions_s": 46,
+            "speaker_errors_on_c": 37,
+            "speaker_errors_on_s": 13,
+            "total_speaker_errors": 50,
+            "speaker_mapping": {
+              "speaker_0": "Speaker_2",
+              "speaker_1": "Speaker_4",
+              "speaker_2": "Speaker_5"
+            }
+          }
+        },
+        "refined_metrics": {
+          "word_count": 266,
+          "grouped_turn_count": 9,
+          "cpwer": 0.523,
+          "cpwer_details": {
+            "cpwer": 0.523,
+            "errors": 148,
+            "substitutions": 41,
+            "insertions": 45,
+            "deletions": 62,
+            "reference_words": 283,
+            "hypothesis_words": 266,
+            "assignment": [
+              [
+                "Speaker_1",
+                null
+              ],
+              [
+                "Speaker_2",
+                "speaker_0"
+              ],
+              [
+                "Speaker_3",
+                null
+              ],
+              [
+                "Speaker_4",
+                "speaker_1"
+              ],
+              [
+                "Speaker_5",
+                "speaker_2"
+              ]
+            ],
+            "hyp_turn_count": 9,
+            "ref_segment_count": 7
+          },
+          "wder_timestamp": {
+            "wder_assigned": 0.197,
+            "speaker_accuracy_assigned": 0.803,
+            "wder_all_ref": 0.197,
+            "words_evaluated_assigned": 264,
+            "words_evaluated_all_ref": 264,
+            "unassigned_words_in_ref_speech": 0,
+            "correct_attributions": 212,
+            "incorrect_attributions_assigned": 52,
+            "speaker_mapping": {
+              "speaker_0": "Speaker_2",
+              "speaker_1": "Speaker_4",
+              "speaker_2": "Speaker_5"
+            }
+          },
+          "wder_lexical": {
+            "wder_lexical": 0.1899,
+            "aligned_words_c_plus_s": 258,
+            "lexical_correct_c": 212,
+            "lexical_substitutions_s": 46,
+            "speaker_errors_on_c": 37,
+            "speaker_errors_on_s": 12,
+            "total_speaker_errors": 49,
+            "speaker_mapping": {
+              "speaker_0": "Speaker_2",
+              "speaker_1": "Speaker_4",
+              "speaker_2": "Speaker_5"
+            }
+          }
+        },
+        "metric_deltas": {
+          "delta_cpwer": 0.0,
+          "delta_wder_timestamp_assigned": -0.0038,
+          "delta_wder_timestamp_all_ref": -0.0038,
+          "delta_wder_lexical": -0.0039
+        }
+      }
+    }
+  ]
+}

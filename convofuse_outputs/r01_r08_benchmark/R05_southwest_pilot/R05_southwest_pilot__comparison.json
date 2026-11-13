@@ -1,0 +1,208 @@
+{
+  "total_words": 372,
+  "baseline_turn_count": 46,
+  "refined_turn_count": 47,
+  "refinement_summary": {
+    "recording_id": "R05_southwest_pilot",
+    "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+    "ollama_model_name": "diarizationlm-gemma",
+    "quantization": "Q4_K_M",
+    "provider_version": "ollama-0.32.6",
+    "total_runtime_sec": 6.1503,
+    "total_prompt_tokens": 771,
+    "total_completion_tokens": 734,
+    "segment_count": 2,
+    "summary_counts": {
+      "total_words": 372,
+      "accepted_corrections": 9,
+      "rejected_proposals": 0,
+      "abstained_words": 10,
+      "unchanged_words": 353,
+      "reasons_breakdown": {
+        "ABSTAINED_PRESERVE_UNK": 10,
+        "ACCEPTED_VALIDATED_TRANSFER": 9,
+        "UNCHANGED_BASELINE_CONFIRMED": 353
+      }
+    },
+    "segment_telemetries": [
+      {
+        "segment_id": "R05_southwest_pilot__seg_000",
+        "recording_id": "R05_southwest_pilot",
+        "start_word_index": 0,
+        "end_word_index": 299,
+        "word_count": 300,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 642,
+        "completion_tokens": 626,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 4.8634,
+        "prompt_text": "<|turn>user\n<speaker:2> Good morning. <speaker:3> Say it again? <speaker:2> Good morning, sir. <speaker:1> Good morning. How are <speaker:2> you? You good out there? <speaker:1> Yeah. Fine. <speaker:2> When was the last time you had a sip of a drink? <speaker:1> Last night? <speaker:2> How many hours ago? <speaker:1> Uh, like 10 hours ago, at least. <speaker:2> How many drinks did you have? <speaker:1> a few beers. Sir? <speaker:2> to find a few beers. <speaker:1> few years. <speaker:2> Define a few beers. <speaker:1> Three. <speaker:2> Okay. Yeah. We'll just drink. <speaker:1> Like beer, no lie. No lie? <speaker:2> Yeah. Anything <speaker:1> else? Nope. <speaker:3> What's up? <speaker:2> Who are you with? <speaker:1> May I follow? Uh huh. <speaker:2> Would you be willing to provide? Uh... Feel sobriety with me right now? <speaker:1> No. <speaker:2> Hold on. <speaker:1> There's no need? <speaker:2> Well, I can smell an odor consistent with an alcoholic beverage. <speaker:3> I can smell it, I can smell it. <speaker:2> It is a fully booked flight. <speaker:3> I have a smell of a adult beverage coming out of you. I don't know if it's coming out of your mouth or your skin. It's coming out of the pores, I get <speaker:1> it. Do I see it? <speaker:2> Would you do field sobriety? This would be a brand new uncharted territory. <speaker:1> Let's go. away from the passengers. One. to. greatness. <speaker:3> war. <speaker:1> I don't know. Sex. So Peace. No. <speaker:2> Did you turn around and go the other way? <speaker:0> One, two, three. Thank you. 6, 7, 8, 9, 10. <speaker:2> I'm trained in standardized field sobriety, and you've exhibited strong signs, and even after speaking with your first pilot, like... The issue is, would you agree to a blood draw to test your blood alcohol content? Okay, well, the issue is when you agreed to the field sobriety, you exhibited the symptoms, and if you're refusing to a blood draw, that's DUI less safe for the willful intention to operate a commercial aircraft. seriously yes sir <speaker:1> even --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:2> Good morning. <speaker:3> Say it again? <speaker:2> Good morning, sir. <speaker:1> Good morning. How are you? <speaker:2> You good out there? <speaker:1> Yeah. Fine. <speaker:2> When was the last time you had a sip of a drink? <speaker:1> Last night? <speaker:2> How many hours ago? <speaker:1> Uh, like 10 hours ago, at least. <speaker:2> How many drinks did you have? <speaker:1> a few beers. Sir? <speaker:2> to find a few beers. <speaker:1> few years. <speaker:2> Define a few beers. <speaker:1> Three. <speaker:2> Okay. <speaker:1> Yeah. <speaker:2> We'll just drink. <speaker:1> Like beer, no lie. No lie? <speaker:2> Yeah. Anything else? <speaker:1> Nope. What's up? <speaker:2> Who are you with? <speaker:1> May I follow? <speaker:2> Uh huh. Would you be willing to provide? <speaker:1> Uh... <speaker:2> Feel sobriety with me right now? <speaker:1> No. <speaker:2> Hold on. <speaker:1> There's no need? <speaker:2> Well, I can smell an odor consistent with an alcoholic beverage. <speaker:3> I can smell it, I can smell it. <speaker:2> It is a fully booked flight. <speaker:3> I have a smell of a adult beverage coming out of you. I don't know if it's coming out of your mouth or your skin. It's coming out of the pores, I get <speaker:1> it. Do I see it? <speaker:2> Would you do field sobriety? This would be a brand new uncharted territory. <speaker:1> Let's go. away from the passengers. One. to. greatness. war. I don't know. Sex. So Peace. No. <speaker:2> Did you turn around and go the other way? <speaker:0> One, two, three. Thank you. 6, 7, 8, 9, 10. <speaker:2> I'm trained in standardized field sobriety, and you've exhibited strong signs, and even after speaking with your first pilot, like... The issue is, would you agree to a blood draw to test your blood alcohol content? Okay, well, the issue is when you agreed to the field sobriety, you exhibited the symptoms, and if you're refusing to a blood draw, that's DUI less safe for the willful intention to operate a commercial aircraft. seriously yes sir <speaker:1> even ",
+        "cleaned_completion": "<speaker:2> Good morning. <speaker:3> Say it again? <speaker:2> Good morning, sir. <speaker:1> Good morning. How are you? <speaker:2> You good out there? <speaker:1> Yeah. Fine. <speaker:2> When was the last time you had a sip of a drink? <speaker:1> Last night? <speaker:2> How many hours ago? <speaker:1> Uh, like 10 hours ago, at least. <speaker:2> How many drinks did you have? <speaker:1> a few beers. Sir? <speaker:2> to find a few beers. <speaker:1> few years. <speaker:2> Define a few beers. <speaker:1> Three. <speaker:2> Okay. <speaker:1> Yeah. <speaker:2> We'll just drink. <speaker:1> Like beer, no lie. No lie? <speaker:2> Yeah. Anything else? <speaker:1> Nope. What's up? <speaker:2> Who are you with? <speaker:1> May I follow? <speaker:2> Uh huh. Would you be willing to provide? <speaker:1> Uh... <speaker:2> Feel sobriety with me right now? <speaker:1> No. <speaker:2> Hold on. <speaker:1> There's no need? <speaker:2> Well, I can smell an odor consistent with an alcoholic beverage. <speaker:3> I can smell it, I can smell it. <speaker:2> It is a fully booked flight. <speaker:3> I have a smell of a adult beverage coming out of you. I don't know if it's coming out of your mouth or your skin. It's coming out of the pores, I get <speaker:1> it. Do I see it? <speaker:2> Would you do field sobriety? This would be a brand new uncharted territory. <speaker:1> Let's go. away from the passengers. One. to. greatness. war. I don't know. Sex. So Peace. No. <speaker:2> Did you turn around and go the other way? <speaker:0> One, two, three. Thank you. 6, 7, 8, 9, 10. <speaker:2> I'm trained in standardized field sobriety, and you've exhibited strong signs, and even after speaking with your first pilot, like... The issue is, would you agree to a blood draw to test your blood alcohol content? Okay, well, the issue is when you agreed to the field sobriety, you exhibited the symptoms, and if you're refusing to a blood draw, that's DUI less safe for the willful intention to operate a commercial aircraft. seriously yes sir <speaker:1> even",
+        "accepted_count": 9,
+        "rejected_count": 0,
+        "abstained_count": 10,
+        "unchanged_count": 281,
+        "rejection_reasons_breakdown": {
+          "UNCHANGED_BASELINE_CONFIRMED": 281,
+          "ACCEPTED_VALIDATED_TRANSFER": 9,
+          "ABSTAINED_PRESERVE_UNK": 10
+        }
+      },
+      {
+        "segment_id": "R05_southwest_pilot__seg_001",
+        "recording_id": "R05_southwest_pilot",
+        "start_word_index": 300,
+        "end_word_index": 371,
+        "word_count": 72,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 129,
+        "completion_tokens": 108,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 1.2243,
+        "prompt_text": "<|turn>user\n<speaker:1> if i gave you blood then nothing would change <speaker:2> okay <speaker:1> Right? <speaker:2> That is your willful choice that you were willing to make, but based off the calls that we received stating that people down in TSA could smell. What smelled like alcohol, if you don't mind, we're just going to head up to the patrol car so that way we don't have to do it all in front of the public eye. --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:1> if i gave you blood then nothing would change <speaker:2> okay <speaker:1> Right? <speaker:2> That is your willful choice that you were willing to make, but based off the calls that we received stating that people down in TSA could smell. What smelled like alcohol, if you don't mind, we're just going to head up to the patrol car so that way we don't have to do it all in front of the public eye. ",
+        "cleaned_completion": "<speaker:1> if i gave you blood then nothing would change <speaker:2> okay <speaker:1> Right? <speaker:2> That is your willful choice that you were willing to make, but based off the calls that we received stating that people down in TSA could smell. What smelled like alcohol, if you don't mind, we're just going to head up to the patrol car so that way we don't have to do it all in front of the public eye.",
+        "accepted_count": 0,
+        "rejected_count": 0,
+        "abstained_count": 0,
+        "unchanged_count": 72,
+        "rejection_reasons_breakdown": {
+          "UNCHANGED_BASELINE_CONFIRMED": 72
+        }
+      }
+    ]
+  },
+  "changed_words_count": 9,
+  "changed_words": [
+    {
+      "word_index": 12,
+      "word": "you?",
+      "start": 15.46,
+      "end": 15.54,
+      "baseline_speaker_id": "SPEAKER_01",
+      "refined_speaker_id": "SPEAKER_00",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_01 to SPEAKER_00."
+    },
+    {
+      "word_index": 67,
+      "word": "Yeah.",
+      "start": 37.906,
+      "end": 38.086,
+      "baseline_speaker_id": "SPEAKER_01",
+      "refined_speaker_id": "SPEAKER_00",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_01 to SPEAKER_00."
+    },
+    {
+      "word_index": 79,
+      "word": "else?",
+      "start": 42.728,
+      "end": 42.909,
+      "baseline_speaker_id": "SPEAKER_00",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_00 to SPEAKER_01."
+    },
+    {
+      "word_index": 81,
+      "word": "What's",
+      "start": 44.289,
+      "end": 44.453,
+      "baseline_speaker_id": "SPEAKER_02",
+      "refined_speaker_id": "SPEAKER_00",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_02 to SPEAKER_00."
+    },
+    {
+      "word_index": 82,
+      "word": "up?",
+      "start": 44.474,
+      "end": 44.535,
+      "baseline_speaker_id": "SPEAKER_02",
+      "refined_speaker_id": "SPEAKER_00",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_02 to SPEAKER_00."
+    },
+    {
+      "word_index": 90,
+      "word": "Uh",
+      "start": 49.373,
+      "end": 49.414,
+      "baseline_speaker_id": "SPEAKER_00",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_00 to SPEAKER_01."
+    },
+    {
+      "word_index": 91,
+      "word": "huh.",
+      "start": 49.434,
+      "end": 49.536,
+      "baseline_speaker_id": "SPEAKER_00",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_00 to SPEAKER_01."
+    },
+    {
+      "word_index": 98,
+      "word": "Uh...",
+      "start": 52.711,
+      "end": 52.876,
+      "baseline_speaker_id": "SPEAKER_01",
+      "refined_speaker_id": "SPEAKER_00",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_01 to SPEAKER_00."
+    },
+    {
+      "word_index": 196,
+      "word": "war.",
+      "start": 92.911,
+      "end": 93.185,
+      "baseline_speaker_id": "SPEAKER_02",
+      "refined_speaker_id": "SPEAKER_00",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_02 to SPEAKER_00."
+    }
+  ],
+  "rejected_proposals_count": 0,
+  "rejected_proposals": []
+}

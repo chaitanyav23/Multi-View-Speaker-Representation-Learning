@@ -1,0 +1,22 @@
+{
+  "segment_id": "R01_sara_sharif__seg_002",
+  "recording_id": "R01_sara_sharif",
+  "prompt": "<|turn>user\n<speaker:3> From the injuries sustained by her and the investigation conducted, you are suspected of her murder. You are therefore arrested for the murder of Saad Sharif. --> <turn|>\n<|turn>model\n",
+  "completion_data": {
+    "raw_completion": "<speaker:3> From the injuries sustained by her and the investigation conducted, you are suspected of her murder. You are therefore arrested for the murder of Saad Sharif. ",
+    "done": true,
+    "done_reason": "stop",
+    "prompt_tokens": 59,
+    "completion_tokens": 38,
+    "runtime_sec": 0.7863,
+    "ollama_total_duration_ns": 777721513,
+    "prompt_configuration": {
+      "temperature": 0.0,
+      "num_predict": 1024,
+      "stop": [
+        "<turn|>",
+        "[eod]"
+      ]
+    }
+  }
+}
