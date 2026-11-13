@@ -1,0 +1,132 @@
+{
+  "recording_id": "R06_rich_karen",
+  "speaker_inventory": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_03",
+    "SPEAKER_04",
+    "SPEAKER_05",
+    "SPEAKER_06",
+    "SPEAKER_07"
+  ],
+  "rttm_to_canonical_speaker_map": {
+    "speaker_0": "SPEAKER_00",
+    "SPEAKER_00": "SPEAKER_00",
+    "speaker_1": "SPEAKER_01",
+    "SPEAKER_01": "SPEAKER_01",
+    "speaker_2": "SPEAKER_02",
+    "SPEAKER_02": "SPEAKER_02",
+    "speaker_3": "SPEAKER_03",
+    "SPEAKER_03": "SPEAKER_03",
+    "speaker_4": "SPEAKER_04",
+    "SPEAKER_04": "SPEAKER_04",
+    "speaker_5": "SPEAKER_05",
+    "SPEAKER_05": "SPEAKER_05",
+    "speaker_6": "SPEAKER_06",
+    "SPEAKER_06": "SPEAKER_06",
+    "speaker_7": "SPEAKER_07",
+    "SPEAKER_07": "SPEAKER_07"
+  },
+  "speaker_summaries": [
+    {
+      "speaker_id": "SPEAKER_00",
+      "total_speaking_duration_sec": 110.045,
+      "turn_count": 47,
+      "word_count": 454,
+      "first_appearance_sec": 7.255,
+      "last_appearance_sec": 560.907,
+      "mean_word_confidence": 0.5951,
+      "accepted_corrections_into_speaker": 9,
+      "accepted_corrections_out_of_speaker": 19
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "total_speaking_duration_sec": 123.911,
+      "turn_count": 42,
+      "word_count": 433,
+      "first_appearance_sec": 279.811,
+      "last_appearance_sec": 576.055,
+      "mean_word_confidence": 0.5633,
+      "accepted_corrections_into_speaker": 25,
+      "accepted_corrections_out_of_speaker": 10
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "total_speaking_duration_sec": 47.917,
+      "turn_count": 1,
+      "word_count": 210,
+      "first_appearance_sec": 604.175,
+      "last_appearance_sec": 652.092,
+      "mean_word_confidence": 0.7485,
+      "accepted_corrections_into_speaker": 0,
+      "accepted_corrections_out_of_speaker": 0
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "total_speaking_duration_sec": 32.832,
+      "turn_count": 2,
+      "word_count": 132,
+      "first_appearance_sec": 0.071,
+      "last_appearance_sec": 603.815,
+      "mean_word_confidence": 0.8214,
+      "accepted_corrections_into_speaker": 0,
+      "accepted_corrections_out_of_speaker": 0
+    },
+    {
+      "speaker_id": "SPEAKER_04",
+      "total_speaking_duration_sec": 41.859,
+      "turn_count": 22,
+      "word_count": 169,
+      "first_appearance_sec": 81.982,
+      "last_appearance_sec": 335.855,
+      "mean_word_confidence": 0.494,
+      "accepted_corrections_into_speaker": 1,
+      "accepted_corrections_out_of_speaker": 7
+    },
+    {
+      "speaker_id": "SPEAKER_05",
+      "total_speaking_duration_sec": 17.417,
+      "turn_count": 11,
+      "word_count": 75,
+      "first_appearance_sec": 128.949,
+      "last_appearance_sec": 436.76,
+      "mean_word_confidence": 0.4755,
+      "accepted_corrections_into_speaker": 1,
+      "accepted_corrections_out_of_speaker": 1
+    },
+    {
+      "speaker_id": "SPEAKER_06",
+      "total_speaking_duration_sec": 28.784,
+      "turn_count": 13,
+      "word_count": 94,
+      "first_appearance_sec": 89.188,
+      "last_appearance_sec": 267.92,
+      "mean_word_confidence": 0.5578,
+      "accepted_corrections_into_speaker": 4,
+      "accepted_corrections_out_of_speaker": 0
+    },
+    {
+      "speaker_id": "SPEAKER_07",
+      "total_speaking_duration_sec": 43.292,
+      "turn_count": 36,
+      "word_count": 117,
+      "first_appearance_sec": 49.139,
+      "last_appearance_sec": 510.643,
+      "mean_word_confidence": 0.4414,
+      "accepted_corrections_into_speaker": 0,
+      "accepted_corrections_out_of_speaker": 3
+    },
+    {
+      "speaker_id": "UNK",
+      "total_speaking_duration_sec": 10.307,
+      "turn_count": 6,
+      "word_count": 35,
+      "first_appearance_sec": 73.741,
+      "last_appearance_sec": 239.946,
+      "mean_word_confidence": 0.4121,
+      "accepted_corrections_into_speaker": 0,
+      "accepted_corrections_out_of_speaker": 0
+    }
+  ]
+}

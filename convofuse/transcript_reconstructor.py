@@ -225,17 +225,22 @@ def format_readable_transcript(
     refinement_model: str,
     turns: Sequence[ConvoFuseTurn],
     speaker_summaries: Sequence[ConvoFuseSpeakerSummary],
+    words: Optional[Sequence[ConvoFuseWord]] = None,
 ) -> str:
     """
     Produces the complete human-readable conversational transcript (Part 5.3):
     `[00:00:01.200 – 00:00:03.450] SPEAKER_00: Hello, how are you?`
+    Includes explicit overlap metadata annotations without fabricating a second lexical stream.
     """
+    word_map = {w.word_index: w for w in words} if words is not None else {}
+    ovl_turn_count = sum(1 for t in turns if t.has_overlapping_speech)
     lines: List[str] = [
         f"# ConvoFuse Conversational Transcript — {recording_id} ({filename})",
         f"# Execution Mode: {execution_mode}",
         f"# Diarization Condition: {diarization_condition}",
         f"# Generative Refinement Model: {refinement_model}",
-        f"# Media Duration: {duration_sec:.2f}s | Total Turns: {len(turns)}",
+        f"# Media Duration: {duration_sec:.2f}s | Total Turns: {len(turns)} | Multi-Speaker RTTM Overlap Turns: {ovl_turn_count}",
+        "# Overlap & UNK Policy: Explicit overlap metadata; UNK preserved; no fabricated simultaneous lexical stream",
         "#",
         "# Speaker Summary Index:",
     ]
@@ -250,6 +255,20 @@ def format_readable_transcript(
 
     for t in turns:
         lines.append(t.formatted_line)
+        turn_probs = [
+            float(word_map[idx].overlap_metadata.frame_overlap_prob_max)
+            for idx in t.word_indices
+            if idx in word_map and word_map[idx].overlap_metadata.frame_overlap_prob_max is not None
+        ]
+        max_prob = max(turn_probs) if turn_probs else None
+        if t.has_overlapping_speech or (max_prob is not None and max_prob >= 0.50):
+            ovl_spks_str = ",".join(t.overlapping_speakers) if t.overlapping_speakers else t.speaker_id
+            prob_str = f"{max_prob:.3f}" if max_prob is not None else "N/A"
+            lines.append(
+                f"  # [OVERLAP_METADATA: multi_speaker_rttm={t.has_overlapping_speech} | "
+                f"concurrent_speakers={ovl_spks_str} | max_frame_overlap_posterior={prob_str} | "
+                f"single_lexical_stream_preserved=True]"
+            )
         lines.append("")
 
     return "\n".join(lines).rstrip() + "\n"
@@ -322,6 +341,7 @@ def export_convofuse_artifacts(
     rec = bundle.recording_id
 
     txt_path = out / f"{rec}__transcript.txt"
+    transcript_json_path = out / f"{rec}__transcript.json"
     words_path = out / f"{rec}__words.json"
     turns_path = out / f"{rec}__turns.json"
     speakers_path = out / f"{rec}__speakers.json"
@@ -329,6 +349,10 @@ def export_convofuse_artifacts(
     manifest_path = out / f"{rec}__processing_manifest.json"
 
     txt_path.write_text(bundle.readable_transcript_txt, encoding="utf-8")
+    transcript_json_path.write_text(
+        json.dumps(bundle.to_dict(), indent=2, ensure_ascii=False),
+        encoding="utf-8",
+    )
     words_path.write_text(
         json.dumps(
             {
@@ -384,6 +408,7 @@ def export_convofuse_artifacts(
 
     exported_files = {
         "transcript_txt": str(txt_path),
+        "transcript_json": str(transcript_json_path),
         "words_json": str(words_path),
         "turns_json": str(turns_path),
         "speakers_json": str(speakers_path),

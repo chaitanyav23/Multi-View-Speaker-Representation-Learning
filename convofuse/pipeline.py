@@ -415,6 +415,7 @@ class ConvoFusePipeline:
             refinement_model=ref_model_label,
             turns=refined_turns,
             speaker_summaries=speaker_summaries,
+            words=refined_words,
         )
         comparison = build_baseline_vs_refined_comparison(
             words=refined_words,
@@ -823,6 +824,7 @@ class ConvoFusePipeline:
             refinement_model=ref_model_label,
             turns=refined_turns,
             speaker_summaries=speaker_summaries,
+            words=refined_words,
         )
         comparison = build_baseline_vs_refined_comparison(
             words=refined_words,

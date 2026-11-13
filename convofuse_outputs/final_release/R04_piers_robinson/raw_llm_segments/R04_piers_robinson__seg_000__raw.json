@@ -1,0 +1,24 @@
+{
+  "segment_id": "R04_piers_robinson__seg_000",
+  "recording_id": "R04_piers_robinson",
+  "prompt": "<|turn>user\n<speaker:2> Would you have a ban, like Donald Trump suggested in America, would you have a ban on Muslims entering the country, new Muslims trying to have a home in this country? <speaker:1> I believe, I believe we need to protect the British public right now. <speaker:2> So what's the answer to the <speaker:3> question? Including British <speaker:1> Muslims? Yeah, the British public. I didn't say British non-Muslim public, I said the British public. We've had three terror attacks, children are being killed. <speaker:2> Yes, we all know what's been happening. <speaker:1> Yes, I would. <speaker:2> You would ban all Muslims? I <speaker:1> would temporarily halt Muslim immigration to this country until we get a grip of the problem. I differentiate Muslims from Islam. Right, <speaker:2> but what you don't do... How can you <speaker:3> differentiate Muslims <speaker:1> from Islam? Muslims are people. Islam is an idea. Islam is an idea, a bad idea. And <speaker:2> Muslims <speaker:1> follow that faith. It's an idea that you can change your mind. <speaker:2> No, it's a faith. Like Christianity. <speaker:1> Like Scientology. <speaker:2> Like all faiths. Like Scientology. It's a religion, it's a faith. <speaker:1> Like Scientology. <speaker:3> So, Tommy, if you're saying that the problem is with Islam, are you accepting that you're Islamophobic? <speaker:1> Because there are a hundred verses in this book. <speaker:3> Yes or no? Are you Islamophobic? There's <speaker:1> no such word as Islamophobia. Phobia is an irrational fear. It's not irrational to fear these things. Now, if I hold this book up and say, there will never be peace on this earth so long as we have this book, it's a violent and cursed book. Can I tell you who said that? Sir William Gladstone said that. You wouldn't do that with the Bible. <speaker:2> Show some respect. <speaker:1> Show some respect. Show <speaker:2> some respect. <speaker:1> Have you read this <speaker:2> book? For people? Have <speaker:1> you read this book? There are over --> <turn|>\n<|turn>model\n",
+  "completion_data": {
+    "raw_completion": "<speaker:2> Would you have a ban, like Donald Trump suggested in America, would you have a ban on Muslims entering the country, new Muslims trying to have a home in this country? <speaker:1> I believe, I believe we need to protect the British public right now. <speaker:2> So what's the answer to the question? Including British <speaker:1> Muslims? Yeah, the British public. I didn't say British non-Muslim public, I said the British public. We've had three terror attacks, children are being killed. <speaker:2> Yes, we all know what's been happening. <speaker:1> Yes, I would. <speaker:2> You would ban all Muslims? <speaker:1> I would temporarily halt Muslim immigration to this country until we get a grip of the problem. I differentiate Muslims from Islam. <speaker:2> Right, but what you don't do... How can you differentiate Muslims from Islam? <speaker:1> Muslims are people. Islam is an idea. Islam is an idea, a bad idea. And Muslims follow that faith. It's an idea that you can change your mind. <speaker:2> No, it's a faith. Like Christianity. <speaker:1> Like Scientology. <speaker:2> Like all faiths. Like Scientology. It's a religion, it's a faith. <speaker:1> Like Scientology. <speaker:3> So, Tommy, if you're saying that the problem is with Islam, are you accepting that you're Islamophobic? <speaker:1> Because there are a hundred verses in this book. <speaker:3> Yes or no? Are you Islamophobic? There's <speaker:1> no such word as Islamophobia. Phobia is an irrational fear. It's not irrational to fear these things. Now, if I hold this book up and say, there will never be peace on this earth so long as we have this book, it's a violent and cursed book. Can I tell you who said that? Sir William Gladstone said that. You wouldn't do that with the Bible. <speaker:2> Show some respect. <speaker:1> Show some respect. <speaker:2> Show some respect. <speaker:1> Have you read this book? <speaker:2> For people? <speaker:1> Have you read this book? There are over ",
+    "done": true,
+    "done_reason": "stop",
+    "prompt_tokens": 563,
+    "completion_tokens": 522,
+    "runtime_sec": 4.3361,
+    "ollama_total_duration_ns": 4331886953,
+    "prompt_configuration": {
+      "temperature": 0.0,
+      "top_k": 1,
+      "seed": 42,
+      "num_predict": 2048,
+      "stop": [
+        "<turn|>",
+        "[eod]"
+      ]
+    }
+  }
+}

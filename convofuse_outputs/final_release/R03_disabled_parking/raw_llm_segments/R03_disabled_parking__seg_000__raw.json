@@ -1,0 +1,24 @@
+{
+  "segment_id": "R03_disabled_parking__seg_000",
+  "recording_id": "R03_disabled_parking",
+  "prompt": "<|turn>user\n<speaker:1> I'll see you over there filming me forward, okay? You're right, little. <speaker:2> Well, I'm not alright. Can you not see that this space is for disabled badge holders? <speaker:1> Okay, can you not see my badge? <speaker:2> How do I know that that is your badge? <speaker:1> Well, it's on my car. <speaker:2> That badge does not look authentic. <speaker:1> What do you mean that doesn't look authentic? <speaker:2> That badge looks fake. <speaker:1> Okay, well, it's real. <speaker:2> I've only got your word for it. <speaker:1> Okay, well, are you a parking officer? <speaker:2> I'm not a parking officer, but I work in this building and I'm quite happy to call a parking officer. Call them then. Well, no, no, why don't you come out and show me your disability? <speaker:1> Sorry? <speaker:2> What? You don't look disabled. <speaker:1> OK, well, OK, well, hold on a minute, yeah. Not all... Start as yeah, love. Not all disabilities are visible. <speaker:2> Well, what is your disability <speaker:1> then? Well, it's none of your business what my disability is, love. Well, <speaker:2> I think it is my business. <speaker:1> How is it your business? <speaker:2> Because I work in this building. <speaker:1> Congratulations, love. What do you want? Do you want a medal? <speaker:2> No, I'm doing my right as a citizen to tell you you should not be parking here if you don't have... <speaker:1> Okay, and I'm showing you my right as a disabled person that I have a badge. <speaker:2> Well, tell me what your disability is then. <speaker:1> Well, it's mind your business. <speaker:2> Oh, it doesn't sound like you actually are disabled. I think you're taking the mickey. Well, <speaker:1> I'm not taking the mickey. It's just a bit irrelevant for me to tell you what my disability is because it's none of your business. <speaker:2> First of all, your badge does not look real. Now you're telling me you aren't gonna --> <turn|>\n<|turn>model\n",
+  "completion_data": {
+    "raw_completion": "<speaker:1> I'll see you over there filming me forward, okay? You're right, little. <speaker:2> Well, I'm not alright. Can you not see that this space is for disabled badge holders? <speaker:1> Okay, can you not see my badge? <speaker:2> How do I know that that is your badge? <speaker:1> Well, it's on my car. <speaker:2> That badge does not look authentic. <speaker:1> What do you mean that doesn't look authentic? <speaker:2> That badge looks fake. <speaker:1> Okay, well, it's real. <speaker:2> I've only got your word for it. <speaker:1> Okay, well, are you a parking officer? <speaker:2> I'm not a parking officer, but I work in this building and I'm quite happy to call a parking officer. Call them then. Well, no, no, why don't you come out and show me your disability? <speaker:1> Sorry? What? <speaker:2> You don't look disabled. <speaker:1> OK, well, OK, well, hold on a minute, yeah. Not all... <speaker:2> Start as yeah, love. <speaker:1> Not all disabilities are visible. <speaker:2> Well, what is your disability then? <speaker:1> Well, it's none of your business what my disability is, love. <speaker:2> Well, I think it is my business. <speaker:1> How is it your business? <speaker:2> Because I work in this building. <speaker:1> Congratulations, love. What do you want? Do you want a medal? <speaker:2> No, I'm doing my right as a citizen to tell you you should not be parking here if you don't have... <speaker:1> Okay, and I'm showing you my right as a disabled person that I have a badge. <speaker:2> Well, tell me what your disability is then. <speaker:1> Well, it's mind your business. <speaker:2> Oh, it doesn't sound like you actually are disabled. I think you're taking the mickey. <speaker:1> Well, I'm not taking the mickey. It's just a bit irrelevant for me to tell you what my disability is because it's none of your business. <speaker:2> First of all, your badge does not look real. Now you're telling me you aren't gonna ",
+    "done": true,
+    "done_reason": "stop",
+    "prompt_tokens": 582,
+    "completion_tokens": 571,
+    "runtime_sec": 4.4995,
+    "ollama_total_duration_ns": 4495569444,
+    "prompt_configuration": {
+      "temperature": 0.0,
+      "top_k": 1,
+      "seed": 42,
+      "num_predict": 2048,
+      "stop": [
+        "<turn|>",
+        "[eod]"
+      ]
+    }
+  }
+}

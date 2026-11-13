@@ -20,7 +20,7 @@ from frontend.components.tables import render_accessible_tables
 from frontend.components.transcript_view import render_accessible_transcript
 
 st.set_page_config(
-    page_title="Video Transcription with Confidence Analytics",
+    page_title="Multi-View-Speaker-Representation-Learning",
     page_icon="🎙️",
     layout="wide",
 )
@@ -75,10 +75,10 @@ domain_prompt = st.sidebar.text_input("Contextual Vocabulary Prompt (Optional)",
 
 
 # ---------------------------------------------------------------- Main Header
-st.title("🎙️ Video Transcription with Confidence Analytics")
+st.title("🎙️ Multi-View-Speaker-Representation-Learning")
 st.markdown(
-    "**CS698B Conversational Intelligence Platform** | Real Pretrained Speech Intelligence, "
-    "Calibrated Confidence Estimation, and Interactive Review."
+    "**ConvoFuse Conversational Intelligence Framework (Optional Demo UI)** | "
+    "Dual-Path Speaker Representation Fusion, Calibrated Confidence, and LG-TPST Generative Refinement."
 )
 
 # Workflow Selection

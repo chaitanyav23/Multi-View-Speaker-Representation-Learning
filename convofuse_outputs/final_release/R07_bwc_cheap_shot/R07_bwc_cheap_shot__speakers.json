@@ -1,0 +1,34 @@
+{
+  "recording_id": "R07_bwc_cheap_shot",
+  "speaker_inventory": [
+    "SPEAKER_00"
+  ],
+  "rttm_to_canonical_speaker_map": {
+    "speaker_0": "SPEAKER_00",
+    "SPEAKER_00": "SPEAKER_00"
+  },
+  "speaker_summaries": [
+    {
+      "speaker_id": "SPEAKER_00",
+      "total_speaking_duration_sec": 122.794,
+      "turn_count": 15,
+      "word_count": 477,
+      "first_appearance_sec": 0.071,
+      "last_appearance_sec": 164.594,
+      "mean_word_confidence": 0.4671,
+      "accepted_corrections_into_speaker": 0,
+      "accepted_corrections_out_of_speaker": 0
+    },
+    {
+      "speaker_id": "UNK",
+      "total_speaking_duration_sec": 0.281,
+      "turn_count": 1,
+      "word_count": 1,
+      "first_appearance_sec": 55.75,
+      "last_appearance_sec": 56.031,
+      "mean_word_confidence": 0.751,
+      "accepted_corrections_into_speaker": 0,
+      "accepted_corrections_out_of_speaker": 0
+    }
+  ]
+}

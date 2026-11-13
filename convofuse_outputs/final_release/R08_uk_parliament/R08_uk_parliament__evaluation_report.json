@@ -1,0 +1,177 @@
+{
+  "recording_id": "R08_uk_parliament",
+  "has_reference_annotations": true,
+  "reference_annotation_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/annotations_json/R08_uk_parliament.json",
+  "word_count": 468,
+  "baseline_turn_count": 13,
+  "refined_turn_count": 14,
+  "speaker_inventory": [
+    "SPEAKER_00",
+    "SPEAKER_01"
+  ],
+  "refinement_outcomes": {
+    "accepted_corrections": 1,
+    "rejected_proposals": 0,
+    "abstentions": 0,
+    "unchanged_words": 467,
+    "reasons_breakdown": {
+      "ACCEPTED_VALIDATED_TRANSFER": 1,
+      "UNCHANGED_BASELINE_CONFIRMED": 467
+    },
+    "correction_precision": null,
+    "beneficial_corrections": 0,
+    "harmful_corrections": 0,
+    "neutral_corrections": 1
+  },
+  "integrity_verification": {
+    "word_sequence_intact": true,
+    "timestamp_sequence_intact": true,
+    "unk_invariance_verified": true,
+    "words_sha256": "acef4580268bbe2ea5e615720b324bbd763a92574676b64739f1a67233b798b4",
+    "timestamps_sha256": "ede5040a4775bd21a342cc9a5a0a3a406d19fb981421e312f932798ead82f39c"
+  },
+  "baseline_metrics": {
+    "word_count": 468,
+    "grouped_turn_count": 9,
+    "cpwer": 0.1032,
+    "cpwer_details": {
+      "cpwer": 0.1032,
+      "errors": 49,
+      "substitutions": 18,
+      "insertions": 12,
+      "deletions": 19,
+      "reference_words": 475,
+      "hypothesis_words": 468,
+      "assignment": [
+        [
+          "Speaker_0",
+          "SPEAKER_00"
+        ],
+        [
+          "Speaker_1",
+          null
+        ],
+        [
+          "Speaker_2",
+          "SPEAKER_01"
+        ],
+        [
+          "Speaker_3",
+          null
+        ],
+        [
+          "Speaker_4",
+          null
+        ],
+        [
+          "Speaker_all",
+          null
+        ]
+      ],
+      "hyp_turn_count": 9,
+      "ref_segment_count": 16
+    },
+    "wder_timestamp": {
+      "wder_assigned": 0.0022,
+      "speaker_accuracy_assigned": 0.9978,
+      "wder_all_ref": 0.0022,
+      "words_evaluated_assigned": 448,
+      "words_evaluated_all_ref": 448,
+      "unassigned_words_in_ref_speech": 0,
+      "correct_attributions": 447,
+      "incorrect_attributions_assigned": 1,
+      "speaker_mapping": {
+        "SPEAKER_00": "Speaker_0",
+        "SPEAKER_01": "Speaker_2"
+      }
+    },
+    "wder_lexical": {
+      "wder_lexical": 0.0172,
+      "aligned_words_c_plus_s": 464,
+      "lexical_correct_c": 444,
+      "lexical_substitutions_s": 20,
+      "speaker_errors_on_c": 6,
+      "speaker_errors_on_s": 2,
+      "total_speaker_errors": 8,
+      "speaker_mapping": {
+        "SPEAKER_00": "Speaker_0",
+        "SPEAKER_01": "Speaker_2"
+      }
+    }
+  },
+  "refined_metrics": {
+    "word_count": 468,
+    "grouped_turn_count": 9,
+    "cpwer": 0.1011,
+    "cpwer_details": {
+      "cpwer": 0.1011,
+      "errors": 48,
+      "substitutions": 19,
+      "insertions": 11,
+      "deletions": 18,
+      "reference_words": 475,
+      "hypothesis_words": 468,
+      "assignment": [
+        [
+          "Speaker_0",
+          "SPEAKER_00"
+        ],
+        [
+          "Speaker_1",
+          null
+        ],
+        [
+          "Speaker_2",
+          "SPEAKER_01"
+        ],
+        [
+          "Speaker_3",
+          null
+        ],
+        [
+          "Speaker_4",
+          null
+        ],
+        [
+          "Speaker_all",
+          null
+        ]
+      ],
+      "hyp_turn_count": 9,
+      "ref_segment_count": 16
+    },
+    "wder_timestamp": {
+      "wder_assigned": 0.0022,
+      "speaker_accuracy_assigned": 0.9978,
+      "wder_all_ref": 0.0022,
+      "words_evaluated_assigned": 448,
+      "words_evaluated_all_ref": 448,
+      "unassigned_words_in_ref_speech": 0,
+      "correct_attributions": 447,
+      "incorrect_attributions_assigned": 1,
+      "speaker_mapping": {
+        "SPEAKER_00": "Speaker_0",
+        "SPEAKER_01": "Speaker_2"
+      }
+    },
+    "wder_lexical": {
+      "wder_lexical": 0.0172,
+      "aligned_words_c_plus_s": 464,
+      "lexical_correct_c": 444,
+      "lexical_substitutions_s": 20,
+      "speaker_errors_on_c": 6,
+      "speaker_errors_on_s": 2,
+      "total_speaker_errors": 8,
+      "speaker_mapping": {
+        "SPEAKER_00": "Speaker_0",
+        "SPEAKER_01": "Speaker_2"
+      }
+    }
+  },
+  "metric_deltas": {
+    "delta_wder_timestamp_assigned": 0.0,
+    "delta_wder_timestamp_all_ref": 0.0,
+    "delta_wder_lexical": 0.0,
+    "delta_cpwer": -0.0021
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "segment_id": "R08_uk_parliament__seg_000",
+  "recording_id": "R08_uk_parliament",
+  "prompt": "<|turn>user\n<speaker:1> When he was leader of the opposition, the Prime Minister said, and I quote, I never turn on my staff. When they make mistakes, I carry the can. What changed? <speaker:2> Thank you, Prime Minister. Well, Mr Speaker, I've accepted responsibility and apologised for the mistakes that I made. But let me say this, Mr. Speaker. Let me say this, Mr. Speaker. Morgan McSweeney helped me change our party. and help me win a landslide election victory. which delivered for them the smallest Tory party in over 100 years. And what's her great achievement? to make it even smaller. Okay, we're not... <speaker:1> The Whips have done a great job today. This is like the 37th... Oh, you said, yeah, exactly. Done a great job today getting them cheering. We all know that they've been sick for the last week because let's remember, Mr Speaker, just last week, just last week, he told us that he had full confidence in his Chief of Staff, Morgan McSweeney. On Sunday, he sacked Morgan McSweeney. Last week. He resigned. Last week, Mr Speaker, he was defending the cabinet secretary, now he is sacking him. What changed? <speaker:2> Prime Minister. Mr Speaker, in January, she said she had full confidence... 100% confident, she said, there'd be no more defections from her party. 48 hours later, I can... the shadow Foreign Minister defected. Eight days after that, the former Home Secretary defected. The only question now is... Who's next? She needs to wake up. Her party is dying. Mr Speaker, Matthew Doyle did not give a full account of his actions. And on Monday, I promised my party and my country there will be change. And yesterday, I removed the wick from Matthew Doyle. I'll tell you what other action we've taken, Mr Speaker. Along with the safeguarding --> <turn|>\n<|turn>model\n",
+  "completion_data": {
+    "raw_completion": "<speaker:1> When he was leader of the opposition, the Prime Minister said, and I quote, I never turn on my staff. When they make mistakes, I carry the can. What changed? <speaker:2> Thank you, Prime Minister. Well, Mr Speaker, I've accepted responsibility and apologised for the mistakes that I made. But let me say this, Mr. Speaker. Let me say this, Mr. Speaker. Morgan McSweeney helped me change our party. and help me win a landslide election victory. which delivered for them the smallest Tory party in over 100 years. And what's her great achievement? to make it even smaller. Okay, we're not... <speaker:1> The Whips have done a great job today. This is like the 37th... Oh, you said, yeah, exactly. Done a great job today getting them cheering. We all know that they've been sick for the last week because let's remember, Mr Speaker, just last week, just last week, he told us that he had full confidence in his Chief of Staff, Morgan McSweeney. On Sunday, he sacked Morgan McSweeney. Last week. He resigned. Last week, Mr Speaker, he was defending the cabinet secretary, now he is sacking him. What changed? <speaker:2> Prime Minister. Mr Speaker, in January, she said she had full confidence... 100% confident, she said, there'd be no more defections from her party. 48 hours later, I can... the shadow Foreign Minister defected. Eight days after that, the former Home Secretary defected. The only question now is... Who's next? She needs to wake up. Her party is dying. Mr Speaker, Matthew Doyle did not give a full account of his actions. And on Monday, I promised my party and my country there will be change. And yesterday, I removed the wick from Matthew Doyle. I'll tell you what other action we've taken, Mr Speaker. Along with the safeguarding ",
+    "done": true,
+    "done_reason": "stop",
+    "prompt_tokens": 456,
+    "completion_tokens": 435,
+    "runtime_sec": 3.7622,
+    "ollama_total_duration_ns": 3757664063,
+    "prompt_configuration": {
+      "temperature": 0.0,
+      "top_k": 1,
+      "seed": 42,
+      "num_predict": 2048,
+      "stop": [
+        "<turn|>",
+        "[eod]"
+      ]
+    }
+  }
+}

@@ -1,0 +1,495 @@
+{
+  "project": "Multi-View-Speaker-Representation-Learning",
+  "framework": "ConvoFuse",
+  "release_created_at": "2026-11-13T17:59:35.484552+00:00",
+  "git_commit": "8f19f8c8ca88fe23b9483fff5c6007977ae238f7",
+  "git_branch": "main",
+  "python_executable": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/.venv_phase20/bin/python",
+  "condition_preference": "auto",
+  "use_locality_gating": true,
+  "recording_count": 8,
+  "corpus_summary_sha256": "a6c09435adf028896faefffb3e008b3112a1afc3cffff02145cb1459b70bb60b",
+  "corpus_index_sha256": "198ea5b7f6c6a919bcb1d8bc7791421f7bcaf600c8e1e99443b0a52414232c34",
+  "recordings": [
+    {
+      "recording_id": "R01_sara_sharif",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "diarization_condition": "Stage5B.4_E20_C62_DualEncoder_EqualFusion_M0",
+      "diarization_backend": "TitaNet-Large(DFN,192D) + WeSpeaker-ResNet293-LM(Mono,256D) -> ZScore-Equal-Affinity-Fusion -> NME-SC (C62 VAD, M0)",
+      "refinement_model": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1 (Q4_K_M, LG-TPST)",
+      "created_at": "2026-11-13T17:58:07.084006+00:00",
+      "ground_truth_isolation_enforced": true,
+      "frozen_inputs_sha256_verified": true,
+      "frozen_input_sha256_hashes": {
+        "asr_aligned_words": "2dab0db97539fc00865c90c81e9f8fcacf011ce7c3ee2bd59beea10966511add",
+        "predicted_rttm": "109f49a6bd3da3503721c7f6ddc9b1c757985f316be0b5d95cb4995b47b9712a",
+        "overlap_posteriors": "695b17b0e7c95b666d33bbe440059d1d130c5e642a2e4c30b92079445f6dd66b",
+        "16k_mono_wav": "96f9af8d250ed8e26749433e2da6e1928a6d78eb6caad002cc1587fffcc0e45d",
+        "dfn_wav": "90520b893a11c9690e44c88ca5b9e94be49f36aa9e4eae1db88570b4bb051ced",
+        "normalized_wav": "996b1da5506e39ed556fa6670282e62d043d17e285975f23a00180cffcf60ffe"
+      },
+      "output_artifacts": {
+        "R01_sara_sharif__transcript.txt": {
+          "relative_path": "R01_sara_sharif/R01_sara_sharif__transcript.txt",
+          "size_bytes": 2986,
+          "sha256": "8da6d7601e27bd5365589e1b0b66230fd4b5b7eb32a44f78bbd807375ff2d578"
+        },
+        "R01_sara_sharif__transcript.json": {
+          "relative_path": "R01_sara_sharif/R01_sara_sharif__transcript.json",
+          "size_bytes": 499118,
+          "sha256": "34fb71cbf1da33900d7567f9b05e89cef0de8cc60adc57425cd549ebd9038eab"
+        },
+        "R01_sara_sharif__words.json": {
+          "relative_path": "R01_sara_sharif/R01_sara_sharif__words.json",
+          "size_bytes": 450188,
+          "sha256": "1b0446fd09b7124ba9c9265c0544be4640ecebb9c332255883813b782ec6143e"
+        },
+        "R01_sara_sharif__turns.json": {
+          "relative_path": "R01_sara_sharif/R01_sara_sharif__turns.json",
+          "size_bytes": 28579,
+          "sha256": "d8d0f7e8edde16e92653beba3b1942b404644f4956b83e71d12514820be9d4b9"
+        },
+        "R01_sara_sharif__speakers.json": {
+          "relative_path": "R01_sara_sharif/R01_sara_sharif__speakers.json",
+          "size_bytes": 1746,
+          "sha256": "c305c7e5aec6ee810f4ce860c716979c7ca45931fd7a490dedb7833ee2a74039"
+        },
+        "R01_sara_sharif__comparison.json": {
+          "relative_path": "R01_sara_sharif/R01_sara_sharif__comparison.json",
+          "size_bytes": 7868,
+          "sha256": "d1e8aea1b5dfe6f99d898f8df6e64d20ca4acea9ac4c19644a4e09854640b1d9"
+        },
+        "R01_sara_sharif__processing_manifest.json": {
+          "relative_path": "R01_sara_sharif/R01_sara_sharif__processing_manifest.json",
+          "size_bytes": 18444,
+          "sha256": "2999f3bd4251c61fd2ef6422bc6b6120e9e7c253552faf445ce7cbcdbb7b3a7b"
+        },
+        "R01_sara_sharif__evaluation_report.json": {
+          "relative_path": "R01_sara_sharif/R01_sara_sharif__evaluation_report.json",
+          "size_bytes": 4511,
+          "sha256": "402708d41e26e7ba6e5f88a5c819de26f727bd03507098c74873c36bf81a01cf"
+        }
+      }
+    },
+    {
+      "recording_id": "R02_dennis_skinner",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "diarization_condition": "Stage5A.1_Condition_J_DualEncoder_EqualFusion",
+      "diarization_backend": "TitaNet-Large(DFN,192D) + WeSpeaker-ResNet293-LM(Mono,256D) -> ZScore-Equal-Affinity-Fusion -> NME-SC",
+      "refinement_model": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1 (Q4_K_M, LG-TPST)",
+      "created_at": "2026-11-13T17:58:12.101161+00:00",
+      "ground_truth_isolation_enforced": true,
+      "frozen_inputs_sha256_verified": true,
+      "frozen_input_sha256_hashes": {
+        "asr_aligned_words": "e0954617da8e618de6e2e355e7a4571aeda1fb4ff4cb1d18344b7b4920431fd4",
+        "predicted_rttm": "fdb9e3c5a97a4214971f758b85330628a577ffe855599b6b3012a9bdf66ac56c",
+        "overlap_posteriors": "3f18af571c90eec8e4414be1f6e90ee3402dbdb87abbadc54acb6a1f6e1c74bd",
+        "16k_mono_wav": "1c19dac03c172013ad4fdd52f5858b63d669dae9b6c9ea63787fa2452ef5c104",
+        "dfn_wav": "86a527afc38a2cba757af57bdf18449ee0d735c491b28e0e4f6a14080971a562",
+        "normalized_wav": "c1e7d61899b87501f5253c4b9657dd910626a6cf02a964ad04ad9565a08c2e36"
+      },
+      "output_artifacts": {
+        "R02_dennis_skinner__transcript.txt": {
+          "relative_path": "R02_dennis_skinner/R02_dennis_skinner__transcript.txt",
+          "size_bytes": 4988,
+          "sha256": "fa7ca30dec9b9ed6c910ce80f927f17f6cedfb86df1213621f22a97ab0c15c76"
+        },
+        "R02_dennis_skinner__transcript.json": {
+          "relative_path": "R02_dennis_skinner/R02_dennis_skinner__transcript.json",
+          "size_bytes": 585712,
+          "sha256": "b62e793a3f2bf6c9b70f63ed7b2980bdd335b4b653e86e6598c72baf692505df"
+        },
+        "R02_dennis_skinner__words.json": {
+          "relative_path": "R02_dennis_skinner/R02_dennis_skinner__words.json",
+          "size_bytes": 518873,
+          "sha256": "5019e031e8ee13a257eb615f46ca9598b7d339fdca146cf1db4bffdf03f989a5"
+        },
+        "R02_dennis_skinner__turns.json": {
+          "relative_path": "R02_dennis_skinner/R02_dennis_skinner__turns.json",
+          "size_bytes": 50004,
+          "sha256": "24791846f4dc7cd68d8fdbefefe7b888ede6926a830cbd1b7ba37d42b058239c"
+        },
+        "R02_dennis_skinner__speakers.json": {
+          "relative_path": "R02_dennis_skinner/R02_dennis_skinner__speakers.json",
+          "size_bytes": 1761,
+          "sha256": "216a7289a656aff8b50048cc9234a1bd676daaf7678700414ff119e04ded2f92"
+        },
+        "R02_dennis_skinner__comparison.json": {
+          "relative_path": "R02_dennis_skinner/R02_dennis_skinner__comparison.json",
+          "size_bytes": 12943,
+          "sha256": "104ca0066af878b14ad6cc4c1e2d33152887082b01737442d8b5c529112ce84b"
+        },
+        "R02_dennis_skinner__processing_manifest.json": {
+          "relative_path": "R02_dennis_skinner/R02_dennis_skinner__processing_manifest.json",
+          "size_bytes": 21155,
+          "sha256": "710abcbab3a3b59f9be733fed5b69aea062235e01b0191164ce9eec211cc2e5e"
+        },
+        "R02_dennis_skinner__evaluation_report.json": {
+          "relative_path": "R02_dennis_skinner/R02_dennis_skinner__evaluation_report.json",
+          "size_bytes": 4616,
+          "sha256": "552554328ec5c6418cb7f4a68237a757880a2ccd0c310776e0dead296e0b9ba1"
+        }
+      }
+    },
+    {
+      "recording_id": "R03_disabled_parking",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "diarization_condition": "Stage5A.1_Condition_J_DualEncoder_EqualFusion",
+      "diarization_backend": "TitaNet-Large(DFN,192D) + WeSpeaker-ResNet293-LM(Mono,256D) -> ZScore-Equal-Affinity-Fusion -> NME-SC",
+      "refinement_model": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1 (Q4_K_M, LG-TPST)",
+      "created_at": "2026-11-13T17:58:23.446149+00:00",
+      "ground_truth_isolation_enforced": true,
+      "frozen_inputs_sha256_verified": true,
+      "frozen_input_sha256_hashes": {
+        "asr_aligned_words": "4db628707d6593296b4a65f0c690259ffc85862887668f82cc47be5e7f42fc53",
+        "predicted_rttm": "4e6db376f59765c2d5770b8004d511a32c2b95396f37a21b7615e851a8778748",
+        "overlap_posteriors": "3178ba7eab3a6e5bff0632d1cb28ab3b0a8b0ae233116a311d46adb77a9c0d1f",
+        "16k_mono_wav": "04860c3262f44a8d47c7cd99bfc459ba61cf5807a1e97625560021188dca2f81",
+        "dfn_wav": "857fc457e97f35c9ac426f4c29581d52a9abedbc5f204669840afa123591515d",
+        "normalized_wav": "df90a35fafa535e0dd7af60cefcdc4e48738d1ade6dfc9fffde090946a667d68"
+      },
+      "output_artifacts": {
+        "R03_disabled_parking__transcript.txt": {
+          "relative_path": "R03_disabled_parking/R03_disabled_parking__transcript.txt",
+          "size_bytes": 11081,
+          "sha256": "58f99febea0b5c7e429d672498aae586822df6b7cd5e7c9a48b724ae89da2fb6"
+        },
+        "R03_disabled_parking__transcript.json": {
+          "relative_path": "R03_disabled_parking/R03_disabled_parking__transcript.json",
+          "size_bytes": 1210148,
+          "sha256": "2b1571027fde2c60a5c56453dbe660b02b0202004e186938a84d4253ebe3e886"
+        },
+        "R03_disabled_parking__words.json": {
+          "relative_path": "R03_disabled_parking/R03_disabled_parking__words.json",
+          "size_bytes": 1094217,
+          "sha256": "70afad3a0e5054ce26a28e8dfd3968f2d4e8b20ede3283c54a31021a36524a1c"
+        },
+        "R03_disabled_parking__turns.json": {
+          "relative_path": "R03_disabled_parking/R03_disabled_parking__turns.json",
+          "size_bytes": 109199,
+          "sha256": "2395fbead640b426580eac63a3c3f3c9c6f724fb05dcdf5fec5a42fa45018546"
+        },
+        "R03_disabled_parking__speakers.json": {
+          "relative_path": "R03_disabled_parking/R03_disabled_parking__speakers.json",
+          "size_bytes": 1763,
+          "sha256": "32194927e774f63d7f76aced53add895956daf4be912ac0248247f9c8ed3b924"
+        },
+        "R03_disabled_parking__comparison.json": {
+          "relative_path": "R03_disabled_parking/R03_disabled_parking__comparison.json",
+          "size_bytes": 23954,
+          "sha256": "7fb14aca1201ecf8c40b15f1e0991f008cba0735262e501c9d098fd4785a173e"
+        },
+        "R03_disabled_parking__processing_manifest.json": {
+          "relative_path": "R03_disabled_parking/R03_disabled_parking__processing_manifest.json",
+          "size_bytes": 28967,
+          "sha256": "35553fbb50d2af07f851b417bcdc6939f948e302624a2eef23f1e8027557014c"
+        },
+        "R03_disabled_parking__evaluation_report.json": {
+          "relative_path": "R03_disabled_parking/R03_disabled_parking__evaluation_report.json",
+          "size_bytes": 4629,
+          "sha256": "d7c9522e7d821acebb77172efb32f29e481f988523f62a916fc54308ea4d5958"
+        }
+      }
+    },
+    {
+      "recording_id": "R04_piers_robinson",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "diarization_condition": "Stage5A.1_Condition_J_DualEncoder_EqualFusion",
+      "diarization_backend": "TitaNet-Large(DFN,192D) + WeSpeaker-ResNet293-LM(Mono,256D) -> ZScore-Equal-Affinity-Fusion -> NME-SC",
+      "refinement_model": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1 (Q4_K_M, LG-TPST)",
+      "created_at": "2026-11-13T17:58:35.267374+00:00",
+      "ground_truth_isolation_enforced": true,
+      "frozen_inputs_sha256_verified": true,
+      "frozen_input_sha256_hashes": {
+        "asr_aligned_words": "f1f2fc96584bbccffc0bab54a406cdaabd7f1fcf808f66e868a957f2c1271875",
+        "predicted_rttm": "f2c72ba7533d9a39b63212e5d4ee413d105e7af666caa5134d380295d9211365",
+        "overlap_posteriors": "2d637b38e90d597deb7851fb8ba5deb9c4e6dc81de21a51a4e3d23e9f263ce8d",
+        "16k_mono_wav": "0be1c41eaf09b7f1c1821ea9ba40ede65332ce4b62dbd37ced2352cda4c38c31",
+        "dfn_wav": "c9d8292e6d30f02b0e78e302f8471cd95f0ef2a5243c0f5055b5fb96d501ac59",
+        "normalized_wav": "059d522a075d04b5c0cca21289b4119c09bd97b954d8c20ee3fb1ce6b845c33d"
+      },
+      "output_artifacts": {
+        "R04_piers_robinson__transcript.txt": {
+          "relative_path": "R04_piers_robinson/R04_piers_robinson__transcript.txt",
+          "size_bytes": 15913,
+          "sha256": "8a3520d597247c25185398280b94ebfa0c48215d4e7ffe4bafd6934350a510a8"
+        },
+        "R04_piers_robinson__transcript.json": {
+          "relative_path": "R04_piers_robinson/R04_piers_robinson__transcript.json",
+          "size_bytes": 1333544,
+          "sha256": "e8c7dcf34dccc6a611a2ac95e7e4d6c607dacc29d19dda77dd925e872bc2a395"
+        },
+        "R04_piers_robinson__words.json": {
+          "relative_path": "R04_piers_robinson/R04_piers_robinson__words.json",
+          "size_bytes": 1202959,
+          "sha256": "984c943de1283919423d7476cf470c4abdfa1056ddf0dd8925f96c3846608e86"
+        },
+        "R04_piers_robinson__turns.json": {
+          "relative_path": "R04_piers_robinson/R04_piers_robinson__turns.json",
+          "size_bytes": 114862,
+          "sha256": "e6b41cdbd61045aa49b95e562af883cbb987bda700932e50ab9dad4538fa71aa"
+        },
+        "R04_piers_robinson__speakers.json": {
+          "relative_path": "R04_piers_robinson/R04_piers_robinson__speakers.json",
+          "size_bytes": 1426,
+          "sha256": "9d14afdcf021344ebb6bbf82e4812ec1573303cb1cea0ef81c6c5f0e48c59765"
+        },
+        "R04_piers_robinson__comparison.json": {
+          "relative_path": "R04_piers_robinson/R04_piers_robinson__comparison.json",
+          "size_bytes": 34313,
+          "sha256": "e572ecf0a762ac8d5d479d3c81f06ffd429876a00ed997acdc83a9e8044182f7"
+        },
+        "R04_piers_robinson__processing_manifest.json": {
+          "relative_path": "R04_piers_robinson/R04_piers_robinson__processing_manifest.json",
+          "size_bytes": 29958,
+          "sha256": "95bf80577c3571bc2eeb08a095e3a48f636c3900474aee04139fbc632d06c98a"
+        },
+        "R04_piers_robinson__evaluation_report.json": {
+          "relative_path": "R04_piers_robinson/R04_piers_robinson__evaluation_report.json",
+          "size_bytes": 4354,
+          "sha256": "ce47124b5dd9a7926be3855610f46b66eb41077b007638be6ffc565183f8a765"
+        }
+      }
+    },
+    {
+      "recording_id": "R05_southwest_pilot",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "diarization_condition": "Stage5A.1_Condition_J_DualEncoder_EqualFusion",
+      "diarization_backend": "TitaNet-Large(DFN,192D) + WeSpeaker-ResNet293-LM(Mono,256D) -> ZScore-Equal-Affinity-Fusion -> NME-SC",
+      "refinement_model": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1 (Q4_K_M, LG-TPST)",
+      "created_at": "2026-11-13T17:58:42.374164+00:00",
+      "ground_truth_isolation_enforced": true,
+      "frozen_inputs_sha256_verified": true,
+      "frozen_input_sha256_hashes": {
+        "asr_aligned_words": "bf743ee54185f78beee755c937633ac71ba20d34fa5b83fbc5074b3fdff06a59",
+        "predicted_rttm": "e0d874c2287c558416a9aa878695c4c4162e05d7fc59ec0477ae8201b078679b",
+        "overlap_posteriors": "1e81a45d0a9c03f17cb9ecad7efb00d6ce4e09594840b4766f80f739511d1a30",
+        "16k_mono_wav": "ccc4b5aa097a3bcae55c1676cbebba5ba4fd04a61f25f6d3f99d29a8efb483c0",
+        "dfn_wav": "9457bf5e4fb206307c76a089ea8d064c021a808a475fc3f407c97df20dd733b2",
+        "normalized_wav": "10e577690c4439090cbd861e1a0948a617b3231601b01c6b639951a5c79ce405"
+      },
+      "output_artifacts": {
+        "R05_southwest_pilot__transcript.txt": {
+          "relative_path": "R05_southwest_pilot/R05_southwest_pilot__transcript.txt",
+          "size_bytes": 6642,
+          "sha256": "c615eb714ff7f83aafa3605a30d7543ebd794dab3a230c832a9731e9408869ad"
+        },
+        "R05_southwest_pilot__transcript.json": {
+          "relative_path": "R05_southwest_pilot/R05_southwest_pilot__transcript.json",
+          "size_bytes": 713743,
+          "sha256": "fef58edc84b884831d17b5269888a97a005a448122ae6b196bc7616ec162a267"
+        },
+        "R05_southwest_pilot__words.json": {
+          "relative_path": "R05_southwest_pilot/R05_southwest_pilot__words.json",
+          "size_bytes": 629081,
+          "sha256": "59f06127c07edf69f5fd57afcac5dcd9969a173f90465c51d0dfbc6386c962d2"
+        },
+        "R05_southwest_pilot__turns.json": {
+          "relative_path": "R05_southwest_pilot/R05_southwest_pilot__turns.json",
+          "size_bytes": 79336,
+          "sha256": "5365c0a72002b19f06964a0ebbb88844f5b86a7c7ab7cb838f6a92e36c10819a"
+        },
+        "R05_southwest_pilot__speakers.json": {
+          "relative_path": "R05_southwest_pilot/R05_southwest_pilot__speakers.json",
+          "size_bytes": 1760,
+          "sha256": "c4005ef5c9ec8d41e12b47f9d392290274e5443e9d30b79bea188ca378219057"
+        },
+        "R05_southwest_pilot__comparison.json": {
+          "relative_path": "R05_southwest_pilot/R05_southwest_pilot__comparison.json",
+          "size_bytes": 14287,
+          "sha256": "5260c35f543a37c3bafe4c6f9c4b25a852f975b2a4c2db04eb455c076b3cb09e"
+        },
+        "R05_southwest_pilot__processing_manifest.json": {
+          "relative_path": "R05_southwest_pilot/R05_southwest_pilot__processing_manifest.json",
+          "size_bytes": 22507,
+          "sha256": "095f34e859cbb273c89ffd81e3803afe5313f7284a2767f5c767506424893533"
+        },
+        "R05_southwest_pilot__evaluation_report.json": {
+          "relative_path": "R05_southwest_pilot/R05_southwest_pilot__evaluation_report.json",
+          "size_bytes": 4410,
+          "sha256": "aea9ca49c8ae434e7cec6b18f819f481ece0f55602e7328328909380f32178da"
+        }
+      }
+    },
+    {
+      "recording_id": "R06_rich_karen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "diarization_condition": "Stage5A.1_Condition_J_DualEncoder_EqualFusion",
+      "diarization_backend": "TitaNet-Large(DFN,192D) + WeSpeaker-ResNet293-LM(Mono,256D) -> ZScore-Equal-Affinity-Fusion -> NME-SC",
+      "refinement_model": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1 (Q4_K_M, LG-TPST)",
+      "created_at": "2026-11-13T17:59:20.572209+00:00",
+      "ground_truth_isolation_enforced": true,
+      "frozen_inputs_sha256_verified": true,
+      "frozen_input_sha256_hashes": {
+        "asr_aligned_words": "a2eb56f6e7bd2ddfb6dc589050bfde4a96b0e754719455ab35e3af22908327eb",
+        "predicted_rttm": "eb8aedfb64d2347e39239ac46c49fcb7f795f62e0aa41b9923cb84e6a4b046c6",
+        "overlap_posteriors": "61ab844c38a51e933d94b4c65d7753f3d74660f5e280f3c7dec5759e213a1d62",
+        "16k_mono_wav": "15b6404668a059767ad2d05314559ffbc5171690e8a2a5e204b701ff01508543",
+        "dfn_wav": "a40c867256013c32f842912210a733e135562d5394291aac9e4dd719f9ced7cb",
+        "normalized_wav": "f0aa072b4fa6ecb518775fb2475bf08ecf497cc715f08fb914495a9bdd28b6a2"
+      },
+      "output_artifacts": {
+        "R06_rich_karen__transcript.txt": {
+          "relative_path": "R06_rich_karen/R06_rich_karen__transcript.txt",
+          "size_bytes": 32009,
+          "sha256": "5f4686be3c3941d60699cbbc88453ff54a24119016ed4699020dfc56cc1ce64e"
+        },
+        "R06_rich_karen__transcript.json": {
+          "relative_path": "R06_rich_karen/R06_rich_karen__transcript.json",
+          "size_bytes": 3211039,
+          "sha256": "07384571ce28b1d21bc47fd1a8b81d106620ac9bafc8fb53a984c91684258727"
+        },
+        "R06_rich_karen__words.json": {
+          "relative_path": "R06_rich_karen/R06_rich_karen__words.json",
+          "size_bytes": 2917943,
+          "sha256": "8eb850194607da2b331df31c05bac552ffe96eb787e36655bd22279990cb6d1d"
+        },
+        "R06_rich_karen__turns.json": {
+          "relative_path": "R06_rich_karen/R06_rich_karen__turns.json",
+          "size_bytes": 327604,
+          "sha256": "9b28780cda8c54703aa58e2c53dc72652d989151f1c459adb4b51a42ae7cb4b1"
+        },
+        "R06_rich_karen__speakers.json": {
+          "relative_path": "R06_rich_karen/R06_rich_karen__speakers.json",
+          "size_bytes": 3907,
+          "sha256": "cbccab920e7c4a2d598319dbf23c8990c00dced9abdfb0fe3607fc0df9f856d2"
+        },
+        "R06_rich_karen__comparison.json": {
+          "relative_path": "R06_rich_karen/R06_rich_karen__comparison.json",
+          "size_bytes": 62583,
+          "sha256": "7815ed9d7578474e4a61425ceb6a72eaf90f6146c9131dd9380f50a2adc45938"
+        },
+        "R06_rich_karen__processing_manifest.json": {
+          "relative_path": "R06_rich_karen/R06_rich_karen__processing_manifest.json",
+          "size_bytes": 54520,
+          "sha256": "dddff7b55da6f8f68494b78d81bf4bed621dd4c9951558c30156071d19785764"
+        },
+        "R06_rich_karen__evaluation_report.json": {
+          "relative_path": "R06_rich_karen/R06_rich_karen__evaluation_report.json",
+          "size_bytes": 5965,
+          "sha256": "d7898f176726fcc334b273432c08559f8f8ec61fa6e7256f75a1d09dced11ea0"
+        }
+      }
+    },
+    {
+      "recording_id": "R07_bwc_cheap_shot",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "diarization_condition": "Stage5A.1_Condition_J_DualEncoder_EqualFusion",
+      "diarization_backend": "TitaNet-Large(DFN,192D) + WeSpeaker-ResNet293-LM(Mono,256D) -> ZScore-Equal-Affinity-Fusion -> NME-SC",
+      "refinement_model": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1 (Q4_K_M, LG-TPST)",
+      "created_at": "2026-11-13T17:59:28.387129+00:00",
+      "ground_truth_isolation_enforced": true,
+      "frozen_inputs_sha256_verified": true,
+      "frozen_input_sha256_hashes": {
+        "asr_aligned_words": "05f9432ad12fb5069c9ae1ad26f931f645f0900e0e785f3e5ed000d2bfc520f4",
+        "predicted_rttm": "3f70b4b94727891cd669c153169e470499a8dcd20d2ed7e2d12069ed8aaea1b6",
+        "overlap_posteriors": "6b6257c7b5a254b268071639922f21e44246abc9190b7671d00c038cf731605b",
+        "16k_mono_wav": "0c7e5a23b9dee80c3c1b72abdaf8745447656e65f2a4019f727b3afe2d533ce7",
+        "dfn_wav": "29bcfdd69a3e7b422df1ff747db87a60c3be7910c7e9ab5abf9e566db27bb5ca",
+        "normalized_wav": "256a765186f4839ee328ae04c64f991641e5be9e3a32403cab386b63969174aa"
+      },
+      "output_artifacts": {
+        "R07_bwc_cheap_shot__transcript.txt": {
+          "relative_path": "R07_bwc_cheap_shot/R07_bwc_cheap_shot__transcript.txt",
+          "size_bytes": 4044,
+          "sha256": "b6e5225276c4d9ea67c7610264c2ee8fb0f1d521e68b50d44d918640e00a094c"
+        },
+        "R07_bwc_cheap_shot__transcript.json": {
+          "relative_path": "R07_bwc_cheap_shot/R07_bwc_cheap_shot__transcript.json",
+          "size_bytes": 866705,
+          "sha256": "756dba44b7c4b62e061d8c4972a970bfd7e35b9e41439b2d16fd24b8b8588d1c"
+        },
+        "R07_bwc_cheap_shot__words.json": {
+          "relative_path": "R07_bwc_cheap_shot/R07_bwc_cheap_shot__words.json",
+          "size_bytes": 803009,
+          "sha256": "2a2fd9195c488bb600265c55aea973a3aac6e26fab6da71d9e8e544e9e902572"
+        },
+        "R07_bwc_cheap_shot__turns.json": {
+          "relative_path": "R07_bwc_cheap_shot/R07_bwc_cheap_shot__turns.json",
+          "size_bytes": 43760,
+          "sha256": "6e58c753b488e72d8c86d8a972558819aa60a4588fa827704097ab2cafb8ad0e"
+        },
+        "R07_bwc_cheap_shot__speakers.json": {
+          "relative_path": "R07_bwc_cheap_shot/R07_bwc_cheap_shot__speakers.json",
+          "size_bytes": 904,
+          "sha256": "aa4388f1b1cb742293e894a092a05cccd4607cb80ae3abf97f81516f92ddfa17"
+        },
+        "R07_bwc_cheap_shot__comparison.json": {
+          "relative_path": "R07_bwc_cheap_shot/R07_bwc_cheap_shot__comparison.json",
+          "size_bytes": 12859,
+          "sha256": "bc9661f5b532045bcb729d587a66c1723f8ffd8cf95c9643a8d008ef196323cd"
+        },
+        "R07_bwc_cheap_shot__processing_manifest.json": {
+          "relative_path": "R07_bwc_cheap_shot/R07_bwc_cheap_shot__processing_manifest.json",
+          "size_bytes": 22521,
+          "sha256": "9e554a7061cf2db439bb42a0f1f19a96b18007e1619044a5aeb9b9889e3342c8"
+        },
+        "R07_bwc_cheap_shot__evaluation_report.json": {
+          "relative_path": "R07_bwc_cheap_shot/R07_bwc_cheap_shot__evaluation_report.json",
+          "size_bytes": 4022,
+          "sha256": "0d8935187ab639e7cbc6682410e165617a9dad4b3b2ab3cc02add8356a024838"
+        }
+      }
+    },
+    {
+      "recording_id": "R08_uk_parliament",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "diarization_condition": "Stage5A.1_Condition_J_DualEncoder_EqualFusion",
+      "diarization_backend": "TitaNet-Large(DFN,192D) + WeSpeaker-ResNet293-LM(Mono,256D) -> ZScore-Equal-Affinity-Fusion -> NME-SC",
+      "refinement_model": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1 (Q4_K_M, LG-TPST)",
+      "created_at": "2026-11-13T17:59:35.448448+00:00",
+      "ground_truth_isolation_enforced": true,
+      "frozen_inputs_sha256_verified": true,
+      "frozen_input_sha256_hashes": {
+        "asr_aligned_words": "c81f22c90a441dff311501aeff7f5971600d5dc2de5e53c2985a60365baa0791",
+        "predicted_rttm": "a2d3d98fda9aed0126c57b74a331f346ffafcbabcf19ca1fc516bee6d489a15d",
+        "overlap_posteriors": "413d48df20d4bf22c6fbedb6890b6a99beb39ceb10042f37ffcd121332525ed0",
+        "16k_mono_wav": "6bdde2108aa299eeae45b26a7f0976ec637071c3f35341b862f1daf8d11f7d4a",
+        "dfn_wav": "d571c7f01beed6fed114b89957deec530dcd9475ab8f72cd6393fe0d768e8884",
+        "normalized_wav": "6fd845ee300a4f0da3dc77622c507d2a912fb64c4ba17b482e57faae86c20bb3"
+      },
+      "output_artifacts": {
+        "R08_uk_parliament__transcript.txt": {
+          "relative_path": "R08_uk_parliament/R08_uk_parliament__transcript.txt",
+          "size_bytes": 3971,
+          "sha256": "14bc6a51b9ec6b472daaecb47e51abe45ef729453cd315c2449e5a97ceee15bf"
+        },
+        "R08_uk_parliament__transcript.json": {
+          "relative_path": "R08_uk_parliament/R08_uk_parliament__transcript.json",
+          "size_bytes": 848346,
+          "sha256": "210132cf5f6283658e4454f3d94f1eb94b9d164145c12da75e933db8ee52ee77"
+        },
+        "R08_uk_parliament__words.json": {
+          "relative_path": "R08_uk_parliament/R08_uk_parliament__words.json",
+          "size_bytes": 785675,
+          "sha256": "754f0ab5eb826fc02c7ec1c5ce8a27313e425f51767feeb64a3c6cdda4a8bee4"
+        },
+        "R08_uk_parliament__turns.json": {
+          "relative_path": "R08_uk_parliament/R08_uk_parliament__turns.json",
+          "size_bytes": 40920,
+          "sha256": "9eeff755113d273c5948ae4998656ae0c9998c5f038e1fafd6f365226b92602f"
+        },
+        "R08_uk_parliament__speakers.json": {
+          "relative_path": "R08_uk_parliament/R08_uk_parliament__speakers.json",
+          "size_bytes": 994,
+          "sha256": "91496f0a8755cfcf646efe9b85c97210482092248be68e2f33e6f4dc18f1ab07"
+        },
+        "R08_uk_parliament__comparison.json": {
+          "relative_path": "R08_uk_parliament/R08_uk_parliament__comparison.json",
+          "size_bytes": 11903,
+          "sha256": "53658b4c35ffeed42949fcad5437497c756ae26875d9146ffa8225889542ed82"
+        },
+        "R08_uk_parliament__processing_manifest.json": {
+          "relative_path": "R08_uk_parliament/R08_uk_parliament__processing_manifest.json",
+          "size_bytes": 23084,
+          "sha256": "3ba714bb018d381b4aa944b00ab817e8be1a45b0cc92e78f466b63a359eb0e80"
+        },
+        "R08_uk_parliament__evaluation_report.json": {
+          "relative_path": "R08_uk_parliament/R08_uk_parliament__evaluation_report.json",
+          "size_bytes": 4415,
+          "sha256": "cfad002c86844eb07cc17f36933c6e952b78c4fa6f0ae0ba8965b0ae4d685718"
+        }
+      }
+    }
+  ]
+}

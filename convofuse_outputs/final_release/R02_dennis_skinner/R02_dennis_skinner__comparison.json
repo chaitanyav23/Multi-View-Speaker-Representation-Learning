@@ -1,0 +1,205 @@
+{
+  "total_words": 307,
+  "baseline_turn_count": 27,
+  "refined_turn_count": 26,
+  "refinement_summary": {
+    "recording_id": "R02_dennis_skinner",
+    "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+    "ollama_model_name": "diarizationlm-gemma",
+    "quantization": "Q4_K_M",
+    "provider_version": "ollama-0.32.6",
+    "total_runtime_sec": 4.6359,
+    "total_prompt_tokens": 546,
+    "total_completion_tokens": 474,
+    "segment_count": 2,
+    "summary_counts": {
+      "total_words": 307,
+      "accepted_corrections": 1,
+      "rejected_proposals": 8,
+      "abstained_words": 1,
+      "unchanged_words": 297,
+      "reasons_breakdown": {
+        "ABSTAINED_PRESERVE_UNK": 1,
+        "ACCEPTED_VALIDATED_TRANSFER": 1,
+        "REJECTED_UNKNOWN_SPEAKER_MAPPING": 3,
+        "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION": 5,
+        "UNCHANGED_BASELINE_CONFIRMED": 297
+      }
+    },
+    "segment_telemetries": [
+      {
+        "segment_id": "R02_dennis_skinner__seg_000",
+        "recording_id": "R02_dennis_skinner",
+        "start_word_index": 0,
+        "end_word_index": 299,
+        "word_count": 300,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 493,
+        "completion_tokens": 442,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 3.8228,
+        "prompt_text": "<|turn>user\n<speaker:3> Does the Prime Minister recall that at the time after he became Prime Minister under the coalition And at the time when he was dividing the nation between strivers and scroungers, I asked him a very important question about the windfall he received. when he wrote up the mortgage of the premises in Notting Hill and I said to him he didn't write off the mortgage of the one the taxpayers were helping to pay for at Oxford. I didn't receive a proper answer then. Maybe dodgy Dave will answer it <speaker:1> now. And by the way, <speaker:0> Yeah. <speaker:1> And by the <speaker:0> way... Oh! <speaker:1> Order! <speaker:2> Order! Or... or... Or... I must ask the honourable gentleman order I don't require any assistance from some junior minister. <speaker:1> What an <speaker:2> absurd proposition. I invite the Honourable Gentleman to withdraw that adjective that he used a moment ago. He's perfectly capable of asking his question without using that word. It is up to him, but if he doesn't wish to withdraw it, I can't reasonably ask the Prime Minister to answer the question. All he has to do is withdraw that word and think of another. Sorry? I <speaker:1> think <speaker:2> he knows the word beginning with D and ending in Y that he inappropriately used. <speaker:1> Davey. Davey or Davey. Withdraw! Yeah, I know. I know what you're saying. Very <speaker:0> simple. <speaker:2> Withdrawal. <speaker:3> This man has done <speaker:1> more to divide this nation than anybody else. He's looked after his own pocket. I still refer to him as Dodgy Dave. Do what you like. <speaker:2> Order. Order. Order. Order. I'm sorry. I must ask the Honourable Gentleman to withdraw the work. <speaker:1> Very well. <speaker:2> Under the power given to me by Standing Order No. 43. I order the honourable member to withdraw immediately from the House for the remainder of this day's --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:3> Does the Prime Minister recall that at the time after he became Prime Minister under the coalition And at the time when he was dividing the nation between strivers and scroungers, I asked him a very important question about the windfall he received. when he wrote up the mortgage of the premises in Notting Hill and I said to him he didn't write off the mortgage of the one the taxpayers were helping to pay for at Oxford. I didn't receive a proper answer then. Maybe dodgy Dave will answer it now. <speaker:1> And by the way, <speaker:0> Yeah. <speaker:1> And by the way... <speaker:2> Oh! Order! Order! Or... or... Or... I must ask the honourable gentleman order I don't require any assistance from some junior minister. <speaker:1> What an absurd proposition. <speaker:2> I invite the Honourable Gentleman to withdraw that adjective that he used a moment ago. He's perfectly capable of asking his question without using that word. It is up to him, but if he doesn't wish to withdraw it, I can't reasonably ask the Prime Minister to answer the question. All he has to do is withdraw that word and think of another. Sorry? I think he knows the word beginning with D and ending in Y that he inappropriately used. <speaker:1> Davey. Davey or Davey. Withdraw! Yeah, I know. I know what you're saying. Very simple. Withdrawal. <speaker:3> This man has done <speaker:1> more to divide this nation than anybody else. He's looked after his own pocket. I still refer to him as Dodgy Dave. Do what you like. <speaker:2> Order. Order. Order. Order. I'm sorry. I must ask the Honourable Gentleman to withdraw the work. <speaker:1> Very well. <speaker:2> Under the power given to me by Standing Order No. 43. I order the honourable member to withdraw immediately from the House for the remainder of this day's ",
+        "cleaned_completion": "<speaker:3> Does the Prime Minister recall that at the time after he became Prime Minister under the coalition And at the time when he was dividing the nation between strivers and scroungers, I asked him a very important question about the windfall he received. when he wrote up the mortgage of the premises in Notting Hill and I said to him he didn't write off the mortgage of the one the taxpayers were helping to pay for at Oxford. I didn't receive a proper answer then. Maybe dodgy Dave will answer it now. <speaker:1> And by the way, <speaker:0> Yeah. <speaker:1> And by the way... <speaker:2> Oh! Order! Order! Or... or... Or... I must ask the honourable gentleman order I don't require any assistance from some junior minister. <speaker:1> What an absurd proposition. <speaker:2> I invite the Honourable Gentleman to withdraw that adjective that he used a moment ago. He's perfectly capable of asking his question without using that word. It is up to him, but if he doesn't wish to withdraw it, I can't reasonably ask the Prime Minister to answer the question. All he has to do is withdraw that word and think of another. Sorry? I think he knows the word beginning with D and ending in Y that he inappropriately used. <speaker:1> Davey. Davey or Davey. Withdraw! Yeah, I know. I know what you're saying. Very simple. Withdrawal. <speaker:3> This man has done <speaker:1> more to divide this nation than anybody else. He's looked after his own pocket. I still refer to him as Dodgy Dave. Do what you like. <speaker:2> Order. Order. Order. Order. I'm sorry. I must ask the Honourable Gentleman to withdraw the work. <speaker:1> Very well. <speaker:2> Under the power given to me by Standing Order No. 43. I order the honourable member to withdraw immediately from the House for the remainder of this day's",
+        "accepted_count": 1,
+        "rejected_count": 8,
+        "abstained_count": 1,
+        "unchanged_count": 290,
+        "rejection_reasons_breakdown": {
+          "UNCHANGED_BASELINE_CONFIRMED": 290,
+          "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION": 5,
+          "ABSTAINED_PRESERVE_UNK": 1,
+          "REJECTED_UNKNOWN_SPEAKER_MAPPING": 3,
+          "ACCEPTED_VALIDATED_TRANSFER": 1
+        }
+      },
+      {
+        "segment_id": "R02_dennis_skinner__seg_001",
+        "recording_id": "R02_dennis_skinner",
+        "start_word_index": 300,
+        "end_word_index": 306,
+        "word_count": 7,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 53,
+        "completion_tokens": 32,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 0.7557,
+        "prompt_text": "<|turn>user\n<speaker:2> sitting. <speaker:1> You're all frustrated! Stupid! <speaker:2> Very well. --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:2> sitting. <speaker:1> You're all frustrated! Stupid! <speaker:2> Very well. ",
+        "cleaned_completion": "<speaker:2> sitting. <speaker:1> You're all frustrated! Stupid! <speaker:2> Very well.",
+        "accepted_count": 0,
+        "rejected_count": 0,
+        "abstained_count": 0,
+        "unchanged_count": 7,
+        "rejection_reasons_breakdown": {
+          "UNCHANGED_BASELINE_CONFIRMED": 7
+        }
+      }
+    ]
+  },
+  "changed_words_count": 1,
+  "changed_words": [
+    {
+      "word_index": 102,
+      "word": "Order!",
+      "start": 53.308,
+      "end": 53.835,
+      "baseline_speaker_id": "SPEAKER_00",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_00 to SPEAKER_01."
+    }
+  ],
+  "rejected_proposals_count": 8,
+  "rejected_proposals": [
+    {
+      "word_index": 91,
+      "word": "now.",
+      "start": 39.441,
+      "end": 40.042,
+      "baseline_speaker_id": "SPEAKER_00",
+      "proposed_speaker_id": "SPEAKER_02",
+      "reconciliation_reason": "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION",
+      "reasoning_note": "Word lies in a simultaneous multi-speaker overlap interval; lexical LLM reassignment rejected to avoid unsupported simultaneous-overlap claim."
+    },
+    {
+      "word_index": 100,
+      "word": "way...",
+      "start": 48.102,
+      "end": 48.483,
+      "baseline_speaker_id": "UNK",
+      "proposed_speaker_id": "1",
+      "reconciliation_reason": "REJECTED_UNKNOWN_SPEAKER_MAPPING",
+      "reasoning_note": "Rejected LLM proposal (REJECTED_UNKNOWN_SPEAKER_MAPPING); baseline speaker UNK preserved."
+    },
+    {
+      "word_index": 101,
+      "word": "Oh!",
+      "start": 51.419,
+      "end": 51.481,
+      "baseline_speaker_id": "UNK",
+      "proposed_speaker_id": "2",
+      "reconciliation_reason": "REJECTED_UNKNOWN_SPEAKER_MAPPING",
+      "reasoning_note": "Rejected LLM proposal (REJECTED_UNKNOWN_SPEAKER_MAPPING); baseline speaker UNK preserved."
+    },
+    {
+      "word_index": 125,
+      "word": "absurd",
+      "start": 68.629,
+      "end": 69.129,
+      "baseline_speaker_id": "SPEAKER_01",
+      "proposed_speaker_id": "SPEAKER_00",
+      "reconciliation_reason": "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION",
+      "reasoning_note": "Word lies in a simultaneous multi-speaker overlap interval; lexical LLM reassignment rejected to avoid unsupported simultaneous-overlap claim."
+    },
+    {
+      "word_index": 126,
+      "word": "proposition.",
+      "start": 69.23,
+      "end": 71.712,
+      "baseline_speaker_id": "SPEAKER_01",
+      "proposed_speaker_id": "SPEAKER_00",
+      "reconciliation_reason": "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION",
+      "reasoning_note": "Word lies in a simultaneous multi-speaker overlap interval; lexical LLM reassignment rejected to avoid unsupported simultaneous-overlap claim."
+    },
+    {
+      "word_index": 192,
+      "word": "think",
+      "start": 93.423,
+      "end": 95.588,
+      "baseline_speaker_id": "SPEAKER_00",
+      "proposed_speaker_id": "SPEAKER_01",
+      "reconciliation_reason": "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION",
+      "reasoning_note": "Word lies in a simultaneous multi-speaker overlap interval; lexical LLM reassignment rejected to avoid unsupported simultaneous-overlap claim."
+    },
+    {
+      "word_index": 222,
+      "word": "simple.",
+      "start": 108.72,
+      "end": 109.545,
+      "baseline_speaker_id": "UNK",
+      "proposed_speaker_id": "1",
+      "reconciliation_reason": "REJECTED_UNKNOWN_SPEAKER_MAPPING",
+      "reasoning_note": "Rejected LLM proposal (REJECTED_UNKNOWN_SPEAKER_MAPPING); baseline speaker UNK preserved."
+    },
+    {
+      "word_index": 223,
+      "word": "Withdrawal.",
+      "start": 109.565,
+      "end": 110.108,
+      "baseline_speaker_id": "SPEAKER_01",
+      "proposed_speaker_id": "SPEAKER_00",
+      "reconciliation_reason": "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION",
+      "reasoning_note": "Word lies in a simultaneous multi-speaker overlap interval; lexical LLM reassignment rejected to avoid unsupported simultaneous-overlap claim."
+    }
+  ]
+}

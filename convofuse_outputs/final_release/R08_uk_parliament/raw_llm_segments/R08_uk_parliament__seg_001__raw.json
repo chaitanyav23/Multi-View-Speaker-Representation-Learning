@@ -1,0 +1,24 @@
+{
+  "segment_id": "R08_uk_parliament__seg_001",
+  "recording_id": "R08_uk_parliament",
+  "prompt": "<|turn>user\n<speaker:2> minister, I and this government have introduced the most far-reaching, vile against women and girls... <speaker:1> Mr Speaker, he hasn't apologised for appointing Matthew Doyle because he won't take responsibility. He never does, and they know it. The Prime Minister is now telling everyone that he's never lost a fight. It's because he won't step into the ring. He's never lost a fight. He's walked away from welfare reform. He won't stand up to the unions. He won't stand up to China. He can't even stand up to Mauritius. He's had, Mr. Speaker, he's had three cabinet secretaries, four chiefs of staff, five director of communications in just 18 months. And now he is mired in yet another scandal. Does he ever look in the mirror and ask himself, is the real problem staring him in the face? Yeah! <speaker:2> Mr. Speaker, I delivered a landslide victory for our government. Only four people have ever elected the Labour Party to victory in a general election. I am one of them. --> <turn|>\n<|turn>model\n",
+  "completion_data": {
+    "raw_completion": "<speaker:2> minister, I and this government have introduced the most far-reaching, vile against women and girls... <speaker:1> Mr Speaker, he hasn't apologised for appointing Matthew Doyle because he won't take responsibility. He never does, and they know it. The Prime Minister is now telling everyone that he's never lost a fight. It's because he won't step into the ring. He's never lost a fight. He's walked away from welfare reform. He won't stand up to the unions. He won't stand up to China. He can't even stand up to Mauritius. He's had, Mr. Speaker, he's had three cabinet secretaries, four chiefs of staff, five director of communications in just 18 months. And now he is mired in yet another scandal. Does he ever look in the mirror and ask himself, is the real problem staring him in the face? <speaker:2> Yeah! Mr. Speaker, I delivered a landslide victory for our government. Only four people have ever elected the Labour Party to victory in a general election. I am one of them. ",
+    "done": true,
+    "done_reason": "stop",
+    "prompt_tokens": 266,
+    "completion_tokens": 245,
+    "runtime_sec": 2.3481,
+    "ollama_total_duration_ns": 2344879762,
+    "prompt_configuration": {
+      "temperature": 0.0,
+      "top_k": 1,
+      "seed": 42,
+      "num_predict": 2048,
+      "stop": [
+        "<turn|>",
+        "[eod]"
+      ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "segment_id": "R02_dennis_skinner__seg_001",
+  "recording_id": "R02_dennis_skinner",
+  "prompt": "<|turn>user\n<speaker:2> sitting. <speaker:1> You're all frustrated! Stupid! <speaker:2> Very well. --> <turn|>\n<|turn>model\n",
+  "completion_data": {
+    "raw_completion": "<speaker:2> sitting. <speaker:1> You're all frustrated! Stupid! <speaker:2> Very well. ",
+    "done": true,
+    "done_reason": "stop",
+    "prompt_tokens": 53,
+    "completion_tokens": 32,
+    "runtime_sec": 0.7557,
+    "ollama_total_duration_ns": 754369446,
+    "prompt_configuration": {
+      "temperature": 0.0,
+      "top_k": 1,
+      "seed": 42,
+      "num_predict": 2048,
+      "stop": [
+        "<turn|>",
+        "[eod]"
+      ]
+    }
+  }
+}

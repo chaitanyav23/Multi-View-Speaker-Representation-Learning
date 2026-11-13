@@ -1,0 +1,337 @@
+{
+  "recording_id": "R01_sara_sharif",
+  "filename": "R01_sara_sharif.wav",
+  "execution_mode": "FROZEN_INPUT_REPLAY",
+  "diarization_condition": "Stage5B.4_E20_C62_DualEncoder_EqualFusion_M0",
+  "diarization_backend": "TitaNet-Large(DFN,192D) + WeSpeaker-ResNet293-LM(Mono,256D) -> ZScore-Equal-Affinity-Fusion -> NME-SC (C62 VAD, M0)",
+  "refinement_model": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1 (Q4_K_M, LG-TPST)",
+  "created_at": "2026-11-13T17:58:07.084006+00:00",
+  "total_pipeline_sec": 3.7715,
+  "ground_truth_isolation_enforced": true,
+  "frozen_inputs_sha256_verified": true,
+  "input_sha256_hashes": {
+    "asr_aligned_words": "2dab0db97539fc00865c90c81e9f8fcacf011ce7c3ee2bd59beea10966511add",
+    "predicted_rttm": "109f49a6bd3da3503721c7f6ddc9b1c757985f316be0b5d95cb4995b47b9712a",
+    "overlap_posteriors": "695b17b0e7c95b666d33bbe440059d1d130c5e642a2e4c30b92079445f6dd66b",
+    "16k_mono_wav": "96f9af8d250ed8e26749433e2da6e1928a6d78eb6caad002cc1587fffcc0e45d",
+    "dfn_wav": "90520b893a11c9690e44c88ca5b9e94be49f36aa9e4eae1db88570b4bb051ced",
+    "normalized_wav": "996b1da5506e39ed556fa6670282e62d043d17e285975f23a00180cffcf60ffe"
+  },
+  "audio_routing": {
+    "source_media_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R01_sara_sharif/R01_sara_sharif_16k_mono.wav",
+    "titanet_dfn_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R01_sara_sharif/R01_sara_sharif_dfn.wav",
+    "wespeaker_raw_mono_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R01_sara_sharif/R01_sara_sharif_16k_mono.wav",
+    "asr_normalized_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R01_sara_sharif/R01_sara_sharif_normalized.wav",
+    "overlap_raw_mono_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R01_sara_sharif/R01_sara_sharif_16k_mono.wav",
+    "sample_rate": 16000,
+    "channels": 1,
+    "duration_sec": 100.9604,
+    "sha256_hashes": {
+      "16k_mono_wav": "96f9af8d250ed8e26749433e2da6e1928a6d78eb6caad002cc1587fffcc0e45d",
+      "dfn_wav": "90520b893a11c9690e44c88ca5b9e94be49f36aa9e4eae1db88570b4bb051ced",
+      "normalized_wav": "996b1da5506e39ed556fa6670282e62d043d17e285975f23a00180cffcf60ffe"
+    }
+  },
+  "rttm_to_canonical_speaker_map": {
+    "speaker_0": "SPEAKER_00",
+    "SPEAKER_00": "SPEAKER_00",
+    "speaker_1": "SPEAKER_01",
+    "SPEAKER_01": "SPEAKER_01",
+    "speaker_2": "SPEAKER_02",
+    "SPEAKER_02": "SPEAKER_02"
+  },
+  "canonical_to_dlm_tag_map": {
+    "SPEAKER_00": "1",
+    "SPEAKER_01": "2",
+    "SPEAKER_02": "3"
+  },
+  "refinement_telemetry": {
+    "recording_id": "R01_sara_sharif",
+    "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+    "ollama_model_name": "diarizationlm-gemma",
+    "quantization": "Q4_K_M",
+    "provider_version": "ollama-0.32.6",
+    "total_runtime_sec": 3.5022,
+    "total_prompt_tokens": 406,
+    "total_completion_tokens": 395,
+    "segment_count": 1,
+    "summary_counts": {
+      "total_words": 266,
+      "accepted_corrections": 1,
+      "rejected_proposals": 2,
+      "abstained_words": 0,
+      "unchanged_words": 263,
+      "reasons_breakdown": {
+        "ACCEPTED_VALIDATED_TRANSFER": 1,
+        "REJECTED_UNKNOWN_SPEAKER_MAPPING": 2,
+        "UNCHANGED_BASELINE_CONFIRMED": 263
+      }
+    },
+    "segment_telemetries": [
+      {
+        "segment_id": "R01_sara_sharif__seg_000",
+        "recording_id": "R01_sara_sharif",
+        "start_word_index": 0,
+        "end_word_index": 265,
+        "word_count": 266,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 406,
+        "completion_tokens": 395,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 3.4563,
+        "prompt_text": "<|turn>user\n<speaker:0> Yes sir. <speaker:3> We are, yes. Are you okay just to swap over, just yourself come with me and if you go with my colleague over there, is that alright? Alright. That's what I was going to say about it. Thank you. Cutting back. <speaker:2> Yes. <speaker:1> Which one is your bag? I don't have any bag. You have no bag? We'll look over here. Yance, you have a lot of peace. I'll explain more outside, okay? Sorry, I'll explain. Let's hold on to him a little. Yeah, could you just confirm your name for me please, sir? Sorry. Good punch, Sharif. Yes, yeah, often, okay. So, the time is 19.47 hours. The body of Sarah Sharif was discovered on the 10th of August, 2023, on 6 Hammond Road in Horsall. On the injuries sustained by her and the investigation conducted, you are suspected of her murder. You are therefore arrested for murder of Sarah Sharif. You do not have to say anything when it may harm your defence. You do not mention when questioned, something which you later rely on in court, and anything you do say may be given in evidence. <speaker:2> You are therefore arrested for the murder of Cheryl Shree. You didn't have to say anything, but it may have been on your offence if you didn't mention one question, something which you later rely on in court. Any of you do say maybe they've never seen someone like me. <speaker:3> From the injuries sustained by her and the investigation conducted, you are suspected of her murder. You are therefore arrested for the murder of Saad Sharif. --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:2> Yes sir. <speaker:3> We are, yes. Are you okay just to swap over, just yourself come with me and if you go with my colleague over there, is that alright? <speaker:2> Alright. <speaker:3> That's what I was going to say about it. Thank you. Cutting back. <speaker:2> Yes. <speaker:1> Which one is your bag? I don't have any bag. You have no bag? We'll look over here. Yance, you have a lot of peace. I'll explain more outside, okay? Sorry, I'll explain. Let's hold on to him a little. Yeah, could you just confirm your name for me please, sir? Sorry. Good punch, Sharif. Yes, yeah, often, okay. So, the time is 19.47 hours. The body of Sarah Sharif was discovered on the 10th of August, 2023, on 6 Hammond Road in Horsall. On the injuries sustained by her and the investigation conducted, you are suspected of her murder. You are therefore arrested for murder of Sarah Sharif. You do not have to say anything when it may harm your defence. You do not mention when questioned, something which you later rely on in court, and anything you do say may be given in evidence. <speaker:2> You are therefore arrested for the murder of Cheryl Shree. You didn't have to say anything, but it may have been on your offence if you didn't mention one question, something which you later rely on in court. Any of you do say maybe they've never seen someone like me. <speaker:3> From the injuries sustained by her and the investigation conducted, you are suspected of her murder. You are therefore arrested for the murder of Saad Sharif. ",
+        "cleaned_completion": "<speaker:2> Yes sir. <speaker:3> We are, yes. Are you okay just to swap over, just yourself come with me and if you go with my colleague over there, is that alright? <speaker:2> Alright. <speaker:3> That's what I was going to say about it. Thank you. Cutting back. <speaker:2> Yes. <speaker:1> Which one is your bag? I don't have any bag. You have no bag? We'll look over here. Yance, you have a lot of peace. I'll explain more outside, okay? Sorry, I'll explain. Let's hold on to him a little. Yeah, could you just confirm your name for me please, sir? Sorry. Good punch, Sharif. Yes, yeah, often, okay. So, the time is 19.47 hours. The body of Sarah Sharif was discovered on the 10th of August, 2023, on 6 Hammond Road in Horsall. On the injuries sustained by her and the investigation conducted, you are suspected of her murder. You are therefore arrested for murder of Sarah Sharif. You do not have to say anything when it may harm your defence. You do not mention when questioned, something which you later rely on in court, and anything you do say may be given in evidence. <speaker:2> You are therefore arrested for the murder of Cheryl Shree. You didn't have to say anything, but it may have been on your offence if you didn't mention one question, something which you later rely on in court. Any of you do say maybe they've never seen someone like me. <speaker:3> From the injuries sustained by her and the investigation conducted, you are suspected of her murder. You are therefore arrested for the murder of Saad Sharif.",
+        "accepted_count": 1,
+        "rejected_count": 2,
+        "abstained_count": 0,
+        "unchanged_count": 263,
+        "rejection_reasons_breakdown": {
+          "REJECTED_UNKNOWN_SPEAKER_MAPPING": 2,
+          "UNCHANGED_BASELINE_CONFIRMED": 263,
+          "ACCEPTED_VALIDATED_TRANSFER": 1
+        }
+      }
+    ]
+  },
+  "stage_history": [
+    {
+      "stage": "UPLOADED",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.05,
+      "started_at": "2026-11-13T17:58:03.312523+00:00",
+      "completed_at": "2026-11-13T17:58:03.312537+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Resolved frozen benchmark inputs for R01_sara_sharif",
+      "artifacts": {
+        "recording_id": "R01_sara_sharif"
+      }
+    },
+    {
+      "stage": "QUEUED",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.1,
+      "started_at": "2026-11-13T17:58:03.312545+00:00",
+      "completed_at": "2026-11-13T17:58:03.312548+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Queued ConvoFuse job (Stage5B.4_E20_C62_DualEncoder_EqualFusion_M0)",
+      "artifacts": {
+        "diarization_condition": "Stage5B.4_E20_C62_DualEncoder_EqualFusion_M0"
+      }
+    },
+    {
+      "stage": "AUDIO_EXTRACTION",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.18,
+      "started_at": "2026-11-13T17:58:03.312552+00:00",
+      "completed_at": "2026-11-13T17:58:03.312557+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Reused task-specific conditioned audio streams (DFN 16kHz, Raw Mono 16kHz, EBU R128 Normalized 16kHz)",
+      "artifacts": {
+        "source_media_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R01_sara_sharif/R01_sara_sharif_16k_mono.wav",
+        "titanet_dfn_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R01_sara_sharif/R01_sara_sharif_dfn.wav",
+        "wespeaker_raw_mono_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R01_sara_sharif/R01_sara_sharif_16k_mono.wav",
+        "asr_normalized_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R01_sara_sharif/R01_sara_sharif_normalized.wav",
+        "overlap_raw_mono_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R01_sara_sharif/R01_sara_sharif_16k_mono.wav",
+        "sample_rate": 16000,
+        "channels": 1,
+        "duration_sec": 100.9604,
+        "sha256_hashes": {
+          "16k_mono_wav": "96f9af8d250ed8e26749433e2da6e1928a6d78eb6caad002cc1587fffcc0e45d",
+          "dfn_wav": "90520b893a11c9690e44c88ca5b9e94be49f36aa9e4eae1db88570b4bb051ced",
+          "normalized_wav": "996b1da5506e39ed556fa6670282e62d043d17e285975f23a00180cffcf60ffe"
+        }
+      }
+    },
+    {
+      "stage": "VAD",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.25,
+      "started_at": "2026-11-13T17:58:03.312560+00:00",
+      "completed_at": "2026-11-13T17:58:03.312563+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Reused Stage 2 / Stage 5B.4 C62 Silero VAD speech regions",
+      "artifacts": {
+        "condition": "Stage5B.4_E20_C62_DualEncoder_EqualFusion_M0"
+      }
+    },
+    {
+      "stage": "ASR",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.35,
+      "started_at": "2026-11-13T17:58:03.312566+00:00",
+      "completed_at": "2026-11-13T17:58:03.312780+00:00",
+      "elapsed_sec": 0.00021,
+      "detail": "Loaded 266 Faster-Whisper Large-v3 words from frozen Stage 2 output",
+      "artifacts": {
+        "asr_aligned_words_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage2_baseline/whisperx/R01_sara_sharif_aligned.json",
+        "word_count": 266
+      }
+    },
+    {
+      "stage": "WORD_ALIGNMENT",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.42,
+      "started_at": "2026-11-13T17:58:03.312785+00:00",
+      "completed_at": "2026-11-13T17:58:03.312787+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Verified Wav2Vec2 CTC word-level timestamps (266 words)",
+      "artifacts": {
+        "word_count": 266
+      }
+    },
+    {
+      "stage": "SPEAKER_REPRESENTATION",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.5,
+      "started_at": "2026-11-13T17:58:03.312790+00:00",
+      "completed_at": "2026-11-13T17:58:03.312842+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Reused dual-path speaker embeddings: TitaNet-Large (192-D on DFN) + WeSpeaker ResNet293-LM (256-D on Raw Mono)",
+      "artifacts": {
+        "diarization_backend": "TitaNet-Large(DFN,192D) + WeSpeaker-ResNet293-LM(Mono,256D) -> ZScore-Equal-Affinity-Fusion -> NME-SC (C62 VAD, M0)"
+      }
+    },
+    {
+      "stage": "AFFINITY_FUSION",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.58,
+      "started_at": "2026-11-13T17:58:03.312847+00:00",
+      "completed_at": "2026-11-13T17:58:03.312849+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Reused off-diagonal Z-score normalized dual-encoder cosine affinity fusion",
+      "artifacts": {
+        "diarization_condition": "Stage5B.4_E20_C62_DualEncoder_EqualFusion_M0"
+      }
+    },
+    {
+      "stage": "CLUSTERING",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.65,
+      "started_at": "2026-11-13T17:58:03.312853+00:00",
+      "completed_at": "2026-11-13T17:58:03.312858+00:00",
+      "elapsed_sec": 4.9e-05,
+      "detail": "Loaded 19 NME-SC spectral clustering speaker segments from R01_sara_sharif.rttm",
+      "artifacts": {
+        "predicted_rttm_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage5b/stage5b_4_fresh_diarization/outputs/E20/R01_sara_sharif.rttm",
+        "rttm_segment_count": 19
+      }
+    },
+    {
+      "stage": "WORD_SPEAKER_ASSIGNMENT",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.72,
+      "started_at": "2026-11-13T17:58:03.312861+00:00",
+      "completed_at": "2026-11-13T17:58:03.321490+00:00",
+      "elapsed_sec": 0.008603,
+      "detail": "Associated 266 words across 3 speakers (2 UNK, 0 overlapping)",
+      "artifacts": {
+        "word_count": 266,
+        "speaker_inventory": [
+          "SPEAKER_00",
+          "SPEAKER_01",
+          "SPEAKER_02"
+        ],
+        "unk_word_count": 2,
+        "overlapping_word_count": 0
+      }
+    },
+    {
+      "stage": "GENERATIVE_REFINEMENT",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.88,
+      "started_at": "2026-11-13T17:58:03.321501+00:00",
+      "completed_at": "2026-11-13T17:58:06.824171+00:00",
+      "elapsed_sec": 3.502661,
+      "detail": "Completed DiarizationLM-Gemma TPST refinement in 3.50s (ground-truth isolated)",
+      "artifacts": {
+        "model": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1 (Q4_K_M, LG-TPST)",
+        "summary_counts": {
+          "total_words": 266,
+          "accepted_corrections": 1,
+          "rejected_proposals": 2,
+          "abstained_words": 0,
+          "unchanged_words": 263,
+          "reasons_breakdown": {
+            "ACCEPTED_VALIDATED_TRANSFER": 1,
+            "REJECTED_UNKNOWN_SPEAKER_MAPPING": 2,
+            "UNCHANGED_BASELINE_CONFIRMED": 263
+          }
+        },
+        "ground_truth_isolated": true
+      }
+    },
+    {
+      "stage": "TRANSCRIPT_RECONSTRUCTION",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.94,
+      "started_at": "2026-11-13T17:58:06.824183+00:00",
+      "completed_at": "2026-11-13T17:58:06.825743+00:00",
+      "elapsed_sec": 0.001557,
+      "detail": "Reconstructed 13 chronological turns across 4 speakers",
+      "artifacts": {
+        "baseline_turn_count": 11,
+        "refined_turn_count": 13,
+        "speaker_count": 4
+      }
+    },
+    {
+      "stage": "EVALUATION",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.98,
+      "started_at": "2026-11-13T17:58:06.832133+00:00",
+      "completed_at": "2026-11-13T17:58:07.083987+00:00",
+      "elapsed_sec": 0.25185,
+      "detail": "Executed post-inference evaluation (strictly isolated from inference)",
+      "artifacts": {
+        "has_reference_annotations": true,
+        "metric_deltas": {
+          "delta_wder_timestamp_assigned": 0.0,
+          "delta_wder_timestamp_all_ref": 0.0,
+          "delta_wder_lexical": 0.0,
+          "delta_cpwer": 0.0
+        }
+      }
+    },
+    {
+      "stage": "COMPLETED",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 1.0,
+      "started_at": "2026-11-13T17:58:07.083997+00:00",
+      "completed_at": "2026-11-13T17:58:07.084002+00:00",
+      "elapsed_sec": 3.771483,
+      "detail": "ConvoFuse pipeline completed in 3.77s",
+      "artifacts": {
+        "total_pipeline_sec": 3.7715
+      }
+    }
+  ]
+}

@@ -365,3 +365,108 @@ def test_06_turn_reconstruction_speaker_summary_and_exports(tmp_path: Path):
     assert eval_rep["integrity_verification"]["word_sequence_intact"] is True
     assert eval_rep["integrity_verification"]["timestamp_sequence_intact"] is True
     assert eval_rep["integrity_verification"]["unk_invariance_verified"] is True
+
+
+def test_07_overlap_metadata_in_readable_transcript_and_bundle_export(tmp_path: Path):
+    from convofuse.contracts import ConvoFuseTranscriptBundle
+
+    base_words = _make_sample_words()
+    ovl_word = ConvoFuseWord(
+        word_index=base_words[1].word_index,
+        word=base_words[1].word,
+        start=base_words[1].start,
+        end=base_words[1].end,
+        baseline_speaker_id="SPEAKER_00",
+        refined_speaker_id="SPEAKER_00",
+        overlap_metadata=OverlapMetadata(
+            is_overlapping_speech=True,
+            overlapping_speakers=("SPEAKER_00", "SPEAKER_01"),
+            overlap_durations_sec={"SPEAKER_00": 0.4, "SPEAKER_01": 0.3},
+            frame_overlap_prob_mean=0.65,
+            frame_overlap_prob_max=0.82,
+        ),
+    )
+    words = [base_words[0], ovl_word] + base_words[2:]
+    turns = reconstruct_turns(words, use_refined_speaker=True)
+    summaries = build_speaker_summaries(words, turns, ["SPEAKER_00", "SPEAKER_01"])
+    txt = format_readable_transcript(
+        recording_id="rec_ovl",
+        filename="rec_ovl.wav",
+        duration_sec=5.0,
+        turns=turns,
+        speaker_summaries=summaries,
+        execution_mode="FROZEN_INPUT_REPLAY",
+        diarization_condition="E20",
+        refinement_model="diarizationlm-gemma",
+        words=words,
+    )
+    assert "# [OVERLAP_METADATA: multi_speaker_rttm=True" in txt
+    assert "max_frame_overlap_posterior=0.820" in txt
+
+    comp = build_baseline_vs_refined_comparison(words, turns, turns, {})
+    bundle = ConvoFuseTranscriptBundle(
+        recording_id="rec_ovl",
+        filename="rec_ovl.wav",
+        duration_sec=5.0,
+        sample_rate=16000,
+        channels=1,
+        execution_mode="FROZEN_INPUT_REPLAY",
+        diarization_condition="E20",
+        diarization_backend="DualEncoder",
+        refinement_model="diarizationlm-gemma",
+        speaker_inventory=["SPEAKER_00", "SPEAKER_01"],
+        rttm_to_canonical_speaker_map={"speaker_0": "SPEAKER_00", "speaker_1": "SPEAKER_01"},
+        words=words,
+        turns=turns,
+        baseline_turns=turns,
+        speaker_summaries=summaries,
+        readable_transcript_txt=txt,
+        baseline_vs_refined_comparison=comp,
+        processing_manifest={"final_stage": ConvoFuseJobStage.COMPLETED.value},
+        evaluation_report={"integrity_verification": {"word_sequence_intact": True}},
+    )
+    exported = export_convofuse_artifacts(bundle, tmp_path)
+    assert "transcript_txt" in exported
+    assert "transcript_json" in exported
+    assert Path(exported["transcript_txt"]).exists()
+    assert Path(exported["transcript_json"]).exists()
+    loaded_json = json.loads(Path(exported["transcript_json"]).read_text(encoding="utf-8"))
+    assert loaded_json["recording_id"] == "rec_ovl"
+
+
+def test_08_cli_argument_parsing_and_nonzero_exit_on_error(tmp_path: Path):
+    from convofuse.cli import build_arg_parser, main
+
+    parser = build_arg_parser()
+    parsed = parser.parse_args(["--recording", "R01_sara_sharif", "--output-dir", str(tmp_path)])
+    assert parsed.recording == "R01_sara_sharif"
+    assert parsed.mode == "frozen_replay"
+
+    # Unknown recording ID in frozen_replay mode must return exit code 1
+    rc_invalid = main(["--recording", "NON_EXISTENT_REC", "--output-dir", str(tmp_path)])
+    assert rc_invalid == 1
+
+    # Missing required flags in custom_inputs mode raises SystemExit(2) (non-zero)
+    with pytest.raises(SystemExit) as excinfo:
+        main(["--mode", "custom_inputs", "--recording", "CUST1", "--output-dir", str(tmp_path)])
+    assert excinfo.value.code != 0
+
+    # Non-existent files in custom_inputs mode returns exit code 1
+    rc_missing_file = main(
+        [
+            "--mode",
+            "custom_inputs",
+            "--recording",
+            "CUST1",
+            "--audio-file",
+            str(tmp_path / "missing.wav"),
+            "--asr-words-json",
+            str(tmp_path / "missing.json"),
+            "--rttm-file",
+            str(tmp_path / "missing.rttm"),
+            "--output-dir",
+            str(tmp_path),
+        ]
+    )
+    assert rc_missing_file == 1
+

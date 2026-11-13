@@ -1,0 +1,24 @@
+{
+  "segment_id": "R03_disabled_parking__seg_001",
+  "recording_id": "R03_disabled_parking",
+  "prompt": "<|turn>user\n<speaker:2> say what your disability is. <speaker:1> Although, no more. <speaker:0> Well, <speaker:2> do you know how that comes across? Do you know how that looks? Well, <speaker:1> do you know how that looks from your point of view? I mean, from my point of view, with you accusing me of not being disabled. <speaker:2> You're not even telling me what... <speaker:1> Because I don't need to tell you. <speaker:2> Wouldn't it be easier if you tell me what your disability is and show me your badge? Come out the car, show me your disability. No, I can stay here. Show me your badge. <speaker:1> I can stay here. <speaker:2> I am going to call that parking officer. Call the <speaker:1> parking officer. Call the police if you want to. <speaker:2> Right. Okay, that is what I'm going to do. What? I'm going to call the police. Four. Because you are parked in a spot where you shouldn't be parking, you might be fraudulently using a disabled parking badge. pretending to be disabled. <speaker:1> Okay, so now I'm committing a criminal offence here now. <speaker:2> That's right. Maybe you can tell the police about that. <speaker:1> But I don't need to tell the police about that. <speaker:2> Well, I think you do. <speaker:1> For what? <speaker:2> You are not telling me what your disability is. <speaker:1> But I don't need to tell you that. Who are you? Who are you? <speaker:2> I told you, I work in an office in this building. <speaker:1> Okay, so what has that got to do with me? <speaker:2> Because people need to use the space who are disabled. Do <speaker:1> you need to park here? <speaker:2> I don't need to park here because... So <speaker:1> why are you here? So why are you here? <speaker:2> I'm here as a concerned citizen that you are breaking a regulation. You're parking in a space for disabled people. Come and show me what --> <turn|>\n<|turn>model\n",
+  "completion_data": {
+    "raw_completion": "<speaker:2> say what your disability is. <speaker:1> Although, no more. <speaker:2> Well, do you know how that comes across? Do you know how that looks? <speaker:1> Well, do you know how that looks from your point of view? I mean, from my point of view, with you accusing me of not being disabled. <speaker:2> You're not even telling me what... <speaker:1> Because I don't need to tell you. <speaker:2> Wouldn't it be easier if you tell me what your disability is and show me your badge? Come out the car, show me your disability. No, I can stay here. Show me your badge. <speaker:1> I can stay here. <speaker:2> I am going to call that parking officer. <speaker:1> Call the parking officer. Call the police if you want to. <speaker:2> Right. Okay, that is what I'm going to do. What? I'm going to call the police. Four. Because you are parked in a spot where you shouldn't be parking, you might be fraudulently using a disabled parking badge. pretending to be disabled. <speaker:1> Okay, so now I'm committing a criminal offence here now. <speaker:2> That's right. Maybe you can tell the police about that. <speaker:1> But I don't need to tell the police about that. <speaker:2> Well, I think you do. <speaker:1> For what? <speaker:2> You are not telling me what your disability is. <speaker:1> But I don't need to tell you that. Who are you? Who are you? <speaker:2> I told you, I work in an office in this building. <speaker:1> Okay, so what has that got to do with me? <speaker:2> Because people need to use the space who are disabled. <speaker:1> Do you need to park here? <speaker:2> I don't need to park here because... <speaker:1> So why are you here? So why are you here? <speaker:2> I'm here as a concerned citizen that you are breaking a regulation. You're parking in a space for disabled people. Come and show me what ",
+    "done": true,
+    "done_reason": "stop",
+    "prompt_tokens": 536,
+    "completion_tokens": 510,
+    "runtime_sec": 4.0939,
+    "ollama_total_duration_ns": 4089534580,
+    "prompt_configuration": {
+      "temperature": 0.0,
+      "top_k": 1,
+      "seed": 42,
+      "num_predict": 2048,
+      "stop": [
+        "<turn|>",
+        "[eod]"
+      ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "segment_id": "R07_bwc_cheap_shot__seg_000",
+  "recording_id": "R07_bwc_cheap_shot",
+  "prompt": "<|turn>user\n<speaker:1> Okay, my name's Peter, I'm based at Fortwood Police Station in Peterborough. I have to go through this bit, yeah. The grounds for the search is that the vehicle is linked to drug supply. There's lots of loose cash in that centre console, which often is linked to drug supply. And I can smell a faint smell of cannabis coming out of the vehicle as well. Just do your thing, isn't it? Yeah, alright. So, you are entitled to a copy of this search, okay, and it's section 23 of the Misuse of Drugs Act, so I'm going to be searching for any controlled drugs. Have you got any controlled drugs on you? No. Okay, cool. Have you got anything on you? No. Weapon, anything like that? Anything that's going to hurt me? Cool, alright. If you haven't got anything on you mate, you'll be all the way around. We'll be searching the vehicle. <speaker:0> Do <speaker:1> you want me to, like, put the thing against the vehicle? Say again? Is this all cool? Yeah, mate, it's fine. Yeah, it's fine. Basically, if you have got anything on you, it's important that you tell me, alright? What's that in there? I don't even know what it is. What is that? My balls. Your balls aren't hard and square. Yeah, they are. Your balls are hard and square, eh? Oh, they're hard and square. You can get two bands. Yeah. yeah i'm not i'm not convinced you haven't got something down there mate all right all right so we're what will happen you'll go back to the police station yeah you'll be strip searched if if it's nothing there it's fine but that seems too hard to be all right Oi! Stay on the floor! Get on the floor now! I'm on the --> <turn|>\n<|turn>model\n",
+  "completion_data": {
+    "raw_completion": "<speaker:1> Okay, my name's Peter, I'm based at Fortwood Police Station in Peterborough. I have to go through this bit, yeah. The grounds for the search is that the vehicle is linked to drug supply. There's lots of loose cash in that centre console, which often is linked to drug supply. And I can smell a faint smell of cannabis coming out of the vehicle as well. Just do your thing, isn't it? Yeah, alright. So, you are entitled to a copy of this search, okay, and it's section 23 of the Misuse of Drugs Act, so I'm going to be searching for any controlled drugs. Have you got any controlled drugs on you? <speaker:0> No. <speaker:1> Okay, cool. Have you got anything on you? <speaker:0> No. <speaker:1> Weapon, anything like that? Anything that's going to hurt me? Cool, alright. If you haven't got anything on you mate, you'll be all the way around. We'll be searching the vehicle. Do you want me to, like, put the thing against the vehicle? <speaker:0> Say again? <speaker:1> Is this all cool? Yeah, mate, it's fine. Yeah, it's fine. Basically, if you have got anything on you, it's important that you tell me, alright? What's that in there? I don't even know what it is. What is that? My balls. Your balls aren't hard and square. Yeah, they are. Your balls are hard and square, eh? Oh, they're hard and square. You can get two bands. Yeah. yeah i'm not i'm not convinced you haven't got something down there mate all right all right so we're what will happen you'll go back to the police station yeah you'll be strip searched if if it's nothing there it's fine but that seems too hard to be all right Oi! Stay on the floor! Get on the floor now! I'm on the ",
+    "done": true,
+    "done_reason": "stop",
+    "prompt_tokens": 458,
+    "completion_tokens": 457,
+    "runtime_sec": 3.9251,
+    "ollama_total_duration_ns": 3920875927,
+    "prompt_configuration": {
+      "temperature": 0.0,
+      "top_k": 1,
+      "seed": 42,
+      "num_predict": 2048,
+      "stop": [
+        "<turn|>",
+        "[eod]"
+      ]
+    }
+  }
+}

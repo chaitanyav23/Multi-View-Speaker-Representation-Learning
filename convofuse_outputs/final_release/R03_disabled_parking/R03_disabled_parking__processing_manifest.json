@@ -1,0 +1,418 @@
+{
+  "recording_id": "R03_disabled_parking",
+  "filename": "R03_disabled_parking.wav",
+  "execution_mode": "FROZEN_INPUT_REPLAY",
+  "diarization_condition": "Stage5A.1_Condition_J_DualEncoder_EqualFusion",
+  "diarization_backend": "TitaNet-Large(DFN,192D) + WeSpeaker-ResNet293-LM(Mono,256D) -> ZScore-Equal-Affinity-Fusion -> NME-SC",
+  "refinement_model": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1 (Q4_K_M, LG-TPST)",
+  "created_at": "2026-11-13T17:58:23.446149+00:00",
+  "total_pipeline_sec": 11.2995,
+  "ground_truth_isolation_enforced": true,
+  "frozen_inputs_sha256_verified": true,
+  "input_sha256_hashes": {
+    "asr_aligned_words": "4db628707d6593296b4a65f0c690259ffc85862887668f82cc47be5e7f42fc53",
+    "predicted_rttm": "4e6db376f59765c2d5770b8004d511a32c2b95396f37a21b7615e851a8778748",
+    "overlap_posteriors": "3178ba7eab3a6e5bff0632d1cb28ab3b0a8b0ae233116a311d46adb77a9c0d1f",
+    "16k_mono_wav": "04860c3262f44a8d47c7cd99bfc459ba61cf5807a1e97625560021188dca2f81",
+    "dfn_wav": "857fc457e97f35c9ac426f4c29581d52a9abedbc5f204669840afa123591515d",
+    "normalized_wav": "df90a35fafa535e0dd7af60cefcdc4e48738d1ade6dfc9fffde090946a667d68"
+  },
+  "audio_routing": {
+    "source_media_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R03_disabled_parking/R03_disabled_parking_16k_mono.wav",
+    "titanet_dfn_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R03_disabled_parking/R03_disabled_parking_dfn.wav",
+    "wespeaker_raw_mono_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R03_disabled_parking/R03_disabled_parking_16k_mono.wav",
+    "asr_normalized_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R03_disabled_parking/R03_disabled_parking_normalized.wav",
+    "overlap_raw_mono_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R03_disabled_parking/R03_disabled_parking_16k_mono.wav",
+    "sample_rate": 16000,
+    "channels": 1,
+    "duration_sec": 206.2164,
+    "sha256_hashes": {
+      "16k_mono_wav": "04860c3262f44a8d47c7cd99bfc459ba61cf5807a1e97625560021188dca2f81",
+      "dfn_wav": "857fc457e97f35c9ac426f4c29581d52a9abedbc5f204669840afa123591515d",
+      "normalized_wav": "df90a35fafa535e0dd7af60cefcdc4e48738d1ade6dfc9fffde090946a667d68"
+    }
+  },
+  "rttm_to_canonical_speaker_map": {
+    "speaker_0": "SPEAKER_00",
+    "SPEAKER_00": "SPEAKER_00",
+    "speaker_1": "SPEAKER_01",
+    "SPEAKER_01": "SPEAKER_01",
+    "speaker_2": "SPEAKER_02",
+    "SPEAKER_02": "SPEAKER_02"
+  },
+  "canonical_to_dlm_tag_map": {
+    "SPEAKER_00": "1",
+    "SPEAKER_01": "2",
+    "SPEAKER_02": "3"
+  },
+  "refinement_telemetry": {
+    "recording_id": "R03_disabled_parking",
+    "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+    "ollama_model_name": "diarizationlm-gemma",
+    "quantization": "Q4_K_M",
+    "provider_version": "ollama-0.32.6",
+    "total_runtime_sec": 9.8007,
+    "total_prompt_tokens": 1228,
+    "total_completion_tokens": 1160,
+    "segment_count": 3,
+    "summary_counts": {
+      "total_words": 641,
+      "accepted_corrections": 11,
+      "rejected_proposals": 6,
+      "abstained_words": 3,
+      "unchanged_words": 621,
+      "reasons_breakdown": {
+        "ABSTAINED_PRESERVE_UNK": 3,
+        "ACCEPTED_VALIDATED_TRANSFER": 11,
+        "REJECTED_UNKNOWN_SPEAKER_MAPPING": 1,
+        "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION": 5,
+        "UNCHANGED_BASELINE_CONFIRMED": 621
+      }
+    },
+    "segment_telemetries": [
+      {
+        "segment_id": "R03_disabled_parking__seg_000",
+        "recording_id": "R03_disabled_parking",
+        "start_word_index": 0,
+        "end_word_index": 299,
+        "word_count": 300,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 582,
+        "completion_tokens": 571,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 4.4995,
+        "prompt_text": "<|turn>user\n<speaker:1> I'll see you over there filming me forward, okay? You're right, little. <speaker:2> Well, I'm not alright. Can you not see that this space is for disabled badge holders? <speaker:1> Okay, can you not see my badge? <speaker:2> How do I know that that is your badge? <speaker:1> Well, it's on my car. <speaker:2> That badge does not look authentic. <speaker:1> What do you mean that doesn't look authentic? <speaker:2> That badge looks fake. <speaker:1> Okay, well, it's real. <speaker:2> I've only got your word for it. <speaker:1> Okay, well, are you a parking officer? <speaker:2> I'm not a parking officer, but I work in this building and I'm quite happy to call a parking officer. Call them then. Well, no, no, why don't you come out and show me your disability? <speaker:1> Sorry? <speaker:2> What? You don't look disabled. <speaker:1> OK, well, OK, well, hold on a minute, yeah. Not all... Start as yeah, love. Not all disabilities are visible. <speaker:2> Well, what is your disability <speaker:1> then? Well, it's none of your business what my disability is, love. Well, <speaker:2> I think it is my business. <speaker:1> How is it your business? <speaker:2> Because I work in this building. <speaker:1> Congratulations, love. What do you want? Do you want a medal? <speaker:2> No, I'm doing my right as a citizen to tell you you should not be parking here if you don't have... <speaker:1> Okay, and I'm showing you my right as a disabled person that I have a badge. <speaker:2> Well, tell me what your disability is then. <speaker:1> Well, it's mind your business. <speaker:2> Oh, it doesn't sound like you actually are disabled. I think you're taking the mickey. Well, <speaker:1> I'm not taking the mickey. It's just a bit irrelevant for me to tell you what my disability is because it's none of your business. <speaker:2> First of all, your badge does not look real. Now you're telling me you aren't gonna --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:1> I'll see you over there filming me forward, okay? You're right, little. <speaker:2> Well, I'm not alright. Can you not see that this space is for disabled badge holders? <speaker:1> Okay, can you not see my badge? <speaker:2> How do I know that that is your badge? <speaker:1> Well, it's on my car. <speaker:2> That badge does not look authentic. <speaker:1> What do you mean that doesn't look authentic? <speaker:2> That badge looks fake. <speaker:1> Okay, well, it's real. <speaker:2> I've only got your word for it. <speaker:1> Okay, well, are you a parking officer? <speaker:2> I'm not a parking officer, but I work in this building and I'm quite happy to call a parking officer. Call them then. Well, no, no, why don't you come out and show me your disability? <speaker:1> Sorry? What? <speaker:2> You don't look disabled. <speaker:1> OK, well, OK, well, hold on a minute, yeah. Not all... <speaker:2> Start as yeah, love. <speaker:1> Not all disabilities are visible. <speaker:2> Well, what is your disability then? <speaker:1> Well, it's none of your business what my disability is, love. <speaker:2> Well, I think it is my business. <speaker:1> How is it your business? <speaker:2> Because I work in this building. <speaker:1> Congratulations, love. What do you want? Do you want a medal? <speaker:2> No, I'm doing my right as a citizen to tell you you should not be parking here if you don't have... <speaker:1> Okay, and I'm showing you my right as a disabled person that I have a badge. <speaker:2> Well, tell me what your disability is then. <speaker:1> Well, it's mind your business. <speaker:2> Oh, it doesn't sound like you actually are disabled. I think you're taking the mickey. <speaker:1> Well, I'm not taking the mickey. It's just a bit irrelevant for me to tell you what my disability is because it's none of your business. <speaker:2> First of all, your badge does not look real. Now you're telling me you aren't gonna ",
+        "cleaned_completion": "<speaker:1> I'll see you over there filming me forward, okay? You're right, little. <speaker:2> Well, I'm not alright. Can you not see that this space is for disabled badge holders? <speaker:1> Okay, can you not see my badge? <speaker:2> How do I know that that is your badge? <speaker:1> Well, it's on my car. <speaker:2> That badge does not look authentic. <speaker:1> What do you mean that doesn't look authentic? <speaker:2> That badge looks fake. <speaker:1> Okay, well, it's real. <speaker:2> I've only got your word for it. <speaker:1> Okay, well, are you a parking officer? <speaker:2> I'm not a parking officer, but I work in this building and I'm quite happy to call a parking officer. Call them then. Well, no, no, why don't you come out and show me your disability? <speaker:1> Sorry? What? <speaker:2> You don't look disabled. <speaker:1> OK, well, OK, well, hold on a minute, yeah. Not all... <speaker:2> Start as yeah, love. <speaker:1> Not all disabilities are visible. <speaker:2> Well, what is your disability then? <speaker:1> Well, it's none of your business what my disability is, love. <speaker:2> Well, I think it is my business. <speaker:1> How is it your business? <speaker:2> Because I work in this building. <speaker:1> Congratulations, love. What do you want? Do you want a medal? <speaker:2> No, I'm doing my right as a citizen to tell you you should not be parking here if you don't have... <speaker:1> Okay, and I'm showing you my right as a disabled person that I have a badge. <speaker:2> Well, tell me what your disability is then. <speaker:1> Well, it's mind your business. <speaker:2> Oh, it doesn't sound like you actually are disabled. I think you're taking the mickey. <speaker:1> Well, I'm not taking the mickey. It's just a bit irrelevant for me to tell you what my disability is because it's none of your business. <speaker:2> First of all, your badge does not look real. Now you're telling me you aren't gonna",
+        "accepted_count": 5,
+        "rejected_count": 3,
+        "abstained_count": 0,
+        "unchanged_count": 292,
+        "rejection_reasons_breakdown": {
+          "UNCHANGED_BASELINE_CONFIRMED": 292,
+          "ACCEPTED_VALIDATED_TRANSFER": 5,
+          "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION": 3
+        }
+      },
+      {
+        "segment_id": "R03_disabled_parking__seg_001",
+        "recording_id": "R03_disabled_parking",
+        "start_word_index": 300,
+        "end_word_index": 599,
+        "word_count": 300,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 536,
+        "completion_tokens": 510,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 4.0939,
+        "prompt_text": "<|turn>user\n<speaker:2> say what your disability is. <speaker:1> Although, no more. <speaker:0> Well, <speaker:2> do you know how that comes across? Do you know how that looks? Well, <speaker:1> do you know how that looks from your point of view? I mean, from my point of view, with you accusing me of not being disabled. <speaker:2> You're not even telling me what... <speaker:1> Because I don't need to tell you. <speaker:2> Wouldn't it be easier if you tell me what your disability is and show me your badge? Come out the car, show me your disability. No, I can stay here. Show me your badge. <speaker:1> I can stay here. <speaker:2> I am going to call that parking officer. Call the <speaker:1> parking officer. Call the police if you want to. <speaker:2> Right. Okay, that is what I'm going to do. What? I'm going to call the police. Four. Because you are parked in a spot where you shouldn't be parking, you might be fraudulently using a disabled parking badge. pretending to be disabled. <speaker:1> Okay, so now I'm committing a criminal offence here now. <speaker:2> That's right. Maybe you can tell the police about that. <speaker:1> But I don't need to tell the police about that. <speaker:2> Well, I think you do. <speaker:1> For what? <speaker:2> You are not telling me what your disability is. <speaker:1> But I don't need to tell you that. Who are you? Who are you? <speaker:2> I told you, I work in an office in this building. <speaker:1> Okay, so what has that got to do with me? <speaker:2> Because people need to use the space who are disabled. Do <speaker:1> you need to park here? <speaker:2> I don't need to park here because... So <speaker:1> why are you here? So why are you here? <speaker:2> I'm here as a concerned citizen that you are breaking a regulation. You're parking in a space for disabled people. Come and show me what --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:2> say what your disability is. <speaker:1> Although, no more. <speaker:2> Well, do you know how that comes across? Do you know how that looks? <speaker:1> Well, do you know how that looks from your point of view? I mean, from my point of view, with you accusing me of not being disabled. <speaker:2> You're not even telling me what... <speaker:1> Because I don't need to tell you. <speaker:2> Wouldn't it be easier if you tell me what your disability is and show me your badge? Come out the car, show me your disability. No, I can stay here. Show me your badge. <speaker:1> I can stay here. <speaker:2> I am going to call that parking officer. <speaker:1> Call the parking officer. Call the police if you want to. <speaker:2> Right. Okay, that is what I'm going to do. What? I'm going to call the police. Four. Because you are parked in a spot where you shouldn't be parking, you might be fraudulently using a disabled parking badge. pretending to be disabled. <speaker:1> Okay, so now I'm committing a criminal offence here now. <speaker:2> That's right. Maybe you can tell the police about that. <speaker:1> But I don't need to tell the police about that. <speaker:2> Well, I think you do. <speaker:1> For what? <speaker:2> You are not telling me what your disability is. <speaker:1> But I don't need to tell you that. Who are you? Who are you? <speaker:2> I told you, I work in an office in this building. <speaker:1> Okay, so what has that got to do with me? <speaker:2> Because people need to use the space who are disabled. <speaker:1> Do you need to park here? <speaker:2> I don't need to park here because... <speaker:1> So why are you here? So why are you here? <speaker:2> I'm here as a concerned citizen that you are breaking a regulation. You're parking in a space for disabled people. Come and show me what ",
+        "cleaned_completion": "<speaker:2> say what your disability is. <speaker:1> Although, no more. <speaker:2> Well, do you know how that comes across? Do you know how that looks? <speaker:1> Well, do you know how that looks from your point of view? I mean, from my point of view, with you accusing me of not being disabled. <speaker:2> You're not even telling me what... <speaker:1> Because I don't need to tell you. <speaker:2> Wouldn't it be easier if you tell me what your disability is and show me your badge? Come out the car, show me your disability. No, I can stay here. Show me your badge. <speaker:1> I can stay here. <speaker:2> I am going to call that parking officer. <speaker:1> Call the parking officer. Call the police if you want to. <speaker:2> Right. Okay, that is what I'm going to do. What? I'm going to call the police. Four. Because you are parked in a spot where you shouldn't be parking, you might be fraudulently using a disabled parking badge. pretending to be disabled. <speaker:1> Okay, so now I'm committing a criminal offence here now. <speaker:2> That's right. Maybe you can tell the police about that. <speaker:1> But I don't need to tell the police about that. <speaker:2> Well, I think you do. <speaker:1> For what? <speaker:2> You are not telling me what your disability is. <speaker:1> But I don't need to tell you that. Who are you? Who are you? <speaker:2> I told you, I work in an office in this building. <speaker:1> Okay, so what has that got to do with me? <speaker:2> Because people need to use the space who are disabled. <speaker:1> Do you need to park here? <speaker:2> I don't need to park here because... <speaker:1> So why are you here? So why are you here? <speaker:2> I'm here as a concerned citizen that you are breaking a regulation. You're parking in a space for disabled people. Come and show me what",
+        "accepted_count": 3,
+        "rejected_count": 3,
+        "abstained_count": 0,
+        "unchanged_count": 294,
+        "rejection_reasons_breakdown": {
+          "UNCHANGED_BASELINE_CONFIRMED": 294,
+          "REJECTED_UNKNOWN_SPEAKER_MAPPING": 1,
+          "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION": 2,
+          "ACCEPTED_VALIDATED_TRANSFER": 3
+        }
+      },
+      {
+        "segment_id": "R03_disabled_parking__seg_002",
+        "recording_id": "R03_disabled_parking",
+        "start_word_index": 600,
+        "end_word_index": 640,
+        "word_count": 41,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 110,
+        "completion_tokens": 79,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 1.0865,
+        "prompt_text": "<|turn>user\n<speaker:2> your disability, come on. <speaker:3> Thank you so much for watching. The characters in this video are actors and are not based on real people. We hope you enjoyed. Thanks for watching Storytender. <speaker:2> Don't <speaker:3> forget to like. <speaker:2> and follow. <speaker:0> I'm gonna cry. --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:2> your disability, come on. <speaker:3> Thank you so much for watching. The characters in this video are actors and are not based on real people. We hope you enjoyed. Thanks for watching Storytender. <speaker:2> Don't forget to like. and follow. <speaker:0> I'm gonna cry. ",
+        "cleaned_completion": "<speaker:2> your disability, come on. <speaker:3> Thank you so much for watching. The characters in this video are actors and are not based on real people. We hope you enjoyed. Thanks for watching Storytender. <speaker:2> Don't forget to like. and follow. <speaker:0> I'm gonna cry.",
+        "accepted_count": 3,
+        "rejected_count": 0,
+        "abstained_count": 3,
+        "unchanged_count": 35,
+        "rejection_reasons_breakdown": {
+          "UNCHANGED_BASELINE_CONFIRMED": 35,
+          "ACCEPTED_VALIDATED_TRANSFER": 3,
+          "ABSTAINED_PRESERVE_UNK": 3
+        }
+      }
+    ]
+  },
+  "stage_history": [
+    {
+      "stage": "UPLOADED",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.05,
+      "started_at": "2026-11-13T17:58:12.146676+00:00",
+      "completed_at": "2026-11-13T17:58:12.146691+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Resolved frozen benchmark inputs for R03_disabled_parking",
+      "artifacts": {
+        "recording_id": "R03_disabled_parking"
+      }
+    },
+    {
+      "stage": "QUEUED",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.1,
+      "started_at": "2026-11-13T17:58:12.146698+00:00",
+      "completed_at": "2026-11-13T17:58:12.146701+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Queued ConvoFuse job (Stage5A.1_Condition_J_DualEncoder_EqualFusion)",
+      "artifacts": {
+        "diarization_condition": "Stage5A.1_Condition_J_DualEncoder_EqualFusion"
+      }
+    },
+    {
+      "stage": "AUDIO_EXTRACTION",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.18,
+      "started_at": "2026-11-13T17:58:12.146705+00:00",
+      "completed_at": "2026-11-13T17:58:12.146713+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Reused task-specific conditioned audio streams (DFN 16kHz, Raw Mono 16kHz, EBU R128 Normalized 16kHz)",
+      "artifacts": {
+        "source_media_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R03_disabled_parking/R03_disabled_parking_16k_mono.wav",
+        "titanet_dfn_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R03_disabled_parking/R03_disabled_parking_dfn.wav",
+        "wespeaker_raw_mono_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R03_disabled_parking/R03_disabled_parking_16k_mono.wav",
+        "asr_normalized_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R03_disabled_parking/R03_disabled_parking_normalized.wav",
+        "overlap_raw_mono_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R03_disabled_parking/R03_disabled_parking_16k_mono.wav",
+        "sample_rate": 16000,
+        "channels": 1,
+        "duration_sec": 206.2164,
+        "sha256_hashes": {
+          "16k_mono_wav": "04860c3262f44a8d47c7cd99bfc459ba61cf5807a1e97625560021188dca2f81",
+          "dfn_wav": "857fc457e97f35c9ac426f4c29581d52a9abedbc5f204669840afa123591515d",
+          "normalized_wav": "df90a35fafa535e0dd7af60cefcdc4e48738d1ade6dfc9fffde090946a667d68"
+        }
+      }
+    },
+    {
+      "stage": "VAD",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.25,
+      "started_at": "2026-11-13T17:58:12.146717+00:00",
+      "completed_at": "2026-11-13T17:58:12.146719+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Reused Stage 2 / Stage 5B.4 C62 Silero VAD speech regions",
+      "artifacts": {
+        "condition": "Stage5A.1_Condition_J_DualEncoder_EqualFusion"
+      }
+    },
+    {
+      "stage": "ASR",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.35,
+      "started_at": "2026-11-13T17:58:12.146722+00:00",
+      "completed_at": "2026-11-13T17:58:12.147113+00:00",
+      "elapsed_sec": 0.000387,
+      "detail": "Loaded 641 Faster-Whisper Large-v3 words from frozen Stage 2 output",
+      "artifacts": {
+        "asr_aligned_words_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage2_baseline/whisperx/R03_disabled_parking_aligned.json",
+        "word_count": 641
+      }
+    },
+    {
+      "stage": "WORD_ALIGNMENT",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.42,
+      "started_at": "2026-11-13T17:58:12.147118+00:00",
+      "completed_at": "2026-11-13T17:58:12.147121+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Verified Wav2Vec2 CTC word-level timestamps (641 words)",
+      "artifacts": {
+        "word_count": 641
+      }
+    },
+    {
+      "stage": "SPEAKER_REPRESENTATION",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.5,
+      "started_at": "2026-11-13T17:58:12.147125+00:00",
+      "completed_at": "2026-11-13T17:58:12.147201+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Reused dual-path speaker embeddings: TitaNet-Large (192-D on DFN) + WeSpeaker ResNet293-LM (256-D on Raw Mono)",
+      "artifacts": {
+        "diarization_backend": "TitaNet-Large(DFN,192D) + WeSpeaker-ResNet293-LM(Mono,256D) -> ZScore-Equal-Affinity-Fusion -> NME-SC"
+      }
+    },
+    {
+      "stage": "AFFINITY_FUSION",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.58,
+      "started_at": "2026-11-13T17:58:12.147205+00:00",
+      "completed_at": "2026-11-13T17:58:12.147207+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Reused off-diagonal Z-score normalized dual-encoder cosine affinity fusion",
+      "artifacts": {
+        "diarization_condition": "Stage5A.1_Condition_J_DualEncoder_EqualFusion"
+      }
+    },
+    {
+      "stage": "CLUSTERING",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.65,
+      "started_at": "2026-11-13T17:58:12.147210+00:00",
+      "completed_at": "2026-11-13T17:58:12.147215+00:00",
+      "elapsed_sec": 7.5e-05,
+      "detail": "Loaded 61 NME-SC spectral clustering speaker segments from R03_disabled_parking_dfn.rttm",
+      "artifacts": {
+        "predicted_rttm_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage5a_1/predictions/rttms/condition_J_norm_equal_weight_fusion/R03_disabled_parking_dfn.rttm",
+        "rttm_segment_count": 61
+      }
+    },
+    {
+      "stage": "WORD_SPEAKER_ASSIGNMENT",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.72,
+      "started_at": "2026-11-13T17:58:12.147218+00:00",
+      "completed_at": "2026-11-13T17:58:12.171538+00:00",
+      "elapsed_sec": 0.02427,
+      "detail": "Associated 641 words across 3 speakers (4 UNK, 18 overlapping)",
+      "artifacts": {
+        "word_count": 641,
+        "speaker_inventory": [
+          "SPEAKER_00",
+          "SPEAKER_01",
+          "SPEAKER_02"
+        ],
+        "unk_word_count": 4,
+        "overlapping_word_count": 18
+      }
+    },
+    {
+      "stage": "GENERATIVE_REFINEMENT",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.88,
+      "started_at": "2026-11-13T17:58:12.171547+00:00",
+      "completed_at": "2026-11-13T17:58:21.973316+00:00",
+      "elapsed_sec": 9.801761,
+      "detail": "Completed DiarizationLM-Gemma TPST refinement in 9.80s (ground-truth isolated)",
+      "artifacts": {
+        "model": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1 (Q4_K_M, LG-TPST)",
+        "summary_counts": {
+          "total_words": 641,
+          "accepted_corrections": 11,
+          "rejected_proposals": 6,
+          "abstained_words": 3,
+          "unchanged_words": 621,
+          "reasons_breakdown": {
+            "ABSTAINED_PRESERVE_UNK": 3,
+            "ACCEPTED_VALIDATED_TRANSFER": 11,
+            "REJECTED_UNKNOWN_SPEAKER_MAPPING": 1,
+            "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION": 5,
+            "UNCHANGED_BASELINE_CONFIRMED": 621
+          }
+        },
+        "ground_truth_isolated": true
+      }
+    },
+    {
+      "stage": "TRANSCRIPT_RECONSTRUCTION",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.94,
+      "started_at": "2026-11-13T17:58:21.973330+00:00",
+      "completed_at": "2026-11-13T17:58:21.977830+00:00",
+      "elapsed_sec": 0.004498,
+      "detail": "Reconstructed 59 chronological turns across 4 speakers",
+      "artifacts": {
+        "baseline_turn_count": 59,
+        "refined_turn_count": 59,
+        "speaker_count": 4
+      }
+    },
+    {
+      "stage": "EVALUATION",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.98,
+      "started_at": "2026-11-13T17:58:21.990769+00:00",
+      "completed_at": "2026-11-13T17:58:23.446122+00:00",
+      "elapsed_sec": 1.455349,
+      "detail": "Executed post-inference evaluation (strictly isolated from inference)",
+      "artifacts": {
+        "has_reference_annotations": true,
+        "metric_deltas": {
+          "delta_wder_timestamp_assigned": 0.007,
+          "delta_wder_timestamp_all_ref": 0.0069,
+          "delta_wder_lexical": 0.0065,
+          "delta_cpwer": 0.0092
+        }
+      }
+    },
+    {
+      "stage": "COMPLETED",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 1.0,
+      "started_at": "2026-11-13T17:58:23.446137+00:00",
+      "completed_at": "2026-11-13T17:58:23.446144+00:00",
+      "elapsed_sec": 11.299472,
+      "detail": "ConvoFuse pipeline completed in 11.30s",
+      "artifacts": {
+        "total_pipeline_sec": 11.2995
+      }
+    }
+  ]
+}

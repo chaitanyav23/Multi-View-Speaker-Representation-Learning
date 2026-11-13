@@ -1,0 +1,24 @@
+{
+  "segment_id": "R07_bwc_cheap_shot__seg_001",
+  "recording_id": "R07_bwc_cheap_shot",
+  "prompt": "<|turn>user\n<speaker:1> floor, I'm on the floor! What are you doing?! I'm on the floor, brother. I'm on the floor, brother. Right, you're under arrest for assault and emergency work. You don't have to say anything, mate, I'm on your fence. If you do not mention my question, it's not like you're going to go to court. Anything you do, you say, may be given in evidence. Okay, cool. Yeah. We'll get them to the back in a minute. That's a bit of a cheap shop, isn't it mate? All right, take that out. Oh, you scumbag. Mate, you just need me in the... Nah, no idea. All right. Watch your hand because I can't see. My camera was rolling the whole time mate, alright? Right mate, just to confirm, you're under arrest for assault of an emergency worker, alright? Yeah. You did get me, I'll give you that mate. I don't know, I honestly don't know what you were thinking then. You've got to try it, man. Did you? Nothing was ever going to happen, was it? I know. --> <turn|>\n<|turn>model\n",
+  "completion_data": {
+    "raw_completion": "<speaker:1> floor, I'm on the floor! What are you doing?! I'm on the floor, brother. I'm on the floor, brother. Right, you're under arrest for assault and emergency work. You don't have to say anything, mate, I'm on your fence. If you do not mention my question, it's not like you're going to go to court. Anything you do, you say, may be given in evidence. Okay, cool. Yeah. We'll get them to the back in a minute. That's a bit of a cheap shop, isn't it mate? All right, take that out. Oh, you scumbag. Mate, you just need me in the... Nah, no idea. All right. Watch your hand because I can't see. My camera was rolling the whole time mate, alright? Right mate, just to confirm, you're under arrest for assault of an emergency worker, alright? Yeah. You did get me, I'll give you that mate. I don't know, I honestly don't know what you were thinking then. You've got to try it, man. Did you? Nothing was ever going to happen, was it? I know. ",
+    "done": true,
+    "done_reason": "stop",
+    "prompt_tokens": 294,
+    "completion_tokens": 273,
+    "runtime_sec": 2.5514,
+    "ollama_total_duration_ns": 2548657642,
+    "prompt_configuration": {
+      "temperature": 0.0,
+      "top_k": 1,
+      "seed": 42,
+      "num_predict": 2048,
+      "stop": [
+        "<turn|>",
+        "[eod]"
+      ]
+    }
+  }
+}

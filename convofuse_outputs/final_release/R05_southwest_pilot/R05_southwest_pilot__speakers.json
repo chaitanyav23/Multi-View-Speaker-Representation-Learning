@@ -1,0 +1,62 @@
+{
+  "recording_id": "R05_southwest_pilot",
+  "speaker_inventory": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02"
+  ],
+  "rttm_to_canonical_speaker_map": {
+    "speaker_0": "SPEAKER_00",
+    "SPEAKER_00": "SPEAKER_00",
+    "speaker_1": "SPEAKER_01",
+    "SPEAKER_01": "SPEAKER_01",
+    "speaker_2": "SPEAKER_02",
+    "SPEAKER_02": "SPEAKER_02"
+  },
+  "speaker_summaries": [
+    {
+      "speaker_id": "SPEAKER_00",
+      "total_speaking_duration_sec": 26.915,
+      "turn_count": 18,
+      "word_count": 74,
+      "first_appearance_sec": 14.255,
+      "last_appearance_sec": 143.366,
+      "mean_word_confidence": 0.5257,
+      "accepted_corrections_into_speaker": 6,
+      "accepted_corrections_out_of_speaker": 3
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "total_speaking_duration_sec": 63.409,
+      "turn_count": 23,
+      "word_count": 244,
+      "first_appearance_sec": 1.127,
+      "last_appearance_sec": 159.931,
+      "mean_word_confidence": 0.5771,
+      "accepted_corrections_into_speaker": 3,
+      "accepted_corrections_out_of_speaker": 3
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "total_speaking_duration_sec": 12.182,
+      "turn_count": 4,
+      "word_count": 44,
+      "first_appearance_sec": 7.19,
+      "last_appearance_sec": 75.323,
+      "mean_word_confidence": 0.3824,
+      "accepted_corrections_into_speaker": 0,
+      "accepted_corrections_out_of_speaker": 3
+    },
+    {
+      "speaker_id": "UNK",
+      "total_speaking_duration_sec": 4.965,
+      "turn_count": 2,
+      "word_count": 10,
+      "first_appearance_sec": 102.706,
+      "last_appearance_sec": 111.62,
+      "mean_word_confidence": 0.2605,
+      "accepted_corrections_into_speaker": 0,
+      "accepted_corrections_out_of_speaker": 0
+    }
+  ]
+}

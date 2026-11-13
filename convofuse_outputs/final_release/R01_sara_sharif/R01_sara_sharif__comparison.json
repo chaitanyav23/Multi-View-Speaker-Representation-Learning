@@ -1,0 +1,105 @@
+{
+  "total_words": 266,
+  "baseline_turn_count": 11,
+  "refined_turn_count": 13,
+  "refinement_summary": {
+    "recording_id": "R01_sara_sharif",
+    "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+    "ollama_model_name": "diarizationlm-gemma",
+    "quantization": "Q4_K_M",
+    "provider_version": "ollama-0.32.6",
+    "total_runtime_sec": 3.5022,
+    "total_prompt_tokens": 406,
+    "total_completion_tokens": 395,
+    "segment_count": 1,
+    "summary_counts": {
+      "total_words": 266,
+      "accepted_corrections": 1,
+      "rejected_proposals": 2,
+      "abstained_words": 0,
+      "unchanged_words": 263,
+      "reasons_breakdown": {
+        "ACCEPTED_VALIDATED_TRANSFER": 1,
+        "REJECTED_UNKNOWN_SPEAKER_MAPPING": 2,
+        "UNCHANGED_BASELINE_CONFIRMED": 263
+      }
+    },
+    "segment_telemetries": [
+      {
+        "segment_id": "R01_sara_sharif__seg_000",
+        "recording_id": "R01_sara_sharif",
+        "start_word_index": 0,
+        "end_word_index": 265,
+        "word_count": 266,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 406,
+        "completion_tokens": 395,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 3.4563,
+        "prompt_text": "<|turn>user\n<speaker:0> Yes sir. <speaker:3> We are, yes. Are you okay just to swap over, just yourself come with me and if you go with my colleague over there, is that alright? Alright. That's what I was going to say about it. Thank you. Cutting back. <speaker:2> Yes. <speaker:1> Which one is your bag? I don't have any bag. You have no bag? We'll look over here. Yance, you have a lot of peace. I'll explain more outside, okay? Sorry, I'll explain. Let's hold on to him a little. Yeah, could you just confirm your name for me please, sir? Sorry. Good punch, Sharif. Yes, yeah, often, okay. So, the time is 19.47 hours. The body of Sarah Sharif was discovered on the 10th of August, 2023, on 6 Hammond Road in Horsall. On the injuries sustained by her and the investigation conducted, you are suspected of her murder. You are therefore arrested for murder of Sarah Sharif. You do not have to say anything when it may harm your defence. You do not mention when questioned, something which you later rely on in court, and anything you do say may be given in evidence. <speaker:2> You are therefore arrested for the murder of Cheryl Shree. You didn't have to say anything, but it may have been on your offence if you didn't mention one question, something which you later rely on in court. Any of you do say maybe they've never seen someone like me. <speaker:3> From the injuries sustained by her and the investigation conducted, you are suspected of her murder. You are therefore arrested for the murder of Saad Sharif. --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:2> Yes sir. <speaker:3> We are, yes. Are you okay just to swap over, just yourself come with me and if you go with my colleague over there, is that alright? <speaker:2> Alright. <speaker:3> That's what I was going to say about it. Thank you. Cutting back. <speaker:2> Yes. <speaker:1> Which one is your bag? I don't have any bag. You have no bag? We'll look over here. Yance, you have a lot of peace. I'll explain more outside, okay? Sorry, I'll explain. Let's hold on to him a little. Yeah, could you just confirm your name for me please, sir? Sorry. Good punch, Sharif. Yes, yeah, often, okay. So, the time is 19.47 hours. The body of Sarah Sharif was discovered on the 10th of August, 2023, on 6 Hammond Road in Horsall. On the injuries sustained by her and the investigation conducted, you are suspected of her murder. You are therefore arrested for murder of Sarah Sharif. You do not have to say anything when it may harm your defence. You do not mention when questioned, something which you later rely on in court, and anything you do say may be given in evidence. <speaker:2> You are therefore arrested for the murder of Cheryl Shree. You didn't have to say anything, but it may have been on your offence if you didn't mention one question, something which you later rely on in court. Any of you do say maybe they've never seen someone like me. <speaker:3> From the injuries sustained by her and the investigation conducted, you are suspected of her murder. You are therefore arrested for the murder of Saad Sharif. ",
+        "cleaned_completion": "<speaker:2> Yes sir. <speaker:3> We are, yes. Are you okay just to swap over, just yourself come with me and if you go with my colleague over there, is that alright? <speaker:2> Alright. <speaker:3> That's what I was going to say about it. Thank you. Cutting back. <speaker:2> Yes. <speaker:1> Which one is your bag? I don't have any bag. You have no bag? We'll look over here. Yance, you have a lot of peace. I'll explain more outside, okay? Sorry, I'll explain. Let's hold on to him a little. Yeah, could you just confirm your name for me please, sir? Sorry. Good punch, Sharif. Yes, yeah, often, okay. So, the time is 19.47 hours. The body of Sarah Sharif was discovered on the 10th of August, 2023, on 6 Hammond Road in Horsall. On the injuries sustained by her and the investigation conducted, you are suspected of her murder. You are therefore arrested for murder of Sarah Sharif. You do not have to say anything when it may harm your defence. You do not mention when questioned, something which you later rely on in court, and anything you do say may be given in evidence. <speaker:2> You are therefore arrested for the murder of Cheryl Shree. You didn't have to say anything, but it may have been on your offence if you didn't mention one question, something which you later rely on in court. Any of you do say maybe they've never seen someone like me. <speaker:3> From the injuries sustained by her and the investigation conducted, you are suspected of her murder. You are therefore arrested for the murder of Saad Sharif.",
+        "accepted_count": 1,
+        "rejected_count": 2,
+        "abstained_count": 0,
+        "unchanged_count": 263,
+        "rejection_reasons_breakdown": {
+          "REJECTED_UNKNOWN_SPEAKER_MAPPING": 2,
+          "UNCHANGED_BASELINE_CONFIRMED": 263,
+          "ACCEPTED_VALIDATED_TRANSFER": 1
+        }
+      }
+    ]
+  },
+  "changed_words_count": 1,
+  "changed_words": [
+    {
+      "word_index": 29,
+      "word": "Alright.",
+      "start": 9.409,
+      "end": 9.85,
+      "baseline_speaker_id": "SPEAKER_02",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_02 to SPEAKER_01."
+    }
+  ],
+  "rejected_proposals_count": 2,
+  "rejected_proposals": [
+    {
+      "word_index": 0,
+      "word": "Yes",
+      "start": 2.052,
+      "end": 2.174,
+      "baseline_speaker_id": "UNK",
+      "proposed_speaker_id": "2",
+      "reconciliation_reason": "REJECTED_UNKNOWN_SPEAKER_MAPPING",
+      "reasoning_note": "Rejected LLM proposal (REJECTED_UNKNOWN_SPEAKER_MAPPING); baseline speaker UNK preserved."
+    },
+    {
+      "word_index": 1,
+      "word": "sir.",
+      "start": 2.194,
+      "end": 2.377,
+      "baseline_speaker_id": "UNK",
+      "proposed_speaker_id": "2",
+      "reconciliation_reason": "REJECTED_UNKNOWN_SPEAKER_MAPPING",
+      "reasoning_note": "Rejected LLM proposal (REJECTED_UNKNOWN_SPEAKER_MAPPING); baseline speaker UNK preserved."
+    }
+  ]
+}

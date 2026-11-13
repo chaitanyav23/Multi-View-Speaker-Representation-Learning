@@ -1,0 +1,804 @@
+{
+  "total_words": 1719,
+  "baseline_turn_count": 183,
+  "refined_turn_count": 180,
+  "refinement_summary": {
+    "recording_id": "R06_rich_karen",
+    "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+    "ollama_model_name": "diarizationlm-gemma",
+    "quantization": "Q4_K_M",
+    "provider_version": "ollama-0.32.6",
+    "total_runtime_sec": 26.7183,
+    "total_prompt_tokens": 3348,
+    "total_completion_tokens": 3167,
+    "segment_count": 6,
+    "summary_counts": {
+      "total_words": 1719,
+      "accepted_corrections": 40,
+      "rejected_proposals": 10,
+      "abstained_words": 35,
+      "unchanged_words": 1634,
+      "reasons_breakdown": {
+        "ABSTAINED_PRESERVE_UNK": 35,
+        "ACCEPTED_VALIDATED_TRANSFER": 40,
+        "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION": 10,
+        "UNCHANGED_BASELINE_CONFIRMED": 1634
+      }
+    },
+    "segment_telemetries": [
+      {
+        "segment_id": "R06_rich_karen__seg_000",
+        "recording_id": "R06_rich_karen",
+        "start_word_index": 0,
+        "end_word_index": 299,
+        "word_count": 300,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 655,
+        "completion_tokens": 619,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 5.06,
+        "prompt_text": "<|turn>user\n<speaker:4> An officer initiates a routine traffic stop on this white Chevy pickup truck driven by a Karen. What follows is anything but routine. <speaker:1> Day 211, I'll be taking position 2, we're passing Old Howell Road. 520 speed position 1. Copy the station's position. Passing Hollywood Oaks Drive. Speed's 35. Across the front of the screen, speed's 30. The cop people are coming up to 18 now. Blessings. Just a <speaker:8> second. <speaker:1> Thank you. Show me your hands! <speaker:0> Move your ass! <speaker:1> 2-11, we're going to be out at 2. <speaker:5> I got a shatter ball. <speaker:8> All right, <speaker:1> your cover. I'm going to grab sticks and just throw them behind her. <speaker:7> Driver, turn off the vehicle! <speaker:5> Just watch out if she throws it in reverse. <speaker:7> Slowly step out of the vehicle! <speaker:8> Come on! DRIVE THE MOTORCYCLE! DRIVER! <speaker:5> Matt, can you move your squad up in case she does try to throw it reverse? So we've got two tasers, two lethal. <speaker:1> David, two level. We've got a canine en route. <speaker:6> Yeah. RK9 coming. <speaker:1> Perfect. <speaker:5> Tell her to get out of the car. You can see both her hands. She's got a cell phone. <speaker:1> Will, since you're lethal, chatterball. <speaker:0> Ha! Ha! Give me your arms! Ha! Ha! Give me your arms! She's just on her <speaker:8> cell phone. <speaker:7> Catherine, this is the police department. We need you to exit the vehicle! Do it now, Catherine! <speaker:0> Captain, this is the police. <speaker:7> You need to exit your vehicle with your hands up. Do it <speaker:8> now! <speaker:1> Fuck that <speaker:5> rear <speaker:8> window out. <speaker:5> Don't get her attention. <speaker:8> Okay. <speaker:1> Shutter ball up. <speaker:8> Get down, get down, get down, get <speaker:7> down. You're the best, yo! I'm not going to give <speaker:8> people a hold up! <speaker:7> Come on now, <speaker:8> you're <speaker:7> going to get bit by <speaker:8> the dog. I don't want you to <speaker:0> get bit by the --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:4> An officer initiates a routine traffic stop on this white Chevy pickup truck driven by a Karen. What follows is anything but routine. <speaker:1> Day 211, I'll be taking position 2, we're passing Old Howell Road. 520 speed position 1. Copy the station's position. Passing Hollywood Oaks Drive. Speed's 35. Across the front of the screen, speed's 30. The cop people are coming up to 18 now. Blessings. Just a <speaker:8> second. <speaker:1> Thank you. Show me your hands! <speaker:0> Move your ass! <speaker:1> 2-11, we're going to be out at 2. <speaker:5> I got a shatter ball. <speaker:8> All right, <speaker:1> your cover. I'm going to grab sticks and just throw them behind her. <speaker:7> Driver, turn off the vehicle! <speaker:5> Just watch out if she throws it in reverse. <speaker:7> Slowly step out of the vehicle! <speaker:8> Come on! Drive the motorcycle! DRIVER! <speaker:5> Matt, can you move your squad up in case she does try to throw it reverse? So we've got two tasers, two lethal. <speaker:1> David, two level. We've got a canine en route. <speaker:6> Yeah. RK9 coming. <speaker:1> Perfect. <speaker:5> Tell her to get out of the car. You can see both her hands. She's got a cell phone. <speaker:1> Will, since you're lethal, chatterball. <speaker:0> Ha! Ha! Give me your arms! Ha! Ha! Give me your arms! She's just on her <speaker:8> cell phone. <speaker:7> Catherine, this is the police department. We need you to exit the vehicle! Do it now, Catherine! <speaker:0> Captain, this is the police. <speaker:7> You need to exit your vehicle with your hands up. Do it now! <speaker:1> Fuck that <speaker:5> rear <speaker:8> window out. <speaker:5> Don't get her attention. <speaker:8> Okay. <speaker:1> Shutter ball up. <speaker:8> Get down, get down, get down, get <speaker:7> down. You're the best, yo! I'm not going to give <speaker:8> people a hold up! <speaker:7> Come on now, you're going to get bit by <speaker:8> the dog. I don't want you to <speaker:0> get bit by the ",
+        "cleaned_completion": "<speaker:4> An officer initiates a routine traffic stop on this white Chevy pickup truck driven by a Karen. What follows is anything but routine. <speaker:1> Day 211, I'll be taking position 2, we're passing Old Howell Road. 520 speed position 1. Copy the station's position. Passing Hollywood Oaks Drive. Speed's 35. Across the front of the screen, speed's 30. The cop people are coming up to 18 now. Blessings. Just a <speaker:8> second. <speaker:1> Thank you. Show me your hands! <speaker:0> Move your ass! <speaker:1> 2-11, we're going to be out at 2. <speaker:5> I got a shatter ball. <speaker:8> All right, <speaker:1> your cover. I'm going to grab sticks and just throw them behind her. <speaker:7> Driver, turn off the vehicle! <speaker:5> Just watch out if she throws it in reverse. <speaker:7> Slowly step out of the vehicle! <speaker:8> Come on! Drive the motorcycle! DRIVER! <speaker:5> Matt, can you move your squad up in case she does try to throw it reverse? So we've got two tasers, two lethal. <speaker:1> David, two level. We've got a canine en route. <speaker:6> Yeah. RK9 coming. <speaker:1> Perfect. <speaker:5> Tell her to get out of the car. You can see both her hands. She's got a cell phone. <speaker:1> Will, since you're lethal, chatterball. <speaker:0> Ha! Ha! Give me your arms! Ha! Ha! Give me your arms! She's just on her <speaker:8> cell phone. <speaker:7> Catherine, this is the police department. We need you to exit the vehicle! Do it now, Catherine! <speaker:0> Captain, this is the police. <speaker:7> You need to exit your vehicle with your hands up. Do it now! <speaker:1> Fuck that <speaker:5> rear <speaker:8> window out. <speaker:5> Don't get her attention. <speaker:8> Okay. <speaker:1> Shutter ball up. <speaker:8> Get down, get down, get down, get <speaker:7> down. You're the best, yo! I'm not going to give <speaker:8> people a hold up! <speaker:7> Come on now, you're going to get bit by <speaker:8> the dog. I don't want you to <speaker:0> get bit by the",
+        "accepted_count": 2,
+        "rejected_count": 0,
+        "abstained_count": 28,
+        "unchanged_count": 270,
+        "rejection_reasons_breakdown": {
+          "UNCHANGED_BASELINE_CONFIRMED": 270,
+          "ABSTAINED_PRESERVE_UNK": 28,
+          "ACCEPTED_VALIDATED_TRANSFER": 2
+        }
+      },
+      {
+        "segment_id": "R06_rich_karen__seg_001",
+        "recording_id": "R06_rich_karen",
+        "start_word_index": 300,
+        "end_word_index": 599,
+        "word_count": 300,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 703,
+        "completion_tokens": 677,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 5.4886,
+        "prompt_text": "<|turn>user\n<speaker:0> dog. Ha! Ha! Get up! Get <speaker:8> up! Get up! Can you hear me? <speaker:5> Do you want another cheddar ball? I do. You want me to get the... <speaker:1> We got pepper ball. I like pepper <speaker:8> ball. <speaker:1> You got it, Joe? Yep. <speaker:0> Thank <speaker:8> you. <speaker:5> Getting a pepper ball? Yeah, Joe's getting a pepper <speaker:8> ball. <speaker:1> Joe, this side, pepper ball through the back shattered window. <speaker:5> Let's give her a chance here. <speaker:7> Hey, Catherine! come out of the car now we're going to send in some <speaker:8> peppercorns <speaker:7> it's going to be hard for you to breathe Come on out now. <speaker:5> Thank you. All right. <speaker:7> Come <speaker:5> this way. We'll <speaker:8> figure <speaker:7> that out in a <speaker:5> second, okay? Just put your hands behind your back, okay? Put your hands behind your <speaker:8> back. Put your <speaker:5> hands behind your back or you're going to get tasered. <speaker:8> I'm going to have you guys go. You <speaker:2> will not indict <speaker:8> me. <speaker:5> Hands behind your back. Put your hands behind your back. <speaker:8> I got it. <speaker:1> David, 211, we're 1080. <speaker:5> Got anything on you? <speaker:8> I just want to say thank you. Here, <speaker:5> roll this way. Put your, tuck your feet in. You <speaker:8> cannot assault me as a woman. What are you doing? <speaker:5> Ready? We're going to help you out. I just got <speaker:8> e-wiped, yeah. I just got e-wiped. I just got e-wiped for one reason. We've been <speaker:2> trying <speaker:8> to stop you <speaker:5> for about 15 miles. <speaker:8> For one <speaker:2> reason. What, for what reason, you cannot, you <speaker:8> cannot? Is <speaker:6> the vehicle <speaker:8> cleared? <speaker:1> Yes, the vehicle is cleared. <speaker:2> Excuse me, you don't know that I'm Katie. <speaker:5> I don't know that. But do you live here <speaker:2> alone? Daniel Thomas doesn't know that. <speaker:5> I don't know who Daniel Thomas <speaker:2> is. Holy cow, guys. Do you live here alone? Yes, I do. This is my residence since 2011. Do you --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:0> dog. Ha! Ha! Get up! Get <speaker:8> up! Get up! Can you hear me? <speaker:5> Do you want another cheddar ball? I do. You want me to get the... <speaker:1> We got pepper ball. I like pepper <speaker:8> ball. <speaker:1> You got it, Joe? Yep. <speaker:0> Thank <speaker:8> you. <speaker:5> Getting a pepper ball? Yeah, Joe's getting a pepper <speaker:8> ball. <speaker:1> Joe, this side, pepper ball through the back shattered window. <speaker:5> Let's give her a chance here. <speaker:7> Hey, Catherine! come out of the car now we're going to send in some <speaker:8> peppercorns <speaker:7> it's going to be hard for you to breathe Come on out now. <speaker:5> Thank you. All right. <speaker:7> Come this way. We'll <speaker:8> figure <speaker:7> that out in a <speaker:5> second, okay? Just put your hands behind your back, okay? Put your hands behind your <speaker:8> back. Put your <speaker:5> hands behind your back or you're going to get tasered. <speaker:8> I'm going to have you guys go. You <speaker:2> will not indict <speaker:8> me. <speaker:5> Hands behind your back. Put your hands behind your back. <speaker:8> I got it. <speaker:1> David, 211, we're 1080. <speaker:5> Got anything on you? <speaker:8> I just want to say thank you. Here, <speaker:5> roll this way. Put your, tuck your feet in. You <speaker:8> cannot assault me as a woman. What are you doing? <speaker:5> Ready? We're going to help you out. I just got <speaker:8> e-wiped, yeah. I just got e-wiped. I just got e-wiped for one reason. We've been <speaker:2> trying <speaker:8> to stop you <speaker:5> for about 15 miles. <speaker:8> For one <speaker:2> reason. What, for what reason, you cannot, you <speaker:8> cannot? Is <speaker:6> the vehicle <speaker:8> cleared? <speaker:1> Yes, the vehicle is cleared. <speaker:2> Excuse me, you don't know that I'm Katie. <speaker:5> I don't know that. <speaker:2> But do you live here alone? Daniel Thomas doesn't know that. <speaker:5> I don't know who Daniel Thomas is. <speaker:2> Holy cow, guys. Do you live here alone? Yes, I do. This is my residence since 2011. Do you ",
+        "cleaned_completion": "<speaker:0> dog. Ha! Ha! Get up! Get <speaker:8> up! Get up! Can you hear me? <speaker:5> Do you want another cheddar ball? I do. You want me to get the... <speaker:1> We got pepper ball. I like pepper <speaker:8> ball. <speaker:1> You got it, Joe? Yep. <speaker:0> Thank <speaker:8> you. <speaker:5> Getting a pepper ball? Yeah, Joe's getting a pepper <speaker:8> ball. <speaker:1> Joe, this side, pepper ball through the back shattered window. <speaker:5> Let's give her a chance here. <speaker:7> Hey, Catherine! come out of the car now we're going to send in some <speaker:8> peppercorns <speaker:7> it's going to be hard for you to breathe Come on out now. <speaker:5> Thank you. All right. <speaker:7> Come this way. We'll <speaker:8> figure <speaker:7> that out in a <speaker:5> second, okay? Just put your hands behind your back, okay? Put your hands behind your <speaker:8> back. Put your <speaker:5> hands behind your back or you're going to get tasered. <speaker:8> I'm going to have you guys go. You <speaker:2> will not indict <speaker:8> me. <speaker:5> Hands behind your back. Put your hands behind your back. <speaker:8> I got it. <speaker:1> David, 211, we're 1080. <speaker:5> Got anything on you? <speaker:8> I just want to say thank you. Here, <speaker:5> roll this way. Put your, tuck your feet in. You <speaker:8> cannot assault me as a woman. What are you doing? <speaker:5> Ready? We're going to help you out. I just got <speaker:8> e-wiped, yeah. I just got e-wiped. I just got e-wiped for one reason. We've been <speaker:2> trying <speaker:8> to stop you <speaker:5> for about 15 miles. <speaker:8> For one <speaker:2> reason. What, for what reason, you cannot, you <speaker:8> cannot? Is <speaker:6> the vehicle <speaker:8> cleared? <speaker:1> Yes, the vehicle is cleared. <speaker:2> Excuse me, you don't know that I'm Katie. <speaker:5> I don't know that. <speaker:2> But do you live here alone? Daniel Thomas doesn't know that. <speaker:5> I don't know who Daniel Thomas is. <speaker:2> Holy cow, guys. Do you live here alone? Yes, I do. This is my residence since 2011. Do you",
+        "accepted_count": 8,
+        "rejected_count": 1,
+        "abstained_count": 7,
+        "unchanged_count": 284,
+        "rejection_reasons_breakdown": {
+          "ABSTAINED_PRESERVE_UNK": 7,
+          "UNCHANGED_BASELINE_CONFIRMED": 284,
+          "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION": 1,
+          "ACCEPTED_VALIDATED_TRANSFER": 8
+        }
+      },
+      {
+        "segment_id": "R06_rich_karen__seg_002",
+        "recording_id": "R06_rich_karen",
+        "start_word_index": 600,
+        "end_word_index": 899,
+        "word_count": 300,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 651,
+        "completion_tokens": 620,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 5.1021,
+        "prompt_text": "<|turn>user\n<speaker:2> want it in <speaker:1> mine or in Joe's? It doesn't matter. We'll throw it in Joe's. <speaker:2> Excuse me, please grab my things. Yep, <speaker:1> we'll get your things when we can. This <speaker:2> is illegal. What traffic violations do you have me in? <speaker:6> Are you injured at all, ma'am? <speaker:2> Excuse me, you're not going to harass me. <speaker:1> Your plates are expired, and that's why I attempted to stop for you. Excuse me, they <speaker:2> are not expired. <speaker:1> They are. <speaker:2> They are not. <speaker:1> They are. <speaker:2> Excuse me, Chevrolet is my O'Connor walk, my Chevrolet. <speaker:1> Okay. <speaker:2> You guys are out of your minds. You better tell Daniel Thomas I'm suing the O'Connor shop. Does anyone want to contact the Journal Sentinel? Does anyone want to record this? <speaker:6> Yeah, we've got it recorded. See you. <speaker:1> Did a dog bite you anywhere? <speaker:2> Excuse me. Did a dog <speaker:1> bite you <speaker:2> anywhere? I'm pressing charges on you guys a lot. <speaker:1> That's right. Did a dog bite you anywhere? I don't know if <speaker:2> that's... <speaker:1> when she went down. That's the only injury I see. Another one over here. You <speaker:2> shattered my window. Excuse me, you guys are going to have injury with a lawsuit with Mr. Mr. <speaker:8> Rudy. Just <speaker:2> go ahead and <speaker:6> have a seat in the vehicle. <speaker:2> I contact my financial advisor. Okay, have a seat. This is <speaker:8> our food for thought. <speaker:2> What do you guys think you're <speaker:6> doing to <speaker:2> an American woman just going to the post office and going to the town <speaker:8> hall? Ma'am, <speaker:6> take a couple deep breaths here. <speaker:8> Excuse me. Are you <speaker:6> injured at all? Excuse <speaker:2> me, guys. <speaker:1> You good, Joe? Yeah, I'm <speaker:8> good. We're <speaker:6> going to have you just sit tight. I <speaker:2> contacted my capital wealth advisors' advisories, contacted my brother, contacted Paul Buffoni from Bravo Capital. You guys <speaker:8> are going <speaker:2> to have a huge --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:2> want it in <speaker:1> mine or in Joe's? It doesn't matter. We'll throw it in Joe's. <speaker:2> Excuse me, please grab my things. <speaker:1> Yep, we'll get your things when we can. <speaker:2> This is illegal. What traffic violations do you have me in? <speaker:6> Are you injured at all, ma'am? <speaker:2> Excuse me, you're not going to harass me. <speaker:1> Your plates are expired, and that's why I attempted to stop for you. <speaker:2> Excuse me, they are not expired. <speaker:1> They are. <speaker:2> They are not. <speaker:1> They are. <speaker:2> Excuse me, Chevrolet is my O'Connor walk, my Chevrolet. <speaker:1> Okay. <speaker:2> You guys are out of your minds. You better tell Daniel Thomas I'm suing the O'Connor shop. Does anyone want to contact the Journal Sentinel? Does anyone want to record this? <speaker:6> Yeah, we've got it recorded. See you. <speaker:1> Did a dog bite you anywhere? <speaker:2> Excuse me. <speaker:1> Did a dog bite you anywhere? <speaker:2> I'm pressing charges on you guys a lot. <speaker:1> That's right. Did a dog bite you anywhere? <speaker:2> I don't know if that's... <speaker:1> when she went down. That's the only injury I see. Another one over here. <speaker:2> You shattered my window. Excuse me, you guys are going to have injury with a lawsuit with Mr. Mr. <speaker:8> Rudy. Just <speaker:2> go ahead and <speaker:6> have a seat in the vehicle. <speaker:2> I contact my financial advisor. Okay, have a seat. This is <speaker:8> our food for thought. <speaker:2> What do you guys think you're <speaker:6> doing to <speaker:2> an American woman just going to the post office and going to the town <speaker:8> hall? Ma'am, <speaker:6> take a couple deep breaths here. <speaker:8> Excuse me. Are you <speaker:6> injured at all? Excuse <speaker:2> me, guys. <speaker:1> You good, Joe? <speaker:2> Yeah, I'm good. <speaker:6> We're going to have you just sit tight. <speaker:2> I contacted my capital wealth advisors' advisories, contacted my brother, contacted Paul Buffoni from Bravo Capital. You guys are going to have a huge ",
+        "cleaned_completion": "<speaker:2> want it in <speaker:1> mine or in Joe's? It doesn't matter. We'll throw it in Joe's. <speaker:2> Excuse me, please grab my things. <speaker:1> Yep, we'll get your things when we can. <speaker:2> This is illegal. What traffic violations do you have me in? <speaker:6> Are you injured at all, ma'am? <speaker:2> Excuse me, you're not going to harass me. <speaker:1> Your plates are expired, and that's why I attempted to stop for you. <speaker:2> Excuse me, they are not expired. <speaker:1> They are. <speaker:2> They are not. <speaker:1> They are. <speaker:2> Excuse me, Chevrolet is my O'Connor walk, my Chevrolet. <speaker:1> Okay. <speaker:2> You guys are out of your minds. You better tell Daniel Thomas I'm suing the O'Connor shop. Does anyone want to contact the Journal Sentinel? Does anyone want to record this? <speaker:6> Yeah, we've got it recorded. See you. <speaker:1> Did a dog bite you anywhere? <speaker:2> Excuse me. <speaker:1> Did a dog bite you anywhere? <speaker:2> I'm pressing charges on you guys a lot. <speaker:1> That's right. Did a dog bite you anywhere? <speaker:2> I don't know if that's... <speaker:1> when she went down. That's the only injury I see. Another one over here. <speaker:2> You shattered my window. Excuse me, you guys are going to have injury with a lawsuit with Mr. Mr. <speaker:8> Rudy. Just <speaker:2> go ahead and <speaker:6> have a seat in the vehicle. <speaker:2> I contact my financial advisor. Okay, have a seat. This is <speaker:8> our food for thought. <speaker:2> What do you guys think you're <speaker:6> doing to <speaker:2> an American woman just going to the post office and going to the town <speaker:8> hall? Ma'am, <speaker:6> take a couple deep breaths here. <speaker:8> Excuse me. Are you <speaker:6> injured at all? Excuse <speaker:2> me, guys. <speaker:1> You good, Joe? <speaker:2> Yeah, I'm good. <speaker:6> We're going to have you just sit tight. <speaker:2> I contacted my capital wealth advisors' advisories, contacted my brother, contacted Paul Buffoni from Bravo Capital. You guys are going to have a huge",
+        "accepted_count": 16,
+        "rejected_count": 5,
+        "abstained_count": 0,
+        "unchanged_count": 279,
+        "rejection_reasons_breakdown": {
+          "UNCHANGED_BASELINE_CONFIRMED": 279,
+          "ACCEPTED_VALIDATED_TRANSFER": 16,
+          "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION": 5
+        }
+      },
+      {
+        "segment_id": "R06_rich_karen__seg_003",
+        "recording_id": "R06_rich_karen",
+        "start_word_index": 900,
+        "end_word_index": 1199,
+        "word_count": 300,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 567,
+        "completion_tokens": 541,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 4.3286,
+        "prompt_text": "<|turn>user\n<speaker:2> lawsuit. Okay. <speaker:6> Are you injured, ma'am? <speaker:2> Did you not learn your lesson from Sterling Brown? <speaker:6> I'm just asking if you need medical attention. Do you need medical attention? Excuse me. Okay. Well, if anything changes with that, just let me know. Excuse <speaker:2> me. I'm reporting to you guys for police brutality. The same way as Sterling Brown, but I am a white American woman. Bravo Company, USABCM. Paul Bifoni. My SWAT team is your AR-15s and M-16s. You guys cannot tell from behind and make false arrests. Police brutality is no different than Sterling Brown. Mark Thompson represented Sterling Brown. I'm going to have Mark Thompson represent you. You would think a black man would never police brutality after Sterling Brown. <speaker:1> Because she is awesome. <speaker:8> Okay. <speaker:1> Catherine, I'm an officer to pray at the City of Delafield Police Department. I was the one, I'm the one who... I <speaker:2> reported you guys. <speaker:1> You reported me? <speaker:2> Yes, I did. <speaker:1> Okay, that's fine. I'm here to... It's <speaker:2> only from 100 feet from 200 feet behind. <speaker:1> Okay, I had my red lights and siren on. Catherine, hold on. I will not pull <speaker:2> over until I'm in my safety van drive. <speaker:1> Okay, Catherine, but you still didn't even comply with that. I <speaker:2> did. <speaker:1> Okay, so here's the deal. The reason I stopped you, the reason why I attempted to stop you is that your plates are expired. They expired in March of 23. They expired in March of 23. So that is why I attempted to stop you. Do you want to make a voluntary statement of what happened tonight? I don't <speaker:2> want to. <speaker:1> You're open <speaker:2> right <speaker:1> now. I don't want to. <speaker:8> Those <speaker:1> plates have not expired. I'm asking you, do you wish to make a voluntary statement right now? I <speaker:2> just made my voluntary --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:2> lawsuit. <speaker:1> Okay. <speaker:6> Are you injured, ma'am? <speaker:2> Did you not learn your lesson from Sterling Brown? <speaker:6> I'm just asking if you need medical attention. Do you need medical attention? Excuse me. Okay. Well, if anything changes with that, just let me know. Excuse <speaker:2> me. I'm reporting to you guys for police brutality. The same way as Sterling Brown, but I am a white American woman. Bravo Company, USABCM. Paul Bifoni. My SWAT team is your AR-15s and M-16s. You guys cannot tell from behind and make false arrests. Police brutality is no different than Sterling Brown. Mark Thompson represented Sterling Brown. I'm going to have Mark Thompson represent you. You would think a black man would never police brutality after Sterling Brown. <speaker:1> Because she is awesome. <speaker:2> Okay. <speaker:1> Catherine, I'm an officer to pray at the City of Delafield Police Department. I was the one, I'm the one who... I <speaker:2> reported you guys. <speaker:1> You reported me? <speaker:2> Yes, I did. <speaker:1> Okay, that's fine. I'm here to... It's <speaker:2> only from 100 feet from 200 feet behind. <speaker:1> Okay, I had my red lights and siren on. Catherine, hold on. I will not pull <speaker:2> over until I'm in my safety van drive. <speaker:1> Okay, Catherine, but you still didn't even comply with that. I <speaker:2> did. <speaker:1> Okay, so here's the deal. The reason I stopped you, the reason why I attempted to stop you is that your plates are expired. They expired in March of 23. They expired in March of 23. So that is why I attempted to stop you. Do you want to make a voluntary statement of what happened tonight? <speaker:2> I don't want to. <speaker:1> You're open right now. <speaker:2> I don't want to. <speaker:1> Those plates have not expired. I'm asking you, do you wish to make a voluntary statement right now? <speaker:2> I just made my voluntary ",
+        "cleaned_completion": "<speaker:2> lawsuit. <speaker:1> Okay. <speaker:6> Are you injured, ma'am? <speaker:2> Did you not learn your lesson from Sterling Brown? <speaker:6> I'm just asking if you need medical attention. Do you need medical attention? Excuse me. Okay. Well, if anything changes with that, just let me know. Excuse <speaker:2> me. I'm reporting to you guys for police brutality. The same way as Sterling Brown, but I am a white American woman. Bravo Company, USABCM. Paul Bifoni. My SWAT team is your AR-15s and M-16s. You guys cannot tell from behind and make false arrests. Police brutality is no different than Sterling Brown. Mark Thompson represented Sterling Brown. I'm going to have Mark Thompson represent you. You would think a black man would never police brutality after Sterling Brown. <speaker:1> Because she is awesome. <speaker:2> Okay. <speaker:1> Catherine, I'm an officer to pray at the City of Delafield Police Department. I was the one, I'm the one who... I <speaker:2> reported you guys. <speaker:1> You reported me? <speaker:2> Yes, I did. <speaker:1> Okay, that's fine. I'm here to... It's <speaker:2> only from 100 feet from 200 feet behind. <speaker:1> Okay, I had my red lights and siren on. Catherine, hold on. I will not pull <speaker:2> over until I'm in my safety van drive. <speaker:1> Okay, Catherine, but you still didn't even comply with that. I <speaker:2> did. <speaker:1> Okay, so here's the deal. The reason I stopped you, the reason why I attempted to stop you is that your plates are expired. They expired in March of 23. They expired in March of 23. So that is why I attempted to stop you. Do you want to make a voluntary statement of what happened tonight? <speaker:2> I don't want to. <speaker:1> You're open right now. <speaker:2> I don't want to. <speaker:1> Those plates have not expired. I'm asking you, do you wish to make a voluntary statement right now? <speaker:2> I just made my voluntary",
+        "accepted_count": 8,
+        "rejected_count": 3,
+        "abstained_count": 0,
+        "unchanged_count": 289,
+        "rejection_reasons_breakdown": {
+          "UNCHANGED_BASELINE_CONFIRMED": 289,
+          "ACCEPTED_VALIDATED_TRANSFER": 8,
+          "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION": 3
+        }
+      },
+      {
+        "segment_id": "R06_rich_karen__seg_004",
+        "recording_id": "R06_rich_karen",
+        "start_word_index": 1200,
+        "end_word_index": 1499,
+        "word_count": 300,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 481,
+        "completion_tokens": 440,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 3.8426,
+        "prompt_text": "<|turn>user\n<speaker:2> statement. <speaker:1> okay sounds good all right so what's going to happen is we're going to get you out of this car we're going to get you in that car you'll be going to the waukesha county jail tonight okay you're under arrest for felony fleeing and eluding state disorderly conduct and you're getting a traffic citation for your unregistered vehicle, okay? that's fine that's that's well within yours <speaker:2> come <speaker:1> on step out for me please those <speaker:2> are brand new plates i contacted an attorney that's fine that's fine come <speaker:1> on you <speaker:2> guys don't have felony charges okay <speaker:1> sounds good that's your opinion <speaker:2> the plates never expired <speaker:1> okay <speaker:2> oh you better contact what kind of walk <speaker:1> i'm not i don't have to contact anyone katherine go ahead you can take a seat in the squad car for me please <speaker:2> look at the plates they're brand new 2020 take <speaker:1> a seat in the squad car please <speaker:2> How disgusting do you guys can even go home to your wives? Disgusting job that you just had. Disgusting. Those were all placed in 2023 on them. They're new places. Did you look at the registration? Did you look at the vehicle number on the registration? <speaker:4> Catherine is no stranger to being non-compliant with police, as she once spit at an officer after being banned from a fitness building. For the incident in the body cam footage, she was charged with resisting or failing to stop and resisting obstructing. According to court records, the suspect actually did not get a high-powered attorney to take her case, and instead, just started skipping court appearances. Court records indicate the case has been going on for more than two and a half years, and the bail has since been forfeited. As her case is still ongoing, she is presumed --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:2> statement. <speaker:1> okay sounds good all right so what's going to happen is we're going to get you out of this car we're going to get you in that car you'll be going to the waukesha county jail tonight okay you're under arrest for felony fleeing and eluding state disorderly conduct and you're getting a traffic citation for your unregistered vehicle, okay? that's fine that's that's well within yours come on step out for me please <speaker:2> those are brand new plates i contacted an attorney that's fine that's fine come on you guys don't have felony charges okay sounds good <speaker:1> that's your opinion <speaker:2> the plates never expired <speaker:1> okay <speaker:2> oh you better contact what kind of walk <speaker:1> i'm not i don't have to contact anyone katherine go ahead you can take a seat in the squad car for me please <speaker:2> look at the plates they're brand new 2020 <speaker:1> take a seat in the squad car please <speaker:2> How disgusting do you guys can even go home to your wives? Disgusting job that you just had. Disgusting. Those were all placed in 2023 on them. They're new places. Did you look at the registration? Did you look at the vehicle number on the registration? <speaker:4> Catherine is no stranger to being non-compliant with police, as she once spit at an officer after being banned from a fitness building. For the incident in the body cam footage, she was charged with resisting or failing to stop and resisting obstructing. According to court records, the suspect actually did not get a high-powered attorney to take her case, and instead, just started skipping court appearances. Court records indicate the case has been going on for more than two and a half years, and the bail has since been forfeited. As her case is still ongoing, she is presumed ",
+        "cleaned_completion": "<speaker:2> statement. <speaker:1> okay sounds good all right so what's going to happen is we're going to get you out of this car we're going to get you in that car you'll be going to the waukesha county jail tonight okay you're under arrest for felony fleeing and eluding state disorderly conduct and you're getting a traffic citation for your unregistered vehicle, okay? that's fine that's that's well within yours come on step out for me please <speaker:2> those are brand new plates i contacted an attorney that's fine that's fine come on you guys don't have felony charges okay sounds good <speaker:1> that's your opinion <speaker:2> the plates never expired <speaker:1> okay <speaker:2> oh you better contact what kind of walk <speaker:1> i'm not i don't have to contact anyone katherine go ahead you can take a seat in the squad car for me please <speaker:2> look at the plates they're brand new 2020 <speaker:1> take a seat in the squad car please <speaker:2> How disgusting do you guys can even go home to your wives? Disgusting job that you just had. Disgusting. Those were all placed in 2023 on them. They're new places. Did you look at the registration? Did you look at the vehicle number on the registration? <speaker:4> Catherine is no stranger to being non-compliant with police, as she once spit at an officer after being banned from a fitness building. For the incident in the body cam footage, she was charged with resisting or failing to stop and resisting obstructing. According to court records, the suspect actually did not get a high-powered attorney to take her case, and instead, just started skipping court appearances. Court records indicate the case has been going on for more than two and a half years, and the bail has since been forfeited. As her case is still ongoing, she is presumed",
+        "accepted_count": 6,
+        "rejected_count": 1,
+        "abstained_count": 0,
+        "unchanged_count": 293,
+        "rejection_reasons_breakdown": {
+          "UNCHANGED_BASELINE_CONFIRMED": 293,
+          "ACCEPTED_VALIDATED_TRANSFER": 6,
+          "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION": 1
+        }
+      },
+      {
+        "segment_id": "R06_rich_karen__seg_005",
+        "recording_id": "R06_rich_karen",
+        "start_word_index": 1500,
+        "end_word_index": 1718,
+        "word_count": 219,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 291,
+        "completion_tokens": 270,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 2.5518,
+        "prompt_text": "<|turn>user\n<speaker:4> innocent unless proven guilty in a court of law. <speaker:3> might think pursuit is always speeding swerving and just being reckless but some of the most unpredictable drivers are the ones trying to appear cooperative while refusing to stop and it might look polite but it's still resistance she was definitely running from the police but she was also deciding where she wanted to deal with them which was her house and that matters because once a suspect reaches the residence the risk to officers goes way up garages mean weapons family members or someone possibly disappearing inside and forcing a standoff that's exactly why Our officers boxed a car in like that. Now, you saw officers use the shatter bar, and what that does is allow officers to break the glass from a distance instead of walking up to a possibly armed driver, and police in Maine started using that around 2023. Most arrests aren't decided by how fast you drive. They're decided by the first moment you choose not to comply. Remember, it's about decisions, and if understanding why officers act help you see these videos differently, that's the point. Because our purpose here isn't just to show you videos. It's to give you insight and guidance so you won't cause yourself any problems during the traffic stop. --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:4> innocent unless proven guilty in a court of law. <speaker:3> might think pursuit is always speeding swerving and just being reckless but some of the most unpredictable drivers are the ones trying to appear cooperative while refusing to stop and it might look polite but it's still resistance she was definitely running from the police but she was also deciding where she wanted to deal with them which was her house and that matters because once a suspect reaches the residence the risk to officers goes way up garages mean weapons family members or someone possibly disappearing inside and forcing a standoff that's exactly why Our officers boxed a car in like that. Now, you saw officers use the shatter bar, and what that does is allow officers to break the glass from a distance instead of walking up to a possibly armed driver, and police in Maine started using that around 2023. Most arrests aren't decided by how fast you drive. They're decided by the first moment you choose not to comply. Remember, it's about decisions, and if understanding why officers act help you see these videos differently, that's the point. Because our purpose here isn't just to show you videos. It's to give you insight and guidance so you won't cause yourself any problems during the traffic stop. ",
+        "cleaned_completion": "<speaker:4> innocent unless proven guilty in a court of law. <speaker:3> might think pursuit is always speeding swerving and just being reckless but some of the most unpredictable drivers are the ones trying to appear cooperative while refusing to stop and it might look polite but it's still resistance she was definitely running from the police but she was also deciding where she wanted to deal with them which was her house and that matters because once a suspect reaches the residence the risk to officers goes way up garages mean weapons family members or someone possibly disappearing inside and forcing a standoff that's exactly why Our officers boxed a car in like that. Now, you saw officers use the shatter bar, and what that does is allow officers to break the glass from a distance instead of walking up to a possibly armed driver, and police in Maine started using that around 2023. Most arrests aren't decided by how fast you drive. They're decided by the first moment you choose not to comply. Remember, it's about decisions, and if understanding why officers act help you see these videos differently, that's the point. Because our purpose here isn't just to show you videos. It's to give you insight and guidance so you won't cause yourself any problems during the traffic stop.",
+        "accepted_count": 0,
+        "rejected_count": 0,
+        "abstained_count": 0,
+        "unchanged_count": 219,
+        "rejection_reasons_breakdown": {
+          "UNCHANGED_BASELINE_CONFIRMED": 219
+        }
+      }
+    ]
+  },
+  "changed_words_count": 40,
+  "changed_words": [
+    {
+      "word_index": 245,
+      "word": "now!",
+      "start": 173.396,
+      "end": 173.737,
+      "baseline_speaker_id": "SPEAKER_07",
+      "refined_speaker_id": "SPEAKER_06",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_07 to SPEAKER_06."
+    },
+    {
+      "word_index": 283,
+      "word": "you're",
+      "start": 213.524,
+      "end": 214.285,
+      "baseline_speaker_id": "SPEAKER_07",
+      "refined_speaker_id": "SPEAKER_06",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_07 to SPEAKER_06."
+    },
+    {
+      "word_index": 402,
+      "word": "way.",
+      "start": 265.859,
+      "end": 265.979,
+      "baseline_speaker_id": "SPEAKER_04",
+      "refined_speaker_id": "SPEAKER_06",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_04 to SPEAKER_06."
+    },
+    {
+      "word_index": 403,
+      "word": "We'll",
+      "start": 265.999,
+      "end": 266.139,
+      "baseline_speaker_id": "SPEAKER_04",
+      "refined_speaker_id": "SPEAKER_06",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_04 to SPEAKER_06."
+    },
+    {
+      "word_index": 563,
+      "word": "But",
+      "start": 331.435,
+      "end": 331.515,
+      "baseline_speaker_id": "SPEAKER_04",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_04 to SPEAKER_01."
+    },
+    {
+      "word_index": 564,
+      "word": "do",
+      "start": 331.535,
+      "end": 331.616,
+      "baseline_speaker_id": "SPEAKER_04",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_04 to SPEAKER_01."
+    },
+    {
+      "word_index": 565,
+      "word": "you",
+      "start": 331.636,
+      "end": 331.716,
+      "baseline_speaker_id": "SPEAKER_04",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_04 to SPEAKER_01."
+    },
+    {
+      "word_index": 566,
+      "word": "live",
+      "start": 331.757,
+      "end": 331.877,
+      "baseline_speaker_id": "SPEAKER_04",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_04 to SPEAKER_01."
+    },
+    {
+      "word_index": 567,
+      "word": "here",
+      "start": 331.897,
+      "end": 331.998,
+      "baseline_speaker_id": "SPEAKER_04",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_04 to SPEAKER_01."
+    },
+    {
+      "word_index": 580,
+      "word": "is.",
+      "start": 335.675,
+      "end": 335.855,
+      "baseline_speaker_id": "SPEAKER_01",
+      "refined_speaker_id": "SPEAKER_04",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_01 to SPEAKER_04."
+    },
+    {
+      "word_index": 621,
+      "word": "Yep,",
+      "start": 345.309,
+      "end": 345.429,
+      "baseline_speaker_id": "SPEAKER_01",
+      "refined_speaker_id": "SPEAKER_00",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_01 to SPEAKER_00."
+    },
+    {
+      "word_index": 667,
+      "word": "Excuse",
+      "start": 355.848,
+      "end": 356.028,
+      "baseline_speaker_id": "SPEAKER_00",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_00 to SPEAKER_01."
+    },
+    {
+      "word_index": 668,
+      "word": "me,",
+      "start": 356.048,
+      "end": 356.128,
+      "baseline_speaker_id": "SPEAKER_00",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_00 to SPEAKER_01."
+    },
+    {
+      "word_index": 669,
+      "word": "they",
+      "start": 356.148,
+      "end": 356.248,
+      "baseline_speaker_id": "SPEAKER_00",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_00 to SPEAKER_01."
+    },
+    {
+      "word_index": 736,
+      "word": "Did",
+      "start": 377.094,
+      "end": 377.274,
+      "baseline_speaker_id": "SPEAKER_01",
+      "refined_speaker_id": "SPEAKER_00",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_01 to SPEAKER_00."
+    },
+    {
+      "word_index": 737,
+      "word": "a",
+      "start": 377.294,
+      "end": 377.374,
+      "baseline_speaker_id": "SPEAKER_01",
+      "refined_speaker_id": "SPEAKER_00",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_01 to SPEAKER_00."
+    },
+    {
+      "word_index": 738,
+      "word": "dog",
+      "start": 377.394,
+      "end": 377.615,
+      "baseline_speaker_id": "SPEAKER_01",
+      "refined_speaker_id": "SPEAKER_00",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_01 to SPEAKER_00."
+    },
+    {
+      "word_index": 741,
+      "word": "anywhere?",
+      "start": 377.956,
+      "end": 378.176,
+      "baseline_speaker_id": "SPEAKER_01",
+      "refined_speaker_id": "SPEAKER_00",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_01 to SPEAKER_00."
+    },
+    {
+      "word_index": 758,
+      "word": "I",
+      "start": 381.004,
+      "end": 381.024,
+      "baseline_speaker_id": "SPEAKER_00",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_00 to SPEAKER_01."
+    },
+    {
+      "word_index": 759,
+      "word": "don't",
+      "start": 381.044,
+      "end": 381.345,
+      "baseline_speaker_id": "SPEAKER_00",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_00 to SPEAKER_01."
+    },
+    {
+      "word_index": 760,
+      "word": "know",
+      "start": 381.365,
+      "end": 381.526,
+      "baseline_speaker_id": "SPEAKER_00",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_00 to SPEAKER_01."
+    },
+    {
+      "word_index": 777,
+      "word": "You",
+      "start": 386.385,
+      "end": 386.545,
+      "baseline_speaker_id": "SPEAKER_00",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_00 to SPEAKER_01."
+    },
+    {
+      "word_index": 865,
+      "word": "Yeah,",
+      "start": 414.368,
+      "end": 414.508,
+      "baseline_speaker_id": "SPEAKER_00",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_00 to SPEAKER_01."
+    },
+    {
+      "word_index": 866,
+      "word": "I'm",
+      "start": 414.528,
+      "end": 414.608,
+      "baseline_speaker_id": "SPEAKER_00",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_00 to SPEAKER_01."
+    },
+    {
+      "word_index": 868,
+      "word": "We're",
+      "start": 414.868,
+      "end": 415.008,
+      "baseline_speaker_id": "SPEAKER_07",
+      "refined_speaker_id": "SPEAKER_05",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_07 to SPEAKER_05."
+    },
+    {
+      "word_index": 876,
+      "word": "I",
+      "start": 416.369,
+      "end": 416.449,
+      "baseline_speaker_id": "SPEAKER_05",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_05 to SPEAKER_01."
+    },
+    {
+      "word_index": 901,
+      "word": "Okay.",
+      "start": 425.152,
+      "end": 425.432,
+      "baseline_speaker_id": "SPEAKER_01",
+      "refined_speaker_id": "SPEAKER_00",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_01 to SPEAKER_00."
+    },
+    {
+      "word_index": 1165,
+      "word": "I",
+      "start": 504.513,
+      "end": 504.553,
+      "baseline_speaker_id": "SPEAKER_00",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_00 to SPEAKER_01."
+    },
+    {
+      "word_index": 1166,
+      "word": "don't",
+      "start": 504.593,
+      "end": 504.793,
+      "baseline_speaker_id": "SPEAKER_00",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_00 to SPEAKER_01."
+    },
+    {
+      "word_index": 1171,
+      "word": "right",
+      "start": 508.453,
+      "end": 508.575,
+      "baseline_speaker_id": "SPEAKER_01",
+      "refined_speaker_id": "SPEAKER_00",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_01 to SPEAKER_00."
+    },
+    {
+      "word_index": 1173,
+      "word": "I",
+      "start": 509.141,
+      "end": 509.181,
+      "baseline_speaker_id": "SPEAKER_00",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_00 to SPEAKER_01."
+    },
+    {
+      "word_index": 1174,
+      "word": "don't",
+      "start": 509.222,
+      "end": 509.404,
+      "baseline_speaker_id": "SPEAKER_00",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_00 to SPEAKER_01."
+    },
+    {
+      "word_index": 1175,
+      "word": "want",
+      "start": 509.444,
+      "end": 509.626,
+      "baseline_speaker_id": "SPEAKER_00",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_00 to SPEAKER_01."
+    },
+    {
+      "word_index": 1176,
+      "word": "to.",
+      "start": 509.666,
+      "end": 509.788,
+      "baseline_speaker_id": "SPEAKER_00",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_00 to SPEAKER_01."
+    },
+    {
+      "word_index": 1268,
+      "word": "come",
+      "start": 535.184,
+      "end": 535.444,
+      "baseline_speaker_id": "SPEAKER_01",
+      "refined_speaker_id": "SPEAKER_00",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_01 to SPEAKER_00."
+    },
+    {
+      "word_index": 1289,
+      "word": "on",
+      "start": 541.928,
+      "end": 542.048,
+      "baseline_speaker_id": "SPEAKER_00",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_00 to SPEAKER_01."
+    },
+    {
+      "word_index": 1290,
+      "word": "you",
+      "start": 542.328,
+      "end": 542.449,
+      "baseline_speaker_id": "SPEAKER_00",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_00 to SPEAKER_01."
+    },
+    {
+      "word_index": 1297,
+      "word": "sounds",
+      "start": 545.31,
+      "end": 545.591,
+      "baseline_speaker_id": "SPEAKER_00",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_00 to SPEAKER_01."
+    },
+    {
+      "word_index": 1298,
+      "word": "good",
+      "start": 545.631,
+      "end": 545.831,
+      "baseline_speaker_id": "SPEAKER_00",
+      "refined_speaker_id": "SPEAKER_01",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_00 to SPEAKER_01."
+    },
+    {
+      "word_index": 1346,
+      "word": "take",
+      "start": 559.597,
+      "end": 559.758,
+      "baseline_speaker_id": "SPEAKER_01",
+      "refined_speaker_id": "SPEAKER_00",
+      "refinement_decision": "ACCEPTED_CORRECTION",
+      "reconciliation_reason": "ACCEPTED_VALIDATED_TRANSFER",
+      "reasoning_note": "Accepted TPST local boundary transfer from SPEAKER_01 to SPEAKER_00."
+    }
+  ],
+  "rejected_proposals_count": 10,
+  "rejected_proposals": [
+    {
+      "word_index": 401,
+      "word": "this",
+      "start": 265.318,
+      "end": 265.819,
+      "baseline_speaker_id": "SPEAKER_04",
+      "proposed_speaker_id": "SPEAKER_06",
+      "reconciliation_reason": "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION",
+      "reasoning_note": "Word lies in a simultaneous multi-speaker overlap interval; lexical LLM reassignment rejected to avoid unsupported simultaneous-overlap claim."
+    },
+    {
+      "word_index": 629,
+      "word": "This",
+      "start": 346.811,
+      "end": 346.951,
+      "baseline_speaker_id": "SPEAKER_00",
+      "proposed_speaker_id": "SPEAKER_01",
+      "reconciliation_reason": "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION",
+      "reasoning_note": "Word lies in a simultaneous multi-speaker overlap interval; lexical LLM reassignment rejected to avoid unsupported simultaneous-overlap claim."
+    },
+    {
+      "word_index": 761,
+      "word": "if",
+      "start": 381.586,
+      "end": 381.646,
+      "baseline_speaker_id": "SPEAKER_00",
+      "proposed_speaker_id": "SPEAKER_01",
+      "reconciliation_reason": "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION",
+      "reasoning_note": "Word lies in a simultaneous multi-speaker overlap interval; lexical LLM reassignment rejected to avoid unsupported simultaneous-overlap claim."
+    },
+    {
+      "word_index": 867,
+      "word": "good.",
+      "start": 414.628,
+      "end": 414.848,
+      "baseline_speaker_id": "SPEAKER_07",
+      "proposed_speaker_id": "SPEAKER_01",
+      "reconciliation_reason": "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION",
+      "reasoning_note": "Word lies in a simultaneous multi-speaker overlap interval; lexical LLM reassignment rejected to avoid unsupported simultaneous-overlap claim."
+    },
+    {
+      "word_index": 894,
+      "word": "are",
+      "start": 422.911,
+      "end": 423.151,
+      "baseline_speaker_id": "SPEAKER_07",
+      "proposed_speaker_id": "SPEAKER_01",
+      "reconciliation_reason": "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION",
+      "reasoning_note": "Word lies in a simultaneous multi-speaker overlap interval; lexical LLM reassignment rejected to avoid unsupported simultaneous-overlap claim."
+    },
+    {
+      "word_index": 895,
+      "word": "going",
+      "start": 423.191,
+      "end": 423.611,
+      "baseline_speaker_id": "SPEAKER_07",
+      "proposed_speaker_id": "SPEAKER_01",
+      "reconciliation_reason": "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION",
+      "reasoning_note": "Word lies in a simultaneous multi-speaker overlap interval; lexical LLM reassignment rejected to avoid unsupported simultaneous-overlap claim."
+    },
+    {
+      "word_index": 1025,
+      "word": "Okay.",
+      "start": 466.733,
+      "end": 467.173,
+      "baseline_speaker_id": "SPEAKER_07",
+      "proposed_speaker_id": "SPEAKER_01",
+      "reconciliation_reason": "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION",
+      "reasoning_note": "Word lies in a simultaneous multi-speaker overlap interval; lexical LLM reassignment rejected to avoid unsupported simultaneous-overlap claim."
+    },
+    {
+      "word_index": 1177,
+      "word": "Those",
+      "start": 510.443,
+      "end": 510.643,
+      "baseline_speaker_id": "SPEAKER_07",
+      "proposed_speaker_id": "SPEAKER_00",
+      "reconciliation_reason": "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION",
+      "reasoning_note": "Word lies in a simultaneous multi-speaker overlap interval; lexical LLM reassignment rejected to avoid unsupported simultaneous-overlap claim."
+    },
+    {
+      "word_index": 1195,
+      "word": "I",
+      "start": 514.772,
+      "end": 514.912,
+      "baseline_speaker_id": "SPEAKER_00",
+      "proposed_speaker_id": "SPEAKER_01",
+      "reconciliation_reason": "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION",
+      "reasoning_note": "Word lies in a simultaneous multi-speaker overlap interval; lexical LLM reassignment rejected to avoid unsupported simultaneous-overlap claim."
+    },
+    {
+      "word_index": 1275,
+      "word": "those",
+      "start": 537.005,
+      "end": 537.185,
+      "baseline_speaker_id": "SPEAKER_00",
+      "proposed_speaker_id": "SPEAKER_01",
+      "reconciliation_reason": "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION",
+      "reasoning_note": "Word lies in a simultaneous multi-speaker overlap interval; lexical LLM reassignment rejected to avoid unsupported simultaneous-overlap claim."
+    }
+  ]
+}

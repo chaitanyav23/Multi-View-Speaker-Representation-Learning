@@ -1,0 +1,72 @@
+# ConvoFuse Conversational Transcript — R02_dennis_skinner (R02_dennis_skinner.wav)
+# Execution Mode: FROZEN_INPUT_REPLAY
+# Diarization Condition: Stage5A.1_Condition_J_DualEncoder_EqualFusion
+# Generative Refinement Model: diarizers-community/DiarizationLM-Gemma-4-E4B-v1 (Q4_K_M, LG-TPST)
+# Media Duration: 176.26s | Total Turns: 26 | Multi-Speaker RTTM Overlap Turns: 6
+# Overlap & UNK Policy: Explicit overlap metadata; UNK preserved; no fabricated simultaneous lexical stream
+#
+# Speaker Summary Index:
+#   - SPEAKER_00: 35.10s | 10 turns | 57 words | [00:00:39.441 – 00:02:53.634]
+#   - SPEAKER_01: 55.15s | 10 turns | 151 words | [00:00:53.308 – 00:02:55.914]
+#   - SPEAKER_02: 40.47s | 2 turns | 95 words | [00:00:00.537 – 00:01:54.572]
+#   - UNK: 2.93s | 4 turns | 4 words | [00:00:45.217 – 00:01:49.545]
+
+[00:00:00.537 – 00:00:39.421] SPEAKER_02: Does the Prime Minister recall that at the time after he became Prime Minister under the coalition And at the time when he was dividing the nation between strivers and scroungers, I asked him a very important question about the windfall he received. when he wrote up the mortgage of the premises in Notting Hill and I said to him he didn't write off the mortgage of the one the taxpayers were helping to pay for at Oxford. I didn't receive a proper answer then. Maybe dodgy Dave will answer it
+
+[00:00:39.441 – 00:00:42.259] SPEAKER_00: now. And by the way,
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_02 | max_frame_overlap_posterior=0.025 | single_lexical_stream_preserved=True]
+
+[00:00:45.217 – 00:00:46.880] UNK: Yeah.
+
+[00:00:47.180 – 00:00:48.042] SPEAKER_00: And by the
+
+[00:00:48.102 – 00:00:48.483] UNK: way...
+
+[00:00:51.419 – 00:00:51.481] UNK: Oh!
+
+[00:00:53.308 – 00:00:58.071] SPEAKER_01: Order! Order! Or... or... Or...
+
+[00:01:00.089 – 00:01:01.903] SPEAKER_01: I must ask the honourable gentleman order
+
+[00:01:04.325 – 00:01:07.428] SPEAKER_01: I don't require any assistance from some junior minister.
+
+[00:01:08.229 – 00:01:08.549] SPEAKER_00: What an
+
+[00:01:08.629 – 00:01:31.518] SPEAKER_01: absurd proposition. I invite the Honourable Gentleman to withdraw that adjective that he used a moment ago. He's perfectly capable of asking his question without using that word. It is up to him, but if he doesn't wish to withdraw it, I can't reasonably ask the Prime Minister to answer the question. All he has to do is withdraw that word and think of another. Sorry? I
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.293 | single_lexical_stream_preserved=True]
+
+[00:01:33.423 – 00:01:35.588] SPEAKER_00: think
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.244 | single_lexical_stream_preserved=True]
+
+[00:01:35.628 – 00:01:40.559] SPEAKER_01: he knows the word beginning with D and ending in Y that he inappropriately used.
+
+[00:01:41.712 – 00:01:45.457] SPEAKER_00: Davey. Davey or Davey. Withdraw! Yeah, I know. I know what you're saying.
+
+[00:01:48.479 – 00:01:48.700] SPEAKER_00: Very
+
+[00:01:48.720 – 00:01:49.545] UNK: simple.
+
+[00:01:49.565 – 00:01:50.108] SPEAKER_01: Withdrawal.
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.179 | single_lexical_stream_preserved=True]
+
+[00:01:52.991 – 00:01:54.572] SPEAKER_02: This man has done
+
+[00:01:54.692 – 00:02:07.564] SPEAKER_00: more to divide this nation than anybody else. He's looked after his own pocket. I still refer to him as Dodgy Dave.
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_02 | max_frame_overlap_posterior=0.050 | single_lexical_stream_preserved=True]
+
+[00:02:09.812 – 00:02:14.054] SPEAKER_00: Do what you like.
+
+[00:02:14.174 – 00:02:20.977] SPEAKER_01: Order. Order. Order. Order. I'm sorry. I must ask the Honourable Gentleman to withdraw the work.
+
+[00:02:21.417 – 00:02:27.720] SPEAKER_00: Very well.
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.226 | single_lexical_stream_preserved=True]
+
+[00:02:30.681 – 00:02:33.422] SPEAKER_01: Under the power given to me by Standing Order No. 43.
+
+[00:02:36.143 – 00:02:43.310] SPEAKER_01: I order the honourable member to withdraw immediately from the House for the remainder of this day's sitting.
+
+[00:02:52.084 – 00:02:53.634] SPEAKER_00: You're all frustrated! Stupid!
+  # [OVERLAP_METADATA: multi_speaker_rttm=False | concurrent_speakers=SPEAKER_00 | max_frame_overlap_posterior=0.612 | single_lexical_stream_preserved=True]
+
+[00:02:55.523 – 00:02:55.914] SPEAKER_01: Very well.
+  # [OVERLAP_METADATA: multi_speaker_rttm=False | concurrent_speakers=SPEAKER_01 | max_frame_overlap_posterior=0.840 | single_lexical_stream_preserved=True]

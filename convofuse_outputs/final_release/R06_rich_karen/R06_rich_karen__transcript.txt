@@ -1,0 +1,458 @@
+# ConvoFuse Conversational Transcript — R06_rich_karen (R06_rich_karen.wav)
+# Execution Mode: FROZEN_INPUT_REPLAY
+# Diarization Condition: Stage5A.1_Condition_J_DualEncoder_EqualFusion
+# Generative Refinement Model: diarizers-community/DiarizationLM-Gemma-4-E4B-v1 (Q4_K_M, LG-TPST)
+# Media Duration: 652.18s | Total Turns: 180 | Multi-Speaker RTTM Overlap Turns: 64
+# Overlap & UNK Policy: Explicit overlap metadata; UNK preserved; no fabricated simultaneous lexical stream
+#
+# Speaker Summary Index:
+#   - SPEAKER_00: 110.05s | 47 turns | 454 words | [00:00:07.255 – 00:09:20.907]
+#   - SPEAKER_01: 123.91s | 42 turns | 433 words | [00:04:39.811 – 00:09:36.055]
+#   - SPEAKER_02: 47.92s | 1 turns | 210 words | [00:10:04.175 – 00:10:52.092]
+#   - SPEAKER_03: 32.83s | 2 turns | 132 words | [00:00:00.071 – 00:10:03.815]
+#   - SPEAKER_04: 41.86s | 22 turns | 169 words | [00:01:21.982 – 00:05:35.855]
+#   - SPEAKER_05: 17.42s | 11 turns | 75 words | [00:02:08.949 – 00:07:16.760]
+#   - SPEAKER_06: 28.78s | 13 turns | 94 words | [00:01:29.188 – 00:04:27.920]
+#   - SPEAKER_07: 43.29s | 36 turns | 117 words | [00:00:49.139 – 00:08:30.643]
+#   - UNK: 10.31s | 6 turns | 35 words | [00:01:13.741 – 00:03:59.946]
+
+[00:00:00.071 – 00:00:06.591] SPEAKER_03: An officer initiates a routine traffic stop on this white Chevy pickup truck driven by a Karen. What follows is anything but routine.
+
+[00:00:07.255 – 00:00:13.285] SPEAKER_00: Day 211, I'll be taking position 2, we're passing Old Howell Road. 520 speed position 1.
+
+[00:00:18.308 – 00:00:24.298] SPEAKER_00: Copy the station's position. Passing Hollywood Oaks Drive. Speed's 35. Across the front of the screen, speed's 30.
+
+[00:00:32.121 – 00:00:34.185] SPEAKER_00: The cop people are coming up to 18 now.
+
+[00:00:44.055 – 00:00:44.446] SPEAKER_00: Blessings.
+
+[00:00:48.672 – 00:00:49.017] SPEAKER_00: Just a
+
+[00:00:49.139 – 00:00:49.910] SPEAKER_07: second.
+
+[00:00:55.008 – 00:00:55.289] SPEAKER_00: Thank you.
+
+[00:01:11.311 – 00:01:12.196] SPEAKER_00: Show me your hands!
+
+[00:01:13.741 – 00:01:14.148] UNK: Move your ass!
+
+[00:01:15.395 – 00:01:16.436] SPEAKER_00: 2-11, we're going to be out at 2.
+
+[00:01:21.982 – 00:01:22.804] SPEAKER_04: I got a shatter ball.
+
+[00:01:23.266 – 00:01:23.486] SPEAKER_07: All right,
+
+[00:01:23.947 – 00:01:26.254] SPEAKER_00: your cover. I'm going to grab sticks and just throw them behind her.
+
+[00:01:29.188 – 00:01:30.941] SPEAKER_06: Driver, turn off the vehicle!
+
+[00:01:31.432 – 00:01:33.199] SPEAKER_04: Just watch out if she throws it in reverse.
+
+[00:01:37.315 – 00:01:39.112] SPEAKER_06: Slowly step out of the vehicle!
+
+[00:01:43.668 – 00:01:45.479] SPEAKER_07: Come on! DRIVE THE MOTORCYCLE!
+
+[00:01:49.486 – 00:01:49.856] SPEAKER_07: DRIVER!
+
+[00:01:51.611 – 00:01:55.131] SPEAKER_04: Matt, can you move your squad up in case she does try to throw it reverse?
+
+[00:02:02.516 – 00:02:05.909] SPEAKER_04: So we've got two tasers, two lethal.
+
+[00:02:06.311 – 00:02:08.339] SPEAKER_00: David, two level. We've got a canine en route.
+
+[00:02:08.949 – 00:02:10.093] SPEAKER_05: Yeah. RK9 coming.
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_04,SPEAKER_05 | max_frame_overlap_posterior=0.156 | single_lexical_stream_preserved=True]
+
+[00:02:10.518 – 00:02:10.883] SPEAKER_00: Perfect.
+
+[00:02:13.218 – 00:02:16.721] SPEAKER_04: Tell her to get out of the car. You can see both her hands. She's got a cell phone.
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_04 | max_frame_overlap_posterior=0.156 | single_lexical_stream_preserved=True]
+
+[00:02:16.941 – 00:02:18.843] SPEAKER_00: Will, since you're lethal, chatterball.
+
+[00:02:21.298 – 00:02:24.106] UNK: Ha! Ha! Give me your arms! Ha! Ha! Give me your arms!
+
+[00:02:26.882 – 00:02:28.567] UNK: She's just on her
+
+[00:02:28.908 – 00:02:29.850] SPEAKER_07: cell phone.
+
+[00:02:34.585 – 00:02:41.417] SPEAKER_06: Catherine, this is the police department. We need you to exit the vehicle! Do it now, Catherine!
+
+[00:02:43.136 – 00:02:45.981] UNK: Captain, this is the police.
+
+[00:02:49.258 – 00:02:53.737] SPEAKER_06: You need to exit your vehicle with your hands up. Do it now!
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_06,SPEAKER_07 | max_frame_overlap_posterior=0.160 | single_lexical_stream_preserved=True]
+
+[00:02:57.335 – 00:02:57.797] SPEAKER_00: Fuck that
+
+[00:02:57.878 – 00:02:58.079] SPEAKER_04: rear
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_04 | max_frame_overlap_posterior=0.028 | single_lexical_stream_preserved=True]
+
+[00:02:58.099 – 00:02:58.581] SPEAKER_07: window out.
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_04,SPEAKER_07 | max_frame_overlap_posterior=0.041 | single_lexical_stream_preserved=True]
+
+[00:02:59.883 – 00:03:00.752] SPEAKER_04: Don't get her attention.
+
+[00:03:01.589 – 00:03:02.935] SPEAKER_07: Okay.
+  # [OVERLAP_METADATA: multi_speaker_rttm=False | concurrent_speakers=SPEAKER_07 | max_frame_overlap_posterior=0.511 | single_lexical_stream_preserved=True]
+
+[00:03:03.317 – 00:03:03.999] SPEAKER_00: Shutter ball up.
+
+[00:03:14.450 – 00:03:19.057] SPEAKER_07: Get down, get down, get down, get
+
+[00:03:19.117 – 00:03:19.578] SPEAKER_06: down.
+
+[00:03:22.368 – 00:03:25.326] SPEAKER_06: You're the best, yo! I'm not going to give
+
+[00:03:25.346 – 00:03:25.953] SPEAKER_07: people a hold up!
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_06,SPEAKER_07 | max_frame_overlap_posterior=0.072 | single_lexical_stream_preserved=True]
+
+[00:03:32.443 – 00:03:36.167] SPEAKER_06: Come on now, you're going to get bit by
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_06,SPEAKER_07 | max_frame_overlap_posterior=0.502 | single_lexical_stream_preserved=True]
+
+[00:03:36.187 – 00:03:38.269] SPEAKER_07: the dog. I don't want you to
+
+[00:03:38.289 – 00:03:40.711] UNK: get bit by the dog. Ha! Ha! Get up! Get
+
+[00:03:40.771 – 00:03:42.584] SPEAKER_07: up! Get up! Can you hear me?
+
+[00:03:51.320 – 00:03:54.653] SPEAKER_04: Do you want another cheddar ball? I do. You want me to get the...
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_04 | max_frame_overlap_posterior=0.506 | single_lexical_stream_preserved=True]
+
+[00:03:54.734 – 00:03:56.220] SPEAKER_00: We got pepper ball. I like pepper
+
+[00:03:56.240 – 00:03:56.521] SPEAKER_07: ball.
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_07 | max_frame_overlap_posterior=0.150 | single_lexical_stream_preserved=True]
+
+[00:03:57.975 – 00:03:58.563] SPEAKER_00: You got it, Joe? Yep.
+
+[00:03:59.806 – 00:03:59.946] UNK: Thank
+
+[00:04:00.188 – 00:04:00.670] SPEAKER_07: you.
+
+[00:04:02.177 – 00:04:03.863] SPEAKER_04: Getting a pepper ball? Yeah, Joe's getting a pepper
+
+[00:04:03.883 – 00:04:04.284] SPEAKER_07: ball.
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_04,SPEAKER_07 | max_frame_overlap_posterior=0.041 | single_lexical_stream_preserved=True]
+
+[00:04:05.107 – 00:04:07.937] SPEAKER_00: Joe, this side, pepper ball through the back shattered window.
+
+[00:04:10.813 – 00:04:12.305] SPEAKER_04: Let's give her a chance here.
+
+[00:04:12.789 – 00:04:16.322] SPEAKER_06: Hey, Catherine! come out of the car now we're going to send in some
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_04,SPEAKER_06 | max_frame_overlap_posterior=0.289 | single_lexical_stream_preserved=True]
+
+[00:04:16.382 – 00:04:17.507] SPEAKER_07: peppercorns
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_06,SPEAKER_07 | max_frame_overlap_posterior=0.159 | single_lexical_stream_preserved=True]
+
+[00:04:18.049 – 00:04:19.335] SPEAKER_06: it's going to be hard for you to breathe
+
+[00:04:20.934 – 00:04:21.775] SPEAKER_06: Come on out now.
+
+[00:04:21.875 – 00:04:25.058] SPEAKER_04: Thank you. All right.
+
+[00:04:25.118 – 00:04:25.298] SPEAKER_06: Come
+
+[00:04:25.318 – 00:04:25.819] SPEAKER_04: this
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_04,SPEAKER_06 | max_frame_overlap_posterior=0.281 | single_lexical_stream_preserved=True]
+
+[00:04:25.859 – 00:04:26.139] SPEAKER_06: way. We'll
+
+[00:04:26.179 – 00:04:26.759] SPEAKER_07: figure
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_04,SPEAKER_07 | max_frame_overlap_posterior=0.226 | single_lexical_stream_preserved=True]
+
+[00:04:27.260 – 00:04:27.920] SPEAKER_06: that out in a
+
+[00:04:28.141 – 00:04:32.885] SPEAKER_04: second, okay? Just put your hands behind your back, okay? Put your hands behind your
+
+[00:04:32.925 – 00:04:34.687] SPEAKER_07: back. Put your
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_04,SPEAKER_07 | max_frame_overlap_posterior=0.244 | single_lexical_stream_preserved=True]
+
+[00:04:34.807 – 00:04:36.949] SPEAKER_04: hands behind your back or you're going to get tasered.
+
+[00:04:37.309 – 00:04:39.511] SPEAKER_07: I'm going to have you guys go. You
+
+[00:04:39.811 – 00:04:40.672] SPEAKER_01: will not indict
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_01,SPEAKER_07 | max_frame_overlap_posterior=0.083 | single_lexical_stream_preserved=True]
+
+[00:04:40.692 – 00:04:40.832] SPEAKER_07: me.
+
+[00:04:44.081 – 00:04:44.837] SPEAKER_04: Hands behind your back.
+
+[00:04:48.638 – 00:04:49.517] SPEAKER_04: Put your hands behind your back.
+
+[00:04:50.893 – 00:04:51.272] SPEAKER_07: I got it.
+
+[00:04:51.722 – 00:04:53.325] SPEAKER_00: David, 211, we're 1080.
+
+[00:04:53.565 – 00:04:54.367] SPEAKER_04: Got anything on you?
+
+[00:04:56.542 – 00:05:01.158] SPEAKER_07: I just want to say thank you. Here,
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_04,SPEAKER_07 | max_frame_overlap_posterior=0.129 | single_lexical_stream_preserved=True]
+
+[00:05:01.198 – 00:05:04.273] SPEAKER_04: roll this way. Put your, tuck your feet in. You
+  # [OVERLAP_METADATA: multi_speaker_rttm=False | concurrent_speakers=SPEAKER_04 | max_frame_overlap_posterior=0.613 | single_lexical_stream_preserved=True]
+
+[00:05:04.313 – 00:05:07.123] SPEAKER_07: cannot assault me as a woman. What are you doing?
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_04,SPEAKER_07 | max_frame_overlap_posterior=0.604 | single_lexical_stream_preserved=True]
+
+[00:05:07.628 – 00:05:08.750] SPEAKER_04: Ready? We're going to help you out. I just got
+
+[00:05:08.770 – 00:05:11.094] SPEAKER_07: e-wiped, yeah. I just got e-wiped. I just got e-wiped for one reason. We've
+
+[00:05:12.797 – 00:05:12.957] SPEAKER_07: been
+
+[00:05:13.057 – 00:05:13.438] SPEAKER_01: trying
+
+[00:05:13.778 – 00:05:16.022] SPEAKER_07: to stop you
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_04,SPEAKER_07 | max_frame_overlap_posterior=0.359 | single_lexical_stream_preserved=True]
+
+[00:05:16.062 – 00:05:18.206] SPEAKER_04: for about 15 miles.
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_04,SPEAKER_07 | max_frame_overlap_posterior=0.602 | single_lexical_stream_preserved=True]
+
+[00:05:18.246 – 00:05:18.707] SPEAKER_07: For one
+  # [OVERLAP_METADATA: multi_speaker_rttm=False | concurrent_speakers=SPEAKER_07 | max_frame_overlap_posterior=0.528 | single_lexical_stream_preserved=True]
+
+[00:05:18.927 – 00:05:19.268] SPEAKER_01: reason.
+
+[00:05:21.550 – 00:05:23.713] SPEAKER_01: What, for what reason, you cannot, you
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_01,SPEAKER_07 | max_frame_overlap_posterior=0.117 | single_lexical_stream_preserved=True]
+
+[00:05:23.733 – 00:05:25.375] SPEAKER_07: cannot? Is
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_01,SPEAKER_05,SPEAKER_07 | max_frame_overlap_posterior=0.226 | single_lexical_stream_preserved=True]
+
+[00:05:25.435 – 00:05:25.916] SPEAKER_05: the vehicle
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_05,SPEAKER_07 | max_frame_overlap_posterior=0.238 | single_lexical_stream_preserved=True]
+
+[00:05:25.996 – 00:05:26.216] SPEAKER_07: cleared?
+
+[00:05:26.496 – 00:05:27.778] SPEAKER_00: Yes, the vehicle is cleared.
+
+[00:05:27.838 – 00:05:29.480] SPEAKER_01: Excuse me, you don't know that I'm Katie.
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.464 | single_lexical_stream_preserved=True]
+
+[00:05:30.449 – 00:05:31.052] SPEAKER_04: I don't know that.
+
+[00:05:31.435 – 00:05:33.688] SPEAKER_01: But do you live here alone? Daniel Thomas doesn't know that.
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_01,SPEAKER_04 | max_frame_overlap_posterior=0.837 | single_lexical_stream_preserved=True]
+
+[00:05:34.533 – 00:05:35.855] SPEAKER_04: I don't know who Daniel Thomas is.
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_01,SPEAKER_04 | max_frame_overlap_posterior=0.550 | single_lexical_stream_preserved=True]
+
+[00:05:35.875 – 00:05:40.762] SPEAKER_01: Holy cow, guys. Do you live here alone? Yes, I do. This is my residence since 2011. Do you want it in
+  # [OVERLAP_METADATA: multi_speaker_rttm=False | concurrent_speakers=SPEAKER_01 | max_frame_overlap_posterior=0.826 | single_lexical_stream_preserved=True]
+
+[00:05:40.782 – 00:05:43.907] SPEAKER_00: mine or in Joe's? It doesn't matter. We'll throw it in Joe's.
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01,SPEAKER_07 | max_frame_overlap_posterior=0.289 | single_lexical_stream_preserved=True]
+
+[00:05:43.927 – 00:05:45.288] SPEAKER_01: Excuse me, please grab my things.
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.670 | single_lexical_stream_preserved=True]
+
+[00:05:45.309 – 00:05:46.951] SPEAKER_00: Yep, we'll get your things when we can. This
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.871 | single_lexical_stream_preserved=True]
+
+[00:05:47.031 – 00:05:50.216] SPEAKER_01: is illegal. What traffic violations do you have me in?
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_01,SPEAKER_05 | max_frame_overlap_posterior=0.723 | single_lexical_stream_preserved=True]
+
+[00:05:50.236 – 00:05:51.137] SPEAKER_05: Are you injured at all, ma'am?
+  # [OVERLAP_METADATA: multi_speaker_rttm=False | concurrent_speakers=SPEAKER_05 | max_frame_overlap_posterior=0.581 | single_lexical_stream_preserved=True]
+
+[00:05:51.824 – 00:05:53.526] SPEAKER_01: Excuse me, you're not going to harass me.
+
+[00:05:53.766 – 00:05:55.828] SPEAKER_00: Your plates are expired, and that's why I attempted to stop for you.
+  # [OVERLAP_METADATA: multi_speaker_rttm=False | concurrent_speakers=SPEAKER_00 | max_frame_overlap_posterior=0.539 | single_lexical_stream_preserved=True]
+
+[00:05:55.848 – 00:05:57.069] SPEAKER_01: Excuse me, they are not expired.
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.822 | single_lexical_stream_preserved=True]
+
+[00:05:57.089 – 00:05:57.450] SPEAKER_00: They are.
+  # [OVERLAP_METADATA: multi_speaker_rttm=False | concurrent_speakers=SPEAKER_00 | max_frame_overlap_posterior=0.867 | single_lexical_stream_preserved=True]
+
+[00:05:57.670 – 00:05:58.331] SPEAKER_01: They are not.
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.368 | single_lexical_stream_preserved=True]
+
+[00:05:58.391 – 00:05:58.771] SPEAKER_00: They are.
+  # [OVERLAP_METADATA: multi_speaker_rttm=False | concurrent_speakers=SPEAKER_00 | max_frame_overlap_posterior=0.747 | single_lexical_stream_preserved=True]
+
+[00:05:59.171 – 00:06:02.134] SPEAKER_01: Excuse me, Chevrolet is my O'Connor walk, my Chevrolet.
+
+[00:06:02.795 – 00:06:02.975] SPEAKER_00: Okay.
+
+[00:06:03.316 – 00:06:12.545] SPEAKER_01: You guys are out of your minds. You better tell Daniel Thomas I'm suing the O'Connor shop. Does anyone want to contact the Journal Sentinel? Does anyone want to record this?
+
+[00:06:13.045 – 00:06:14.347] SPEAKER_05: Yeah, we've got it recorded. See you.
+  # [OVERLAP_METADATA: multi_speaker_rttm=False | concurrent_speakers=SPEAKER_05 | max_frame_overlap_posterior=0.581 | single_lexical_stream_preserved=True]
+
+[00:06:14.988 – 00:06:15.990] SPEAKER_00: Did a dog bite you anywhere?
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.366 | single_lexical_stream_preserved=True]
+
+[00:06:16.392 – 00:06:17.073] SPEAKER_01: Excuse me.
+
+[00:06:17.094 – 00:06:18.176] SPEAKER_00: Did a dog bite you anywhere?
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.891 | single_lexical_stream_preserved=True]
+
+[00:06:18.217 – 00:06:19.600] SPEAKER_01: I'm pressing charges on you guys a lot.
+  # [OVERLAP_METADATA: multi_speaker_rttm=False | concurrent_speakers=SPEAKER_01 | max_frame_overlap_posterior=0.830 | single_lexical_stream_preserved=True]
+
+[00:06:19.620 – 00:06:20.964] SPEAKER_00: That's right. Did a dog bite you anywhere?
+  # [OVERLAP_METADATA: multi_speaker_rttm=False | concurrent_speakers=SPEAKER_00 | max_frame_overlap_posterior=0.706 | single_lexical_stream_preserved=True]
+
+[00:06:21.004 – 00:06:21.526] SPEAKER_01: I don't know
+
+[00:06:21.586 – 00:06:21.646] SPEAKER_00: if
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.146 | single_lexical_stream_preserved=True]
+
+[00:06:21.666 – 00:06:21.887] SPEAKER_01: that's...
+
+[00:06:22.598 – 00:06:26.304] SPEAKER_00: when she went down. That's the only injury I see. Another one over here.
+
+[00:06:26.385 – 00:06:32.394] SPEAKER_01: You shattered my window. Excuse me, you guys are going to have injury with a lawsuit with Mr. Mr.
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01,SPEAKER_07 | max_frame_overlap_posterior=0.860 | single_lexical_stream_preserved=True]
+
+[00:06:32.414 – 00:06:33.376] SPEAKER_07: Rudy. Just
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_01,SPEAKER_07 | max_frame_overlap_posterior=0.028 | single_lexical_stream_preserved=True]
+
+[00:06:33.416 – 00:06:34.097] SPEAKER_01: go ahead and
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_01,SPEAKER_05 | max_frame_overlap_posterior=0.065 | single_lexical_stream_preserved=True]
+
+[00:06:34.438 – 00:06:35.500] SPEAKER_05: have a seat in the vehicle.
+
+[00:06:36.228 – 00:06:40.448] SPEAKER_01: I contact my financial advisor. Okay, have a seat. This is
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_01,SPEAKER_07 | max_frame_overlap_posterior=0.809 | single_lexical_stream_preserved=True]
+
+[00:06:40.529 – 00:06:41.837] SPEAKER_07: our food for thought.
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_01,SPEAKER_07 | max_frame_overlap_posterior=0.291 | single_lexical_stream_preserved=True]
+
+[00:06:42.623 – 00:06:43.583] SPEAKER_01: What do you guys think you're
+
+[00:06:43.603 – 00:06:44.544] SPEAKER_05: doing to
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_01,SPEAKER_05 | max_frame_overlap_posterior=0.747 | single_lexical_stream_preserved=True]
+
+[00:06:44.764 – 00:06:47.845] SPEAKER_01: an American woman just going to the post office and going to the town
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_01,SPEAKER_07 | max_frame_overlap_posterior=0.747 | single_lexical_stream_preserved=True]
+
+[00:06:47.885 – 00:06:49.266] SPEAKER_07: hall? Ma'am,
+  # [OVERLAP_METADATA: multi_speaker_rttm=False | concurrent_speakers=SPEAKER_07 | max_frame_overlap_posterior=0.690 | single_lexical_stream_preserved=True]
+
+[00:06:49.546 – 00:06:50.726] SPEAKER_05: take a couple deep breaths here.
+
+[00:06:50.926 – 00:06:52.127] SPEAKER_07: Excuse me. Are you
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_05,SPEAKER_07 | max_frame_overlap_posterior=0.767 | single_lexical_stream_preserved=True]
+
+[00:06:52.167 – 00:06:53.087] SPEAKER_05: injured at all? Excuse
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_01,SPEAKER_05 | max_frame_overlap_posterior=0.577 | single_lexical_stream_preserved=True]
+
+[00:06:53.107 – 00:06:53.527] SPEAKER_01: me, guys.
+
+[00:06:53.767 – 00:06:54.328] SPEAKER_00: You good, Joe?
+
+[00:06:54.368 – 00:06:54.608] SPEAKER_01: Yeah, I'm
+
+[00:06:54.628 – 00:06:54.848] SPEAKER_07: good.
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_07 | max_frame_overlap_posterior=0.104 | single_lexical_stream_preserved=True]
+
+[00:06:54.868 – 00:06:56.248] SPEAKER_05: We're going to have you just sit tight.
+
+[00:06:56.369 – 00:07:02.831] SPEAKER_01: I contacted my capital wealth advisors' advisories, contacted my brother, contacted Paul Buffoni from Bravo Capital. You guys
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_01,SPEAKER_05 | max_frame_overlap_posterior=0.849 | single_lexical_stream_preserved=True]
+
+[00:07:02.911 – 00:07:03.611] SPEAKER_07: are going
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_01,SPEAKER_07 | max_frame_overlap_posterior=0.726 | single_lexical_stream_preserved=True]
+
+[00:07:03.631 – 00:07:04.892] SPEAKER_01: to have a huge lawsuit.
+
+[00:07:05.152 – 00:07:05.432] SPEAKER_00: Okay.
+  # [OVERLAP_METADATA: multi_speaker_rttm=False | concurrent_speakers=SPEAKER_01 | max_frame_overlap_posterior=0.556 | single_lexical_stream_preserved=True]
+
+[00:07:05.712 – 00:07:06.573] SPEAKER_05: Are you injured, ma'am?
+  # [OVERLAP_METADATA: multi_speaker_rttm=False | concurrent_speakers=SPEAKER_05 | max_frame_overlap_posterior=0.712 | single_lexical_stream_preserved=True]
+
+[00:07:06.713 – 00:07:09.495] SPEAKER_01: Did you not learn your lesson from Sterling Brown?
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_01,SPEAKER_05 | max_frame_overlap_posterior=0.864 | single_lexical_stream_preserved=True]
+
+[00:07:09.515 – 00:07:16.760] SPEAKER_05: I'm just asking if you need medical attention. Do you need medical attention? Excuse me. Okay. Well, if anything changes with that, just let me know. Excuse
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_01,SPEAKER_05 | max_frame_overlap_posterior=0.859 | single_lexical_stream_preserved=True]
+
+[00:07:16.800 – 00:07:44.493] SPEAKER_01: me. I'm reporting to you guys for police brutality. The same way as Sterling Brown, but I am a white American woman. Bravo Company, USABCM. Paul Bifoni. My SWAT team is your AR-15s and M-16s. You guys cannot tell from behind and make false arrests. Police brutality is no different than Sterling Brown. Mark Thompson represented Sterling Brown. I'm going to have Mark Thompson represent you. You would think a black man would never police brutality after Sterling Brown.
+
+[00:07:45.046 – 00:07:45.858] SPEAKER_00: Because she is awesome.
+
+[00:07:46.733 – 00:07:47.173] SPEAKER_07: Okay.
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_05,SPEAKER_07 | max_frame_overlap_posterior=0.388 | single_lexical_stream_preserved=True]
+
+[00:07:48.634 – 00:07:52.376] SPEAKER_00: Catherine, I'm an officer to pray at the City of Delafield Police Department. I was the one, I'm the one who... I
+
+[00:07:52.396 – 00:07:53.177] SPEAKER_01: reported you guys.
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.251 | single_lexical_stream_preserved=True]
+
+[00:07:53.457 – 00:07:54.157] SPEAKER_00: You reported me?
+
+[00:07:54.537 – 00:07:54.898] SPEAKER_01: Yes, I did.
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.444 | single_lexical_stream_preserved=True]
+
+[00:07:55.138 – 00:07:57.319] SPEAKER_00: Okay, that's fine. I'm here to... It's
+  # [OVERLAP_METADATA: multi_speaker_rttm=False | concurrent_speakers=SPEAKER_00 | max_frame_overlap_posterior=0.892 | single_lexical_stream_preserved=True]
+
+[00:07:57.399 – 00:07:59.100] SPEAKER_01: only from 100 feet from 200 feet behind.
+
+[00:07:59.567 – 00:08:02.448] SPEAKER_00: Okay, I had my red lights and siren on. Catherine, hold on. I will not pull
+  # [OVERLAP_METADATA: multi_speaker_rttm=False | concurrent_speakers=SPEAKER_00 | max_frame_overlap_posterior=0.734 | single_lexical_stream_preserved=True]
+
+[00:08:02.508 – 00:08:04.128] SPEAKER_01: over until I'm in my safety van drive.
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.386 | single_lexical_stream_preserved=True]
+
+[00:08:04.268 – 00:08:06.829] SPEAKER_00: Okay, Catherine, but you still didn't even comply with that. I
+
+[00:08:06.849 – 00:08:07.129] SPEAKER_01: did.
+
+[00:08:07.469 – 00:08:24.453] SPEAKER_00: Okay, so here's the deal. The reason I stopped you, the reason why I attempted to stop you is that your plates are expired. They expired in March of 23. They expired in March of 23. So that is why I attempted to stop you. Do you want to make a voluntary statement of what happened tonight?
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01,SPEAKER_07 | max_frame_overlap_posterior=0.878 | single_lexical_stream_preserved=True]
+
+[00:08:24.513 – 00:08:25.053] SPEAKER_01: I don't want to.
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.620 | single_lexical_stream_preserved=True]
+
+[00:08:27.907 – 00:08:28.918] SPEAKER_00: You're open right now.
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.680 | single_lexical_stream_preserved=True]
+
+[00:08:29.141 – 00:08:29.788] SPEAKER_01: I don't want to.
+
+[00:08:30.443 – 00:08:30.643] SPEAKER_07: Those
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_01,SPEAKER_07 | max_frame_overlap_posterior=0.630 | single_lexical_stream_preserved=True]
+
+[00:08:30.663 – 00:08:34.912] SPEAKER_00: plates have not expired. I'm asking you, do you wish to make a voluntary statement right now? I
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.673 | single_lexical_stream_preserved=True]
+
+[00:08:34.992 – 00:08:36.295] SPEAKER_01: just made my voluntary statement.
+
+[00:08:36.604 – 00:08:50.524] SPEAKER_00: okay sounds good all right so what's going to happen is we're going to get you out of this car we're going to get you in that car you'll be going to the waukesha county jail tonight okay you're under arrest for felony fleeing and eluding state disorderly conduct and you're getting a traffic citation for your unregistered vehicle, okay?
+  # [OVERLAP_METADATA: multi_speaker_rttm=False | concurrent_speakers=SPEAKER_00 | max_frame_overlap_posterior=0.621 | single_lexical_stream_preserved=True]
+
+[00:08:52.182 – 00:08:57.185] SPEAKER_00: that's fine that's that's well within yours come on step out for me please those
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01,SPEAKER_07 | max_frame_overlap_posterior=0.711 | single_lexical_stream_preserved=True]
+
+[00:08:57.225 – 00:09:05.831] SPEAKER_01: are brand new plates i contacted an attorney that's fine that's fine come on you guys don't have felony charges okay sounds good
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.551 | single_lexical_stream_preserved=True]
+
+[00:09:06.331 – 00:09:07.051] SPEAKER_00: that's your opinion
+
+[00:09:07.252 – 00:09:08.752] SPEAKER_01: the plates never expired
+
+[00:09:08.993 – 00:09:09.193] SPEAKER_00: okay
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.036 | single_lexical_stream_preserved=True]
+
+[00:09:09.873 – 00:09:11.394] SPEAKER_01: oh you better contact what kind of walk
+
+[00:09:11.794 – 00:09:17.218] SPEAKER_00: i'm not i don't have to contact anyone katherine go ahead you can take a seat in the squad car for me please
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01,SPEAKER_07 | max_frame_overlap_posterior=0.631 | single_lexical_stream_preserved=True]
+
+[00:09:18.046 – 00:09:19.517] SPEAKER_01: look at the plates they're brand new 2020
+
+[00:09:19.597 – 00:09:20.907] SPEAKER_00: take a seat in the squad car please
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.620 | single_lexical_stream_preserved=True]
+
+[00:09:21.941 – 00:09:36.055] SPEAKER_01: How disgusting do you guys can even go home to your wives? Disgusting job that you just had. Disgusting. Those were all placed in 2023 on them. They're new places. Did you look at the registration? Did you look at the vehicle number on the registration?
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_01,SPEAKER_07 | max_frame_overlap_posterior=0.140 | single_lexical_stream_preserved=True]
+
+[00:09:37.503 – 00:10:03.815] SPEAKER_03: Catherine is no stranger to being non-compliant with police, as she once spit at an officer after being banned from a fitness building. For the incident in the body cam footage, she was charged with resisting or failing to stop and resisting obstructing. According to court records, the suspect actually did not get a high-powered attorney to take her case, and instead, just started skipping court appearances. Court records indicate the case has been going on for more than two and a half years, and the bail has since been forfeited. As her case is still ongoing, she is presumed innocent unless proven guilty in a court of law.
+
+[00:10:04.175 – 00:10:52.092] SPEAKER_02: might think pursuit is always speeding swerving and just being reckless but some of the most unpredictable drivers are the ones trying to appear cooperative while refusing to stop and it might look polite but it's still resistance she was definitely running from the police but she was also deciding where she wanted to deal with them which was her house and that matters because once a suspect reaches the residence the risk to officers goes way up garages mean weapons family members or someone possibly disappearing inside and forcing a standoff that's exactly why Our officers boxed a car in like that. Now, you saw officers use the shatter bar, and what that does is allow officers to break the glass from a distance instead of walking up to a possibly armed driver, and police in Maine started using that around 2023. Most arrests aren't decided by how fast you drive. They're decided by the first moment you choose not to comply. Remember, it's about decisions, and if understanding why officers act help you see these videos differently, that's the point. Because our purpose here isn't just to show you videos. It's to give you insight and guidance so you won't cause yourself any problems during the traffic stop.

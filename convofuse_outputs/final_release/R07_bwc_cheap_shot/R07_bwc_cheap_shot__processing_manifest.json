@@ -1,0 +1,362 @@
+{
+  "recording_id": "R07_bwc_cheap_shot",
+  "filename": "R07_bwc_cheap_shot.wav",
+  "execution_mode": "FROZEN_INPUT_REPLAY",
+  "diarization_condition": "Stage5A.1_Condition_J_DualEncoder_EqualFusion",
+  "diarization_backend": "TitaNet-Large(DFN,192D) + WeSpeaker-ResNet293-LM(Mono,256D) -> ZScore-Equal-Affinity-Fusion -> NME-SC",
+  "refinement_model": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1 (Q4_K_M, LG-TPST)",
+  "created_at": "2026-11-13T17:59:28.387129+00:00",
+  "total_pipeline_sec": 7.6157,
+  "ground_truth_isolation_enforced": true,
+  "frozen_inputs_sha256_verified": true,
+  "input_sha256_hashes": {
+    "asr_aligned_words": "05f9432ad12fb5069c9ae1ad26f931f645f0900e0e785f3e5ed000d2bfc520f4",
+    "predicted_rttm": "3f70b4b94727891cd669c153169e470499a8dcd20d2ed7e2d12069ed8aaea1b6",
+    "overlap_posteriors": "6b6257c7b5a254b268071639922f21e44246abc9190b7671d00c038cf731605b",
+    "16k_mono_wav": "0c7e5a23b9dee80c3c1b72abdaf8745447656e65f2a4019f727b3afe2d533ce7",
+    "dfn_wav": "29bcfdd69a3e7b422df1ff747db87a60c3be7910c7e9ab5abf9e566db27bb5ca",
+    "normalized_wav": "256a765186f4839ee328ae04c64f991641e5be9e3a32403cab386b63969174aa"
+  },
+  "audio_routing": {
+    "source_media_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R07_bwc_cheap_shot/R07_bwc_cheap_shot_16k_mono.wav",
+    "titanet_dfn_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R07_bwc_cheap_shot/R07_bwc_cheap_shot_dfn.wav",
+    "wespeaker_raw_mono_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R07_bwc_cheap_shot/R07_bwc_cheap_shot_16k_mono.wav",
+    "asr_normalized_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R07_bwc_cheap_shot/R07_bwc_cheap_shot_normalized.wav",
+    "overlap_raw_mono_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R07_bwc_cheap_shot/R07_bwc_cheap_shot_16k_mono.wav",
+    "sample_rate": 16000,
+    "channels": 1,
+    "duration_sec": 175.4267,
+    "sha256_hashes": {
+      "16k_mono_wav": "0c7e5a23b9dee80c3c1b72abdaf8745447656e65f2a4019f727b3afe2d533ce7",
+      "dfn_wav": "29bcfdd69a3e7b422df1ff747db87a60c3be7910c7e9ab5abf9e566db27bb5ca",
+      "normalized_wav": "256a765186f4839ee328ae04c64f991641e5be9e3a32403cab386b63969174aa"
+    }
+  },
+  "rttm_to_canonical_speaker_map": {
+    "speaker_0": "SPEAKER_00",
+    "SPEAKER_00": "SPEAKER_00"
+  },
+  "canonical_to_dlm_tag_map": {
+    "SPEAKER_00": "1"
+  },
+  "refinement_telemetry": {
+    "recording_id": "R07_bwc_cheap_shot",
+    "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+    "ollama_model_name": "diarizationlm-gemma",
+    "quantization": "Q4_K_M",
+    "provider_version": "ollama-0.32.6",
+    "total_runtime_sec": 6.5725,
+    "total_prompt_tokens": 752,
+    "total_completion_tokens": 730,
+    "segment_count": 2,
+    "summary_counts": {
+      "total_words": 478,
+      "accepted_corrections": 0,
+      "rejected_proposals": 5,
+      "abstained_words": 0,
+      "unchanged_words": 473,
+      "reasons_breakdown": {
+        "REJECTED_UNKNOWN_SPEAKER_MAPPING": 5,
+        "UNCHANGED_BASELINE_CONFIRMED": 473
+      }
+    },
+    "segment_telemetries": [
+      {
+        "segment_id": "R07_bwc_cheap_shot__seg_000",
+        "recording_id": "R07_bwc_cheap_shot",
+        "start_word_index": 0,
+        "end_word_index": 299,
+        "word_count": 300,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 458,
+        "completion_tokens": 457,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 3.9251,
+        "prompt_text": "<|turn>user\n<speaker:1> Okay, my name's Peter, I'm based at Fortwood Police Station in Peterborough. I have to go through this bit, yeah. The grounds for the search is that the vehicle is linked to drug supply. There's lots of loose cash in that centre console, which often is linked to drug supply. And I can smell a faint smell of cannabis coming out of the vehicle as well. Just do your thing, isn't it? Yeah, alright. So, you are entitled to a copy of this search, okay, and it's section 23 of the Misuse of Drugs Act, so I'm going to be searching for any controlled drugs. Have you got any controlled drugs on you? No. Okay, cool. Have you got anything on you? No. Weapon, anything like that? Anything that's going to hurt me? Cool, alright. If you haven't got anything on you mate, you'll be all the way around. We'll be searching the vehicle. <speaker:0> Do <speaker:1> you want me to, like, put the thing against the vehicle? Say again? Is this all cool? Yeah, mate, it's fine. Yeah, it's fine. Basically, if you have got anything on you, it's important that you tell me, alright? What's that in there? I don't even know what it is. What is that? My balls. Your balls aren't hard and square. Yeah, they are. Your balls are hard and square, eh? Oh, they're hard and square. You can get two bands. Yeah. yeah i'm not i'm not convinced you haven't got something down there mate all right all right so we're what will happen you'll go back to the police station yeah you'll be strip searched if if it's nothing there it's fine but that seems too hard to be all right Oi! Stay on the floor! Get on the floor now! I'm on the --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:1> Okay, my name's Peter, I'm based at Fortwood Police Station in Peterborough. I have to go through this bit, yeah. The grounds for the search is that the vehicle is linked to drug supply. There's lots of loose cash in that centre console, which often is linked to drug supply. And I can smell a faint smell of cannabis coming out of the vehicle as well. Just do your thing, isn't it? Yeah, alright. So, you are entitled to a copy of this search, okay, and it's section 23 of the Misuse of Drugs Act, so I'm going to be searching for any controlled drugs. Have you got any controlled drugs on you? <speaker:0> No. <speaker:1> Okay, cool. Have you got anything on you? <speaker:0> No. <speaker:1> Weapon, anything like that? Anything that's going to hurt me? Cool, alright. If you haven't got anything on you mate, you'll be all the way around. We'll be searching the vehicle. Do you want me to, like, put the thing against the vehicle? <speaker:0> Say again? <speaker:1> Is this all cool? Yeah, mate, it's fine. Yeah, it's fine. Basically, if you have got anything on you, it's important that you tell me, alright? What's that in there? I don't even know what it is. What is that? My balls. Your balls aren't hard and square. Yeah, they are. Your balls are hard and square, eh? Oh, they're hard and square. You can get two bands. Yeah. yeah i'm not i'm not convinced you haven't got something down there mate all right all right so we're what will happen you'll go back to the police station yeah you'll be strip searched if if it's nothing there it's fine but that seems too hard to be all right Oi! Stay on the floor! Get on the floor now! I'm on the ",
+        "cleaned_completion": "<speaker:1> Okay, my name's Peter, I'm based at Fortwood Police Station in Peterborough. I have to go through this bit, yeah. The grounds for the search is that the vehicle is linked to drug supply. There's lots of loose cash in that centre console, which often is linked to drug supply. And I can smell a faint smell of cannabis coming out of the vehicle as well. Just do your thing, isn't it? Yeah, alright. So, you are entitled to a copy of this search, okay, and it's section 23 of the Misuse of Drugs Act, so I'm going to be searching for any controlled drugs. Have you got any controlled drugs on you? <speaker:0> No. <speaker:1> Okay, cool. Have you got anything on you? <speaker:0> No. <speaker:1> Weapon, anything like that? Anything that's going to hurt me? Cool, alright. If you haven't got anything on you mate, you'll be all the way around. We'll be searching the vehicle. Do you want me to, like, put the thing against the vehicle? <speaker:0> Say again? <speaker:1> Is this all cool? Yeah, mate, it's fine. Yeah, it's fine. Basically, if you have got anything on you, it's important that you tell me, alright? What's that in there? I don't even know what it is. What is that? My balls. Your balls aren't hard and square. Yeah, they are. Your balls are hard and square, eh? Oh, they're hard and square. You can get two bands. Yeah. yeah i'm not i'm not convinced you haven't got something down there mate all right all right so we're what will happen you'll go back to the police station yeah you'll be strip searched if if it's nothing there it's fine but that seems too hard to be all right Oi! Stay on the floor! Get on the floor now! I'm on the",
+        "accepted_count": 0,
+        "rejected_count": 5,
+        "abstained_count": 0,
+        "unchanged_count": 295,
+        "rejection_reasons_breakdown": {
+          "UNCHANGED_BASELINE_CONFIRMED": 295,
+          "REJECTED_UNKNOWN_SPEAKER_MAPPING": 5
+        }
+      },
+      {
+        "segment_id": "R07_bwc_cheap_shot__seg_001",
+        "recording_id": "R07_bwc_cheap_shot",
+        "start_word_index": 300,
+        "end_word_index": 477,
+        "word_count": 178,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 294,
+        "completion_tokens": 273,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 2.5514,
+        "prompt_text": "<|turn>user\n<speaker:1> floor, I'm on the floor! What are you doing?! I'm on the floor, brother. I'm on the floor, brother. Right, you're under arrest for assault and emergency work. You don't have to say anything, mate, I'm on your fence. If you do not mention my question, it's not like you're going to go to court. Anything you do, you say, may be given in evidence. Okay, cool. Yeah. We'll get them to the back in a minute. That's a bit of a cheap shop, isn't it mate? All right, take that out. Oh, you scumbag. Mate, you just need me in the... Nah, no idea. All right. Watch your hand because I can't see. My camera was rolling the whole time mate, alright? Right mate, just to confirm, you're under arrest for assault of an emergency worker, alright? Yeah. You did get me, I'll give you that mate. I don't know, I honestly don't know what you were thinking then. You've got to try it, man. Did you? Nothing was ever going to happen, was it? I know. --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:1> floor, I'm on the floor! What are you doing?! I'm on the floor, brother. I'm on the floor, brother. Right, you're under arrest for assault and emergency work. You don't have to say anything, mate, I'm on your fence. If you do not mention my question, it's not like you're going to go to court. Anything you do, you say, may be given in evidence. Okay, cool. Yeah. We'll get them to the back in a minute. That's a bit of a cheap shop, isn't it mate? All right, take that out. Oh, you scumbag. Mate, you just need me in the... Nah, no idea. All right. Watch your hand because I can't see. My camera was rolling the whole time mate, alright? Right mate, just to confirm, you're under arrest for assault of an emergency worker, alright? Yeah. You did get me, I'll give you that mate. I don't know, I honestly don't know what you were thinking then. You've got to try it, man. Did you? Nothing was ever going to happen, was it? I know. ",
+        "cleaned_completion": "<speaker:1> floor, I'm on the floor! What are you doing?! I'm on the floor, brother. I'm on the floor, brother. Right, you're under arrest for assault and emergency work. You don't have to say anything, mate, I'm on your fence. If you do not mention my question, it's not like you're going to go to court. Anything you do, you say, may be given in evidence. Okay, cool. Yeah. We'll get them to the back in a minute. That's a bit of a cheap shop, isn't it mate? All right, take that out. Oh, you scumbag. Mate, you just need me in the... Nah, no idea. All right. Watch your hand because I can't see. My camera was rolling the whole time mate, alright? Right mate, just to confirm, you're under arrest for assault of an emergency worker, alright? Yeah. You did get me, I'll give you that mate. I don't know, I honestly don't know what you were thinking then. You've got to try it, man. Did you? Nothing was ever going to happen, was it? I know.",
+        "accepted_count": 0,
+        "rejected_count": 0,
+        "abstained_count": 0,
+        "unchanged_count": 178,
+        "rejection_reasons_breakdown": {
+          "UNCHANGED_BASELINE_CONFIRMED": 178
+        }
+      }
+    ]
+  },
+  "stage_history": [
+    {
+      "stage": "UPLOADED",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.05,
+      "started_at": "2026-11-13T17:59:20.771415+00:00",
+      "completed_at": "2026-11-13T17:59:20.771431+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Resolved frozen benchmark inputs for R07_bwc_cheap_shot",
+      "artifacts": {
+        "recording_id": "R07_bwc_cheap_shot"
+      }
+    },
+    {
+      "stage": "QUEUED",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.1,
+      "started_at": "2026-11-13T17:59:20.771439+00:00",
+      "completed_at": "2026-11-13T17:59:20.771443+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Queued ConvoFuse job (Stage5A.1_Condition_J_DualEncoder_EqualFusion)",
+      "artifacts": {
+        "diarization_condition": "Stage5A.1_Condition_J_DualEncoder_EqualFusion"
+      }
+    },
+    {
+      "stage": "AUDIO_EXTRACTION",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.18,
+      "started_at": "2026-11-13T17:59:20.771448+00:00",
+      "completed_at": "2026-11-13T17:59:20.771453+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Reused task-specific conditioned audio streams (DFN 16kHz, Raw Mono 16kHz, EBU R128 Normalized 16kHz)",
+      "artifacts": {
+        "source_media_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R07_bwc_cheap_shot/R07_bwc_cheap_shot_16k_mono.wav",
+        "titanet_dfn_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R07_bwc_cheap_shot/R07_bwc_cheap_shot_dfn.wav",
+        "wespeaker_raw_mono_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R07_bwc_cheap_shot/R07_bwc_cheap_shot_16k_mono.wav",
+        "asr_normalized_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R07_bwc_cheap_shot/R07_bwc_cheap_shot_normalized.wav",
+        "overlap_raw_mono_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R07_bwc_cheap_shot/R07_bwc_cheap_shot_16k_mono.wav",
+        "sample_rate": 16000,
+        "channels": 1,
+        "duration_sec": 175.4267,
+        "sha256_hashes": {
+          "16k_mono_wav": "0c7e5a23b9dee80c3c1b72abdaf8745447656e65f2a4019f727b3afe2d533ce7",
+          "dfn_wav": "29bcfdd69a3e7b422df1ff747db87a60c3be7910c7e9ab5abf9e566db27bb5ca",
+          "normalized_wav": "256a765186f4839ee328ae04c64f991641e5be9e3a32403cab386b63969174aa"
+        }
+      }
+    },
+    {
+      "stage": "VAD",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.25,
+      "started_at": "2026-11-13T17:59:20.771457+00:00",
+      "completed_at": "2026-11-13T17:59:20.771460+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Reused Stage 2 / Stage 5B.4 C62 Silero VAD speech regions",
+      "artifacts": {
+        "condition": "Stage5A.1_Condition_J_DualEncoder_EqualFusion"
+      }
+    },
+    {
+      "stage": "ASR",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.35,
+      "started_at": "2026-11-13T17:59:20.771463+00:00",
+      "completed_at": "2026-11-13T17:59:20.771829+00:00",
+      "elapsed_sec": 0.000362,
+      "detail": "Loaded 478 Faster-Whisper Large-v3 words from frozen Stage 2 output",
+      "artifacts": {
+        "asr_aligned_words_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage2_baseline/whisperx/R07_bwc_cheap_shot_aligned.json",
+        "word_count": 478
+      }
+    },
+    {
+      "stage": "WORD_ALIGNMENT",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.42,
+      "started_at": "2026-11-13T17:59:20.771835+00:00",
+      "completed_at": "2026-11-13T17:59:20.771838+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Verified Wav2Vec2 CTC word-level timestamps (478 words)",
+      "artifacts": {
+        "word_count": 478
+      }
+    },
+    {
+      "stage": "SPEAKER_REPRESENTATION",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.5,
+      "started_at": "2026-11-13T17:59:20.771842+00:00",
+      "completed_at": "2026-11-13T17:59:20.771921+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Reused dual-path speaker embeddings: TitaNet-Large (192-D on DFN) + WeSpeaker ResNet293-LM (256-D on Raw Mono)",
+      "artifacts": {
+        "diarization_backend": "TitaNet-Large(DFN,192D) + WeSpeaker-ResNet293-LM(Mono,256D) -> ZScore-Equal-Affinity-Fusion -> NME-SC"
+      }
+    },
+    {
+      "stage": "AFFINITY_FUSION",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.58,
+      "started_at": "2026-11-13T17:59:20.771925+00:00",
+      "completed_at": "2026-11-13T17:59:20.771928+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Reused off-diagonal Z-score normalized dual-encoder cosine affinity fusion",
+      "artifacts": {
+        "diarization_condition": "Stage5A.1_Condition_J_DualEncoder_EqualFusion"
+      }
+    },
+    {
+      "stage": "CLUSTERING",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.65,
+      "started_at": "2026-11-13T17:59:20.771932+00:00",
+      "completed_at": "2026-11-13T17:59:20.771938+00:00",
+      "elapsed_sec": 7.7e-05,
+      "detail": "Loaded 44 NME-SC spectral clustering speaker segments from R07_bwc_cheap_shot_dfn.rttm",
+      "artifacts": {
+        "predicted_rttm_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage5a_1/predictions/rttms/condition_J_norm_equal_weight_fusion/R07_bwc_cheap_shot_dfn.rttm",
+        "rttm_segment_count": 44
+      }
+    },
+    {
+      "stage": "WORD_SPEAKER_ASSIGNMENT",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.72,
+      "started_at": "2026-11-13T17:59:20.771941+00:00",
+      "completed_at": "2026-11-13T17:59:20.794882+00:00",
+      "elapsed_sec": 0.022881,
+      "detail": "Associated 478 words across 1 speakers (1 UNK, 0 overlapping)",
+      "artifacts": {
+        "word_count": 478,
+        "speaker_inventory": [
+          "SPEAKER_00"
+        ],
+        "unk_word_count": 1,
+        "overlapping_word_count": 0
+      }
+    },
+    {
+      "stage": "GENERATIVE_REFINEMENT",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.88,
+      "started_at": "2026-11-13T17:59:20.794895+00:00",
+      "completed_at": "2026-11-13T17:59:27.368427+00:00",
+      "elapsed_sec": 6.573523,
+      "detail": "Completed DiarizationLM-Gemma TPST refinement in 6.57s (ground-truth isolated)",
+      "artifacts": {
+        "model": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1 (Q4_K_M, LG-TPST)",
+        "summary_counts": {
+          "total_words": 478,
+          "accepted_corrections": 0,
+          "rejected_proposals": 5,
+          "abstained_words": 0,
+          "unchanged_words": 473,
+          "reasons_breakdown": {
+            "REJECTED_UNKNOWN_SPEAKER_MAPPING": 5,
+            "UNCHANGED_BASELINE_CONFIRMED": 473
+          }
+        },
+        "ground_truth_isolated": true
+      }
+    },
+    {
+      "stage": "TRANSCRIPT_RECONSTRUCTION",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.94,
+      "started_at": "2026-11-13T17:59:27.368442+00:00",
+      "completed_at": "2026-11-13T17:59:27.371151+00:00",
+      "elapsed_sec": 0.002707,
+      "detail": "Reconstructed 16 chronological turns across 2 speakers",
+      "artifacts": {
+        "baseline_turn_count": 16,
+        "refined_turn_count": 16,
+        "speaker_count": 2
+      }
+    },
+    {
+      "stage": "EVALUATION",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.98,
+      "started_at": "2026-11-13T17:59:27.384191+00:00",
+      "completed_at": "2026-11-13T17:59:28.387097+00:00",
+      "elapsed_sec": 1.002898,
+      "detail": "Executed post-inference evaluation (strictly isolated from inference)",
+      "artifacts": {
+        "has_reference_annotations": true,
+        "metric_deltas": {
+          "delta_wder_timestamp_assigned": 0.0,
+          "delta_wder_timestamp_all_ref": 0.0,
+          "delta_wder_lexical": 0.0,
+          "delta_cpwer": 0.0
+        }
+      }
+    },
+    {
+      "stage": "COMPLETED",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 1.0,
+      "started_at": "2026-11-13T17:59:28.387115+00:00",
+      "completed_at": "2026-11-13T17:59:28.387124+00:00",
+      "elapsed_sec": 7.61571,
+      "detail": "ConvoFuse pipeline completed in 7.62s",
+      "artifacts": {
+        "total_pipeline_sec": 7.6157
+      }
+    }
+  ]
+}

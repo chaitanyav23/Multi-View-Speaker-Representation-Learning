@@ -1,0 +1,62 @@
+{
+  "recording_id": "R01_sara_sharif",
+  "speaker_inventory": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02"
+  ],
+  "rttm_to_canonical_speaker_map": {
+    "speaker_0": "SPEAKER_00",
+    "SPEAKER_00": "SPEAKER_00",
+    "speaker_1": "SPEAKER_01",
+    "SPEAKER_01": "SPEAKER_01",
+    "speaker_2": "SPEAKER_02",
+    "SPEAKER_02": "SPEAKER_02"
+  },
+  "speaker_summaries": [
+    {
+      "speaker_id": "SPEAKER_00",
+      "total_speaking_duration_sec": 42.528,
+      "turn_count": 6,
+      "word_count": 146,
+      "first_appearance_sec": 16.92,
+      "last_appearance_sec": 72.275,
+      "mean_word_confidence": 0.5792,
+      "accepted_corrections_into_speaker": 0,
+      "accepted_corrections_out_of_speaker": 0
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "total_speaking_duration_sec": 13.071,
+      "turn_count": 3,
+      "word_count": 52,
+      "first_appearance_sec": 9.409,
+      "last_appearance_sec": 85.679,
+      "mean_word_confidence": 0.3352,
+      "accepted_corrections_into_speaker": 1,
+      "accepted_corrections_out_of_speaker": 0
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "total_speaking_duration_sec": 17.209,
+      "turn_count": 3,
+      "word_count": 66,
+      "first_appearance_sec": 2.987,
+      "last_appearance_sec": 94.61,
+      "mean_word_confidence": 0.4035,
+      "accepted_corrections_into_speaker": 0,
+      "accepted_corrections_out_of_speaker": 1
+    },
+    {
+      "speaker_id": "UNK",
+      "total_speaking_duration_sec": 0.325,
+      "turn_count": 1,
+      "word_count": 2,
+      "first_appearance_sec": 2.052,
+      "last_appearance_sec": 2.377,
+      "mean_word_confidence": 0.291,
+      "accepted_corrections_into_speaker": 0,
+      "accepted_corrections_out_of_speaker": 0
+    }
+  ]
+}

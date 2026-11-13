@@ -1,0 +1,416 @@
+{
+  "recording_id": "R04_piers_robinson",
+  "filename": "R04_piers_robinson.wav",
+  "execution_mode": "FROZEN_INPUT_REPLAY",
+  "diarization_condition": "Stage5A.1_Condition_J_DualEncoder_EqualFusion",
+  "diarization_backend": "TitaNet-Large(DFN,192D) + WeSpeaker-ResNet293-LM(Mono,256D) -> ZScore-Equal-Affinity-Fusion -> NME-SC",
+  "refinement_model": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1 (Q4_K_M, LG-TPST)",
+  "created_at": "2026-11-13T17:58:35.267374+00:00",
+  "total_pipeline_sec": 11.7537,
+  "ground_truth_isolation_enforced": true,
+  "frozen_inputs_sha256_verified": true,
+  "input_sha256_hashes": {
+    "asr_aligned_words": "f1f2fc96584bbccffc0bab54a406cdaabd7f1fcf808f66e868a957f2c1271875",
+    "predicted_rttm": "f2c72ba7533d9a39b63212e5d4ee413d105e7af666caa5134d380295d9211365",
+    "overlap_posteriors": "2d637b38e90d597deb7851fb8ba5deb9c4e6dc81de21a51a4e3d23e9f263ce8d",
+    "16k_mono_wav": "0be1c41eaf09b7f1c1821ea9ba40ede65332ce4b62dbd37ced2352cda4c38c31",
+    "dfn_wav": "c9d8292e6d30f02b0e78e302f8471cd95f0ef2a5243c0f5055b5fb96d501ac59",
+    "normalized_wav": "059d522a075d04b5c0cca21289b4119c09bd97b954d8c20ee3fb1ce6b845c33d"
+  },
+  "audio_routing": {
+    "source_media_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R04_piers_robinson/R04_piers_robinson_16k_mono.wav",
+    "titanet_dfn_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R04_piers_robinson/R04_piers_robinson_dfn.wav",
+    "wespeaker_raw_mono_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R04_piers_robinson/R04_piers_robinson_16k_mono.wav",
+    "asr_normalized_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R04_piers_robinson/R04_piers_robinson_normalized.wav",
+    "overlap_raw_mono_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R04_piers_robinson/R04_piers_robinson_16k_mono.wav",
+    "sample_rate": 16000,
+    "channels": 1,
+    "duration_sec": 204.5446,
+    "sha256_hashes": {
+      "16k_mono_wav": "0be1c41eaf09b7f1c1821ea9ba40ede65332ce4b62dbd37ced2352cda4c38c31",
+      "dfn_wav": "c9d8292e6d30f02b0e78e302f8471cd95f0ef2a5243c0f5055b5fb96d501ac59",
+      "normalized_wav": "059d522a075d04b5c0cca21289b4119c09bd97b954d8c20ee3fb1ce6b845c33d"
+    }
+  },
+  "rttm_to_canonical_speaker_map": {
+    "speaker_0": "SPEAKER_00",
+    "SPEAKER_00": "SPEAKER_00",
+    "speaker_1": "SPEAKER_01",
+    "SPEAKER_01": "SPEAKER_01",
+    "speaker_2": "SPEAKER_02",
+    "SPEAKER_02": "SPEAKER_02"
+  },
+  "canonical_to_dlm_tag_map": {
+    "SPEAKER_00": "1",
+    "SPEAKER_01": "2",
+    "SPEAKER_02": "3"
+  },
+  "refinement_telemetry": {
+    "recording_id": "R04_piers_robinson",
+    "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+    "ollama_model_name": "diarizationlm-gemma",
+    "quantization": "Q4_K_M",
+    "provider_version": "ollama-0.32.6",
+    "total_runtime_sec": 9.7005,
+    "total_prompt_tokens": 1250,
+    "total_completion_tokens": 1092,
+    "segment_count": 3,
+    "summary_counts": {
+      "total_words": 689,
+      "accepted_corrections": 22,
+      "rejected_proposals": 17,
+      "abstained_words": 20,
+      "unchanged_words": 630,
+      "reasons_breakdown": {
+        "ABSTAINED_LOCALITY_GATE": 20,
+        "ACCEPTED_VALIDATED_TRANSFER": 22,
+        "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION": 17,
+        "UNCHANGED_BASELINE_CONFIRMED": 630
+      }
+    },
+    "segment_telemetries": [
+      {
+        "segment_id": "R04_piers_robinson__seg_000",
+        "recording_id": "R04_piers_robinson",
+        "start_word_index": 0,
+        "end_word_index": 299,
+        "word_count": 300,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 563,
+        "completion_tokens": 522,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 4.3361,
+        "prompt_text": "<|turn>user\n<speaker:2> Would you have a ban, like Donald Trump suggested in America, would you have a ban on Muslims entering the country, new Muslims trying to have a home in this country? <speaker:1> I believe, I believe we need to protect the British public right now. <speaker:2> So what's the answer to the <speaker:3> question? Including British <speaker:1> Muslims? Yeah, the British public. I didn't say British non-Muslim public, I said the British public. We've had three terror attacks, children are being killed. <speaker:2> Yes, we all know what's been happening. <speaker:1> Yes, I would. <speaker:2> You would ban all Muslims? I <speaker:1> would temporarily halt Muslim immigration to this country until we get a grip of the problem. I differentiate Muslims from Islam. Right, <speaker:2> but what you don't do... How can you <speaker:3> differentiate Muslims <speaker:1> from Islam? Muslims are people. Islam is an idea. Islam is an idea, a bad idea. And <speaker:2> Muslims <speaker:1> follow that faith. It's an idea that you can change your mind. <speaker:2> No, it's a faith. Like Christianity. <speaker:1> Like Scientology. <speaker:2> Like all faiths. Like Scientology. It's a religion, it's a faith. <speaker:1> Like Scientology. <speaker:3> So, Tommy, if you're saying that the problem is with Islam, are you accepting that you're Islamophobic? <speaker:1> Because there are a hundred verses in this book. <speaker:3> Yes or no? Are you Islamophobic? There's <speaker:1> no such word as Islamophobia. Phobia is an irrational fear. It's not irrational to fear these things. Now, if I hold this book up and say, there will never be peace on this earth so long as we have this book, it's a violent and cursed book. Can I tell you who said that? Sir William Gladstone said that. You wouldn't do that with the Bible. <speaker:2> Show some respect. <speaker:1> Show some respect. Show <speaker:2> some respect. <speaker:1> Have you read this <speaker:2> book? For people? Have <speaker:1> you read this book? There are over --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:2> Would you have a ban, like Donald Trump suggested in America, would you have a ban on Muslims entering the country, new Muslims trying to have a home in this country? <speaker:1> I believe, I believe we need to protect the British public right now. <speaker:2> So what's the answer to the question? Including British <speaker:1> Muslims? Yeah, the British public. I didn't say British non-Muslim public, I said the British public. We've had three terror attacks, children are being killed. <speaker:2> Yes, we all know what's been happening. <speaker:1> Yes, I would. <speaker:2> You would ban all Muslims? <speaker:1> I would temporarily halt Muslim immigration to this country until we get a grip of the problem. I differentiate Muslims from Islam. <speaker:2> Right, but what you don't do... How can you differentiate Muslims from Islam? <speaker:1> Muslims are people. Islam is an idea. Islam is an idea, a bad idea. And Muslims follow that faith. It's an idea that you can change your mind. <speaker:2> No, it's a faith. Like Christianity. <speaker:1> Like Scientology. <speaker:2> Like all faiths. Like Scientology. It's a religion, it's a faith. <speaker:1> Like Scientology. <speaker:3> So, Tommy, if you're saying that the problem is with Islam, are you accepting that you're Islamophobic? <speaker:1> Because there are a hundred verses in this book. <speaker:3> Yes or no? Are you Islamophobic? There's <speaker:1> no such word as Islamophobia. Phobia is an irrational fear. It's not irrational to fear these things. Now, if I hold this book up and say, there will never be peace on this earth so long as we have this book, it's a violent and cursed book. Can I tell you who said that? Sir William Gladstone said that. You wouldn't do that with the Bible. <speaker:2> Show some respect. <speaker:1> Show some respect. <speaker:2> Show some respect. <speaker:1> Have you read this book? <speaker:2> For people? <speaker:1> Have you read this book? There are over ",
+        "cleaned_completion": "<speaker:2> Would you have a ban, like Donald Trump suggested in America, would you have a ban on Muslims entering the country, new Muslims trying to have a home in this country? <speaker:1> I believe, I believe we need to protect the British public right now. <speaker:2> So what's the answer to the question? Including British <speaker:1> Muslims? Yeah, the British public. I didn't say British non-Muslim public, I said the British public. We've had three terror attacks, children are being killed. <speaker:2> Yes, we all know what's been happening. <speaker:1> Yes, I would. <speaker:2> You would ban all Muslims? <speaker:1> I would temporarily halt Muslim immigration to this country until we get a grip of the problem. I differentiate Muslims from Islam. <speaker:2> Right, but what you don't do... How can you differentiate Muslims from Islam? <speaker:1> Muslims are people. Islam is an idea. Islam is an idea, a bad idea. And Muslims follow that faith. It's an idea that you can change your mind. <speaker:2> No, it's a faith. Like Christianity. <speaker:1> Like Scientology. <speaker:2> Like all faiths. Like Scientology. It's a religion, it's a faith. <speaker:1> Like Scientology. <speaker:3> So, Tommy, if you're saying that the problem is with Islam, are you accepting that you're Islamophobic? <speaker:1> Because there are a hundred verses in this book. <speaker:3> Yes or no? Are you Islamophobic? There's <speaker:1> no such word as Islamophobia. Phobia is an irrational fear. It's not irrational to fear these things. Now, if I hold this book up and say, there will never be peace on this earth so long as we have this book, it's a violent and cursed book. Can I tell you who said that? Sir William Gladstone said that. You wouldn't do that with the Bible. <speaker:2> Show some respect. <speaker:1> Show some respect. <speaker:2> Show some respect. <speaker:1> Have you read this book? <speaker:2> For people? <speaker:1> Have you read this book? There are over",
+        "accepted_count": 8,
+        "rejected_count": 5,
+        "abstained_count": 0,
+        "unchanged_count": 287,
+        "rejection_reasons_breakdown": {
+          "UNCHANGED_BASELINE_CONFIRMED": 287,
+          "ACCEPTED_VALIDATED_TRANSFER": 8,
+          "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION": 5
+        }
+      },
+      {
+        "segment_id": "R04_piers_robinson__seg_001",
+        "recording_id": "R04_piers_robinson",
+        "start_word_index": 300,
+        "end_word_index": 599,
+        "word_count": 300,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 527,
+        "completion_tokens": 446,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 3.8272,
+        "prompt_text": "<|turn>user\n<speaker:1> a billion people. There are a hundred verses in this book that incite violence and murder against us. Show <speaker:2> some damn respect for people's religious beliefs, right? <speaker:1> I should show some respect for a book that incites murder against me. Put <speaker:2> it down. <speaker:1> And calls me, this calls me an animal. No, I put it down. sir william gladstone held this book above his head in parliament and he said there will never be peace on this earth so long as we have this book it's a violent and cursed book was sir william gladstone who we have statues across our capital c was he a bigot or an islamic winston church <speaker:2> sounding like a complete <speaker:1> winston church no i'm quoting previous some of the best leaders in this country <speaker:2> sounding like a bigoted lunatic <speaker:1> no i'm not <speaker:2> somebody that <speaker:1> basically <speaker:2> you are an islamic who hates islam no <speaker:1> i don't <speaker:2> basically think all muslims are blame we've seen you on video saying it and what you're doing now is deliberately inflammatory it is deliberately poisonous <speaker:1> and you are having the complete <speaker:2> opposite effect to the one that you <speaker:1> say you are you are <speaker:2> stirring up hatred you are abusing people's religion you're abusing their faith and you're being a complete disgrace <speaker:1> what do you know about the prophet muhammad We've established nothing. You are ignorant. I know <speaker:2> that you're deliberately insulting people. What <speaker:1> do you know about the Prophet? How am I insulting people? <speaker:2> Who have deeply held religious beliefs. <speaker:1> And you <speaker:2> flouncing the Quran around in your hand <speaker:1> in that <speaker:2> disgraceful manner is <speaker:1> outrageous. This book is the reason we're in such a mess. That's the reality. <speaker:2> No, we're in this mess because people take Islam, they are terrorists, and they abuse the nature of Islam and the --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:1> a billion people. There are a hundred verses in this book that incite violence and murder against us. <speaker:2> Show some damn respect for people's religious beliefs, right? <speaker:1> I should show some respect for a book that incites murder against me. <speaker:2> Put it down. <speaker:1> And calls me, this calls me an animal. No, I put it down. sir william gladstone held this book above his head in parliament and he said there will never be peace on this earth so long as we have this book it's a violent and cursed book was sir william gladstone who we have statues across our capital c <speaker:2> was he a bigot or an islamic winston church sounding like a complete <speaker:1> winston church no i'm quoting previous some of the best leaders in this country <speaker:2> sounding like a bigoted lunatic <speaker:1> no i'm not somebody that basically you are an islamic who hates islam no i don't <speaker:2> basically think all muslims are blame we've seen you on video saying it and what you're doing now is deliberately inflammatory it is deliberately poisonous and you are having the complete opposite effect to the one that you say you are you are stirring up hatred you are abusing people's religion you're abusing their faith and you're being a complete disgrace <speaker:1> what do you know about the prophet muhammad We've established nothing. You are ignorant. <speaker:2> I know that you're deliberately insulting people. <speaker:1> What do you know about the Prophet? How am I insulting people? <speaker:2> Who have deeply held religious beliefs. And you flouncing the Quran around in your hand in that disgraceful manner is outrageous. <speaker:1> This book is the reason we're in such a mess. That's the reality. <speaker:2> No, we're in this mess because people take Islam, they are terrorists, and they abuse the nature of Islam and the ",
+        "cleaned_completion": "<speaker:1> a billion people. There are a hundred verses in this book that incite violence and murder against us. <speaker:2> Show some damn respect for people's religious beliefs, right? <speaker:1> I should show some respect for a book that incites murder against me. <speaker:2> Put it down. <speaker:1> And calls me, this calls me an animal. No, I put it down. sir william gladstone held this book above his head in parliament and he said there will never be peace on this earth so long as we have this book it's a violent and cursed book was sir william gladstone who we have statues across our capital c <speaker:2> was he a bigot or an islamic winston church sounding like a complete <speaker:1> winston church no i'm quoting previous some of the best leaders in this country <speaker:2> sounding like a bigoted lunatic <speaker:1> no i'm not somebody that basically you are an islamic who hates islam no i don't <speaker:2> basically think all muslims are blame we've seen you on video saying it and what you're doing now is deliberately inflammatory it is deliberately poisonous and you are having the complete opposite effect to the one that you say you are you are stirring up hatred you are abusing people's religion you're abusing their faith and you're being a complete disgrace <speaker:1> what do you know about the prophet muhammad We've established nothing. You are ignorant. <speaker:2> I know that you're deliberately insulting people. <speaker:1> What do you know about the Prophet? How am I insulting people? <speaker:2> Who have deeply held religious beliefs. And you flouncing the Quran around in your hand in that disgraceful manner is outrageous. <speaker:1> This book is the reason we're in such a mess. That's the reality. <speaker:2> No, we're in this mess because people take Islam, they are terrorists, and they abuse the nature of Islam and the",
+        "accepted_count": 10,
+        "rejected_count": 10,
+        "abstained_count": 20,
+        "unchanged_count": 260,
+        "rejection_reasons_breakdown": {
+          "UNCHANGED_BASELINE_CONFIRMED": 260,
+          "ACCEPTED_VALIDATED_TRANSFER": 10,
+          "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION": 10,
+          "ABSTAINED_LOCALITY_GATE": 20
+        }
+      },
+      {
+        "segment_id": "R04_piers_robinson__seg_002",
+        "recording_id": "R04_piers_robinson",
+        "start_word_index": 600,
+        "end_word_index": 688,
+        "word_count": 89,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 160,
+        "completion_tokens": 124,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 1.4162,
+        "prompt_text": "<|turn>user\n<speaker:2> wording of Islam. And they perpetrate evil, and it is completely wrong. Do you know that how? that the vast majority of muslims who are decent law-abiding people to trying to abuse and mock their faith and their holy book is an outrage <speaker:1> their holy book when you talk okay <speaker:3> so when the <speaker:1> sacred maps are past slay the non-muslims wherever you find them and take them captive and besiege them and prepare for them in ambush. Who's slaying who? I'm not slaying hatred, this calls <speaker:3> for my death. --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:2> wording of Islam. And they perpetrate evil, and it is completely wrong. Do you know that how? that the vast majority of muslims who are decent law-abiding people to trying to abuse and mock their faith and their holy book is an outrage <speaker:1> their holy book when you talk okay so when the sacred maps are past slay the non-muslims wherever you find them and take them captive and besiege them and prepare for them in ambush. Who's slaying who? I'm not slaying hatred, this calls for my death. ",
+        "cleaned_completion": "<speaker:2> wording of Islam. And they perpetrate evil, and it is completely wrong. Do you know that how? that the vast majority of muslims who are decent law-abiding people to trying to abuse and mock their faith and their holy book is an outrage <speaker:1> their holy book when you talk okay so when the sacred maps are past slay the non-muslims wherever you find them and take them captive and besiege them and prepare for them in ambush. Who's slaying who? I'm not slaying hatred, this calls for my death.",
+        "accepted_count": 4,
+        "rejected_count": 2,
+        "abstained_count": 0,
+        "unchanged_count": 83,
+        "rejection_reasons_breakdown": {
+          "UNCHANGED_BASELINE_CONFIRMED": 83,
+          "ACCEPTED_VALIDATED_TRANSFER": 4,
+          "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION": 2
+        }
+      }
+    ]
+  },
+  "stage_history": [
+    {
+      "stage": "UPLOADED",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.05,
+      "started_at": "2026-11-13T17:58:23.513676+00:00",
+      "completed_at": "2026-11-13T17:58:23.513690+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Resolved frozen benchmark inputs for R04_piers_robinson",
+      "artifacts": {
+        "recording_id": "R04_piers_robinson"
+      }
+    },
+    {
+      "stage": "QUEUED",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.1,
+      "started_at": "2026-11-13T17:58:23.513697+00:00",
+      "completed_at": "2026-11-13T17:58:23.513700+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Queued ConvoFuse job (Stage5A.1_Condition_J_DualEncoder_EqualFusion)",
+      "artifacts": {
+        "diarization_condition": "Stage5A.1_Condition_J_DualEncoder_EqualFusion"
+      }
+    },
+    {
+      "stage": "AUDIO_EXTRACTION",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.18,
+      "started_at": "2026-11-13T17:58:23.513703+00:00",
+      "completed_at": "2026-11-13T17:58:23.513712+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Reused task-specific conditioned audio streams (DFN 16kHz, Raw Mono 16kHz, EBU R128 Normalized 16kHz)",
+      "artifacts": {
+        "source_media_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R04_piers_robinson/R04_piers_robinson_16k_mono.wav",
+        "titanet_dfn_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R04_piers_robinson/R04_piers_robinson_dfn.wav",
+        "wespeaker_raw_mono_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R04_piers_robinson/R04_piers_robinson_16k_mono.wav",
+        "asr_normalized_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R04_piers_robinson/R04_piers_robinson_normalized.wav",
+        "overlap_raw_mono_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R04_piers_robinson/R04_piers_robinson_16k_mono.wav",
+        "sample_rate": 16000,
+        "channels": 1,
+        "duration_sec": 204.5446,
+        "sha256_hashes": {
+          "16k_mono_wav": "0be1c41eaf09b7f1c1821ea9ba40ede65332ce4b62dbd37ced2352cda4c38c31",
+          "dfn_wav": "c9d8292e6d30f02b0e78e302f8471cd95f0ef2a5243c0f5055b5fb96d501ac59",
+          "normalized_wav": "059d522a075d04b5c0cca21289b4119c09bd97b954d8c20ee3fb1ce6b845c33d"
+        }
+      }
+    },
+    {
+      "stage": "VAD",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.25,
+      "started_at": "2026-11-13T17:58:23.513715+00:00",
+      "completed_at": "2026-11-13T17:58:23.513718+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Reused Stage 2 / Stage 5B.4 C62 Silero VAD speech regions",
+      "artifacts": {
+        "condition": "Stage5A.1_Condition_J_DualEncoder_EqualFusion"
+      }
+    },
+    {
+      "stage": "ASR",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.35,
+      "started_at": "2026-11-13T17:58:23.513721+00:00",
+      "completed_at": "2026-11-13T17:58:23.514119+00:00",
+      "elapsed_sec": 0.000395,
+      "detail": "Loaded 689 Faster-Whisper Large-v3 words from frozen Stage 2 output",
+      "artifacts": {
+        "asr_aligned_words_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage2_baseline/whisperx/R04_piers_robinson_aligned.json",
+        "word_count": 689
+      }
+    },
+    {
+      "stage": "WORD_ALIGNMENT",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.42,
+      "started_at": "2026-11-13T17:58:23.514124+00:00",
+      "completed_at": "2026-11-13T17:58:23.514127+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Verified Wav2Vec2 CTC word-level timestamps (689 words)",
+      "artifacts": {
+        "word_count": 689
+      }
+    },
+    {
+      "stage": "SPEAKER_REPRESENTATION",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.5,
+      "started_at": "2026-11-13T17:58:23.514130+00:00",
+      "completed_at": "2026-11-13T17:58:23.514251+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Reused dual-path speaker embeddings: TitaNet-Large (192-D on DFN) + WeSpeaker ResNet293-LM (256-D on Raw Mono)",
+      "artifacts": {
+        "diarization_backend": "TitaNet-Large(DFN,192D) + WeSpeaker-ResNet293-LM(Mono,256D) -> ZScore-Equal-Affinity-Fusion -> NME-SC"
+      }
+    },
+    {
+      "stage": "AFFINITY_FUSION",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.58,
+      "started_at": "2026-11-13T17:58:23.514255+00:00",
+      "completed_at": "2026-11-13T17:58:23.514258+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Reused off-diagonal Z-score normalized dual-encoder cosine affinity fusion",
+      "artifacts": {
+        "diarization_condition": "Stage5A.1_Condition_J_DualEncoder_EqualFusion"
+      }
+    },
+    {
+      "stage": "CLUSTERING",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.65,
+      "started_at": "2026-11-13T17:58:23.514261+00:00",
+      "completed_at": "2026-11-13T17:58:23.514266+00:00",
+      "elapsed_sec": 0.000119,
+      "detail": "Loaded 69 NME-SC spectral clustering speaker segments from R04_piers_robinson_dfn.rttm",
+      "artifacts": {
+        "predicted_rttm_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage5a_1/predictions/rttms/condition_J_norm_equal_weight_fusion/R04_piers_robinson_dfn.rttm",
+        "rttm_segment_count": 69
+      }
+    },
+    {
+      "stage": "WORD_SPEAKER_ASSIGNMENT",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.72,
+      "started_at": "2026-11-13T17:58:23.514269+00:00",
+      "completed_at": "2026-11-13T17:58:23.540678+00:00",
+      "elapsed_sec": 0.026358,
+      "detail": "Associated 689 words across 3 speakers (0 UNK, 44 overlapping)",
+      "artifacts": {
+        "word_count": 689,
+        "speaker_inventory": [
+          "SPEAKER_00",
+          "SPEAKER_01",
+          "SPEAKER_02"
+        ],
+        "unk_word_count": 0,
+        "overlapping_word_count": 44
+      }
+    },
+    {
+      "stage": "GENERATIVE_REFINEMENT",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.88,
+      "started_at": "2026-11-13T17:58:23.540687+00:00",
+      "completed_at": "2026-11-13T17:58:33.242289+00:00",
+      "elapsed_sec": 9.701594,
+      "detail": "Completed DiarizationLM-Gemma TPST refinement in 9.70s (ground-truth isolated)",
+      "artifacts": {
+        "model": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1 (Q4_K_M, LG-TPST)",
+        "summary_counts": {
+          "total_words": 689,
+          "accepted_corrections": 22,
+          "rejected_proposals": 17,
+          "abstained_words": 20,
+          "unchanged_words": 630,
+          "reasons_breakdown": {
+            "ABSTAINED_LOCALITY_GATE": 20,
+            "ACCEPTED_VALIDATED_TRANSFER": 22,
+            "REJECTED_UNSUPPORTED_OVERLAP_CORRECTION": 17,
+            "UNCHANGED_BASELINE_CONFIRMED": 630
+          }
+        },
+        "ground_truth_isolated": true
+      }
+    },
+    {
+      "stage": "TRANSCRIPT_RECONSTRUCTION",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.94,
+      "started_at": "2026-11-13T17:58:33.242303+00:00",
+      "completed_at": "2026-11-13T17:58:33.246653+00:00",
+      "elapsed_sec": 0.004346,
+      "detail": "Reconstructed 61 chronological turns across 3 speakers",
+      "artifacts": {
+        "baseline_turn_count": 59,
+        "refined_turn_count": 61,
+        "speaker_count": 3
+      }
+    },
+    {
+      "stage": "EVALUATION",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.98,
+      "started_at": "2026-11-13T17:58:33.259148+00:00",
+      "completed_at": "2026-11-13T17:58:35.267344+00:00",
+      "elapsed_sec": 2.00819,
+      "detail": "Executed post-inference evaluation (strictly isolated from inference)",
+      "artifacts": {
+        "has_reference_annotations": true,
+        "metric_deltas": {
+          "delta_wder_timestamp_assigned": 0.0,
+          "delta_wder_timestamp_all_ref": 0.0,
+          "delta_wder_lexical": -0.0081,
+          "delta_cpwer": -0.0082
+        }
+      }
+    },
+    {
+      "stage": "COMPLETED",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 1.0,
+      "started_at": "2026-11-13T17:58:35.267363+00:00",
+      "completed_at": "2026-11-13T17:58:35.267369+00:00",
+      "elapsed_sec": 11.753696,
+      "detail": "ConvoFuse pipeline completed in 11.75s",
+      "artifacts": {
+        "total_pipeline_sec": 11.7537
+      }
+    }
+  ]
+}

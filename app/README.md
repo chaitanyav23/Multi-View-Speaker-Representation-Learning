@@ -1,7 +1,12 @@
-# Video Transcription with Confidence Analytics Platform (`app/`)
+# Multi-View-Speaker-Representation-Learning — Optional Demonstration Interface (`app/`)
 
-**Course Project:** CS698B — Conversational Intelligence Platform  
-**Specification:** Video Transcription with Confidence Analytics  
+> [!IMPORTANT]
+> **Optional / Non-Deliverable Demonstration Interface Notice**
+> - This `app/` directory is an **optional demonstration interface** only.
+> - It is **NOT required** to run the ConvoFuse research CLI (`python -m convofuse.cli`).
+> - It is **NOT a deployment deliverable** of this project.
+> - It is **NOT the authoritative implementation** of the Multi-View Speaker Representation Learning and ConvoFuse research (which resides in [`convofuse/`](../convofuse/), [`research_stages/`](../research_stages/), and [`research_audit/`](../research_audit/)).
+> - For the authoritative CLI workflow, evaluation tables, and reproducibility instructions, see the root [`README.md`](../README.md), [`REPRODUCIBILITY.md`](../REPRODUCIBILITY.md), and [`FINAL_PROJECT_REPORT.md`](../FINAL_PROJECT_REPORT.md).
 
 ---
 

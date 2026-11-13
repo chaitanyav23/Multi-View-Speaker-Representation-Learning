@@ -1,0 +1,366 @@
+{
+  "recording_id": "R08_uk_parliament",
+  "filename": "R08_uk_parliament.wav",
+  "execution_mode": "FROZEN_INPUT_REPLAY",
+  "diarization_condition": "Stage5A.1_Condition_J_DualEncoder_EqualFusion",
+  "diarization_backend": "TitaNet-Large(DFN,192D) + WeSpeaker-ResNet293-LM(Mono,256D) -> ZScore-Equal-Affinity-Fusion -> NME-SC",
+  "refinement_model": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1 (Q4_K_M, LG-TPST)",
+  "created_at": "2026-11-13T17:59:35.448448+00:00",
+  "total_pipeline_sec": 6.9946,
+  "ground_truth_isolation_enforced": true,
+  "frozen_inputs_sha256_verified": true,
+  "input_sha256_hashes": {
+    "asr_aligned_words": "c81f22c90a441dff311501aeff7f5971600d5dc2de5e53c2985a60365baa0791",
+    "predicted_rttm": "a2d3d98fda9aed0126c57b74a331f346ffafcbabcf19ca1fc516bee6d489a15d",
+    "overlap_posteriors": "413d48df20d4bf22c6fbedb6890b6a99beb39ceb10042f37ffcd121332525ed0",
+    "16k_mono_wav": "6bdde2108aa299eeae45b26a7f0976ec637071c3f35341b862f1daf8d11f7d4a",
+    "dfn_wav": "d571c7f01beed6fed114b89957deec530dcd9475ab8f72cd6393fe0d768e8884",
+    "normalized_wav": "6fd845ee300a4f0da3dc77622c507d2a912fb64c4ba17b482e57faae86c20bb3"
+  },
+  "audio_routing": {
+    "source_media_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R08_uk_parliament/R08_uk_parliament_16k_mono.wav",
+    "titanet_dfn_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R08_uk_parliament/R08_uk_parliament_dfn.wav",
+    "wespeaker_raw_mono_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R08_uk_parliament/R08_uk_parliament_16k_mono.wav",
+    "asr_normalized_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R08_uk_parliament/R08_uk_parliament_normalized.wav",
+    "overlap_raw_mono_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R08_uk_parliament/R08_uk_parliament_16k_mono.wav",
+    "sample_rate": 16000,
+    "channels": 1,
+    "duration_sec": 215.3419,
+    "sha256_hashes": {
+      "16k_mono_wav": "6bdde2108aa299eeae45b26a7f0976ec637071c3f35341b862f1daf8d11f7d4a",
+      "dfn_wav": "d571c7f01beed6fed114b89957deec530dcd9475ab8f72cd6393fe0d768e8884",
+      "normalized_wav": "6fd845ee300a4f0da3dc77622c507d2a912fb64c4ba17b482e57faae86c20bb3"
+    }
+  },
+  "rttm_to_canonical_speaker_map": {
+    "speaker_0": "SPEAKER_00",
+    "SPEAKER_00": "SPEAKER_00",
+    "speaker_1": "SPEAKER_01",
+    "SPEAKER_01": "SPEAKER_01"
+  },
+  "canonical_to_dlm_tag_map": {
+    "SPEAKER_00": "1",
+    "SPEAKER_01": "2"
+  },
+  "refinement_telemetry": {
+    "recording_id": "R08_uk_parliament",
+    "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+    "ollama_model_name": "diarizationlm-gemma",
+    "quantization": "Q4_K_M",
+    "provider_version": "ollama-0.32.6",
+    "total_runtime_sec": 6.2058,
+    "total_prompt_tokens": 722,
+    "total_completion_tokens": 680,
+    "segment_count": 2,
+    "summary_counts": {
+      "total_words": 468,
+      "accepted_corrections": 1,
+      "rejected_proposals": 0,
+      "abstained_words": 0,
+      "unchanged_words": 467,
+      "reasons_breakdown": {
+        "ACCEPTED_VALIDATED_TRANSFER": 1,
+        "UNCHANGED_BASELINE_CONFIRMED": 467
+      }
+    },
+    "segment_telemetries": [
+      {
+        "segment_id": "R08_uk_parliament__seg_000",
+        "recording_id": "R08_uk_parliament",
+        "start_word_index": 0,
+        "end_word_index": 299,
+        "word_count": 300,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 456,
+        "completion_tokens": 435,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 3.7622,
+        "prompt_text": "<|turn>user\n<speaker:1> When he was leader of the opposition, the Prime Minister said, and I quote, I never turn on my staff. When they make mistakes, I carry the can. What changed? <speaker:2> Thank you, Prime Minister. Well, Mr Speaker, I've accepted responsibility and apologised for the mistakes that I made. But let me say this, Mr. Speaker. Let me say this, Mr. Speaker. Morgan McSweeney helped me change our party. and help me win a landslide election victory. which delivered for them the smallest Tory party in over 100 years. And what's her great achievement? to make it even smaller. Okay, we're not... <speaker:1> The Whips have done a great job today. This is like the 37th... Oh, you said, yeah, exactly. Done a great job today getting them cheering. We all know that they've been sick for the last week because let's remember, Mr Speaker, just last week, just last week, he told us that he had full confidence in his Chief of Staff, Morgan McSweeney. On Sunday, he sacked Morgan McSweeney. Last week. He resigned. Last week, Mr Speaker, he was defending the cabinet secretary, now he is sacking him. What changed? <speaker:2> Prime Minister. Mr Speaker, in January, she said she had full confidence... 100% confident, she said, there'd be no more defections from her party. 48 hours later, I can... the shadow Foreign Minister defected. Eight days after that, the former Home Secretary defected. The only question now is... Who's next? She needs to wake up. Her party is dying. Mr Speaker, Matthew Doyle did not give a full account of his actions. And on Monday, I promised my party and my country there will be change. And yesterday, I removed the wick from Matthew Doyle. I'll tell you what other action we've taken, Mr Speaker. Along with the safeguarding --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:1> When he was leader of the opposition, the Prime Minister said, and I quote, I never turn on my staff. When they make mistakes, I carry the can. What changed? <speaker:2> Thank you, Prime Minister. Well, Mr Speaker, I've accepted responsibility and apologised for the mistakes that I made. But let me say this, Mr. Speaker. Let me say this, Mr. Speaker. Morgan McSweeney helped me change our party. and help me win a landslide election victory. which delivered for them the smallest Tory party in over 100 years. And what's her great achievement? to make it even smaller. Okay, we're not... <speaker:1> The Whips have done a great job today. This is like the 37th... Oh, you said, yeah, exactly. Done a great job today getting them cheering. We all know that they've been sick for the last week because let's remember, Mr Speaker, just last week, just last week, he told us that he had full confidence in his Chief of Staff, Morgan McSweeney. On Sunday, he sacked Morgan McSweeney. Last week. He resigned. Last week, Mr Speaker, he was defending the cabinet secretary, now he is sacking him. What changed? <speaker:2> Prime Minister. Mr Speaker, in January, she said she had full confidence... 100% confident, she said, there'd be no more defections from her party. 48 hours later, I can... the shadow Foreign Minister defected. Eight days after that, the former Home Secretary defected. The only question now is... Who's next? She needs to wake up. Her party is dying. Mr Speaker, Matthew Doyle did not give a full account of his actions. And on Monday, I promised my party and my country there will be change. And yesterday, I removed the wick from Matthew Doyle. I'll tell you what other action we've taken, Mr Speaker. Along with the safeguarding ",
+        "cleaned_completion": "<speaker:1> When he was leader of the opposition, the Prime Minister said, and I quote, I never turn on my staff. When they make mistakes, I carry the can. What changed? <speaker:2> Thank you, Prime Minister. Well, Mr Speaker, I've accepted responsibility and apologised for the mistakes that I made. But let me say this, Mr. Speaker. Let me say this, Mr. Speaker. Morgan McSweeney helped me change our party. and help me win a landslide election victory. which delivered for them the smallest Tory party in over 100 years. And what's her great achievement? to make it even smaller. Okay, we're not... <speaker:1> The Whips have done a great job today. This is like the 37th... Oh, you said, yeah, exactly. Done a great job today getting them cheering. We all know that they've been sick for the last week because let's remember, Mr Speaker, just last week, just last week, he told us that he had full confidence in his Chief of Staff, Morgan McSweeney. On Sunday, he sacked Morgan McSweeney. Last week. He resigned. Last week, Mr Speaker, he was defending the cabinet secretary, now he is sacking him. What changed? <speaker:2> Prime Minister. Mr Speaker, in January, she said she had full confidence... 100% confident, she said, there'd be no more defections from her party. 48 hours later, I can... the shadow Foreign Minister defected. Eight days after that, the former Home Secretary defected. The only question now is... Who's next? She needs to wake up. Her party is dying. Mr Speaker, Matthew Doyle did not give a full account of his actions. And on Monday, I promised my party and my country there will be change. And yesterday, I removed the wick from Matthew Doyle. I'll tell you what other action we've taken, Mr Speaker. Along with the safeguarding",
+        "accepted_count": 0,
+        "rejected_count": 0,
+        "abstained_count": 0,
+        "unchanged_count": 300,
+        "rejection_reasons_breakdown": {
+          "UNCHANGED_BASELINE_CONFIRMED": 300
+        }
+      },
+      {
+        "segment_id": "R08_uk_parliament__seg_001",
+        "recording_id": "R08_uk_parliament",
+        "start_word_index": 300,
+        "end_word_index": 467,
+        "word_count": 168,
+        "model_identifier": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1",
+        "ollama_model_name": "diarizationlm-gemma",
+        "quantization": "Q4_K_M",
+        "provider_version": "ollama-0.32.6",
+        "prompt_configuration": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "seed": 42,
+          "num_predict": 2048,
+          "stop": [
+            "<turn|>",
+            "[eod]"
+          ]
+        },
+        "prompt_tokens": 266,
+        "completion_tokens": 245,
+        "done": true,
+        "done_reason": "stop",
+        "runtime_sec": 2.3481,
+        "prompt_text": "<|turn>user\n<speaker:2> minister, I and this government have introduced the most far-reaching, vile against women and girls... <speaker:1> Mr Speaker, he hasn't apologised for appointing Matthew Doyle because he won't take responsibility. He never does, and they know it. The Prime Minister is now telling everyone that he's never lost a fight. It's because he won't step into the ring. He's never lost a fight. He's walked away from welfare reform. He won't stand up to the unions. He won't stand up to China. He can't even stand up to Mauritius. He's had, Mr. Speaker, he's had three cabinet secretaries, four chiefs of staff, five director of communications in just 18 months. And now he is mired in yet another scandal. Does he ever look in the mirror and ask himself, is the real problem staring him in the face? Yeah! <speaker:2> Mr. Speaker, I delivered a landslide victory for our government. Only four people have ever elected the Labour Party to victory in a general election. I am one of them. --> <turn|>\n<|turn>model\n",
+        "raw_completion": "<speaker:2> minister, I and this government have introduced the most far-reaching, vile against women and girls... <speaker:1> Mr Speaker, he hasn't apologised for appointing Matthew Doyle because he won't take responsibility. He never does, and they know it. The Prime Minister is now telling everyone that he's never lost a fight. It's because he won't step into the ring. He's never lost a fight. He's walked away from welfare reform. He won't stand up to the unions. He won't stand up to China. He can't even stand up to Mauritius. He's had, Mr. Speaker, he's had three cabinet secretaries, four chiefs of staff, five director of communications in just 18 months. And now he is mired in yet another scandal. Does he ever look in the mirror and ask himself, is the real problem staring him in the face? <speaker:2> Yeah! Mr. Speaker, I delivered a landslide victory for our government. Only four people have ever elected the Labour Party to victory in a general election. I am one of them. ",
+        "cleaned_completion": "<speaker:2> minister, I and this government have introduced the most far-reaching, vile against women and girls... <speaker:1> Mr Speaker, he hasn't apologised for appointing Matthew Doyle because he won't take responsibility. He never does, and they know it. The Prime Minister is now telling everyone that he's never lost a fight. It's because he won't step into the ring. He's never lost a fight. He's walked away from welfare reform. He won't stand up to the unions. He won't stand up to China. He can't even stand up to Mauritius. He's had, Mr. Speaker, he's had three cabinet secretaries, four chiefs of staff, five director of communications in just 18 months. And now he is mired in yet another scandal. Does he ever look in the mirror and ask himself, is the real problem staring him in the face? <speaker:2> Yeah! Mr. Speaker, I delivered a landslide victory for our government. Only four people have ever elected the Labour Party to victory in a general election. I am one of them.",
+        "accepted_count": 1,
+        "rejected_count": 0,
+        "abstained_count": 0,
+        "unchanged_count": 167,
+        "rejection_reasons_breakdown": {
+          "UNCHANGED_BASELINE_CONFIRMED": 167,
+          "ACCEPTED_VALIDATED_TRANSFER": 1
+        }
+      }
+    ]
+  },
+  "stage_history": [
+    {
+      "stage": "UPLOADED",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.05,
+      "started_at": "2026-11-13T17:59:28.453814+00:00",
+      "completed_at": "2026-11-13T17:59:28.453829+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Resolved frozen benchmark inputs for R08_uk_parliament",
+      "artifacts": {
+        "recording_id": "R08_uk_parliament"
+      }
+    },
+    {
+      "stage": "QUEUED",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.1,
+      "started_at": "2026-11-13T17:59:28.453836+00:00",
+      "completed_at": "2026-11-13T17:59:28.453840+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Queued ConvoFuse job (Stage5A.1_Condition_J_DualEncoder_EqualFusion)",
+      "artifacts": {
+        "diarization_condition": "Stage5A.1_Condition_J_DualEncoder_EqualFusion"
+      }
+    },
+    {
+      "stage": "AUDIO_EXTRACTION",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.18,
+      "started_at": "2026-11-13T17:59:28.453844+00:00",
+      "completed_at": "2026-11-13T17:59:28.453850+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Reused task-specific conditioned audio streams (DFN 16kHz, Raw Mono 16kHz, EBU R128 Normalized 16kHz)",
+      "artifacts": {
+        "source_media_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R08_uk_parliament/R08_uk_parliament_16k_mono.wav",
+        "titanet_dfn_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R08_uk_parliament/R08_uk_parliament_dfn.wav",
+        "wespeaker_raw_mono_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R08_uk_parliament/R08_uk_parliament_16k_mono.wav",
+        "asr_normalized_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R08_uk_parliament/R08_uk_parliament_normalized.wav",
+        "overlap_raw_mono_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage1_data_prep/audio/R08_uk_parliament/R08_uk_parliament_16k_mono.wav",
+        "sample_rate": 16000,
+        "channels": 1,
+        "duration_sec": 215.3419,
+        "sha256_hashes": {
+          "16k_mono_wav": "6bdde2108aa299eeae45b26a7f0976ec637071c3f35341b862f1daf8d11f7d4a",
+          "dfn_wav": "d571c7f01beed6fed114b89957deec530dcd9475ab8f72cd6393fe0d768e8884",
+          "normalized_wav": "6fd845ee300a4f0da3dc77622c507d2a912fb64c4ba17b482e57faae86c20bb3"
+        }
+      }
+    },
+    {
+      "stage": "VAD",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.25,
+      "started_at": "2026-11-13T17:59:28.453854+00:00",
+      "completed_at": "2026-11-13T17:59:28.453857+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Reused Stage 2 / Stage 5B.4 C62 Silero VAD speech regions",
+      "artifacts": {
+        "condition": "Stage5A.1_Condition_J_DualEncoder_EqualFusion"
+      }
+    },
+    {
+      "stage": "ASR",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.35,
+      "started_at": "2026-11-13T17:59:28.453861+00:00",
+      "completed_at": "2026-11-13T17:59:28.454226+00:00",
+      "elapsed_sec": 0.000361,
+      "detail": "Loaded 468 Faster-Whisper Large-v3 words from frozen Stage 2 output",
+      "artifacts": {
+        "asr_aligned_words_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage2_baseline/whisperx/R08_uk_parliament_aligned.json",
+        "word_count": 468
+      }
+    },
+    {
+      "stage": "WORD_ALIGNMENT",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.42,
+      "started_at": "2026-11-13T17:59:28.454231+00:00",
+      "completed_at": "2026-11-13T17:59:28.454235+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Verified Wav2Vec2 CTC word-level timestamps (468 words)",
+      "artifacts": {
+        "word_count": 468
+      }
+    },
+    {
+      "stage": "SPEAKER_REPRESENTATION",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.5,
+      "started_at": "2026-11-13T17:59:28.454239+00:00",
+      "completed_at": "2026-11-13T17:59:28.454311+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Reused dual-path speaker embeddings: TitaNet-Large (192-D on DFN) + WeSpeaker ResNet293-LM (256-D on Raw Mono)",
+      "artifacts": {
+        "diarization_backend": "TitaNet-Large(DFN,192D) + WeSpeaker-ResNet293-LM(Mono,256D) -> ZScore-Equal-Affinity-Fusion -> NME-SC"
+      }
+    },
+    {
+      "stage": "AFFINITY_FUSION",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.58,
+      "started_at": "2026-11-13T17:59:28.454316+00:00",
+      "completed_at": "2026-11-13T17:59:28.454319+00:00",
+      "elapsed_sec": 0.0,
+      "detail": "Reused off-diagonal Z-score normalized dual-encoder cosine affinity fusion",
+      "artifacts": {
+        "diarization_condition": "Stage5A.1_Condition_J_DualEncoder_EqualFusion"
+      }
+    },
+    {
+      "stage": "CLUSTERING",
+      "status": "replayed_from_frozen",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.65,
+      "started_at": "2026-11-13T17:59:28.454322+00:00",
+      "completed_at": "2026-11-13T17:59:28.454328+00:00",
+      "elapsed_sec": 7.1e-05,
+      "detail": "Loaded 31 NME-SC spectral clustering speaker segments from R08_uk_parliament_dfn.rttm",
+      "artifacts": {
+        "predicted_rttm_path": "/home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage5a_1/predictions/rttms/condition_J_norm_equal_weight_fusion/R08_uk_parliament_dfn.rttm",
+        "rttm_segment_count": 31
+      }
+    },
+    {
+      "stage": "WORD_SPEAKER_ASSIGNMENT",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.72,
+      "started_at": "2026-11-13T17:59:28.454333+00:00",
+      "completed_at": "2026-11-13T17:59:28.476290+00:00",
+      "elapsed_sec": 0.021902,
+      "detail": "Associated 468 words across 2 speakers (0 UNK, 0 overlapping)",
+      "artifacts": {
+        "word_count": 468,
+        "speaker_inventory": [
+          "SPEAKER_00",
+          "SPEAKER_01"
+        ],
+        "unk_word_count": 0,
+        "overlapping_word_count": 0
+      }
+    },
+    {
+      "stage": "GENERATIVE_REFINEMENT",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.88,
+      "started_at": "2026-11-13T17:59:28.476302+00:00",
+      "completed_at": "2026-11-13T17:59:34.683191+00:00",
+      "elapsed_sec": 6.206881,
+      "detail": "Completed DiarizationLM-Gemma TPST refinement in 6.21s (ground-truth isolated)",
+      "artifacts": {
+        "model": "diarizers-community/DiarizationLM-Gemma-4-E4B-v1 (Q4_K_M, LG-TPST)",
+        "summary_counts": {
+          "total_words": 468,
+          "accepted_corrections": 1,
+          "rejected_proposals": 0,
+          "abstained_words": 0,
+          "unchanged_words": 467,
+          "reasons_breakdown": {
+            "ACCEPTED_VALIDATED_TRANSFER": 1,
+            "UNCHANGED_BASELINE_CONFIRMED": 467
+          }
+        },
+        "ground_truth_isolated": true
+      }
+    },
+    {
+      "stage": "TRANSCRIPT_RECONSTRUCTION",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.94,
+      "started_at": "2026-11-13T17:59:34.683208+00:00",
+      "completed_at": "2026-11-13T17:59:34.685884+00:00",
+      "elapsed_sec": 0.002673,
+      "detail": "Reconstructed 14 chronological turns across 2 speakers",
+      "artifacts": {
+        "baseline_turn_count": 13,
+        "refined_turn_count": 14,
+        "speaker_count": 2
+      }
+    },
+    {
+      "stage": "EVALUATION",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 0.98,
+      "started_at": "2026-11-13T17:59:34.702454+00:00",
+      "completed_at": "2026-11-13T17:59:35.448426+00:00",
+      "elapsed_sec": 0.745968,
+      "detail": "Executed post-inference evaluation (strictly isolated from inference)",
+      "artifacts": {
+        "has_reference_annotations": true,
+        "metric_deltas": {
+          "delta_wder_timestamp_assigned": 0.0,
+          "delta_wder_timestamp_all_ref": 0.0,
+          "delta_wder_lexical": 0.0,
+          "delta_cpwer": -0.0021
+        }
+      }
+    },
+    {
+      "stage": "COMPLETED",
+      "status": "completed",
+      "execution_mode": "FROZEN_INPUT_REPLAY",
+      "progress": 1.0,
+      "started_at": "2026-11-13T17:59:35.448438+00:00",
+      "completed_at": "2026-11-13T17:59:35.448444+00:00",
+      "elapsed_sec": 6.994635,
+      "detail": "ConvoFuse pipeline completed in 6.99s",
+      "artifacts": {
+        "total_pipeline_sec": 6.9946
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "segment_id": "R04_piers_robinson__seg_001",
+  "recording_id": "R04_piers_robinson",
+  "prompt": "<|turn>user\n<speaker:1> a billion people. There are a hundred verses in this book that incite violence and murder against us. Show <speaker:2> some damn respect for people's religious beliefs, right? <speaker:1> I should show some respect for a book that incites murder against me. Put <speaker:2> it down. <speaker:1> And calls me, this calls me an animal. No, I put it down. sir william gladstone held this book above his head in parliament and he said there will never be peace on this earth so long as we have this book it's a violent and cursed book was sir william gladstone who we have statues across our capital c was he a bigot or an islamic winston church <speaker:2> sounding like a complete <speaker:1> winston church no i'm quoting previous some of the best leaders in this country <speaker:2> sounding like a bigoted lunatic <speaker:1> no i'm not <speaker:2> somebody that <speaker:1> basically <speaker:2> you are an islamic who hates islam no <speaker:1> i don't <speaker:2> basically think all muslims are blame we've seen you on video saying it and what you're doing now is deliberately inflammatory it is deliberately poisonous <speaker:1> and you are having the complete <speaker:2> opposite effect to the one that you <speaker:1> say you are you are <speaker:2> stirring up hatred you are abusing people's religion you're abusing their faith and you're being a complete disgrace <speaker:1> what do you know about the prophet muhammad We've established nothing. You are ignorant. I know <speaker:2> that you're deliberately insulting people. What <speaker:1> do you know about the Prophet? How am I insulting people? <speaker:2> Who have deeply held religious beliefs. <speaker:1> And you <speaker:2> flouncing the Quran around in your hand <speaker:1> in that <speaker:2> disgraceful manner is <speaker:1> outrageous. This book is the reason we're in such a mess. That's the reality. <speaker:2> No, we're in this mess because people take Islam, they are terrorists, and they abuse the nature of Islam and the --> <turn|>\n<|turn>model\n",
+  "completion_data": {
+    "raw_completion": "<speaker:1> a billion people. There are a hundred verses in this book that incite violence and murder against us. <speaker:2> Show some damn respect for people's religious beliefs, right? <speaker:1> I should show some respect for a book that incites murder against me. <speaker:2> Put it down. <speaker:1> And calls me, this calls me an animal. No, I put it down. sir william gladstone held this book above his head in parliament and he said there will never be peace on this earth so long as we have this book it's a violent and cursed book was sir william gladstone who we have statues across our capital c <speaker:2> was he a bigot or an islamic winston church sounding like a complete <speaker:1> winston church no i'm quoting previous some of the best leaders in this country <speaker:2> sounding like a bigoted lunatic <speaker:1> no i'm not somebody that basically you are an islamic who hates islam no i don't <speaker:2> basically think all muslims are blame we've seen you on video saying it and what you're doing now is deliberately inflammatory it is deliberately poisonous and you are having the complete opposite effect to the one that you say you are you are stirring up hatred you are abusing people's religion you're abusing their faith and you're being a complete disgrace <speaker:1> what do you know about the prophet muhammad We've established nothing. You are ignorant. <speaker:2> I know that you're deliberately insulting people. <speaker:1> What do you know about the Prophet? How am I insulting people? <speaker:2> Who have deeply held religious beliefs. And you flouncing the Quran around in your hand in that disgraceful manner is outrageous. <speaker:1> This book is the reason we're in such a mess. That's the reality. <speaker:2> No, we're in this mess because people take Islam, they are terrorists, and they abuse the nature of Islam and the ",
+    "done": true,
+    "done_reason": "stop",
+    "prompt_tokens": 527,
+    "completion_tokens": 446,
+    "runtime_sec": 3.8272,
+    "ollama_total_duration_ns": 3822354430,
+    "prompt_configuration": {
+      "temperature": 0.0,
+      "top_k": 1,
+      "seed": 42,
+      "num_predict": 2048,
+      "stop": [
+        "<turn|>",
+        "[eod]"
+      ]
+    }
+  }
+}

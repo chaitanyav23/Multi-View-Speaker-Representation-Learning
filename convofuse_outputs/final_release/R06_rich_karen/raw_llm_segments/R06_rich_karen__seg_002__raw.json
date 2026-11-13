@@ -1,0 +1,24 @@
+{
+  "segment_id": "R06_rich_karen__seg_002",
+  "recording_id": "R06_rich_karen",
+  "prompt": "<|turn>user\n<speaker:2> want it in <speaker:1> mine or in Joe's? It doesn't matter. We'll throw it in Joe's. <speaker:2> Excuse me, please grab my things. Yep, <speaker:1> we'll get your things when we can. This <speaker:2> is illegal. What traffic violations do you have me in? <speaker:6> Are you injured at all, ma'am? <speaker:2> Excuse me, you're not going to harass me. <speaker:1> Your plates are expired, and that's why I attempted to stop for you. Excuse me, they <speaker:2> are not expired. <speaker:1> They are. <speaker:2> They are not. <speaker:1> They are. <speaker:2> Excuse me, Chevrolet is my O'Connor walk, my Chevrolet. <speaker:1> Okay. <speaker:2> You guys are out of your minds. You better tell Daniel Thomas I'm suing the O'Connor shop. Does anyone want to contact the Journal Sentinel? Does anyone want to record this? <speaker:6> Yeah, we've got it recorded. See you. <speaker:1> Did a dog bite you anywhere? <speaker:2> Excuse me. Did a dog <speaker:1> bite you <speaker:2> anywhere? I'm pressing charges on you guys a lot. <speaker:1> That's right. Did a dog bite you anywhere? I don't know if <speaker:2> that's... <speaker:1> when she went down. That's the only injury I see. Another one over here. You <speaker:2> shattered my window. Excuse me, you guys are going to have injury with a lawsuit with Mr. Mr. <speaker:8> Rudy. Just <speaker:2> go ahead and <speaker:6> have a seat in the vehicle. <speaker:2> I contact my financial advisor. Okay, have a seat. This is <speaker:8> our food for thought. <speaker:2> What do you guys think you're <speaker:6> doing to <speaker:2> an American woman just going to the post office and going to the town <speaker:8> hall? Ma'am, <speaker:6> take a couple deep breaths here. <speaker:8> Excuse me. Are you <speaker:6> injured at all? Excuse <speaker:2> me, guys. <speaker:1> You good, Joe? Yeah, I'm <speaker:8> good. We're <speaker:6> going to have you just sit tight. I <speaker:2> contacted my capital wealth advisors' advisories, contacted my brother, contacted Paul Buffoni from Bravo Capital. You guys <speaker:8> are going <speaker:2> to have a huge --> <turn|>\n<|turn>model\n",
+  "completion_data": {
+    "raw_completion": "<speaker:2> want it in <speaker:1> mine or in Joe's? It doesn't matter. We'll throw it in Joe's. <speaker:2> Excuse me, please grab my things. <speaker:1> Yep, we'll get your things when we can. <speaker:2> This is illegal. What traffic violations do you have me in? <speaker:6> Are you injured at all, ma'am? <speaker:2> Excuse me, you're not going to harass me. <speaker:1> Your plates are expired, and that's why I attempted to stop for you. <speaker:2> Excuse me, they are not expired. <speaker:1> They are. <speaker:2> They are not. <speaker:1> They are. <speaker:2> Excuse me, Chevrolet is my O'Connor walk, my Chevrolet. <speaker:1> Okay. <speaker:2> You guys are out of your minds. You better tell Daniel Thomas I'm suing the O'Connor shop. Does anyone want to contact the Journal Sentinel? Does anyone want to record this? <speaker:6> Yeah, we've got it recorded. See you. <speaker:1> Did a dog bite you anywhere? <speaker:2> Excuse me. <speaker:1> Did a dog bite you anywhere? <speaker:2> I'm pressing charges on you guys a lot. <speaker:1> That's right. Did a dog bite you anywhere? <speaker:2> I don't know if that's... <speaker:1> when she went down. That's the only injury I see. Another one over here. <speaker:2> You shattered my window. Excuse me, you guys are going to have injury with a lawsuit with Mr. Mr. <speaker:8> Rudy. Just <speaker:2> go ahead and <speaker:6> have a seat in the vehicle. <speaker:2> I contact my financial advisor. Okay, have a seat. This is <speaker:8> our food for thought. <speaker:2> What do you guys think you're <speaker:6> doing to <speaker:2> an American woman just going to the post office and going to the town <speaker:8> hall? Ma'am, <speaker:6> take a couple deep breaths here. <speaker:8> Excuse me. Are you <speaker:6> injured at all? Excuse <speaker:2> me, guys. <speaker:1> You good, Joe? <speaker:2> Yeah, I'm good. <speaker:6> We're going to have you just sit tight. <speaker:2> I contacted my capital wealth advisors' advisories, contacted my brother, contacted Paul Buffoni from Bravo Capital. You guys are going to have a huge ",
+    "done": true,
+    "done_reason": "stop",
+    "prompt_tokens": 651,
+    "completion_tokens": 620,
+    "runtime_sec": 5.1021,
+    "ollama_total_duration_ns": 5097528630,
+    "prompt_configuration": {
+      "temperature": 0.0,
+      "top_k": 1,
+      "seed": 42,
+      "num_predict": 2048,
+      "stop": [
+        "<turn|>",
+        "[eod]"
+      ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "segment_id": "R06_rich_karen__seg_000",
+  "recording_id": "R06_rich_karen",
+  "prompt": "<|turn>user\n<speaker:4> An officer initiates a routine traffic stop on this white Chevy pickup truck driven by a Karen. What follows is anything but routine. <speaker:1> Day 211, I'll be taking position 2, we're passing Old Howell Road. 520 speed position 1. Copy the station's position. Passing Hollywood Oaks Drive. Speed's 35. Across the front of the screen, speed's 30. The cop people are coming up to 18 now. Blessings. Just a <speaker:8> second. <speaker:1> Thank you. Show me your hands! <speaker:0> Move your ass! <speaker:1> 2-11, we're going to be out at 2. <speaker:5> I got a shatter ball. <speaker:8> All right, <speaker:1> your cover. I'm going to grab sticks and just throw them behind her. <speaker:7> Driver, turn off the vehicle! <speaker:5> Just watch out if she throws it in reverse. <speaker:7> Slowly step out of the vehicle! <speaker:8> Come on! DRIVE THE MOTORCYCLE! DRIVER! <speaker:5> Matt, can you move your squad up in case she does try to throw it reverse? So we've got two tasers, two lethal. <speaker:1> David, two level. We've got a canine en route. <speaker:6> Yeah. RK9 coming. <speaker:1> Perfect. <speaker:5> Tell her to get out of the car. You can see both her hands. She's got a cell phone. <speaker:1> Will, since you're lethal, chatterball. <speaker:0> Ha! Ha! Give me your arms! Ha! Ha! Give me your arms! She's just on her <speaker:8> cell phone. <speaker:7> Catherine, this is the police department. We need you to exit the vehicle! Do it now, Catherine! <speaker:0> Captain, this is the police. <speaker:7> You need to exit your vehicle with your hands up. Do it <speaker:8> now! <speaker:1> Fuck that <speaker:5> rear <speaker:8> window out. <speaker:5> Don't get her attention. <speaker:8> Okay. <speaker:1> Shutter ball up. <speaker:8> Get down, get down, get down, get <speaker:7> down. You're the best, yo! I'm not going to give <speaker:8> people a hold up! <speaker:7> Come on now, <speaker:8> you're <speaker:7> going to get bit by <speaker:8> the dog. I don't want you to <speaker:0> get bit by the --> <turn|>\n<|turn>model\n",
+  "completion_data": {
+    "raw_completion": "<speaker:4> An officer initiates a routine traffic stop on this white Chevy pickup truck driven by a Karen. What follows is anything but routine. <speaker:1> Day 211, I'll be taking position 2, we're passing Old Howell Road. 520 speed position 1. Copy the station's position. Passing Hollywood Oaks Drive. Speed's 35. Across the front of the screen, speed's 30. The cop people are coming up to 18 now. Blessings. Just a <speaker:8> second. <speaker:1> Thank you. Show me your hands! <speaker:0> Move your ass! <speaker:1> 2-11, we're going to be out at 2. <speaker:5> I got a shatter ball. <speaker:8> All right, <speaker:1> your cover. I'm going to grab sticks and just throw them behind her. <speaker:7> Driver, turn off the vehicle! <speaker:5> Just watch out if she throws it in reverse. <speaker:7> Slowly step out of the vehicle! <speaker:8> Come on! Drive the motorcycle! DRIVER! <speaker:5> Matt, can you move your squad up in case she does try to throw it reverse? So we've got two tasers, two lethal. <speaker:1> David, two level. We've got a canine en route. <speaker:6> Yeah. RK9 coming. <speaker:1> Perfect. <speaker:5> Tell her to get out of the car. You can see both her hands. She's got a cell phone. <speaker:1> Will, since you're lethal, chatterball. <speaker:0> Ha! Ha! Give me your arms! Ha! Ha! Give me your arms! She's just on her <speaker:8> cell phone. <speaker:7> Catherine, this is the police department. We need you to exit the vehicle! Do it now, Catherine! <speaker:0> Captain, this is the police. <speaker:7> You need to exit your vehicle with your hands up. Do it now! <speaker:1> Fuck that <speaker:5> rear <speaker:8> window out. <speaker:5> Don't get her attention. <speaker:8> Okay. <speaker:1> Shutter ball up. <speaker:8> Get down, get down, get down, get <speaker:7> down. You're the best, yo! I'm not going to give <speaker:8> people a hold up! <speaker:7> Come on now, you're going to get bit by <speaker:8> the dog. I don't want you to <speaker:0> get bit by the ",
+    "done": true,
+    "done_reason": "stop",
+    "prompt_tokens": 655,
+    "completion_tokens": 619,
+    "runtime_sec": 5.06,
+    "ollama_total_duration_ns": 5055352692,
+    "prompt_configuration": {
+      "temperature": 0.0,
+      "top_k": 1,
+      "seed": 42,
+      "num_predict": 2048,
+      "stop": [
+        "<turn|>",
+        "[eod]"
+      ]
+    }
+  }
+}

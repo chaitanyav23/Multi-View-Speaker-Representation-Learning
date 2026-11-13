@@ -1,0 +1,185 @@
+# ConvoFuse Conversational Transcript — R04_piers_robinson (R04_piers_robinson.wav)
+# Execution Mode: FROZEN_INPUT_REPLAY
+# Diarization Condition: Stage5A.1_Condition_J_DualEncoder_EqualFusion
+# Generative Refinement Model: diarizers-community/DiarizationLM-Gemma-4-E4B-v1 (Q4_K_M, LG-TPST)
+# Media Duration: 204.54s | Total Turns: 61 | Multi-Speaker RTTM Overlap Turns: 36
+# Overlap & UNK Policy: Explicit overlap metadata; UNK preserved; no fabricated simultaneous lexical stream
+#
+# Speaker Summary Index:
+#   - SPEAKER_00: 94.66s | 30 turns | 402 words | [00:00:11.707 – 00:03:14.466]
+#   - SPEAKER_01: 76.60s | 26 turns | 260 words | [00:00:03.084 – 00:03:03.252]
+#   - SPEAKER_02: 8.67s | 5 turns | 27 words | [00:00:16.629 – 00:03:13.925]
+
+[00:00:03.084 – 00:00:11.467] SPEAKER_01: Would you have a ban, like Donald Trump suggested in America, would you have a ban on Muslims entering the country, new Muslims trying to have a home in this country?
+
+[00:00:11.707 – 00:00:14.768] SPEAKER_00: I believe, I believe we need to protect the British public right now.
+  # [OVERLAP_METADATA: multi_speaker_rttm=False | concurrent_speakers=SPEAKER_00 | max_frame_overlap_posterior=0.742 | single_lexical_stream_preserved=True]
+
+[00:00:15.008 – 00:00:16.609] SPEAKER_01: So what's the answer to the question? Including
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_01,SPEAKER_02 | max_frame_overlap_posterior=0.722 | single_lexical_stream_preserved=True]
+
+[00:00:16.629 – 00:00:17.049] SPEAKER_02: British
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_02 | max_frame_overlap_posterior=0.502 | single_lexical_stream_preserved=True]
+
+[00:00:17.069 – 00:00:26.914] SPEAKER_00: Muslims? Yeah, the British public. I didn't say British non-Muslim public, I said the British public. We've had three terror attacks, children are being killed.
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01,SPEAKER_02 | max_frame_overlap_posterior=0.954 | single_lexical_stream_preserved=True]
+
+[00:00:26.934 – 00:00:28.276] SPEAKER_01: Yes, we all know what's been happening.
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.306 | single_lexical_stream_preserved=True]
+
+[00:00:28.356 – 00:00:29.156] SPEAKER_00: Yes, I would.
+
+[00:00:29.176 – 00:00:30.197] SPEAKER_01: You would ban all Muslims?
+
+[00:00:30.277 – 00:00:36.242] SPEAKER_00: I would temporarily halt Muslim immigration to this country until we get a grip of the problem. I differentiate Muslims from Islam.
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.103 | single_lexical_stream_preserved=True]
+
+[00:00:36.382 – 00:00:39.244] SPEAKER_01: Right, but what you don't do... How can you differentiate Muslims
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01,SPEAKER_02 | max_frame_overlap_posterior=0.855 | single_lexical_stream_preserved=True]
+
+[00:00:39.344 – 00:00:39.684] SPEAKER_00: from
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_02 | max_frame_overlap_posterior=0.763 | single_lexical_stream_preserved=True]
+
+[00:00:39.704 – 00:00:39.824] SPEAKER_01: Islam?
+  # [OVERLAP_METADATA: multi_speaker_rttm=False | concurrent_speakers=SPEAKER_00 | max_frame_overlap_posterior=0.889 | single_lexical_stream_preserved=True]
+
+[00:00:39.844 – 00:00:43.667] SPEAKER_00: Muslims are people. Islam is an idea. Islam is an idea, a bad idea. And
+  # [OVERLAP_METADATA: multi_speaker_rttm=False | concurrent_speakers=SPEAKER_00 | max_frame_overlap_posterior=0.945 | single_lexical_stream_preserved=True]
+
+[00:00:43.687 – 00:00:44.348] SPEAKER_01: Muslims
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.958 | single_lexical_stream_preserved=True]
+
+[00:00:44.368 – 00:00:47.390] SPEAKER_00: follow that faith. It's an idea that you can change your mind.
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.924 | single_lexical_stream_preserved=True]
+
+[00:00:47.510 – 00:00:49.133] SPEAKER_01: No, it's a faith. Like Christianity.
+
+[00:00:49.273 – 00:00:49.934] SPEAKER_00: Like Scientology.
+
+[00:00:50.255 – 00:00:52.418] SPEAKER_01: Like all faiths. Like Scientology. It's a religion, it's a faith.
+  # [OVERLAP_METADATA: multi_speaker_rttm=False | concurrent_speakers=SPEAKER_01 | max_frame_overlap_posterior=0.668 | single_lexical_stream_preserved=True]
+
+[00:00:52.438 – 00:00:53.079] SPEAKER_00: Like Scientology.
+
+[00:00:53.380 – 00:00:59.771] SPEAKER_02: So, Tommy, if you're saying that the problem is with Islam, are you accepting that you're Islamophobic?
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_02 | max_frame_overlap_posterior=0.908 | single_lexical_stream_preserved=True]
+
+[00:01:00.683 – 00:01:02.984] SPEAKER_00: Because there are a hundred verses in this book.
+  # [OVERLAP_METADATA: multi_speaker_rttm=False | concurrent_speakers=SPEAKER_00 | max_frame_overlap_posterior=0.907 | single_lexical_stream_preserved=True]
+
+[00:01:03.004 – 00:01:04.604] SPEAKER_02: Yes or no? Are you Islamophobic? There's
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_02 | max_frame_overlap_posterior=0.896 | single_lexical_stream_preserved=True]
+
+[00:01:04.624 – 00:01:18.328] SPEAKER_00: no such word as Islamophobia. Phobia is an irrational fear. It's not irrational to fear these things. Now, if I hold this book up and say, there will never be peace on this earth so long as we have this book, it's a violent and cursed book. Can I tell you who said that? Sir William Gladstone said that. You wouldn't do that with the Bible.
+  # [OVERLAP_METADATA: multi_speaker_rttm=False | concurrent_speakers=SPEAKER_00 | max_frame_overlap_posterior=0.651 | single_lexical_stream_preserved=True]
+
+[00:01:24.044 – 00:01:24.945] SPEAKER_01: Show some respect.
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.038 | single_lexical_stream_preserved=True]
+
+[00:01:25.065 – 00:01:25.886] SPEAKER_00: Show some respect. Show
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.026 | single_lexical_stream_preserved=True]
+
+[00:01:25.906 – 00:01:26.526] SPEAKER_01: some respect.
+
+[00:01:26.586 – 00:01:27.207] SPEAKER_00: Have you read this book?
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.036 | single_lexical_stream_preserved=True]
+
+[00:01:27.227 – 00:01:27.847] SPEAKER_01: For people? Have
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.065 | single_lexical_stream_preserved=True]
+
+[00:01:27.868 – 00:01:33.072] SPEAKER_00: you read this book? There are over a billion people. There are a hundred verses in this book that incite violence and murder against us.
+  # [OVERLAP_METADATA: multi_speaker_rttm=False | concurrent_speakers=SPEAKER_00 | max_frame_overlap_posterior=0.934 | single_lexical_stream_preserved=True]
+
+[00:01:33.112 – 00:01:36.015] SPEAKER_01: Show some damn respect for people's religious beliefs, right?
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.546 | single_lexical_stream_preserved=True]
+
+[00:01:36.255 – 00:01:38.617] SPEAKER_00: I should show some respect for a book that incites murder against me. Put
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.562 | single_lexical_stream_preserved=True]
+
+[00:01:38.657 – 00:01:38.998] SPEAKER_01: it down.
+  # [OVERLAP_METADATA: multi_speaker_rttm=False | concurrent_speakers=SPEAKER_01 | max_frame_overlap_posterior=0.556 | single_lexical_stream_preserved=True]
+
+[00:01:39.218 – 00:01:53.308] SPEAKER_00: And calls me, this calls me an animal. No, I put it down. sir william gladstone held this book above his head in parliament and he said there will never be peace on this earth so long as we have this book it's a violent and cursed book was sir william gladstone who we have statues across our capital c was he a bigot or an islamic winston church
+  # [OVERLAP_METADATA: multi_speaker_rttm=False | concurrent_speakers=SPEAKER_00 | max_frame_overlap_posterior=0.889 | single_lexical_stream_preserved=True]
+
+[00:01:53.328 – 00:01:54.209] SPEAKER_01: sounding like a complete
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.880 | single_lexical_stream_preserved=True]
+
+[00:01:54.229 – 00:01:57.171] SPEAKER_00: winston church no i'm quoting previous some of the best leaders in this country
+  # [OVERLAP_METADATA: multi_speaker_rttm=False | concurrent_speakers=SPEAKER_00 | max_frame_overlap_posterior=0.863 | single_lexical_stream_preserved=True]
+
+[00:01:57.191 – 00:01:59.032] SPEAKER_01: sounding like a bigoted lunatic
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.828 | single_lexical_stream_preserved=True]
+
+[00:01:59.053 – 00:02:01.594] SPEAKER_00: no i'm not somebody that basically
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.950 | single_lexical_stream_preserved=True]
+
+[00:02:01.694 – 00:02:04.797] SPEAKER_01: you are an islamic who hates islam no
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.966 | single_lexical_stream_preserved=True]
+
+[00:02:04.817 – 00:02:04.997] SPEAKER_00: i don't
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.898 | single_lexical_stream_preserved=True]
+
+[00:02:05.017 – 00:02:13.481] SPEAKER_01: basically think all muslims are blame we've seen you on video saying it and what you're doing now is deliberately inflammatory it is deliberately poisonous
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.928 | single_lexical_stream_preserved=True]
+
+[00:02:13.741 – 00:02:15.002] SPEAKER_00: and you are having the complete
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.935 | single_lexical_stream_preserved=True]
+
+[00:02:15.082 – 00:02:16.763] SPEAKER_01: opposite effect to the one that you
+
+[00:02:16.803 – 00:02:17.523] SPEAKER_00: say
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.587 | single_lexical_stream_preserved=True]
+
+[00:02:17.583 – 00:02:18.064] SPEAKER_01: you are you
+  # [OVERLAP_METADATA: multi_speaker_rttm=False | concurrent_speakers=SPEAKER_00 | max_frame_overlap_posterior=0.561 | single_lexical_stream_preserved=True]
+
+[00:02:18.104 – 00:02:18.224] SPEAKER_00: are
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.553 | single_lexical_stream_preserved=True]
+
+[00:02:18.284 – 00:02:24.467] SPEAKER_01: stirring up hatred you are abusing people's religion you're abusing their faith and you're being a complete disgrace
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.747 | single_lexical_stream_preserved=True]
+
+[00:02:24.487 – 00:02:27.308] SPEAKER_00: what do you know about the prophet muhammad We've established nothing. You are ignorant.
+  # [OVERLAP_METADATA: multi_speaker_rttm=False | concurrent_speakers=SPEAKER_00 | max_frame_overlap_posterior=0.519 | single_lexical_stream_preserved=True]
+
+[00:02:27.348 – 00:02:27.388] SPEAKER_01: I
+  # [OVERLAP_METADATA: multi_speaker_rttm=False | concurrent_speakers=SPEAKER_00 | max_frame_overlap_posterior=0.570 | single_lexical_stream_preserved=True]
+
+[00:02:27.428 – 00:02:27.588] SPEAKER_00: know
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.637 | single_lexical_stream_preserved=True]
+
+[00:02:27.608 – 00:02:28.809] SPEAKER_01: that you're deliberately insulting people. What
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.674 | single_lexical_stream_preserved=True]
+
+[00:02:28.829 – 00:02:30.530] SPEAKER_00: do you know about the Prophet? How am I insulting people?
+  # [OVERLAP_METADATA: multi_speaker_rttm=False | concurrent_speakers=SPEAKER_00 | max_frame_overlap_posterior=0.661 | single_lexical_stream_preserved=True]
+
+[00:02:30.750 – 00:02:32.971] SPEAKER_01: Who have deeply held religious beliefs.
+
+[00:02:33.011 – 00:02:33.191] SPEAKER_00: And
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.753 | single_lexical_stream_preserved=True]
+
+[00:02:33.611 – 00:02:37.193] SPEAKER_01: you flouncing the Quran around in your hand in that disgraceful manner is
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.936 | single_lexical_stream_preserved=True]
+
+[00:02:37.233 – 00:02:41.235] SPEAKER_00: outrageous. This book is the reason we're in such a mess. That's the reality.
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.493 | single_lexical_stream_preserved=True]
+
+[00:02:41.495 – 00:03:03.252] SPEAKER_01: No, we're in this mess because people take Islam, they are terrorists, and they abuse the nature of Islam and the wording of Islam. And they perpetrate evil, and it is completely wrong. Do you know that how? that the vast majority of muslims who are decent law-abiding people to trying to abuse and mock their faith and their holy book is an outrage
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_01 | max_frame_overlap_posterior=0.869 | single_lexical_stream_preserved=True]
+
+[00:03:03.333 – 00:03:05.495] SPEAKER_00: their holy book when you talk okay so when
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_02 | max_frame_overlap_posterior=0.904 | single_lexical_stream_preserved=True]
+
+[00:03:05.515 – 00:03:05.635] SPEAKER_02: the
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_02 | max_frame_overlap_posterior=0.838 | single_lexical_stream_preserved=True]
+
+[00:03:05.675 – 00:03:13.765] SPEAKER_00: sacred maps are past slay the non-muslims wherever you find them and take them captive and besiege them and prepare for them in ambush. Who's slaying who? I'm not slaying hatred, this calls
+  # [OVERLAP_METADATA: multi_speaker_rttm=False | concurrent_speakers=SPEAKER_00 | max_frame_overlap_posterior=0.912 | single_lexical_stream_preserved=True]
+
+[00:03:13.785 – 00:03:13.925] SPEAKER_02: for
+  # [OVERLAP_METADATA: multi_speaker_rttm=True | concurrent_speakers=SPEAKER_00,SPEAKER_02 | max_frame_overlap_posterior=0.834 | single_lexical_stream_preserved=True]
+
+[00:03:13.945 – 00:03:14.466] SPEAKER_00: my death.
+  # [OVERLAP_METADATA: multi_speaker_rttm=False | concurrent_speakers=SPEAKER_02 | max_frame_overlap_posterior=0.799 | single_lexical_stream_preserved=True]

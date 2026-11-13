@@ -1,0 +1,62 @@
+{
+  "recording_id": "R02_dennis_skinner",
+  "speaker_inventory": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02"
+  ],
+  "rttm_to_canonical_speaker_map": {
+    "speaker_0": "SPEAKER_00",
+    "SPEAKER_00": "SPEAKER_00",
+    "speaker_1": "SPEAKER_01",
+    "SPEAKER_01": "SPEAKER_01",
+    "speaker_2": "SPEAKER_02",
+    "SPEAKER_02": "SPEAKER_02"
+  },
+  "speaker_summaries": [
+    {
+      "speaker_id": "SPEAKER_00",
+      "total_speaking_duration_sec": 35.098,
+      "turn_count": 10,
+      "word_count": 57,
+      "first_appearance_sec": 39.441,
+      "last_appearance_sec": 173.634,
+      "mean_word_confidence": 0.5222,
+      "accepted_corrections_into_speaker": 0,
+      "accepted_corrections_out_of_speaker": 1
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "total_speaking_duration_sec": 55.145,
+      "turn_count": 10,
+      "word_count": 151,
+      "first_appearance_sec": 53.308,
+      "last_appearance_sec": 175.914,
+      "mean_word_confidence": 0.8206,
+      "accepted_corrections_into_speaker": 1,
+      "accepted_corrections_out_of_speaker": 0
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "total_speaking_duration_sec": 40.465,
+      "turn_count": 2,
+      "word_count": 95,
+      "first_appearance_sec": 0.537,
+      "last_appearance_sec": 114.572,
+      "mean_word_confidence": 0.8174,
+      "accepted_corrections_into_speaker": 0,
+      "accepted_corrections_out_of_speaker": 0
+    },
+    {
+      "speaker_id": "UNK",
+      "total_speaking_duration_sec": 2.931,
+      "turn_count": 4,
+      "word_count": 4,
+      "first_appearance_sec": 45.217,
+      "last_appearance_sec": 109.545,
+      "mean_word_confidence": 0.4387,
+      "accepted_corrections_into_speaker": 0,
+      "accepted_corrections_out_of_speaker": 0
+    }
+  ]
+}

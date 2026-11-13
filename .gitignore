@@ -237,3 +237,5 @@ phase20_44e9bb7_repro/
 phase20_standalone/.venv/
 phase20_standalone/logs/
 phase20_standalone/plots/
+
+raw_llm_completions/
