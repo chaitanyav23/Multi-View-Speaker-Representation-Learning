@@ -1,6 +1,7 @@
 # Final Project Report: Multi-View Speaker Representation Learning & ConvoFuse
 
 **Project**: `Multi-View-Speaker-Representation-Learning`  
+**REPO**: https://github.com/chaitanyav23/Multi-View-Speaker-Representation-Learning
 **Integrated Framework**: `ConvoFuse` ([`convofuse/`](convofuse/))  
 **Primary Deliverable**: Reproducible CLI-First Conversational Transcript & Evaluation Release ([`convofuse_outputs/final_release/`](convofuse_outputs/final_release/))  
 **Date**: 2026-11-13  
