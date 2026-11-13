@@ -75,9 +75,37 @@ c_dfn = loader.load_and_validate('R01_sara_sharif', stream='dfn')
   `run_stage5b_4_fresh_diarization.py` mode `run` contains only a stub.
 
 ### 6. Mandatory Preflight Verdict & Stop
-All 4 blocking interface discrepancies trigger the Mandatory Stop Conditions. Preflight halted prior to neural inference to prevent unapproved code modifications or silent parameter substitutions.
-- Pilot status: NOT EXECUTED
-- E20 status: BLOCKED / NOT RUN
-- E21 status: BLOCKED / NOT RUN
-- Metrics: 0 generated
-- Inference: 0 executed
+All 4 blocking interface discrepancies initially triggered Mandatory Stop Conditions. Preflight halted prior to neural inference to prevent unapproved code modifications or silent parameter substitutions.
+- Initial Preflight status: BLOCKED_MANDATORY_STOP_CONDITIONS
+
+---
+
+## Production Integration and Authorized Pilot Execution
+
+### 7. Resolution of Blockers and C62 Provenance
+1. **Fix 1 (Overlap Stream Selection)**: Added `overlap_stream: str = "dfn"` to `orchestrator_remediated.py` and wired through to `load_and_validate()`.
+2. **Fix 2 (TitaNet Submodule Interface)**: Extracted `msdd._speaker_model.` into `EncDecSpeakerLabelModel` adhering to 2-argument `.forward(input_signal, input_signal_length)` interface.
+3. **Fix 3 (WeSpeaker ONNX Wrapper)**: Implemented `WeSpeakerONNXWrapper` exposing `.forward()` and `__call__()` returning 256d PyTorch tensors from ONNX Runtime inference sessions.
+4. **Fix 4 (Production Runner CLI)**: Created `run_production_pilot.py` wiring CLI execution to `FreshDiarizationOrchestratorRemediated` and frozen condition registry.
+5. **C62 Audio Provenance**: Established canonical SHA-256 for `R01_sara_sharif_16k_mono.wav` (`96f9af8d...`) from immutable Stage 1 audit reports committed in `0a6da21` (Oct 31, 2026), documented in `R01_C62_MONO_PROVENANCE_DETERMINATION.md`.
+6. **Synthetic Tests**: 12/12 unit tests passed in `test_production_integration.py`.
+
+### 8. Pilot Execution Commands and Telemetry
+```bash
+$ research_stages/.venv_phase20/bin/python \
+  research_stages/stage5b/stage5b_4_fresh_diarization/production_integration/scripts/run_production_pilot.py \
+  run --authorize-inference --recordings R01_sara_sharif --conditions E20 E21 \
+  --output-pilot-dir research_stages/stage5b/stage5b_4_fresh_diarization/production_integration/r01_pilot_outputs
+```
+- Hardware: NVIDIA GeForce RTX 4090 24GB (Driver: 595.71.05, CUDA: 13.2)
+- Multi-scale embedding extraction: 5 temporal scales (1.5s, 1.25s, 1.0s, 0.75s, 0.5s)
+- Clustering: NeMo `SpeakerClustering` on CUDA GPU
+- Publication: Atomic descriptor-relative rename to `outputs/E20/R01_sara_sharif.rttm` and `outputs/E21/R01_sara_sharif.rttm`
+- Publication verification: SHA-256 `109f49a6bd3da3503721c7f6ddc9b1c757985f316be0b5d95cb4995b47b9712a` (100% bit-exact across all copies)
+
+### 9. Final Results Summary
+- E20 (C62 $\times$ M0): DER(0ms) = 32.91%, DER(250ms) = 31.77%, JER = 62.18%, cpWER = 52.30%, $\hat{K} = 3$ (True $K = 5$)
+- E21 (C62 $\times$ M4): DER(0ms) = 32.91%, DER(250ms) = 31.77%, JER = 62.18%, cpWER = 52.30%, $\hat{K} = 3$ (True $K = 5$)
+- Difference ($\Delta$): 0.00% across all metrics.
+- Findings: R01 has 0.0s ground-truth overlap; PyAnNet DFN posterior max is 0.3804 (below threshold $\tau = 0.40$); Method M4 correctly abstained, producing 0 false alarms and preserving baseline diarization.
+- Pilot status: **COMPLETED AND VERIFIED**
