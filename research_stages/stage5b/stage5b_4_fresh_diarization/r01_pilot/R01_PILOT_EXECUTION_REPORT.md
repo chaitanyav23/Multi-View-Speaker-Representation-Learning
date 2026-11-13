@@ -6,6 +6,14 @@
 **Current HEAD**: `03b26c6` (Clean working tree)  
 **Authorized Scope**: Exactly one controlled R01 comparison — Condition E20 (C62 $\times$ M0) vs Condition E21 (C62 $\times$ M4 using verified DFN posterior)  
 
+> [!NOTE] Preflight Audit State & Post-Run Reconciliation Notice
+> This document records the **preflight audit state** prior to authorized production integration and execution.
+> Subsequent to this preflight audit, the project owner authorized bounded production integration and pilot execution, which completed successfully in commit `50940f5`.
+> Post-run reconciliation complete in the working tree; pending project-owner review and commit.
+> For the final empirical results and post-run audit reconciliation, refer to:
+> - Final Report: [R01_PILOT_FINAL_REPORT.md](file:///home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage5b/stage5b_4_fresh_diarization/r01_pilot/R01_PILOT_FINAL_REPORT.md)
+> - Post-Run Audit Addendum: [R01_POST_RUN_AUDIT_ADDENDUM.md](file:///home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage5b/stage5b_4_fresh_diarization/r01_pilot/R01_POST_RUN_AUDIT_ADDENDUM.md)
+
 ---
 
 ## Executive Summary

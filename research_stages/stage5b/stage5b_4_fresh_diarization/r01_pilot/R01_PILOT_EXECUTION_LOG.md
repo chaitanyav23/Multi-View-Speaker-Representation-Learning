@@ -4,6 +4,11 @@
 **Python Environment**: `research_stages/.venv_phase20/bin/python` (Python 3.10.20, PyTorch 2.6.0+cu124, NeMo 2.7.3, CUDA available: True, RTX 4090 24GB)  
 **Git HEAD**: `03b26c6` (Clean working tree)  
 
+> [!NOTE] Post-Run Reconciliation Notice
+> Production integration and pilot execution were successfully completed in commit `50940f5`.
+> Post-run reconciliation complete in the working tree; pending project-owner review and commit.
+> For the comprehensive post-run audit reconciliation (including authoritative C62 VAD parameter confirmation, RTTM record vs word-turn accounting, and cryptographic integrity verification), refer to [R01_POST_RUN_AUDIT_ADDENDUM.md](file:///home/priyanka/chaitanya/Multi-View-Speaker-Representation-Learning/research_stages/stage5b/stage5b_4_fresh_diarization/r01_pilot/R01_POST_RUN_AUDIT_ADDENDUM.md).
+
 ---
 
 ## Preflight Execution Log
